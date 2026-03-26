@@ -38,9 +38,9 @@ function ReadingPanel({ paragraph, globalIndex, onPrevious, onNext }) {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="relative z-10 min-h-full bg-transparent pb-28 pt-8 font-crimson text-text-primary transition-colors duration-500 dark:text-dark-text-primary sm:pb-20 sm:pt-12"
+      className="relative z-10 min-h-full bg-transparent pb-20 pt-6 font-crimson text-text-primary transition-colors duration-500 dark:text-dark-text-primary sm:pb-16 sm:pt-8"
     >
-      <div className="mx-auto w-full max-w-[980px] px-5 sm:px-8 xl:px-10">
+      <div className="mx-auto w-full max-w-[920px] px-4 sm:px-6 xl:px-8">
         <motion.div variants={itemVariants}>
           <ReadingHeader
             workTitle={safeParagraph?.chapterTitle}

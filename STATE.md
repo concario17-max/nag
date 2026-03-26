@@ -1,8 +1,8 @@
 # Current Task
-Fix the deployed Coptic rendering by widening the Antinoou fallback stack so missing glyphs stop showing as boxes.
+Reduce the reading-page vertical and typographic density so the Coptic and English body text fit more efficiently.
 
 # Route
-Route A
+Route B
 
 # Writer Slot
 main
@@ -14,21 +14,24 @@ frozen
 SEED.yaml
 
 # Write Sets
+- `worker_reading_density`
+  - `src/components/Reading/TibetanSection.jsx`
+  - `src/components/Reading/TranslationSection.jsx`
+  - `src/pages/components/ReadingPanel.jsx`
 - `main`
   - `STATE.md`
-  - `tailwind.config.js`
 
 # Reviewer
-none
+Sagan
 
 # Active Phase
 implementation
 
 # Active Worker
-worker_sidebar
+worker_reading_density
 
 # Reason
-This is a single-file font-stack fix: the deployed site still has missing Coptic glyph boxes, and widening the Antinoou fallback stack in `tailwind.config.js` is the smallest safe slice.
+The request touches multiple reading-page components and needs coordinated typography/padding changes, so it needs a frozen contract, explicit write sets, worker delegation, and reviewer coverage under Route B.
 
 # Last Update
 2026-03-26
