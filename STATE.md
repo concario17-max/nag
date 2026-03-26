@@ -1,5 +1,5 @@
 # Current Task
-Set the Coptic body text to a flat 14px on mobile and desktop while keeping density through spacing and line-height.
+Set the English body text to a flatter 14px density so more text fits without making the reading page cramped.
 
 # Route
 Route A
@@ -16,7 +16,7 @@ SEED.yaml
 # Write Sets
 - `main`
   - `STATE.md`
-  - `src/components/Reading/TibetanSection.jsx`
+  - `src/components/Reading/TranslationSection.jsx`
 
 # Reviewer
 none
@@ -28,7 +28,7 @@ implementation
 main
 
 # Reason
-This is a single-file typography tweak after the broader density pass: only the Coptic body size needs to be flattened to 14px across breakpoints, so Route A is sufficient.
+This is a single-file typography tweak after the broader density pass: only the English body density needs to be flattened now, so Route A is sufficient.
 
 # Last Update
 2026-03-26
