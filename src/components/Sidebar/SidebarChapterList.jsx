@@ -17,15 +17,16 @@ function SidebarChapterList({
         expandedChapter ? `${CHAPTER_LIST_MAX_HEIGHT_CLASS} border-b shadow-sm` : 'max-h-full'
       }`}
     >
-      <div className="h-5 lg:h-6" aria-hidden="true" />
-
-      <div className="sticky top-0 z-10 hidden bg-white/90 px-3 py-4 backdrop-blur-sm dark:bg-dark-bg/95 lg:block">
-        <h2 className="pl-1 font-inter text-[12px] font-bold uppercase tracking-[0.24em] text-text-primary/70 dark:text-dark-text-primary/60">
-          Codex I Works
+      <div className="sticky top-0 z-10 bg-white/90 px-3 py-4 backdrop-blur-sm dark:bg-dark-bg/95">
+        <p className="font-inter text-[10px] font-semibold uppercase tracking-[0.42em] text-gold-primary/70 dark:text-gold-light/60">
+          CODEX 1
+        </p>
+        <h2 className="mt-1 font-crimson text-[1.1rem] font-semibold leading-none text-[#6C5432] dark:text-gold-light">
+          Chapter List
         </h2>
       </div>
 
-      <div className="flex flex-col gap-0.5 px-2.5 pb-3 pt-3.5 lg:pt-4">
+      <div className="flex flex-col gap-0.5 px-2.5 pb-3 pt-2.5 lg:pt-3">
         <AnimatePresence mode="popLayout" initial={false}>
           {chapters?.map((chapter) => {
             const isExpanded = expandedChapter === chapter.id;

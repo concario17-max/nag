@@ -1,5 +1,5 @@
 # Current Task
-Fix the chapter pane top clipping by adding a small top spacer and slightly relaxing the left sidebar chapter list height.
+Promote CODEX 1 as the sidebar chapter title and style it as a stronger 3SIN-like section header.
 
 # Route
 Route A
@@ -28,7 +28,7 @@ implementation
 main
 
 # Reason
-The fix is a single-file chapter list layout adjustment: the sidebar split already matches, and the top clipping can be addressed by a small spacer plus a slightly looser max-height.
+This is a single-file sidebar title treatment: the chapter window just needs a stronger `CODEX 1` header with a distinct color and larger type, so Route A is sufficient.
 
 # Last Update
 2026-03-26
