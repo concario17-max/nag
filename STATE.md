@@ -1,24 +1,30 @@
 # Current Task
-모든 콥트어에서 dot below 결합 부호를 제거한다. `ⲟ̣` 같은 표기를 `ⲟ`로 바꿔서 전역 Coptic 텍스트를 단순화한다.
+Fix the left sidebar chapter/verse split so it matches the 3SIN navigation pattern and the data contract stays aligned.
 
 # Route
-Route A
+Route B
 
 # Writer Slot
 main
 
 # Contract Freeze
-not required
+frozen
 
 # Seed Path
 SEED.yaml
 
 # Write Sets
+- `worker_sidebar`
+  - `src/lib/parseCodexCore.js`
+  - `src/pages/components/LeftSidebar.jsx`
+  - `src/components/Sidebar/SidebarChapterList.jsx`
+  - `src/components/Sidebar/ChapterGroup.jsx`
+  - `src/components/Sidebar/SidebarVerseList.jsx`
+  - `src/components/Sidebar/ChapterButton.jsx`
+  - `src/components/Sidebar/SidebarHeader.jsx`
+  - `src/components/Sidebar/SidebarSectionLabel.jsx`
 - `main`
   - `STATE.md`
-  - `scripts/extract-codex-data.js`
-  - `src/lib/parseCodexCore.js`
-  - `src/data/codexData.js`
 
 # Reviewer
 Sagan
@@ -27,10 +33,10 @@ Sagan
 implementation
 
 # Active Worker
-main
+worker_sidebar
 
 # Reason
-This is a narrow Coptic normalization tweak: only the dot-below combining mark needs to be stripped globally from generated Coptic text. The slice stays small enough for Route A.
+The request now spans multiple sidebar components and the reading-data shape, so the work needs a frozen contract, explicit write sets, worker delegation, and reviewer coverage under Route B. The reviewer found a data-contract mismatch between grouped sidebar rendering and `createReadingData()`, so the write set now includes the parser too.
 
 # Last Update
 2026-03-26

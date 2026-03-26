@@ -2,7 +2,20 @@ import React from 'react';
 import { useUI } from '../../context/UIContext';
 import SidebarHeader from '../../components/Sidebar/SidebarHeader.jsx';
 import SidebarChapterList from '../../components/Sidebar/SidebarChapterList.jsx';
+import SidebarVerseList from '../../components/Sidebar/SidebarVerseList.jsx';
 import SidebarLayout from '../../components/ui/SidebarLayout.jsx';
+
+function findExpandedChapterId(chapters, activeParagraphId) {
+  if (!activeParagraphId || !chapters?.length) return null;
+
+  for (const chapter of chapters) {
+    if (chapter.paragraphs?.some((paragraph) => paragraph.id === activeParagraphId)) {
+      return chapter.id;
+    }
+  }
+
+  return null;
+}
 
 function LeftSidebar({ chapters, onSelectParagraph, activeParagraphId }) {
   const uiContext = useUI() || {
@@ -14,31 +27,24 @@ function LeftSidebar({ chapters, onSelectParagraph, activeParagraphId }) {
   const { isSidebarOpen, setIsSidebarOpen, isDesktopSidebarOpen, isDesktopViewport } = uiContext;
 
   const [expandedChapter, setExpandedChapter] = React.useState(() => {
-    if (!activeParagraphId || !chapters) return chapters?.[0]?.id ?? null;
-
-    for (const chapter of chapters) {
-      if (chapter.paragraphs?.some((paragraph) => paragraph.id === activeParagraphId)) {
-        return chapter.id;
-      }
-    }
-
-    return chapters?.[0]?.id ?? null;
+    return findExpandedChapterId(chapters, activeParagraphId) ?? chapters?.[0]?.id ?? null;
   });
 
   React.useEffect(() => {
-    if (!activeParagraphId || !chapters) return;
-
-    for (const chapter of chapters) {
-      if (chapter.paragraphs?.some((paragraph) => paragraph.id === activeParagraphId)) {
-        if (chapter.id !== expandedChapter) setExpandedChapter(chapter.id);
-        break;
-      }
+    const nextExpandedChapter = findExpandedChapterId(chapters, activeParagraphId);
+    if (nextExpandedChapter && nextExpandedChapter !== expandedChapter) {
+      setExpandedChapter(nextExpandedChapter);
     }
   }, [activeParagraphId, chapters, expandedChapter]);
 
   const toggleChapter = React.useCallback((chapterId) => {
     setExpandedChapter((prev) => (prev === chapterId ? null : chapterId));
   }, []);
+
+  const activeChapter = React.useMemo(
+    () => chapters?.find((chapter) => chapter.id === expandedChapter) ?? null,
+    [chapters, expandedChapter],
+  );
 
   return (
     <SidebarLayout
@@ -57,7 +63,12 @@ function LeftSidebar({ chapters, onSelectParagraph, activeParagraphId }) {
           expandedChapter={expandedChapter}
           toggleChapter={toggleChapter}
           onSelectParagraph={onSelectParagraph}
+        />
+
+        <SidebarVerseList
+          paragraphs={activeChapter?.paragraphs ?? []}
           activeParagraphId={activeParagraphId}
+          onSelectParagraph={onSelectParagraph}
           setIsSidebarOpen={setIsSidebarOpen}
           isDesktopViewport={isDesktopViewport}
         />

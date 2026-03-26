@@ -198,7 +198,6 @@ export function createReadingData(works) {
       title: work.title,
       sourceTitle: work.sourceTitle,
       paragraphs,
-      subchapters: paragraphs,
     };
   });
 }

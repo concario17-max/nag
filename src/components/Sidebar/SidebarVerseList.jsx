@@ -26,7 +26,7 @@ function SidebarVerseList({
               className={`flex w-full items-start gap-3 rounded-2xl border px-3 py-2.5 text-left text-[16px] transition-colors ${
                 isActive
                   ? 'border-gold-primary/30 bg-white/65 text-text-primary shadow-sm dark:border-gold-primary/20 dark:bg-dark-bg/60 dark:text-gold-light'
-                  : 'border-transparent text-text-secondary dark:text-dark-text-secondary hover:bg-gold-surface/30 hover:text-text-primary dark:hover:bg-dark-bg/40'
+                : 'border-transparent text-text-secondary dark:text-dark-text-secondary hover:bg-gold-surface/30 hover:text-text-primary dark:hover:bg-dark-bg/40'
               }`}
             >
               <span
