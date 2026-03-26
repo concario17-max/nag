@@ -1,8 +1,8 @@
 # Current Task
-Fix the left sidebar chapter/verse split so it matches the 3SIN navigation pattern and the data contract stays aligned.
+Fix the deployed Coptic rendering by widening the Antinoou fallback stack so missing glyphs stop showing as boxes.
 
 # Route
-Route B
+Route A
 
 # Writer Slot
 main
@@ -14,20 +14,12 @@ frozen
 SEED.yaml
 
 # Write Sets
-- `worker_sidebar`
-  - `src/lib/parseCodexCore.js`
-  - `src/pages/components/LeftSidebar.jsx`
-  - `src/components/Sidebar/SidebarChapterList.jsx`
-  - `src/components/Sidebar/ChapterGroup.jsx`
-  - `src/components/Sidebar/SidebarVerseList.jsx`
-  - `src/components/Sidebar/ChapterButton.jsx`
-  - `src/components/Sidebar/SidebarHeader.jsx`
-  - `src/components/Sidebar/SidebarSectionLabel.jsx`
 - `main`
   - `STATE.md`
+  - `tailwind.config.js`
 
 # Reviewer
-Sagan
+none
 
 # Active Phase
 implementation
@@ -36,7 +28,7 @@ implementation
 worker_sidebar
 
 # Reason
-The request now spans multiple sidebar components and the reading-data shape, so the work needs a frozen contract, explicit write sets, worker delegation, and reviewer coverage under Route B. The reviewer found a data-contract mismatch between grouped sidebar rendering and `createReadingData()`, so the write set now includes the parser too.
+This is a single-file font-stack fix: the deployed site still has missing Coptic glyph boxes, and widening the Antinoou fallback stack in `tailwind.config.js` is the smallest safe slice.
 
 # Last Update
 2026-03-26
