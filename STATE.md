@@ -1,8 +1,8 @@
 # Current Task
-Promote CODEX 1 as the sidebar chapter title and style it as a stronger 3SIN-like section header.
+Make CODEX 1 visibly appear as the desktop sidebar title and keep the chapter list readable without duplicating the header.
 
 # Route
-Route A
+Route B
 
 # Writer Slot
 main
@@ -14,12 +14,13 @@ frozen
 SEED.yaml
 
 # Write Sets
-- `main`
-  - `STATE.md`
+- `worker_header`
+  - `src/components/Sidebar/SidebarHeader.jsx`
+- `worker_chapter_list`
   - `src/components/Sidebar/SidebarChapterList.jsx`
 
 # Reviewer
-none
+worker_reviewer
 
 # Active Phase
 implementation
@@ -28,7 +29,7 @@ implementation
 main
 
 # Reason
-This is a single-file sidebar title treatment: the chapter window just needs a stronger `CODEX 1` header with a distinct color and larger type, so Route A is sufficient.
+The visible fix now spans two sidebar files: the desktop header must surface `CODEX 1`, and the chapter list header must be reconciled so the title is not duplicated or hidden.
 
 # Last Update
 2026-03-26
