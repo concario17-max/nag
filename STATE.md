@@ -1,5 +1,5 @@
 # Current Task
-Set the English body text to a flatter 14px density so more text fits without making the reading page cramped.
+Fix the chapter pane top clipping by tightening the left sidebar chapter list spacing to match 3SIN's visual rhythm.
 
 # Route
 Route A
@@ -16,7 +16,7 @@ SEED.yaml
 # Write Sets
 - `main`
   - `STATE.md`
-  - `src/components/Reading/TranslationSection.jsx`
+  - `src/components/Sidebar/SidebarChapterList.jsx`
 
 # Reviewer
 none
@@ -28,7 +28,7 @@ implementation
 main
 
 # Reason
-This is a single-file typography tweak after the broader density pass: only the English body density needs to be flattened now, so Route A is sufficient.
+The fix is now a single-file spacing adjustment in the chapter list; the other sidebar pieces already match the 3SIN split, so Route A is sufficient.
 
 # Last Update
 2026-03-26

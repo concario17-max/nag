@@ -23,7 +23,7 @@ function SidebarChapterList({
         </h2>
       </div>
 
-      <div className="flex flex-col gap-0.5 px-2.5 py-1">
+      <div className="flex flex-col gap-0.5 px-2.5 py-2">
         <AnimatePresence mode="popLayout" initial={false}>
           {chapters?.map((chapter) => {
             const isExpanded = expandedChapter === chapter.id;
