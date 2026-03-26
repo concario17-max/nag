@@ -38,7 +38,7 @@ function SidebarVerseList({
               >
                 {paragraph.paragraphNumber}
               </span>
-              <span className="min-w-0 overflow-hidden break-keep font-noto text-[14px] leading-[1.45] opacity-90 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
+              <span className="min-w-0 overflow-hidden break-keep font-antinoou text-[14px] leading-[1.45] opacity-90 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
                 {paragraph.title || paragraph.text?.tibetan || paragraph.chapterTitle}
               </span>
             </button>

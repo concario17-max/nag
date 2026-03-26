@@ -16,7 +16,7 @@ function TibetanSection({ tibetan, pronunciation }) {
           </p>
 
           {tibetan ? (
-            <p className="mx-auto mt-4 max-w-[92%] break-keep font-noto text-[1.1rem] font-bold leading-[1.6] tracking-[0.02em] text-[#4A0404] antialiased drop-shadow-[0_1px_1px_rgba(0,0,0,0.05)] dark:text-[#F0A2A2] sm:text-[1.55rem] sm:leading-[1.7]">
+            <p className="mx-auto mt-4 max-w-[92%] break-keep font-antinoou text-[1.1rem] font-bold leading-[1.6] tracking-[0.02em] text-[#4A0404] antialiased drop-shadow-[0_1px_1px_rgba(0,0,0,0.05)] dark:text-[#F0A2A2] sm:text-[1.55rem] sm:leading-[1.7]">
               {tibetan.replace(/[\r\n]+/g, '\n')}
             </p>
           ) : null}

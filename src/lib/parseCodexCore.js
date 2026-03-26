@@ -7,6 +7,10 @@ function toText(value) {
     .replace(/\u2013|\u2014/g, DASH);
 }
 
+function normalizeCopticText(value) {
+  return toText(value).replace(/\u0323/g, '');
+}
+
 export function normalizeWhitespace(value) {
   return toText(value)
     .replace(/[ \t]+/g, ' ')
@@ -134,7 +138,7 @@ export function extractLineTokens(source) {
     const next = matches[index + 1];
     const start = match.index + match[0].length;
     const end = next ? next.index : text.length;
-    const tokenText = normalizeWhitespace(text.slice(start, end));
+    const tokenText = normalizeWhitespace(normalizeCopticText(text.slice(start, end)));
 
     if (!tokenText) continue;
 

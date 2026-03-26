@@ -47,7 +47,7 @@ function CommentaryPanel({ paragraph }) {
         <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-gold-deep/70 dark:text-gold-light/65">
           Coptic Anchor
         </p>
-        <p className="mt-3 whitespace-pre-wrap font-noto text-[14px] leading-7 text-text-primary dark:text-dark-text-primary">
+        <p className="mt-3 whitespace-pre-wrap font-antinoou text-[14px] leading-7 text-text-primary dark:text-dark-text-primary">
           {copticText}
         </p>
       </section>

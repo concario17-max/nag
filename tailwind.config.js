@@ -39,6 +39,7 @@ export default {
         inter: ['Inter', 'sans-serif'],
         crimson: ['"Crimson Pro"', 'serif'],
         noto: ['"Noto Serif KR"', 'serif'],
+        antinoou: ['Antinoou', 'serif'],
         korean: ['Pretendard Variable', 'sans-serif'],
       },
     },

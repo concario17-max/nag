@@ -18,7 +18,7 @@ const odtPath = path.join(projectRoot, 'codex 1.odt');
 const outputPath = path.join(projectRoot, 'src', 'data', 'codexData.js');
 
 const WORK_TO_FILE = new Map([
-  ['Prayer of Apostle Paul', null],
+  ['Prayer of Apostle Paul', 'THE_PRAYER_OF_THE_APOSTLE_PAUL_body_only.txt'],
   ['Apocryphon of James', 'The_Secret_Book_of_James_cleaned.txt'],
   ['Gospel of Truth', 'The_Gospel_of_Truth_cleaned.txt'],
   ['Treatise on the Resurrection', 'The_Treatise_on_Resurrection_cleaned.txt'],
@@ -39,6 +39,65 @@ function readUInt16LE(buffer, offset) {
 
 function readUInt32LE(buffer, offset) {
   return buffer.readUInt32LE(offset);
+}
+
+function normalizeBodyOnlyText(source) {
+  const lines = String(source ?? '').replace(/\r/g, '').split('\n');
+  const output = [];
+  let current = '';
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) {
+      if (current) {
+        output.push(current);
+        current = '';
+      }
+      if (output.length && output[output.length - 1] !== '') {
+        output.push('');
+      }
+      continue;
+    }
+
+    if (!current) {
+      current = line;
+      continue;
+    }
+
+    if (/[-‐‑‒–—]\s*$/.test(current)) {
+      current = `${current.replace(/[-‐‑‒–—]\s*$/, '')}${line}`;
+      continue;
+    }
+
+    output.push(current);
+    current = line;
+  }
+
+  if (current) {
+    output.push(current);
+  }
+
+  return output
+    .join('\n')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+function parseBodyOnlySection(source, workTitle) {
+  const body = normalizeBodyOnlyText(source);
+
+  return [
+    {
+      title: workTitle,
+      subtitle: workTitle,
+      heading: workTitle,
+      rangeLabel: '1, 1-1, 40',
+      range: { start: { page: 1, line: 1 }, end: { page: 1, line: 40 } },
+      english: body,
+      coptic: '',
+    },
+  ];
 }
 
 function findEndOfCentralDirectory(buffer) {
@@ -163,15 +222,22 @@ async function main() {
     let sections = [];
     if (englishFile) {
       const englishSource = await readFile(path.join(englishDir, englishFile), 'utf8');
-      sections = parseEnglishSections(englishSource).map((section) => ({
-        title: section.title,
-        subtitle: section.subtitle,
-        heading: section.heading,
-        rangeLabel: section.rangeLabel,
-        range: section.range,
-        english: normalizeWhitespace(section.body),
-        coptic: sliceLineTokens(copticTokens, section.range),
-      }));
+      if (englishFile.endsWith('_body_only.txt')) {
+        sections = parseBodyOnlySection(englishSource, workTitle).map((section) => ({
+          ...section,
+          coptic: sliceLineTokens(copticTokens, section.range),
+        }));
+      } else {
+        sections = parseEnglishSections(englishSource).map((section) => ({
+          title: section.title,
+          subtitle: section.subtitle,
+          heading: section.heading,
+          rangeLabel: section.rangeLabel,
+          range: section.range,
+          english: normalizeWhitespace(section.body),
+          coptic: sliceLineTokens(copticTokens, section.range),
+        }));
+      }
     } else {
       sections = [
         {
