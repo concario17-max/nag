@@ -1,5 +1,5 @@
 # Current Task
-Fix the chapter pane top clipping by tightening the left sidebar chapter list spacing to match 3SIN's visual rhythm.
+Fix the chapter pane top clipping by adding a small top spacer and slightly relaxing the left sidebar chapter list height.
 
 # Route
 Route A
@@ -28,7 +28,7 @@ implementation
 main
 
 # Reason
-The fix is now a single-file spacing adjustment in the chapter list; the other sidebar pieces already match the 3SIN split, so Route A is sufficient.
+The fix is a single-file chapter list layout adjustment: the sidebar split already matches, and the top clipping can be addressed by a small spacer plus a slightly looser max-height.
 
 # Last Update
 2026-03-26
