@@ -1,8 +1,9 @@
 import { codexData } from '../data/codexData.js';
-import { createReadingData, flattenParagraphs } from './parseCodexCore.js';
+import { codexIndex } from '../data/codexIndex.js';
+import { createReadingData, flattenParagraphs, mergeCodexIndexWithWorks } from './parseCodexCore.js';
 
 export { createReadingData, flattenParagraphs } from './parseCodexCore.js';
 
 export function buildReadingData() {
-  return createReadingData(codexData.works);
+  return createReadingData(mergeCodexIndexWithWorks(codexIndex, codexData.works));
 }

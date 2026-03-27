@@ -7,11 +7,24 @@ function SidebarVerseList({
   setIsSidebarOpen,
   isDesktopViewport = false,
 }) {
-  if (!paragraphs?.length) return null;
+  if (!paragraphs?.length) {
+    return (
+      <div className="flex flex-1 min-h-0 items-center justify-center px-4 py-6">
+        <div className="rounded-[1.2rem] border border-dashed border-gold-border/35 bg-white/45 px-4 py-5 text-center text-text-secondary/75 dark:border-dark-border/50 dark:bg-dark-bg/45 dark:text-dark-text-secondary/75">
+          <div className="font-crimson text-[1rem] font-semibold tracking-[0.08em] text-gold-primary/80 dark:text-gold-light/70">
+            No passages
+          </div>
+          <div className="mt-1 text-[11px] leading-5 tracking-[0.04em]">
+            This work has no section data yet.
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="custom-scrollbar flex-1 min-h-0 overflow-y-auto bg-transparent animate-[fadeIn_0.5s_ease-out]">
-      <div className="space-y-1.5 px-3 py-3">
+      <div className="space-y-0.5 px-1.5 py-1.5">
         {paragraphs.map((paragraph) => {
           const isActive = activeParagraphId === paragraph.id;
 
@@ -23,14 +36,14 @@ function SidebarVerseList({
                 if (onSelectParagraph) onSelectParagraph(paragraph);
                 if (!isDesktopViewport) setIsSidebarOpen(false);
               }}
-              className={`flex w-full items-start gap-3 rounded-2xl border px-3 py-2.5 text-left text-[16px] transition-colors ${
+              className={`flex w-full items-start gap-1.5 rounded-[0.8rem] border px-2 py-[0.55rem] text-left text-[15px] transition-colors ${
                 isActive
-                  ? 'border-gold-primary/30 bg-white/65 text-text-primary shadow-sm dark:border-gold-primary/20 dark:bg-dark-bg/60 dark:text-gold-light'
-                : 'border-transparent text-text-secondary dark:text-dark-text-secondary hover:bg-gold-surface/30 hover:text-text-primary dark:hover:bg-dark-bg/40'
+                  ? 'border-gold-primary/24 bg-white/62 text-text-primary dark:border-gold-primary/18 dark:bg-dark-bg/58 dark:text-gold-light'
+                  : 'border-transparent text-text-secondary dark:text-dark-text-secondary hover:bg-gold-surface/30 hover:text-text-primary dark:hover:bg-dark-bg/40'
               }`}
             >
               <span
-                className={`mt-0.5 flex min-w-[2.25rem] items-center justify-center rounded-full bg-gold-surface/55 px-2 py-1 text-[12px] font-bold leading-none ${
+                className={`mt-[0.15rem] flex min-w-[1.65rem] items-center justify-center rounded-full bg-gold-surface/55 px-1.5 py-0.5 text-[11px] font-bold leading-none ${
                   isActive
                     ? 'text-gold-primary dark:bg-dark-bg/50'
                     : 'text-text-secondary/70 dark:bg-dark-bg/40 dark:text-dark-text-secondary/70'
@@ -38,7 +51,7 @@ function SidebarVerseList({
               >
                 {paragraph.paragraphNumber}
               </span>
-              <span className="min-w-0 overflow-hidden break-keep font-antinoou text-[14px] leading-[1.45] opacity-90 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
+              <span className="min-w-0 overflow-hidden break-keep font-antinoou text-[13px] leading-[1.35] opacity-90 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
                 {paragraph.title || paragraph.text?.tibetan || paragraph.chapterTitle}
               </span>
             </button>

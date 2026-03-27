@@ -1,50 +1,28 @@
 # 작업 계획
 
-## 상태
-구현 전.
+## 목표
+desktop에서 `CODEX I` 제목이 sidebar 상단에 확실히 보이도록 하고, chapter tree는 계속 `1.index.txt` 기반 그룹 구조를 유지한다.
 
-이 문서는 `3SIN` 프로젝트를 그대로 복제하되, `nag`의 Coptic/English 원문으로 새 사이트를 만드는 작업의 선행 계획이다.  
-지금 단계에서는 코드 수정보다 원문 매핑과 데이터 계약을 먼저 고정한다.
+## 완료된 작업
+- [x] 현재 title render 경로 확인
+  - `LeftSidebar`가 codex 제목을 계산하고 있는지 확인했다.
+  - `SidebarLayout`이 desktop title strip을 렌더할 수 있는지 확인했다.
+- [x] desktop title source 연결
+  - `LeftSidebar`가 `sidebarGroups[0]?.title ?? 'Codex I'`를 `SidebarLayout title`로 넘기게 정리했다.
+  - `SidebarHeader`는 mobile-only로 유지했다.
+- [x] empty work 유지
+  - `1.index.txt`에만 있는 work가 chapter tree에서 사라지지 않도록 그룹 구조를 유지했다.
+- [x] mobile close control 단일화
+  - sidebar shell의 mobile close와 `SidebarHeader`가 중복되지 않도록 정리했다.
+- [x] 브라우저/빌드 검증
+  - `npm.cmd run build` 통과
+  - `node tests/run-tests.js` 통과
+  - 브라우저 캡처에서 desktop `CODEX I` title strip 노출 확인
 
-## 1. 원문 감사
-- `1. 나그 목차.txt`의 Codex I 순서를 기준으로 작품 목록을 확정한다.
-- `codex 1.odt`의 Coptic 본문 구조를 확인한다.
-- `CODEX 1 ENG/*.txt`의 작품별 경계와 소제목 범위를 확인한다.
-- English 제목의 괄호 범위가 Coptic 분절과 어떻게 대응되는지 1차 대조한다.
-- Tripartite Tractate가 3개 파일로 분리된 점을 별도 취급한다.
+## 구현 메모
+- parser/data 파일은 건드리지 않았다.
+- title은 sidebar 데이터에서 계산한 codex title을 source of truth로 쓴다.
+- desktop에서는 `SidebarLayout`의 title strip, mobile에서는 `SidebarHeader`가 보여야 한다.
 
-## 2. 데이터 정규화
-- Coptic, English, 목차를 같은 기준의 데이터 모델로 맞춘다.
-- 작품 단위, 소제목 단위, 페이지 단위를 분리해서 정의한다.
-- `1:1` 대응 기준이 되는 단위를 먼저 고정한다.
-- 번호 체계, 제목 표기, 빈 구간 처리 규칙을 정한다.
-
-## 3. 파서 설계
-- `3SIN`의 현재 파서 구조를 참고하되, `nag`에 맞는 새 파싱 경로를 설계한다.
-- ODT 입력은 텍스트 추출 후 문단/구간 단위로 분해한다.
-- English 입력은 섹션 제목과 범위 표기를 이용해 단위화한다.
-- 목차는 최상위 탐색 구조로 사용한다.
-- 파서의 산출물은 향후 UI가 바로 소비할 수 있는 안정된 데이터 계약으로 맞춘다.
-
-## 4. 1:1 매핑 검증
-- 소제목 1개를 1페이지로 두는 규칙이 실제 원문 분량과 충돌하지 않는지 확인한다.
-- 페이지 길이 편차가 큰 구간은 예외 규칙이 필요한지 판단한다.
-- Coptic과 English의 절 시작/끝이 어긋나는 구간을 찾는다.
-- Tripartite Tractate는 파트별 분절과 페이지 경계를 따로 검증한다.
-
-## 5. UI 복제 및 브랜딩
-- `3SIN`의 좌측 목차, 중앙 읽기 패널, 우측 해설 패널 구조를 그대로 가져올지 결정한다.
-- 프로젝트명, 제목, 색상, 라벨을 `nag`에 맞게 교체한다.
-- 모바일 드로어와 데스크톱 3열 레이아웃의 동작을 유지할지 확인한다.
-- 현재 `3SIN`의 저장 키와 상태 키를 새 프로젝트용으로 분리한다.
-
-## 6. 검증
-- 빌드 가능 여부를 먼저 확인한다.
-- 파서 결과 개수와 목차 개수가 맞는지 검증한다.
-- 작품별 섹션 수와 첫/마지막 항목이 원문과 맞는지 확인한다.
-- 이후에만 실제 구현 작업으로 들어간다.
-
-## 7. 보류 항목
-- 아직 구현하지 않는다.
-- 아직 라우팅, 컴포넌트 분해, 스타일 수정, 데이터 변환 코드는 작성하지 않는다.
-- 먼저 연구 결과를 바탕으로 계약을 고정한 뒤 구현한다.
+## 최종 상태
+- 이 계획은 모두 완료 상태다.

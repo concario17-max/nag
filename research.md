@@ -1,209 +1,135 @@
-# 연구 보고서
+# Research Report
 
-## 개요
+## 요약
+현재 `CODEX I`가 sidebar 상단에서 보이지 않는 이유는, 실제로는 상단바에 가려진 게 아니라 **desktop 경로에서 제목이 렌더되지 않기 때문**이다.
 
-이번 작업은 `3SIN` 프로젝트를 베이스로 해서, `nag` 폴더의 새 원문 묶음을 이용한 별도 사이트를 만드는 일이다.  
-핵심은 단순 복제가 아니라, 기존 읽기 UI와 상태 관리 구조를 유지하면서도 새 자료의 분절 규칙을 정확히 반영하는 것이다.
+핵심 원인은 두 가지다.
 
-현재 확인된 범위는 다음과 같다.
+1. `LeftSidebar`가 `Codex I` 타이틀을 `SidebarHeader`로 넘기지만, 그 컴포넌트는 `xl:hidden`이라 desktop에서는 아예 안 나온다.
+2. `SidebarLayout`이 bori처럼 desktop용 title strip을 렌더하지 않기 때문에, sidebar 상단에 제목을 대신 표시할 장소가 없다.
 
-- `3SIN`은 Vite + React 기반의 단일 페이지 읽기 앱이다.
-- 좌측에는 챕터/절 탐색, 중앙에는 본문, 우측에는 해설 패널이 있다.
-- 다크 모드와 마지막 읽은 절은 로컬 저장소에 보존된다.
-- `nag`에는 `1. 나그 목차.txt`, `codex 1.odt`, `CODEX 1 ENG/*.txt`가 있다.
-- 영어 파일에는 소제목과 괄호 범위가 들어 있어, Coptic 원문과 1:1 대응을 만들 때 기준점으로 쓸 수 있다.
+즉, 화면상 증상은 “가려짐”처럼 보이지만 구조적으로는 **desktop title chrome 부재**가 맞다.
 
-## `3SIN`이 하는 일
+---
 
-`3SIN`은 번역/대조용 읽기 도구에 가깝다. 외부 API나 백엔드 없이, 번들된 텍스트 파일을 읽어서 UI를 만든다.
+## 현재 구조
 
-주요 기능은 다음과 같다.
+### 앱 프레임
+- [`src/components/ui/AppShell.jsx`](/C:/Users/roadsea/Desktop/nag/src/components/ui/AppShell.jsx)
+  - 전체 앱을 `header / sidebar / main / rightPanel`로 배치한다.
+  - `header`는 고정 상단바이고, 아래 영역은 좌우 패널과 본문으로 나뉜다.
+- [`src/components/Header.jsx`](/C:/Users/roadsea/Desktop/nag/src/components/Header.jsx)
+  - 상단바는 `fixed top-0 h-16`으로 고정된다.
+  - desktop header도 같은 높이 규칙을 공유한다.
+- [`src/components/ui/desktopFrame.js`](/C:/Users/roadsea/Desktop/nag/src/components/ui/desktopFrame.js)
+  - desktop에서 sidebar/main/rightPanel의 grid column을 제어한다.
 
-- 왼쪽 챕터 목록에서 구간 탐색
-- 중앙 읽기 패널에서 원문과 번역 표시
-- 오른쪽 패널에서 해설/참조 확인
-- 모바일에서는 좌우 패널이 드로어로 열림
-- 데스크톱에서는 3열 비율을 유지함
-- 다크 모드 상태와 마지막 읽은 문단을 저장함
+### Sidebar shell
+- [`src/components/ui/SidebarLayout.jsx`](/C:/Users/roadsea/Desktop/nag/src/components/ui/SidebarLayout.jsx)
+  - sidebar 공용 shell이다.
+  - 현재는 `title` prop을 중심으로 한 desktop title strip을 렌더하지 않는다.
+  - 모바일에서만 `showMobileClose`에 따라 닫기 버튼을 따로 보여준다.
+- [`src/components/Sidebar/SidebarHeader.jsx`](/C:/Users/roadsea/Desktop/nag/src/components/Sidebar/SidebarHeader.jsx)
+  - 현재는 `xl:hidden`이다.
+  - 즉 desktop viewport에서는 DOM에 있어도 시각적으로 숨겨진다.
 
-즉, 이 앱은 “문서 렌더러”라기보다 “구조화된 원문 읽기 인터페이스”다.
+### LeftSidebar 데이터 흐름
+- [`src/pages/components/LeftSidebar.jsx`](/C:/Users/roadsea/Desktop/nag/src/pages/components/LeftSidebar.jsx)
+  - `chapters`를 `codexId` / `codexTitle` 기준으로 다시 그룹화한다.
+  - `sidebarGroups[0]?.title`는 보통 `Codex I`가 된다.
+  - 그 값을 `SidebarHeader`에 넘긴다.
+  - 문제는 그 header가 desktop에서 숨겨진다는 점이다.
 
-## 구조 요약
+---
 
-3SIN의 흐름은 대략 이렇다.
+## 왜 `CODEX I`가 안 보이는가
 
-- `src/main.jsx`
-  - `#root`에 React 앱을 마운트한다.
-- `src/App.jsx`
-  - `UIProvider`로 전체 앱을 감싼다.
-- `src/context/UIContext.jsx`
-  - 모바일/데스크톱 패널 상태, 다크 모드, 저장소 동기화를 담당한다.
-- `src/pages/TextPage.jsx`
-  - 파서를 호출해서 챕터/문단 데이터를 만들고, 현재 활성 문단을 관리한다.
-- `src/lib/parseThreeBodiesCore.js`
-  - 텍스트 파싱 로직의 핵심이다.
-- `src/lib/parseThreeBodies.js`
-  - Vite raw import를 받아 core parser에 전달하는 어댑터다.
-- `src/lib/readingState.js`
-  - 저장된 활성 문단 id를 안전하게 복원한다.
-- `src/components/ui/*`
-  - 데스크톱 프레임과 사이드바 레이아웃을 정의한다.
-- `src/components/Reading/*`, `src/components/Sidebar/*`
-  - 읽기 패널과 탐색 UI를 구성한다.
+### 1) 제목은 실제로 계산된다
+`LeftSidebar`는 다음 로직으로 상위 그룹 제목을 만들고 있다.
 
-## 상태와 레이아웃 동작
+- `chapter.codexId`를 기준으로 그룹을 만든다.
+- 첫 그룹의 `title`은 `Codex I`가 된다.
+- 그 값을 `SidebarHeader`에 전달한다.
 
-### UI 상태
+즉 데이터상으로는 title이 존재한다.  
+문제는 title 값이 없는 게 아니라 **보여주는 자리가 없다는 것**이다.
 
-`UIContext`는 다음 상태를 가진다.
+### 2) `SidebarHeader`가 desktop에서 사라진다
+[`src/components/Sidebar/SidebarHeader.jsx`](/C:/Users/roadsea/Desktop/nag/src/components/Sidebar/SidebarHeader.jsx)에는 `xl:hidden`이 들어가 있다.
 
-- 모바일 좌측 사이드바 열림 여부
-- 모바일 우측 해설 패널 열림 여부
-- 데스크톱 좌측 패널 열림 여부
-- 데스크톱 우측 패널 열림 여부
-- 다크 모드 여부
+이 뜻은:
 
-로컬 저장소 키도 분리되어 있다.
+- 모바일에서는 title row가 보인다.
+- desktop에서는 같은 컴포넌트가 렌더되어도 화면에 표시되지 않는다.
 
-- 테마
-- 데스크톱 좌측 패널 상태
-- 데스크톱 우측 패널 상태
-- 활성 문단 id
+그래서 sidebar 상단에 `CODEX I`를 기대해도 desktop에서는 절대 안 나온다.
 
-`3SIN`은 데스크톱/모바일을 같은 코드로 처리하지만, 실제 동작은 분리한다.  
-데스크톱은 고정 3열 레이아웃이고, 모바일은 드로어 오버레이다.
+### 3) `SidebarLayout`이 desktop title chrome을 맡지 않는다
+bori 쪽 구조는 `SidebarLayout` 또는 그 상위 shell이 desktop title strip을 따로 가지는 쪽에 가깝다.
 
-### 레이아웃
+지금 nag는:
 
-데스크톱 프레임은 `20 / 60 / 20`, `0 / 60 / 40`, `20 / 80 / 0`, `0 / 100 / 0`의 네 상태를 가진다.  
-이 비율은 좌측 패널, 본문, 우측 패널이 각각 열리거나 닫힐 때의 기준이다.
+- `SidebarLayout`이 단순 shell 역할만 한다.
+- title prop을 desktop에서 그려주는 전용 영역이 없다.
+- 그래서 `SidebarHeader`가 숨겨지면 title은 완전히 사라진다.
 
-이 구조의 장점은 다음과 같다.
+### 4) 상단바와 sidebar의 위치 관계는 별개다
+[`src/components/Header.jsx`](/C:/Users/roadsea/Desktop/nag/src/components/Header.jsx)는 `fixed top-0 h-16`이고, sidebar shell은 `top-16` 기준으로 시작한다.
 
-- 패널이 닫혀도 레이아웃 축이 흔들리지 않는다.
-- 모바일의 슬라이드 동작과 데스크톱의 3열 기하를 분리할 수 있다.
-- 상단 헤더가 본문 영역과 같은 프레임 기준을 공유한다.
+이 배치는:
 
-## 데이터 파싱 구조
+- 상단바와 sidebar가 물리적으로 겹쳐서 title을 가리는 구조는 아니다.
+- sidebar는 그냥 header 아래에서 시작한다.
 
-`3SIN`의 파싱 핵심은 세 가지 입력을 합치는 것이다.
+즉, 이번 문제는 z-index 충돌보다 **초기 렌더 위치에 title strip이 없다는 문제**에 가깝다.
 
-- 한국어/티베트어 원문 텍스트
-- 영어 번역 텍스트
-- 목차 텍스트
+---
 
-파서가 하는 일은 다음과 같다.
+## 실제 사용자 화면과 코드의 대응
 
-- 한국어/티베트어 항목을 문단 번호로 나눈다.
-- 영어 항목을 문단 번호로 나눈다.
-- 목차에서 작품 시작/끝 범위를 읽는다.
-- 세 입력을 번호 기준으로 맞춰서 chapter/paragraph 구조를 만든다.
+사용자가 본 화면에서는 왼쪽 sidebar 상단에서 바로 chapter list가 시작된다.
 
-현재 확인된 파서 특성은 이렇다.
+그 이유는:
 
-- 시작 작품 특례가 하나 있다. `3SIN`에서는 첫 섹션을 다음 챕터에 합치는 정규화 로직이 있다.
-- 챕터 라벨은 접두어를 압축해서 보인다.
-- 저장된 활성 문단 id가 유효하지 않으면 안전하게 fallback 한다.
-- 파서는 테스트 가능하도록 core와 adapter가 분리되어 있다.
+- desktop에서 `SidebarHeader`가 숨겨짐
+- `SidebarLayout`에 desktop title row 없음
+- `LeftSidebar`는 chapter list를 바로 이어서 렌더함
 
-## `nag` 입력 자료
+그래서 시각적으로는 “상단바에 가려졌다”처럼 보이지만, 정확한 원인은 **title이 렌더되지 않고 chapter list만 노출되는 구조**다.
 
-### 1. `1. 나그 목차.txt`
+---
 
-이 파일은 Codex I의 작품 순서를 적어둔 목차다.
+## 데이터 파이프라인 참고
 
-확인된 항목은 다음과 같다.
+이번 title 문제와 별개로, chapter tree 자체는 이미 `1.index.txt` 기반으로 구성되어 있다.
 
-- Prayer of the Apostle Paul
-- Apocryphon of James
-- Gospel of Truth
-- Treatise on the Resurrection
-- Tripartite Tractate
+- [`src/lib/parseCodex.js`](/C:/Users/roadsea/Desktop/nag/src/lib/parseCodex.js)
+  - `codexIndex`와 `codexData.works`를 병합해서 읽기 데이터를 만든다.
+- [`src/lib/parseCodexCore.js`](/C:/Users/roadsea/Desktop/nag/src/lib/parseCodexCore.js)
+  - `mergeCodexIndexWithWorks()`가 empty work도 목록에 남기도록 만든다.
+  - `flattenParagraphs()`는 중첩 트리에서도 실제 paragraph만 뽑는다.
+- [`src/pages/TextPage.jsx`](/C:/Users/roadsea/Desktop/nag/src/pages/TextPage.jsx)
+  - `buildReadingData()` 결과를 sidebar와 본문에 넘긴다.
 
-즉, 현재 사이트는 Codex I만 다룰 가능성이 높다.  
-목차 파일은 상위 탐색 구조와 작품 순서를 정하는 기준으로 쓰기 좋다.
+즉, chapter tree의 데이터 계약은 이미 정리되어 있고, 지금 문제는 **데이터가 아니라 shell chrome**이다.
 
-### 2. `codex 1.odt`
+---
 
-이 파일은 Coptic 원문이 들어 있는 ODT 문서다.  
-압축 내부의 `content.xml`을 확인했을 때, 전체 `text:p` 문단 수는 12개였다.
+## 결론
 
-첫 제목들로 확인되는 섹션은 다음과 같다.
+`CODEX I`가 상단바에 가려진 게 아니라, desktop에서 보여줄 title 영역이 빠져 있어서 안 보이는 것이다.
 
-- `( codex I ) The Prayer of the Apostle Paul`
-- `( codex I ) The Apocryphon of James`
-- `( codex I ) The Gospel of Truth`
-- `( codex I ) The Treatise on the Resurrection`
-- `( codex I ) The Tripartite Tractate`
+정리하면:
 
-이 결과로 보면 ODT는 작품 제목을 큰 단위로 묶고, 그 아래에 Coptic 본문이 길게 이어지는 구조다.  
-다만 여기서 정확한 “문단 = 페이지” 관계는 아직 검증되지 않았다.
+- title 값은 존재한다.
+- `SidebarHeader`는 desktop에서 숨겨진다.
+- `SidebarLayout`은 desktop title strip을 그리지 않는다.
+- 그래서 sidebar 상단에는 chapter list만 남는다.
 
-Inference: ODT의 `text:p` 개수 자체가 최종 페이지 수를 뜻하는 것은 아니다. 실제 페이지 분할은 추가 파싱 규칙이 필요하다.
+다음 구현 단계에서 고쳐야 할 방향은 분명하다.
 
-### 3. `CODEX 1 ENG/*.txt`
+- desktop에서만 보이는 title strip을 sidebar shell에 다시 넣는다.
+- 모바일 title row와 desktop title row의 소스를 분리하거나, 하나의 공용 title slot으로 재구성한다.
+- chapter list 시작점은 title strip 아래로 내려가게 유지한다.
 
-English 원문은 6개 파일로 나뉘어 있다.
-
-- `The_Gospel_of_Truth_cleaned.txt`
-- `The_Secret_Book_of_James_cleaned.txt`
-- `The_Treatise_on_Resurrection_cleaned.txt`
-- `The_Tripartite_Tractate_Part_One_cleaned.txt`
-- `The_Tripartite_Tractate_Part_Two_cleaned.txt`
-- `The_Tripartite_Tractate_Part_Three_cleaned.txt`
-
-이 중 Tripartite Tractate는 3개 파일로 분할되어 있다.  
-즉, 영어 쪽은 작품 기준이 아니라 편집/분량 기준으로 한 번 더 쪼개져 있다.
-
-또한 영어 파일에는 제목 옆 괄호 범위가 들어 있다.  
-이 괄호 범위는 Coptic 원문 분절과 대응되는 힌트로 보인다.
-
-Inference: 괄호 범위는 단순 장식이 아니라, 이후 1:1 페이지 매핑의 분기점 역할을 한다.
-
-## 현재까지 보이는 매핑 방향
-
-지금 단계에서 가장 합리적인 방향은 다음과 같다.
-
-- 목차는 작품 단위의 상위 인덱스로 사용한다.
-- English 파일은 소제목과 범위 표기를 기준으로 페이지 단위를 만든다.
-- Coptic ODT는 해당 영어 페이지에 대응하는 원문 블록을 제공한다.
-- 처음 구현은 “소제목 1개 = 1페이지” 규칙으로 시작하되, 실제 원문 분량과 맞지 않으면 예외를 허용한다.
-
-즉, 최종 목표는 Codex I의 각 작품 내부에서 Coptic과 English를 나란히 읽을 수 있는 구조다.  
-다만 현 시점에서는 “어느 줄부터 어느 줄까지를 한 페이지로 볼지”가 아직 확정되지 않았다.
-
-## 이미 확정된 것
-
-- `3SIN`의 읽기 앱 구조는 재사용 가치가 높다.
-- 좌/중/우 3열 구조는 그대로 가져갈 수 있다.
-- 저장소 기반의 다크 모드와 활성 문단 복원은 유지 가능하다.
-- 목차와 본문은 로컬 파일로만 처리할 수 있다.
-- Codex I만 우선 대상이다.
-
-## 아직 결정해야 하는 것
-
-- `nag`용 데이터 모델을 `3SIN`과 얼마나 비슷하게 유지할지
-- Coptic ODT를 어떤 규칙으로 문단/페이지로 나눌지
-- English 소제목과 Coptic 범위를 어떤 키로 묶을지
-- Tripartite Tractate의 3개 파일을 하나의 작품으로 합칠지, 내부적으로 분리 유지할지
-- 소제목 1개당 1페이지 규칙을 어디까지 엄격하게 적용할지
-- UI 라벨과 브랜딩을 기존 읽기 앱 스타일로 유지할지, 새 톤으로 바꿀지
-
-## 리스크와 주의점
-
-- PowerShell 터미널은 UTF-8 한글/혼합 텍스트를 종종 깨진 문자처럼 보여줄 수 있다. 이건 파일 자체 손상과는 별개다.
-- English 파일이 Tripartite Tractate에서 3개로 쪼개져 있어서, 단순 파일 단위 매핑은 안 맞는다.
-- ODT 내부의 Coptic 분량은 문단 수보다 훨씬 더 세밀한 분절이 필요할 수 있다.
-- 괄호 범위를 그대로 신뢰하기 전에, 실제 소스 텍스트와 페이지 경계가 맞는지 수동 검증이 필요하다.
-- `3SIN`의 현재 파서 규칙을 그대로 복사하면 새 자료에는 맞지 않을 가능성이 높다. 새로운 데이터 계약이 필요하다.
-
-## 작업 결론
-
-현재까지의 판단은 이렇다.
-
-- `3SIN`의 UI 골격과 상태 모델은 재사용 가능하다.
-- 하지만 데이터 파싱 계약은 새로 설계해야 한다.
-- `nag`는 Codex I 전용 읽기 앱으로 시작하는 게 맞다.
-- 구현 전에 원문 매핑과 페이지 분할 기준을 먼저 고정해야 한다.
-
-다음 단계는 연구 결과를 바탕으로 파서 계약과 페이지 분할 규칙을 확정한 뒤, 그때 실제 구현에 들어가는 것이다.
+지금 단계에서는 구현하지 않았고, 원인 분석만 마쳤다.

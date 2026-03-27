@@ -1,5 +1,6 @@
 import React from 'react';
-import { buildReadingData, flattenParagraphs } from '../lib/parseCodex.js';
+import { buildReadingData } from '../lib/parseCodex.js';
+import { flattenParagraphs } from '../lib/parseCodexCore.js';
 import { resolveStoredActiveParagraph } from '../lib/readingState.js';
 import { useUI } from '../context/UIContext';
 import Header from '../components/Header.jsx';

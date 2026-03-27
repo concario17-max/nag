@@ -6,6 +6,7 @@ import {
   extractLineTokens,
   normalizeWhitespace,
   parseEnglishSections,
+  parseCodexIndex,
   parseWorkOrder,
   slugify,
   sliceLineTokens,
@@ -15,7 +16,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..');
 const englishDir = path.join(projectRoot, 'CODEX 1 ENG');
 const odtPath = path.join(projectRoot, 'codex 1.odt');
-const outputPath = path.join(projectRoot, 'src', 'data', 'codexData.js');
+const indexPath = path.join(projectRoot, '1.index.txt');
+const outputPath = path.join(projectRoot, 'src', 'data', 'codexIndex.js');
 
 const WORK_TO_FILE = new Map([
   ['Prayer of Apostle Paul', 'THE_PRAYER_OF_THE_APOSTLE_PAUL_body_only.txt'],
@@ -201,81 +203,14 @@ export function xmlToPlainText(xml) {
 }
 
 async function main() {
-  const tocPath = await findTocPath(projectRoot);
-  const tocSource = await readFile(tocPath, 'utf8');
-  const seenWorks = new Set();
-  const workOrder = parseWorkOrder(tocSource).filter((item) => {
-    if (!SOURCE_TO_WORK.has(item.sourceTitle)) return false;
-    if (seenWorks.has(item.workLabel)) return false;
-    seenWorks.add(item.workLabel);
-    return true;
-  });
-  const xml = await extractOdtXml(odtPath);
-  const copticTokens = extractLineTokens(xmlToPlainText(xml));
-
-  const works = [];
-
-  for (const item of workOrder) {
-    const workTitle = SOURCE_TO_WORK.get(item.sourceTitle);
-    const englishFile = WORK_TO_FILE.get(workTitle);
-
-    let sections = [];
-    if (englishFile) {
-      const englishSource = await readFile(path.join(englishDir, englishFile), 'utf8');
-      if (englishFile.endsWith('_body_only.txt')) {
-        sections = parseBodyOnlySection(englishSource, workTitle).map((section) => ({
-          ...section,
-          coptic: sliceLineTokens(copticTokens, section.range),
-        }));
-      } else {
-        sections = parseEnglishSections(englishSource).map((section) => ({
-          title: section.title,
-          subtitle: section.subtitle,
-          heading: section.heading,
-          rangeLabel: section.rangeLabel,
-          range: section.range,
-          english: normalizeWhitespace(section.body),
-          coptic: sliceLineTokens(copticTokens, section.range),
-        }));
-      }
-    } else {
-      sections = [
-        {
-          title: workTitle,
-          subtitle: workTitle,
-          heading: workTitle,
-          rangeLabel: '1, 1-1, 40',
-          range: { start: { page: 1, line: 1 }, end: { page: 1, line: 40 } },
-          english: '',
-          coptic: copticTokens
-            .slice(0, 40)
-            .map((token) => token.text)
-            .join('\n'),
-        },
-      ];
-    }
-
-    works.push({
-      workId: slugify(workTitle),
-      chapterName: workTitle,
-      title: `Codex I - ${workTitle}`,
-      sourceTitle: item.sourceTitle,
-      sections,
-    });
-  }
+  const indexSource = await readFile(indexPath, 'utf8');
+  const codexIndex = parseCodexIndex(indexSource);
 
   await mkdir(path.dirname(outputPath), { recursive: true });
 
-  const contents = `export const codexData = ${JSON.stringify(
-    {
-      toc: workOrder,
-      works,
-    },
-    null,
-    2,
-  )};
+  const contents = `export const codexIndex = ${JSON.stringify(codexIndex, null, 2)};
 
-export default codexData;
+export default codexIndex;
 `;
 
   await writeFile(outputPath, contents, 'utf8');

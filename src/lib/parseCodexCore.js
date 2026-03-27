@@ -60,6 +60,185 @@ export function parseWorkOrder(source) {
     });
 }
 
+function isCodexHeading(line) {
+  return /^Codex\s+[IVXLCDM]+$/i.test(line) || /^Codex\s+\d+$/i.test(line);
+}
+
+function parseIndexEntry(line, groupTitle, groupId, workIndex) {
+  const arrowIndex = line.indexOf('→');
+  const chapterName = normalizeWhitespace(arrowIndex >= 0 ? line.slice(0, arrowIndex) : line);
+  const rawSourceTitle = normalizeWhitespace(arrowIndex >= 0 ? line.slice(arrowIndex + 1) : '');
+  const sourceTitle = rawSourceTitle && rawSourceTitle !== '없음' ? rawSourceTitle : null;
+
+  return {
+    indexId: `${groupId}.${workIndex + 1}`,
+    workId: slugify(chapterName),
+    chapterName,
+    title: `${groupTitle} - ${chapterName}`,
+    sourceTitle,
+  };
+}
+
+export function parseCodexIndex(source) {
+  const lines = String(source ?? '').replace(/\r/g, '').split('\n');
+  const groups = [];
+  let currentGroup = null;
+
+  for (const rawLine of lines) {
+    const line = normalizeWhitespace(rawLine);
+    if (!line) continue;
+
+    if (isCodexHeading(line)) {
+      currentGroup = {
+        id: slugify(line),
+        kind: 'codex',
+        title: line,
+        chapterName: line,
+        works: [],
+      };
+      groups.push(currentGroup);
+      continue;
+    }
+
+    if (line.includes('→')) {
+      if (!currentGroup) {
+        currentGroup = {
+          id: 'codex-index',
+          kind: 'misc',
+          title: 'Index',
+          chapterName: 'Index',
+          works: [],
+        };
+        groups.push(currentGroup);
+      }
+
+      const entry = parseIndexEntry(line, currentGroup.title, currentGroup.id, currentGroup.works.length);
+      currentGroup.works.push(entry);
+      continue;
+    }
+
+    if (!currentGroup) {
+      currentGroup = {
+        id: slugify(line),
+        kind: 'misc',
+        title: line,
+        chapterName: line,
+        works: [],
+      };
+      groups.push(currentGroup);
+      continue;
+    }
+
+    if (currentGroup.kind === 'codex') {
+      currentGroup = {
+        id: slugify(line),
+        kind: 'misc',
+        title: line,
+        chapterName: line,
+        works: [],
+      };
+      groups.push(currentGroup);
+      continue;
+    }
+
+    currentGroup.works.push({
+      indexId: `${currentGroup.id}.${currentGroup.works.length + 1}`,
+      workId: slugify(line),
+      chapterName: line,
+      title: line,
+      sourceTitle: null,
+    });
+  }
+
+  return groups;
+}
+
+function buildWorkLookup(works) {
+  const lookup = new Map();
+
+  function pushLookup(key, record) {
+    if (!key) return;
+    const normalizedKey = normalizeWhitespace(key);
+    if (!normalizedKey) return;
+    if (!lookup.has(normalizedKey)) {
+      lookup.set(normalizedKey, []);
+    }
+    lookup.get(normalizedKey).push(record);
+  }
+
+  works.forEach((work, index) => {
+    const record = { work, used: false, index };
+    pushLookup(work.workId, record);
+    pushLookup(work.chapterName, record);
+    pushLookup(work.sourceTitle, record);
+    pushLookup(slugify(work.chapterName), record);
+  });
+
+  return lookup;
+}
+
+function takeWorkForIndexEntry(lookup, entry) {
+  const keys = [entry.workId, entry.chapterName, entry.sourceTitle, slugify(entry.chapterName)];
+
+  for (const key of keys) {
+    const normalizedKey = normalizeWhitespace(key);
+    if (!normalizedKey) continue;
+
+    const queue = lookup.get(normalizedKey);
+    if (!queue?.length) continue;
+
+    while (queue.length && queue[0].used) {
+      queue.shift();
+    }
+
+    const record = queue.shift();
+    if (record && !record.used) {
+      record.used = true;
+      return record.work;
+    }
+  }
+
+  return null;
+}
+
+export function mergeCodexIndexWithWorks(indexGroups, works) {
+  const lookup = buildWorkLookup(works);
+  const mergedWorks = [];
+
+  indexGroups.forEach((group, groupIndex) => {
+    group.works.forEach((entry, workIndex) => {
+      const matchedWork = takeWorkForIndexEntry(lookup, entry);
+
+      if (matchedWork) {
+        mergedWorks.push({
+          ...matchedWork,
+          codexId: group.id,
+          codexTitle: group.title,
+          indexId: entry.indexId,
+          indexGroupOrder: groupIndex + 1,
+          indexWorkOrder: workIndex + 1,
+        });
+        return;
+      }
+
+      mergedWorks.push({
+        workId: `${group.id}.${entry.indexId}.${slugify(entry.chapterName) || 'work'}`,
+        chapterName: entry.chapterName,
+        title: entry.title,
+        sourceTitle: entry.sourceTitle ?? '',
+        sections: [],
+        codexId: group.id,
+        codexTitle: group.title,
+        indexId: entry.indexId,
+        indexGroupOrder: groupIndex + 1,
+        indexWorkOrder: workIndex + 1,
+      });
+    });
+  });
+
+  return mergedWorks;
+}
+
 export function parseEnglishSections(source) {
   const lines = String(source ?? '').replace(/\r/g, '').split('\n');
   const sections = [];
@@ -174,9 +353,39 @@ export function formatRangeLabel(range) {
   return `${range.start.page}, ${range.start.line}-${range.end.page}, ${range.end.line}`;
 }
 
-export function createReadingData(works) {
-  return works.map((work) => {
-    const paragraphs = work.sections.map((section, index) => ({
+export function createReadingData(indexTreeOrWorks, maybeWorks = null) {
+  if (!Array.isArray(maybeWorks)) {
+    return (indexTreeOrWorks ?? []).map((work) => {
+      const paragraphs = (work.sections ?? []).map((section, index) => ({
+        id: `${work.workId}.${index + 1}`,
+        title: section.title,
+        paragraphNumber: index + 1,
+        chapterTitle: work.title,
+        text: {
+          tibetan: section.coptic,
+          pronunciation: '',
+          english: section.english,
+          korean: '',
+        },
+        rangeLabel: section.rangeLabel,
+        workId: work.workId,
+        sourceTitle: work.sourceTitle,
+      }));
+
+      return {
+        id: work.workId,
+        chapterName: work.chapterName,
+        title: work.title,
+        sourceTitle: work.sourceTitle,
+        codexId: work.codexId ?? null,
+        codexTitle: work.codexTitle ?? null,
+        paragraphs,
+      };
+    });
+  }
+
+  return mergeCodexIndexWithWorks(indexTreeOrWorks, maybeWorks).map((work) => {
+    const paragraphs = (work.sections ?? []).map((section, index) => ({
       id: `${work.workId}.${index + 1}`,
       title: section.title,
       paragraphNumber: index + 1,
@@ -197,11 +406,41 @@ export function createReadingData(works) {
       chapterName: work.chapterName,
       title: work.title,
       sourceTitle: work.sourceTitle,
+      codexId: work.codexId ?? null,
+      codexTitle: work.codexTitle ?? null,
       paragraphs,
     };
   });
 }
 
 export function flattenParagraphs(chapters) {
-  return chapters.flatMap((chapter) => chapter.paragraphs ?? []);
+  const flattened = [];
+
+  function visit(node) {
+    if (Array.isArray(node)) {
+      node.forEach(visit);
+      return;
+    }
+
+    if (!node || typeof node !== 'object') return;
+
+    const childLists = ['paragraphs', 'works', 'chapters', 'children'];
+    const hasChildren = childLists.some((key) => Array.isArray(node[key]) && node[key].length > 0);
+
+    if (hasChildren) {
+      childLists.forEach((key) => {
+        if (Array.isArray(node[key])) {
+          node[key].forEach(visit);
+        }
+      });
+      return;
+    }
+
+    if (typeof node.id === 'string' && (node.text || typeof node.paragraphNumber === 'number')) {
+      flattened.push(node);
+    }
+  }
+
+  visit(chapters);
+  return flattened;
 }

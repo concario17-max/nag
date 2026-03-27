@@ -1,22 +1,23 @@
-goal: build a new nag site by duplicating the 3SIN reading-app structure and adapting it to Codex I Coptic/English sources
+goal: rebuild the chapter window from `1. 나그 목차.txt` so the sidebar follows the `bori` reference with an in-panel root block and navigable works/sections in a 3SIN-like layout
 constraints:
   - keep the existing 3SIN style of three-pane reading UX as the baseline
-  - do not implement unrelated features
-  - use local source files only
-  - keep plan.md and research.md as documentation only
-  - respect the repo's Route B workflow
-  - implementation should start from a frozen seed
-  - start with a 1:1 mapping attempt where one subtitle maps to one page
+  - use only local source files from `1. 나그 목차.txt`, `codex 1.odt`, and `CODEX 1 ENG/*.txt`
+  - do not add unrelated features
+  - keep chapter data derived from the work order in `1. 나그 목차.txt`
+  - preserve the current 1:1 first-slice attempt where one subtitle maps to one page
+  - keep Coptic, English, and chapter data in a deterministic generated contract
+  - avoid duplicating sidebar titles or close controls across layout layers
 acceptance_criteria:
-  - project scaffold exists in nag
-  - Codex I works are organized from 1. 나그 목차.txt
-  - English source texts from CODEX 1 ENG are wired in
-  - Coptic source from codex 1.odt is parsed or extracted into the app
-  - pages can show aligned Coptic and English content for the first implementation slice
-  - the UI loads and renders without breaking the main reader flow
+  - the sidebar root visibly shows `CODEX I` in an in-panel header block
+  - the chapter list is built from the Codex I work order and displays the expected works
+  - the active work expands into a section/verse list
+  - Coptic and English content render from the local source pipeline
+  - the first implementation slice still preserves the current main reader flow
+  - the UI remains usable on both desktop and mobile
 verification:
-  - run the repo's build, typecheck, and test equivalents once the implementation exists
-  - manually verify the first mapped section and the chapter navigation data contract in the app logic
+  - run `node tests/run-tests.js`
+  - run `npm.cmd run build`
+  - if the implementation changes parser behavior, add or update the focused tests that cover it
 out_of_scope:
   - backend
   - auth

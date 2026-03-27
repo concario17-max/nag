@@ -71,9 +71,14 @@ function runParserTests() {
   const flatParagraphs = flattenParagraphs(chapters);
 
   assert.equal(codexData.works.length, 5);
-  assert.equal(chapters.length, 5);
+  assert.equal(chapters.length, 68);
   assert.equal(flatParagraphs.length, 86);
   assert.equal(chapters[0].chapterName, 'Prayer of Apostle Paul');
+  assert.equal(
+    chapters.find((chapter) => chapter.chapterName === 'THE GOSPEL OF MARY WITH THE GREEK GOSPEL OF MARY')
+      ?.paragraphs.length,
+    0,
+  );
   assert.ok(flatParagraphs[0].text.english.length >= 0);
   assert.ok(flatParagraphs[0].text.tibetan.length >= 0);
   assert.equal(codexData.works[1].sections[0].subtitle, 'The Letter of James');
