@@ -51,6 +51,7 @@ function LeftSidebar({ chapters, onSelectParagraph, activeParagraphId }) {
       isOpen={isSidebarOpen}
       isDesktopOpen={isDesktopSidebarOpen}
       onClose={() => setIsSidebarOpen(false)}
+      title="CODEX 1"
       position="left"
       widthClass="w-80"
       className="dark:bg-dark-bg/95"

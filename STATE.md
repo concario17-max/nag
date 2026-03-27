@@ -1,5 +1,5 @@
 # Current Task
-Make CODEX 1 visibly appear as the desktop sidebar title and keep the chapter list readable without duplicating the header.
+Move the CODEX 1 title into the desktop sidebar layout so it is always visible above the chapter list.
 
 # Route
 Route B
@@ -14,10 +14,11 @@ frozen
 SEED.yaml
 
 # Write Sets
+- `worker_layout`
+  - `src/components/ui/SidebarLayout.jsx`
+  - `src/pages/components/LeftSidebar.jsx`
 - `worker_header`
   - `src/components/Sidebar/SidebarHeader.jsx`
-- `worker_chapter_list`
-  - `src/components/Sidebar/SidebarChapterList.jsx`
 
 # Reviewer
 worker_reviewer
@@ -29,7 +30,7 @@ implementation
 main
 
 # Reason
-The visible fix now spans two sidebar files: the desktop header must surface `CODEX 1`, and the chapter list header must be reconciled so the title is not duplicated or hidden.
+The layout root owns the sidebar shell, and the mobile-only header needs to stay separate so desktop can show the root `CODEX 1` title without duplication.
 
 # Last Update
 2026-03-26
