@@ -1,8 +1,8 @@
 # Current Task
-Update `plan.md` to mark the final visual verification as completed now that the desktop `CODEX I` title strip is visible.
+Keep the desktop header inner elements aligned to the center content column boundaries even when the left or right panel is hidden.
 
 # Route
-Route B
+Route A
 
 # Writer Slot
 main
@@ -14,31 +14,19 @@ frozen
 SEED.yaml
 
 # Write Sets
-- `worker_shared`
-  - `src/components/ui/SidebarLayout.jsx`
+- `main`
   - `src/components/Header.jsx`
-  - `src/components/ui/AppShell.jsx`
-  - `src/components/ui/desktopFrame.js`
-- `worker_sidebar`
-  - `src/pages/components/LeftSidebar.jsx`
-  - `src/components/Sidebar/SidebarHeader.jsx`
-  - `src/components/Sidebar/SidebarChapterList.jsx`
-  - `src/components/Sidebar/SidebarVerseList.jsx`
-  - `src/components/Sidebar/ChapterButton.jsx`
-  - `src/components/Sidebar/ChapterGroup.jsx`
-- `worker_plan`
-  - `plan.md`
 # Reviewer
-worker_reviewer
+none
 
 # Active Phase
-planning
+implementation
 
 # Active Worker
-reviewer
+main
 
 # Reason
-The user asked for a documentation-only plan update, so this is a planning-only pass with no code writes.
+This is a one-file layout hotfix in `Header.jsx`, so Route A is sufficient.
 
 # Last Update
 2026-03-27

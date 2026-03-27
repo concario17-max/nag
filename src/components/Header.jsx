@@ -26,15 +26,15 @@ function createFallbackUIContext() {
   };
 }
 
-function Header({ desktopGridColumns = DESKTOP_FRAME_COLUMNS_DEFAULT }) {
+function Header() {
   const ui = useUI() ?? createFallbackUIContext();
   const ThemeIcon = ui.isDarkMode ? SunMedium : MoonStar;
   const isCommentaryOpen =
     ui.activeRightPanel === 'commentary' || ui.activeDesktopRightPanel === 'commentary';
-  const commentaryLabel = isCommentaryOpen ? '해설 패널 닫기' : '해설 패널 열기';
+  const commentaryLabel = isCommentaryOpen ? 'Hide commentary panel' : 'Show commentary panel';
 
   const desktopHeaderStyle = {
-    '--desktop-frame-columns': desktopGridColumns,
+    '--desktop-frame-columns': DESKTOP_FRAME_COLUMNS_DEFAULT,
   };
 
   return (
@@ -66,14 +66,14 @@ function Header({ desktopGridColumns = DESKTOP_FRAME_COLUMNS_DEFAULT }) {
             aria-label={commentaryLabel}
           >
             <MessageSquareText className="h-4 w-4" />
-            <span className="hidden text-xs font-semibold tracking-wide sm:inline">해설</span>
+            <span className="hidden text-xs font-semibold tracking-wide sm:inline">Commentary</span>
           </button>
 
           <button
             type="button"
             onClick={ui.toggleTheme}
             className="inline-flex items-center justify-center rounded-full border border-gold-primary/20 bg-white/70 p-2 text-gold-primary transition-colors hover:bg-gold-surface dark:border-dark-border/60 dark:bg-dark-surface/60 dark:text-gold-light"
-            aria-label={ui.isDarkMode ? '라이트 모드로 전환' : '다크 모드로 전환'}
+            aria-label={ui.isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
           >
             <ThemeIcon className="h-4 w-4" />
           </button>
@@ -108,14 +108,14 @@ function Header({ desktopGridColumns = DESKTOP_FRAME_COLUMNS_DEFAULT }) {
               aria-label={commentaryLabel}
             >
               <MessageSquareText className="h-4 w-4" />
-              <span className="text-xs font-semibold tracking-wide">해설</span>
+              <span className="text-xs font-semibold tracking-wide">Commentary</span>
             </button>
 
             <button
               type="button"
               onClick={ui.toggleTheme}
               className="inline-flex items-center justify-center rounded-full border border-gold-primary/20 bg-white/70 p-2 text-gold-primary transition-colors hover:bg-gold-surface dark:border-dark-border/60 dark:bg-dark-surface/60 dark:text-gold-light"
-              aria-label={ui.isDarkMode ? '라이트 모드로 전환' : '다크 모드로 전환'}
+              aria-label={ui.isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               <ThemeIcon className="h-4 w-4" />
             </button>
