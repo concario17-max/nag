@@ -1,5 +1,5 @@
 # Current Task
-Keep the desktop header inner elements aligned to the center content column boundaries even when the left or right panel is hidden.
+Remove tofu squares from the Coptic reading render by stripping unsupported markup characters at display time.
 
 # Route
 Route A
@@ -15,7 +15,7 @@ SEED.yaml
 
 # Write Sets
 - `main`
-  - `src/components/Header.jsx`
+  - `src/components/Reading/TibetanSection.jsx`
 # Reviewer
 none
 
@@ -26,7 +26,7 @@ implementation
 main
 
 # Reason
-This is a one-file layout hotfix in `Header.jsx`, so Route A is sufficient.
+This is a one-file display hotfix in `TibetanSection.jsx`, so Route A is sufficient.
 
 # Last Update
 2026-03-27

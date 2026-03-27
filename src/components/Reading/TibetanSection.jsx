@@ -1,5 +1,13 @@
 import React from 'react';
 
+function sanitizeCopticDisplay(value) {
+  return String(value ?? '')
+    .replace(/\r/g, '')
+    .replace(/[\u0300-\u036f\u1ab0-\u1aff\u1dc0-\u1dff\u20d0-\u20ff]/g, '')
+    .replace(/[§⟨⟩⟦⟧→←]/g, '')
+    .replace(/[^\u2C80-\u2CFF\u0370-\u03FF\s\n\[\]\(\){}<>·’'‐\-.,;:!?/|]/g, '');
+}
+
 function TibetanSection({ tibetan, pronunciation }) {
   if (!tibetan && !pronunciation) return null;
 
@@ -17,7 +25,7 @@ function TibetanSection({ tibetan, pronunciation }) {
 
           {tibetan ? (
             <p className="mx-auto mt-3 max-w-[96%] break-keep font-antinoou text-[14px] font-bold leading-[1.45] tracking-[0.01em] text-[#4A0404] antialiased drop-shadow-[0_1px_1px_rgba(0,0,0,0.05)] dark:text-[#F0A2A2] sm:text-[14px] sm:leading-[1.5]">
-              {tibetan.replace(/[\r\n]+/g, '\n')}
+              {sanitizeCopticDisplay(tibetan).replace(/[\r\n]+/g, '\n')}
             </p>
           ) : null}
 
