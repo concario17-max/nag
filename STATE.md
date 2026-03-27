@@ -1,8 +1,8 @@
 # Current Task
-Move the CODEX 1 title into the desktop sidebar layout so it is always visible above the chapter list.
+Remove the duplicate mobile close button now that the CODEX 1 title lives in the shared sidebar layout.
 
 # Route
-Route B
+Route A
 
 # Writer Slot
 main
@@ -14,14 +14,12 @@ frozen
 SEED.yaml
 
 # Write Sets
-- `worker_layout`
-  - `src/components/ui/SidebarLayout.jsx`
-  - `src/pages/components/LeftSidebar.jsx`
-- `worker_header`
+- `main`
+  - `STATE.md`
   - `src/components/Sidebar/SidebarHeader.jsx`
 
 # Reviewer
-worker_reviewer
+none
 
 # Active Phase
 implementation
@@ -30,7 +28,7 @@ implementation
 main
 
 # Reason
-The layout root owns the sidebar shell, and the mobile-only header needs to stay separate so desktop can show the root `CODEX 1` title without duplication.
+Only the mobile duplicate close control remains, and it can be removed in one file because the shared sidebar layout already provides the active close button.
 
 # Last Update
 2026-03-26
