@@ -104,6 +104,15 @@ function normalizeBodyOnlyText(source) {
     .trim();
 }
 
+function stripJamesMarkerLabels(source) {
+  const markerA = `(${String.fromCodePoint(0x2c81)})`;
+  const markerB = `(${String.fromCodePoint(0x2c83)})`;
+  return String(source ?? '')
+    .replaceAll(markerA, '')
+    .replaceAll(markerB, '')
+    .replace(/^[ \t]+/gm, '');
+}
+
 function parseBodyOnlySection(source, workTitle) {
   const body = normalizeBodyOnlyText(source);
 
@@ -219,7 +228,7 @@ export async function buildGospelOfTruthWork() {
         rangeLabel: section.rangeLabel,
         range: section.range,
         english: section.body,
-        coptic: sliceLineTokens(copticTokens, section.range),
+        coptic: stripJamesMarkerLabels(sliceLineTokens(copticTokens, section.range)),
       };
     }),
   };
