@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { mkdtemp, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import { buildGospelOfTruthWork, extractOdtXml } from '../scripts/extract-codex-data.js';
+import { buildJamesWork, extractOdtXml } from '../scripts/extract-codex-data.js';
 import { buildReadingData, flattenParagraphs } from '../src/lib/parseCodex.js';
 import { parseEnglishSections, parseRangeLabel } from '../src/lib/parseCodexCore.js';
 import { resolveStoredActiveParagraph } from '../src/lib/readingState.js';
@@ -70,8 +70,10 @@ async function runParserTests() {
   const chapters = buildReadingData();
   const flatParagraphs = flattenParagraphs(chapters);
   const prayerWork = codexData.works.find((work) => work.workId === 'prayer-of-apostle-paul');
-  const gospelOfTruthWork = codexData.works.find((work) => work.workId === 'gospel-of-truth');
-  const regeneratedGospelOfTruthWork = await buildGospelOfTruthWork();
+  const jamesWork = codexData.works.find((work) => work.workId === 'apocryphon-of-james');
+  const regeneratedJamesWork = await buildJamesWork();
+  const markerA = `(${String.fromCodePoint(0x2c81)})`;
+  const markerB = `(${String.fromCodePoint(0x2c83)})`;
 
   assert.equal(codexData.works.length, 17);
   assert.equal(chapters.length, 68);
@@ -80,17 +82,21 @@ async function runParserTests() {
   assert.equal(chapters.find((chapter) => chapter.chapterName === 'Gospel of Thomas')?.paragraphs.length, 0);
   assert.equal(prayerWork?.sections.length, 1);
   assert.equal(prayerWork?.sections[0].rangeLabel, '1, 3-2, 10');
-  assert.ok(gospelOfTruthWork);
-  assert.equal(gospelOfTruthWork?.sections[0].title, '[문단 1] The Gospel of Truth');
-  assert.equal(gospelOfTruthWork?.sections[0].rangeLabel, '16, 31-17, 4');
-  assert.equal(regeneratedGospelOfTruthWork.workId, 'gospel-of-truth');
-  assert.equal(regeneratedGospelOfTruthWork.sections[0].title, '[문단 1] The Gospel of Truth');
-  assert.equal(regeneratedGospelOfTruthWork.sections[0].rangeLabel, '16, 31-17, 4');
+  assert.ok(jamesWork);
+  assert.equal(jamesWork?.chapterName, 'Apocryphon of James');
+  assert.equal(jamesWork?.sections[0].rangeLabel, '1, 1-8');
+  assert.equal(jamesWork?.sections.some((section) => section.coptic.includes(markerA)), false);
+  assert.equal(jamesWork?.sections.some((section) => section.coptic.includes(markerB)), false);
+  assert.equal(regeneratedJamesWork.workId, 'apocryphon-of-james');
+  assert.equal(regeneratedJamesWork.chapterName, 'Apocryphon of James');
+  assert.equal(regeneratedJamesWork.sections[0].rangeLabel, '1, 1-8');
+  assert.equal(regeneratedJamesWork.sections.some((section) => section.coptic.includes(markerA)), false);
+  assert.equal(regeneratedJamesWork.sections.some((section) => section.coptic.includes(markerB)), false);
   assert.ok(flatParagraphs[0].text.english.length >= 0);
   assert.ok(flatParagraphs[0].text.tibetan.length >= 0);
-  assert.equal(codexData.works[1].sections[0].subtitle, '[문단 1] The Letter of James');
+  assert.equal(codexData.works[1].chapterName, 'Apocryphon of James');
   assert.equal(parseRangeLabel('2, 7-1, 3'), null);
-  assert.equal(parseEnglishSections('Title (1, 1-1, 8)\nBody line')[0].subtitle, 'Title');
+  assert.equal(parseEnglishSections('Title (1, 1-1, 8)\\nBody line')[0].subtitle, 'Title');
 }
 
 async function runExtractionTests() {
