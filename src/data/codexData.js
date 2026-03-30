@@ -19,6 +19,30 @@ export const codexData = {
     {
       "workLabel": "Tripartite Tractate",
       "sourceTitle": "THE TRIPARTITE TRACTATE"
+    },
+    {
+      "workLabel": "Apocryphon of John",
+      "sourceTitle": "THE SECRET BOOK OF JOHN"
+    },
+    {
+      "workLabel": "Gospel of Philip",
+      "sourceTitle": "THE GOSPEL OF PHILIP"
+    },
+    {
+      "workLabel": "Hypostasis of the Archons",
+      "sourceTitle": "THE NATURE OF THE RULERS"
+    },
+    {
+      "workLabel": "Origin of the World",
+      "sourceTitle": "ON THE ORIGIN OF THE WORLD"
+    },
+    {
+      "workLabel": "Exegesis on the Soul",
+      "sourceTitle": "EXEGESIS ON THE SOUL"
+    },
+    {
+      "workLabel": "Book of Thomas the Contender",
+      "sourceTitle": "THE BOOK OF THOMAS"
     }
   ],
   "works": [
@@ -29,22 +53,22 @@ export const codexData = {
       "sourceTitle": "THE PRAYER OF THE APOSTLE PAUL",
       "sections": [
         {
-          "title": "Prayer of Apostle Paul",
-          "subtitle": "Prayer of Apostle Paul",
-          "heading": "Prayer of Apostle Paul",
-          "rangeLabel": "1, 1-1, 40",
+          "title": "[문단 1] The Letter of James",
+          "subtitle": "[문단 1] The Letter of James",
+          "heading": "[문단 1] The Letter of James (1, 3-2, 10)",
+          "rangeLabel": "1, 3-2, 10",
           "range": {
             "start": {
               "page": 1,
-              "line": 1
+              "line": 3
             },
             "end": {
-              "page": 1,
-              "line": 40
+              "page": 2,
+              "line": 10
             }
           },
           "english": "......\nGrant me your [mercy].\n[My] Redeemer, redeem me,\nfor [I am] yours;\nI have come from [you].\nYou are [my] mind:\nbring me forth.\nYou are my treasury:\nopen for me.\nYou [are] my fullness:\naccept me.\nYou are <my> rest:\ngive me incomprehensible perfection.\nI call upon you,\nyou who exist and preexisted, in the name exalted above every name,\nthrough Jesus Christ,\n[Lord] of lords,\nKing of the eternal realms.\nGive me your gifts, with no regret, through the Son of Humanity,\nthe Spirit,\nthe Advocate of [truth].\nGive me authority, [I] ask of you, give [healing]\nfor my body, since I ask you\nthrough the preacher of the gospel,\nand redeem my eternal enlightened soul and my spirit, and disclose to my\nmind the firstborn of the fullness of grace.\nGrant what eyes of angels have not [seen], what ears of rulers have not\nheard, and what has not arisen in the human heart,\nwhich became angelic,\nmade in the image of the animate God\nwhen it was formed in the beginning.\nI have faith and hope.\nAnd bestow upon me\nyour beloved, chosen, blessed majesty, the firstborn, the first-begotten,\nthe [wonderful] mystery of your house.\n[For] yours is power and glory and praise and greatness,\nforever and ever.\n[Amen].",
-          "coptic": "(ⲁ) [ⲡⲉⲕⲟⲩ]ⲁⲉⲓⲛ ⲙⲁϯ ⲛⲏⲓ ⲙⲡⲉⲕ[ⲛⲁⲉ ⲡⲁ]‐\n(ⲁ) [ⲣⲉϥⲥ]ⲱⲧⲉ ⲥⲱⲧ[ⲉ] ⲙ̅ⲙⲁⲉⲓ ϫⲉ\n(ⲁ) [ⲁⲛⲁⲕ] ⲡⲉⲧⲉ ⲡⲱⲕ’ ⲡ[ⲉⲛⲧ]ⲁϩⲓ̈ⲉⲓ ⲁⲃⲁⲗ·\n(ⲁ) [ϩ]ⲓⲧⲟ[ⲟⲧⲕ] ⲛ̅ⲧⲁⲕ ⲡ[ⲉ ⲡⲁⲛ]ⲟⲩⲥ ⲙⲁϫⲡⲁⲓ̈\n(ⲁ) ⲛ̅ⲧⲁⲕ ⲡⲉ ⲡⲁⲉϩⲟ ⲟⲩⲏ[ⲛ] ⲛⲏⲓ̈ ⲛ̅ⲧⲁⲕ\n(ⲁ) [ⲡ]ⲉ ⲡⲁⲡⲗⲏⲣⲱⲙⲁ ϣⲁⲡⲧ̅ ⲁⲣⲁⲕ ⲛ̅‐\n(ⲁ) [ⲧⲁⲕ] ⲡⲉ ⲧ〈ⲁ〉ⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲙⲁϯ ⲛⲏⲉⲓ ⲙ̅‐\n(ⲁ) [ⲡⲧ]ⲉⲗⲉⲓⲟⲛ ⲡⲉⲧⲉⲙⲁⲣⲟⲩϣ ⲉⲙⲁϩ‐\n(ⲁ) [ⲧⲉ] ⲙ̅ⲙⲁϥ §ϯⲧⲱⲃϩ̅ ⲙ̅ⲙⲁⲕ ⲡⲉⲧϣⲟ‐\n(ⲁ) [ⲟⲡ] ⲁⲩⲱ ⲡⲉⲧϣⲣⲡ̅ ϣⲟⲟⲡ ϩⲙ̅ ⲡⲣⲉⲛ\n(ⲁ) [ⲉⲧϫ]ⲁⲥⲓ ⲁⲣⲉⲛ ⲛⲓⲙ ϩⲓ̈ⲧⲛ ⲓⲏ(ⲥⲟⲩ)ⲥ ⲡⲉⲭ(ⲣⲓⲥⲧⲟ)ⲥ\n(ⲁ) [ⲡϫⲁⲉⲓ]ⲥ· ⲛ̅ⲛⲓϫⲁⲉⲓⲥ ⲡⲣ̅ⲣⲟ ⲛ̅ⲛⲁⲓⲱⲛ\n(ⲁ) [ⲙⲁϯ] ⲛⲏⲓ̈ ⲛⲛⲉⲕϯ· ⲉⲧⲉⲙⲁⲕⲣ̅ ϩⲧⲏⲕ\n(ⲁ) [ⲁⲣⲁⲟⲩ] ϩⲓ̈ⲧⲛ̅ ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ\n(ⲁ) [ⲡⲉⲡⲛⲉ]ⲩⲙⲁ ⲡⲡⲁⲣⲁⲕⲗⲏⲧⲟⲥ ⲛ̅‐\n(ⲁ) [ⲧⲙⲉ ⲙ]ⲁ[ ]ϯ ⲛⲏⲉⲓ ⲛ̅ⲧⲉⲕⲝⲟⲩⲥⲓⲁ\n(ⲁ) [ⲉⲉⲓ]ⲣ̅ ⲁⲓⲧⲓ ⲙ̅ⲙⲁⲕ· ⲙⲁϯ ⲛ̅ⲛⲟⲩ‐\n(ⲁ) [ⲧⲁⲗ]ϭⲟ ⲙ̅ⲡⲁⲥⲱⲙⲁ· ϩⲱⲥ ⲉⲉⲓⲣ̅ ⲁⲓⲧⲓ\n(ⲁ) [ⲙⲙⲁ]ⲕ· ϩⲓ̈ⲧⲛ̅ ⲡⲉⲩⲁⲅ·ⲅⲉⲗⲓⲥⲧⲏⲥ\n(ⲁ) [ⲛⲅ]ⲥⲱⲧⲉ ⲛ̅ⲧⲁⲯⲩⲭⲏ· ⲛ̅ⲟⲩⲁⲉⲓⲛ\n(ⲁ) [ϣⲁ ⲉ]ⲛⲏϩⲉ ⲙⲛ̅ ⲡⲁⲡⲛ{ⲉⲩⲙ}ⲁ ⲁⲩⲱ ⲡϣ[ⲣⲡ]\n(ⲁ) [ⲙⲙ]ⲓⲥⲉ ⲙ̅ⲡⲡⲗⲏⲣⲱⲙⲁ· ⲛ̅ⲧⲭⲁⲣⲓ[ⲥ]\n(ⲁ) [ϭⲁⲗ]ⲡϥ ⲁⲡⲁⲛⲟⲩⲥ· §ⲉⲣⲓ ⲭⲁⲣⲓⲍⲉ ⲛ̅‐\n(ⲁ) [ⲧⲁⲕ] ⲙ̅ⲡⲉⲧⲉⲛ̅ⲡⲉⲃⲉⲗ ⲛ̅ⲁⲅ·ⲅⲉⲗⲟⲥ\n(ⲁ) [ⲛⲉ]ⲩ ⲁⲣⲁϥ ⲁⲩⲱ ⲡⲉⲧⲉⲙ̅〈ⲡⲉ〉ⲙⲉϣϫⲉ\n(ⲁ) [ⲛⲁ]ⲣⲭⲱⲛ ⲥⲁⲧⲙⲉϥ ⲁⲩⲱ ⲡⲉⲧⲉ‐\n(ⲁ) ⲙ[ⲡ]ϥ̅{ⲉ̅ⲓ} ⲁϩⲣⲏⲓ ϩⲙ̅ ⲫⲏⲧ· ⲛ̅ⲣⲱⲙⲉ\n(ⲁ) ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ\n(ⲁ) ⲕⲁⲧⲁ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲙ̅ⲯⲩ‐\n(ⲁ) ⲭⲓⲕⲟⲥ ⲛ̅ⲧⲁⲣⲟⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲁϥ\n(ⲁ) ϫⲓⲛ ⲛ̅ϣⲁⲣⲡ̅ ϩⲱⲥ ⲉⲟⲩⲛⲧⲏⲉⲓ\n(ⲁ) ⲙ̅ⲙⲉⲩ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲛ̅ⲑⲉⲗⲡⲓⲥ\n(ⲁ) ⲛ̅ⲅⲟⲩⲱϩ ⲁⲧⲟⲟⲧ· ⲙ̅ⲡⲉⲕⲙⲉⲅⲉ‐\n(ⲁ) ⲑⲟⲥ ⲛ̅ⲁⲅⲁⲡⲏⲧⲟⲥ ⲛ̅ⲉⲕⲗⲉ‐\n(ⲁ) ⲕⲧⲟⲥ ⲛ̅ⲉⲩⲗⲟⲅⲏⲧⲟⲥ ⲡϣⲣⲡ̅\n(ⲁ) ⲙ̅ⲙⲓⲥⲉ ⲡϣⲣⲡ̅ ⲛ̅ⲅⲉⲛⲟⲥ·\n§[ⲓⲁⲕⲕⲱⲃⲟⲥ ⲡ]ⲉⲧ[ⲥϩ]ⲉⲉⲓ ⲙ̅‐\n[‐‐‐]ⲑⲟⲥ ϯⲣⲏⲛⲉ\n[ⲛⲉⲕ ⲁⲃⲁⲗ ϩⲛⲛ] ⲟⲩⲉⲓⲣⲏⲛⲏ\nⲟⲩ[ⲁⲅⲁⲡⲏ ⲁⲃⲁⲗ ϩ]ⲛ̅ ⲟⲩⲁⲅⲁⲡⲏ\nⲟⲩⲭ[ⲁⲣⲓⲥ ⲁⲃⲁⲗ ϩ]ⲛⲛ ⲟⲩⲭⲁⲣⲓⲥ\nⲟⲩⲡ[ⲓⲥⲧⲓⲥ ⲁⲃ]ⲁⲗ ϩⲛ ⲟⲩⲡⲓⲥⲧⲓⲥ\nⲟⲩⲱⲛϩ̅ ⲁⲃⲁⲗ ϩⲛ̅ ⲟⲩⲱⲛϩ̅\nⲉϥⲟⲩⲁⲁϥ· §ⲉⲡⲓⲇⲏ ⲁⲕⲣ̅ ⲁ‐\nⲝⲓⲟⲩ ⲙⲙⲁⲉⲓ· ⲁⲧⲣⲁⲧⲛ̅‐\nⲛⲁⲩ ⲛⲉⲕ ⲛ̅ⲟⲩⲁⲡⲟⲕⲣⲩⲫⲟⲛ\nⲉⲁⲩϭⲁⲗⲡ̅〈ϥ〉 ⲁⲃⲁⲗ ⲛ̅ⲛⲏⲉⲓ·\nⲙⲛ ⲡⲉⲧⲣⲟⲥ ϩⲓ̈ⲧⲙ̅ ⲡϫⲁⲓ̈ⲥ\n[ⲙ]ⲡⲓϭⲙ̅ϭⲁⲙ ⲙⲉⲛ· ⲛ̅ⲧⲥⲧⲁⲕ\n[ⲁ]ⲃⲁⲗ ⲟⲩⲧⲉ ⲛ̅ϣⲉϫⲉ ϩⲁⲣⲁⲕ\n[ⲁϩⲓⲥⲁ]ϩϥ̅ ⲇⲉ ϩⲛ̅ ϩⲉⲛⲥϩⲉⲉⲓ·\nⲙⲙⲛ̅ⲧϩⲉⲃⲣⲁⲓⲟⲓⲥ ⲁϩⲓ̈‐\nⲧⲛ̅ⲛⲁⲟⲩϥ ⲛⲉⲕ· ⲛⲉⲕ ⲙⲉⲛ\nⲟⲩⲁⲉⲉⲧⲕ̅ ⲁⲗⲗⲁ ϩⲱⲥ ⲛⲧⲕ̅\nⲟⲩϩⲩⲡⲏⲣⲉⲧⲏⲥ ⲙ̅ⲡⲟⲩϫⲉ‐\nⲉⲓ̈· ⲛ̅ⲛⲉⲧⲟⲩⲁⲁϥ ⲉⲣⲓ ⲁⲡⲁⲧⲟ‐\nⲟⲧⲕ̅ ⲁⲩⲱ ⲛ̅ⲅⲁⲣⲏϩ· ⲁⲧⲙ̅ϫⲟⲩ\nⲙ̅ⲡⲓϫⲱⲙⲉ ⲁϩⲁϩ ⲡⲉⲉⲓ\nⲉⲧⲉ·ⲙ̅ⲡⲉⲡⲥⲱ(ⲧⲏ)ⲣ ⲟⲩⲱϣ·\n[ⲁ]ϫⲟⲟϥ ⲁⲣⲁⲛ ⲧⲏⲣⲛ̅ ⲡϥⲙⲛ̅ⲧ‐\nⲥⲛⲁⲩⲥ ⲙ̅ⲙⲁⲑⲏⲧⲏⲥ ⲥⲉⲛⲁ‐\nϣⲱⲡⲉ →ⲇⲉ← ⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ· ⲛ̅ϭⲓ\nⲛⲉⲧⲛⲁⲟⲩϫⲉⲉⲓ ϩⲣⲏⲓ̈ ϩⲛ̅\nⲧⲡⲓⲥⲧⲓⲥ ⲙ̅ⲡⲓⲗⲟⲅⲟⲥ· §ⲁϩⲓ̈‐\nⲧⲛ̅ⲛⲁⲩ ⲇⲉ ϣⲁⲣⲁⲕ ϩⲁⲑⲏ\nⲙ̅ⲙⲏⲧ ⲛ̅ⲉⲃⲁⲧ· ⲛ̅ⲕⲉⲁⲡⲟ‐\nⲕⲣⲩⲫⲟⲛ ⲉⲁϥϭⲁⲗⲡϥ̅ ⲛⲏⲓ̈\nⲁⲃⲁⲗ ⲛϭⲓ ⲡⲥⲱⲧⲏⲣ· ⲁⲗⲗⲁ\nⲡⲏ ⲙⲉⲛ ⲙⲉⲩⲉ ⲁⲣⲁϥ ϩⲓ̈\nⲛⲉⲉⲓ̅· ϩⲱⲥ ⲛ̅ⲧⲁϩⲟⲩϭⲁⲗⲡϥ̅\nⲁⲣⲁⲓ̈ ⲓ̈ⲁⲕⲱⲃⲟⲥ· ⲡⲉⲉⲓ ⲛ̅"
+          "coptic": "[ⲡⲉⲕⲟⲩ]ⲁⲉⲓⲛ ⲙⲁϯ ⲛⲏⲓ ⲙⲡⲉⲕ[ⲛⲁⲉ ⲡⲁ]‐\n[ⲣⲉϥⲥ]ⲱⲧⲉ ⲥⲱⲧ[ⲉ] ⲙ̅ⲙⲁⲉⲓ ϫⲉ\n[ⲁⲛⲁⲕ] ⲡⲉⲧⲉ ⲡⲱⲕ’ ⲡ[ⲉⲛⲧ]ⲁϩⲓ̈ⲉⲓ ⲁⲃⲁⲗ·\n[ϩ]ⲓⲧⲟ[ⲟⲧⲕ] ⲛ̅ⲧⲁⲕ ⲡ[ⲉ ⲡⲁⲛ]ⲟⲩⲥ ⲙⲁϫⲡⲁⲓ̈\nⲛ̅ⲧⲁⲕ ⲡⲉ ⲡⲁⲉϩⲟ ⲟⲩⲏ[ⲛ] ⲛⲏⲓ̈ ⲛ̅ⲧⲁⲕ\n[ⲡ]ⲉ ⲡⲁⲡⲗⲏⲣⲱⲙⲁ ϣⲁⲡⲧ̅ ⲁⲣⲁⲕ ⲛ̅‐\n[ⲧⲁⲕ] ⲡⲉ ⲧ〈ⲁ〉ⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲙⲁϯ ⲛⲏⲉⲓ ⲙ̅‐\n[ⲡⲧ]ⲉⲗⲉⲓⲟⲛ ⲡⲉⲧⲉⲙⲁⲣⲟⲩϣ ⲉⲙⲁϩ‐\n[ⲧⲉ] ⲙ̅ⲙⲁϥ §ϯⲧⲱⲃϩ̅ ⲙ̅ⲙⲁⲕ ⲡⲉⲧϣⲟ‐\n[ⲟⲡ] ⲁⲩⲱ ⲡⲉⲧϣⲣⲡ̅ ϣⲟⲟⲡ ϩⲙ̅ ⲡⲣⲉⲛ\n[ⲉⲧϫ]ⲁⲥⲓ ⲁⲣⲉⲛ ⲛⲓⲙ ϩⲓ̈ⲧⲛ ⲓⲏ(ⲥⲟⲩ)ⲥ ⲡⲉⲭ(ⲣⲓⲥⲧⲟ)ⲥ\n[ⲡϫⲁⲉⲓ]ⲥ· ⲛ̅ⲛⲓϫⲁⲉⲓⲥ ⲡⲣ̅ⲣⲟ ⲛ̅ⲛⲁⲓⲱⲛ\n[ⲙⲁϯ] ⲛⲏⲓ̈ ⲛⲛⲉⲕϯ· ⲉⲧⲉⲙⲁⲕⲣ̅ ϩⲧⲏⲕ\n[ⲁⲣⲁⲟⲩ] ϩⲓ̈ⲧⲛ̅ ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ\n[ⲡⲉⲡⲛⲉ]ⲩⲙⲁ ⲡⲡⲁⲣⲁⲕⲗⲏⲧⲟⲥ ⲛ̅‐\n[ⲧⲙⲉ ⲙ]ⲁ[ ]ϯ ⲛⲏⲉⲓ ⲛ̅ⲧⲉⲕⲝⲟⲩⲥⲓⲁ\n[ⲉⲉⲓ]ⲣ̅ ⲁⲓⲧⲓ ⲙ̅ⲙⲁⲕ· ⲙⲁϯ ⲛ̅ⲛⲟⲩ‐\n[ⲧⲁⲗ]ϭⲟ ⲙ̅ⲡⲁⲥⲱⲙⲁ· ϩⲱⲥ ⲉⲉⲓⲣ̅ ⲁⲓⲧⲓ\n[ⲙⲙⲁ]ⲕ· ϩⲓ̈ⲧⲛ̅ ⲡⲉⲩⲁⲅ·ⲅⲉⲗⲓⲥⲧⲏⲥ\n[ⲛⲅ]ⲥⲱⲧⲉ ⲛ̅ⲧⲁⲯⲩⲭⲏ· ⲛ̅ⲟⲩⲁⲉⲓⲛ\n[ϣⲁ ⲉ]ⲛⲏϩⲉ ⲙⲛ̅ ⲡⲁⲡⲛ{ⲉⲩⲙ}ⲁ ⲁⲩⲱ ⲡϣ[ⲣⲡ]\n[ⲙⲙ]ⲓⲥⲉ ⲙ̅ⲡⲡⲗⲏⲣⲱⲙⲁ· ⲛ̅ⲧⲭⲁⲣⲓ[ⲥ]\n[ϭⲁⲗ]ⲡϥ ⲁⲡⲁⲛⲟⲩⲥ· §ⲉⲣⲓ ⲭⲁⲣⲓⲍⲉ ⲛ̅‐\n[ⲧⲁⲕ] ⲙ̅ⲡⲉⲧⲉⲛ̅ⲡⲉⲃⲉⲗ ⲛ̅ⲁⲅ·ⲅⲉⲗⲟⲥ\n[ⲛⲉ]ⲩ ⲁⲣⲁϥ ⲁⲩⲱ ⲡⲉⲧⲉⲙ̅〈ⲡⲉ〉ⲙⲉϣϫⲉ\n[ⲛⲁ]ⲣⲭⲱⲛ ⲥⲁⲧⲙⲉϥ ⲁⲩⲱ ⲡⲉⲧⲉ‐\nⲙ[ⲡ]ϥ̅{ⲉ̅ⲓ} ⲁϩⲣⲏⲓ ϩⲙ̅ ⲫⲏⲧ· ⲛ̅ⲣⲱⲙⲉ\nⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ\nⲕⲁⲧⲁ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲙ̅ⲯⲩ‐\nⲭⲓⲕⲟⲥ ⲛ̅ⲧⲁⲣⲟⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲁϥ\nϫⲓⲛ ⲛ̅ϣⲁⲣⲡ̅ ϩⲱⲥ ⲉⲟⲩⲛⲧⲏⲉⲓ\nⲙ̅ⲙⲉⲩ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲛ̅ⲑⲉⲗⲡⲓⲥ\nⲛ̅ⲅⲟⲩⲱϩ ⲁⲧⲟⲟⲧ· ⲙ̅ⲡⲉⲕⲙⲉⲅⲉ‐\nⲑⲟⲥ ⲛ̅ⲁⲅⲁⲡⲏⲧⲟⲥ ⲛ̅ⲉⲕⲗⲉ‐\nⲕⲧⲟⲥ ⲛ̅ⲉⲩⲗⲟⲅⲏⲧⲟⲥ ⲡϣⲣⲡ̅\nⲙ̅ⲙⲓⲥⲉ ⲡϣⲣⲡ̅ ⲛ̅ⲅⲉⲛⲟⲥ·\nⲙⲛ ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ [ⲛ̅ϣⲡⲏ]‐\nⲣⲉ· ⲙ̅[ⲡ]ⲉⲕⲏⲉⲓ ⲁ[ⲃⲁⲗ ϫⲉ]\nⲡⲱⲕ [ⲡ]ⲉ ⲡⲉⲙⲁϩⲧ[ⲉ] ⲁ[ⲩⲱ]\nⲡⲉⲁⲩ ⲁⲩⲱ ⲧⲉⲕⲝⲟⲙ[ⲟ]‐\nⲗⲟⲅⲏⲥⲓⲥ ⲙⲛ̅ ⲧⲙⲛ̅ⲧⲛ[ⲁ]ϭ\nϣⲁ ⲉⲛⲏϩⲉ ⲛ̅ⲉⲛⲏϩⲉ [ϩⲁⲙⲏⲛ]\n§ⲡⲣⲟⲥⲉⲩⲭⲏ ⲡⲁ[ⲩⲗⲟⲩ]\nⲁⲡⲟⲥⲧⲟⲗⲟⲩ\nⲉⲛ ⲉⲓⲣⲏⲛⲏ\nⲟ x(ⲓⲥⲧⲟⲥ) ⲁⲅⲓⲟⲥ"
         }
       ]
     },
@@ -1607,6 +1631,6870 @@ export const codexData = {
           },
           "english": "After thus having listened to it well, he placed the lights that <constitute> the\nstarting point <of> the structure over the organization of the things below. The\ninvisible spirit moved him in such a way that he too desired to administer\nan economy by means of a servant of his own, one that he also could make use\nof like a hand and a <mouth>, and as if he had a face. What he brought forth\n<were> order, threats, and fear, so that those who had been acting without\ninstruction…should hold the position [they had been assigned to] keep, being\nfettered to their places by [the chains of the] rulers who are over them.\nThe whole constitution of matter [is] divided into three parts. The [first]\npowers, which the spiritual Word brought forth by illusion and presumption, he\nplaced in the first, spiritual rank. The ones that these brought forth, moreover,\nthrough lust for dominion, he placed in the middle region, since they, [then],\n<were> powers of lust for dominion, so that they might rule and command the\nestablishment under them with compulsion and violence. Those, finally, who had\ncome into being from envy and jealousy, and all the other progeny from this kind\nof disposition, he placed as a servant order controlling the last things and\ncommanding all existing things and all procreation. From these derive the\ndiseases that instantly destroy, and they are also impatient to procreate, although\ntheir existence is nothing in the place they have issued from and to which they\nwill once more return. Because of that, he placed over them commanding powers\nthat continuously work on matter to ensure that the offspring that come\ninto being may also have durability. For this is their glory.",
           "coptic": "ⲛ̅ϫⲁⲉⲓⲥ· ⲡⲉⲛⲧⲁϩⲕⲟⲟⲩⲉ §ϫⲉ\nⲙⲛ̅ⲛ̅·ⲥⲁ ⲧⲣⲉϥⲥⲁⲧⲁⲙ̅ ⲁⲣⲁϥ\nⲙ̅ⲡⲓⲣⲏⲧⲏ· ⲕⲁⲗⲱⲥ ⲁⲛⲓⲟⲩⲁⲉⲓ\nⲛⲉ ⲛⲁⲉⲓ· ⲉⲧⲉ ϯⲕⲁⲧⲁⲣⲭⲏ\nⲙⲛ̅ ϯⲥⲩⲥⲧⲁⲥⲓⲥ ⲁϥⲕⲁⲁⲩ ⲁϫⲛ̅\nⲡⲓⲧⲥⲁⲉⲓⲱ͂ ⲛ̅ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲛⲡⲓⲧⲛ̅\nⲁϥⲕⲓⲙ ⲁⲣⲁϥ ⲙ̅ⲡⲓⲣⲏⲧⲉ· ⲛ̅ϭⲓ ⲡⲛⲉⲩ‐\nⲙⲁ· ⲛ̅ⲛⲁⲧⲛ̅ⲛⲉⲩ ⲁ[ⲣⲁϥ] ⲁⲧⲣⲉϥ‐\nⲟⲩⲱϣⲉ ⲁⲛ ⲁⲣ̅ ⲟⲓⲕⲟⲛⲟⲙⲓ ⲁⲃⲁⲗ ϩ[ⲓ]‐\nⲧⲛ̅ ⲡⲓⲣⲉϥϣⲙ̅ϣⲉ· ⲛ̅ⲧⲉϥ ϩⲱⲱϥ ⲡⲁ‐\nⲉⲓ ⲉⲛⲧⲁϥⲣ̅ ⲭⲣⲁⲥⲑⲁⲓ· ⲙ̅ⲙⲟϥ ϩⲱ‐\nⲱϥ ⲁⲛ ⲙ̅ⲡⲣⲏⲧⲏ ⲛ̅ⲛⲟⲩϭⲓϫ· ⲁⲩⲱ\nⲙ̅ⲡⲣⲏⲧⲉ ⲛ̅ⲛⲟⲩ{ⲣ̅}ⲣⲟ· ⲁⲩⲱ ⲙ̅ⲡⲣⲏⲧⲏ\nⲉⲩⲛ̅ ϩⲱ ϩⲁⲧⲏϥ ⲛⲉⲉⲓ· ⲉⲧϥ̅ⲉⲓⲛⲉ ⲙ‐\nⲙⲁⲩ ⲟⲩⲧⲁⲝⲓⲥ ⲙⲛ̅ⲛ ⲟⲩⲁⲡⲓⲗⲏ ⲁ[ⲩⲱ]\nⲟⲩϩⲣ̅ⲧⲉ· ϫⲉⲕⲁⲥⲉ ⲛⲁⲉⲓ ⲉⲛⲧⲁϥ[ⲉⲓ]‐\nⲣⲉ ⲛ̅ⲛⲟⲩⲙⲛ̅ⲧⲁⲧⲥⲃⲱ· ⲛ[ⲙⲙⲉⲩ ⲉⲩ]‐\nⲛⲁϣⲱⲥ· 〈ⲧ〉ⲧⲁⲝⲓⲥ ⲉⲛⲧⲁ[ⲩⲧⲉⲉⲓⲥ ⲁⲧⲟⲩ]‐\nⲁⲣⲏϩ ⲁⲣⲁⲥ· ⲉⲩⲥⲁⲛϩ̅· ⲛ̅ⲛⲥ[ⲛⲁϩ ⲛ̅]‐\n[ⲛⲁ]ⲣⲭⲱⲛ· ⲉⲧϩⲓ̈ϫⲱⲟⲩ· ϩⲛ̅ⲛ ⲟⲩⲙⲛ[ⲧ]‐\n[ⲧⲱ]ⲥ §ⲡⲧⲱⲕ ⲁⲣⲉⲧϥ̅ ⲧⲏⲣϥ̅ ⲛ̅ⲇⲉ ϯϩⲩ[ⲗⲏ]\n[ϥⲡ]ⲁϣ· ⲁϣⲟⲙⲛ̅ⲧ· ⲛⲓϭⲟⲙ ⲙⲉⲛ [ⲉⲧϫⲟ]‐\n[ⲟⲣ] ⲛⲁⲉⲓ ⲉⲛⲧⲁⲡⲗⲟⲅⲟⲥ ⲙ̅ⲡⲛ(ⲉⲩⲙ)ⲁ[ⲧⲓⲕⲟⲥ]\nⲛ[ⲧⲟ]ⲩ ⲁⲃⲁⲗ· ⲕⲁⲧⲁ ⲟⲩⲫⲁⲛⲧⲁⲥ[ⲓⲁ]\nⲙⲛ̅[ⲛ] ⲟⲩⲙⲛ̅ⲧϫⲁⲥⲓϩⲏⲧ· ⲁϥⲕⲁ[ⲁⲩ]\nϩⲛ̅ ⲧϣⲁⲣⲡ̅ ⲛ̅ⲧⲁⲝⲓⲥ· ⲙ̅ⲡⲛ(ⲉⲩⲙ)ⲁⲧⲓⲕⲟ[ⲛ]\nⲛⲉⲧⲁϩⲁⲛⲉⲉⲓ ϭⲉ ⲛ̅ⲧⲟⲩ ⲁⲃⲁⲗ ϩⲛ̅ ϯ‐\nⲙⲛ̅ⲧⲙⲁⲉⲓⲟⲩⲉϩ ⲥⲁϩⲛⲉ· ⲁϥⲕⲁⲁⲩ\nϩⲛ̅ ⲧⲭⲱⲣⲁ· ⲛ̅ⲧⲙⲏⲧⲉ· ⲉϩⲛ̅ϭⲟⲙ ⲛ[ⲉ]\nⲛ̅·ⲙⲛ̅ⲧⲙⲁⲉⲓⲟⲩⲉϩ ⲥⲁϩⲛⲉ· ⲁⲧⲣⲟⲩ[ⲣ]\nϫⲁⲉⲓⲥ ⲁⲩⲱ ⲛⲥⲉⲟⲩⲉϩ ⲥⲁϩⲛⲉ ⲙ̅[ⲡ]‐\nⲧⲉϩⲟ ⲁⲣⲉⲧϥ̅ ⲉⲧϩⲓ̈ ⲥⲁ ⲛⲡⲓⲧⲛ̅ ⲙⲛ [ⲟⲩ]‐\nⲁⲛⲁⲅⲕⲏ· ⲙⲛ̅ ⲟⲩϫⲛ̅ϫⲛⲁⲁϩ· ⲛⲉⲉⲓ ⲇⲉ·\nⲛ̅ⲧⲁϩϣⲱⲡⲉ· ⲁⲃⲁⲗ ϩⲛ̅ ⲡⲓⲫⲑⲟⲛⲟⲥ\nⲙⲛ̅ ⲡⲓⲕⲱϩ· ⲙⲛ̅ ⲛⲓⲕⲉϫⲡⲟ ⲧⲏⲣⲟⲩ\nⲁⲃⲁⲗ ϩⲛ̅ ⲛⲓⲧⲱϣⲉ ⲙ̅ⲡⲓⲣⲏⲧⲉ ⲁϥⲕⲁⲩ‐\nⲉ ⲛ̅ⲛⲟⲩⲧⲁⲝⲓⲥ ⲛⲣⲉϥϣⲙ̅ϣⲉ ⲉⲩⲁ‐\nⲙⲁϩⲧⲉ· ⲛ̅ⲛϩⲁⲉⲟⲩ· ⲉⲩⲟⲩⲁϩ ⲥⲁϩⲛⲉ\nⲛ̅ⲛⲉⲧϣⲟⲟⲡ· ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲡⲓⲙⲓⲥⲉ ⲧⲏⲣ[ϥ]\nⲛⲉⲉⲓ ⲉⲧⲉ ⲁⲃⲁⲗ ϩⲓ̈ⲧⲟⲟⲧⲟⲩ ⲛⲉ ⲛⲓϣⲱ‐\nⲛⲉ· ⲉϩⲛ̅ⲣⲉϥⲧⲉⲕⲟ· ⲥⲉⲧⲟⲟⲧⲟⲩ ⲛⲉ· ⲉⲩ‐\nⲉⲗⲱⲗ· ⲁϫⲛ̅ⲛ ⲟⲩϫⲡⲟ ⲉⲩϣⲟⲟⲡ ⲁⲩ‐\nⲗⲁⲩⲉ ⲙ̅ⲡⲙⲁ ⲉⲧⲉ ϩⲛ̅ⲁⲃⲁⲗ ⲙ̅ⲙⲁϥ\nⲛⲉ· ⲁⲩⲱ ⲉⲩⲛⲁⲛⲁⲩϩⲟⲩ· ⲁⲛ ⲁⲣⲁϥ\nⲁⲩⲱ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁϥⲕⲱⲉ ⲁϩⲣⲏⲓ̈ ⲁϫⲱ‐\nⲟⲩ ⲛ̅ϩⲛ̅ϭⲟⲙ ⲛ̅ⲣⲉϥⲟⲩⲁϩ ⲥⲁϩⲛⲉ ⲉⲩⲣ̅\nϩⲱⲃ ⲉⲩ[ⲙ]ⲏⲛ ⲁⲧϩⲩⲗⲏ· ϫⲉⲕⲁⲥⲉ\nⲛ̅ϫⲡⲟ ⲛ̅ⲛⲉⲧϣⲱⲡⲉ· ⲉⲩⲛⲁϣⲱ‐\nⲡⲉ· ⲁⲛ ⲉⲩⲙⲏⲛ ⲡⲉⲉⲓ ⲅⲁⲣ ⲡⲉ ⲡⲟⲩ‐\nⲉⲁⲩ"
+        }
+      ]
+    },
+    {
+      "workId": "apocryphon-of-john",
+      "chapterName": "Apocryphon of John",
+      "title": "Codex II - Apocryphon of John",
+      "sourceTitle": "THE SECRET BOOK OF JOHN",
+      "sections": [
+        {
+          "title": "The Teaching of the Savior",
+          "subtitle": "The Teaching of the Savior",
+          "heading": "The Teaching of the Savior (1, 1-4)",
+          "rangeLabel": "1, 1-4",
+          "range": {
+            "start": {
+              "page": 1,
+              "line": 1
+            },
+            "end": {
+              "page": 1,
+              "line": 4
+            }
+          },
+          "english": "The teaching of the Savior, and [the revelation] of the mysteries [and the things]\nhidden in silence, things he taught his disciple John.",
+          "coptic": "ⲧⲉⲥⲃⲱ [ⲛ̅ⲧⲉ ⲡⲥⲱⲧⲏⲣ ⲁⲩⲱ] ⲡϭ[ⲱⲗ]ⲡ ⲉ‐\nⲃⲟⲗ ⲛⲙⲙ̅[ⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲛ̅ ⲛⲉ]ⲧϩⲏⲡ ϩⲛ̅ ⲟⲩ‐\nⲙⲛ̅ⲧ̅ⲕⲁⲣⲱϥ ⲙ[ⲛ̅ ⲛⲁⲓ̈ ⲉ]ⲛⲧⲁϥⲧⲥⲉⲃⲟⲟⲩ\nⲁⲓ̈ⲱϩⲁⲛⲛ[ⲏⲥ ⲡⲉϥⲙⲁ]ⲑⲏⲧⲏⲥ"
+        },
+        {
+          "title": "The Revealer Appears to John",
+          "subtitle": "The Revealer Appears to John",
+          "heading": "The Revealer Appears to John (1, 5-2, 25)",
+          "rangeLabel": "1, 5-2, 25",
+          "range": {
+            "start": {
+              "page": 1,
+              "line": 5
+            },
+            "end": {
+              "page": 2,
+              "line": 25
+            }
+          },
+          "english": "One day when John the brother of James, who are the sons of Zebedee, went up\nto the temple, it happened that a Pharisee named Arimanios came up to him and\nsaid to him, “Where is your teacher, whom you followed?”\nI said to him, “He has returned to the place he came from.”\nThe Pharisee said to me, “This Nazarene really has deceived you, filled your\nears with lies, closed [your minds], and turned you from the traditions of your\nancestors.”\nWhen I, John, heard this, I turned away from the temple and went to a\nmountainous and barren place. I was distressed within, and I asked how the\nSavior was chosen:\nWhy was he sent into the world by his Father?\nWho is his Father who sent him?\nTo what kind of eternal realm shall we go?\nAnd why did he tell us, when he spoke,\nthat this eternal realm [to which we shall go]\nis modeled after the incorruptible realm,\nbut he did not teach us what kind of aeon that one is?\nAt the moment I was thinking about this, look, the heavens opened, all\ncreation under heaven lit up, and the world shook. I was afraid, and look, I\nsaw within the light [someone standing] by me. As I was looking, it seemed to\nbe an elderly person. Again it changed its appearance to be a youth. Not that\nthere were several figures before me. Rather, there was a figure with several\nforms within the light. These forms were visible through each other, and the\nfigure had three forms.\nThe figure said to me, “John, John, why are you doubting? Why are you\nafraid? Aren’t you familiar with this figure? Then do not be fainthearted. I am\nwith you always. I am [the Father], I am the Mother, I am the Child. I am the\nincorruptible and the undefiled one. [Now I have come] to teach you what is,\nwhat [was], and what is going to come, that you may [understand] what is\ninvisible and what is visible; and to teach you about the [unshakable generation\nof] the perfect [human]. So now, lift up your [head] that you may [hear] the\nthings I shall tell you today, and that you may relate them to your spiritual\nfriends who are from the unshakable generation of the perfect human.”",
+          "coptic": "ⲁⲥϣⲱⲡⲉ [ⲇⲉ] ⲛ̅ⲟⲩ[ϩⲟ]ⲟⲩ ⲛ̅ⲧⲁⲣⲉϥⲉⲓ ⲉϩ‐\nⲣⲁⲓ̈ ⲛ̅ϭⲓ ⲓ̈ⲱ[ϩⲁⲛⲛ]ⲏⲥ [ⲡⲥⲟⲛ] ⲛ̅ⲓⲁⲕⲱⲃⲟⲥ ⲉⲧⲉ\nⲛⲁⲓ̈ ⲛⲉ ⲛ̅ϣⲏ[ⲣⲉ] ⲛ̅ⲍⲉ[ⲃⲉⲇ]ⲁⲓⲟⲥ ⲁϥⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉ‐\nⲡⲉⲣⲡⲉ ⲁϥϯ ⲡⲉϥⲟ[ⲩⲟ]ⲉⲓ ⲉⲣⲟϥ’ ⲛ̅ϭⲓ ⲟⲩ[ⲫⲁ]ⲣⲓ‐\nⲥⲁⲓⲟⲥ ⲉⲡⲉϥⲣⲁⲛ ⲡ[ⲉ ϫⲉ] ⲁⲣⲓⲙⲁⲛⲓⲟⲥ ⲁⲩ[ⲱ]\nⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲉϥⲧⲱⲛ ⲡⲉⲕⲥⲁϩ ⲡⲁⲓ̈ ⲉ[ⲧⲁ]‐\nⲕⲟⲩⲏϩ ⲛ̅ⲥⲱϥ ⲁⲩⲱ ⲡ[ⲉϫⲁ]ϥ ⲛⲁϥ [ϫ]ⲉ ⲡⲙ[ⲁ ⲉ]‐\nⲧⲁϥⲉⲓ ⲛ̅ϩⲏⲧϥ ⲁϥⲃⲱ[ⲕ ⲉⲣⲟϥ ⲡⲉϫⲁϥ ⲛⲁϥ’]\nⲛ̅ϫⲉ ⲡⲉⲫⲁⲣⲓⲥⲁⲓⲟⲥ [ϫⲉ ϩⲛ̅ ⲟⲩⲡⲗⲁⲛⲏ ⲁϥⲣ̅]‐\nⲡⲗⲁⲛⲁ ⲙ̅ⲙⲱⲧ[ⲛ̅] ⲛ̅ϭ[ⲓ ⲡⲉⲓ̈ⲛⲁⲍⲱⲣⲁⲓⲟⲥ]\nⲁⲩⲱ ⲁϥⲙⲁϩ [ⲛⲉⲧⲛ̅ⲙⲁⲁϫⲉ ⲛ̅ϩⲉⲛϭⲟⲗ]\nⲁⲩⲱ ⲁϥⲧⲱⲙ ⲛ̅[ⲛⲉⲧⲛ̅ϩⲏⲧ ⲁϥⲕⲧⲱⲧⲛ̅ ⲉ]‐\nⲃⲟⲗ’ ⲛ̅ⲙ̅ⲡⲁⲣⲁⲇ[ⲟⲥⲓⲥ ⲛ̅ⲛⲉⲧⲛ̅ⲉⲓⲟⲧⲉ ⲛ̅ⲧⲁⲣⲓ]‐\nⲥⲱ[ⲧⲙ̅] ⲉⲛⲁⲓ̈ ⲁⲛ[ⲟⲕ ⲓ̈ⲱϩⲁⲛⲛⲏⲥ ⲁⲓ̈ⲕⲱⲧⲉ]\nⲉⲃ[ⲟ]ⲗ ϩⲙ̅ ⲡⲉⲣⲡ[ⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲟⲩⲙⲁ ⲛ̅ϫⲁⲉⲓⲉ]\nⲁⲩⲱ ⲁⲓ̈ⲣ̅ⲗⲩⲡⲉ[ⲓ ⲛ̅ϩⲟⲩⲟ ϩⲙ̅ ⲡⲁϩⲏⲧ ⲉⲓ̈ϫⲱ]\nⲙ̅]ⲙⲟⲥ ⲉⲧⲃⲉ [ⲑⲉ ⲉⲧⲁⲩⲡⲱϣⲛ ⲙ̅ⲡⲥⲱⲧⲏⲣ]\nⲁⲩⲱ ϫⲉ ⲉⲧⲃⲉ[ⲟⲩ ⲁⲩⲧⲛ̅ⲛⲟⲟⲩϥ ⲉⲡⲕⲟⲥⲙⲟⲥ]\nⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉ[ϥⲉⲓⲱⲧ ⲁⲩⲱ ⲛⲓⲙ ⲡⲉ ⲡⲉϥ]‐\nⲉⲓⲱⲧ ⲉⲧⲁϩⲧ[ⲛ̅ⲛⲟⲟⲩϥ ⲁⲩⲱ ⲟⲩⲁϣ ⲛ̅ϩⲉ]\nⲡⲉ ⲡⲁⲓⲱⲛ ⲉ[ⲧⲙ̅ⲙⲁⲩ ⲡⲉⲧⲛ̅ⲛⲁⲃⲱⲕ ⲉⲣⲟϥ]\nⲟⲩ ⲅⲁⲣ ⲉϥϣ[ⲁϫⲉ ⲉⲧⲃⲏⲧϥ ⲁϥϫⲟⲟⲩ ⲁⲛ]\nϫⲉ ⲡⲓⲁⲓⲱⲛ ⲉⲧ[ⲛ̅ⲛⲁⲃⲱⲕ ⲉⲣⲟϥ ⲁϥϫⲓ ⲧⲩ]‐\nⲡⲟⲥ ⲙ̅ⲡⲁⲓⲱⲛ ⲛ̅[ⲁⲧⲧⲉⲕⲟ ⲁⲩⲱ ⲙ̅ⲡⲉϥⲧⲥⲉ]‐\nⲃⲟⲛ ⲉⲧⲃ[ⲉ ⲡⲉ]ⲧⲙ̅ⲙⲁⲩ ϫⲉ ⲟⲩⲁϣ ⲛ̅ϩⲉ ⲡⲉ]\nϩⲛ̅ ⲧⲟⲩⲛ[ⲟⲩ ⲛ̅ⲧⲁⲣⲓⲙⲉⲉⲩⲉ ⲉⲛⲁⲓ̈ ⲉⲓⲥϩⲏ]‐\nⲏⲧⲉ ⲁⲙ[ⲡⲏⲩⲉ ⲟⲩⲱⲛ ⲉⲃⲟⲗ ⲁⲩⲱ ⲛⲉⲥⲟ]\nⲛ̅ⲟⲩⲟⲉⲓⲛ [ⲛ̅ϭⲓ] ⲧⲕⲧⲓⲥ[ⲓⲥ ⲧⲏⲣⲥ ⲉⲧⲙ̅ⲡⲥⲁ]\nⲙ̅ⲡⲓⲧⲛ̅ ⲛ̅ⲧⲡⲉ ⲁⲩⲱ ⲁϥⲕⲓⲙ [ⲛ̅ϭⲓ ⲡⲕⲟⲥ]‐\n[ⲙⲟⲥ]\nⲁ[ⲓ̈ⲣ ϩⲟⲧⲉ ⲁⲩⲱ ⲉⲓⲥϩⲏⲏⲧⲉ ⲁⲓ̈]ⲛⲁⲩ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡⲟⲩⲟⲉⲓⲛ [ⲉⲩⲁⲗⲟⲩ ⲉⲧⲁϩⲁϩⲉ] ⲉⲣⲁⲧϥ ⲛⲁⲓ̈\nⲛ̅ⲧⲁⲣⲓⲛⲁ[ⲩ ⲉⲣⲟϥ ⲁϥϣⲱⲡ]ⲉ ⲉϥⲟ ⲛ̅ⲑⲉ ⲛ̅ⲟⲩ‐\nⲛⲟϭ ⲁⲩⲱ ⲛⲁϥⲕⲱ[ⲧⲉ ⲙ̅ⲡⲉ]ϥⲥⲙⲁⲧ ⲉϥⲟ ⲛ̅ⲑⲉ\nⲛ̅ⲟⲩϩⲁⲗ ⲛ̅ⲛⲁⲩ[ⲟ ⲛ̅ϩⲁϩ ⲁⲛ ⲙ̅]ⲡⲁⲙ̅ⲧⲟ ⲉⲃⲟⲗ\nⲁⲩⲱ ⲛⲉⲟⲩⲛ ⲟ[ⲩⲉⲓ]ⲛⲉ ⲉ[ϥⲟ ⲛ̅]ϩⲁϩ ⲙ̅ⲙⲟⲣⲫⲏ\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲟⲩⲟ[ⲉⲓⲛ] ⲁⲩⲱ ⲛ[ⲓⲥⲙⲁⲧ] ⲛⲁⲩⲟⲩⲟⲛϩ\nϩⲓⲧⲛ̅ ⲛⲉⲩⲉⲣⲏⲩ ⲁ[ⲩⲱ] ⲡⲉ[ⲥⲙⲁ]ⲧ’· ⲛⲁϥⲟ ⲛ̅ϣⲟ[ⲙ]‐\nⲧ[ⲉ] ⲙ̅ⲙⲟⲣⲫⲏ ⲡⲉϫ[ⲁϥ] ⲛⲁⲓ̈ ϫⲉ ⲓ̈ⲱϩⲁⲛⲛⲏ· ⲓ̈ⲱ‐\n[ϩⲁⲛ]ⲛⲏ· ⲉⲧⲃⲉ ⲟⲩ[ⲕⲣ̅ⲇⲓ]ⲥⲧⲁⲍⲉ ⲏ ⲉⲧⲃⲉ ⲟⲩ\n[ⲕⲟ] ⲛ̅ϩⲟⲧⲉ ⲙⲏ ⲛ̅[ⲧⲕ] ⲟⲩϣⲙ̅ⲙⲟ ⲁϯⲉⲓⲇⲉⲁ\n[ⲉ]ⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲙ̅ⲡ[ⲉⲣⲣ̅ ϩ]ⲏⲧ ϣⲏⲙ ⲁⲛⲟⲕ ⲡⲉⲧ‐\n[ϣⲟⲟⲡ ⲛⲙ̅ⲙⲏⲧⲏⲩⲧⲛ̅] ⲛ̅ⲟⲩⲟⲉⲓϣ ⲛⲓⲙ ⲁⲛⲟⲕ\n[ⲡⲉ ⲡⲉⲓⲱⲧ ⲁⲛⲟⲕ ⲡⲉ] ⲧⲙⲁⲁⲩ· ⲁⲛⲟⲕ ⲡⲉ ⲡϣⲏ‐\n[ⲣⲉ· ⲁⲛⲟⲕ ⲡⲉ ⲡⲓⲁⲧ]ⲧⲱⲗⲙ ⲁⲩⲱ ⲡⲓⲁⲧϫⲱϩⲙ\n[ⲧⲉⲛⲟⲩ ⲁⲓ̈ⲉⲓ ⲉⲧⲥⲉⲃ]ⲟⲕ [ϫ]ⲉ ⲟⲩ ⲡⲉⲧϣⲟⲟⲡ\n[ⲁⲩⲱ ⲟⲩ ⲡⲉⲧⲁϩϣⲱⲡⲉ ⲁⲩ]ⲱ [ⲟ]ⲩ ⲡⲉⲧϣⲉ ⲉ‐\n[ϣⲱⲡⲉ ϫⲉⲕⲁⲁⲥ ⲉⲕⲛⲁⲙ̅ⲙⲉ ⲉⲛ]ⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟ[ⲛϩ]\n[ⲁⲛ ⲙⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲁⲩⲱ ⲉⲧⲥⲉⲃⲟ]ⲕ’ ⲉⲧⲅⲉ[ⲛⲉⲁ]\n[ⲛ̅ⲁⲧⲕⲓⲙ ⲛ̅ⲧⲉ ⲡⲓⲧⲉⲗⲓⲟⲥ ⲛ̅ⲣⲱⲙⲉ ⲧ]ⲉⲛⲟⲩ‐\n[ϭⲉ ϥⲓ ⲙ̅ⲡⲉⲕϩⲟ ⲉϩⲣⲁⲓ̈ ⲉⲃⲟⲗ ϫⲉⲕⲁⲁ]ⲥ ⲉⲕⲛⲁ‐\n[ϫⲓ ⲛ̅ⲛⲉϯⲛⲁⲧⲥⲉⲃⲟⲟⲩ ⲉⲣⲟⲕ ⲙ̅]ⲡⲟⲟⲩ [ⲁ]ⲩ[ⲱ]\n[ⲛ̅ⲕⲧⲁⲩⲟⲩ ⲛ̅ⲛⲉⲕϣ̅ⲃ̅ⲣ̅ⲡ̅]̅̅̅ⲛ̅̅ⲁ̅ ⲛⲁⲓ̈ ⲉⲧϣ[ⲟⲟ]ⲡ\n[ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧⲕⲓⲙ] ⲛ̅ⲧⲉ ⲡⲓⲧⲉⲗⲓⲟⲥ\n[ⲛ̅ⲣⲱⲙⲉ ⲁⲩⲱ ⲁⲛⲟⲕ ⲁⲓ̈ϫⲛ]ⲟⲩⲥ ϫⲉⲕⲁⲁⲥ ⲉⲓ̈[ⲛⲁ]‐"
+        },
+        {
+          "title": "The One",
+          "subtitle": "The One",
+          "heading": "The One (2, 25-4, 19)",
+          "rangeLabel": "2, 25-4, 19",
+          "range": {
+            "start": {
+              "page": 2,
+              "line": 25
+            },
+            "end": {
+              "page": 4,
+              "line": 19
+            }
+          },
+          "english": "I asked if I might understand this, and it said to me, The One is a sovereign that\nhas nothing over it. It is God and Parent, Father of the All, the invisible one that\nis over the All, that is incorruptible, that is pure light at which no eye can gaze.\nThe One is the Invisible Spirit. We should not think of it as a god or like a\ngod. For it is greater than a god, because it has nothing over it and no lord\nabove it. It does not [exist] within anything inferior [to it, since everything]\nexists within it, [for it established] itself. It is eternal, since it does not need\nanything. For it is absolutely complete. It has never lacked anything in order to\nbe completed by it. Rather, it is always absolutely complete in light.\nThe One is\nillimitable, since there is nothing before it to limit it,\nunfathomable, since there is nothing before it to fathom it,\nimmeasurable, since there was nothing before it to measure it,\ninvisible, since nothing has seen it,\neternal, since it exists eternally,\nunutterable, since nothing could comprehend it to utter it,\nunnamable, since there is nothing before it to give it a name.\nThe One is the immeasurable light, pure, holy, immaculate. It is unutterable,\nand is perfect in incorruptibility. Not that it is just perfection, or blessedness, or\ndivinity: it is much greater.\nThe One is not corporeal and it is not incorporeal.\nThe One is not large and it is not small.\nIt is impossible to say,\nHow much is it?\nWhat [kind is it]?\nFor no one can understand it.\nThe One is not among the things that exist, but it is much greater. Not that it\nis greater. Rather, as it is in itself, it is not a part of the aeons or time. For\nwhatever is part of a realm was once prepared by another. Time was not allotted\nto it, since it receives nothing from anyone: what would be received would be on\nloan. The one who is first does not need to receive anything from another. It\nbeholds itself in its light.\nThe One is majestic and has an immeasurable purity.\nThe One is a realm that gives a realm,\nlife that gives life,\na blessed one that gives blessedness,\nknowledge that gives knowledge,\na good one that gives goodness,\nmercy that gives mercy and redemption,\ngrace that gives grace.\nNot that the One possesses this. Rather, the One gives immeasurable and\nincomprehensible light.\nWhat shall I tell you about it? Its eternal realm is incorruptible, at peace,\ndwelling in silence, at rest, before everything.\nIt is the head of all realms, and it is the one who sustains them through its\ngoodness.\nWe would not know [what is ineffable], we would not understand what is\nimmeasurable, were it not for the one who has come from the Father. This is the\none who has told these things to us [alone].",
+          "coptic": "[ⲛ̅ⲣⲱⲙⲉ ⲁⲩⲱ ⲁⲛⲟⲕ ⲁⲓ̈ϫⲛ]ⲟⲩⲥ ϫⲉⲕⲁⲁⲥ ⲉⲓ̈[ⲛⲁ]‐\n[ⲙ̅ⲙⲉ ⲉⲣⲟⲥ ⲁⲩⲱ ⲡⲉϫⲁϥ] ⲛⲁⲉⲓ ϫⲉ ⲧⲙ[ⲟ]ⲛⲁⲥ\n[ⲟⲩⲙⲟⲛⲁⲣⲭⲓⲁ ⲧⲉ ⲉⲙⲛ̅] ⲡⲉⲧϣⲟⲟⲡ ϩⲓϫⲱⲥ\n[ⲡⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ⲛ̅ⲛⲟⲩⲧ]ⲉ ⲁⲩⲱ ⲛ̅ⲉⲓⲱⲧ ⲙ̅ⲡ‐\n[ⲧⲏⲣϥ ⲡⲉ ⲡⲓⲁϩⲟⲣⲁⲧ]ⲟⲥ ⲉⲧϣⲟⲟⲡ ϩⲓϫⲛ̅\n[ⲡⲧⲏⲣϥ ⲉϥϣⲟⲟⲡ ⲛ̅]ⲧⲙ̅ⲛ̅̅ⲧ̅ⲁⲧⲧⲉⲕⲟ ⲉⲧϣⲟ‐\n[ⲟⲡ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ] ⲡⲁⲓ̈ ⲉⲧⲉ ⲙⲛ̅\n[ϣϭⲟⲙ ⲛ̅ⲗⲁⲁⲩ ⲛ̅ⲃⲁⲗ ⲉϭⲱ]ϣⲧ ⲛ̅ⲥⲱϥ ⲛ̅‐\n[ⲧⲟϥ ⲡⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅] ⲛ̅ⲁ[ϩⲟⲣⲁⲧ]ⲟⲛ ⲛ̅ⲥϣⲉ ⲁⲛ\n[ⲉⲙⲉⲉⲩⲉ ⲉ]ⲣ[ⲟ]ϥ ⲛ̅ⲑⲉ ⲛ̅ⲛ[ⲓⲛⲟ]ⲩⲧⲉ ⲏ ϫⲉ ⲉϥⲟ]\n[ⲛ̅ⲧⲉⲓϩ]ⲉ ⲛ̅ⲧⲟϥ ⲅⲁⲣ ⲟⲩϩⲟⲩⲟ ⲁⲛⲟⲩⲧⲉ\n[ⲡⲉ ⲉⲙⲛ̅ ⲡ]ⲉⲧϣⲟⲟⲡ ϩⲓϫⲱϥ ⲙⲛ̅ ⲗⲁⲁⲩ ⲅⲁⲣ\nⲟ ⲛ̅ϫⲟⲉⲓⲥ [ⲉⲣⲟϥ ϥϣⲟⲟⲡ ⲅⲁⲣ] ⲁⲛ ϩⲛ̅ ⲗ[ⲁ]ⲁⲩ\nⲛ̅ϭⲱϫⲃ’[ⲉⲣⲟϥ ⲉⲣⲉⲡⲧⲏⲣϥ ϣ]ⲟⲟⲡ ⲛ̅ϩⲏⲧϥ\n(blank)\nⲟⲩⲁⲁⲧϥ [ⲛ̅ⲧⲟϥ ⲟⲩϣⲁ ⲉⲛⲉϩ ⲡ]ⲉ ⲉⲃⲟⲗ ϫⲉ\nϥⲣ̅ ⲭⲣⲉⲓ[ⲁ ⲛ̅ⲗⲁⲁⲩ ⲁⲛ ⲛ̅ⲧⲟϥ ⲅ]ⲁⲣ ⲟⲩϫⲱⲕ ⲧⲏⲣϥ\nⲡⲉ ⲙ̅ⲡⲉ[ϥϣⲱⲱⲧ ⲛ̅ⲗⲁⲁⲩ ϫⲉ]ⲕⲁⲁⲥ ⲉϥⲛⲁ\nϫⲱⲕ’ ⲛ̅ϩⲏ[ⲧϥ ⲁⲗⲗⲁ ⲛ̅ⲟⲩⲟ]ⲉⲓϣ ⲛⲓⲙ ⲉϥϫⲏⲕ\nⲧⲏⲣϥ ϩⲛ̅ ⲟ[ⲩⲟⲉⲓⲛ ⲟⲩⲁⲧϯ ⲧⲟ]ϣϥ ⲡⲉ ⲉⲃⲟⲗ\nϫⲉ ⲙⲛ̅ ⲡⲉ[ⲧϩⲁⲧⲉϥϩⲏ ⲁⲧ]ⲣⲉϥϯ ⲧⲱϣ ⲉⲣⲟϥ\nⲟⲩⲁⲧϩⲉⲧ’[ϩⲱⲧϥ ⲡⲉ ϫⲉ ⲙ]ⲛ̅ ⲡⲉⲧϣⲟⲟⲡ\nϩⲁⲧⲉϥϩⲏ ⲁ[ⲧⲣⲉϥϩⲉⲧϩⲱⲧϥ ⲟ]ⲩⲁ[ⲧϣⲓⲧϥ ⲡⲉ]\nϫⲉ ⲙ̅ⲡⲉⲗⲁ[ⲁⲩ ϣⲱⲡⲉ ϩⲁⲧⲉϥϩⲏ ⲁⲧⲣⲉϥϣⲓ]\nⲉⲣⲟϥ ⲟⲩⲁⲧ[ⲛⲁⲩ ⲉⲣⲟϥ ⲡⲉ ⲉⲃⲟⲗ ϫⲉ ⲙ̅ⲡⲉ]‐\nⲗⲁⲁⲩ ⲛⲁⲩ ⲉⲣ[ⲟϥ ⲟⲩϣⲁ ⲉⲛⲉϩ ⲡⲉ ⲉϥϣⲟⲟⲡ]\nϣⲁ ⲉⲛⲉϩ ⲟⲩⲁ[ⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲡⲉ ⲉⲃⲟⲗ ϫⲉ ⲙ̅]‐\nⲡⲉⲗⲁⲁⲩ ϣⲧⲉ[ϩⲟϥ ⲉϣⲁϫⲉ ⲉⲣⲟϥ ⲟⲩⲁⲧϯ]‐\nⲣⲁⲛ ⲉⲣⲟϥ ⲡ[ⲉ ⲉⲃⲟⲗ ϫⲉ ⲙⲛ̅ ⲡⲉⲧϩⲁⲧⲉϥϩⲏ]\nⲁⲧⲣⲉϥϯ ⲣⲁⲛ ⲉ[ⲣⲟϥ ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲁⲧϣⲓⲧϥ]\nⲡⲉ ⲉϥⲧⲃ̅ⲃⲏⲩ ⲉ[ϥⲟⲩⲁⲁⲃ ⲛ̅ⲕⲁⲑⲁⲣⲟⲛ ⲟⲩⲁⲧ]\nϣⲁϫⲉ ⲉⲣⲟϥ ⲡ[ⲉ ⲉϥϫⲏⲕ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ]\nⲧⲉⲕⲟ ϩⲛ̅ ⲟⲩ[ⲙ̅ⲛ̅ⲧ̅ⲧⲉⲗⲓⲟⲥ ⲁⲛ ⲟⲩⲧⲉ ϩⲛ̅]\nⲟⲩⲙ̅ⲛ̅ⲧ̅ⲙⲁⲕ[ⲁⲣⲓⲟⲥ ⲁⲛ ⲟⲩⲧⲉ ϩⲛ̅ ⲟⲩⲙ̅ⲛⲧ̅]‐\nⲛⲟⲩⲧⲉ ⲁⲛ ⲁ[ⲗⲗⲁ ⲉϥⲥⲟⲧⲡ ⲛ̅ϩⲟⲩⲟ ⲟⲩⲥⲱ]‐\nⲙⲁⲧⲓⲕⲟⲥ ⲁⲛ [ⲡⲉ ⲟⲩⲧⲉ ⲟⲩⲁⲧⲥⲱⲙⲁ ⲁⲛ ⲡⲉ]\nⲟⲩⲛⲟϭ ⲁⲛ ⲡ[ⲉ ⲟⲩⲧⲉ ⲟⲩϣⲏⲙ ⲁⲛ ⲡⲉ ⲙⲛ̅]\nⲑⲉ ⲛ̅ϫⲟⲟⲥ ϫ[ⲉ ⲟⲩⲏⲣ ⲡⲉ ⲏ ⲟⲩ ⲙ̅ⲙⲓⲛⲉ ⲡⲉ]\nⲙⲛ̅ ϭⲟⲙ ⲅⲁⲣ [ⲛ̅ⲧⲉⲗⲁⲁⲩ ⲣ̅ⲛⲟⲉⲓ ⲙ̅ⲙⲟϥ ⲟⲩ]‐\nⲗⲁⲁⲩ ⲁⲛ ⲡⲉ [ϩⲛ̅ ⲛⲉⲧϣⲟⲟⲡ’ ⲁⲗⲗⲁ ⲉϥⲥⲟⲧⲡ]\nⲛ̅ϩⲟⲩⲟ ϩⲱⲥ [ⲁⲛ ⲉϥⲥⲟⲧⲡ ⲁⲗⲗⲁ ⲙ̅ⲡⲁⲓ̈ ⲉ]‐\nⲧⲉ ⲡⲱϥ ⲉϥⲙⲉ[ⲧⲉⲭⲉ ⲁⲛ ϩⲛ̅ ⲛⲁⲓⲱⲛ ⲟⲩⲇⲉ]\nϩⲛ̅ ⲭⲣⲟⲛⲟⲥ ⲡⲉ[ⲧⲙⲉⲧⲉⲭⲉ ⲅⲁⲣ ϩⲛ̅ ⲟⲩⲁⲓⲱⲛ]\nⲡⲁⲓ̈ 〈ⲉⲛ〉ⲧⲁⲩⲣ̅ϣ[ⲟⲣⲡ ⲛ̅ⲥⲃ̅ⲧⲱⲧϥ ⲙ̅ⲡⲟⲩⲡⲟⲣϫϥ]\nϩⲛ̅ ⲟⲩⲭⲣⲟⲛ[ⲟⲥ ϫⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲕⲉⲟⲩⲁ ⲉ]‐\nⲙⲁϥϫⲓ ⲗⲁ[ⲁⲩ ⲡⲉⲧⲟⲩϫⲓ ⲙ̅ⲙⲟϥ ⲅⲁⲣ ⲉⲡⲟⲩ]‐\nϣⲓⲡ ⲡⲉ· ϥϣ[ⲁⲁⲧ] ⲅⲁⲣ ⲁ[ⲛ] ⲛ̅ϭ[ⲓ ⲡⲉⲧⲟ ⲛ̅ϣⲟⲣⲡ]\nⲉⲣⲟϥ ϫⲉⲕⲁ[ⲁⲥ] ⲉϥⲛⲁϫⲓ ⲉⲃ[ⲟⲗ ϩⲓⲧⲟⲟⲧϥ]\nⲡⲁⲓ̈ ⲅⲁⲣ ⲉϥⲉⲓⲟⲣⲙ ⲛ̅ⲥⲱϥ ⲟ[ⲩⲁⲁⲧϥ ϩⲣⲁⲓ̈ ϩⲙ̅]\nⲡ[ⲉϥ]ⲟⲩⲟⲉⲓⲛ ⲡ[ϫⲱⲕ ⲉⲃⲟⲗ ⲅⲁⲣ] ⲟⲩⲙⲉⲅⲉ‐\nⲑⲟⲥ ⲡⲉ ⲟⲩⲛ[ⲟⲩⲥ ⲛ̅ⲁⲕⲉⲣⲁⲓⲟⲥ ⲛ̅]ⲁⲧϣⲓⲧϥ\nⲡⲉ ⲟⲩⲁⲓⲱ[ⲛ ⲡⲉ ⲉϥϯ ⲛ̅ⲟⲩⲁⲓⲱⲛ] ⲟⲩⲱⲛϩ\nⲡⲉ ⲉϥϯ ⲛ̅ⲟ[ⲩⲱⲛϩ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ] ⲡⲉ ⲉϥϯ\nⲛ̅ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲙⲁ[ⲕⲁⲣⲓⲟⲥ ⲟⲩⲅⲛⲱⲥ]ⲓⲥ ⲡⲉ ⲉϥ‐\nϯ ⲛ̅ⲟⲩⲥⲟⲟⲩⲛ [ⲟⲩⲁⲅⲁⲑⲟⲥ ⲡⲉ ⲉϥ]ϯ ⲛ̅ⲟⲩⲙ̅ⲛ̅ⲧ̅‐\nⲁⲅⲁⲑⲟⲥ ⲟⲩⲛ[ⲁⲉ ⲡⲉ ⲉϥϯ ⲛ̅ⲛⲟⲩⲛ]ⲁ ⲙⲛ̅ ⲟⲩⲥⲱⲧⲉ\nⲟⲩⲭⲁⲣⲓⲥ ⲡⲉ ⲉ[ϥϯ ⲛ̅ⲟⲩϩⲙⲟⲧ ⲟⲩⲭ] ϩⲟⲧⲓ ϫⲉ ⲟⲩⲛ̅‐\nⲧⲁ[ⲥ]ϥ ⲁⲗⲗⲁ ϫ[ⲉ ⲉϥϯ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ]ⲉ ⲛ̅ⲁⲧϣⲓⲧϥ ⲛ̅‐\n[ⲁⲧⲧⲉϩⲟϥ ⲡⲱⲥ ϯϣⲁϫⲉ ⲛⲙ̅ⲙⲁ]ⲕ ⲉⲧⲃⲏⲧϥ ⲡⲉϥ‐\n[ⲁⲓⲱⲛ ⲅⲁⲣ ⲟⲩⲁⲧⲧⲉⲕⲟ ⲡⲉ ⲉϥⲥ]ϭⲣⲁϩⲧ ⲁⲩⲱ ⲉϥ‐\n[ϣⲟⲟⲡ ϩⲛ̅ ⲟⲩⲥⲓⲅⲏ ⲉϥⲙ̅ⲧⲟⲛ] ⲙ̅ⲙⲟϥ ⲉϥⲟ ⲛ̅‐\n[ϣⲟⲣⲡ ⲉⲡⲧⲏⲣϥ ⲛ̅ⲧⲟϥ ⲅⲁⲣ ⲡ]ⲉ ⲧⲁⲡⲉ ⲛ̅ⲁⲓⲱⲛ\n[ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛ̅ⲧⲟϥ ⲉⲧϯ ⲛⲁⲩ ⲛ̅]ⲟⲩⲧⲁϫⲣⲟ ϩⲣⲁⲓ̈ ϩⲛ̅\n[ⲧⲉϥⲙ̅ⲛ̅ⲧ̅ⲁⲅⲁⲑⲟⲥ ⲧⲛ̅ⲥⲟⲟⲩ]ⲛ ⲅⲁⲣ ⲁⲛ ⲁⲛⲟⲛ ⲁ‐\n[ⲛⲉⲧⲟ ⲛ̅ⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲁⲩⲱ ⲛ̅]ⲧⲛ̅ⲙ̅ⲙⲉ ⲁⲛ 〈ⲁⲛ〉ⲉⲧ’\n[ⲟ ⲛ̅ⲁⲧϣⲓⲧϥ ⲉⲓⲙⲏⲧⲓ ⲁⲡⲉⲛ]ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\n[ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡ]ⲉⲓⲱⲧ ⲡⲁⲓ̈ ⲅⲁⲣ ⲡⲉ‐\n[ⲧⲁϩϫⲟⲟⲥ ⲉⲣⲟⲛ ϩⲱⲱⲛ ⲛ̅]ⲧⲟϥ ⲅⲁⲣ ⲉⲧϭⲟϣⲧ ⲉ‐"
+        },
+        {
+          "title": "Barbelo Appears",
+          "subtitle": "Barbelo Appears",
+          "heading": "Barbelo Appears (4, 19-6, 10)",
+          "rangeLabel": "4, 19-6, 10",
+          "range": {
+            "start": {
+              "page": 4,
+              "line": 19
+            },
+            "end": {
+              "page": 6,
+              "line": 10
+            }
+          },
+          "english": "This Father is the one who beholds himself in the light surrounding him, which\nis the spring of living water and provides all the realms. He reflects on his image\neverywhere, sees it in the spring of the Spirit, and becomes enamored of his\nluminous water, [for his image is in] the spring of pure luminous water\nsurrounding him.\nHis thought became a reality, and she who appeared in his presence in\nshining light came forth. She is the first power who preceded everything and\ncame forth from his mind as the Forethought of the All. Her light shines like\nthe Father’s light; she, the perfect power, is the image of the Perfect and\nInvisible Virgin Spirit.\nShe, [the first] power, the glory of Barbelo, the perfect glory among the\naeons, the glory of revelation, she glorified and praised the Virgin Spirit, for\nbecause of the Spirit she had come forth.\nShe is the first Thought, the image of the Spirit. She became the universal\nwomb, for she precedes everything,\nthe Mother-Father,\nthe first Human,\nthe holy Spirit,\nthe triple male,\nthe triple power,\nthe androgynous one with three names,\nthe aeon among the invisible beings,\nthe first to come forth.\nBarbelo asked the Invisible Virgin Spirit to give her Foreknowledge, and the\nSpirit consented. When the Spirit consented, Foreknowledge appeared and\nstood by Forethought. This is the one who came from the Thought of the\nInvisible Virgin Spirit. Foreknowledge glorified the Spirit and the Spirit’s\nperfect power, Barbelo, for because of her Foreknowledge had come into being.\nShe asked again to be given Incorruptibility, and the Spirit consented. When\nthe Spirit consented, Incorruptibility appeared and stood by Thought and\nForeknowledge. Incorruptibility glorified the invisible one and Barbelo. Because\nof her they had come into being.\nBarbelo asked to be given Life Eternal, and the Invisible Spirit consented.\nWhen the Spirit consented, Life Eternal appeared, and they stood together and\nglorified the Invisible Spirit and Barbelo. Because of her they had come into\nbeing.\nShe asked again to be given Truth, and the Invisible Spirit consented. Truth\nappeared, and they stood together and glorified the good Invisible Spirit and\nits Barbelo. Because of her they had come into being.\nThese are the five aeons of the Father. They are:\nthe first human, the image of the Invisible Spirit, that is,\nForethought, which is Barbelo, and Thought,\nalong with Foreknowledge,\nIncorruptibility,\nLife Eternal\nand Truth.\nThese are the five androgynous aeons, which are the ten aeons, which is the\nFather.",
+          "coptic": "[ⲧⲁϩϫⲟⲟⲥ ⲉⲣⲟⲛ ϩⲱⲱⲛ ⲛ̅]ⲧⲟϥ ⲅⲁⲣ ⲉⲧϭⲟϣⲧ ⲉ‐\n[ⲣⲟϥ ⲟⲩⲁⲁⲧϥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲉϥⲟ]ⲩⲟⲉⲓⲛ [ⲉⲧ]ⲕⲧⲏⲩ ⲉ‐\n[ⲣⲟϥ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲧⲡⲏⲅⲏ ⲙ̅ⲡ]ⲙⲟⲟⲩ ⲛ̅ⲱⲛϩ ⲁⲩⲱ\n[ⲉϥϯ ⲛ̅ⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ϩ]ⲛ̅ ⲥⲙⲟⲧ ⲛⲓⲙ ⲉϥⲉⲓ‐\n[ⲱⲣⲙ ⲛ̅ⲥⲁ ⲧⲉϥϩⲓⲕⲱⲛ ⲉϥⲛ]ⲁⲩ ⲉⲣⲟⲥ ϩⲣⲁ[ⲓ̈]\n[ϩⲛ̅ ⲧⲡⲏⲅⲏ ⲛ̅ⲧⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉϥ]ⲟⲩⲱϣⲉ ϩⲙ̅ ⲡⲉϥ‐\n[ⲟⲩⲟⲉⲓⲛ ⲙ̅ⲙⲟⲟⲩ ⲉⲧϩⲛ̅ ⲧⲡⲏⲛ̅]ⲧⲡⲏⲅⲏ ⲛ̅ⲧⲉ ⲡⲙⲟ‐\n[ⲟⲩ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ ⲉⲧ]ⲕⲧⲏⲩ ⲉⲣⲟϥ ⲁⲩⲱ\n[ⲁⲧⲉϥⲉⲛⲛⲟⲓⲁ ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩ]ϩⲱⲃ ⲁⲩⲱ ⲁⲥϭⲱⲗⲡ’\n[ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲁⲓ̈ ⲉⲛⲧⲁϩⲟⲩⲱⲛ]ϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉϥⲙ̅‐\n[ⲧⲟ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲣ̅ⲣⲓⲉ ⲛ̅ⲧⲉ] ⲡⲉϥⲟⲩⲟⲉⲓⲛ ⲧⲁⲓ̈ ⲧⲉ‐\n[ⲧϣⲟⲣⲡ ⲛ̅ϭⲟⲙ ⲛ̅ⲧⲁϩϣ]ⲱⲡⲉ ϩⲁⲧⲟⲩⲉϩⲏ ⲧⲏ‐\n[ⲣⲟⲩ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅] ⲡⲉϥⲙⲉⲉⲩⲉ ⲉⲧⲉ\n[ⲧⲁⲓ̈ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲙ̅ⲡⲧⲏⲣϥ ⲡ]ⲉⲥⲟⲩⲟⲉⲓⲛ ⲉ‐\n[ⲧⲣ̅ ⲟⲩⲟⲉⲓⲛ ϩⲙ̅ ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉ ⲡⲉϥ]ⲟⲩⲟⲉⲓⲛ ⲧϭⲟⲙ’\n[ⲉⲧϫⲏⲕ ⲉ]ⲃⲟⲗ [ⲉ]ⲧⲉ ⲧⲁⲓ̈ [ⲧⲉ ⲑⲓ]ⲕⲱⲛ ⲙ̅ⲡⲓⲁⲧⲛⲁⲩ\n[ⲉⲣⲟϥ ⲙ̅ⲡ]ⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅̅ⲁ̅ ⲉϥϫⲏⲕ ⲉⲃⲟⲗ\n[ⲧϣⲟⲣⲡ ⲛ̅ϭ]ⲟⲙ ⲡⲉⲟⲟⲩ ⲛ̅ⲃⲁⲣⲃⲏⲗⲱ ⲡⲉⲟⲟⲩ\nⲉⲧϫⲏⲕ ⲉⲃⲟ[ⲗ] ϩⲛ̅ ⲛⲁⲓⲱⲛ ⲡⲉⲟⲟⲩ ⲙ̅ⲡⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟ[ⲗ] ⲁ[ⲥ]ϯ ⲉⲟ[ⲟ]ⲩ ⲙ̅ⲡ[ⲡ]ⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ⲉⲥⲥⲙⲟⲩ ⲉⲣⲟϥ ϫⲉ ⲉⲧⲃⲏⲧϥ\nⲁⲥⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲡⲁⲓ̈ ⲡⲉ ⲡϣⲟⲣⲡ ⲙ̅ⲙⲉⲉⲩⲉ\nⲛ̅ⲧⲉϥϩⲓⲕⲱⲛ’ ⲁⲥϣⲱⲡⲉ ⲙ̅ⲙⲏⲧⲣⲁ ⲙ̅ⲡⲧⲏⲣϥ\nϫⲉ ⲛ̅ⲧⲟⲥ ⲉ[ⲥ]ⲟ ⲛ̅ϣⲟⲣⲡ ⲉⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ· ⲧⲙ̅ⲏ̅‐\nⲧ̅ⲣ̅ⲟ̅ⲡⲁⲧ̅ⲱ[ⲣ̅] ⲡϣⲟⲣⲡ’ ⲛ̅ⲣⲱⲙⲉ ⲡ̅ⲛⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ· ⲡϣⲟⲙⲧ 〈ⲛ̅〉ϩⲟⲟⲩⲧ ⲧϣⲟⲙⲧⲉ ⲛ̅ϭⲟⲙ\nⲡϣⲟⲙⲧ ⲛ̅ⲣⲁⲛ ⲛ̅ϩⲟ[ⲟ]ⲩⲧ ⲥϩⲙⲉ ⲁⲩⲱ ⲡⲁⲓ‐\nⲱⲛ ⲛ̅ϣⲁ ⲉⲛⲉϩ ϩⲛ̅ ⲛ̅ⲁⲧⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲁⲩⲱ\nⲡϣⲟⲣⲡ ⲛ̅ⲉⲓ ⲉⲃⲟⲗ ⲁϥ[ⲁⲓ]ⲧⲉⲓ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅\nⲉⲧⲉ ⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅ ⲧⲉ ⲁⲧⲛ̅ ⲛⲁⲥ ⲛ̅ⲟⲩⲡⲣ[ⲟ]ⲅⲛ[ⲱ]‐\nⲥⲓⲥ ⲁⲩⲱ ⲁϥⲉⲓⲱⲣⲙ’ ⲛ̅ϭⲓ ⲡ̅ⲛ̅ⲁ̅ ⲛ̅ⲧⲁ[ϥ]ⲉ[ⲓ]ⲱ[ⲣⲙ]\nⲇⲉ ⲁⲥϭⲱⲗⲡ ⲉⲃⲟⲗ [ⲛ̅]ϭⲓ ⲧⲡⲣⲟⲅⲛⲱⲥⲓ[ⲥ ⲁⲩ]‐\nⲱ ⲁⲥⲁϩⲉⲣⲁⲧ̅ⲥ̅ ⲙⲛ̅ ⲧ[ⲡ]ⲣⲟⲛⲟⲓⲁ· ⲧⲁⲓ̈ ⲟⲩⲉⲃ[ⲟⲗ ]\nⲧⲉ ϩⲙ̅ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲓⲁⲧ ⲛⲁⲩ ⲉⲣⲟϥ ⲙ̅[ⲡⲁⲣ]‐\nⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲉⲥϯ ⲉⲟⲟⲩ ⲛⲁϥ ⲁ[ⲩⲱ]\nⲧⲉϥϭⲟⲙ ⲉⲧϫⲏⲕ ⲉⲃⲟ[ⲗ ⲃ̅ⲁ̅]̅ⲣ̅̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅̅ ϫ[ⲉ ⲛ̅]‐\nⲧⲁⲥϣⲱⲡⲉ ⲉ[ⲧⲃⲏ]ⲧⲥ̅ ⲁ[ⲩⲱ ⲟ]ⲛ ⲁⲥⲁⲓⲧⲉ[ⲓ]\nⲉⲧⲛ̅ ⲛⲁⲥ ⲛ̅ϭ[ⲓ ⲧⲙ̅ⲛ̅ⲧ̅]ⲁⲧ ⲧⲉⲕ]ⲟ ⲁⲩⲱ ⲁϥⲉⲓ‐\nⲱⲣⲙ ϩⲙ̅ ⲡⲧⲣⲉ[ϥⲉⲓⲱⲣⲙ ⲁⲥϭⲱⲗ]ⲡ ⲉⲃⲟⲗ\nⲛ̅ϭⲓ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ ⲧ[ⲉⲕ]ⲟ ⲁ[ⲩⲱ ⲁⲥⲁϩⲉⲣ]ⲁⲧ̅ⲥ̅ ⲙⲛ̅\nⲡⲙⲉⲉⲩⲉ ⲁⲩⲱ [ⲧ]ⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲥϯ ⲉⲟⲟⲩ\nⲙ̅ⲡⲓⲁⲧ ⲛⲁⲩ ⲉⲣ[ⲟ]ϥ ⲙⲛ̅ ⲧⲃⲁⲣⲃⲏⲗⲱ ⲧⲁⲓ̈ ⲉ‐\nⲧⲁⲩϣⲱⲡⲉ ⲉⲧ[ⲃⲏⲧ]ⲥ̅ ⲁⲩⲱ ⲁⲥⲁⲓⲧⲉⲓ [ⲛ̅]ϭⲓ ⲧⲃ̅ⲁ̅ⲣ̅‐\nⲃⲏⲗⲱ ⲉⲧⲛ̅ ⲛⲁⲥ ⲛ̅ⲟⲩⲱ[ⲛϩ] ϣⲁ[ⲉ]ⲛⲉϩ ⲁⲩⲱ\nⲁϥⲉⲓⲱⲣⲙ ⲛ̅ϭⲓ ⲡⲁ[ϩ]ⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ\nϩⲙ̅ ⲡⲧⲣⲉϥⲉⲓⲱⲣⲙ ⲁϥϭⲱⲗⲡ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲱⲛϩ\nϣⲁ ⲉⲛⲉϩ ⲁⲩⲱ ⲁ[ⲩⲁϩ]ⲉⲣ[ⲁⲧⲟⲩ] ⲁⲩϯ ⲉⲟⲟⲩ\nⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅[ⲡ̅ⲛ̅]̅ⲁ̅ ⲁ[ⲩⲱ ⲧⲃ̅]ⲁⲣⲃⲏⲗⲱ̅ ⲧⲁⲓ̈\nⲉⲛⲧⲁⲩϣⲱⲡⲉ ⲉⲧ[ⲃⲏⲧⲥ̅] ⲁⲩⲱ ⲟⲛ ⲁⲥⲁⲓⲧⲉⲓ\nⲉⲧⲛ̅ ⲛⲁⲥ ⲛ̅ⲧⲙ[ⲏⲉ] ⲁⲩⲱ [ⲁ]ϥⲉⲓⲱⲣⲙ ⲛ̅ϭⲓ ⲡⲁϩⲟ‐\nⲣⲁⲧⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ⲁⲥϭⲱⲗⲡ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲙⲏⲉ\nⲁⲩⲱ ⲁⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲁⲩϯ ⲉⲟⲟⲩ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟ[ⲛ]\nⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲏⲡ ⲙⲛ̅ ⲧⲉϥⲃ[ⲁ]ⲣⲃⲏⲗⲱ ⲧⲁⲓ̈\nⲉⲛ’ⲧⲁ→ⲩ← ϣⲱⲡ[ⲉ] ⲉⲧⲃⲏⲧⲥ̅ ⲧ[ⲁ]ⲓ̈ ⲧⲉ ⲧⲡⲉⲛⲧⲁⲥ\nⲛ̅ⲁⲓⲱⲛ’ ⲛ̅ⲧⲉ ⲡⲓⲱⲧ [ⲉ]ⲧⲉ ⲡ[ⲁⲓ̈] ⲡⲉ ⲡϣⲟⲣⲡ\nⲛ̅ⲣⲱⲙⲉ ⲑⲓⲕⲱⲛ ⲙ̅ⲡⲓⲁϩⲟⲣⲁ[ⲧ]ⲟⲥ ⲙ̅ⲡⲛ̅ⲁ̅\nⲧⲁⲓ̈ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ· ⲉⲧⲉ ⲧⲁⲓ̈ ⲧ[ⲉ] ⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅\nⲁⲩⲱ ⲡⲙⲉⲉⲩⲉ ⲙⲛ̅ ⲧⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲩⲱ\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ ⲧⲉⲕⲟ ⲁⲩⲱ ⲡⲱⲛϩ [ϣ]ⲁ ⲉⲛⲉϩ· ⲁⲩⲱ\nⲧⲙⲉ·ⲧⲁⲓ̈ ⲧⲉ ⲧⲡⲉⲛⲧⲁⲥ ⲛ̅ⲁ[ⲓ]ⲱⲛ ⲛ̅ϩⲟⲟⲩⲧ ⲥϩⲓ‐\nⲙⲉ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧⲇⲉ[ⲕⲁ]ⲥ ⲛ̅ⲁⲓⲱⲛ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ\nⲡⲉ[ⲓ]ⲱⲧ ⲁⲩⲱ ⲁϥϭⲱϣⲧ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅"
+        },
+        {
+          "title": "Barbelo Conceives",
+          "subtitle": "Barbelo Conceives",
+          "heading": "Barbelo Conceives (6, 10-7, 30)",
+          "rangeLabel": "6, 10-7, 30",
+          "range": {
+            "start": {
+              "page": 6,
+              "line": 10
+            },
+            "end": {
+              "page": 7,
+              "line": 30
+            }
+          },
+          "english": "The Father gazed into Barbelo, with the pure light surrounding the Invisible\nSpirit, and his radiance. Barbelo conceived from him, and he produced a spark of\nlight similar to the blessed light but not as great. This was the only Child of the\nMother-Father that had come forth, the only offspring, the only Child of the\nFather, the pure light. The Invisible Virgin Spirit rejoiced over the light that\nwas produced, that came forth from the first power of the Spirit’s Forethought,\nwho is Barbelo. The Spirit anointed it with his own goodness until it was\nperfect, with no lack of goodness, since it was anointed with the goodness of the\nInvisible Spirit. The Child stood in the presence of the Spirit as the Spirit\nanointed the Child. As soon as the Child received this from the Spirit, it\nglorified the holy Spirit and perfect Forethought. Because of her it had come\nforth.\nThe Child asked to be given Mind as a companion to work with, and the\nSpirit consented. When the Invisible Spirit consented, Mind appeared and\nstood by the anointed, and glorified the Spirit and Barbelo.\nAll these beings came into existence in silence.\nMind wished to create something by means of the word of the Invisible\nSpirit. Its Will became a reality and appeared, with Mind and the light,\nglorifying it. Word followed Will. For the anointed, the divine Self-Generated,\ncreated everything by the Word. Life Eternal, Will, Mind, and Foreknowledge\nstood together and glorified the Invisible Spirit and Barbelo, for because of her\nthey had come into being.\nThe holy Spirit brought the divine Self-Generated Child of himself and\nBarbelo to perfection, so that the Child might stand before the great Invisible\nVirgin Spirit as the divine Self-Generated, the anointed, who honored the Spirit\nwith loud acclaim. The Child came forth through Forethought. The Invisible\nVirgin Spirit set the true, divine Self-Generated over everything and caused all\nauthority and the truth within to be subject to it, so that the Child might\nunderstand everything, the one called by a name greater than every name, for\nthat name will be told to those who are worthy of it.",
+          "coptic": "ⲡⲉ[ⲓ]ⲱⲧ ⲁⲩⲱ ⲁϥϭⲱϣⲧ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅\nϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲉ[ⲧ]ⲧⲃ̅ⲃⲏⲩ ⲉⲧⲕⲧⲏⲩ ⲁⲡⲁϩⲟⲣⲁ‐\nⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲙⲛ̅ ⲡⲉϥⲡⲣ̅ⲣⲉ ⲁⲩⲱ ⲁⲥϫⲉ ⲟⲩⲱ\n[ⲉⲣⲟϥ ⲁ]ϥϫⲡⲟ ⲛ̅ⲟⲩϯⲕ̅ ⲛ̅ⲟⲩⲟⲉⲓⲛ’ ϩⲛ̅ ⲟⲩⲟⲉⲓ‐\n[ⲛ]ⲉ ⲙ̅ⲙ̅ⲛ̅ⲧ̅ⲙⲁⲕⲁⲣⲓ[ⲟⲥ] ⲛ̅ⲉⲓⲛⲉ· ⲉϥϣⲏϣ ⲇⲉ\n[ⲁⲛ] ⲙⲛ̅ ⲧⲉϥⲙ̅ⲛ̅ⲧ̅ⲛ[ⲟ]ϭ ⲡⲁⲓ̈ ⲛⲉⲟⲩϣⲣ̅ⲟⲩⲱⲧ\n[ⲡⲉ] ⲛ̅ⲧⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ ⲉⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉⲧⲉ\n[ⲡⲁⲓ̈] ⲡⲉ ⲡⲉϥϫⲡⲟ ⲟⲩⲁⲁⲧϥ ⲡϣⲣ̅ⲟⲩⲱⲧ ⲛ̅‐\n[ⲧ]ⲉ [ⲡ]ⲉⲓⲱⲧ [ⲡⲟⲩ]ⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ ⲁ[ϥ]ⲧⲉⲗⲏⲗ\n[ⲇ]ⲉ ⲛ̅ϭⲓ ⲡⲁ[ϩⲟⲣ]ⲁⲧⲟⲛ’ [ⲙ̅]ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅̅\nⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ [ⲡⲟ]ⲩⲟⲉ[ⲓⲛ ⲉⲧⲁ]ϩϣⲱⲡⲉ ⲡⲉⲧⲁϩ‐\nϣⲣⲡ ⲟ[ⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉⲃⲟⲗ] ϩⲛ̅ ⲧϣⲟⲣⲡ ⲛ̅ϭⲟ[ⲙ]\nⲛ̅ⲧ〈ⲉ〉ϥ ⲡ[ⲣⲟⲛⲟⲓⲁ] ⲉ[ⲧⲉ] ⲧⲁⲓ̈ ⲧⲉ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅\nⲁⲩⲱ ⲁϥ[ⲧ]ⲱϩⲥ̅ ⲙ̅ⲙⲟϥ’ ⲉ[ⲃⲟ]ⲗ ϩⲛ̅ ϯⲙ̅ⲛ̅ⲧⲭⲣ̅ⲥ̅\nⲛ̅ⲧⲏϥ ϣⲁⲛⲧⲉϥ ϣⲱⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲉⲛϥϣⲁ‐\nⲁⲧ ⲛ̅[ⲗ]ⲁⲁⲩ →ⲁ←ⲛ ⲙ̅ⲙ̅ⲛ̅ⲧ̅[ⲭ̅]ⲣ[ⲥ̅] ⲉⲃⲟⲗ ϫⲉ ⲉⲁϥⲧⲁϩⲥϥ\nϩⲣⲁⲓ̈ ϩⲛ̅ ⲧ[ⲙ̅]̅ⲛ̅ⲧ̅̅[ⲭ̅]ⲣⲥ̅ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲥ ⲙ̅ⲡ̅ⲛⲁ̅ ⲁⲩ‐\nⲱ ⲁϥⲁϩⲉⲣⲁⲧϥ ⲙ̅ⲡⲉϥⲙ̅ⲧⲟ ⲉⲃⲟⲗ ⲉϥϣⲟⲩⲟ\nⲉϫⲱϥ ϩⲛ̅ ⲧ[ⲟ]ⲩ[ⲛ]ⲟⲩ ⲇ[ⲉ] ⲛ̅ⲧⲁⲣⲉϥϫⲓ ⲉⲃⲟⲗ ϩⲓ‐\nⲧⲛ̅ ⲡⲉⲡ[ⲛ̅ⲁ̅ ⲁϥ]ϯ ⲉ[ⲟ]ⲟⲩ ⲙ̅ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲁⲩⲱ ⲧⲉⲡⲣⲟ[ⲛⲟⲓ]ⲁ ⲉ[ⲧϫ]ⲏⲕ ⲉⲃⲟⲗ {ϩⲓⲧⲛ̅ ⲡⲉⲡ̅ⲛ̅ⲁ̅\nⲁϥϯ ⲉⲟⲟⲩ ⲙ̅ⲡⲉ[ⲡ̅ⲛ̅ⲁ̅ ⲉ]ⲧⲟⲩⲁⲁⲃ· ⲁⲩⲱ ⲧⲉⲡⲣⲟ‐\nⲛⲟⲓⲁ’ ⲉⲧϫⲏⲕ ⲉ[ⲃⲟ]ⲗ} ⲧⲁ[ⲓ̈ ⲉ]ⲧⲁϥϭⲱⲗⲡ ⲉⲃⲟⲗ\nⲉⲧⲃⲏⲧⲥ̅ ⲁⲩⲱ ⲁϥⲣ̅ⲁⲓⲧⲉⲓ ⲉⲧⲛ̅ ⲛⲁϥ ⲛ̅ⲟⲩϣⲃ̅ⲣ̅‐\nⲣ̅ ϩⲱⲃ ⲉⲧⲉ ⲡⲛⲟⲩⲥ ⲡⲉ ⲁⲩⲱ ⲁϥⲉⲓⲱⲣⲙ ϩⲙ̅\n[ⲡ]ⲧⲣⲉϥⲉⲓ[ⲱⲣ]ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅\nⲁϥϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲛⲟⲩⲥ ⲁⲩⲱ ⲁϥⲁϩⲉ‐\nⲉⲣⲁⲧϥ ⲙⲛ̅ ⲡⲉⲭⲣ̅ⲥ̅ ⲉϥϯ ⲉⲟⲟⲩ ⲛⲁϥ ⲙⲛ̅‐\nⲧⲃⲁⲣⲃⲏⲗⲱ ⲛⲁⲓ̈ ⲇⲉ ⲧⲏⲣⲟⲩ ⲉⲧⲁϩϣⲱⲡⲉ\nϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲕⲁⲣⲱϥ ⲁⲩⲱ ⲡⲙⲉⲉⲩⲉ· ⲁϥⲟⲩ‐\nⲱϣⲉ ϩⲓⲧⲛ̅ ⲡϣⲁϫⲉ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅\nⲉⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϩⲱⲃ ⲁⲩⲱ ⲡⲉϥⲟⲩⲱϣ ⲁϥϣⲱ‐\nⲡⲉ ⲛ̅ⲟⲩⲉⲣⲅⲟⲛ ⲁⲩⲱ ⲁϥϭⲱⲗⲡ ⲉⲃⲟⲗ ⲙⲛ̅‐\nⲡⲛⲟⲩⲥ ⲁⲩⲱ ⲡⲟⲩⲟⲉⲓⲛ ⲉϥϯ ⲉⲟⲟⲩ ⲛⲁϥ\nⲁⲩⲱ ⲡϣⲁϫⲉ ⲁϥⲟⲩⲁϩϥ ⲛ̅ⲥⲁ ⲡⲟⲩⲱϣⲉ\nⲉⲧⲃⲉ ⲡϣⲁϫⲉ ⲅⲁⲣ ⲁϥⲧⲁⲙⲓⲟ ⲙ̅ⲡⲧⲏⲣϥ ⲛ̅‐\nϭⲓ ⲡⲉⲭ̅ⲥ̅ ⲡⲁⲩⲧⲟⲅⲉⲛ[ⲏ]ⲥ ⲛ̅ⲛⲟⲩⲧⲉ ⲡⲱⲛϩ\nⲇⲉ ϣⲁ ⲉⲛⲉϩ ϩⲙ̅ ⲡⲉϥⲟⲩⲱϣ ⲁⲩⲱ ⲡⲛⲟⲩ[ⲥ]\nⲙⲛ̅ ⲧⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲁⲩϯ ⲉ[ⲡ]‐\nⲟⲩ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ⲙⲛ̅ ⲧⲃⲁ̅ⲣⲃⲏⲗ[ⲱ̅]\nϫⲉ ⲉⲧⲃⲏⲧⲥ̅ ⲅⲁⲣ ⲁⲩϣⲱⲡⲉ ⲁⲩⲱ ⲁϥϫⲱⲕ’\nⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲙ̅ⲡⲁⲩⲧⲟ‐\nⲅⲉⲛⲏⲥ ⲛ̅ⲛⲟⲩⲧⲉ ⲡⲉϥϣⲏⲣⲉ ⲙⲛ̅ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅̅[̅ⲗ̅ⲱ̅]\nⲁⲧⲣⲉϥⲁϩⲉⲣⲁⲧϥ̅ ⲉⲡⲛⲟϭ [ⲁ]ⲩⲱ ⲡⲁϩⲟⲣ[ⲁ]‐\nⲧⲟⲥ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅[ⲡ̅]̅ⲛ̅ⲁ̅ ⲙ̅ⲡⲁⲩⲧⲟ‐\nⲅⲉⲛⲏⲥ ⲛ̅ⲛ̅ⲟⲩⲧⲉ [ⲡ]ⲉⲭ̅ⲥ̅ [ⲡ]ⲁⲉⲓ ⲉⲛⲧⲁϥⲧⲁ‐\nⲉⲓⲟϥ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ⲥⲙⲏ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nϩⲓⲧⲛ̅ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲁⲩⲱ [ⲁ]ϥⲕⲱ ⲛ̅ϭⲓ ⲡⲁϩⲟ‐\nⲣⲁⲧⲟⲛ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲁⲩ‐\nⲧⲟⲅⲉⲛⲏⲥ ⲛ̅ⲛⲟⲩⲧⲉ ⲙ̅ⲙⲟϥ ⲁϫⲙ̅ ⲡⲧⲏⲣϥ\nⲁⲩⲱ ⲁϥⲣ̅ϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲛⲁϥ ⲛ̅ⲧⲉⲝⲟⲩⲥⲓⲁ\nⲧⲏⲣⲥ̅ ⲁⲩⲱ ⲧⲙⲉ ⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ⲛ̅ϩⲏⲧϥ̅\nϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲙ̅ⲙⲉ ⲁⲡⲧⲏⲣϥ ⲡⲁⲓ̈ ⲉⲛ‐\nⲧⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲛ̅ⲟ[ⲩ]ⲣ[ⲁⲛ] ⲉϥϫⲟⲥⲉ ⲉ‐\nⲣⲁⲛ ⲛⲓⲙ ⲡⲣⲁⲛ ⲅⲁⲣ ⲉ[ⲧⲙ̅ⲙⲁⲩ ⲥ]ⲉⲛⲁϫⲟⲟϥ\nⲁⲛⲉⲧⲙ̅ⲡϣⲁ ⲙ̅ⲙⲟϥ ⲉⲃ[ⲟ]ⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲟⲩⲟ‐"
+        },
+        {
+          "title": "The Four Luminaries",
+          "subtitle": "The Four Luminaries",
+          "heading": "The Four Luminaries (7, 30-8, 28)",
+          "rangeLabel": "7, 30-8, 28",
+          "range": {
+            "start": {
+              "page": 7,
+              "line": 30
+            },
+            "end": {
+              "page": 8,
+              "line": 28
+            }
+          },
+          "english": "Now from the light, which is the anointed, and from Incorruptibility, by the\ngrace of the Spirit, the Four Luminaries that derive from the divine SelfGenerated gazed out in order to stand before it. The three beings are:\nwill,\nthought,\nlife.\nThe four powers are:\nunderstanding,\ngrace,\nperception,\nthoughtfulness.\nGrace dwells in the eternal realm of the luminary Harmozel, who is the first\nangel. There are three other aeons with this eternal realm:\ngrace,\ntruth,\nform.\nThe second luminary is Oroiael, who has been appointed over the second\neternal realm. There are three other aeons with it:\nInsight,\nperception,\nmemory.\nThe third luminary is Daveithai, who has been appointed over the third\neternal realm. There are three other aeons with it:\nunderstanding,\nlove,\nidea.\nThe fourth eternal realm has been set up for the fourth luminary, Eleleth.\nThere are three other aeons with it:\nperfection,\npeace,\nSophia.\nThese are the Four Luminaries that stand before the divine Self-Generated;\nthese are the twelve aeons that stand before the Child of the Great One, the SelfGenerated, the anointed, by the will and grace of the Invisible Spirit. The twelve\naeons belong to the Child, the Self-Generated, and everything was established by\nthe will of the holy Spirit through the Self-Generated.",
+          "coptic": "ⲁⲛⲉⲧⲙ̅ⲡϣⲁ ⲙ̅ⲙⲟϥ ⲉⲃ[ⲟ]ⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉⲭ̅̅ⲣ̅ⲥ̅ ⲁⲩⲱ ⲧⲙ̅ⲛ̅ⲧⲁⲧ‐\nⲧⲉⲕⲟ ϩⲓⲧⲛ̅ ⲡϯ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲙ̅ⲡⲓϥⲧⲟⲟⲩ\nⲙ̅ⲫⲱⲥⲧⲏⲣ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲁⲩⲧⲟⲅⲉⲛⲏⲥ\nⲛ̅ⲛⲟⲩⲧⲉ ⲁϥϭⲱϣⲧ ⲉⲃⲟⲗ ⲁⲧⲣⲟⲩⲱϩⲉ\nⲉⲣⲁⲧⲟⲩ ⲉⲣⲟϥ ⲡϣⲟⲙⲧ ⲇⲉ ⲡⲟⲩⲱϣⲉ\nⲧⲉⲛⲛⲟⲓⲁ· ⲁⲩⲱ ⲡⲱⲛϩ· ⲧⲉϥⲧⲟⲉ ⲇⲉ ⲛ̅‐\nϭⲟⲙ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙⲛ̅ϩⲏⲧ· ⲧⲭⲁⲣⲓⲥ· ⲧⲉⲥⲑⲏⲥⲓⲥ\nⲧⲫⲣⲟⲛⲏⲥⲉⲓⲥ ⲧⲭⲁⲣⲓⲥ ⲇⲉ ⲉⲥϣⲟⲟⲡ ϩⲁ\nϩⲧⲛ̅ ⲡⲁⲓⲱⲛ ⲙ̅ⲫⲱⲥⲧⲏⲣ ⲁⲣⲙⲟⲍⲏⲗ ⲉⲧⲉ\nⲡⲁⲓ̈ ⲡⲉ ⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲡⲓⲁⲓⲱⲛ ⲇⲉ\nⲥⲉⲛ̅ⲛⲉⲙⲁϥ’ ⲛ̅ϭⲓ ⲕⲉϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲧⲭⲁ‐\nⲣⲓⲥ· ⲧⲙⲏⲉ· ⲧⲙⲟⲣⲫⲏ· ⲡⲙⲉϩⲥⲛⲁⲩ ⲇⲉ ⲙ̅‐\nⲫⲱⲥⲧⲏⲣ ⲱⲣⲓⲏⲗ ⲡⲉⲛⲧⲁⲩⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ\nⲉϫⲙ̅ ⲡⲙⲉϩⲥⲛⲁⲩ ⲛ̅ⲁⲓⲱⲛ ⲥⲉⲛ̅ⲛⲉⲙⲁϥ ⲇⲉ\nⲛ̅ϭⲓ ⲕⲉϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲧⲉⲥⲑⲏ‐\nⲥⲓⲥ· ⲡⲣ̅ⲡⲙⲉⲉⲩⲉ ⲡⲙⲁϩϣⲟⲙⲧ ⲇⲉ ⲙ̅ⲫⲱ‐\n[ⲥ]ⲧⲏⲣ ⲡⲉ ⲇ̅ⲁ̅ⲩ̅ⲉ̅ⲓ̅ⲑ̅ⲁ̅ⲓ̅ ⲡⲁⲓ̈ ⲉⲛⲧⲁⲩⲥⲉ ϩⲱϥ ⲉ‐\nⲣⲁⲧϥ ⲉϫⲙ̅ ⲡⲙⲉϩϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲥⲉⲛ̅ⲛⲉ‐\nⲙⲁϥ ⲇⲉ ⲛ̅ϭⲓ ⲕⲉϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙ̅‐\nⲛ̅ϩⲏⲧ ⲧⲁⲅⲁⲡⲏ· ϯⲇⲉⲁ· ⲡⲙⲁϩϥⲧⲟⲟⲩ ⲇⲉ\nⲛ̅ⲁⲓⲱⲛ ⲁⲩⲧⲉϩⲟϥ ⲉⲣⲁⲧϥ ⲉϫⲙ̅ ⲡⲙⲉϩ‐\nϥⲧⲟⲟⲩ ⲙ̅ⲫⲱⲥⲧⲏⲣ ⲏ̅ⲗ̅ⲏ̅ⲗ̅ⲏ̅ⲑ̅ ⲥⲉⲛ̅ⲛⲉⲙⲁϥ\nⲇⲉ ⲛ̅ϭ̅ⲓ ⲕⲉ[ϣ]ⲟⲙⲧ ⲛ̅ⲁ̅ⲓⲱⲛ ⲡϫⲱⲕ ⲉⲃⲟⲗ\nϯⲣⲏⲛⲏ ⲧⲥ[ⲟ]ⲫⲓⲁ ⲛⲁⲓ̈ ⲛⲉ ⲛϥⲧⲟⲟⲩ ⲙ̅ⲫⲱ‐\nⲥⲧⲏⲣ ⲉⲧⲁϩⲉⲣⲁⲧⲟⲩ ⲁⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲛ̅ⲛⲟⲩⲧⲉ\nⲛⲁⲓ̈ ⲛⲉ ⲡⲙ̅ⲛ̅ⲧ̅̅ⲥⲛⲟⲟⲩⲥ ⲛ̅ⲁⲓⲱⲛ ⲉⲧⲁϩⲉⲣⲁⲧⲟⲩ\nⲁⲡϣⲏⲣⲉ ⲙ̅ⲡⲛⲟϭ ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲡⲉⲭⲣ̅ⲥ̅\nϩⲓⲧⲛ̅ ⲡⲟⲩⲱϣⲉ ⲙⲛ̅ ⲡϯ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲥ ⲙ̅‐\nⲡ̅ⲛ̅ⲁ̅ ⲡⲓⲙ̅ⲛⲧ̅ⲥⲛⲟⲟⲩⲥ [ⲇ]ⲉ ⲛ̅ⲁⲓⲱⲛ ⲛ̅ⲛⲁ\nⲡϣⲏⲣⲉ ⲙ̅ⲡ[ⲁ]ⲩⲧⲟⲅⲉⲛⲏⲥ ⲛⲉ ⲁⲩⲱ ⲛ̅ⲧⲁⲡⲧⲏⲣϥ\nⲧⲁϫⲣⲟ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ⲉⲃⲟ[ⲗ ϩ]ⲓⲧ[ⲙ̅] ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲉⲃⲟⲗ ⲇⲉ"
+        },
+        {
+          "title": "Pigeradamas and Seth",
+          "subtitle": "Pigeradamas and Seth",
+          "heading": "Pigeradamas and Seth (8, 28-9, 24)",
+          "rangeLabel": "8, 28-9, 24",
+          "range": {
+            "start": {
+              "page": 8,
+              "line": 28
+            },
+            "end": {
+              "page": 9,
+              "line": 24
+            }
+          },
+          "english": "From the Foreknowledge of the perfect Mind, through the expressed will of the\nInvisible Spirit and the will of the Self-Generated, came the perfect human, the\nfirst revelation, the truth. The Virgin Spirit named the human Pigeradamas, and\nappointed him to the first eternal realm with the great Self-Generated, the\nanointed, by the first luminary, Harmozel. Its powers dwell with it. The invisible\none gave him an invincible power of mind.\nPigeradamas spoke and glorified and praised the Invisible Spirit by saying,\nBecause of you everything has come into being,\nand to you everything will return.\nI shall praise and glorify you,\nthe Self-Generated,\nthe eternal realms,\nthe three, Father, Mother, Child,\nperfect power.\nHe appointed his son Seth to the second eternal realm, before the second\nluminary, Oroiael.\nIn the third eternal realm were stationed the offspring of Seth, with the third\nluminary, Daveithai. The souls of the saints were stationed there.\nIn the fourth eternal realm were stationed the souls of those who were\nignorant of the Fullness. They did not repent immediately, but held out for a\nwhile and repented later. They came to be with the fourth luminary, Eleleth.\nThese are creatures that glorify the Invisible Spirit.",
+          "coptic": "ⲁⲁⲃ ⲉⲃⲟ[ⲗ ϩ]ⲓⲧ[ⲙ̅] ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲉⲃⲟⲗ ⲇⲉ\nϩⲛ̅ ⲧⲡⲣ[ⲟⲅⲛⲱⲥⲓ]ⲥ ⲙ̅ⲡⲛⲟⲩⲥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ\nϩⲓⲧⲙ̅ ⲡϭⲱ[ⲗⲡ ⲉ]ⲃⲟⲗ ⲙ̅ⲡⲟⲩⲱϣ ⲙ̅ⲡⲁϩⲟ‐\nⲣⲁⲧⲟⲥ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ⲡⲟⲩⲱϣⲉ ⲙ̅ⲡⲁⲩⲧⲟⲅⲉ‐\nⲛⲏⲥ ⲛ̅ⲣⲱⲙⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲡϣⲟⲣⲡ ⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ· ⲁⲩⲱ ⲡⲙⲉⲉ· ⲡⲉⲧⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ\nⲛ̅ϭⲓ ⲡⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ϫⲉ ⲡ̅ⲓⲅⲉⲣⲁ̅‐\nⲁ̅̅ⲇ̅ⲁ̅ⲙ̅ⲁ̅ⲛ̅ ⲁⲩⲱ ⲁϥⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ ⲁϫⲛ̅\nⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲓⲱⲛ ⲙⲛ̅ ⲡⲛⲟϭ ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ\nⲡⲉⲭⲥ̅ ϩⲁϩⲧⲛ̅ ⲡϣⲟⲣⲡ’ ⲙ̅ⲫⲱⲥⲧⲏⲣ’ ⲁⲣ̅ⲙ̅ⲟ̅‐\nⲍ̅ⲏ̅ⲗ̅ ⲁⲩⲱ ⲉⲩϣⲟⲟⲡ’ ⲛⲙ̅ⲙⲁϥ ⲛ̅ϭⲓ ⲛⲉϥϭⲟⲙ\nⲁⲩⲱ ⲁϥϯ ⲛⲁϥ ⲛ̅ϭⲓ ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲛ̅ⲛⲟⲩϭⲟⲙ\nⲛ̅ⲛⲟⲉⲣⲟⲛ ⲛ̅ⲛⲁⲧϭⲣⲟ ⲉⲣⲟⲥ ⲁⲩⲱ ⲁϥϫⲟⲟⲥ\nⲁϥϯ ⲉⲟⲟⲩ ⲁⲩⲱ ⲁϥⲥⲙⲟⲩ ⲁⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅‐\nⲡⲛ̅ⲁ̅ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲉⲧⲃⲏⲧⲕ ⲁⲡⲧⲏⲣϥ\nϣⲱⲡⲉ ⲁⲩⲱ ⲉⲣⲉⲡⲧⲏⲣϥ ⲛⲁⲛⲁⲩϩϥ ⲉⲣⲟⲕ\nⲁⲛⲟⲕ’ ⲇⲉ ϯⲛⲁⲥⲙⲟⲩ ⲛ̅ⲧⲁϯ ⲉⲟⲟⲩ ⲛⲁⲕ ⲁⲩⲱ\nⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲙⲛ̅ ⲛⲁⲓⲱⲛ ⲡⲓϣⲟⲙⲧ ⲡⲓⲱⲧ’\nⲧⲙⲁⲩ· ⲡϣⲏⲣⲉ ⲧϭⲟⲙ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲁⲩⲱ ⲁϥ‐\nⲧⲉϩⲟ ⲉⲣⲁⲧϥ ⲙ̅ⲡⲉϥϣⲏⲣⲉ ⲥⲏⲑ· ⲁϫⲛ̅ ⲡⲙⲁϩ‐\nⲥⲛⲟ ⲛ̅ⲁⲓⲱⲛ ⲛⲁϩⲣⲛ̅ ⲡⲙⲁϩⲥⲛⲟ ⲙ̅ⲫⲱⲥⲧⲏⲣ\nⲱ̅ⲣ̅ⲱ̅ⲓ̅̈̅ⲏ̅ⲗ̅ ϩⲣⲁⲓ̈ ⲇⲉ ϩⲙ̅ ⲡⲙⲁϩϣⲟⲙⲧ’ ⲛ̅[ⲁⲓ]ⲱⲛ\nⲁⲩⲧⲉϩⲟ ⲇⲉ ⲉⲣⲁⲧϥ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛ̅ⲥⲏⲑ ⲁ‐\nϫⲛ̅ ⲡⲙⲁϩϣⲟⲙⲧ ⲙ̅ⲫⲱⲥⲧⲏⲣ ⲇⲁ̅ⲩ̅ⲉ̅ⲓ̅ⲑ̅ⲁ̅̅[ⲓ]\nⲁⲩⲧⲉϩⲟ ⲇⲉ ⲉⲣⲁⲧϥ ⲛⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲛⲉⲧⲟⲩⲁ[ⲁ]ⲃ\nⲛ̅ϩⲣⲁⲓ̈ ⲇⲉ ϩⲙ̅ ⲡⲙⲉϩϥⲧⲟⲟⲩ ⲛ̅ⲁⲓⲱⲛ ⲁⲩⲧⲉϩⲟ\nⲉⲣⲁⲧⲟⲩ ⲛⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲛⲉ[ⲧ]ⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲡ‐\nⲡⲗⲏⲣⲱⲙⲁ· ⲁⲩⲱ ⲙ̅ⲡⲟⲩⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ϩⲛ̅ ⲟⲩ‐\nϭⲉⲡⲏ ⲁⲗⲗⲁ ⲁⲩϭⲱ ϩⲛ̅ ⲟⲩⲟⲉⲓϣ ⲁⲩⲱ ⲙⲛ̅ⲛ̅‐\nⲥⲱⲥ ⲁⲩⲙⲉⲧⲁⲛⲟⲉⲓ ⲁⲩϣⲱⲡⲉ ϩⲁϩⲧⲛ̅ ⲡⲙⲉϩ‐\nϥⲧⲟⲟⲩ ⲙ̅ⲫⲱ[ⲥ]ⲧⲏⲣ ⲏⲗ̅ⲏ̅ⲗ̅ⲏ̅ⲑ̅ ⲛⲁⲓ̈ ⲛⲉ ϩⲉⲛ‐\nϫⲡⲟ ⲛⲉ ⲉⲩϯ ⲉⲟⲟⲩ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅"
+        },
+        {
+          "title": "The Fall of Sophia",
+          "subtitle": "The Fall of Sophia",
+          "heading": "The Fall of Sophia (9, 25-10, 19)",
+          "rangeLabel": "9, 25-10, 19",
+          "range": {
+            "start": {
+              "page": 9,
+              "line": 25
+            },
+            "end": {
+              "page": 10,
+              "line": 19
+            }
+          },
+          "english": "Now, Sophia, who is the Wisdom of Insight and who constitutes an aeon,\nconceived of a thought from herself, with the conception of the Invisible Spirit\nand Foreknowledge. She wanted to bring forth something like herself, without\nthe consent of the Spirit, who had not given approval, without her partner and\nwithout his consideration. The male did not give approval. She did not find her\npartner, and she considered this without the Spirit’s consent and without the\nknowledge of her partner. Nonetheless, she gave birth. And because of the\ninvincible power within her, her thought was not an idle thought. Something\ncame out of her that was imperfect and different in appearance from her, for she\nhad produced it without her partner. It did not resemble its mother and was\nmisshapen.\nWhen Sophia saw what her desire had produced, it changed into the figure of\na snake with the face of a lion. Its eyes were like flashing bolts of lightning.\nShe cast it away from her, outside that realm so that none of the immortals would\nsee it. She had produced it ignorantly.\nShe surrounded it with a bright cloud and put a throne in the middle of the\ncloud so that no one would see it except the holy Spirit, who is called the Mother\nof the living. She named her offspring Yaldabaoth.",
+          "coptic": "ⲧⲥⲟⲫⲓⲁ ⲇⲉ ⲛ̅ⲧⲉⲡⲓⲛⲟⲓⲁ· ⲉⲥϣⲟⲟⲡ’ ⲛ̅ⲁⲓⲱⲛ\nⲁⲥⲙⲉⲉⲩⲉ ϩⲛ̅ ⲟⲩⲙⲉⲉⲩⲉ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ⲙⲛ̅‐\nⲧⲉⲛⲑⲩⲙⲏⲥⲓⲥ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ\nⲧⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲥⲟⲩⲱϣ[ⲉ] ⲉⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲛ̅ⲟⲩⲉⲓⲛⲉ ⲛ̅ϩⲏⲧⲥ̅ ⲁϫⲙ̅ [ⲡⲟⲩⲱ]ϣ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅\nⲙ̅ⲡⲉϥⲣ̅ⲉⲩⲇⲟⲕⲉⲓ ⲁⲩ[ⲱ ⲁϫⲙ̅ ⲡ]ⲉⲥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅\nⲁⲩⲱ ⲁϫⲙ̅ ⲡⲉϥⲙⲟⲕⲙⲉⲕ ⲉⲙⲡⲉϥⲣ̅ⲥⲩⲛⲉⲩ‐\nⲇⲟⲕⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ⲡⲡⲣⲟⲥⲱⲡⲟⲛ ⲛ̅ⲧⲉⲥⲙ̅ⲛ̅ⲧ̅‐\nϩⲟⲟⲩⲧ ⲉⲙⲡⲉⲥϭⲓⲛⲉ ⲇⲉ ⲙ̅ⲡⲉⲥϫⲱⲛϥ\nⲁⲥⲙⲟⲕⲙⲉⲕ ⲇⲉ ⲭⲱⲣⲓⲥ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅\nⲁⲩⲱ ⲡⲥⲟⲟⲩⲛ ⲙ̅ⲡⲉⲥϫⲱⲛϥ ⲁⲥⲉⲓⲛⲉ ⲉⲃⲟⲗ\nⲉⲧⲃⲉ ⲧϭⲟⲙ ⲇⲉ ⲛ̅ⲁⲧϫⲣⲟ ⲉⲣⲟⲥ ⲉⲧⲛ̅ϩⲏⲧⲥ̅\nⲙ̅ⲡⲉⲡⲉⲥⲙⲉⲉⲩⲉ ϣⲱⲡⲉ ⲛ̅ⲁⲣⲅⲟⲛ ⲁⲩⲱ\nⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ⲛ̅ϭⲓ ⲟⲩϩⲱⲃ ⲛ̅‐\nⲁⲧϫⲱⲕ ⲁⲩⲱ ⲉϥϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲁⲡⲉⲥⲥⲙⲟⲧ\nⲉⲃⲟⲗ ϫⲉ ⲁⲥⲧⲁⲙⲓⲟϥ ⲁϫⲙ̅ ⲡⲉⲥϣⲃⲣ̅ ⲛϩⲱⲧⲣ̅\nⲁⲩⲱ ⲛⲉ ⲟⲩⲁⲧⲥⲙⲟⲧ ⲡⲉ ⲁⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉϥⲙⲁ‐\nⲁⲩ ⲁϥⲟ ⲛ̅ϭⲉⲙⲟⲣⲫⲏ ⲛ̅ⲧⲁⲣⲉⲥⲛⲁⲩ ⲇⲉ ⲁⲡⲉⲥ‐\nⲟⲩⲱϣⲉ ⲁϥϣⲱⲡⲉ ⲛ̅ⲟⲩⲧⲩⲡⲟⲥ ⲉϥϣⲃⲃⲓ\nⲁⲉⲓⲧ ⲛ̅ⲇⲣⲁⲕⲱⲛ ⲛ̅ϩⲟ ⲙ̅ⲙⲟⲩⲉⲓ· ⲛⲉϥⲃⲁⲗ ⲇⲉ\nⲛⲉⲩⲟ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲕⲱϩⲧ ⲛ̅ϩⲃ̅ⲃⲣⲏϭⲉ ⲉⲩϯ\nⲟⲩⲟⲉⲓⲛ ⲁⲥⲛⲟϫϥ̅ ϩⲓⲥⲁⲛⲃⲟⲗ ⲙ̅ⲙⲟⲥ ⲙ̅ⲡⲃⲟⲗ\nⲛ̅ⲛ̅ⲧⲟⲡⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉⲗⲁⲁⲩ\nϩⲛ̅ ⲛⲁⲧⲙⲟⲩ ⲛⲁⲩ ⲉⲣⲟϥ’ ϫⲉ ⲛ̅ⲧⲁⲥⲧⲁⲙⲓⲟϥ ⲅⲁⲣ\nϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲥⲕⲧⲟ ⲉⲣⲟϥ ⲛ̅‐\nⲟⲩⲕⲗⲟⲟⲗⲉ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥⲕⲱ ⲛ̅ⲟⲩⲑⲣⲟ‐\nⲛⲟⲥ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ⲧⲉⲕⲗⲟⲟⲗⲉ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉ\nⲗⲁⲁⲩ ⲛⲁⲩ ⲉⲣⲟϥ ⲉⲓⲙⲏⲧⲓ ⲁⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ\nⲁⲥⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲡⲉϥⲣⲁⲛ ϫⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲡⲁⲓ̈"
+        },
+        {
+          "title": "Yaldabaoth’s World Order",
+          "subtitle": "Yaldabaoth’s World Order",
+          "heading": "Yaldabaoth’s World Order (10, 19-13, 13)",
+          "rangeLabel": "10, 19-13, 13",
+          "range": {
+            "start": {
+              "page": 10,
+              "line": 19
+            },
+            "end": {
+              "page": 13,
+              "line": 13
+            }
+          },
+          "english": "This is the first ruler, the archon who took great power from his mother. Then he\nleft her and moved away from the place where he was born. He took control and\ncreated for himself other aeons with luminous fire, which still exists. He mated\nwith the mindlessness in him and produced authorities for himself:\nThe name of the first is Athoth, whom generations call the [reaper].\nThe second is Harmas, who is the jealous eye.\nThe third is Kalila-Oumbri.\nThe fourth is Yabel.\nThe fifth is Adonaios, who is called Sabaoth.\nThe sixth is Cain, whom generations of people call the sun.\nThe seventh is Abel.\nThe eighth is Abrisene.\nThe ninth is Yobel.\nThe tenth is Armoupieel.\nThe eleventh is Melcheir-Adonein.\nThe twelfth is Belias, who is over the depth of the underworld.\nYaldabaoth stationed seven kings, one for each sphere of heaven, to reign\nover the seven heavens, and five to reign over the depth of the abyss. He shared\nhis fire with them, but he did not give away any of the power of the light he had\ntaken from his mother. For he is ignorant darkness.\nWhen light mixed with darkness, it made the darkness shine. When darkness\nmixed with light, it dimmed the light, and it became neither light nor darkness,\nbut rather gloom.\nThis gloomy archon has three names: the first name is Yaldabaoth, the\nsecond is Sakla, the third is Samael.\nHe is wicked in the mindlessness within him. He said, “I am God and there is\nno other god beside me,” since he did not know from where his own strength\nhad come.\nThe rulers each created seven powers for themselves, and the powers each\ncreated six angels, until there were 365 angels. These are the names and the\ncorresponding physiques:\nThe first is Athoth, and has the face of a sheep.\nThe second is Eloaios, and has the face of a donkey.\nThe third is Astaphaios, and has the face of a hyena.\nThe fourth is Yao, and has the face of a snake with seven heads.\nThe fifth is Sabaoth, and has the face of a snake.\nThe sixth is Adonin, and has the face of an ape.\nThe seventh is Sabbataios, and has a face of flaming fire.\nThis is the sevenfold nature of the week.\nYaldabaoth has many faces, more than all of these, so that he could\nshow whatever face he wanted when he was among the seraphim. He shared\nhis fire with them, and lorded it over them because of the glorious power he had\nfrom his mother’s light. That is why he called himself God and defied the place\nfrom which he came.\nIn his thought he united the seven powers with the authorities that were with\nhim. When he spoke, it was done. He named each of the powers, beginning with\nthe highest:\nFirst is goodness, with the first power, Athoth.\nSecond is forethought, with the second power, Eloaios.\nThird is divinity, with the third power, Astaphaios.\nFourth is lordship, with the fourth power, Yao.\nFifth is kingdom, with the fifth power, Sabaoth.\nSixth is jealousy, with the sixth power, Adonin.\nSeventh is understanding, with the seventh power, Sabbataios.\nEach has a sphere in its own realm.\nThey were named after the glory above for the destruction of the powers.\nAlthough the names given them by their maker were powerful, the names given\nthem after the glory above would bring about their destruction and loss of power.\nThat is why they have two names.\nYaldabaoth organized everything after the pattern of the first aeons that had\ncome into being, so that he might create everything in an incorruptible\nform. Not that he had seen the incorruptible ones. Rather, the power that is in\nhim, that he had taken from his mother, produced in him the pattern for the\nworld order.\nWhen he saw creation surrounding him, and the throng of angels around him\nthat had come forth from him, he said to them, “I am a jealous god and there is\nno other god beside me.”\nBut by announcing this, he suggested to the angels with him that there is\nanother god. For if there were no other god, of whom would he be jealous?",
+          "coptic": "ⲁⲥⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲡⲉϥⲣⲁⲛ ϫⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲡⲁⲓ̈\nⲡⲉ ⲡϣⲟⲣⲡ ⲛ̅[ⲁⲣ]ⲭⲱⲛ ⲡⲁⲓ̈ ⲉⲧⲁϩϫⲓ ⲟⲩⲛⲟϭ\nⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲉ[ⲃ]ⲟⲗ ϩⲓⲧⲛ ⲧⲉϥⲙⲁⲁⲩ ⲁⲩⲱ ⲁϥ‐\nⲥⲉϩⲱⲱϥ ⲉⲃⲟⲗ ⲙ̅ⲙⲟⲥ ⲁⲩⲱ ⲁϥ ⲡⲱⲱⲛⲉ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲧⲟⲡⲟⲥ ⲉⲧⲁⲩϫⲡⲟϥ ⲛ̅ϩⲏⲧⲟⲩ· ⲁϥ‐\nⲉⲙⲁϩⲧⲉ ⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ ⲛ̅ϩⲛ̅ⲕⲉⲁⲓⲱⲛ ϩⲛ̅\nⲟⲩϣⲁϩ ⲛ̅ⲕⲱϩⲧ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲡⲁⲓ̈ ⲉⲧϣⲟⲟⲡ\nⲧⲉⲛⲟⲩ ⲁⲩⲱ ⲁϥⲧⲱⲙⲧ ϩⲛ̅ ⲧⲉϥⲁⲡⲟⲛⲟⲓⲁ\nⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ· ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁϥϫⲡⲟ ⲛ̅‐\nϩⲉⲛⲉⲝⲟⲩⲥⲓⲁ ⲛⲁϥ ⲡϣⲟⲣⲡ ⲙⲉⲛ ⲡⲉϥⲣⲁⲛ\nⲡⲉ ⲁ̅ⲑ̅ⲱ̅ⲑ̅ ⲡⲁⲓ̈ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲛ̅ϭⲓ ⲛ̅ⲅⲉ‐\nⲛⲉⲁ ϫⲉ ⲡ[ϫⲁⲓ̈ⲟ]ϩⲥ̅ ⲡⲙⲉϩⲥⲛⲁⲩ ⲡⲉ ϩ̅ⲁ̅ⲣ̅ⲙ̅ⲁ̅ⲥ̅\nⲉⲧⲉ ⲡⲁⲓ [ⲡⲉ ⲡⲃⲁⲗ] ⲙ̅ⲡⲕⲱϩ· ⲡⲙⲉϩϣⲟⲙⲧ\nⲡⲉ ⲕ̅ⲁ̅ⲗ̅ⲓ̅ⲗ̅ⲁ̅ ⲟ̅ⲩⲙⲃⲣⲓ̅ ⲡⲙⲉϩϥⲧⲟⲟⲩ ⲡⲉ ⲓ̅̈ⲁⲃⲏⲗ̅\nⲡⲙⲉϩϯⲟⲩ ⲡⲉ ⲁ̅ⲇ̅ⲱ̅ⲛ̅ⲁ̅ⲓ̅̈̅ⲟ̅ⲩ̅ ⲡⲉⲧⲟⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟϥ ϫⲉ ⲥ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅· ⲡⲙⲉϩⲥⲟⲟⲩ ⲡⲉ ⲕ̅ⲁⲓ̈ⲛ̅\nⲡⲁⲓ̈ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲛ̅ϭⲓ ⲛ̅ⲅⲉⲛⲉⲁ ⲛ̅ⲣⲣⲱ‐\nⲙⲉ ϫⲉ ⲡⲣⲏ ⲡⲙⲉϩⲥⲁϣϥ ⲡⲉ ⲁ̅ⲃ̅ⲉ̅ⲗ̅ ⲡⲙⲉϩ\nϣⲙⲟⲩⲛ ⲡⲉ ⲁ̅ⲃ̅ⲣ̅ⲓ̅ⲥ̅ⲉ̅ⲛ̅ⲉ̅· ⲡⲙⲉϩⲯⲓⲥ ⲡⲉ ⲓ̅̈ⲱⲃⲏⲗ̅\nⲡⲙⲉϩⲙⲏⲧ’ ⲡⲉ ⲁ̅ⲣ̅ⲙ̅ⲟ̅ⲩ̅ⲡ̅ⲓ̅ⲉ̅ⲏ̅ⲗ̅· ⲡⲙⲉϩⲙⲛ̅‐\nⲧⲟⲩⲉ· ⲡⲉ ⲙ̅ⲉ̅ⲗ̅ⲭ̅ⲉ̅ⲓ̅ⲣ̅ⲁ̅ⲇ̅ⲱ̅ⲛ̅ⲉ̅ⲓ̅ⲛ̅· ⲡⲙⲉϩⲙⲛ̅\nⲧⲥⲛⲟⲟⲩⲥ ⲡⲉ ⲃⲉⲗⲓⲁⲥ ⲡⲁⲓ̈ ⲡⲉ ⲉⲧϩⲓϫⲛ̅ ⲡϣⲓⲕ‐\nⲛ̅ⲁⲙ̅ⲛ̅ⲧ̅ⲉ ⲁⲩⲱ ⲁϥⲧⲉϩⲟ ⲉⲣⲁⲧϥ̅ ⲛ̅ⲥⲁϣϥ ⲛ̅ⲣ̅ⲣⲟ\nⲟⲩⲁ ⲕⲁⲧⲁ ⲥⲧⲉⲣⲉⲱⲙⲁ ⲛ̅ⲧⲡⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲧⲙⲉϩ‐\nⲥⲁϣϥⲉ ⲙ̅ⲡⲉ ⲁⲩⲱ ϯⲟⲩ ⲁϫⲙ̅ ⲡϣⲓⲕ ⲙ̅ⲡⲛⲟⲩⲛ\nϩⲱⲥⲧⲉ ⲁⲧⲣⲟⲩⲣ̅ⲣ̅ⲣⲟ ⲁⲩⲱ ⲁϥⲡⲱϣ ⲉϫⲱⲟⲩ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲉϥⲕⲱϩⲧ’ ⲙ̅ⲡⲉϥⲧⲛ̅ⲛⲉⲩ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅\nⲧϭⲁⲙ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲛⲧⲁϥϫⲓⲧⲥ̅ ⲛⲧⲛ̅ ⲧⲉϥⲙⲁ‐\nⲁⲩ ⲛ̅ⲧⲟϥ ⲅⲁⲣ ⲟⲩⲕⲁⲕⲉ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛⲉ ⲡⲉ ⲡⲟⲩ‐\nⲟⲉⲓⲛ ⲇⲉ ⲛ̅ⲧⲁⲣⲉϥⲧⲱϩ ⲙⲛ̅ ⲡⲕⲁⲕⲉ ⲁϥⲧⲣⲉⲡⲕⲁ‐\nⲕⲉ ⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲡⲕⲁⲕⲉ ⲇⲉ ⲛ̅ⲧⲁⲣⲉϥⲧⲱϩ ⲙⲛ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲁϥϩⲧⲙ̅ⲧⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲙ̅ⲡϥϣⲱ‐\nⲡⲉ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲟⲩⲧⲉ ⲛ̅ⲕⲁⲕⲉ ⲁⲗⲗⲁ ⲁϥϣⲱⲡⲉ ⲉϥ‐\nϣⲟⲛⲉ ⲡⲓⲁⲣⲭⲱⲛ ϭⲉ ⲉⲧϣⲟⲛⲉ ⲟⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ\nⲛ̅ϣⲟⲙⲧ ⲛ̅ⲣⲁⲛ ⲡϣⲟⲣⲡ ⲛ̅ⲣⲁⲛ ⲡⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅̅[̅ⲱ̅ⲑ̅]̅\nⲡⲙⲉϩⲥⲛⲁⲩ ⲡⲉ ⲥ̅ⲁ̅ⲕ̅ⲗ̅ⲁ̅ⲥ̅ ⲡⲙⲉϩϣⲟⲙⲧ ⲡⲉ\nⲥⲁ̅ⲙ̅ⲁ̅ⲏ̅ⲗ ⲡⲁⲓ̈ ⲇⲉ ⲟⲩϣⲁϥⲧⲉ ⲡⲉ ϩⲛ̅ ⲧⲉϥⲁⲡⲟ[ⲛⲟ]ⲓⲁ\nⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ⲛ̅ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ̅ ⲁϥϫⲟⲟⲥ ⲅⲁⲣ ϫⲉ\nⲁⲛⲟⲕ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲙⲛ̅ ⲕⲉⲛⲟⲩⲧⲉ ϣⲟⲟⲡ\nⲛ̅ⲥⲁⲃⲗ̅ⲗⲏⲉⲓ· ⲉϥⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ⲙ̅ⲡⲉϥⲧⲁϫⲣⲟ\nⲡⲙⲁ ⲉⲛⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲁⲩⲧⲁⲙⲓⲟ\nⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲛ̅ⲥⲁϣϥⲉ ⲛ̅ϭⲟⲙ ⲛⲁⲩ· ⲁⲩⲱ\nⲛ̅ϭⲟⲙ ⲁⲩⲧⲁⲙⲓⲟ ⲛⲁⲩ ⲛ̅ⲥⲟⲟⲩ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁ‐\nⲡⲟⲩⲁ ϣⲁⲛⲧⲟⲩⲣ̅ ϣⲙ̅ⲧ̅ϣⲉⲥⲉⲧⲏ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nϯ ⲇⲉ ⲛⲉ ⲛⲥⲱⲙⲁ ⲛ̅ⲛ̅ⲣⲓⲛ ⲡϣⲟⲣⲡ 〈ⲡ〉ⲉ ⲁ̅ⲑ̅ⲱ̅ⲑ̅\nⲟⲩϩⲟ ⲛ̅ⲛⲉⲥⲟⲟⲩ ⲡⲉ ⲡⲙⲉϩⲥⲛⲁⲩ ⲡⲉ ⲉ̅ⲗ̅ⲱ̅‐\nⲁ̅ⲓ̅ⲟ̅ⲩ̅ ⲟⲩϩⲟ ⲛ̅ⲧⲩⲫⲱⲛ ⲡⲉ ⲡⲙⲉϩϣⲟⲙⲧ\nⲡⲉ ⲁⲥⲧ̅ⲁ̅ⲫ̅ⲁ̅ⲓ̅ⲟ̅ⲥ̅ ⲟⲩϩ[ⲟ ⲛ̅ϩⲟⲉⲓ]ⲧⲉ ⲡⲉ ⲡⲙⲉϩ‐\nϥⲧⲟⲟⲩ ⲡⲉ ⲓ̅̈̅ⲁ̅ⲱ̅ ⲟⲩϩ[ⲟ ⲛ̅ⲇⲣⲁⲕ]ⲱⲛ ⲡⲉ ⲉⲩⲛ̅‐\nⲧⲉϥ’ ⲥⲁϣϥⲉ ⲛ̅ⲁⲡⲉ· ⲡⲙⲉϩϯⲟⲩ ⲡⲉ ⲥ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅\nⲟⲩϩⲟ ⲛ̅ⲇⲣⲁⲕⲱⲛ ⲡⲙⲉϩⲥⲟⲟⲩ ⲡⲉ ⲁⲇⲱⲛⲓⲛ\nⲟⲩϩⲟ ⲛ̅ⲏⲛⲉ ⲡⲉ ⲡⲙⲉϩⲥⲁϣϥ ⲡⲉ ⲥ̅ⲁ̅ⲃ̅ⲃ̅ⲉ̅ⲇ̅ⲉ̅\nⲟⲩϩⲟ ⲛ̅ⲕⲱϩⲧ ⲡⲉ ⲉϥϯ ⲟⲩⲟⲉⲓⲛ ⲧⲁⲓ̈ ⲧⲉ ⲧϩⲉ‐\nⲃⲇⲟⲙⲁⲥ ⲛ̅ⲧⲉ ⲡⲥⲁⲃⲃⲁⲧⲟⲛ ⲓ̈ⲁⲗⲧⲁⲃⲁⲱⲑ\nⲇⲉ ⲛⲉ ⲟⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ ⲛ̅ⲟⲩⲙⲏⲏϣ[ⲉ]\nⲙ̅ⲡⲣⲟⲥⲱⲡⲟⲛ ⲉϥⲟⲩⲏϩ ϩⲓϫⲱⲟⲩ ⲧⲏ‐\nⲣⲟⲩ ϩⲱⲥⲧⲉ ⲁⲧⲣⲉϥⲉⲓⲛⲉ ⲛ̅ⲟⲩϩⲟ ⲛⲁϩ‐\nⲣⲉⲟⲩ ⲧⲏⲣⲟⲩ ⲕⲁⲧⲁ ⲡⲉϥⲟⲩⲱϣⲉ ⲉϥϣⲟ‐\nⲟⲡ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ϩⲉⲛⲥⲁⲣⲁⲫⲓⲛ ⲁϥⲡⲱ‐\nϣⲉ ⲁϫⲱⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥⲕⲱϩⲧ ⲉⲧⲃⲉ\nⲡⲁⲓ̈ ⲁϥⲣ̅ ϫⲟⲉⲓⲥ ⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ ⲧϭⲟⲙ ⲙ̅‐\nⲡⲉⲟⲟⲩ ⲉⲧϣⲟⲟⲡ ⲛⲁϥ’ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲉ\nⲧⲉϥⲙⲁⲁⲩ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲙ̅‐\nⲙⲓⲛ ⲙ̅ⲙⲟϥ ϫⲉ ⲛⲟⲩⲧⲉ ⲛⲁϥⲣ̅ⲡⲓⲑⲉ ⲇⲉ\nⲁⲛ ⲁⲡⲙⲁ ⲉⲛⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ\nⲁϥⲙⲟⲩϣϭ ⲙⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲉⲧϣⲟⲟⲡ\nϩⲁⲣⲟϥ ⲛ̅ⲥⲁϣϥⲉ ⲛ̅ϭⲟⲙ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲉϥⲙⲉ‐\nⲉⲩⲉ ⲁⲩⲱ ϩⲙ̅ ⲡⲧⲣⲉϥϫⲟⲟⲥ ⲁϥϣⲱⲡⲉ ⲁⲩ‐\nⲱ ⲁϥϯ ⲣⲁⲛ ⲉⲧϭⲟⲙ ⲧϭⲟⲙ ⲁϥⲣ̅ⲁⲣⲭⲉⲥ‐\nⲑⲁⲓ ϫⲛ̅ ⲙ̅ⲡⲥⲁⲛⲧⲡⲉ ⲡϣⲟⲣⲡ ⲙⲉⲛ ⲧⲉ\nⲧⲙⲛⲧⲭⲣ̅ⲥ̅ ϩⲁϩⲧⲛ̅ ⲡϣⲟⲣⲡ ⲁ̅ⲑⲱⲑ̅·\nⲡⲙⲉϩⲥⲛⲁⲩ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ϩⲁⲧⲛ̅\nⲡⲙⲉϩⲥⲛⲁⲩ ⲉ̅ⲗ̅ⲱ̅ⲁ̅ⲓ̅ⲱ̅· ⲧⲙⲉϩϣⲟⲙⲧ’\nⲇⲉ ⲡⲉ ⲁ̅ⲥ̅ⲧ̅ⲣ̅ⲁ̅ⲫ̅ⲁ̅ⲓ̅ⲱ̅· ⲧⲙⲉϩϥⲧⲟⲉ ⲧⲉ ⲧ‐\nⲙ̅ⲛ̅ⲧ̅ϫⲟⲉⲓⲥ ϩⲁⲧⲛ̅ ⲡⲙⲉϩϥⲧⲟⲟⲩ ⲓ̅ⲁⲱ̅\nⲧⲙⲉϩϯⲉ ⲧⲉ ⲧⲙⲛⲧⲉⲣⲟ ϩⲁϩⲧⲛ̅ ⲡⲙⲉϩϯ‐\nⲟⲩ· ⲥⲁ̅ⲛ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅· ⲧⲙⲉϩⲥⲟ ⲡⲉ ⲡⲕⲱϩ ϩⲁ‐\nϩⲧⲛ̅ ⲡⲙⲉϩⲥⲟⲟⲩ ⲁⲇ̅ⲱ̅ⲛ̅ⲉ̅ⲓ̅ⲛ̅ ⲧⲙⲉϩⲥⲁϣϥ\nⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙⲛ̅ϩⲏⲧ ϩⲁⲧⲛ̅ ⲡⲙⲉϩⲥⲁϣ̅ϥ̅\nⲥⲁⲃⲃⲁⲧⲉⲱⲛ ⲛⲁⲓ̈ ⲇⲉ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅‐\nⲟⲩⲥⲧⲉⲣⲉⲱⲙⲁ ⲕⲁⲧⲁ ⲡⲉ ⲛ̅ⲁⲓⲱⲛ ⲛⲁⲓ̈ ⲙⲉⲛ\nⲁⲩϯ ⲣⲁⲛ ⲉⲣⲟⲟⲩ ⲕⲁⲧⲁ ⲡⲉⲟⲟⲩ ⲛ̅ⲛⲁⲧⲡⲉ\nⲉⲡϣⲟⲣ[ϣⲣ̅ ⲛ̅ⲛⲓ]ϭⲟⲙ ⲛ̅ⲣⲁⲛ ⲇⲉ ⲉⲛⲧⲁⲩ‐\nⲧⲁⲁⲩ ⲉⲣⲟ[ⲟⲩ ϩⲓⲧⲛ̅] ⲡⲟⲩⲁⲣⲭⲓⲅⲉⲛⲛⲏⲧⲱⲣ\nⲉⲩⲣ̅ ϭⲟⲙ’ ϩⲣⲁⲓ ⲛ̅ϩⲏⲧⲟⲩ ⲛ̅ⲣⲁⲛ ⲇⲉ ⲉⲧⲧⲟ\nⲉⲣⲟⲟⲩ ⲕⲁⲧⲁ ⲡⲉⲟⲟⲩ ⲛ̅ⲛⲁⲧⲡⲉ ⲉⲩ ϣⲟⲟⲡ\nⲛⲁⲩ ⲉⲩϣⲟⲣϣⲣ̅· ⲁⲩⲱ ⲁⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧϭⲟⲙ ⲛⲁⲩ\nϩⲱⲥⲧⲉ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲣⲁⲛ ⲥⲛⲁⲩ ⲛ̅ⲕⲁ\nⲇⲉ ⲛⲓⲙ ⲁϥⲧⲥⲉⲛⲟϥ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲛ̅ⲛ̅ϣⲟⲣⲡ\n[ⲛ̅]ⲁⲓⲱⲛ ⲉⲛⲧⲁϩϣⲱⲡⲉ ϩⲱⲥⲧⲉ ⲁⲧⲣⲉϥ‐\nⲧⲁⲙⲓⲟⲟⲩ ⲙ̅ⲡⲥⲙⲁⲧ ⲛ̅ⲁⲧⲧⲉⲕⲟ ⲟⲩⲭ ϩⲟⲧⲓ\nⲛ̅ⲧⲁϥ ϫⲉ ⲁϥⲛⲁⲩ ⲁⲛⲁⲧⲧⲉⲕⲟ ⲁⲗⲗⲁ ⲧϭⲟⲙ\nⲉⲧⲛ̅ϩⲏⲧϥ ⲧⲁⲓ̈ ⲉⲛⲧⲁϥϫⲓⲧⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲧⲉϥⲙⲁⲁⲩ ⲉⲁⲥϫⲡⲟ ⲛ̅ϩⲏⲧϥ ⲙ̅ⲡⲓⲛⲉ· ⲙ̅‐\nⲡⲧⲥⲉⲛⲟ ⲉϥⲛⲁⲩ ⲇⲉ ⲁⲧⲕⲧⲓⲥⲓⲥ ⲉⲧⲕⲱⲧⲉ\nⲉⲣⲟϥ ⲁⲩⲱ ⲡⲁϣⲁⲓ̈ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲉⲧⲕⲧⲏⲩ\nⲉⲣⲟϥ’ ⲛⲁⲓ̈ ⲉⲛⲧⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ⲙ̅ⲙⲟϥ ⲡⲉ‐\nϫⲁϥ ⲛⲁⲩ· ϫⲉ ⲁⲛⲟⲕ ⲁⲛⲕ ⲟⲩⲛⲟⲩⲧⲉ ⲛ̅ⲣⲉϥ‐\nⲕⲱϩ ⲁⲩⲱ ⲙⲛ̅ ⲕⲉⲛⲟⲩⲧⲉ ⲛ̅ⲥⲁⲃⲗ̅ⲗⲁⲓ̈ ⲡⲁⲓ̈ ⲇⲉ\nⲉϥⲧⲁⲩⲟ ⲙ̅ⲙⲟϥ· ⲉϥⲣ̅ⲥⲏⲙⲁⲛⲉ ⲛ̅ⲛ̅ⲁⲅⲅⲉ‐\nⲗⲟⲥ ⲉⲧϣⲟⲟⲡ’ ϣⲁⲣⲟϥ ϫⲉ ⲟⲩⲛ ⲕⲉ ⲛⲟⲩⲧⲉ\nϣⲟⲟⲡ ⲉⲛⲉ ⲙ̅ⲛ̅ ⲕⲉⲟⲩⲁ ⲅⲁⲣ ϣⲟⲟⲡ’ ⲛⲉ ⲛⲓⲙ\nⲡⲉⲧϥⲛⲁⲕⲱϩ ⲉⲣⲟϥ ⲁⲥⲣ̅ⲁⲣⲭⲉⲥⲑⲉ ϭⲉ ⲛ̅ϣⲉ"
+        },
+        {
+          "title": "Sophia Repents",
+          "subtitle": "Sophia Repents",
+          "heading": "Sophia Repents (13, 13-14, 13)",
+          "rangeLabel": "13, 13-14, 13",
+          "range": {
+            "start": {
+              "page": 13,
+              "line": 13
+            },
+            "end": {
+              "page": 14,
+              "line": 13
+            }
+          },
+          "english": "Then the Mother began to move around. She realized that she was lacking\nsomething when the brightness of her light diminished. She grew dim because\nher partner had not collaborated with her.\nI said, “Lord, what does it mean that she moved around?”\nThe Lord laughed and said, Do not suppose that it is as Moses said, above\nthe waters. No, when she recognized the wickedness that had taken place and\nthe robbery her son had committed, she repented. When she became forgetful in\nthe darkness of ignorance, she began to be ashamed. She did not dare to return,\nbut she was agitated. This agitation is the moving around.\nThe arrogant one took power from his mother. He was ignorant, for he\nthought no one existed except his mother alone. When he saw the throng of\nangels he had created, he exalted himself over them.\nWhen the Mother realized that the trappings of darkness had come into\nbeing imperfectly, she understood that her partner had not collaborated with her.\nShe repented with many tears. The whole realm of Fullness heard her prayer\nof repentance and offered praise on her behalf to the Invisible Virgin Spirit, and\nthe Spirit consented. When the Invisible Spirit consented, the holy Spirit\npoured upon her some of the fullness of all. For her partner did not come to her\non his own, but he came to her through the realm of Fullness, so that he might\nrestore what she lacked. She was taken up not to her own eternal realm, but\ninstead to a position above her son. She was to remain in the ninth heaven until\nshe restored what was lacking in herself.",
+          "coptic": "ⲡⲉⲧϥⲛⲁⲕⲱϩ ⲉⲣⲟϥ ⲁⲥⲣ̅ⲁⲣⲭⲉⲥⲑⲉ ϭⲉ ⲛ̅ϣⲉ\nⲉⲓ ⲛ̅ϭⲓ ⲧⲙⲁⲁⲩ ⲁⲥⲙ̅ⲙⲉ ⲁⲡϣⲧⲁ ϩⲙ̅ ⲡⲧⲣⲉϥ‐\nϭⲱϫⲃ ⲛ̅ϭⲓ ⲡⲣⲣⲓⲉ ⲙ̅ⲡⲉⲥⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥ‐\nϩⲧⲟⲙϩⲧⲙ̅ ⲉⲃⲟⲗ ϫⲉ ⲙ̅ⲡⲉϥⲣ̅ⲥⲩⲙⲫⲱⲛⲉ\nⲛⲙ̅ⲙⲁⲥ ⲛ̅ϭⲓ ⲡⲉⲥϣⲃⲣ̅ϩⲱⲧ̅ⲣ̅ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉ‐\nϫⲁⲉⲓ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲟⲩ ⲡⲉ ⲁⲥϣⲉⲉⲓ· ⲛ̅ⲧⲟϥ ⲇⲉ\nⲁϥⲥⲱⲃⲉ ⲡⲉϫⲁϥ ϫⲉ ⲙ̅ⲡⲣ̅ⲙⲉⲉⲩⲉ ϫⲉ ⲕⲁ‐\nⲧⲁ ⲑⲉ ⲉⲛⲧⲁϥϫⲟⲟⲥ ⲛ̅ϭⲓ ⲙⲱⲩ̈ⲥⲏⲥ ϩⲓϫⲛ̅\nⲙ̅ⲙⲟⲩⲉⲓⲟⲟⲩⲉ ⲙ̅ⲙⲁⲛ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲣⲉⲥⲛⲁⲩ\nⲁⲧⲕⲁⲕⲓⲁ ⲉⲛⲧⲁⲥϣⲱⲡⲉ ⲁⲩⲱ ⲡϫⲓ ⲉⲛⲧⲁϥ‐\nϫⲓⲧϥ’ ⲛ̅ϭⲓ ⲡⲉⲥϣⲏⲣⲉ· ⲁⲥⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ\nⲁⲩⲱ ⲁⲩⲃ̅ϣⲉ ϣⲱⲡⲉ ⲛⲁⲥ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲛ̅‐\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲥⲁⲣⲭⲉⲓ ⲛ̅ϣⲓⲡⲉ\nϩⲛ̅ ⲟⲩⲕⲓⲙ ⲡⲕⲓⲙ ⲇⲉ ⲡⲉ ⲡϣⲉⲉⲓ ⲁϥϫⲓ\nⲇⲉ ⲛ̅ϭⲓ ⲡⲁⲩⲑⲁⲇⲏⲥ ⲛ̅ⲟⲩϭⲟⲙ ⲉⲃⲟⲗ ϩⲓ‐\nⲧⲛ̅ ⲧⲉϥⲙⲁⲁⲩ ⲛⲁϥⲟ ⲅⲁⲣ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ⲉϥ‐\nⲙⲉⲉⲩⲉ ⲅⲁⲣ ϫⲉ ⲙⲛ̅ ϭ[ⲉ ϣⲟⲟ]ⲡ ⲉⲓⲙⲏⲧⲓ\nⲁⲧⲉϥⲙⲁⲁⲩ ⲟⲩⲁⲁⲧ[ⲥ̅ ⲉϥⲛⲁⲩ] ⲇⲉ ⲁⲡⲁϣⲁⲓ̈\nⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛⲁⲓ̈ ⲉⲛⲧ[ⲁϥⲥ]ⲟⲛⲧⲟⲩ ⲁϥϫⲓ‐\nⲥⲉ ϭⲉ ⲙ̅ⲙⲟϥ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲧⲙⲁⲁⲩ ⲇⲉ\nⲛ̅ⲧⲁⲣⲉⲥⲙ̅ⲙⲉ ⲁⲧϩⲃⲥⲱ ⲙ̅ⲡⲕⲁⲕⲉ ϫⲉ ⲙ̅‐\nⲡⲉϥϣⲱⲡⲉ ϩⲛ̅ ⲟⲩϫⲱⲕ ⲁⲥⲙ̅ⲙⲉ ϭⲉ\nϫⲉ ⲙ̅ⲡⲉϥⲣ̅ⲥⲩⲙⲫⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁⲥ ⲛ̅‐\nϭⲓ ⲡⲉⲥϣⲃⲣ̅ ⲛ̅ϩⲱⲧ̅ⲣ̅ ⲁⲥⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ\nϩⲛ̅ ⲟⲩⲣⲓⲙⲉ ⲉⲛⲁϣⲱϥ ⲁⲩⲱ ⲁⲩⲥⲱⲧⲙ̅ ⲁ‐\nⲡⲥⲟⲡⲥ̅ ⲛ̅ⲧⲉⲥⲙⲉⲧⲁⲛⲟⲓⲁ ⲁⲩⲱ ⲁⲩⲉⲓⲛⲉ\nⲛ̅ⲟⲩⲥⲙⲟⲩ ⲉϩⲣⲁⲓ̈ ϩⲁⲣⲟⲥ ⲛ̅ϭⲓ ⲡⲉⲡⲗⲏⲣⲱ‐\nⲙⲁ ⲧⲏⲣϥ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁϥⲡⲱϩⲧ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲥ ⲛ̅ϭⲓ ⲡⲉ ⲡ̅ⲛⲁ̅\nⲉⲧⲟⲩⲁⲁⲃ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉ→ⲩ←ⲡⲗⲏⲣⲱⲙⲁ ⲧⲏⲣϥ\nⲛ̅ⲧⲁϥⲉⲓ ⲅⲁⲣ ⲛⲁⲥ ⲁⲛ ⲛ̅ϭⲓ ⲡⲉⲥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅\nⲁⲗⲗⲁ 〈ⲛ̅〉ⲧⲁϥⲉⲓ ⲛⲁⲥ ⲉϩⲣⲁⲓ̈ ϩⲓⲧⲛ̅ ⲡⲡⲗⲏⲣⲱⲙⲁ\nϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲥⲱϩⲉ ⲙ̅ⲡⲉⲥϣⲧⲁ ⲁⲩⲱ ⲁⲩⲉⲓ‐\nⲛⲉ ⲙ̅ⲙⲟⲥ ⲉϩⲣⲁⲓ̈ ⲁⲡⲥⲁⲓⲱⲛ ⲁⲛ ⲙ̅ⲙⲓⲛ ⲙ̅‐\nⲙⲟⲥ ⲁⲗⲗⲁ ⲛ̅ⲧⲡⲉ ⲙ̅ⲡⲉⲥϣⲏⲣⲉ ⲁⲧⲣⲉⲥϣⲱ‐\nⲡⲉ ϩⲙ̅ ⲡⲙⲁϩⲯⲓⲧ ϣⲁⲛⲧⲉⲥⲥⲱϩⲉ ⲙ̅ⲡⲉⲥ‐\nϣⲧⲁ ⲁⲩⲱ ⲟⲩⲥⲙⲏ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲉ ⲛ̅ⲁⲓ‐"
+        },
+        {
+          "title": "The Human Appears",
+          "subtitle": "The Human Appears",
+          "heading": "The Human Appears (14, 13-34)",
+          "rangeLabel": "14, 13-34",
+          "range": {
+            "start": {
+              "page": 14,
+              "line": 13
+            },
+            "end": {
+              "page": 14,
+              "line": 34
+            }
+          },
+          "english": "A voice called from the exalted heavenly realm,\nHumanity exists and the Child of Humanity.\nThe first ruler, Yaldabaoth, heard the voice and thought it had come from his\nmother. He did not realize its source.\nThe holy perfect Mother-Father,\nthe complete Forethought,\nthe image of the invisible one,\nbeing the Father of the All,\nthrough whom everything came into being,\nthe first human-\nthis is the one who showed them and appeared in human shape.\nThe entire realm of the first ruler quaked, and the foundations of the abyss\nshook. The bottom side of the waters above the material world was lit up by this\nimage that had appeared. When all the authorities and the first ruler stared at this\nappearance, they saw the whole bottom side as it was lit up. And through the\nlight they saw the shape of the image in the water.",
+          "coptic": "ϣⲧⲁ ⲁⲩⲱ ⲟⲩⲥⲙⲏ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲉ ⲛ̅ⲁⲓ‐\nⲱⲛ ⲉⲧϫⲟⲥⲉ ϫⲉ ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ ⲁⲩⲱ\nⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁϥⲥⲱⲧⲙ̅ ⲇⲉ ⲛ̅ϭⲓ ⲡⲣⲱ‐\nⲧⲁⲣⲭⲱⲛ ⲓ̈ⲁⲗⲧⲁⲃⲁⲱⲑ· ⲉϥⲙⲉⲉⲩⲉ ϫⲉ ⲛ̅ⲧⲁϯ‐\nⲥⲙⲏ ϣⲱⲡⲉ {ϣⲱⲡⲉ} ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲉϥⲙⲁ‐\nⲁⲩ· ⲁⲩⲱ ⲙ̅ⲡⲉϥⲙ̅ⲙⲉ ϫⲉ ⲛ̅ⲧⲁⲥⲉⲓ ⲧⲱⲛ ⲁⲩⲱ\nⲁϥⲧⲥⲉⲃⲟⲟⲩ ⲛ̅ϭⲓ ⲡⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ ⲉⲧⲟⲩⲁⲁⲃ\nⲁⲩⲱ ⲡⲧⲉⲗⲉⲓⲟⲥ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ· ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ\nⲧϩⲓⲕⲱⲛ ⲙ̅ⲡⲓⲁϩⲟⲣⲁⲧⲟⲥ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉⲓⲱⲧ\nⲙ̅ⲡⲧⲏⲣϥ ⲡⲁⲓ̈ ⲉⲛⲧⲁⲡⲧⲏⲣϥ ϣⲱⲡⲉ ⲛ̅ϩⲏⲧϥ\nⲡϣⲟⲣⲡ’ ⲛ̅ⲣⲱⲙⲉ ϫⲉ ϩⲛ̅ ⲟⲩⲧⲩⲡⲟⲥ ⲛ̅ⲁⲛⲇⲣⲉ‐\nⲁⲥ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉϥⲉⲓⲛⲉ ⲁⲩⲱ ⲁϥ‐\nⲥⲧⲱⲧ’ ⲧⲏⲣϥ ⲛ̅ϭⲓ ⲡⲁⲓⲱⲛ ⲙ̅ⲡⲣⲱⲧⲁⲣⲭⲱⲛ\nⲁⲩⲱ ⲁⲛⲥⲛ̅ⲧⲉ ⲙ̅ⲡⲛⲟⲩⲛ ⲁⲩⲕⲓⲙ ⲁⲩⲱ ⲉⲃⲟⲗ\nϩⲓⲧⲛ̅ ⲙ̅ⲙⲟⲩⲉⲓⲟⲟⲩⲉ ⲛⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ϩⲓϫⲛ̅\nⲧϩⲩⲗⲏ ⲁϥⲣ̅ ⲟ[ⲩⲟⲉⲓ]ⲛ ⲛ̅ϭⲓ ⲡⲥⲁⲙⲡⲓⲧⲛ̅ ⲉⲃⲟⲗ\nϩⲓⲧⲙ̅ ⲡⲟⲩ[ⲱⲛϩ ⲉⲃⲟ]ⲗ ⲛ̅ⲧⲉϥϩⲓⲕⲱⲛ ⲧⲁⲓ̈ ⲉⲛ‐\nⲧⲁⲥⲟⲩⲱⲛϩ[ⲥ̅ ⲁⲩ]ⲱ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲱⲣⲙⲉ ⲛ̅ϭⲓ\nⲛⲉⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ⲁⲩ‐\nⲛⲁⲩ ⲁⲡⲙⲉⲣⲟⲥ ⲧⲏⲣϥ ⲙ̅ⲡⲥⲁⲙⲡ→ⲓ←ⲧⲛⲉ ⲉⲁϥⲣ̅‐\nⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲛⲁⲩ\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲙⲟⲟⲩ ⲁⲡⲧⲩⲡⲟⲥ ⲛ̅ⲧϩⲓⲕⲱⲛ"
+        },
+        {
+          "title": "The Creation of Adam",
+          "subtitle": "The Creation of Adam",
+          "heading": "The Creation of Adam (15, 1-19, 10)",
+          "rangeLabel": "15, 1-19, 10",
+          "range": {
+            "start": {
+              "page": 15,
+              "line": 1
+            },
+            "end": {
+              "page": 19,
+              "line": 10
+            }
+          },
+          "english": "Yaldabaoth said to the authorities with him, “Come, let’s create a human being\nafter the image of God and with a likeness to ourselves, so that this human image\nmay give us light.”\nThey created through their respective powers, according to the features that\nwere given. Each of the authorities contributed a psychical feature corresponding\nto the figure of the image they had seen. They created a being like the perfect\nfirst human, and said, “Let’s call it Adam, that its name may give us power of\nlight.”\nThe powers began to create:\nThe first one, goodness, created a soul of bone.\nThe second, forethought, created a soul of sinew.\nThe third, divinity, created a soul of flesh.\nThe fourth, lordship, created a soul of marrow.\nThe fifth, kingdom, created a soul of blood.\nThe sixth, jealousy, created a soul of skin.\nThe seventh, understanding, created a soul of hair.\nThe throng of angels stood by and received these seven psychical substances\nfrom the authorities, in order to create a network of limbs and trunk, with all\nthe parts properly arranged.\nThe first one, who is Raphao, began by creating the head,\nAbron created the skull,\nMeniggesstroeth created the brain,\nAsterechme the right eye,\nThaspomocha the left eye,\nYeronumos the right ear,\nBissoum the left ear,\nAkioreim the nose,\nBanen-Ephroum the lips,\nAmen the teeth,\nIbikan the molars,\nBasiliademe the tonsils,\nAchcha the uvula,\nAdaban the neck,\nChaaman the vertebrae,\nDearcho the throat,\nTebar the right shoulder,\nN…the left shoulder,\nMniarchon the right elbow,\n…e the left elbow,\nAbitrion the right underarm,\nEuanthen the left underarm,\nKrus the right hand,\nBeluai the left hand,\nTreneu the fingers of the right hand,\nBalbel the fingers of the left hand,\nKrima the fingernails,\nAstrops the right breast,\nBarroph the left breast,\nBaoum the right shoulder joint,\nArarim the left shoulder joint,\nAreche the belly,\nPhthaue the navel,\nSenaphim the abdomen,\nArachethopi the right ribs,\nZabedo the left ribs,\nBarias the right hip,\nPhnouth the left hip,\nAbenlenarchei the marrow,\nChnoumeninorin the bones,\nGesole the stomach,\nAgromauma the heart,\nBano the lungs,\nSostrapal the liver,\nAnesimalar the spleen,\nThopithro the intestines,\nBiblo the kidneys,\nRoeror the sinews,\nTaphreo the backbone,\nIpouspoboba the veins,\nBineborin the arteries,\nAatoimenpsephei the breaths in all the limbs,\nEntholleia all the flesh,\nBedouk the right buttock,\nArabeei the left [buttock],\n…the penis,\nEilo the testicles,\nSorma the genitals,\nGormakaiochlabar the right thigh,\nNebrith the left thigh,\nPserem the muscles of the right leg,\nAsaklas the muscle of the left,\nOrmaoth the right leg,\nEmenun the left leg,\nKnux the right shin,\nTupelon the left shin,\nAchiel the right ankle,\nPhneme the left ankle,\nPhiouthrom the right foot,\nBoabel its toes,\nTrachoun the left foot,\nPhikna its toes,\nMiamai the toenails,\nLabernioum…\nThose who are appointed over all these are seven in number:\nAthoth,\nArmas,\nKalila,\nYabel,\nSabaoth,\nCain,\nAbel.\nThose who activate the limbs are, part by part:\nthe head, Diolimodraza,\nthe neck, Yammeax,\nthe right shoulder, Yakouib,\nthe left shoulder, Ouerton,\nthe right hand, Oudidi,\nthe left one, Arbao,\nthe fingers of the right hand, Lampno,\nthe fingers of the left hand, Leekaphar,\nthe right breast, Barbar,\nthe left breast, Imae,\nthe chest, Pisandraptes,\nthe right shoulder joint, Koade,\nthe left shoulder joint, Odeor,\nthe right ribs, Asphixix,\nthe left ribs, Sunogchouta,\nthe abdomen, Arouph,\nthe womb, Sabalo,\nthe right thigh, Charcharb,\nthe left thigh, Chthaon,\nall the genitals, Bathinoth,\nthe right leg, Choux,\nthe left leg, Charcha,\nthe right shin, Aroer,\nthe left shin, Toechtha,\nthe right ankle, Aol,\nthe left ankle, Charaner,\nthe right foot, Bastan,\nits toes, Archentechtha,\nthe left foot, Marephnounth,\nits toes, Abrana.\nSeven have been empowered over all these:\nMichael,\nUriel,\nAsmenedas,\nSaphasatoel,\nAarmouriam,\nRichram,\nAmiorps.\nThose who are over the senses are Archendekta,\nthe one who is over perception is Deitharbathas,\nthe one who is over imagination is Oummaa,\nthe one who is over arrangement is Aachiaram,\nthe one who is over all impulse to action is Riaramnacho.\nThe source of the demons that are in the entire body is divided into four:\nheat,\ncold,\nwetness,\ndryness,\nand the mother of them all is matter.\nThe one who is lord over heat is Phloxopha,\nthe one who is lord over cold is Oroorrothos,\nthe one who is lord over what is dry is Erimacho,\nthe one who is lord over wetness is Athuro.\nThe mother of all these, Onorthochras, stands in the midst of them, for she is\nunlimited and mingles with them all. She is matter, and by her they are\nnourished.\nThe four principal demons are:\nEphememphi, the demon of pleasure,\nYoko, the demon of desire,\nNenentophni, the demon of grief,\nBlaomen, the demon of fear.\nThe mother of them all is Esthesis-Ouch-Epi-Ptoe.\nFrom the four demons have come passions:\nFrom grief come jealousy, envy, pain, trouble, distress, hardheartedness,\nanxiety, sorrow, and others.\nFrom pleasure comes an abundance of evil, vain conceit, and the like.\nFrom desire come anger, wrath, bitterness, intense lust, greed, and the like.\nFrom fear come terror, servility, anguish, and shame.\nAll these are like virtues and vices. The insight into their true nature is Anaro,\nwho is head of the material soul, and it dwells with Esthesis-Z-Ouch-EpiPtoe.\nThis is the number of angels. In all they number 365. They all worked\ntogether until, limb by limb, the psychical and material body was completed.\nNow, there are others over the remaining passions, and I have not told you about\nthem. If you want to know about them, the information is recorded in the Book\nof Zoroaster.",
+          "coptic": "ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲉⲧϣⲟⲟⲡ’ ϣⲁⲣⲟϥ\nϫⲉ ⲁⲙⲏⲉⲓⲛⲉ ⲛ̅ⲧⲛ̅ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲕⲁⲧⲁ\nⲑⲓⲕⲱⲛ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲕⲁⲧⲁ ⲡⲛ̅ⲉⲓⲛⲉ ϫⲉ‐\nⲕⲁⲁⲥ ⲁⲣⲉⲧⲉϥϩⲓⲕⲱⲛ ⲛⲁϣⲱⲡⲉ ⲛⲁⲛ ⲛ̅ⲟⲩⲟ‐\nⲉⲓⲛ ⲁⲩⲱ ⲁⲩⲧⲁⲙⲓⲟ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛ̅ϭⲟⲙ ⲛ̅ⲛⲟⲩ‐\nⲉⲣⲏⲩ· ⲕⲁⲧⲁ ⲙ̅ⲙⲁⲓ̈ⲛ ⲉⲛⲧⲁⲩϯ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ\nⲧⲟⲩⲉⲓⲉ ⲧⲟⲩⲉⲓⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁⲩϯ ⲛ̅ⲟⲩⲙⲁⲉⲓⲛ\nⲛ̅ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲧⲩⲡⲟⲥ ⲛ̅ⲧϩⲓⲕⲱⲛ ⲧⲁⲓ̈ ⲉⲛⲧⲁϥⲛⲁⲩ\nⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲉϥⲯⲩⲭⲓⲕⲏ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϩⲩ‐\nⲡⲟⲥⲧⲁⲥⲓⲥ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲙ̅ⲡϣⲟⲣⲡ’ ⲛ̅ⲣⲱⲙⲉ ⲛ̅‐\nⲧⲉⲗⲉⲓⲟⲥ ⲁⲩⲱ ⲡⲉϫⲁⲩ ϫⲉ ⲙⲁⲣⲛ̅ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ\nϫⲉ ⲁⲇⲁⲙ’ ϫⲉⲕⲁⲁⲥ ⲉⲣⲉⲡⲉϥⲣⲁⲛ ⲛⲁϣⲱⲡⲉ\nⲛⲁⲛ ⲛ̅ⲟⲩϭⲟⲙ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲩⲁⲣⲭⲉⲓ ⲛ̅ϭⲓ\nⲛ̅ⲇⲩⲛⲁⲙⲓⲥ· ⲧϣⲟⲣⲡ ⲧⲙ̅ⲛ̅ⲧ̅ⲭⲣⲏⲥⲧⲟⲥ ⲁⲥⲧⲁ‐\nⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲕⲁⲥ ⲧⲙⲉϩⲥⲛ̅ⲧⲉ ⲇⲉ ⲧⲡⲣⲟ‐\nⲛⲟⲓⲁ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲙ̅ⲙⲟⲩⲧ’ ⲧⲙⲉϩ‐\nϣⲟⲙⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟⲩⲧⲉ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ\nⲛ̅ⲥⲁⲣⲝ· ⲧⲙⲉϩϥⲧⲟⲉ ⲇⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ϫⲟⲉⲓⲥ ⲁⲥⲧⲁ‐\nⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲁⲧⲕⲁⲥ· ⲧⲙⲉϩϯⲉ ⲧⲉ ⲧⲙⲛ̅‐\nⲧⲉⲣⲟ· ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲥⲛⲟϥ ⲧⲙⲉϩ‐\nⲥⲟⲉ ⲡⲉ ⲡⲕⲱϩ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ϣⲁ‐\nⲁⲣⲉ ⲧⲙⲉϩⲥⲁϣϥⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙⲛ̅ϩⲏⲧ’ ⲁⲥⲧⲁ‐\nⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ϥⲟⲩϩⲉ ⲁⲩⲁϩⲉ ⲇⲉ ⲉⲣⲁⲧⲟⲩ\nⲉⲣⲟϥ ⲛ̅ϭⲓ ⲡⲁϣⲁⲓ̈ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩϫⲓ ⲉⲃⲟⲗ\nϩⲓⲧⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ⲧⲥⲁϣϥⲉ ⲛ̅ϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ\nⲛ̅ⲧⲉ ⲧⲯⲩⲭⲓⲕⲏ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲁⲙⲓⲟ ⲙ̅‐\nⲡϫⲱⲛϥ ⲛⲙ̅ⲙⲉⲗⲟⲥ ⲙⲛ̅ ⲡϫⲱⲛϥ ⲛ̅ⲛ̅ϣⲁⲩ\nⲙⲛ̅ ⲧⲥⲩⲛⲑⲉⲥⲓⲥ ⲙ̅ⲡⲧⲥⲁⲛⲟ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nⲛⲙ̅ⲙⲉⲗⲟⲥ ⲡϣⲟⲣⲡ ⲙ[ⲉⲛ ⲁϥⲁⲣ]ⲭⲉⲓ ⲛ̅ⲧⲁⲙⲓⲟ\nⲛ̅ⲧⲁⲡⲉ ⲉⲧ̅ⲉ̅ⲣ̅ⲁ̅ⲫ̅ⲁ̅ⲱ̅ⲡ̅̅[̅ⲉ̅] ⲁ[ⲃⲣⲱ]ⲛ ⲁϥⲧⲁⲙⲓⲟ\nⲛ̅ϫⲱϥ ⲙⲏ̅ⲛ̅ⲓ̅ⲅ̅ⲅ̅ⲉ̅ⲥ̅ⲥ̅ⲧ̅ⲣ̅ⲱ̅ⲏ̅ⲑ̅ ⲁϥⲧⲁⲙⲓⲟ ⲙ̅‐\nⲡⲉⲛⲕⲉⲫⲁⲗⲟⲥ ⲁ̅ⲥ̅ⲧ̅ⲉ̅ⲣ̅ⲉ̅ⲭ̅ⲙ̅ⲏ̅ⲛ̅ ⲡⲃⲁⲗ ⲛ̅ⲟⲩ\nⲛⲁⲙ· ⲑⲁ̅ⲥ̅ⲡ̅ⲟ̅ⲙ̅ⲟ̅ⲭ̅ⲁ̅ⲙ̅ ⲡⲃⲁⲗ ⲛ̅ϭⲃⲟⲩⲣ ⲓ̅ⲉⲣⲱ̅‐\nⲛⲩ̅ⲙ̅ⲟ̅ⲥ̅ ⲡⲙⲁⲁϫⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲃⲓ̅ⲥⲥⲟⲩⲙ̅\nⲡⲙⲁⲁϫⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲁⲕ̅ⲓ̅ⲱ̅ⲣ̅ⲉ̅ⲓ̅ⲙ̅ ⲙ̅ⲡϣⲁ\nⲃⲁ̅ⲛ̅ⲏ̅ⲛ̅·̅ ̅ⲉ̅ⲫ̅ⲣ̅ⲟ̅ⲩ̅ⲙ̅ ⲛ̅ⲛⲉⲥⲡⲟⲧⲟⲩ ⲁⲙⲏⲛ\nⲛ̅ⲛⲟⲃϩⲉ ⲓ̅ⲃ̅ⲓ̅ⲕ̅ⲁ̅ⲛ̅ ⲛ̅ⲛⲁϫϩⲉ ⲃⲁ̅ⲥⲓⲗⲓⲁⲇⲏⲙⲏ̅\nⲙ̅ⲡⲁⲣⲓⲥⲑⲙⲓⲟⲛ ⲁ̅ⲭ̅ⲭ̅ⲁ̅ⲛ̅ ⲥ̅ⲧⲁⲫⲩⲗⲏ̅ ⲁ̅ⲇⲁ̅‐\nⲃ̅ⲁ̅ⲛ̅· ⲙ̅ⲡⲙⲟⲩⲧ ⲭⲁ̅ⲁⲙⲁⲛ̅ ⲙ̅ⲡⲥⲫⲟⲛⲧⲩⲗⲟⲥ\nⲇⲉ̅ⲁ̅ⲣ̅ⲭ̅ⲱ̅ ⲛ̅ⲧϣⲟⲩⲱⲃⲉ ⲧⲏ̅ⲃⲁⲣ̅ ⲛ̅ⲧⲛⲁϩⲃⲉ\nⲛ̅ϭⲃⲟⲩⲣ ⲙⲛ̅ⲓ̅ⲁ̅ⲣ̅ⲭ̅ⲱ̅ⲛ̅ ⲙ̅ⲡⲕⲉⲗⲉⲛⲕⲉϩ ⲛ̅‐\nϭⲃⲟⲩⲣ ⲁⲃ̅ⲓ̅ⲧ̅ⲣ̅ⲓ̅ⲱ̅ⲛ̅ ⲛ̅ⲑⲱⲙⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲉ̅ⲩ̅‐\nⲁ̅ⲛ̅ⲑ̅ⲏ̅ⲛ̅ ⲛ̅ⲑⲱⲙⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲕ̅ⲣⲩⲥ̅ ⲛ̅ⲧϭⲓϫ\nⲛ̅ⲟⲩⲛⲁⲙ ⲃⲏ̅ⲗ̅ⲩ̅ⲁ̅ⲓ̅ ⲛ̅ⲧϭⲓϫ ⲛ̅ϭⲃⲟⲩⲣ ⲧ̅ⲣⲏ̅‐\nⲛ̅ⲉ̅ⲩ̅ ⲛ̅ⲛ̅ⲧⲏⲃⲉ· ⲛ̅ⲧϭⲓϫ ⲛ̅ⲛⲟⲩⲛⲁⲙ ⲃⲁ̅ⲗⲃⲏⲗ̅\nⲛ̅ⲛ̅ⲧⲏⲃⲉ ⲛ̅ⲧϭⲓϫ ⲛ̅ϭⲟⲩⲣ ⲕⲣⲓⲙⲁ ⲛ̅ⲛ̅ⲉⲓⲉ‐\nⲃⲉ ⲛ̅ⲛ̅ϭⲓϫ ⲁ̅ⲥ̅ⲧ̅ⲣ̅ⲱ̅ⲯ̅ ⲛ̅ⲧϭⲓⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ\nⲃ̅ⲁ̅ⲣ̅ⲣ̅ⲱ̅ⲫ̅ ⲛ̅ⲧϭⲓⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲃⲁⲟ̅ⲩⲙ̅ ⲙ̅ⲡϫⲱ\nⲛ̅ⲟⲩⲛⲁⲙ ⲁⲣ̅ⲁ̅ⲣ̅ⲓ̅ⲙ̅ ⲙ̅ⲡϫⲱ ⲛ̅ϭⲃⲟⲩⲣ ⲁⲣ̅ⲉⲭ̅\nⲛ̅ⲧⲕⲟⲓⲗⲓⲁ ⲫⲑⲁⲩⲏ ⲛ̅ⲑⲟⲗⲡⲉ ⲥⲏⲛⲁⲫⲓⲙ\nⲙ̅ⲡⲩⲡⲟⲭⲟⲛ〈ⲇ〉ⲣⲓⲟⲥ ⲁⲣ̅ⲁ̅ⲭ̅ⲉ̅ⲑ̅ⲱ̅ⲡ̅ⲓ̅ ⲙ̅ⲡⲥⲡⲓⲣ\nⲛ̅ⲟⲩⲛⲁⲙ ⲍⲁ̅ⲃ̅ⲉ̅ⲇ̅ⲱ̅ ⲙ̅ⲡⲥⲡⲓⲣ ⲛ̅ϭⲃⲟⲩⲣ\nⲃⲁ̅ⲣ̅ⲓ̅ⲁ̅ⲥ̅ ⲛ̅ⲧϯⲡⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲁ̅ⲃⲏⲛⲗⲉⲛⲁⲣⲭⲉⲓ̅\nⲛ̅ⲛⲁⲧⲕⲁⲥ ⲭⲛ̅ⲟ̅ⲩ̅ⲙ̅ⲉ̅ⲛ̅ⲓ̅ⲛ̅ⲟ̅ⲣ̅ⲓ̅ⲛ̅ ⲛ̅ⲛ̅ⲕⲉⲉⲥ\nⲅ̅ⲏ̅ⲥ̅ⲟ̅ⲗ̅ⲉ̅ ⲙ̅ⲡⲥⲧⲟⲙⲁⲭⲟⲥ ⲁⲅ̅ⲣⲟⲙⲁⲩⲙⲁ̅ ⲙ̅‐\nⲫⲏⲧ ⲃ̅ⲁ̅ⲛ̅ⲱ̅ ⲙ̅ⲡⲛⲉⲩⲙⲟⲛⲓⲛ ⲥⲱ̅ⲥⲧⲣⲁⲡⲁⲗ̅\nⲙ̅ⲡϩⲏⲡⲁⲣ ⲁⲛ̅ⲏ̅ⲥ̅ⲓ̅ⲙ̅ⲁ̅ⲗ̅ⲁ̅ⲣ̅ ⲙ̅ⲡⲥⲡⲗⲏⲛ ⲑ̅ⲱ̅‐\nⲡ̅ⲓ̅ⲑ̅ⲣ̅ⲱ̅ ⲛ̅ⲛⲙⲉϩⲧ ⲃ̅ⲓⲃⲗⲱ̅ ⲛ̅ⲛ̅ϭⲗⲁⲧⲉ\nⲣⲟⲉⲣⲱⲣ ⲛ̅ⲙⲙⲟⲩⲧ ⲧⲁⲫ̅ⲣ̅ⲉ̅ⲱ̅ ⲛ̅ⲛ̅ϫⲓⲥⲉ\nⲙ̅ⲡⲥⲱⲙⲁ ⲓⲡ̅ⲟ̅ⲩ̅ⲥ̅ⲡ̅ⲟ̅ⲃ̅ⲱ̅ⲃ̅ⲁ̅ ⲛ̅ⲛ̅ⲫⲗⲉⲯ\nⲃⲓⲛⲉⲃⲟⲣⲓⲛ ⲛ̅ⲁⲣ̅ⲧ̅ⲏ̅ⲣ̅ⲓ̅ⲁ̅ ⲁⲁⲧ̅ⲟⲓⲙⲉⲛⲯⲏⲫⲉⲓ̅\nⲛⲱⲟⲩ ⲛⲉ ⲛ̅ⲛⲓϥⲉ ⲉⲧϩⲛ̅ ⲙⲙⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ\nⲏ̅ⲛ̅ⲑⲟⲗⲗⲉⲓⲁ ⲛ̅ⲧⲥⲁⲣⲝ ⲧⲏⲣ̅ⲥ̅ ⲃⲉⲇⲟⲩⲕ\nⲙ̅ⲡⲧⲉⲧⲉ [ⲛ̅ⲟⲩⲛⲁⲙ] ⲁⲣⲁⲃⲏⲉⲓ ⲡⲃⲁϩ ⲛ̅ϭⲃⲟⲩⲣ\nⲉⲓⲗⲱ ⲛ̅ⲁⲧⲣ[ⲉⲩⲉ] ⲥⲱⲣⲙⲁ ⲛ̅ⲉⲇⲩⲟⲛ ⲅⲟ̅ⲣ̅ⲙ̅ⲁ̅‐\nⲕⲁ̅ⲓ̅ⲟ̅ⲭ̅ⲗ̅ⲁ̅ⲃ̅ⲁ̅ⲣ̅ ⲡⲙⲏⲣⲟⲥ ⲛ̅ⲟⲩⲛⲁⲙ ⲛⲉ̅ⲃⲣⲓⲑ̅\nⲡⲙⲏⲣⲟⲥ ⲛ̅ϭⲃⲟⲩⲣ ⲯⲏ̅ⲣ̅ⲏ̅ⲙ̅ ⲛ̅ϭⲗⲁⲧⲉ ⲛ̅‐\nⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ⲟⲩⲛⲁⲙ’ ⲁⲥⲁⲕⲗⲁⲥ ⲧϭⲗⲱⲧ\nⲛ̅ϭⲃⲟⲩⲣ ⲟⲣ̅ⲙ̅ⲁ̅ⲱ̅ⲑ̅ ⲙ̅ⲡⲛⲉⲧ ⲛ̅ⲟⲩⲛⲁⲙ\n[ⲏ]ⲙⲏⲛⲩⲛ ⲙ̅ⲡⲡⲛⲉⲧ ⲛ̅ϭⲃⲟⲩⲣ ⲕ̅ⲛ̅ⲩ̅ⲝ̅ ⲧⲥⲏ‐\nⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲧ̅ⲩ̅ⲡ̅ⲏ̅ⲗ̅ⲟ̅ ⲛⲧⲥⲏⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ\nⲁ̅ⲭ̅ⲓ̅ⲏ̅ⲗ̅ ⲛ̅ⲧⲕⲗ̅ⲗⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲫⲛ̅ⲏⲙⲏ̅ ⲛ̅ⲧⲕⲗ̅‐\nⲗⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲫⲓ̅ⲟ̅ⲩ̅ⲑ̅ⲣ̅ⲟ̅ⲙ̅ ⲛ̅ⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ⲟⲩ‐\nⲛ̅ⲁ̅ⲙ̅ ⲃⲟ̅ⲁⲃⲉⲗ̅ ⲛ̅ⲛⲉⲥⲧⲏⲏⲃⲉ ⲧⲣⲁⲭⲟⲩⲛ ⲛ̅‐\nⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲫⲓ̅ⲕ̅ⲛ̅ⲁ̅ ⲛ̅ⲛⲉⲥⲧⲏⲏⲃⲉ\nⲙⲓⲁⲙⲁⲓ· ⲛ̅ⲉⲓⲉⲓⲃ ⲛ̅ⲛⲟⲩⲣⲏⲧⲉ ⲗⲁ̅ⲃ̅ⲏ̅ⲣ̅ⲛ̅ⲓ̅ⲟ̅ⲩ̅ⲙ̅\nⲛⲉⲛⲧⲁⲩⲧⲟϣⲟⲩ ⲇⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲛⲁⲓ̈ ⲧⲏⲣⲟⲩ\nⲡⲉ ⲍⲁ̅ⲑ̅ⲱ̅ⲑ̅ ⲁ̅ⲣⲙⲁⲥ̅ ⲕ̅ⲁⲗⲓⲗⲁⲓ̈ⲁⲃⲏⲗ̅ ⲛⲉⲧⲉ‐\nⲛⲉⲣⲅⲉⲓ ⲇⲉ ⲕⲁⲧⲁ ⲙⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ⲙⲉⲗⲟⲥ\nⲧⲁⲡⲉ ⲙⲉⲛ ⲇⲓ̅ⲟ̅ⲗ̅ⲓ̅ⲙ̅ⲟ̅ⲇ̅ⲣ̅ⲁ̅ⲍ̅ⲁ̅ ⲡⲙⲟⲩⲧ ⲓ̅ⲁⲙ̅‐\nⲙ̅ⲉ̅ⲁ̅ⲝ̅ ⲧⲛⲁϩⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲓ̅̈ⲁⲕⲟⲩⲓ̈ⲃ̅ ⲧⲛⲁϩ‐\nⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲟⲩ̅ⲉ̅ⲣ̅ⲧ̅ⲱ̅ⲛ̅ ⲧϭⲓϫ ⲛ̅ⲟⲩⲛⲁⲙ ⲟⲩ‐\nⲇⲓⲇⲓ ⲧϭⲃⲟⲩⲣ ⲁⲣⲃⲁⲟ ⲛ̅ⲧⲏⲃⲉ ⲛ̅ⲧϭⲓϫ ⲛ̅ⲟⲩ‐\nⲛⲁⲙ ⲗⲁ̅ⲙ̅ⲡ̅ⲛ̅ⲱ̅ ⲛ̅ⲧⲏⲃⲉ ⲛ̅→ⲧ←ϭⲓϫ ⲛ̅ϭⲃⲟⲩⲣ\nⲗⲏ̅ⲉ̅ⲕ̅ⲁ̅ⲫ̅ⲁ̅ⲣ̅ ⲧϭⲓⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲃⲁ̅ⲣⲃⲁⲣ̅ ⲧϭⲓ‐\nⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲓⲙ̅ⲁ̅ⲏ̅ ⲧⲙⲉⲥⲧϩⲏⲧ ⲡⲓ̅ⲥⲁⲛⲇⲣⲁ̅‐\nⲡⲧ̅ⲏ̅ⲥ̅ ⲡϫⲱ ⲛ̅ⲟⲩⲛⲁⲙ ⲕⲟ̅ⲁⲇⲏ̅ ⲡϫⲱ ⲛ̅ϭⲃⲟⲩⲣ\nⲟⲇⲉ̅ⲱ̅ⲣ̅ ⲥⲡⲓⲣ ⲛ̅ⲟⲩⲛⲁⲙ ⲁⲥ̅ⲫⲓⲝⲓⲝ̅ ⲡⲥⲡⲓⲣ\nⲛ̅ϭⲃⲟⲩⲣ ⲥⲩⲛⲟ̅ⲅ̅ⲭ̅ⲟ̅ⲩ̅ⲧ̅ⲁ̅ ⲧⲕⲟⲓⲗⲓⲁ ⲁⲣ̅ⲟⲩⲫ̅\nⲡⲉⲕⲟⲩⲛϥ ⲥⲁⲃⲁⲗⲱ ⲡⲙⲏⲣⲟⲥ ⲛ̅ⲟⲩⲛⲁⲙ\nⲭⲁ̅ⲣ̅ⲭ̅ⲁ̅ⲣ̅ⲃ̅ ⲡⲙⲏⲣⲟⲥ ⲛ̅ϭⲃ̅ⲟⲩⲣ̅ ⲭⲑ̅ⲁⲱⲛ̅\nⲛ̅ⲁⲓⲇⲟⲓⲟⲛ ⲧⲏⲣⲟⲩ ⲃⲁ̅ⲑ̅ⲓ̅ⲛ̅ⲱ̅ⲑ̅ ⲡⲡⲉⲧ ⲛ̅‐\nⲟⲩⲛⲁⲙ ⲭⲟⲩⲝ ⲡⲡⲉⲧ ⲛ̅ϭⲃⲟⲩⲣ ⲭⲁ̅ⲣ̅ⲭ̅ⲁ̅\nⲧⲥⲏⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲁⲣ̅ⲟ̅ⲏ̅ⲣ̅ ⲧⲥⲏⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ\nⲧⲱ̅ⲉ̅ⲭ̅ⲑ̅ⲁ̅ ⲧⲕⲗ̅ⲗⲉ ⲛ̅ⲟⲩⲛⲁⲙ’ ⲁⲱ̅ⲗ̅ ⲧⲕⲗ̅ⲗⲉ\nⲛ̅ϭ̅ⲃⲟⲩⲣ ⲭⲁⲣ̅ⲁⲛⲏⲣ̅ ⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ⲟⲩ ⲛⲁⲙ\nⲃⲁ̅ⲥ̅ⲧ̅ⲁ̅ⲛ̅ ⲛⲉⲥⲧⲏⲏⲃⲉ ⲁⲣⲭ̅ⲉⲛⲧⲉⲭⲑⲁ̅ ⲧⲟⲩ‐\nⲣⲏⲧⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲙⲁⲣ̅ⲉ̅ⲫ̅ⲛ̅̅ⲟ̅ⲩ̅ⲛ̅ⲑ̅ ⲛ̅ⲛⲉⲥⲧⲏ‐\nⲏⲃⲉ ⲁⲃⲣ̅ⲁ̅ⲛ̅ⲁ̅ ⲛⲉⲩ[ϭⲙ̅ϭⲟⲙ’] ⲉϩⲣⲁⲓ̈ ϩⲓϫⲛ̅\nⲛⲁⲓ̈ ⲧⲏⲣⲟⲩ ⲛ̅ϭⲓ ⲥⲁϣ̅ϥ̅ ⲍ ⲙ̅ⲓⲭⲁⲏⲗ̅ ⲟ̅ⲩⲣⲓⲏⲗ̅\nⲁⲥⲙⲉⲛⲉⲇⲁⲥ ⲥⲁⲫⲁⲥ̅ⲁ̅ⲧ̅ⲟ̅ⲏ̅ⲗ̅ ⲁⲁⲣ̅ⲙⲟⲩⲣⲓⲁⲙ̅\nⲣ̅ⲓ̅ⲭ̅ⲣ̅ⲁ̅ⲙ̅’ ⲁ̅ⲙⲓⲱⲣⲯ̅· ⲁⲩⲱ ⲛⲉⲧϩⲓϫⲛ̅ ⲛ̅ⲁⲓⲥⲑⲏ‐\nⲥⲓⲥ ⲁⲣⲭⲉⲛⲇⲉⲕⲁⲧⲁ· ⲁⲩⲱ ⲡⲉϩⲓϫⲛ̅ ⲧⲁⲛⲁⲗⲏⲙ‐\nⲯⲓⲥ ⲇⲉ̅ⲓ̅ⲑ̅ⲁ̅ⲣ̅ⲃ̅ⲁ̅ⲑ̅ⲁ̅ⲥ̅ ⲁⲩⲱ ⲡⲉⲧϩⲓϫⲛ̅ ⲧⲫⲁ̅ⲛ‐\nⲧⲁⲥⲓⲁ ⲟⲩⲙ̅ⲙ̅ⲁ̅ⲁ̅ ⲁⲩⲱ ⲡⲉⲧϩⲓϫ̅ⲛ̅ ⲡϫ[ⲱⲛ]ϥ\nⲁⲁⲭ̅ⲓ̅ⲁ̅ⲣ̅ⲁ̅ⲙ̅ ⲁⲩⲱ ⲡⲉⲧϩⲓϫⲛ̅ ⲧϩⲟⲣⲙⲏ ⲧⲏⲣ̅ⲥ̅\nⲣⲓⲁ̅ⲣ̅ⲁ̅ⲙ̅ⲛ̅ⲁ̅ⲭ̅ⲱ̅ ⲧⲡⲏⲅⲏ ⲇⲉ ⲛ̅ⲛⲓⲇⲁⲓⲙⲱⲛ\nⲛⲁⲓ̈ ⲉⲧϩⲛ̅ ⲡⲥⲱⲙⲁ ⲧⲏⲣϥ ⲥⲉⲧⲏϣ ⲉϥⲧⲟ‐\nⲟⲩ ⲟⲩϩⲙ̅ⲙⲉ ⲟⲩⲁⲣⲟϣ ⲟⲩϩⲟϭⲃⲉⲥ ⲟⲩ‐\nϣⲟⲟⲩⲉ ⲧⲟⲩⲙⲁⲁⲩ ⲇⲉ ⲧⲏⲣⲟⲩ ⲧⲉ ⲧϩⲩ‐\nⲗⲏ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ ⲉϫⲙ̅ ⲡϩⲙⲟⲙ ⲫⲗ̅ⲟ̅‐\nⲝⲟ̅ⲫ̅ⲁ̅ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ ⲉϫⲙ̅ ⲡⲁⲣⲟϣ\nⲟ̅ⲣ̅ⲟ̅ⲟ̅ⲣ̅ⲣ̅ⲟ̅ⲑ̅ⲟ̅ⲥ̅ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ ⲉϫⲙ̅ ⲡⲉ‐\nⲧϣⲟⲩⲱⲟⲩ ⲉⲣ̅ⲓ̅ⲙ̅ⲁ̅ⲭ̅ⲱ̅ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ\nⲁϫⲙ̅ ⲡⲱϭⲃⲉ ⲁⲑⲩ̅ⲣ̅ⲱ̅ ⲧⲙⲁⲁⲩ ⲇⲉ ⲛ̅ⲛⲁⲓ̈ ⲧⲏ‐\nⲣⲟⲩ ⲥⲁϩⲉ ⲉⲣⲁⲧ̅ⲥ̅ ⲛ̅ⲧⲟⲩⲙⲏⲧⲉ ⲟⲛ̅ⲟⲣⲑⲟⲭⲣⲁ̅\nⲥⲁ̅ⲉ̅ⲓ̅ ⲉⲥϣⲟⲟⲡ’ ⲛ̅ⲁⲧⲧⲟϣ̅ⲥ̅ ⲁⲩⲱ ⲥⲧⲏϩ\nⲛⲙ̅ⲙⲁⲩ ⲧⲏⲣⲟⲩ· ⲁⲩⲱ ⲧⲁⲓ̈ ⲛⲁⲙⲉ ⲧⲉ ⲧϩⲩⲗⲏ\nⲉⲩⲥⲁⲛⲁϣⲧ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅ ⲡϥⲧⲟⲟⲩ\nⲛ̅ⲁⲣⲭⲏⲅⲟⲥ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲉⲫⲉ̅ⲙ̅ⲉ̅ⲙ̅ⲫ̅ⲓ̅ ⲡⲉ\nⲡⲁ ⲧϩⲏⲇⲟⲛⲏ ⲓ̅̈̅ⲱ̅ⲕ̅ⲱ̅ ⲡⲉ ⲡⲁⲧ’ ⲉⲡⲓⲑⲩⲙⲉⲓⲁ\nⲛⲉⲛⲉⲛⲧⲱⲫⲛⲓ ⲡⲉ ⲡⲁⲧⲗⲩⲡⲏ ⲃⲗ̅ⲁ̅ⲟ̅ⲙ̅ⲏ̅ⲛ̅\nⲡⲉ ⲡⲁⲧϩⲛⲱϩⲉ ⲧⲟⲩⲙⲁⲁⲩ ⲇⲉ ⲧⲏⲣⲟⲩ ⲉⲥ̅ⲑ̅ⲏ̅ⲛ̅\nⲥ̅ⲓ̅ⲥ̅ⲟ̅ⲩ̅ⲭ̅ ⲉⲡ̅ⲓⲡⲧⲟⲏ̅ ⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲡⲓϥⲧⲟⲟⲩ\nⲛ̅ⲇⲁⲓⲙⲱⲛ ⲁⲩϣⲱⲡⲉ ⲛ̅ϭⲓ ϩⲛ̅ⲡⲁⲑⲟⲥ ⲉ‐\nⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲧⲗⲩⲡⲏ ⲟⲩⲫⲑⲟⲛⲟⲥ ⲟⲩⲕⲱϩ\nⲟⲩⲙ̅ⲕⲁϩ ⲟⲩⲟⲭⲗⲏⲥⲓⲥ ⲟⲩⲛⲓⲕⲉ ⲟⲩⲙⲛ̅ⲧ̅‐\nⲁⲧⲣ̅ϩⲧⲏϥ ⲟⲩⲣⲟⲟⲩϣ ⲟⲩϩⲏⲃⲉ ⲁⲩⲱ ⲡⲕⲉ‐\nϣⲱϫⲡ ⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲧϩⲏⲇⲟⲛⲏ ϣⲁⲩ‐\nϣⲱⲡⲉ ⲛ̅ϭⲓ ϩⲁϩ ⲛ̅ⲕⲁⲕⲓⲁ ⲁⲩⲱ ⲡϣⲟⲩϣⲟⲩ‐\nⲉⲧϣⲟⲩⲉⲓⲧ ⲁⲩⲱ ⲛⲉⲧ’ⲉⲓⲛⲉ ⲛ̅ⲛⲁⲓ̈ ⲉⲃⲟⲗ\nⲇⲉ ϩⲛ̅ ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲟⲩⲟⲣⲅⲏ ⲟⲩϭⲱⲛⲧ\nⲙⲛ̅ ⲟⲩⲭⲟ[ⲗⲏ] ⲙ[ⲛ̅ ⲟ]ⲩⲉⲣⲱⲥ· ⲉϥⲥⲁϣⲉ\nⲙⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲉⲓ ⲁⲩⲱ ⲛⲉⲧⲉⲓⲛⲉ ⲛ̅ⲛⲁⲓ̈\nⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲧⲛⲱϩⲉ ⲟⲩⲉⲕⲡⲗⲏⲝⲓⲥ ⲟⲩ‐\nⲕⲱⲣϣ ⲟⲩⲁⲅⲱⲛⲓⲁ ⲟⲩϣⲓⲡⲉ ⲛⲁⲓ̈ ⲇⲉ ⲧⲏ‐\nⲣⲟⲩ ⲛ̅ⲑⲉ ⲛ̅ϩⲛ̅ⲡⲉⲧⲣ̅ϣⲁⲩ ⲙⲛ̅ ⲛ̅ⲡⲉⲑⲟ‐\nⲟⲩ ⲧⲉⲛⲛⲟⲓⲁ ⲇⲉ ⲛ̅ⲧⲉ ⲧⲟⲩⲙⲏⲉ ⲧⲉ ⲁⲛⲁ‐\nⲣⲱ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧⲁⲡⲉ ⲛ̅ⲧϩⲩⲗⲓⲕⲏ ⲛ̅ⲯⲩ‐\nⲭⲏ\nⲉⲥϣⲟⲟⲡ ⲅⲁⲣ ⲙⲛ̅ ⲧⲉⲥⲑⲏⲥⲓⲥ ⲍⲟⲩ̅ⲭ̅ⲉ̅ⲡ̅ⲓ̅‐\nⲡⲧ̅ⲟ̅ⲏ̅ ⲧⲁⲓ̈ ⲧⲉ ⲧⲏⲡⲉ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲉⲡⲓ\nⲧⲟ ⲁⲩⲧⲟ ⲉⲩⲉⲓⲣⲉ ⲛ̅ϣⲙ̅ⲧϣⲉⲥⲉⲧⲏⲉ ⲁⲩ‐\nⲣ̅ϩⲱⲃ ⲧⲏⲣⲟⲩ ⲉⲣⲟϥ ϣⲁⲛⲧϥϫⲱⲕ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧⲟⲩ ⲕⲁⲧⲁ ⲙⲉⲗⲟⲥ ⲛ̅ϭⲓ ⲯⲩⲭⲓⲕⲟⲛ\nⲁⲩⲱ ⲡϩⲩⲗⲓⲕⲟⲛ ⲛ̅ⲥⲱⲙⲁ ⲥⲉϣⲟⲟⲡ ⲅⲁⲣ\nⲛ̅ϭⲓ ϩⲉⲛⲕⲟⲟⲩⲉ ϩⲓϫⲛ̅ ⲡⲕⲉϣⲱϫⲡ ⲙ̅ⲡⲁ‐\nⲑⲟⲥ ⲛⲁⲓ̈ ⲉⲧⲉ ⲙ̅ⲡⲓϫⲟⲟⲩ ⲛⲁⲕ ⲉϣⲡⲉ ⲕⲟⲩ‐\nⲱϣⲉ ⲇⲉ ⲁⲙ̅ⲙⲉ ⲉⲣⲟⲟⲩ ϥⲥⲏϩ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡϫⲱⲱⲙⲉ ⲛ̅ⲍⲱⲣⲟⲁⲥⲧⲣⲟⲥ ⲁⲩⲣ̅ ϩⲱⲃ"
+        },
+        {
+          "title": "Adam Receives Spirit and Life",
+          "subtitle": "Adam Receives Spirit and Life",
+          "heading": "Adam Receives Spirit and Life (19, 10-20, 28)",
+          "rangeLabel": "19, 10-20, 28",
+          "range": {
+            "start": {
+              "page": 19,
+              "line": 10
+            },
+            "end": {
+              "page": 20,
+              "line": 28
+            }
+          },
+          "english": "All the angels and demons worked together until they fashioned the psychical\nbody. But for a long time their creation did not stir or move at all.\nWhen the Mother wanted to take back the power she had relinquished to the\nfirst ruler, she prayed to the most merciful Mother-Father of the All. With a\nsacred command the Mother-Father sent five luminaries down upon the place\nof the angels of the first ruler. They advised him so that they might recover the\nmother’s power.\nThey said to Yaldabaoth, “Breathe some of your spirit into the face of Adam,\nand the body will arise.”\nHe breathed his spirit into Adam. The spirit is the power of his mother, but\nhe did not realize this, because he lives in ignorance. The Mother’s power went\nout of Yaldabaoth and into the psychical body that had been made to be like the\none who is from the beginning.\nThe body moved and became powerful. And it was enlightened.\nAt once the rest of the powers became jealous. Although Adam came\ninto being through all of them, and they gave their power to this human, Adam\nwas more intelligent than the creators and the first ruler. When they realized that\nAdam was enlightened and could think more clearly than they and was stripped\nof evil, they took and threw Adam into the lowest part of the whole material\nrealm.\nThe blessed, benevolent, merciful Mother-Father had compassion for the\nMother’s power that had been removed from the first ruler. The archons might\nbe able to overpower the psychical, perceptible body once again. So with its\nbenevolent and most merciful Spirit, the Mother-Father sent a helper to Adam-\nenlightened Insight, who is from the Mother-Father and who was called Life.\nShe helped the whole creature, laboring with it, restoring it to its fullness,\nteaching it about the descent of the seed, teaching it about the way of ascent,\nwhich is the way of descent.\nEnlightened Insight was hidden within Adam so that the archons might not\nrecognize her, but that Insight might be able to restore what the Mother lacked.",
+          "coptic": "ⲡϫⲱⲱⲙⲉ ⲛ̅ⲍⲱⲣⲟⲁⲥⲧⲣⲟⲥ ⲁⲩⲣ̅ ϩⲱⲃ\nⲇⲉ ⲧⲏⲣⲟⲩ ⲛ̅ϭⲓ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲙⲛ̅ ⲛ̅ⲇⲁⲓⲙⲱⲛ\nϣⲁⲛⲧⲟⲩⲧⲥⲉⲛⲟ ⲙ̅ⲯⲩⲭⲓⲕⲟⲛ ⲛ̅ⲥⲱⲙⲁ\nⲁⲩⲱ ⲁϥϣⲱⲡⲉ ⲧⲏⲣϥ ⲛ̅ϭⲓ ⲡⲟⲩϩⲱϥ ⲛ̅‐\nⲁⲣⲅⲟⲛ ⲁⲩⲱ ⲛ̅ⲁⲧⲕⲓⲙ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ⲟⲩ‐\nⲟⲉⲓϣ ⲧⲙⲁⲩ ⲇⲉ ⲛ̅ⲧⲁⲣⲉⲥⲟⲩⲱϣⲉ ⲁϫⲓ\nⲛ̅ⲧϭⲟⲙ ⲉⲛⲧⲁⲥⲧⲁⲁⲥ ⲙ̅ⲡⲓϣⲟⲣⲡ ⲛ̅ⲁⲣ‐\nⲭⲱⲛ’ ⲁⲥⲥⲟⲡⲥ̅ ⲙ̅ⲡⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ ⲙ̅‐\nⲡⲧⲏⲣϥ ⲡⲁⲡⲛⲟϭ ⲛ̅ⲛⲁⲉ ⲁϥⲧⲛ̅ⲛⲟⲟⲩ ⲛ̅‐\nϯⲟⲩ ⲙ̅ⲫⲱⲥⲧⲏⲣ ϩⲙ̅ ⲡϣⲟϫⲛⲉ ⲉⲧⲟⲩⲁⲁⲃ\nⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲧⲟⲡⲟⲥ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲙ̅ⲡⲣⲱ‐\nⲧⲁⲣⲭⲱⲛ ⲁⲩϫⲓ ϣⲟϫⲛⲉ ⲛⲁϥ ϩⲱⲥⲧⲉ ⲁⲧⲟⲩ\nⲉⲓⲛⲉ ⲉⲃⲟⲗ ⲛ̅ⲧϭⲟⲙ ⲛ̅ⲧⲙⲁⲁⲩ ⲁⲩⲱ ⲡⲉϫⲁⲩ\nⲛ̅ⲓⲁⲗⲧⲁⲃⲁⲱⲑ ϫⲉ ⲛⲓϥⲉ ⲉϩⲟⲩⲛ ϩⲙ̅ ⲡⲉϥ‐\nϩⲟ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ϥⲛⲁⲧⲱ‐\nⲱⲛ ⲛ̅ϭⲓ ⲡⲉϥⲥⲱⲙⲁ ⲁⲩⲱ ⲁϥⲛⲓϥⲉ ⲉϩⲟⲩⲛ\nⲉϩⲣⲁϥ ⲙ̅ⲡⲉϥⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧϭⲟⲙ\nⲛ̅ⲧⲉϥⲙⲁⲁⲩ ⲙ̅ⲡⲉϥⲙ̅ⲙⲉ ϫⲉ ϥϣⲟⲟⲡ\nϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲥⲃⲱⲕ ⲉϩⲟⲩⲛ\nⲛ̅ϭⲓ ⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲙⲁⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲁⲗ‐\nⲧⲁⲃⲁⲱⲑ’ ⲉϩⲟⲩⲛ ⲁⲯⲩⲭⲓⲕⲟⲥ ⲛ̅ⲥⲱⲙⲁ\nⲡⲉⲧⲁⲩⲣ̅ϩⲱⲃ ⲉⲣⲟϥ ⲕⲁⲧⲁ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲉⲧ‐\nϣⲟⲟⲡ’ ϫⲛ̅ ⲛ̅ϣⲟⲣⲡ ⲁϥⲕⲓⲙ ⲁⲩⲱ ⲁϥϭⲙ̅‐\nϭⲟⲙ ⲛ̅ϭⲓ ⲡⲥⲱⲙⲁ ⲁⲩⲱ ⲁϥⲣ̅ ⲟⲩⲟⲉⲓⲛ\nⲁⲩⲱ ⲁⲩⲕⲱϩ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ\nⲡⲕⲉⲥⲉⲉⲡⲉ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ϫⲉ ⲛ̅ⲧⲁϥϣⲱⲡⲉ\nⲅⲁⲣ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲁⲩϯ ⲛ̅ⲧⲉⲩ\nϭⲁⲙ ⲙ̅ⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲁⲥⲧⲁϫⲣⲟ ⲛ̅ϭⲓ ⲧⲉϥⲙ̅ⲛ̅ⲧ̅‐\nⲣⲙⲛ̅ϩⲏⲧ ⲛ̅ϩⲟⲩⲟ ⲁⲛⲉⲧⲁϩⲧⲁⲙⲓⲟϥ ⲁⲩⲱ ⲛ̅‐\nϩⲟⲩⲟ ⲁⲡϣⲟⲣⲡ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲙ̅ⲙⲉ ⲇⲉ\nϫⲉ ϥⲟ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ϥⲙⲉⲉⲩⲉ ⲛ̅ϩⲟⲩⲟ\nⲉⲣⲟⲟⲩ ⲁⲩⲱ ϥⲕⲏⲕ ⲁϩⲏⲩ ⲛ̅ⲧⲕⲁⲕⲓⲁ ⲁⲩϥⲓ ⲙ̅‐\nⲙⲟϥ ⲁⲩⲛⲟϫϥ ⲁⲡⲙⲉⲣⲟⲥ ⲉⲧⲙ̅ⲡⲥⲁⲙ’ ⲡⲓⲧⲛ̅\nⲛ̅ⲧϩⲩⲗⲏ ⲧⲏⲣ̅ⲥ̅ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲇⲉ ⲡⲙⲏⲧⲣⲟⲡⲁ‐\nⲧⲱⲣ’ ⲡⲣⲉϥⲣ̅ⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲁⲩⲱ ⲡϣⲁⲛϩⲧⲏϥ\nⲁϥϣⲛ̅ϩⲧⲏϥ ⲉϩⲣⲁⲓ̈ ⲁϫⲛ̅ ⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲙⲁ‐\nⲁⲩ ⲧⲁⲓ̈ ⲉⲧⲁⲩⲛ̅ⲧⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ\nⲁⲩⲱ ⲟⲛ ϫⲉ ⲥⲉⲛⲁϭⲙ̅ϭⲟⲙ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲥⲱ‐\nⲙⲁ ⲙ̅ⲯⲩⲭⲓⲕⲟⲛ ⲁⲩⲱ ⲡⲉⲥⲑⲏⲧⲟⲛ ⲁⲩⲱ ⲁϥ‐\nⲧⲛ̅ⲛⲟⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉϥⲡ̅ⲛ̅ⲁ̅ ⲛ̅ⲣⲉϥⲣ̅ ⲡ̅ⲉ‐\nⲧⲛⲁⲛⲟⲩϥ ⲁⲩⲱ ⲡⲉⲧⲛⲁϣⲉ ⲡⲉϥⲛⲁ ⲛ̅ⲟⲩ‐\nⲃⲟⲏⲑⲟⲥ ⲛ̅ⲁⲇⲁⲙ ⲟⲩⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ\nⲧⲁⲓ̈ ⲟⲩ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲧⲉ ⲉⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ\nϫⲉ ⲍⲱⲏ ⲧⲁⲓ̈ ⲇⲉ ⲉⲥⲣ̅ϩⲩⲡⲟⲩⲣⲅⲉⲓ ⲛ̅ⲧⲕⲧⲓⲥⲓⲥ\nⲧⲏⲣⲥ ⲉⲥϣⲉⲡ ϩⲓⲥⲉ ⲛⲙ̅ⲙⲁϥ ⲁⲩⲱ ⲉⲥⲥⲱϩⲉ\nⲙ̅ⲙⲁϥ ⲉϩⲟⲩⲛ ⲁⲡⲉϥⲡⲗⲏⲣⲱⲙⲁ ⲁⲩⲱ ⲉⲥ‐\nⲧⲥⲉⲃⲟ ⲙ̅ⲙⲁϥ ⲁⲧⲉϥϭⲓⲛⲉⲓ ⲁⲡⲓⲧⲛ̅ ⲙ̅ⲡⲥ‐\nⲡⲉⲣⲙⲁ ⲉⲥⲧⲥⲁⲃⲟ ⲙ̅ⲙⲟϥ ⲉⲡⲙⲁⲓ̈ⲧ ⲃ̅ⲃⲱⲕ\nⲉϩⲣⲁⲓ̈ ⲡⲙⲁⲓ̈ⲧ’ ⲉⲛⲧⲁϥⲉⲓ ⲉϩⲣⲁⲓ̈ ⲙ̅ⲙⲁⲩ ⲁⲩ‐\nⲱ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲥϩⲏⲡ ϩⲛ̅ ⲁ‐\nⲇⲁⲙ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩⲙ̅ⲙⲉ ⲛ̅ϭⲓ ⲛ̅ⲁⲣⲭⲱⲛ\nⲁⲗⲗⲁ ⲛ̅ⲥϣⲱⲡⲉ ⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲥⲱ‐\nϩⲉ ⲙ̅ⲡϣⲧⲁ ⲛ̅ⲧⲙⲁⲁⲩ ⲁⲩⲱ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "The Imprisonment of Humanity",
+          "subtitle": "The Imprisonment of Humanity",
+          "heading": "The Imprisonment of Humanity (20, 28-22, 28)",
+          "rangeLabel": "20, 28-22, 28",
+          "range": {
+            "start": {
+              "page": 20,
+              "line": 28
+            },
+            "end": {
+              "page": 22,
+              "line": 28
+            }
+          },
+          "english": "The human being Adam was revealed through the bright shadow within. And\nAdam’s ability to think was greater than that of all the creators. When they\nlooked up, they saw that Adam’s ability to think was greater, and they devised a\nplan with the whole throng of archons and angels. They took fire, earth, and\nwater, and combined them with the four fiery winds. They wrought them\ntogether and made a great commotion.\nThe rulers brought Adam into the shadow of death so that they might\nproduce a figure again, from earth, water, fire, and the spirit that comes from\nmatter-that is, from the ignorance of darkness, and desire, and their own\nphony spirit. This figure is the cave for remodeling the body that these criminals\nput on the human, the fetter of forgetfulness. Adam became a mortal person,\nthe first to descend and the first to become estranged.\nEnlightened Insight within Adam, however, was rejuvenating Adam’s mind.\nThe archons took Adam and put Adam in paradise. They said, “Eat,”\nmeaning, Do so in a leisurely manner. But in fact their pleasure is bitter and\ntheir beauty is perverse. Their pleasure is a trap, their trees are a sacrilege, their\nfruit is deadly poison, and their promise is death.\nThey put their tree of life in the middle of paradise.\nI shall teach you what the secret of their life is-the plan they devised\ntogether, the nature of their spirit. The root of their tree is bitter, its branches are\ndeath, its shadow is hatred, a trap is in its leaves, its blossom is bad ointment, its\nfruit is death, desire is its seed, and it blossoms in darkness. The dwelling place\nof those who taste of it is the underworld, and darkness is their resting\nplace.\nBut the archons lingered in front of what they call the tree of the knowledge\nof good and evil, which is enlightened Insight, so that Adam might not behold\nits fullness and recognize his shameful nakedness.\nBut I was the one who induced them to eat.\nI said to the Savior, “Lord, was it not the serpent that instructed Adam to\neat?”\nThe Savior laughed and said, The serpent instructed them to eat of the\nwickedness of sexual desire and destruction so that Adam might be of use to the\nserpent.\nThe first ruler knew Adam was disobedient to him because of enlightened\nInsight within Adam, which made Adam stronger of mind than he. He wanted to\nrecover the power that he himself had passed on to Adam. So he brought deep\nsleep upon Adam.\nI said to the Savior, “What is this deep sleep?”\nThe Savior said, It is not as Moses wrote and you heard. He said in his first\nbook, “He put Adam to sleep.” Rather, this deep sleep was a loss of sense.\nThus the first ruler said through the prophet, “I shall make their minds sluggish,\nthat they may neither understand nor discern.”",
+          "coptic": "ϩⲉ ⲙ̅ⲡϣⲧⲁ ⲛ̅ⲧⲙⲁⲁⲩ ⲁⲩⲱ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ ⲉⲧⲃⲉ ⲧϩⲁⲓ̈ⲃⲉⲥ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ\nⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁⲡⲉϥⲙⲉ‐\nⲉⲩⲉ ϫⲓⲥⲉ ⲡⲁⲣⲁ ⲛⲉⲧⲁϩⲧⲁⲙⲓⲟϥ ⲧⲏⲣⲟⲩ\nⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲱⲣⲙⲉ ⲁⲧⲡⲉ ⲁⲩⲛⲁⲩ ⲉⲣⲟϥ\nϫⲉ ϥϫⲟⲥⲉ ⲛ̅ϭⲓ ⲡⲉϥⲙⲉⲉⲩⲉ ⲁⲩⲱ ⲁⲩⲉⲓⲣⲉ\nⲛ̅ⲟⲩϣⲟϫⲛⲉ ⲙⲛ̅ ⲧⲁⲣⲭⲟⲛⲧⲓⲕⲏ ⲙⲛ̅ ⲧⲁⲅ‐\nⲅⲉⲗⲓⲕⲏ ⲧⲏⲣⲥ̅ ⲁⲩϥⲓ ⲛ̅ⲟⲩⲥⲁⲧⲉ ⲙⲛ̅ ⲟⲩⲕⲁϩ\nⲙⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲁⲩⲧⲱ→ϩ← ⲙ̅ⲙⲟⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ\nⲙⲛ̅ ⲡⲉϥⲧⲟⲩ ⲧⲏⲩ ⲛ̅ⲥⲁⲧⲉ ⲁⲩⲱ ⲁⲩϣⲱϭⲉ ⲉ‐\nϩⲟⲩⲛ ϩⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ ⲁⲩⲉⲓⲣⲉ ⲛ̅ⲟⲩⲛⲟϭ\nⲛ̅ϣⲧⲟⲣⲧⲣ̅ ⲁⲩⲱ ⲁⲩⲱⲗ ⲙ̅ⲙⲟϥ ⲉϩⲟⲩⲛ ⲁⲧϩⲁⲓ̈‐\nⲃⲉⲥ ⲙ̅ⲡⲙⲟⲩ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲡⲗⲁⲥⲥⲉ ⲛ̅ⲕⲉ‐\nⲥⲟⲡ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲙⲛ̅ ⲧⲕⲱϩⲧ\nⲁⲩⲱ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲡⲉⲃⲟⲗ ϩⲛ̅ ⲧϩⲩⲗⲏ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ ⲧⲉⲡⲓⲑⲩ‐\nⲙⲉⲓⲁ ⲁⲩⲱ ⲡⲉⲩⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲃⲃⲓⲁⲉⲓⲧ ⲉⲧⲉ ⲡⲁⲓ̈\nⲡⲉ ⲡⲥⲡⲏⲗⲁⲓⲟⲛ ⲛ̅ⲧⲁⲛⲁⲡⲗⲁⲥⲓⲥ ⲙ̅ⲡⲥⲱⲙⲁ\nⲡⲁⲓ̈ ⲉⲛⲧⲁⲩⲧⲁⲁϥ ϩⲓ ⲡⲣⲱⲙⲉ ⲛ̅ϭⲓ ⲛ̅ⲗⲏⲥⲧⲏⲥ\nⲧⲙⲣ̅ⲣⲉ ⲛ̅ⲧⲃ̅ϣⲉ ⲁⲩⲱ ⲡⲁⲓ̈ ⲁϥϣⲱⲡⲉ ⲛ̅ⲟⲩ‐\nⲣⲱⲙⲉ ⲉϣⲁϥⲙⲟⲩ ⲡⲁⲓ̈ ⲡⲉⲛⲧⲁϩⲉⲓ ⲉϩⲣⲁⲓ̈\nⲛ̅ϣⲟⲣⲡ ⲁⲩⲱ ⲡϣⲟⲣⲡ ⲙ̅ⲡⲱⲣϫ’ ⲉⲃⲟⲗ ⲧⲉ‐\nⲡⲓⲛⲟⲓⲁ ⲇⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲛⲁⲥⲛ̅ϩⲏⲧϥ ⲛ̅‐\nⲧⲟⲥ ⲡⲉⲧⲛⲁⲥⲧⲟⲩⲛⲟⲩⲥ ⲙ̅ⲡⲉϥⲙⲉⲉⲩⲉ ⲁⲩ‐\nⲱ ⲁⲩⲉⲓⲛⲉ ⲙ̅ⲙⲟϥ ⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲁⲩⲕⲱ ⲙ̅‐\nⲙⲟϥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲁⲩⲱ ⲡⲉϫⲁⲩ ⲛⲁϥ\nϫⲉ ⲟⲩⲱⲙ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ϩⲛ̅ ⲟⲩⲥⲣ̅ϥⲉ ⲕⲁⲓ ⲅⲁⲣ\nⲧⲟⲩⲧⲣⲩⲫⲏ ⲥⲁϣⲉ ⲁⲩⲱ ⲡⲟⲩⲥⲁⲉ ⲟⲩⲁⲛⲟ‐\nⲙⲟⲛ ⲡⲉ ⲧⲟⲩⲧⲣⲩⲫⲏ ⲇⲉ ⲧⲉ ⲧⲁⲡⲁⲧⲏ ⲁⲩⲱ\nⲛⲟⲩϣⲏⲛ ⲧⲉ ⲧⲙⲛ̅ⲧ̅ⲁⲥⲉⲃⲏⲥ ⲁⲩⲱ ⲡⲟⲩⲕⲁⲣ‐\nⲡⲟⲥ ⲟⲩⲙⲁⲧⲟⲩ ⲛ̅ⲁⲧⲧⲁⲗϭⲟ ⲡⲉ ⲁⲩⲱ ⲡⲟⲩ‐\nϣⲡⲱⲡ ⲟⲩⲙⲟⲩ ⲡⲉ ⲡϣⲏⲛ ⲇⲉ ⲛ̅ⲧⲉ ⲡⲟⲩ‐\nⲱⲛϩ ⲉⲛⲧⲁⲩⲕⲱ ⲙ̅ⲙⲟϥ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲁ‐\nⲣⲁⲇⲓⲥⲟⲥ ⲁⲛⲟⲕ ⲇⲉ ϯⲛⲁⲧⲥⲁⲃⲱⲧⲛ̅ ϫⲉ\nⲟⲩ ⲡⲉ ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̅ⲧⲉ ⲡⲟⲩⲱⲛϩ ⲉⲧⲉ\nⲡⲁⲓ̈ ⲡⲉ ⲡϣⲟϫⲛⲉ ⲉⲛⲧⲁⲩⲁⲁϥ ⲙⲛ̅ ⲛⲟⲩⲉ‐\nⲣⲏⲩ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲟⲩⲡⲛ̅ⲁ̅ ⲡⲁⲓ̈\nⲉⲣⲉ ⲧⲉϥⲛⲟⲩⲛⲉ ⲥⲁϣⲉ ⲁⲩⲱ ⲛⲉϥⲕⲗⲁⲇⲟⲥ\nϩⲉⲛⲙⲟⲩ ⲛⲉ ⲧⲉϥϩⲟⲓ̈ⲃⲉⲥ ⲟⲩⲙⲟⲥⲧⲉ ⲡⲉ\nⲁⲩⲱ ⲟⲩⲁⲡⲁⲧⲏ ⲧⲉⲧϣⲟⲟⲡ ϩⲛ̅ ⲛⲉϥϭⲱ‐\nⲱⲃⲉ ⲁⲩⲱ ⲡⲉϥϯⲟⲩⲱ ⲡⲉ ⲡⲧⲱϩ̅ⲥ̅ ⲛ̅ⲧⲡⲟ\nⲛⲏⲣⲓⲁ ⲁⲩⲱ ⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲡⲉ ⲡⲙⲟⲩ ⲁⲩ‐\nⲱ ⲟⲩⲉⲡⲓⲑⲩⲙⲓⲁ ⲡⲉ ⲡⲉϥⲥⲡⲉⲣⲙⲁ ⲁⲩⲱ\nⲉϥϯⲟⲩⲱ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲛⲉⲧϫⲓϯⲡⲉ\nⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲡⲉⲩⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲡⲉ ⲁ‐\nⲙⲛ̅ⲧⲉ ⲁⲩⲱ ⲡⲕⲁⲕⲉ ⲡⲉ ⲡⲟⲩⲙⲁ ⲛⲙ̅ⲧⲟⲛ\nⲡⲉⲛⲧⲁⲩⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲣⲟϥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ\nϫⲉ ⲡϣⲏⲛ ⲛ̅ⲥⲟⲩⲛ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲙ̅ⲛ ⲡⲉⲧ‐\nϩⲟⲟⲩ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉ‐\nⲁⲩϭⲱ ⲙ̅ⲡⲉϥⲙ̅ⲧⲟ ⲉⲃⲟⲗ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉϥ\nϭⲱϣⲧ ⲉϩⲣⲁⲓ̈ ⲁⲡϥⲡⲗⲏⲣⲱⲙⲁ ⲁⲩⲱ ⲁⲧⲣⲉϥ‐\nⲥⲟⲩⲱⲛ ⲡⲕⲱⲛⲕ ⲁϩⲏⲩ ⲛ̅ⲧⲉϥⲁⲥⲭⲏⲙⲟⲥⲩ‐\nⲛⲏ ⲁⲛⲟⲕ ⲇⲉ ⲁⲓ̈ⲥⲉϩⲱⲟⲩ ⲁⲧⲣⲟⲩⲱⲙ ⲁⲩⲱ\nⲡⲉϫⲁⲉⲓ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲏ ⲫⲁϥ ⲁⲛ\nⲡⲉⲛⲧⲁϥⲧⲥⲉⲃⲉ ⲁⲇⲁⲙ ⲁⲧⲣⲉϥⲟⲩⲱⲙ ⲁϥⲥⲱ‐\nⲃⲉ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ⲡⲉϫⲁϥ ϫⲉ ⲫⲟϥ ⲁϥⲧⲥⲉⲃⲟⲟⲩ\nⲁⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲕⲁⲕⲓⲁ ⲛ̅ⲥⲡⲟⲣⲁ ⲛ̅ⲉ‐\nⲡⲓⲑⲩⲙⲉⲓⲁ ⲛ̅ⲧⲉ ⲡⲧⲉⲕⲟ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁϣⲱ‐\nⲡⲉ ⲛⲁϥ ⲛ̅ⲟⲩϣⲁⲩ ⲁⲩⲱ ⲁϥⲙ̅ⲙⲉ ϫⲉ ϥⲟ ⲛ̅ⲁⲧ‐\nⲥⲱⲧⲙ̅ ⲛⲁϥ ⲉⲧⲃⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲉⲡⲓⲛⲟⲓⲁ\nⲉⲧϣⲟⲟⲡ ⲛ̅ϩⲏⲧϥ ⲉⲧⲥⲱϩⲉ ⲙ̅ⲙⲟϥ ϩⲙ̅ ⲡⲉϥ‐\nⲙⲉⲉⲩⲉ ⲛ̅ϩⲟⲩⲟ ⲁⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲁϥ‐\nⲟⲩⲱϣⲉ ⲁⲉⲓⲛⲉ ⲛ̅ⲧϭⲟⲙ ⲉⲃⲟⲗ ⲉⲛⲧⲁϥⲧⲁⲁⲥ\nⲛⲁϥ’ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲁⲩⲱ ⲁϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲃ̅ϣⲉ\nⲁϫⲛ̅ ⲁⲇⲁⲙ ⲁⲩⲱ ⲡⲉϫⲁⲉⲓ ⲙ̅ⲡⲥⲱ̅ⲣ̅ ϫⲉ ⲟⲩ ⲧⲉ\nⲧⲃ̅ϣⲉ ⲛ̅ⲧⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ϫⲉ ⲛ̅ⲑⲉ ⲁⲛ ⲉⲛⲧⲁⲙⲱ‐\nⲩ̈ⲥⲏⲥ ⲥϩⲁⲓ̈ ⲉⲁⲕⲥⲱⲧⲙ̅ ⲁϥϫⲟⲟⲥ ⲅⲁⲣ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡⲉϥϣⲟⲣⲡ ⲛ̅ϫⲱⲙⲉ ϫⲉ ⲁϥϫⲧⲟ ⲙ̅ⲙⲟϥ ⲁⲗⲗⲁ\nϩⲛ̅ ⲛⲉϥⲁⲓⲥⲑⲏⲥⲓⲥ ⲕⲁⲓ ⲅⲁⲣ ⲁϥϫⲟⲟⲥ ϩⲓⲧⲛ̅ ⲡⲉ‐\nⲡⲣⲟⲫⲏⲧⲏⲥ ϫⲉ ϯⲛⲁϩⲣⲟϣ ⲉϩⲣⲁⲓ̈ ⲁϫⲛ̅ ⲛⲟⲩ‐\nϩⲉⲧⲉ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩϯ ϩⲧⲏⲩ ⲟⲩⲧⲉ {ϫ} ⲛ̅ⲛⲟⲩ‐\nⲛⲁⲩ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲁⲥ‐"
+        },
+        {
+          "title": "The Creation of Eve",
+          "subtitle": "The Creation of Eve",
+          "heading": "The Creation of Eve (22, 28-23, 35)",
+          "rangeLabel": "22, 28-23, 35",
+          "range": {
+            "start": {
+              "page": 22,
+              "line": 28
+            },
+            "end": {
+              "page": 23,
+              "line": 35
+            }
+          },
+          "english": "Enlightened Insight hid herself within Adam. The first ruler wanted to take her\nfrom Adam’s side, but enlightened Insight cannot be apprehended. Although\ndarkness pursued her, it did not apprehend her. The first ruler removed part of\nAdam’s power and created another figure in the form of a female, like the image\nof Insight that had appeared to him. He put the part he had taken from the\npower of the human being into the female creature. It did not happen, however,\nthe way Moses said: “Adam’s rib.”\nAdam saw the woman beside him. At once enlightened Insight appeared and\nremoved the veil that covered his mind. He sobered up from the drunkenness of\ndarkness. He recognized his counterpart and said, “This is now bone from my\nbones and flesh from my flesh.”\nFor this reason a man will leave his father and his mother and will join\nhimself to his wife, and the two of them will become one flesh. For his partner\nwill be sent to him, and he will leave his father and his mother.\nOur sister Sophia is the one who descended in an innocent manner to restore\nwhat she lacked. For this reason she was called Life-that is, the Mother of\nthe living-by the Forethought of the sovereignty of heaven and by [the Insight\nthat appeared] to Adam. Through her have the living tasted perfect\nknowledge.\nAs for me, I appeared in the form of an eagle upon the tree of knowledge,\nwhich is the Insight of the pure enlightened Forethought, that I might teach the\nhuman beings and awaken them from the depth of sleep. For the two of them\nwere fallen and realized that they were naked. Insight appeared to them as\nlight and awakened their minds.",
+          "coptic": "ⲛⲁⲩ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲁⲥ‐\nϩⲱⲡ’ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁϥⲟⲩⲱϣⲉ ⲛ̅ϭⲓ ⲡⲣⲱⲧⲁⲣ‐\nⲭⲱⲛ ⲁⲉⲓⲛⲉ ⲙ̅ⲙⲟⲥ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥ ⲥⲡⲓⲣ\nⲧⲉⲡⲓⲛⲟⲓⲁ ⲇⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲟⲩⲁⲧⲧⲉϩⲟⲥ ⲧⲉ\nⲉϥⲡⲏⲧ ⲛ̅ⲥⲱⲥ ⲛ̅ϭⲓ ⲡⲕⲁⲕⲉ ⲙ̅ⲡ̅ϥⲧⲉϩⲟⲥ ⲁⲩⲱ\nⲁϥⲉⲓⲛⲉ ⲉⲃⲟⲗ ⲛ̅ⲟⲩⲙⲉⲣⲟⲥ ⲛ̅ⲧⲉ ⲧⲉϥϭⲟⲙ ⲉ‐\nⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲕⲉⲡⲗⲁⲥⲓⲥ\nϩⲛ̅ ⲟⲩⲙⲟⲣⲫⲏ ⲛ̅ⲥϩⲓⲙⲉ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲛ̅ⲧⲉⲡⲓ‐\nⲛⲟⲓⲁ ⲉⲧⲁϩⲟⲩⲱⲛϩ ⲛⲁϥ ⲉⲃⲟⲗ ⲁⲩⲱ ⲁϥⲉⲓ‐\nⲛⲉ ⲙ̅ⲡⲙⲉⲣⲟⲥ ⲉⲛⲧⲁϥϫⲓⲧϥ ⲉⲃⲟⲗ ϩⲛ̅ ⲧϭⲟⲙ\nⲙ̅ⲡⲣⲱⲙⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲥϩⲓⲙⲉ\nⲁⲩⲱ ⲕⲁⲧⲁ ⲑⲉ ⲁⲛ ⲉⲛⲧⲁ→ϥ←ϫⲟⲟⲥ ⲛ̅ϭⲓ ⲙⲱⲩ̈ⲥⲏⲥ\nϫⲉ ⲧⲉϥⲃⲉⲧⲥⲡⲓⲣ ⲁⲩⲱ ⲁϥⲛⲁⲩ ⲁⲧⲥϩⲓⲙⲉ ϩⲁ‐\nⲧⲏϥ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲥⲟⲩⲱⲛϩ ⲉ‐\nⲃⲟⲗ’ ⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲁⲥϭⲱⲗⲡ ⲉ‐\nⲃⲟⲗ’ ⲙ̅ⲡⲕⲁⲗⲩⲙⲙⲁ ⲉⲧⲛ̅ϩⲣⲁⲓ̈ ϩⲓϫⲛ̅ ⲡⲉϥϩⲏⲧ\nⲁⲩⲱ ⲁϥⲣ̅ⲛⲏⲫⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϯϩⲉ ⲙ̅ⲡⲕⲁⲕⲉ\nⲁⲩⲱ ⲁϥⲥⲟⲩⲛ̅ ⲧⲉϥⲉⲓⲛⲉ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ\nⲡⲁⲓ̈ ⲧⲉⲛⲟⲩ ⲟⲩⲕⲁⲁⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁⲕⲁⲁⲥ ⲡⲉ\nⲁⲩⲱ ⲟⲩⲥⲁⲣⲝ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲁⲥⲁⲣⲝ ⲧⲉ ⲉⲧⲃⲉ ⲡⲁⲓ̈\nⲡⲣⲱⲙⲉ ⲛⲁⲕⲱ ⲛ̅ⲥⲱϥ ⲙ̅ⲡⲉϥ’ⲉⲓⲱⲧ’ ⲙⲛ̅ ⲧⲉϥ‐\nⲙⲁⲁⲩ ⲁⲩⲱ ⲛ̅ϥⲧⲟϭϥ ⲁⲧⲉϥⲥϩⲓⲙⲉ ⲁⲩⲱ ⲛ̅ⲥⲉ‐\nϣⲱⲡⲉ ⲙ̅ⲡⲉⲥⲛⲁⲩ ⲉⲩⲥⲁⲣⲝ ⲟⲩⲱⲧ ϫⲉ ⲥⲉ‐\nⲛⲁⲧⲛ̅ⲛⲟⲟⲩ ⲅⲁⲣ ⲛⲁϥ ⲙ̅ⲡⲉϥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅\nⲁⲩⲱ ϥⲛⲁⲕⲱ ⲛ̅ⲥⲱϥ ⲙ̅ⲡϥⲉⲓⲱⲧ ⲙⲛ̅ ⲧϥⲙⲁⲁⲩ\n{ⲁⲩⲱ ⲛ̅ϥⲧⲟϭϥ’ ⲁⲧⲉϥⲥϩⲓⲙⲉ ⲁⲩⲱ ⲛ̅ⲥⲉϣⲱⲡⲉ\nⲙ̅ⲡⲉⲥⲛⲁⲩ ⲉⲩⲥⲁⲣⲝ ⲟⲩⲱⲧ ϫⲉ ⲥⲉⲛⲁⲧⲛ̅ⲛⲟ\nⲟⲩ ⲅⲁⲣ ⲛⲁϥ ⲙ̅ⲡⲉϥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅ ⲁⲩⲱ ϥⲛⲁⲕⲱ\nⲛ̅ⲥⲱϥ ⲙ̅ⲡϥⲉⲓⲱⲧ ⲙⲛ̅ ⲧϥ̅ⲙⲁⲁⲩ} ⲧⲛ̅ⲥⲱⲛⲉ\nⲇⲉ ⲧⲥⲟⲫⲓⲁ ⲧⲁⲓ̈ ⲉⲧⲁϩⲉⲓ ⲉϩⲣⲁⲓ̈ ϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅‐\nⲁⲕⲁⲕⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲥⲛⲁⲥⲱϩⲉ ⲙ̅ⲡⲉⲥϣⲧⲁ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲍⲱⲏ ⲉⲧⲉ ⲧⲁⲓ̈\nⲧⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲡⲣⲟⲛⲟⲓⲁ\nⲛ̅ⲧⲁⲩⲑⲉⲛⲧⲉⲓⲁ’ ⲛ̅ⲧⲡⲉ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅\nⲁⲩϫⲓ ϯⲡⲉ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲁⲓ̈ⲟⲩⲱⲛϩ\nⲁⲛⲟⲕ ⲉⲃⲟⲗ ⲙ̅ⲡⲥⲙⲁⲧ ⲛ̅ⲟⲩⲁⲉⲧⲟⲥ ϩⲓϫⲛ̅\nⲡϣⲏⲛ ⲙ̅ⲡⲥⲟⲟⲩⲛ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ\nⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅‐\nⲃⲏⲩ ϫⲉⲕⲁⲁⲥ ⲉⲓ̈ⲛⲁⲧⲥⲉⲃⲁⲩ ⲁⲩⲱ ⲛ̅ⲧⲁⲧⲟⲩ‐\nⲛⲟⲥⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲓⲕ ⲙ̅ⲡϩⲓⲛⲏⲃ ⲛⲉⲩ‐\nϣⲟⲟⲡ ⲅⲁⲣ ⲙ̅ⲡⲥⲛⲁⲩ ϩⲛ̅ ⲟⲩϩⲉ ⲁⲩⲱ ⲁⲩⲙ̅‐\nⲙⲉ ⲁⲡⲟⲩⲕⲱⲕ ⲁϩⲏⲩ ⲁⲥⲟⲩⲱⲛϩ ⲛⲁⲩ ⲉⲃⲟⲗ\nⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲉⲥⲟ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲥⲧⲟⲩⲛⲟⲩⲥ\nⲙ̅ⲡⲟⲩⲙⲉⲉⲩⲉ ⲉϩⲣⲁⲓ̈ ⲛ̅ⲧⲁⲣⲉϥⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ"
+        },
+        {
+          "title": "Yaldabaoth Defiles Eve",
+          "subtitle": "Yaldabaoth Defiles Eve",
+          "heading": "Yaldabaoth Defiles Eve (23, 35-25, 16)",
+          "rangeLabel": "23, 35-25, 16",
+          "range": {
+            "start": {
+              "page": 23,
+              "line": 35
+            },
+            "end": {
+              "page": 25,
+              "line": 16
+            }
+          },
+          "english": "When Yaldabaoth realized that the humans had withdrawn from him, he cursed\nhis earth. He found the woman as she was preparing herself for her\nhusband. He was master over her. And he did not know the mystery that had\ncome into being through the sacred plan. The two of them were afraid to\ndenounce Yaldabaoth. He displayed to his angels the ignorance within him, and\nhe threw the humans out of paradise and cloaked them in thick darkness.\nThe first ruler saw the young woman standing next to Adam and noticed that\nenlightened Insight of Life had appeared in her. Yet Yaldabaoth was full of\nignorance. So when the Forethought of the All realized this, she dispatched\nemissaries, and they stole Life out of Eve.\nThe first ruler defiled Eve and produced in her two sons, a first and a second:\nElohim and Yahweh.\nElohim has the face of a bear,\nYahweh has the face of a cat.\nOne is just, the other is unjust.\nHe placed Yahweh over fire and wind,\nhe placed Elohim over water and earth.\nHe called them by the names Cain and Abel,\nwith a view to deceive.\nTo this day sexual intercourse has persisted because of the first ruler. He\nplanted sexual desire within the woman who belongs to Adam. Through\nintercourse the first ruler produced duplicate bodies, and he blew some of his\nfalse spirit into them.\nHe placed these two rulers over the elements so that they might rule over\nthe cave.\nWhen Adam came to know the counterpart of his own foreknowledge, he\nproduced a son like the child of humanity. He called him Seth, after the\nmanner of the generation in the eternal realms. Similarly, the mother sent\ndown her spirit, which is like her and is a copy of what is in the realm of\nFullness, for she was going to prepare a dwelling place for the eternal realms\nthat would come down.\nThe human beings were made to drink water of forgetfulness by the first\nruler, so that they might not know where they had come from. For a time the\nseed remained and helped so that when the spirit descends from the holy realms,\nit may raise up the seed and heal what it lacks, that the entire realm of Fullness\nmay be holy and lack nothing.",
+          "coptic": "ⲙ̅ⲡⲟⲩⲙⲉⲉⲩⲉ ⲉϩⲣⲁⲓ̈ ⲛ̅ⲧⲁⲣⲉϥⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ\nⲁⲗⲇⲁ̅ⲃⲁ̅ⲱ̅ⲑ̅ ϫⲉ ⲁⲩⲥⲉϩⲱⲟⲩ ⲉⲃⲟⲗ ⲙ̅ⲙⲟϥ\nⲁϥⲥⲟⲩϩⲱⲣ ⲙ̅ⲡⲉϥⲕⲁϩ ⲁϥϭⲛ̅ ⲧⲥϩⲓⲙⲉ ⲉⲥ‐\nⲥⲟⲃⲧⲉ ⲙ̅ⲙⲟⲥ ⲙ̅ⲡⲉⲥϩⲟⲟⲩⲧ’ ⲛⲉϥⲟ ⲛ̅ϫⲟⲉⲓⲥ\nⲉⲣⲟⲥ ⲡⲉ ⲉⲛϥⲥⲟⲟⲩⲛ ⲁⲛ ⲙ̅ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ\nⲉⲛⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲟϫⲛⲉ ⲉⲧⲟⲩ‐\nⲁⲁⲃ· ⲛ̅ⲧⲟⲟⲩ ⲇⲉ ⲁⲩⲣ̅ϩⲛⲱϩⲉ ⲁϫⲡⲓⲟϥ ⲁⲩ‐\nⲱ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲛ̅ⲧⲉϥ‐\nⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲧⲉⲧ’ϣⲟⲟⲡ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ ⲁⲩ‐\nⲱ ⲁϥⲛⲟⲩϫⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲁⲩⲱ\nⲁϥϯ ϩⲓⲱⲟⲩⲉ ⲛ̅ⲟⲩⲕⲙⲏⲙⲉ ⲛ̅ⲕⲁⲕⲉ ⲁⲩⲱ ⲁϥ‐\nⲛⲁⲩ ⲛ̅ϭⲓ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ⲉⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲁ‐\nϩⲉ ⲉⲣⲁⲧⲥ̅ ⲙⲛ̅ ⲁⲇⲁⲙ ⲁⲩⲱ ϫⲉ ⲁⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧⲥ̅ ⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲛ̅ⲱⲛϩ\nⲁⲩⲱ ⲁϥⲙⲟⲩϩ ⲛ̅ϭⲓ ⲁⲗⲇ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲛ̅ⲟⲩⲙ̅ⲛⲧ̅‐\nⲁⲧⲥⲟⲟⲩⲛ ⲛ̅ⲧⲁⲣⲉⲥⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲧⲡⲣⲟⲛⲟⲓⲁ\nⲙ̅ⲡⲧⲏⲣϥ ⲁⲥⲧⲛ̅ⲛ̅ⲟⲟⲩ ⲛ̅ⲛϩⲟⲉⲓⲛⲉ ⲁⲩⲱ ⲁⲩⲧⲱⲣⲡ’\nⲛ̅ⲍⲱⲏ ⲉⲃⲟⲗ ϩⲛ̅ ⲉⲩϩⲁ ⲁⲩⲱ ⲁϥϫⲱϩⲙⲉ ⲙ̅ⲙⲟⲥ\nⲛ̅ϭⲓ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲁϥϫⲡⲟ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅\nⲛ̅ϣⲏⲣⲉ ⲥⲛⲁⲩ ⲡϣⲟⲣⲡ’ ⲁⲩⲱ ⲡⲙⲉϩⲥⲛⲁⲩ·\nⲉⲗⲱ̅ⲓ̅ⲙ̅ ⲙⲛ̅ ⲓ̅ⲁⲩⲉ̅ ⲉⲗⲱⲓ̈ ⲙⲉⲛ ⲟⲩϩⲟ ⲛ̅ⲁⲣⲕⲟⲥ\nⲡⲉ ⲓ̈ⲁⲩ̅ⲉ̅ ⲇⲉ ⲟⲩϩⲟ ⲛ̅ⲉⲙⲟⲩ ⲡⲉ ⲡⲟⲩⲁ ⲙⲉⲛ\nⲟⲩⲇⲓⲕⲁⲓⲟⲥ ⲡⲉ ⲡⲟⲩⲁ ⲇⲉ ⲟⲩⲁⲇⲓⲕⲟⲥ ⲡⲉ ⲓ̈ⲁ‐\nⲉⲩⲉ̅ ⲙ̅ⲉ̅ⲛ̅ ⲁϥⲣ̅ⲁⲡⲟⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ ⲉϩⲣⲁⲓ̈\nⲉϫⲙ̅ ⲡⲕⲱϩⲧ ⲙⲛ̅ ⲡⲧⲏⲩ ⲉⲗⲱⲓ̈ⲙ ⲇⲉ ⲁϥⲣ̅ⲁⲡⲟ‐\nⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲙⲟⲟⲩ· ⲙⲛ̅\nⲡⲕⲁϩ ⲛⲁⲓ̈ ⲇⲉ ⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ⲛ̅ⲛⲓⲣⲁⲛ\nϫⲉ ⲕⲁⲓ̈ⲛ ⲁⲩⲱ ⲁⲃⲉⲗ ⲉϥⲛⲁⲩ ⲁⲧⲉϥⲡⲁⲛⲟⲩⲣ‐\nⲅⲓⲁ ϣⲁϩⲟⲩⲛ ϭⲉ ⲁⲡⲟⲟⲩ ⲛ̅ϩⲟⲟⲩ ⲁⲥϭⲱ ⲛ̅‐\nϭⲓ ϯⲥⲩⲛⲟⲩⲥⲓⲁ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ\nⲁⲩⲱ ⲁϥϫⲱ ⲛ̅ⲟⲩⲥⲡⲟⲣⲁ ⲛ̅ⲉⲡⲓⲑⲩⲙⲓⲁ ϩⲣⲁⲓ̈\nϩⲛ̅ ⲧⲁ ⲁⲇⲁⲙ ⲁϥⲧⲟⲩⲛⲟⲩⲥ ⲇⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲧⲥⲩⲛⲟⲩⲥⲓⲁ ⲙ̅ⲡϫⲡⲟ ⲙ̅ⲡⲉⲓⲛⲉ ⲛ̅ⲛ̅ⲥⲱⲙⲁ\nⲁⲩⲱ ⲁϥⲭⲱⲣⲏⲅⲉⲓ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥⲡⲛ̅ⲁ̅\nⲉⲧϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲡⲓⲁⲣⲭⲱⲛ ⲇⲉ ⲥⲛⲁⲩ ⲁϥⲣ̅ⲁⲡⲟ‐\nⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟⲟⲩ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ϩⲛ̅ⲁⲣⲭⲏ ϩⲱⲥ‐\nⲧⲉ ⲁⲧⲟⲩⲁⲣⲭⲉⲓ ⲁϫⲙ̅ ⲡⲉⲥⲡⲏⲗⲁⲓⲟⲛ ⲛ̅ⲧⲁⲣⲉϥ‐\nⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲁⲇⲁⲙ ⲁⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉϥⲡⲣⲟ‐\nⲅⲛⲱⲥⲓⲥ ⲙ̅ⲙⲓⲛ ⲙ̅ⲙⲟϥ ⲁϥϫⲡⲟ ⲙ̅ⲡⲉⲓⲛⲉ\nⲙ̅ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁϥ’ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲥⲏⲑ\nⲕⲁⲧⲁ ⲑⲉ ⲙ̅ⲡⲉϫⲡⲟ ϩⲣⲁⲓ̈ ϩⲛ̅ 〈ⲛ〉ⲁⲓⲱⲛ ϩⲟⲙⲟⲓ‐\nⲱⲥ ⲧⲕⲉⲙⲁⲁⲩ ⲁⲥⲧⲛ̅ⲛⲁⲩ ⲁⲡⲓⲧⲛ̅ ⲙ̅ⲡⲉⲥⲡ̅ⲛ̅ⲁ̅\nⲙ̅ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉϯⲛⲉ ⲙ̅ⲙⲟⲥ ⲁⲩⲱ ⲛ̅ⲟⲩⲁⲛ‐\nⲧⲓⲧⲩⲡⲟⲛ ⲛ̅ⲧⲉⲧϩⲛ̅ ⲡⲗⲏⲣⲱⲙⲁ ϫⲉ ⲥⲛⲁ‐\nⲥⲟⲃⲧⲉ ⲛ̅ⲟⲩⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲛ̅ⲁⲓⲱⲛ ⲉⲧⲛ̅ⲛⲏⲩ\nⲁⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲁϥⲧⲥⲟⲟⲩ ⲛ̅ⲟⲩⲙⲟⲟⲩ ⲛ̅ⲃ̅ϣⲉ\nⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩ\nⲥⲟⲩⲱⲛⲟⲩ ϫⲉ ϩⲛ̅ ⲉⲃⲟⲗ ⲧⲱⲛ ⲛⲉ ⲁⲩⲱ ⲧⲁⲓ̈\nⲧⲉ ⲑⲉ ⲉⲛⲧⲁϥϣⲱⲡⲉ ⲛ̅ϭⲓ ⲡⲉⲥⲡⲉⲣⲙⲁ ⲡⲣⲟⲥ\nⲟⲩⲟⲉⲓϣ ⲉϥⲣ̅ϩⲩⲡⲟⲩⲣⲅⲉⲓ ϫⲉⲕⲁⲁⲥ ϩⲟⲧⲁⲛ\nⲉϥϣⲁⲛⲉⲓ ⲉϩⲣⲁⲓ̈ ⲛ̅ϭⲓ ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲛⲁⲓⲱⲛ ⲉⲧⲟⲩⲁⲁⲃ ⲉϥⲛⲁⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ ⲁⲩ‐\nⲱ ⲛ̅ϥⲧⲗ̅ϭⲁϥ ϩⲙ̅ ⲡϣⲧⲁ ϫⲉⲕⲁⲁⲥ ⲉⲣⲉⲡⲡⲗⲏ‐\nⲣⲱⲙⲁ ⲧⲏⲣϥ ⲛⲁϣⲱⲡⲉ ⲉϥⲟⲩⲁⲁⲃ ⲁⲩⲱ ⲛ̅‐\nⲁⲧϣⲧⲁ ⲁⲩⲱ ⲡⲉϫⲁⲉⲓ ⲁⲛⲟⲕ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ"
+        },
+        {
+          "title": "On Human Destiny",
+          "subtitle": "On Human Destiny",
+          "heading": "On Human Destiny (25, 16-30, 11)",
+          "rangeLabel": "25, 16-30, 11",
+          "range": {
+            "start": {
+              "page": 25,
+              "line": 16
+            },
+            "end": {
+              "page": 30,
+              "line": 11
+            }
+          },
+          "english": "I said to the Savior, “Lord, will all the souls then be led safely into pure light?”\nHe answered and said to me, These are great matters that have arisen in your\nmind, and it is difficult to explain them to anyone except those of the unshakable\ngeneration.\nThose upon whom the spirit of life will descend and whom the spirit will\nempower will be saved, and will become perfect and worthy of greatness, and\nwill be cleansed there of all evil and the anxieties of wickedness, since they are\nno longer anxious for anything except the incorruptible alone, and concerned\nwith that from this moment on, without anger, jealousy, envy, desire, or greed for\nanything.\nThey are affected by nothing but being in the flesh alone, and they wear the\nflesh as they look forward to a time when they will be met by those who\nreceive them. Such people are worthy of the incorruptible, eternal life and\ncalling. They endure everything and bear everything so as to finish the contest\nand receive eternal life.\nI said to him, “Lord, will the souls of people be [rejected] who have not\ndone these things, but upon whom the power and the spirit of life have\ndescended?”\nHe answered and said to me, If the spirit descends upon them, by all means\nthey will be saved and transformed. Power will descend upon every person, for\nwithout it no one could stand. After birth, if the spirit of life grows and power\ncomes and strengthens that soul, no one will be able to lead it astray with evil\nactions. But people upon whom the false spirit descends are misled by it and go\nastray.\nI said, “Lord, where will their souls go when they leave their flesh?”\nHe laughed and said to me, The soul in which there is more power than the\ncontemptible spirit is strong. She escapes from evil, and through the intervention\nof the incorruptible one, she is saved and is taken up to eternal rest.\nI said, “Lord, where will the souls go of people who have not known to\nwhom they belong?”\nHe said to me, The contemptible spirit has grown stronger in such\npeople while they were going astray. This spirit lays a heavy burden on the soul,\nleads her into evil deeds, and hurls her down into forgetfulness. After the soul\nleaves the body, she is handed over to the authorities who have come into being\nthrough the archon. They bind her with chains and throw her into prison. They\ngo around with her until she awakens from forgetfulness and acquires\nknowledge. This is how she attains perfection and is saved.\nI said, “Lord, how can the soul become younger and return into its mother’s\nwomb, or into the human?”\nHe was glad when I asked him about this, and he said to me, You are truly\nblessed, for you have understood. This soul will be made to follow another soul\nin whom the spirit of life dwells, and she is saved through that one. Then she\nwill not be thrust into flesh again.\nI said, “Lord, where will the souls go of people who had knowledge but\nturned away?”\nHe said to me, They will be taken to the place where the angels of misery go,\nwhere there is no repentance. They will be kept there until the day when those\nwho have blasphemed against the spirit will be tortured and punished eternally.\nI said, “Lord, where did the contemptible spirit come from?”\nHe said to me, The Mother-Father is great in mercy, the holy Spirit, who in\nevery way is compassionate, who sympathizes with you, the Insight of\nenlightened Forethought. This one raised up the offspring of the perfect\ngeneration and their thought and the eternal light of the human. When the first\nruler realized that these people were exalted above him and could think better\nthan he, he wanted to grasp their thought. He did not know that they surpassed\nhim in thought and that he would be unable to grasp them.\nHe devised a plan with his authorities, who are his powers. Together they\nfornicated with Sophia, and through them was produced bitter fate, the final,\nfickle bondage. Fate is like this because the powers are fickle. To the present day\nfate is tougher and stronger than what gods, angels, demons, and all the\ngenerations have encountered. For from fate have come all iniquity and injustice\nand blasphemy, the bondage of forgetfulness, and ignorance, and all burdensome\norders, weighty sins, and great fears.\nThus all of creation has been blinded so that none might know the God that\nis over them all. Because of the bondage of forgetfulness, their sins have been\nhidden. They have been bound with dimensions, times, and seasons, and fate is\nmaster of all.\nThe first ruler regretted everything that had happened through him. Once\nagain he made a plan, to bring a flood upon the human creation. The\nenlightened majesty of Forethought, however, warned Noah. Noah announced\nthis to all the offspring, the human children, but those who were strangers to him\ndid not listen to him. It did not happen the way Moses said, “They hid in an\nark.”\nRather, they hid in a particular place, not only Noah, but also many other\npeople from the unshakable generation. They entered that place and hid in a\nbright cloud. Noah knew about his supremacy. With him was the enlightened one\nwho had enlightened them, since the first ruler had brought darkness upon the\nwhole earth.\nThe first ruler plotted with his powers. He sent his angels to the human\ndaughters so they might take some of them and raise offspring for their\npleasure. At first they were unsuccessful. When they had proven unsuccessful,\nthey met again and devised another plan. They created a contemptible spirit\nsimilar to the spirit that had descended, in order to adulterate souls through this\nspirit. The angels changed their appearance to look like the partners of these\nwomen, and filled the women with the spirit of darkness that they had\nconcocted, and with evil.\nThey brought gold, silver, gifts, copper, iron, metal, and all sorts of things.\nThey brought great anxieties to the people who followed them, leading\nthem astray with many deceptions. These people grew old without experiencing\npleasure and died without finding truth or knowing the God of truth. In this way\nall creation was forever enslaved, from the beginning of the world until the\npresent day.\nThe angels took women, and from the darkness they produced children\nsimilar to their spirit. They closed their minds and became stubborn through the\nstubbornness of the contemptible spirit until the present day.",
+          "coptic": "ⲁⲧϣⲧⲁ ⲁⲩⲱ ⲡⲉϫⲁⲉⲓ ⲁⲛⲟⲕ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ\nⲡϫⲟⲉⲓⲥ ⲛ̅ⲯⲩⲭⲟⲟⲩ ϭⲉ ⲧⲏⲣⲟⲩ ⲥⲉⲛⲁⲟⲩϫⲁⲓ\nⲉϩⲟⲩⲛ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ ⲁϥⲟⲩⲱϣⲃⲉ\nⲡⲉϫⲁϥ ⲛⲁⲉⲓ· ϫⲉ ϩⲉⲛⲛⲟϭ ⲛⲉ ⲛⲉⲛϩⲃⲏⲩⲉ\nⲉⲛⲧⲁⲩⲧⲁⲗⲟ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲉⲕⲙⲉⲉⲩ ⲟⲩⲇⲩⲥ‐\nⲕⲟⲗⲟⲛ ⲅⲁⲣ ⲡⲉ ⲉϭⲟⲗⲡⲟⲩ ⲉⲃⲟⲗ ⲛ̅ϩⲛ̅ⲕⲟ‐\nⲟⲩⲉⲓ ⲉⲓⲙⲏⲧⲓ ⲛ̅ⲛⲁⲓ̈ ⲉⲧ’ϣⲟⲟⲡ ⲉⲃⲟⲗ ϩⲛ̅\nⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧⲕⲓⲙ ⲛⲁⲓ̈ ⲉⲧⲉ ⲡⲉⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲱⲛϩ\nⲛⲁⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲁⲩⲱ ⲛ̅ϥϣⲱⲡⲉ ⲙⲛ̅ ⲧϭⲟⲙ\nⲥⲉⲛⲁⲟⲩϫⲁⲉⲓ· ⲁⲩⲱ ⲛ̅ⲥⲉϣⲱⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ\nⲁⲩⲱ ⲥⲉⲛⲁⲣ̅ 〈ⲙ̅ⲡ〉ϣⲁ ⲛ̅ϩⲉⲛⲙ̅ⲛ̅ⲧ̅ⲛⲟϭ ⲁⲩⲱ\nⲥⲉⲛⲁⲧⲃ̅ⲃⲟ ϩⲙ̅ ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲕⲁⲕⲓⲁ ⲛⲓⲙ ⲙⲛ̅ ⲛ̅ⲣⲟⲟⲩϣ ⲛ̅ⲧⲉ ⲧⲡⲟⲛⲏⲣⲓⲁ\nⲉⲛⲥⲉϥⲓ ⲣⲟⲟⲩϣ ϭⲉ ⲉⲗⲁⲁⲩ ⲁⲛ ⲉⲓⲙⲏⲧⲓ ⲁ‐\nϯⲙⲛ̅ⲧ̅’̅ⲁⲧ’ⲧⲉⲕⲟ ⲟⲩⲁⲁⲧⲥ̅ ⲉⲩⲣ̅ⲙⲉⲗⲉⲧⲁ ⲙ̅ⲙⲟⲥ\nϫⲛ̅ ⲙ̅ⲡⲓⲙⲁ ⲭⲱⲣⲓⲥ ⲟⲣⲅⲏ ϩⲓ ⲕⲱϩ 〈ϩ〉ⲓ ⲫⲑⲟ‐\nⲛⲟⲥ ϩⲓ ⲉⲡⲓⲑⲩⲙⲓⲁ ⲁⲩⲱ ⲧⲙⲛ̅ⲧ̅ⲁⲧⲥⲓ ⲛ̅ⲧⲉ\nⲡⲧⲏⲣϥ ⲉⲛⲥⲉⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ ϩⲓⲧⲛ̅\nⲗⲁⲁⲩ ⲉⲓⲙⲏⲧⲓ ⲁⲧϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲟⲩⲁⲁⲧⲥ̅\nⲛ̅ⲧⲥⲁⲣⲝ ⲧⲁⲓ̈ ⲉⲧⲟⲩⲫⲟⲣⲉⲓ ⲙ̅ⲙⲟⲥ ⲉⲩϭⲁϣⲧ\nⲉⲃⲟⲗ ⲛ̅ⲥⲁ ⲡⲟⲩⲟⲉⲓϣ ⲉⲧⲟⲩⲛⲁϭⲙ̅ ⲡⲉⲩ‐\nϣⲓⲛⲉ\nⲛ̅ϩⲏⲧ̅ϥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛⲉⲧϫⲓ ⲛⲁⲓ̈ ϭⲉ ⲛ̅ϯ\nⲙⲉⲓⲛⲉ ⲥⲉⲟ ⲛ̅ⲁⲝⲓⲟⲥ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲁⲧⲧⲉ\nⲕⲟ ⲛ̅ϣⲁ ⲉⲛⲉϩ ⲁⲩⲱ ⲡⲧⲱϩ̅ⲙ̅ ⲉⲩⲣ̅ϩⲩ‐\nⲡⲟⲙⲉⲓⲛⲉ ϩⲁ ⲡⲧⲏⲣϥ ⲉⲩϥⲓ ⲉϩⲣⲁⲓ̈ ϩⲁ\nⲡⲧⲏⲣϥ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϫⲱⲕ ⲉⲃⲟⲗ\nⲙ̅ⲡⲁⲅⲁⲑⲟⲛ’ ⲛ̅ⲥⲉⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛ̅ⲟⲩ‐\nⲱⲛϩ ϣⲁ ⲉⲛⲉϩ ⲡⲉϫⲁⲓ̈ ⲛⲁϥ ϫⲉ ⲡϫⲟ‐\nⲉⲓⲥ ⲛ̅ⲯⲩⲭⲉⲩⲉ ⲉⲧⲉ ⲙ̅ⲡⲟⲩⲉⲓⲣⲉ ⲛ̅ⲛⲓϩ‐\nⲃⲏⲩⲉ ⲛⲁⲓ̈ ⲉⲛⲧⲁⲧϭⲟⲙ ⲙ̅ⲡⲉⲡⲛ̅ⲁ̅\nⲙ̅ⲡⲱⲛϩ ⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲛ̅ϭⲓ ⲡⲉ‐\nⲡⲛ̅ⲁ̅ ⲡⲁⲛⲧⲏ ⲡⲁⲛⲧⲱⲥ ⲥⲉⲛⲁⲟⲩϫⲁⲓ̈\nⲁⲩⲱ ⲛⲁⲓ̈ ⲥⲉⲛⲁⲡⲱⲱⲛⲉ ⲉⲃⲟⲗ ⲧⲇⲩ‐\nⲛⲁⲙⲓⲥ ⲅⲁⲣ ⲛⲁⲉⲓ ⲉϩⲣⲁⲓ̈ ⲁϫⲛ̅ ⲣⲱⲙⲉ ⲛⲓⲙ\nⲁϫⲛⲧ̅ⲥ̅ ⲅⲁⲣ ⲙⲛ̅ ϭⲟⲙ ⲛ̅ⲧⲉⲗⲁⲁⲩ ⲁϩⲉ ⲉ‐\nⲣⲁⲧ̅ϥ̅ ⲙⲛ̅ⲛ̅ⲥⲉ ⲧⲟⲩϫⲡⲟⲟⲩ ⲇⲉ ⲧⲟⲧⲉ ⲉϥ‐\nϣⲁⲛⲁϣⲁⲉⲓ ⲛ̅ϭⲓ ⲡ̅ⲛ̅ⲁ̅ ⲙ̅ⲡⲱⲛϩ ⲁⲩⲱ\nϣⲁⲣⲉ ⲧϭⲟⲙ ⲉⲓ ⲛ̅ⲥϯ ⲧⲁϫⲣⲟ ⲛ̅ⲧⲯⲩⲭⲏ ⲉ‐\nⲧⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲙⲁⲣⲉϣ ⲗⲁⲁⲩ ⲣ̅ⲡⲗⲁⲛⲁ ⲙ̅‐\nⲙⲟⲥ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉϩⲃⲏⲩⲉ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ\nⲛⲁⲓ̈ ⲇⲉ ⲉⲧⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲛⲏⲩ\nⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ϣⲁⲩⲥⲱⲕ ⲙ̅ⲙⲟⲟⲩ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ̅ ⲁⲩⲱ ⲛ̅ⲥⲉⲥⲱⲣⲙ̅ ⲁⲛⲟⲕ ⲇⲉ\nⲡⲉϫⲁⲓ̈ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲛ̅ⲯⲩⲭⲟⲟⲩ ϭⲉ ⲛ̅‐\nⲛⲁⲓ̈ ϩⲟⲧⲁⲛ ⲉⲩϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩ‐\nⲥⲁⲣⲝ ⲉⲩⲛⲁⲃⲱⲕ ⲉⲧⲱⲛ ⲛ̅ⲧⲟϥ ⲇⲉ ⲁϥ ⲥⲱ‐\nⲃⲉ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲧⲯⲩⲭⲏ ⲉⲧⲉ ⲧϭⲟⲙ\nⲛⲁⲁϣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲡⲁⲣⲁ ⲡⲓⲡⲡ̅ⲁ̅ ⲉⲧϣⲏⲥ\nⲧⲁⲓ̈ ⲅⲁⲣ ⲥϫⲟⲟⲣ ⲁⲩⲱ ϣⲁⲥⲡⲱⲧ ⲛ̅ⲥⲁⲛ\nⲃⲟⲗ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅\nⲡϭⲙ̅ ⲡϣⲓⲛⲉ ⲙ̅ⲡⲓⲁⲧ’ⲧⲉⲕⲟ ϣⲁⲥⲟⲩ\nϫⲁⲓ̈ ⲁⲩⲱ ϣⲁⲩϫⲓⲧⲥ̅ ⲉϩⲣⲁⲓ̈ ⲉⲧⲁⲛⲁⲡⲁⲩ‐\nⲥⲓⲥ ⲛ̅ⲁⲓⲱⲛ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉϫⲁⲓ̈ ϫⲉ ⲡϫⲟ‐\nⲉⲓⲥ ⲉⲓⲉ ⲛⲁⲓ̈ ϩⲱⲟⲩ ⲉⲧⲉ ⲙ̅ⲡⲟⲩⲙ̅ⲙⲉ\nϫⲉ ⲛⲁ ⲛⲓⲙ ⲛⲉ ⲛⲟⲩⲯⲩⲭⲟⲟⲩⲉ ⲉⲩ‐\nⲛⲁϣⲱⲡⲉ ⲧⲱⲛ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ\nϩⲛ̅ ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲁⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲏⲥ ⲁϥⲁ‐\nϣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ϩⲙ̅ ⲡⲧⲣⲟⲩⲥⲱⲣⲙ̅ ⲁⲩⲱ ϣⲁϥ‐\nⲃⲁⲣⲉⲓ ⲛ̅ⲧⲉⲯⲩⲭⲏ ⲁⲩⲱ ϣⲁϥⲥⲱⲕ’ϣ ⲙ̅ⲙⲟⲥ\nⲁⲛⲉϩⲃⲏⲩⲉ ⲛ̅ⲧⲉ ⲧⲡⲟⲛⲏⲣⲓⲁ ⲁⲩⲱ ⲛ̅ϥⲛⲟⲩ‐\nϫⲉ ⲙ̅ⲙⲟⲥ ⲉϩⲣⲁⲓ̈ ⲉⲩⲃ̅ϣⲉ ⲁⲩⲱ ⲙⲛ̅ⲛⲥⲁ ⲧⲣⲉⲥ‐\nⲉⲓ ⲉⲃⲟⲗ’ ϣⲁⲩⲧⲁⲁⲥ ⲉⲧⲟⲟⲧⲟⲩ ⲛ̅ⲛⲉⲝⲟⲩⲥⲓⲁ\nⲛⲁⲓ̈ ⲉⲛⲧⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲁⲣⲭⲱⲛ ⲁⲩ‐\nⲱ ϣⲁⲩⲙⲟⲣⲥ̅ ϩⲛ̅ ϩⲉⲛⲙⲉⲣ̅ⲣⲉ ⲛ̅ⲥⲉⲛⲟⲩϫⲉ ⲙ̅‐\nⲙⲟⲥ ⲁⲡⲉϣⲧⲉⲕⲟ ⲁⲩⲱ ϣⲁⲩⲕⲱⲧⲉ ⲛⲙ̅ⲙⲁⲥ\nϣⲁⲛⲧⲥⲛⲉϩⲥⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲃ̅ϣⲉ ⲁⲩⲱ ⲛ̅ⲥ‐\nϫⲓ ⲉⲣⲟⲥ ⲙ̅ⲡⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲧⲁⲓ̈ ⲧⲉ ⲑⲉ ⲉⲥ‐\nϣⲁⲛϫⲱⲕ ⲉⲃⲟⲗ ϣⲁⲥⲟⲩϫⲁⲓ̈ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉ‐\nϫⲁⲓ̈ ϫⲏⲉ ⲡϫⲟⲉⲓⲥ ⲁⲩⲱ ⲡⲱⲥ ⲁⲥⲣ̅ϣⲏⲙ ϣⲏⲙ\nⲛ̅ϭⲓ ⲧⲯⲩⲭⲏ ⲁⲩⲱ ⲛ̅ⲥⲛⲁⲩϩ̅ⲥ̅ ⲉϩⲟⲩⲛ ⲁⲧⲫⲩ‐\nⲥⲓⲥ ⲛ̅ⲧⲉⲥⲙⲁⲁⲩ ⲏ ⲉϩⲟⲩⲛ ⲉⲡⲣⲱⲙⲉ ⲧⲟⲧⲉ\nⲁϥⲣⲁϣⲉ ⲛ̅ⲧⲁⲣⲓϫⲛⲟⲩϥ ⲉⲡⲁⲓ̈ ⲁⲩⲱ ⲡⲉ‐\nϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲁⲗⲏⲑⲱⲥ ⲛ̅ⲧⲕ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ\nⲉⲡⲓⲇⲏ ⲁⲕⲣ̅ⲛⲟⲉⲓ ⲧⲯⲩⲭⲏ ⲉⲧⲙ̅ⲙⲁⲩ ϣⲁⲩ‐\nⲧⲣⲉⲥⲟⲩⲁϩⲥ ⲛ̅ⲥⲁ ⲕⲉⲟⲩⲉⲓⲉ ⲉⲣⲉⲡⲛⲁ ⲙ̅‐\nⲡⲱⲛϩ ⲛ̅ϩⲏⲧⲥ̅ ⲧⲁⲓ̈ ⲉϣⲁⲥⲟⲩϫⲁⲓ̈ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ ⲙ̅ⲡⲉⲧⲙ̅ⲙⲁⲩ ⲉϣⲁⲩⲛⲟⲩϫⲉ ϭⲉ\nⲁⲛ ⲙ̅ⲙⲟⲥ ⲉϩⲟⲩⲛ ⲉⲕⲉⲥⲁⲣⲝ ⲁⲩⲱ ⲡⲉϫⲁⲓ̈\nϫⲉ ⲡϫⲟⲉⲓⲥ ⲛⲁⲓ̈ ϩⲱⲟⲩ ⲉⲛⲧⲁϩⲥⲟⲟⲩⲛ ⲁⲩ‐\nⲱ ⲁⲩϩⲛ̅ⲧⲟⲩ ⲉⲃⲟⲗ ⲉⲩⲛⲁⲃⲱⲕⲉⲧⲱⲛ ⲛ̅‐\nϭⲓ ⲛⲟⲩⲯⲩⲭⲏ ⲧⲟⲧⲉ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲡⲙⲁ\nⲉⲣⲉ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ϩⲏⲕⲉ ⲛⲁⲃⲱⲕ\nⲉⲙⲁⲩ ⲥⲉⲛⲁϫⲓⲧⲟⲩ ⲉⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲡⲙⲁ\nⲉⲧⲉ ⲙⲛ̅ ⲙⲉⲧⲁⲛⲟⲓⲁ ϣⲟⲟⲡ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ\nⲛ̅ⲥⲉⲁⲣⲉϩ ⲉⲣⲟⲟⲩ ⲉⲡⲉϩⲟⲟⲩ ⲉⲧⲟⲩⲛⲁ‐\nⲃⲁⲥⲁⲛⲓⲍⲉ ⲛ̅ⲛⲉⲧⲁϩϫⲉ ⲟⲩⲁ ⲁⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲛ̅‐\nⲥⲉⲣ̅ⲕⲟⲗⲁⲍⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲕⲟⲗⲁⲥⲓⲥ\nⲛ̅ϣⲁ ⲉⲛⲉϩ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉϫⲁⲉⲓ ϫⲉ ⲡϫⲟ‐\nⲉⲓⲥ ⲛ̅ⲧⲁϥⲉⲓ ⲧⲱⲛ ⲛ̅ⲧⲟϥ ⲛ̅ϭⲓ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧ‐\nϣⲏⲥ ⲧⲟⲧⲉ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲡⲙⲏⲧⲣⲟⲡⲁ‐\nⲧⲱⲣ ⲡⲉⲧⲛⲁϣⲉ ⲡⲉϥⲛⲁⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ϩⲛ̅ ⲥⲙⲁⲧ ⲛⲓⲙ ⲡϣⲁⲛϩⲧⲏϥ ⲁⲩⲱ\nⲉⲧϣⲡϩⲓⲥⲉ ⲛⲙ̅ⲙⲏⲧⲛ̅ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲧⲉ‐\nⲡⲓⲛⲟⲓⲁ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ\nⲁϥⲧⲟⲩⲛⲟⲩⲥ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛ̅ⲧⲅⲉⲛⲉⲁ ⲛ̅‐\nⲧⲉⲗⲉⲓⲟⲛ ⲙⲛ̅ ⲡⲉϥⲙⲉⲉⲩⲉ ⲁⲩⲱ ⲡⲟⲩⲟ‐\nⲉⲓⲛ’ ⲛ̅ϣⲁ ⲉⲛⲉϩ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲧⲁⲣⲉϥⲙ̅‐\nⲙⲉ ⲛ̅ϭⲓ ⲡϣⲟⲣⲡ ⲛ̅ⲁⲣⲭⲱⲛ ϫⲉ ⲥⲉϫⲟⲥⲉ\nⲡⲁⲣⲁⲣⲟϥ ϩⲙ̅ ⲡϫⲓⲥⲉ ⲁⲩⲱ ⲥⲉⲙⲉⲉⲩⲉ ⲡⲁ‐\nⲣⲁⲣⲟϥ ⲁϥⲟⲩⲱϣⲉ ϭⲉ ⲉⲁⲙⲁϩⲧⲉ ⲙ̅ⲡⲟⲩ‐\nⲙⲟⲕⲙⲉⲕ ⲉϥⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ϫⲉ ⲥⲉϫⲟⲥⲉ\nⲉⲣⲟϥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲙⲉⲉⲩⲉ ⲁⲩⲱ ϫⲉ ϥⲛⲁϣ\nⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ ⲁϥⲉⲓⲣⲉ ⲛ̅ⲟⲩϣⲟϫⲛⲉ\nⲙⲛ̅ ⲛⲉϥⲉⲝⲟⲩⲥⲓⲁ ⲉⲧⲉ ⲛⲉϥϭⲟⲙ ⲛⲉ ⲁⲩⲱ\nⲁⲩⲣ̅ⲛⲟⲉⲓⲕ ⲁⲧⲥⲟⲫⲓⲁ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ\nⲁⲩϫⲡⲟ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲁⲩⲥⲁϣ ⲛ̅ⲧϣⲓ‐\nⲙⲁⲣⲙⲉⲛⲏ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧϩⲁⲏ ⲙ̅ⲙⲣ̅ⲣⲉ ⲉⲧ‐\nϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲁⲩⲱ ⲉⲥⲟ ⲙ̅ⲙⲓⲛⲉ {ⲙ̅ⲙⲓⲛⲉ} ϫⲉ\nⲥⲉϣⲃⲃⲓⲁⲉⲓⲧ’ ⲁⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ ⲥⲙⲟⲕϩ ⲁⲩ‐\nⲱ ⲥϭⲟⲙ ⲉⲧⲁⲓ̈ ⲉⲛⲧⲁⲩⲙⲟⲩϣϭ ⲙ̅ⲙⲟⲥ ⲛ̅ϭⲓ\nⲛ̅ⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ ⲛ̅ⲇⲁⲓⲙⲱⲛ\nⲁⲩⲱ ⲛ̅ⲅⲉⲛⲉⲁ ⲧⲏⲣⲟⲩ ϣⲁϩⲟⲩⲛ ⲁⲡⲟⲟⲩ ⲛ̅‐\nϩⲟⲟⲩ ⲉⲃⲟⲗ ⲅⲁⲣ ϩⲛ̅ ⲧϩⲓⲙⲁⲣⲙⲉⲛⲏ ⲉⲧⲙ̅ⲙⲟ\nⲁⲩⲟⲩⲱⲛ〈ϩ〉 ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲙⲛ̅ⲧ̅ϣⲁϥⲧⲉ ⲛⲓⲙ ⲁⲩ‐\nⲱ ⲡϫⲓⲛϭⲟⲛⲥ̅ ⲁⲩⲱ ⲡⲟⲩⲁ ⲙⲛ̅ ⲧⲙⲣ̅ⲣⲉ\nⲛ̅ⲧⲃ̅ϣⲉ ⲁⲩⲱ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲡⲁ‐\nⲣⲁⲅⲅⲉⲗⲓⲁ ⲛⲓⲙ ⲉⲑⲟⲣϣ ⲙⲛ̅ ⲛⲓⲛⲟⲃⲉ\nⲉⲧϩⲟⲣϣ ⲙⲛ̅ ⲛⲓⲛⲟϭ ⲛ̅ϩⲣ̅ⲧⲉ ⲁⲩⲱ ⲧⲁⲓ̈\nⲧⲉ ⲑⲉ ⲉⲛⲧⲁⲩⲧ〈ⲣ〉ⲉⲧⲕⲧⲓⲥⲓⲥ ⲧⲏⲣⲥ̅ ⲣ̅ⲃⲗⲗⲏ\nϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩⲥⲟⲩⲛ̅ ⲡⲛⲟⲩⲧⲉ ⲉⲧⲙ̅ⲡⲟⲩ\nⲧⲡⲉ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲉⲧⲃⲉ ⲧⲙⲣ̅ⲣⲉ ⲛ̅ⲧⲃ̅ϣⲉ\nⲁⲩϩⲱⲡ ⲛ̅ϭⲓ ⲛⲟⲩⲛⲟⲃⲉ ⲁⲩⲙⲟⲩⲣ ⲅⲁⲣ ⲛ̅‐\nϩⲛ̅ϣⲓ ⲙⲛ̅ ϩⲛ̅ⲟⲩⲟⲉⲓϣ ⲙⲛ̅ ϩⲛ̅ⲕⲁⲓⲣⲟⲥ\nⲉⲥⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲁϫⲙ̅ ⲡⲧⲏⲣϥ ⲁⲩⲱ ⲁϥⲣ̅‐\nϩⲧⲏϥ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ϩⲱⲃ ⲛⲓⲙ ⲉⲁϥϣⲱⲡⲉ\nⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ̅ ⲡⲁⲗⲓⲛ ⲁϥϣⲟϫⲛⲉ\nⲁⲧⲣⲉϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲕⲁⲧⲁⲕⲗⲩⲥⲙⲟⲥ ⲉϩⲣⲁⲓ̈\nⲉϫⲙ̅ ⲡⲧⲁⲙⲓⲟ ⲙ̅ⲡⲣⲱⲙⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟϭ ⲇⲉ\nⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲁϥⲧⲥⲉⲃⲉ\nⲛⲱϩⲉ ⲁⲩⲱ ⲁϥⲧⲁϣⲉ ⲟⲉⲓϣ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ\nⲧⲏⲣϥ ⲉⲧⲉ ⲛⲁⲓ̈ ⲛⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲛ̅ⲣⲱⲙⲉ ⲁⲩ‐\nⲱ ⲙ̅ⲡⲟⲩⲥⲱⲧⲙ̅ ⲛⲁϥ ⲛ̅ϭⲓ ⲛⲉⲧⲟ ⲛ̅ϣⲙ̅ⲙⲟ\nⲉⲣⲟϥ ⲕⲁⲧⲁ ⲑⲉ ⲁⲛ ⲉⲛⲧⲁⲙⲱⲩ̈ⲥⲏⲥ ϫⲟⲟⲥ\nϫⲉ ⲁⲩϩⲱⲡ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲕⲓⲃⲱⲧⲟⲥ ⲁⲗ‐\nⲗⲁ ⲛ̅ⲧⲁⲩϩⲱⲡ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲧⲟⲡⲟⲥ ⲟⲩ‐\nⲙⲟⲛⲟⲛ ⲛⲱϩⲉ ⲁⲗⲗⲁ ϩⲛ̅ⲕⲉⲣⲱⲙⲉ ⲉⲛⲁ‐\nϣⲱⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧⲕⲓⲙ ⲁⲩⲃⲱⲕ\nⲉϩⲟⲩⲛ ⲁⲩⲧⲟⲡⲟⲥ ⲁⲩϩⲱⲡ’ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩ‐\nⲕⲗⲟⲟⲗⲉ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁϥⲥⲟⲩⲛ̅ ⲧⲉϥⲁⲩ‐\nⲑⲉⲛⲧⲉⲓⲁ ⲁⲩⲱ ⲛⲁⲥⲛ̅ⲙ̅ⲙⲁϥ ⲛ̅ϭⲓ ⲧⲁⲡⲟⲩ‐\nⲟⲉⲓⲛ ⲉⲛⲧⲁⲥⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲉⲣⲟⲟⲩ ⲉⲃⲟⲗ ϫⲉ\nⲁϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲕⲁⲕⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲕⲁϩ ⲧⲏⲣϥ\nⲁⲩⲱ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϣⲟϫⲛⲉ ⲙⲛ̅ ⲛⲉϥϭⲟⲙ\nⲁϥϫⲟⲟⲩ ⲛ̅ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ϣⲁ ⲛ̅ϣⲉⲉⲣⲉ\nⲛ̅ⲛ̅ⲣⲱⲙⲉ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϫⲓ ⲛⲁⲩ ⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧⲟⲩ ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲟⲩⲛⲟⲩⲥ ⲛ̅ⲟⲩⲥⲡⲉⲣ‐\nⲙⲁ ⲁⲩⲙ̅ⲧⲟⲛ ⲛⲁⲩ ⲁⲩⲱ ⲉⲧⲉ ⲙ̅ⲡⲟⲩⲙⲁⲧⲉ\nⲙ̅ⲡϣⲟⲣⲡ ⲛ̅ⲧⲁⲣⲟⲩⲧⲙ̅ⲙⲉⲧⲉ ϭⲉ ⲁⲩⲥⲱ‐\nⲟⲩϩ ⲉϩⲟⲩⲛ ⲟⲛ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲉⲓⲣⲉ ⲛ̅‐\nⲟⲩϣⲟϫⲛⲉ ϩⲓ ⲟⲩⲥⲟⲡ ⲁⲩⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩ‐\nⲡⲛ̅ⲁ̅ ⲉϥϣⲏⲥ ⲙ̅ⲡⲉⲓⲛⲉ ⲙ̅ⲡ̅ⲛⲁ̅ ⲉⲧⲁϩⲉⲓ\nⲉϩⲣⲁⲓ̈ ϩⲱⲥⲧⲉ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲁⲥⲱⲱϥ ⲛ̅‐\nⲙ̅ⲯⲩⲭⲏ ⲁⲩⲱ ⲁⲩϣⲃ̅ⲧⲟⲩϩⲙ̅ ⲡⲟⲩⲉⲓⲛⲉ\nⲛ̅ϭⲓ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲙ̅ⲡⲟⲩⲥⲟ‐\nⲉⲓϣ ⲉⲩⲙⲟⲩϩ ⲙ̅ⲙⲟⲟⲩ ϩⲙ̅ ⲡⲛ̅ⲁ̅ ⲛ̅ⲕⲁⲕⲉ\nⲉⲛⲧⲁⲩⲣ̅ⲕⲉⲣⲁ ⲙ̅ⲙⲟϥ ⲉϫⲱⲟⲩ ⲁⲩⲱ ⲙ̅ⲡⲟ\nⲛⲏⲣⲓⲁ ⲁⲩⲉⲓⲛⲉ ⲛ̅ⲛⲟⲩⲛⲟⲩⲃ ⲙⲛ̅ ⲟⲩϩⲁⲧ\nⲙⲛ̅ ⲟⲩⲇⲱⲣⲟⲛ ⲙⲛ̅ ⲟⲩϩⲟⲙⲧ ⲙⲛ̅ ⲟⲩⲃⲉ‐\nⲛⲓⲡⲉ ⲙⲛ̅ ⲟⲩⲙⲉⲧⲁⲗⲗⲟⲛ ⲙⲛ̅ ⲅⲉⲛⲟⲥ\nⲛⲓⲙ ⲛ̅ⲧⲉ ⲛⲓⲉⲓⲇⲟⲥ ⲁⲩⲱ ⲁⲩⲥⲱⲕ ⲛ̅ⲣ̅ⲣⲱ‐\nⲙⲉ ⲉϩⲣⲁⲓ̈ ⲁϩⲉⲛⲛⲟϭ ⲛ̅ⲣⲟⲟⲩϣ ⲛⲁⲓ̈ ⲉⲛ‐\nⲧⲁⲩⲟⲩⲁϩⲟⲩ ⲛ̅ⲥⲱⲟⲩ ⲉⲩⲥⲱⲣⲙ̅ ⲙ̅ⲙⲟⲟⲩ\nϩⲛ̅ ϩⲁϩ ⲙ̅ⲡⲗⲁⲛⲏ ⲁⲩⲣ̅ϩⲗ̅ⲗⲟ ⲉⲩⲟ ⲛ̅ⲁⲧⲥⲣ̅‐\nϥⲉ ⲁⲩⲙⲟⲩ ⲙ̅ⲡⲟⲩϭⲛ̅ ⲗⲁⲁⲩ ⲙ̅ⲙⲉⲉ ⲁⲩⲱ\nⲙ̅ⲡⲟⲩⲥⲟⲩⲱⲛ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲙⲏⲉ ⲁⲩⲱ ⲧⲁⲓ̈\nⲧⲉ ⲑⲉ ⲉⲛⲧⲁⲩⲣ̅ ⲧⲕⲧⲓⲥⲓⲥ ⲧⲏⲣⲥ̅ ⲛϭⲁⲩⲁⲛ ⲛ̅ϣⲁ\nⲉⲛⲉϩ ϫⲛ̅ ⲛ̅ⲧⲕⲁⲧⲁⲃⲟⲗⲏ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ\nϣⲁϩⲣⲁⲓ̈ ⲉⲧⲉⲛⲟⲩ ⲁⲩⲱ ⲁⲩϫⲓ ⲛ̅ϩⲛ̅ⲥϩⲓⲁⲙⲉ\nⲁⲩϫⲡⲟ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ ⲕⲁⲧⲁ\nⲡⲉⲓⲛⲉ ⲙ̅ⲡⲟⲩⲡⲛ̅ⲁ̅ ⲁⲩⲱ ⲁⲩⲧⲱⲙ ⲛ̅ⲛⲟⲩ ϩⲉⲧⲉ\nⲁⲩⲱ ⲁⲩϯ ⲛ̅ϣⲟⲧ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲛϣⲟⲧ\nⲙ̅ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧϣⲏⲥ ϣⲁϩⲣⲁⲓ̈ ⲉⲧⲉⲛⲟⲩ ⲁⲛⲟⲕ"
+        },
+        {
+          "title": "Hymn of the Savior",
+          "subtitle": "Hymn of the Savior",
+          "heading": "Hymn of the Savior (30, 11-31, 25)",
+          "rangeLabel": "30, 11-31, 25",
+          "range": {
+            "start": {
+              "page": 30,
+              "line": 11
+            },
+            "end": {
+              "page": 31,
+              "line": 25
+            }
+          },
+          "english": "Now I, the perfect Forethought of the All, transformed myself into my offspring.\nI existed first and went down every path.\nI am the abundance of light,\nI am the remembrance of Fullness.\nI traveled in the realm of great darkness, and continued until I entered the\nmidst of the prison. The foundations of chaos shook, and I hid from them\nbecause of their evil, and they did not recognize me.\nAgain I returned, a second time, and went on. I had come from the\ninhabitants of light-I, the remembrance of Forethought.\nI entered the midst of darkness and the bowels of the underworld, turning to\nmy task. The foundations of chaos shook as though to fall upon those who dwell\nin chaos and destroy them. Again I hurried back to the root of my light so they\nmight not be destroyed before their time.\nAgain, a third time, I went forth-\nI am the light dwelling in light,\nI am the remembrance of Forethought-\nso that I might enter the midst of darkness and the bowels of the\nunderworld. I brightened my face with light from the consummation of their\nrealm and entered the midst of their prison, which is the prison of the body.\nI said, Let whoever hears arise from deep sleep.\nA person wept and shed tears. Bitter tears the person wiped away, and said,\n“Who is calling my name? From where has my hope come as I dwell in the\nbondage of prison?”\nI said,\nI am the Forethought of pure light,\nI am the thought of the Virgin Spirit, who raises you to a place of honor.\nArise, remember that you have heard\nand trace your root,\nwhich is I, the compassionate.\nGuard yourself against the angels of misery,\nthe demons of chaos, and all who entrap you,\nand beware of deep sleep\nand the trap in the bowels of the underworld.\nI raised and sealed the person in luminous water with Five Seals, that death\nmight not prevail over the person from that moment on.",
+          "coptic": "ⲙ̅ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧϣⲏⲥ ϣⲁϩⲣⲁⲓ̈ ⲉⲧⲉⲛⲟⲩ ⲁⲛⲟⲕ\nϭⲉ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ ⲛ̅ⲧⲉ ⲡⲧⲏⲣϥ\nⲁⲓ̈ϣⲃⲧ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲁⲥⲡⲉⲣⲙⲁ ⲛⲉⲓ̈ϣⲟⲟⲡ ⲅⲁⲣ\nⲛ̅ϣⲟⲣⲡ ⲉⲓ̈ⲙⲟⲟϣⲉ ϩⲛ̅ ⲙⲁ→ⲓ̈←ⲧ ⲛⲓⲙ ⲙ̅ⲙⲟⲟϣⲉ\nⲁⲛⲟⲕ ⲅⲁⲣ ⲧⲉ ⲧⲙⲛⲧⲣⲙ̅ⲙⲁⲟ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲁ‐\nⲛⲟⲕ ⲡⲉ ⲡⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲉⲡⲗⲏⲣⲱⲙⲁ ⲁⲉⲓ‐\nⲙⲟⲟϣⲉ ⲇⲉ ϩⲛ̅ ⲧⲙⲛ̅ⲧ̅ⲛⲟϭ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ\nⲁⲉⲓⲁⲛⲉⲭⲉ ϣⲁⲛϯⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧⲙⲏⲧⲉ\nⲙ̅ⲡⲉϣⲧⲉⲕⲟ ⲁⲩⲱ ⲛ̅ⲥⲛ̅ⲧⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲩ‐\nⲕⲓⲙ ⲁⲩⲱ ⲁⲛⲟⲕ ⲁⲉⲓϩⲟⲡⲧ ⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ\nⲧⲟⲩⲕⲁⲕⲓⲁ ⲁⲩⲱ ⲙ̅ⲡⲟⲩⲥⲟⲩⲱⲛⲧ ⲡⲁⲗⲓⲛ\nⲁⲉⲓⲛⲁϩⲟⲩⲧ ⲉϩⲟⲩⲛ ⲙ̅ⲡⲙⲉϩⲥⲉⲡ ⲥⲛⲁⲩ\nⲁⲩⲱ ⲁⲉⲓⲙⲟⲟϣⲉ ⲁⲉⲓⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲉⲧⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ\nⲁⲉⲓⲃⲱⲕ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ\nⲡⲥⲁⲛϩⲟⲩⲛ ⲛ̅ⲉⲙⲛ̅ⲧⲉ ⲉⲉⲓⲕⲱⲧⲉ ⲛ̅ⲥⲁ ⲧⲁ‐\nⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲁⲩⲱ ⲛ̅ⲥⲛ̅ⲧ̅ⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲩ‐\nⲕⲓⲙ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϩⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲛⲉⲧ‐\nϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲭⲁⲟⲥ ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲟⲕⲟⲟⲩ\nⲁⲩⲱ ⲟⲛ ⲁⲉⲓⲡⲱⲧ ⲉϩⲣⲁⲓ̈ ⲉⲧⲁⲛⲟⲩⲛⲉ ⲛ̅ⲟⲩ‐\nⲟⲉⲓⲛ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩⲧⲉⲕⲟ ⲙ̅ⲙⲟⲟⲩ ϩⲁ‐\nⲑⲏ ⲙ̅ⲡⲟⲩⲟⲉⲓϣ ⲉⲧⲓ ϩⲙ̅ ⲡⲙⲁϩϣⲟⲙⲧ\nⲛ̅ⲥⲟⲡ ⲁⲉⲓⲙⲟⲟϣⲉ ⲉⲧⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲉⲧϣⲟⲟⲡ ϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲛⲟⲕ ⲡⲉ\nⲡⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ϫⲉⲕⲁⲁⲥ ⲉⲉⲓⲛⲁ‐\nⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧⲙⲏⲧⲉ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ ⲡⲥⲁⲛ\nϩⲟⲩⲛ ⲛ̅ⲉⲙⲛ̅ⲧⲉ ⲁⲓ̈ⲙⲟⲩϩ ⲙ̅ⲡⲁϩⲟ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲟⲩⲁⲓⲱⲛ\nⲁⲩⲱ ⲁⲉⲓⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧⲙⲏⲧⲉ ⲙ̅ⲡⲟⲩϣⲧⲉ‐\nⲕⲟ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉϣⲧⲉⲕⲟ ⲡⲥⲱⲙⲁ ⲁⲩⲱ ⲡⲉ‐\nϫⲁⲓ̈ ϫⲉ {ϫⲉ} ⲡⲉⲧⲥⲱⲧⲙ̅ ⲧⲱⲟⲩⲛ ⲉⲃⲟⲗ ϩⲙ̅ ⲫⲓ‐\nⲛⲏⲃ ⲉⲧϩⲟⲣϣ ⲁⲩⲱ ⲁϥⲣⲓⲙⲉ ⲁⲩⲱ ⲁϥϣⲟⲩⲉ ⲣⲙ̅ⲉⲓⲏ\nϩⲉⲛⲣⲙ̅ⲉⲓⲏ ⲉⲩϩⲟⲣϣ ⲁϥϥⲱⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲉⲃⲟⲗ\nⲙ̅ⲙⲟϥ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ ⲛⲓⲙ ⲡⲉⲧⲙⲟⲩⲧⲉ ⲙ̅ⲡⲁ‐\nⲣⲁⲛ ⲁⲩⲱ ⲛ̅ⲧⲁⲥⲉⲓ ⲛⲁⲓ̈ ⲧⲱⲛ ⲛ̅ϭⲓ ⲧⲉⲓ̈ϩⲉⲗⲡⲓⲥ\nⲉⲓ̈ϣⲟⲟⲡ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲙ̅ⲙⲣ̅ⲣⲉ ⲙ̅ⲡⲉϣⲧⲉⲕⲟ ⲁⲩⲱ\nⲡⲉϫⲁⲉⲓ ϫⲉ ⲁⲛⲟⲕ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲛ\nⲉⲧⲃ̅ⲃⲏⲩ ⲁⲛⲟⲕ ⲡⲉ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲡⲛ̅ⲁ̅ ⲡⲉⲧⲥⲟϩⲉ ⲙ̅ⲙⲟⲕ ⲉϩⲣⲁⲓ̈ ⲉⲡⲧⲟⲡⲟⲥ\nⲉⲧⲧⲁⲉⲓⲏⲩ ⲧⲱⲟⲩⲛⲕ ⲁⲩⲱ ⲛ̅ⲕⲣ̅ ⲡⲙⲉⲉⲩⲉ\nϫⲉ ⲛ̅ⲧⲟⲕ ⲡⲉⲛⲧⲁϩⲥⲱⲧⲙ̅ ⲁⲩⲱ ⲛ̅ⲕⲟⲩϩⲁⲕ ⲁ‐\nⲧⲉⲕⲛⲟⲩⲛⲉ ⲉⲧⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡϣⲁⲛϩⲧⲏϥ ⲁⲩ‐\nⲱ ⲛ̅ⲕⲣ̅ⲁⲥⲫⲁⲗⲓⲍⲉ ⲙ̅ⲙⲟⲕ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ\nⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛ̅ⲧⲙⲛ̅ⲧϩⲏⲕⲉ ⲙⲛ̅ ⲛ̅ⲇⲁⲓⲙⲱⲛ\nⲛ̅ⲧⲉ ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲛⲉⲧϭⲟⲗϫ ⲙ̅ⲙⲟⲕ ⲧⲏⲣⲟⲩ\nⲁⲩⲱ ⲛ̅ⲕϣⲱⲡⲉ ⲉⲕⲣⲟⲉⲓⲥ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡϩⲓ‐\nⲛⲏⲃ ⲉⲧϩⲟⲣϣ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲧϭⲁⲗⲉⲥ ⲙ̅ⲡⲥⲁⲛ\nϩⲟⲩⲛ ⲛ̅ⲁⲙⲛ̅ⲧⲉ ⲁⲩⲱ ⲁⲉⲓⲧⲟⲩⲛⲟⲩⲥ ⲙ̅ⲙⲟϥ\nⲁⲩⲱ ⲁⲉⲓⲥⲫⲣⲁⲅⲓⲍⲉ ⲙ̅ⲙⲟϥ ϩⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ\nⲙ̅ⲡⲙⲟⲟⲩ ϩⲛ̅ ϯⲉ ⲛ̅ⲥⲫⲣⲁⲅⲓⲥ ϫⲉⲕⲁⲁⲥ ⲛ̅‐\nⲛⲉⲡⲙⲟⲩ ϭⲛ̅ϭⲁⲙ ⲉⲣⲟϥ ϫⲛ̅ ⲙ̅ⲡⲓⲛⲁⲩ ⲁⲩⲱ"
+        },
+        {
+          "title": "Conclusion",
+          "subtitle": "Conclusion",
+          "heading": "Conclusion (31, 25-32, 10)",
+          "rangeLabel": "31, 25-32, 10",
+          "range": {
+            "start": {
+              "page": 31,
+              "line": 25
+            },
+            "end": {
+              "page": 32,
+              "line": 10
+            }
+          },
+          "english": "Look, now I shall ascend to the perfect realm. I have finished everything for you\nin your hearing. I have told you everything for you to record and communicate\nsecretly to your spiritual friends. This is the mystery of the unshakable\ngeneration.\nThe Savior communicated this to John for him to record and safeguard. He\nsaid to him, “Cursed be anyone who will trade these things for a gift, for food,\ndrink, clothes, or anything like this.”\nThese things were communicated to him in a mystery, and at once the\nSavior disappeared. Then John went to the other disciples and reported what\nthe Savior had told him.\nJesus Christ\nAmen\nThe Secret Book According to John",
+          "coptic": "ⲛⲉⲡⲙⲟⲩ ϭⲛ̅ϭⲁⲙ ⲉⲣⲟϥ ϫⲛ̅ ⲙ̅ⲡⲓⲛⲁⲩ ⲁⲩⲱ\nⲉⲓⲥϩⲏⲏⲧⲉ ⲧⲉⲛⲟⲩ ⲉⲓⲛⲁⲃⲱⲕ ⲉϩⲣⲁⲓ̈ ⲁⲡⲧⲉ‐\nⲗⲉⲓⲟⲛ ⲛ̅ⲁⲓⲱⲛ ⲁⲉⲓϫⲱⲕ ⲛⲁⲕ ⲉⲃⲟⲗ ⲛ̅ϩⲱⲃ\nⲛⲓⲙ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉⲕⲙⲁⲁϫⲉ ⲁⲛⲟⲕ ⲇⲉ\nⲁⲓ̈ϫⲉ ϩⲱⲃ ⲛⲓⲙ ⲉⲣⲟⲕ ϫⲉⲕⲁⲁⲥ ⲉⲕⲛⲁⲥϩⲁⲓ̈‐\nⲥⲟⲩ ⲛ̅ⲕⲧⲁⲁⲩ ⲛ̅ⲛⲉⲕϣⲃⲣ̅ ⲡⲛ̅ⲁ̅ ϩⲛ̅ ⲟⲩϩⲱⲡ\nⲡⲁⲓ̈ ⲅⲁⲣ ⲡⲉ ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̅ⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧ‐\nⲕⲓⲙ ⲁⲩⲱ ⲁϥϯ ⲛⲁⲉⲓ ⲛⲁϥ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉⲕⲁ‐\nⲁⲥ ⲉϥⲛⲁⲥⲁϩⲟⲩ ⲁⲩⲱ ⲛ̅ϥⲕⲁⲁⲩ ϩⲛ̅ ⲟⲩ‐\nⲧⲁϫⲣⲟ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ϥⲥϩⲟⲩⲟⲣⲧ\nⲛ̅ϭⲓ ⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧⲛⲁϯ ⲛⲁⲓ̈ ϩⲁ ⲟⲩⲇⲱ‐\nⲣⲟⲛ ⲏ ⲉⲧⲃⲉ ⲟⲩϩⲛⲉⲟⲩⲱⲙ ⲏ ⲉⲧⲃⲉ ⲟⲩ‐\nⲥⲱ ⲏ ⲉⲧⲃⲉ ⲟⲩϣⲧⲏⲛ ⲏ ⲉⲧⲃⲉ ⲕⲉ ϩⲱⲃ\nⲛ̅ⲧⲉⲓⲙⲉⲓⲛⲉ ⲁⲩⲱ ⲛⲁⲓ̈ ⲁⲩⲧⲁⲁⲩ ⲛⲁϥ\nϩⲛ̅ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩ\nⲁϥⲣ̅ ⲁⲧⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉϥⲙ̅ⲧⲟ ⲉⲃⲟⲗ\nⲁⲩⲱ ⲁϥⲉⲓ ϣⲁ ⲛⲉϥϣⲃⲣ̅ ⲙⲁⲑⲏⲧⲏⲥ ⲁϥⲧⲉ\nⲟⲩⲱ ⲉⲣⲟⲟⲩ ⲛ̅ⲛⲉⲛⲧⲁⲡⲥ̅ⲱ̅ⲣ̅ ϫⲟⲟⲩ ⲛⲁϥ\nⲓ̅ⲥ̅ ⲡⲉⲭⲣ̅ⲥ̅ ϩⲁⲙⲏⲛ\nⲕⲁ̅ⲧ̅ⲁ̅ ⲓ̈ⲱϩ̅ⲁⲛ̅ⲛⲏ̅ⲛ̅\nⲛ̅\nⲁ̅ⲡ̅ⲟⲕⲣ̅ⲩ̅ⲫⲟ̅ⲛ̅ \n( codex II ) The Gospel of Thomas\n§ⲛⲁⲉⲓ ⲛⲉ ⲛϣⲁϫⲉ ⲉⲑⲏⲡ’ ⲉⲛⲧⲁⲓ̅ⲥ̅ ⲉⲧⲟⲛϩ"
+        }
+      ]
+    },
+    {
+      "workId": "gospel-of-philip",
+      "chapterName": "Gospel of Philip",
+      "title": "Codex II - Gospel of Philip",
+      "sourceTitle": "THE GOSPEL OF PHILIP",
+      "sections": [
+        {
+          "title": "Converts",
+          "subtitle": "Converts",
+          "heading": "Converts (51, 29-52, 2)",
+          "rangeLabel": "51, 29-52, 2",
+          "range": {
+            "start": {
+              "page": 51,
+              "line": 29
+            },
+            "end": {
+              "page": 52,
+              "line": 2
+            }
+          },
+          "english": "A Hebrew makes a Hebrew, and such a person is called a convert. A convert\ndoes not make a convert. [Some people] are as they [are] and make others [like\nthem], while others simply are.",
+          "coptic": "§ⲟⲩϩⲉⲃⲣⲁⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ [ϣ]ⲁϥⲧⲁⲙⲓⲉ ϩⲉⲃⲣⲁⲓ‐\nⲟⲥ ⲁⲩⲱ ϣⲁⲩⲙⲟⲩⲧⲉ [ⲉⲛⲁ]ⲉⲓ ⲛ̅ⲧⲉⲉⲓⲙⲓⲛⲉ\nϫⲉ ⲡⲣⲟⲥⲏⲗⲩⲧⲟⲥ ⲟⲩⲡ[ⲣⲟⲥⲏ]ⲗⲩⲧⲟⲥ ⲇⲉ ⲙⲁϥ‐\nⲧⲁⲙⲓⲉ ⲡⲣⲟⲥⲏⲗⲩⲧⲟⲥ [......].ⲉ ⲙⲉⲛ\nⲥⲉϣⲟⲟⲡ ⲛ̅ⲑⲉ ⲉⲧⲟⲩϣ[.........]\nⲁⲩⲱ ⲥⲉⲧⲁⲙⲉⲓⲟ ⲛ̅ϩⲛ̅ⲕⲟⲟ[ⲩⲉ .......]\n[ⲇⲉ] ⲙⲟⲛⲟ[ⲛ ⲉⲥ]ⲣⲱϣⲉ ⲉⲣⲟⲟⲩ ϣⲓⲛⲁ ⲉⲩⲛⲁ‐\nϣⲱⲡⲉ’ §ⲡ[ϩⲙ]ϩ̅̅ⲁ̅ⲗ̅ ⲙⲟⲛⲟⲛ ⲉϥϣⲓⲛⲉ ⲁⲣ̅ⲉ‐"
+        },
+        {
+          "title": "Inheriting the Living and the Dead",
+          "subtitle": "Inheriting the Living and the Dead",
+          "heading": "Inheriting the Living and the Dead (52, 2-15)",
+          "rangeLabel": "52, 2-15",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 2
+            },
+            "end": {
+              "page": 52,
+              "line": 15
+            }
+          },
+          "english": "A slave seeks only to be free and does not seek the master’s estate.\nFor a child it is not enough to be a child, but a child claims the father’s\ninheritance.\nHeirs to the dead are dead, and what they inherit is dead. Heirs to the living\nare alive, and they inherit both the living and the dead. The dead inherit nothing,\nfor how could a dead person inherit? If a dead person inherits the living, the\nliving will not die and the dead will come to life.",
+          "coptic": "ϣⲱⲡⲉ’ §ⲡ[ϩⲙ]ϩ̅̅ⲁ̅ⲗ̅ ⲙⲟⲛⲟⲛ ⲉϥϣⲓⲛⲉ ⲁⲣ̅ⲉ‐\nⲗⲉⲩⲑⲉⲣⲟ[ⲥ] ⲙⲁϥϣⲓⲛⲉ ⲇⲉ ⲛ̅ⲥⲁ ⲧⲟⲩⲥⲓⲁ\nⲙ̅ⲡⲉϥϫⲟ[ⲉⲓ]ⲥ ⲡϣⲏⲣⲉ ⲇⲉ ⲟⲩ ⲙⲟⲛⲟⲛ ϫⲉ\nϥⲟ ⲛ̅ϣⲏⲣⲉ ⲁⲗⲗⲁ ⲧⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓⲁ ⲙ̅ⲡⲉⲓ‐\nⲱⲧ’ ϣⲁϥⲥⲁϩⲥ̅ ⲛ̅ⲥⲱϥ’ ⲛⲉⲧⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ\nⲛ̅ⲛⲉⲧ’ⲙⲟⲟⲩⲧ’ ⲛ̅ⲧⲟⲟⲩ ϩⲱⲟⲩ ⲥⲉⲙⲟⲟⲩⲧ’\nⲁⲩⲱ ⲉⲩⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛ̅ⲛⲉⲧ’ⲙⲟⲟⲩⲧ’ ⲛⲉ‐\nⲧⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙ̅ⲡⲉⲧⲟⲛϩ ⲛ̅ⲧⲟⲟⲩ ⲥⲉⲟⲛϩ\nⲁⲩⲱ ⲥⲉⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙ̅ⲡⲉⲧⲟⲛϩ ⲙⲛ̅ ⲛⲉⲧ’‐\nⲙⲟⲟⲩⲧ’ ⲛⲉⲧⲙⲟⲟⲩⲧ’ ⲙⲁⲩⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ\nⲗ̅ⲗⲁⲁⲩ ⲡⲱⲥ ⲅⲁⲣ ⲡⲉⲧⲙⲟⲟⲩⲧ’ ϥⲛⲁⲕⲗⲏⲣⲟⲛⲟ‐\nⲙⲉⲓ ⲡⲉⲧⲙⲟⲟⲩⲧ’ ⲉϥϣⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙ̅‐\nⲡⲉⲧⲟⲛϩ ϥⲛⲁⲙⲟⲩ ⲁⲛ ⲁⲗⲗⲁ ⲡⲉⲧⲙⲟⲟⲩⲧ’\nⲉϥⲛⲁⲱⲛϩ ⲛ̅ϩⲟⲩⲟ §ⲟⲩϩⲉⲑⲛⲓⲕⲟⲥ ⲣ̅ⲣⲱ‐"
+        },
+        {
+          "title": "Jesus, Gentiles, Christians",
+          "subtitle": "Jesus, Gentiles, Christians",
+          "heading": "Jesus, Gentiles, Christians (52, 15-24)",
+          "rangeLabel": "52, 15-24",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 15
+            },
+            "end": {
+              "page": 52,
+              "line": 24
+            }
+          },
+          "english": "A gentile does not die, never having been alive so as to die. One who has\nbelieved in truth is alive, but this person is at risk of dying just by being alive.\nSince Christ came, the world has been created, cities have been beautified,\nand the dead have been buried.\nWhen we were Hebrews we were orphans, with only a mother, but when we\nbecame Christians we had a father and a mother.",
+          "coptic": "ⲉϥⲛⲁⲱⲛϩ ⲛ̅ϩⲟⲩⲟ §ⲟⲩϩⲉⲑⲛⲓⲕⲟⲥ ⲣ̅ⲣⲱ‐\nⲙⲉ ⲙⲁϥⲙⲟⲩ ⲙ̅ⲡⲉϥⲱⲛϩ ⲅⲁⲣ ⲉⲛⲉϩ ϩⲓⲛⲁ\nⲉϥⲛⲁⲙⲟⲩ’ ⲡⲉⲛⲧⲁϩⲡⲓⲥⲧⲉⲩⲉ ⲉⲧⲙⲉ ⲁϥ’‐\nⲱⲛϩ ⲁⲩⲱ ⲡⲁⲓ̈ ϥϭⲛ̅ⲇⲩⲛⲉⲩⲉ ⲉⲙⲟⲩ ϥⲟⲛϩ\nⲅⲁⲣ ϫⲓⲙ̅ ⲡϩⲟⲟⲩ ⲛ̅ⲧⲁ ⲡⲭ̅ⲥ̅ ⲉⲓ ⲥⲉⲥⲱⲛⲧ’ ⲙ̅‐\nⲡⲕⲟⲥⲙⲟⲥ ⲥⲉⲣ̅ⲕⲟⲥⲙⲉⲓ ⲛⲙ̅ⲡⲟⲗⲉⲓⲥ ⲥⲉ‐\nϥⲓ ⲙ̅ⲡⲉⲧⲙⲟⲟⲩⲧ’ ⲉⲃⲟⲗ’ ⲛ̅ϩⲟⲟⲩ ⲛⲉⲛ’ϣⲟ‐\nⲟⲡ’ ⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ’ ⲛⲉⲛⲟ ⲛ̅ⲟⲣⲫⲁⲛⲟⲥ ⲛⲉⲩ‐\nⲛ̅ⲧⲁⲛ ⲛ̅ⲧⲙ̅ⲙⲁⲁⲩ ⲛ̅ⲧⲁⲣⲛ̅ϣⲱⲡⲉ ⲇⲉ ⲛ̅‐\nⲭⲣⲏⲥⲧⲓⲁⲛⲟⲥ ⲁⲉⲓⲱⲧ’ ϩⲓ ⲙⲁⲁⲩ ϣⲱⲡⲉ ⲛⲁⲛ"
+        },
+        {
+          "title": "Sowing and Reaping",
+          "subtitle": "Sowing and Reaping",
+          "heading": "Sowing and Reaping (52, 25-35)",
+          "rangeLabel": "52, 25-35",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 25
+            },
+            "end": {
+              "page": 52,
+              "line": 35
+            }
+          },
+          "english": "Whoever sows in winter reaps in summer. Winter is the world, summer is the\nother aeon, the eternal realm. Let’s sow in the world to reap in summer. And for\nthis reason we should not pray in winter.\nFrom winter comes summer. If someone reaps in winter, the person will not\nreally reap but will pull out the young plants, and such do not produce a crop.\n[That person’s field] is barren not only [now] but also on the Sabbath.",
+          "coptic": "§ⲛⲉⲧⲥⲓⲧⲉ ϩⲛ̅ ⲧⲡⲣⲱ ϣⲁⲩⲱⲥϩ ϩⲙ̅ ⲡϣⲱⲙ’\nⲧⲡⲣⲱ ⲡⲉ ⲡⲕⲟⲥⲙⲟⲥ ⲡϣⲱⲙ’ ⲡⲉ ⲡⲕⲉⲁⲓ‐\nⲱⲛ’ ⲙⲁⲣⲛ̅ⲥⲓⲧⲉ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ϫⲉⲕⲁⲁⲥ\nⲉⲛⲛⲁⲱϩⲥ ϩⲙ̅ ⲡϣⲱⲙ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ϣϣⲉ\nⲉⲣⲟⲛ’ ⲉⲧⲙ̅ⲧⲣⲛ̅ϣⲗⲏⲗ’ ϩⲛ̅ ⲧⲡⲣⲱ ⲡⲓⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲡⲣⲱ’ ⲡⲉ ⲡϣⲱⲙ’ ⲉⲣϣⲁ ⲟⲩⲁ ⲇⲉ ⲱⲥϩ\nϩⲛ̅ ⲧⲉⲡⲣⲱ’ ⲉϥⲛⲁⲱⲥϩ ⲁⲛ ⲁⲗⲗⲁ ⲉϥⲛⲁϩⲱ‐\nⲗⲉ ϩⲱⲥ ⲡⲁⲉ[ⲓ ⲛ̅]ⲧⲉⲉⲓⲙⲉⲓⲛⲉ ⲉϥⲛⲁⲧⲉⲩ‐\nⲉ ⲕⲁⲣⲡⲟⲥ [ⲛⲁϥ’] ⲁⲛ’ ⲟⲩ ⲙⲟⲛⲟⲛ ⲉϥⲛ̅ⲛⲏⲩ\nⲉⲃⲟ[ⲗ ......] ⲁⲗⲗⲁ ϩⲙ̅ ⲡⲕⲉⲥⲁⲃⲃⲁⲧⲟⲛ\n[....... ⲟ]ⲩⲁⲧⲕⲁⲣⲡⲟⲥ ⲧⲉ §ⲁⲡⲉⲭⲣ̅ⲥ̅ ⲉⲓ"
+        },
+        {
+          "title": "Christ Came",
+          "subtitle": "Christ Came",
+          "heading": "Christ Came (52, 35-53, 14)",
+          "rangeLabel": "52, 35-53, 14",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 35
+            },
+            "end": {
+              "page": 53,
+              "line": 14
+            }
+          },
+          "english": "Christ came to purchase some, to save some, to redeem some. He purchased\nstrangers and made them his own, and he brought back his own whom he had\nlaid down of his own will as a deposit. Not only when he appeared did he lay the\nsoul of his own will as a deposit, but from the beginning of the world he laid\ndown the soul, for the proper moment, according to his will. Then he came forth\nto take it back, since it had been laid down as a deposit. It had fallen into the\nhands of robbers and had been stolen, but he saved it. And he redeemed the good\nin the world and the bad.",
+          "coptic": "[....... ⲟ]ⲩⲁⲧⲕⲁⲣⲡⲟⲥ ⲧⲉ §ⲁⲡⲉⲭⲣ̅ⲥ̅ ⲉⲓ\nϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲉⲧⲣⲉϥⲧⲟⲟⲩⲥ[ⲉ ϩ]ⲛ̅ⲕⲟⲟⲩⲉ\nⲇⲉ ⲉⲧⲣⲉϥ’ⲛⲁϩⲙⲟⲩ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲉⲧⲣⲉϥⲥⲟ‐\nⲧⲟⲩ ⲛⲉⲧⲟ ⲛ̅ϣⲙ̅ⲙⲟ ⲛ̅ⲧⲁϥⲧⲟⲟⲩⲥⲉ ⲁϥⲁ‐\nⲁⲩ ⲛ̅ⲛⲉⲧⲉ ⲛⲟⲩϥ ⲛⲉ ⲁⲩⲱ ⲁϥⲛⲟⲩϩ’\n† ⲛ̅ⲛ̅ⲉⲧⲉ ⲛⲟⲩϥ ⲛⲁⲉⲓ ⲛ̅ⲧⲁϥⲕⲁⲁⲩ ⲛ̅ⲛⲉⲟⲩ‐\nⲱ ϩⲙ̅ ⲡⲉϥ’ⲟⲩⲱϣ’ ⲟⲩ ⲙⲟⲛⲟⲛ ϫⲉ ⲛ̅ⲧⲁⲣⲉϥ’‐\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁϥⲕⲱ ⲛ̅ⲧⲯⲩⲭⲏ ⲛ̅ⲧⲁⲣⲉϥ’‐\nⲟⲩⲱϣ ⲁⲗⲗⲁ ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲡⲕⲟⲥⲙⲟⲥ ϣⲟ‐\nⲟⲡ’ ⲁϥⲕⲱ ⲛ̅ⲧⲯⲩⲭⲏ ⲙ̅ⲡⲥⲟⲡ’ ⲉⲧⲉϥ’ⲟⲩ‐\nⲱϣ’ ⲧⲟⲧⲉ ⲁϥⲉⲓ ⲛ̅ϣⲟⲣⲡ’ ⲉϥⲛⲁϥⲓⲧⲥ̅ ⲉⲡⲉⲓ\nⲛ̅ⲧⲁⲩⲕⲁⲁⲥ ⲛ̅ⲛⲉⲟⲩⲱ’ ⲁⲥϣⲱⲡⲉ ϩⲁ ⲛⲗⲏ‐\nⲥⲧⲏⲥ ⲁⲩⲱ ⲁⲩϥⲓⲧⲥ̅ ⲛ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲟⲥ ⲁϥⲛⲟϩ‐\nⲙⲉⲥ ⲇⲉ ⲁⲩⲱ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ\nⲁϥⲥⲟⲧⲟⲩ ⲁⲩⲱ ⲛⲉⲑⲟⲟⲩ §ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐"
+        },
+        {
+          "title": "Light and Darkness",
+          "subtitle": "Light and Darkness",
+          "heading": "Light and Darkness (53, 14-23)",
+          "rangeLabel": "53, 14-23",
+          "range": {
+            "start": {
+              "page": 53,
+              "line": 14
+            },
+            "end": {
+              "page": 53,
+              "line": 23
+            }
+          },
+          "english": "Light and darkness, life and death, and right and left are siblings of one another,\nand inseparable. For this reason the good are not good, the bad are not bad, life\nis not life, and death is not death. Each will dissolve into its original nature, but\nwhat is superior to the world cannot be dissolved, for it is eternal.",
+          "coptic": "ⲁϥⲥⲟⲧⲟⲩ ⲁⲩⲱ ⲛⲉⲑⲟⲟⲩ §ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐\nⲕⲉ ⲡⲱⲛϩ ⲙⲛ̅ ⲡⲙⲟⲩ ⲛ̅ⲟⲩⲛⲁⲙ’ ⲙⲛ̅ ⲛ̅ϩⲃⲟⲩⲣ\nⲛ̅ⲥⲛⲏⲩ ⲛⲉ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲙⲛ̅ ϭⲟⲙ’ ⲛ̅ⲥⲉⲡⲱⲣϫ\nⲁⲛⲟⲩⲉⲣⲏⲩ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲟⲩⲧⲉ ⲛⲉⲧⲛⲁⲛⲟⲩ‐\nⲟⲩ ⲛⲁⲛⲟⲩⲟⲩ ⲟⲩⲧⲉ ⲛⲉⲑⲟⲟⲩ ⲥⲉϩⲟⲟⲩ\nⲟⲩⲧⲉ ⲡⲱⲛϩ ⲟⲩⲱⲛϩ ⲡⲉ ⲟⲩⲧⲉ ⲡⲙⲟⲩ ⲟⲩ‐\nⲙⲟⲩ ⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲁⲃⲱⲗ\nⲉⲃⲟⲗ’ ⲁⲧⲉϥⲁⲣⲭⲏ ϫⲓⲛ ϣⲟⲣⲡ’ ⲛⲉⲧϫⲟⲥⲉ\nⲇⲉ ⲁⲡⲕⲟⲥⲙⲟⲥ ϩⲛ̅ⲛⲁⲧⲃⲱⲗ ⲉⲃⲟⲗ ⲛⲉ\nϩⲛ̅ϣⲁ ⲉⲛⲉϩ ⲛⲉ §ⲛ̅ⲣⲁⲛ ⲉⲧⲟⲩϯ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ‐"
+        },
+        {
+          "title": "Words and Names",
+          "subtitle": "Words and Names",
+          "heading": "Words and Names (53, 23-54, 5)",
+          "rangeLabel": "53, 23-54, 5",
+          "range": {
+            "start": {
+              "page": 53,
+              "line": 23
+            },
+            "end": {
+              "page": 54,
+              "line": 5
+            }
+          },
+          "english": "The names of worldly things are utterly deceptive, for they turn the heart from\nwhat is real to what is unreal. Whoever hears the word “god” thinks not of what\nis real but rather of what is unreal. So also with the words “father,” “son,” “holy\nspirit,” “life,” “light,” “resurrection,” “church,” and all the rest, people do not\nthink of what is real but of what is unreal, [though] the words refer to what is\nreal. The words [that are] heard belong to this world. [Do not be] deceived.\nIf words belonged to the eternal realm, they would never be pronounced in this\nworld, nor would they designate worldly things. They would refer to what is in\nthe eternal realm.",
+          "coptic": "ϩⲛ̅ϣⲁ ⲉⲛⲉϩ ⲛⲉ §ⲛ̅ⲣⲁⲛ ⲉⲧⲟⲩϯ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ‐\nⲕⲟⲥⲙⲓⲕⲟⲥ ⲟⲩⲛ̅ⲧⲉⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲟⲩⲛⲟϭ ⲙ̅‐\nⲡⲗⲁⲛⲏ ⲥⲉⲡⲱϣⲥ̅ ⲅⲁⲣ ⲙ̅ⲡⲟⲩϩⲏⲧ’ ⲉⲃⲟⲗ\nϩⲛ̅ ⲛⲉⲧⲥⲙⲟⲛⲧ’ ⲉϩⲟⲩⲛ ⲉⲛⲉⲧⲥⲙⲟⲛⲧ’\nⲁⲛ ⲁⲩⲱ ⲡⲉⲧⲥⲱⲧⲙ̅ ⲉⲡⲛⲟⲩⲧⲉ ⲉϥⲛⲟ‐\nⲉⲓ ⲁⲛ ⲙ̅ⲡⲉⲧⲥⲙⲟⲛⲧ’ ⲁⲗⲗⲁ ⲁϥⲣ̅ⲛⲟⲉⲓ ⲙ̅‐\nⲡⲉⲧ’ⲥⲙⲟⲛⲧ ⲁⲛ ⲧⲉⲉⲓϩⲉ ⲟⲛ ⲙ̅ⲡⲉⲓⲱⲧ’\nⲙⲛ̅ ⲡϣⲏⲣⲉ ⲙⲛ̅ ⲡⲡⲛ̅̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲙⲛ̅\nⲡⲱⲛϩ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲧⲁⲛⲁⲥⲧⲁ‐\nⲥⲓⲥ ⲙⲛ̅ ⲧⲉⲕⲕⲗⲏⲥⲓⲁ [ⲙ]ⲛ̅ ⲛ̅ⲕⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ\nⲉⲩⲣ̅ⲛⲟⲉⲓ ⲁⲛ ⲛ̅ⲛⲉⲧ[ⲥⲙⲟ]ⲛⲧ’ ⲁⲗⲗⲁ ⲉⲩⲣ̅‐\nⲛⲟⲉⲓ ⲛ̅ⲛⲉⲧ’ⲥⲙⲟⲛ[ⲧ’ ⲁⲛ ⲡⲗ]ⲏⲛ’ ⲁⲩⲥⲉ‐\nⲃⲟ ⲁⲛⲉⲧⲥⲙⲟⲛⲧ’ ⲣ̅ⲣⲁ[ⲛ ⲛ̅ⲧⲁⲩⲥ]ⲁⲧⲙⲟⲩ\nⲥⲉϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟ[ⲥ .......]\n[ⲁⲡ]ⲁⲧⲁ [ⲉ]ⲛ[ⲉⲩ]ϣ[ⲟ]ⲟⲡ’ ϩⲙ̅ ⲡⲁⲓⲱⲛ ⲛⲉⲩⲛⲁ‐\nⲣ̅ⲟⲛⲟⲙⲁⲍ[ⲉ] ⲁⲛ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲗ̅ⲗⲁⲁⲩ ⲛ̅‐\nϩⲟⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲟⲩⲕⲁⲁⲩ ϩⲛ̅ ⲛ̅ϩⲃⲏⲩⲉ ⲛ̅‐\nⲕⲟⲥⲙⲓⲕⲟⲛ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲟⲩϩⲁⲏ ϩⲙ̅\nⲡⲁⲓⲱⲛ §ⲟⲩⲣⲁⲛ’ ⲟⲩⲱⲧ’ ⲙⲁⲩⲧⲉⲩⲟⲩⲁϥ’"
+        },
+        {
+          "title": "The Name of the Father",
+          "subtitle": "The Name of the Father",
+          "heading": "The Name of the Father (54, 5-13)",
+          "rangeLabel": "54, 5-13",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 5
+            },
+            "end": {
+              "page": 54,
+              "line": 13
+            }
+          },
+          "english": "Only one name is not pronounced in the world, the name the Father gave the\nSon. It is the name above all; it is the Father’s name. For the Son would not have\nbecome Father if he had not put on the Father’s name. Those who have this\nname understand it but do not speak it. Those who do not have it cannot even\nunderstand it.",
+          "coptic": "ⲡⲁⲓⲱⲛ §ⲟⲩⲣⲁⲛ’ ⲟⲩⲱⲧ’ ⲙⲁⲩⲧⲉⲩⲟⲩⲁϥ’\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲡⲣⲁⲛ’ ⲛ̅ⲧⲁ ⲡⲉⲓⲱⲧ’ ⲧⲁⲁϥ’\nⲙ̅ⲡϣⲏⲣⲉ ϥϫⲟⲥⲉ ⲉⲟⲩⲟⲛ ⲛⲓⲙ’ ⲉⲧⲉ ⲡⲁ‐\nⲉⲓ ⲡⲉ ⲡⲣⲁⲛ’ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲛⲉⲣⲉ ⲡϣⲏⲣⲉ ⲅⲁⲣ’\nⲛⲁϣⲱⲡⲉ ⲁⲛ’ ⲉⲓⲱⲧ’ ⲥⲁⲃⲏⲗ ϫⲉ ⲁϥϯ ϩⲓ‐\nⲱⲱϥ’ ⲙ̅ⲡⲣⲁⲛ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲡⲉⲉⲓⲣⲁⲛ ⲛⲉ‐\nⲧⲉⲩⲛ̅ⲧⲁⲩϥ ⲥⲉⲣ̅ⲛⲟⲉⲓ ⲙⲉⲛ’ ⲙ̅ⲙⲟϥ ⲥⲉϣⲁ‐\nϫⲉ ⲇⲉ ⲉⲣⲟϥ ⲁⲛ ⲛⲉⲧⲉ ⲙⲛ̅ⲧⲁⲩϥ ⲇⲉ ⲥⲉ‐\nⲣ̅ⲛⲟⲉⲓ ⲙ̅ⲙⲟϥ ⲁⲛ §ⲁⲗⲗⲁ ⲁⲧⲙⲉ ϫⲡⲉ ϩⲉⲛⲣⲁⲛ"
+        },
+        {
+          "title": "Truth",
+          "subtitle": "Truth",
+          "heading": "Truth (54, 13-18)",
+          "rangeLabel": "54, 13-18",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 13
+            },
+            "end": {
+              "page": 54,
+              "line": 18
+            }
+          },
+          "english": "Truth brought forth names in the world for us, and no one can refer to truth\nwithout names. Truth is one and many, for our sakes, to teach us about the one,\nin love, through the many.",
+          "coptic": "ⲣ̅ⲛⲟⲉⲓ ⲙ̅ⲙⲟϥ ⲁⲛ §ⲁⲗⲗⲁ ⲁⲧⲙⲉ ϫⲡⲉ ϩⲉⲛⲣⲁⲛ\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲉⲧⲃⲏⲧⲛ̅ † ⲛⲁⲉⲓ ⲉⲙⲛ̅ ϭⲟⲙ’\nⲁⲥⲉⲃⲟ ⲉⲣⲟⲥ ⲭⲱⲣⲓⲥ ⲣ̅ⲣⲁⲛ ⲟⲩⲉⲓ ⲟⲩⲱⲧ’\nⲧⲉ ⲧⲙⲉ † ⲥⲟ ⲛ̅ϩⲁϩ ⲁⲩⲱ ⲉⲧⲃⲏⲧⲛ̅ ⲉⲧⲥⲉ‐\nⲃⲟ ⲉⲡⲁⲉⲓ ⲟⲩⲁⲁϥ † ϩⲛ̅ ⲟⲩⲁⲅⲁⲡⲏ ϩⲓⲧⲛ̅\nϩⲁϩ ⲁⲛⲁⲣⲭⲱⲛ ⲟⲩⲱϣ ⲁⲣ̅ⲁⲡⲁⲧⲁ ⲙ̅‐"
+        },
+        {
+          "title": "The Archons",
+          "subtitle": "The Archons",
+          "heading": "The Archons (54, 18-31)",
+          "rangeLabel": "54, 18-31",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 18
+            },
+            "end": {
+              "page": 54,
+              "line": 31
+            }
+          },
+          "english": "The rulers wanted to fool people, since they saw that people have a kinship with\nwhat is truly good. They took the names of the good and assigned them to what\nis not good, to fool people with names and link the names to what is not good.\nSo, as if they are doing people a favor, they take names from what is not good\nand transfer them to the good, in their own way of thinking. For they wished to\ntake free people and enslave them forever.",
+          "coptic": "ϩⲁϩ ⲁⲛⲁⲣⲭⲱⲛ ⲟⲩⲱϣ ⲁⲣ̅ⲁⲡⲁⲧⲁ ⲙ̅‐\nⲡⲣⲱⲙⲉ ⲉⲡⲉⲓⲇⲏ ⲁⲩⲛⲁⲩ ⲉⲣⲟϥ’ ⲉⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲟⲩⲥⲩⲅ’ⲅⲉⲛⲉⲓⲁ ϣⲁ ⲛⲉⲧⲛⲁ‐\nⲛⲟⲩⲟⲩ ⲛⲁⲙⲉ ⲁⲩϥⲓ ⲡⲣⲁⲛ ⲛ̅ⲛⲉⲧⲛⲁ’‐\nⲛⲟⲩⲟⲩ ⲁⲩⲧⲁⲁϥ’ ⲁⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ’\nϫⲉⲕⲁⲁⲥ ϩⲓⲧⲛ̅ ⲣ̅ⲣⲁⲛ ⲉⲩⲛⲁⲣ̅’ⲁⲡⲁⲧⲁ ⲙ̅‐\nⲙⲟϥ’ ⲁⲩⲱ ⲛ̅ⲥⲉⲙⲟⲣⲟⲩ ⲉϩⲟⲩⲛ’ ⲁⲛⲉⲧⲛⲁ‐\nⲛⲟⲩⲟⲩ ⲁⲛ ⲁⲩⲱ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲉϣϫⲉ ⲉⲩ‐\nⲉⲓⲣⲉ ⲛⲁⲩ ⲛ̅ⲟⲩϩⲙⲟⲧ’ ⲛ̅ⲥⲉⲧⲣⲟⲩⲥⲉϩⲱⲟⲩ\nⲉⲃⲟⲗ ⲛ̅ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ ⲁⲩⲱ ⲛ̅ⲥⲉ‐\nⲕⲁⲁⲩ ϩⲛ̅ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲛⲁⲉⲓ ⲛⲉⲩⲥⲟ‐\nⲟⲩⲛ ⲙ̅ⲙⲟⲟⲩ ⲛⲉⲩⲟⲩⲱϣ ⲅⲁⲣ ⲉⲧⲣⲟⲩ‐\nϥⲓ ⲡⲉⲗⲉⲩⲑⲉⲣ[ⲟ]ⲥ ⲛ̅ⲥⲉⲕⲁⲁϥ’ ⲛⲁⲩ ⲛ̅‐\nϩⲙϩ̅ⲁ̅ⲗ̅’̅ ϣⲁ ⲉⲛⲉϩ §ⲟⲩⲛ ϩⲛ̅ⲇⲩⲛⲁⲙⲓⲥ"
+        },
+        {
+          "title": "The Forces",
+          "subtitle": "The Forces",
+          "heading": "The Forces (54, 31-55, 5)",
+          "rangeLabel": "54, 31-55, 5",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 31
+            },
+            "end": {
+              "page": 55,
+              "line": 5
+            }
+          },
+          "english": "There are forces that do [favors] for people. They do not want people to come to\n[salvation], but they want their own existence to continue. For if people come to\nsalvation, sacrifice will [stop]…and animals will not be offered up to the\nforces. In fact, those to whom sacrifices were made were animals. The animals\nwere offered up alive, and after being offered they died. But a human being\nwas offered up to God dead, and the human being came alive.",
+          "coptic": "ϩⲙϩ̅ⲁ̅ⲗ̅’̅ ϣⲁ ⲉⲛⲉϩ §ⲟⲩⲛ ϩⲛ̅ⲇⲩⲛⲁⲙⲓⲥ\nϣⲟⲟⲡ’ ⲉⲩϯϩ[...] ⲡⲣⲱⲙⲉ ⲉⲥⲉⲟⲩⲱϣ\nⲁⲛ’ ⲁⲧⲣⲉϥ’ⲟⲩ[ϫⲁⲉⲓ] ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϣⲱ‐\nⲡⲉ ⲉⲩⲙ[.....]ⲗ ⲉⲣϣⲁ ⲡⲣⲱⲙⲉ ⲅⲁⲣ\nⲟⲩϫ[ⲁⲉⲓ ⲛ̅ⲛⲟⲩ]ϣⲱⲡⲉ ⲛ̅ϭⲓ ϩⲛ̅ⲑⲩⲥⲓⲁ\n[........]ⲁⲩⲱ ⲛⲉⲩⲧⲁⲗⲉ ⲑⲏⲣⲓⲟⲛ’\nⲉϩⲣⲁⲓ̈ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲛⲉ [ϩ]ⲛ̅[ⲑ]ⲏⲣⲓⲟⲛ ⲅⲁⲣ\nⲛⲉ ⲛⲉⲧⲟⲩⲧⲉⲗⲟ ⲉϩⲣⲁⲓ̈ ⲛⲁ[ⲩ] ⲛⲉⲩⲧⲉⲗⲟ\nⲙⲉⲛ ⲙ̅ⲙⲟⲟⲩ ⲉϩⲣⲁⲓ̈ ⲉⲩⲟⲛϩ ⲛ̅ⲧⲁⲣⲟⲩⲧⲉ‐\nⲗⲟⲟⲩ ⲇⲉ ⲉϩⲣⲁⲓ̈ ⲁⲩⲙⲟⲩ ⲡⲣⲱⲙⲉ ⲁⲩⲧⲉⲗⲟϥ\nⲉϩⲣⲁⲓ̈ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉϥⲙⲟⲟⲩⲧ’ ⲁⲩⲱ ⲁϥⲱⲛϩ"
+        },
+        {
+          "title": "Christ Brought Bread",
+          "subtitle": "Christ Brought Bread",
+          "heading": "Christ Brought Bread (55, 6-14)",
+          "rangeLabel": "55, 6-14",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 6
+            },
+            "end": {
+              "page": 55,
+              "line": 14
+            }
+          },
+          "english": "Before Christ came there was no bread in the world, just as paradise, where\nAdam lived, had many trees for animal food but no wheat for human food, and\npeople ate like animals. But when Christ, the perfect human, came, he brought\nbread from heaven, that humans might be fed with human food.",
+          "coptic": "§ϩⲁ ⲧⲉϩⲏ ⲉⲙ’ⲡⲁⲧⲉ ⲡⲉⲭ̅ⲥ̅ ⲉⲓ ⲛⲉ ⲙⲛ̅ ⲟⲉⲓⲕ’\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲛ̅ⲑⲉ ⲙ̅ⲡⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲡⲙⲁ\nⲛⲉⲣⲉ ⲁⲇⲁⲙ ⲙ̅ⲙⲁⲩ ⲛⲉⲩⲛ̅ⲧⲁϥ ϩⲁϩ ⲛ̅ϣⲏⲛ\nⲛ̅ⲛ̅ⲧⲣⲟⲫⲏ ⲛ̅ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲉ ⲙⲛ̅ⲧⲁϥ ⲥⲟⲩⲟ\nⲛ̅ⲧⲧⲣⲟⲫⲏ ⲙ̅ⲡⲣⲱⲙⲉ ⲛⲉⲣⲉ ⲡⲣⲱⲙⲉ ⲥⲟ‐\nⲉⲓϣ ⲛ̅ⲑⲉ ⲛ̅ⲛ̅ⲑⲏⲣⲓⲟⲛ’ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲣⲉ ⲡⲉⲭⲥ̅\nⲉⲓ’ ⲡⲧⲉⲗⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲁϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲟⲉⲓⲕ’\nⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲉ ϣⲓⲛⲁ ⲉⲣⲉ ⲡⲣⲱⲙⲉ ⲛⲁⲣ̅ⲧⲣⲉ‐\nⲫⲉⲥⲑⲁⲓ ϩⲛ̅ ⲧⲧⲣⲟⲫⲏ ⲙ̅ⲡⲣⲱⲙⲉ ⲛⲉⲣⲉ ⲛ̅‐"
+        },
+        {
+          "title": "The Archons and the Holy Spirit",
+          "subtitle": "The Archons and the Holy Spirit",
+          "heading": "The Archons and the Holy Spirit (55, 14-19)",
+          "rangeLabel": "55, 14-19",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 14
+            },
+            "end": {
+              "page": 55,
+              "line": 19
+            }
+          },
+          "english": "The rulers thought they did all they did by their own power and will, but the\nHoly Spirit was secretly accomplishing all through them by the Spirit’s will.",
+          "coptic": "ⲫⲉⲥⲑⲁⲓ ϩⲛ̅ ⲧⲧⲣⲟⲫⲏ ⲙ̅ⲡⲣⲱⲙⲉ ⲛⲉⲣⲉ ⲛ̅‐\nⲁⲣⲭⲱⲛ’ ⲙⲉⲉⲩⲉ ϫⲉ ϩⲛ̅ ⲧⲟⲩϭⲟⲙ’ ⲙⲛ̅ ⲡⲟⲩ‐\nⲱϣ ⲉⲩⲉⲓⲣⲉ ⲛ̅ⲛⲉⲧⲟⲩⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛⲉ‐\nⲣⲉ ⲡⲡⲛ̅ⲁ̅ ⲇⲉ ⲉⲧⲟⲩⲁⲁⲃ ϩⲛ̅ ⲟⲩⲡⲉⲑⲏⲡ’\nⲛⲉϥ’ⲉⲛⲉⲣⲅⲉⲓ ⲙ̅ⲡⲧⲏⲣϥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ\nⲛ̅ⲑⲉ ⲉⲧϥ’ⲟⲩⲱϣ’ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲥⲉⲥⲓⲧⲉ ⲙ̅ⲙⲟⲥ"
+        },
+        {
+          "title": "Sowing and Reaping Truth",
+          "subtitle": "Sowing and Reaping Truth",
+          "heading": "Sowing and Reaping Truth (55, 19-22)",
+          "rangeLabel": "55, 19-22",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 19
+            },
+            "end": {
+              "page": 55,
+              "line": 22
+            }
+          },
+          "english": "Truth, which has existed from the beginning, is sown everywhere, and many see\nit being sown, but few see it being reaped.",
+          "coptic": "ⲛ̅ⲑⲉ ⲉⲧϥ’ⲟⲩⲱϣ’ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲥⲉⲥⲓⲧⲉ ⲙ̅ⲙⲟⲥ\nⲙ̅ⲙⲁ ⲛⲓⲙ ⲧⲉⲧϣⲟⲟⲡ’ ϫⲓⲛ ⲛ̅ϣⲟⲣⲡ ⲁⲩ‐\nⲱ ⲟⲩⲛ ϩⲁϩ ⲛⲁⲩ ⲉⲣⲟⲥ ⲉⲩⲥⲓⲧⲉ ⲙ̅ⲙⲟⲥ ϩⲛ̅‐\nⲕⲟⲩⲉⲓ ⲇⲉ † ⲉⲧⲟⲩⲛⲁⲩ ⲉⲣⲟⲥ ⲉⲩⲱⲥϩ ⲙ̅ⲙⲟⲥ"
+        },
+        {
+          "title": "Mary Conceiving",
+          "subtitle": "Mary Conceiving",
+          "heading": "Mary Conceiving (55, 23-33)",
+          "rangeLabel": "55, 23-33",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 23
+            },
+            "end": {
+              "page": 55,
+              "line": 33
+            }
+          },
+          "english": "Some said Mary became pregnant by the Holy Spirit. They are wrong and do\nnot know what they are saying. When did a woman ever get pregnant by a\nwoman?\nMary is the virgin whom none of the powers defiled. This is greatly\nrepugnant to the Hebrews, who are the apostles and apostolic persons. This\nvirgin whom none of the powers defiled [wishes that] the powers would defile\nthemselves.",
+          "coptic": "§ⲡⲉϫⲉ ϩⲟⲉⲓⲛⲉ ϫⲉ ⲁⲙⲁⲣⲓⲁ ⲱ͂ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’ ⲥⲉⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲟⲩ ⲡⲉ‐\nⲧⲟⲩϫⲱ ⲙ̅ⲙⲟϥ ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ ⲁϣ ⲛ̅ϩⲟ‐\nⲟⲩ ⲉⲛⲉϩ ⲡⲉⲛⲧⲁ ⲥϩⲓⲙⲉ ⲱ͂ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲥϩⲓ‐\nⲙⲉ ⲙⲁⲣⲓⲁ ⲧⲉ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲉ ⲙ̅ⲡⲉ\nⲇⲩⲛⲁⲙⲓⲥ ϫⲁϩⲙⲉⲥ ⲉⲥϣⲟⲟⲡ’ ⲛ̅ⲛⲟⲩ‐\nⲛⲟϭ ⲛ̅ⲛⲁⲛⲟϣ ⲛ̅ⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲉⲧⲉ ⲛⲁ‐\nⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲉ ⲁⲩⲱ [ⲛ̅]ⲁⲡⲟⲥⲧⲟⲗⲓⲕⲟⲥ\nⲧⲉⲉⲓⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧ[ⲉ] ⲙ̅ⲡⲉ ⲇⲩⲛⲁⲙⲓⲥ\nϫⲟϩⲙⲉⲥ ⲟⲩ[......ⲁ]ⲛⲇⲩⲛⲁⲙⲓⲥ\nϫⲟϩⲙⲟⲩ ⲁⲩⲱ ⲛ[ⲉϥⲛⲁϫ]ⲟⲟⲥ ⲁⲛ ⲛ̅ϭⲓ"
+        },
+        {
+          "title": "My Father",
+          "subtitle": "My Father",
+          "heading": "My Father (55, 33-36)",
+          "rangeLabel": "55, 33-36",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 33
+            },
+            "end": {
+              "page": 55,
+              "line": 36
+            }
+          },
+          "english": "The master [would] not have said, “My [Father who is] in heaven,” if [he] did\nnot also have another father. He would simply have said, “[My Father].”",
+          "coptic": "ϫⲟϩⲙⲟⲩ ⲁⲩⲱ ⲛ[ⲉϥⲛⲁϫ]ⲟⲟⲥ ⲁⲛ ⲛ̅ϭⲓ\nⲡϫⲟⲉⲓⲥ ϫⲉ ⲡⲁⲉ[ⲓⲱⲧ ⲉⲧϩ]ⲛ̅ ⲙ̅ⲡⲏⲩⲉ\nⲉⲓ ⲙⲏⲧⲓ ϫⲉ ⲛⲉⲩⲛ̅ⲧ̅ⲁ[ϥ ⲙ̅ⲙⲁⲩ] ⲛ̅[ⲕ]ⲉⲉⲓⲱⲧ\nⲁⲗⲗⲁ ϩⲁⲡⲗⲱⲥ ⲁϥϫⲟⲟ[ⲥ ϫⲉ ⲡⲁⲉⲓⲱⲧ]"
+        },
+        {
+          "title": "Take from Every House",
+          "subtitle": "Take from Every House",
+          "heading": "Take from Every House (55, 37-56, 3)",
+          "rangeLabel": "55, 37-56, 3",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 37
+            },
+            "end": {
+              "page": 56,
+              "line": 3
+            }
+          },
+          "english": "The master said to the disciples, “[Take something] from every house and\nbring it to the Father’s house, but do not steal while in the Father’s house and\ntake something away.”",
+          "coptic": "§ⲡⲉϫⲉ ⲡϫⲟⲉⲓⲥ ⲛⲙ̅ⲙⲁⲑ[ⲏⲧⲏⲥ ϫⲉ....]\n[ⲉⲃ]ⲟⲗ ϩⲛ̅ [ⲏ]ⲉⲓ ⲛⲓⲙ’ ⲉⲛⲓ ⲉϩⲟⲩⲛ’ ⲉⲡⲏⲉⲓ\nⲙ̅ⲡⲉⲓⲱⲧ ⲙ̅ⲡⲣ̅ϫⲓⲟⲩ〈ⲉ〉 ⲇⲉ ⲛ̅ⲧⲟϥ’ ϩⲛ̅ ⲡⲏ‐\nⲉⲓ ⲙ̅ⲡⲉⲓⲱⲧ ⲛ̅ⲧⲉⲧⲛ̅ϥⲓ ⲉⲃⲟⲗ’ §ⲓⲥ̅ ⲟⲩⲣⲁⲛ"
+        },
+        {
+          "title": "Jesus Is a Hidden Name",
+          "subtitle": "Jesus Is a Hidden Name",
+          "heading": "Jesus Is a Hidden Name (56, 3-13)",
+          "rangeLabel": "56, 3-13",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 3
+            },
+            "end": {
+              "page": 56,
+              "line": 13
+            }
+          },
+          "english": "Jesus is a hidden name, Christ is a revealed name. The name Jesus does not\nexist in any other language, but he is called by the name Jesus. The word for\nChrist in Syriac is messias and in Greek is christos, and likewise all other people\nhave a word for it in their own language. Nazarene is the revealed form of the\nhidden name.",
+          "coptic": "ⲉⲓ ⲙ̅ⲡⲉⲓⲱⲧ ⲛ̅ⲧⲉⲧⲛ̅ϥⲓ ⲉⲃⲟⲗ’ §ⲓⲥ̅ ⲟⲩⲣⲁⲛ\nⲡⲉ ⲉϥϩⲏⲡ’ ⲡⲉⲭⲣ̅ⲥ̅ ⲟⲩⲣⲁⲛ ⲡⲉ ⲉϥⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲓ̅ⲥ̅ ⲙⲉⲛ ϥϣⲟⲟⲡ ⲁⲛ\nϩⲛ̅ ⲗⲁⲁⲩ ⲛ̅ⲛⲁⲥⲡⲉ ⲁⲗⲗⲁ ⲡⲉϥⲣⲁⲛ’ ⲡⲉ ⲓ̅ⲏ̅ⲥ\nⲛ̅ⲑⲉ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ⲙ̅ⲙⲟⲥ ⲡⲉⲭⲣ̅ⲥ̅\nⲇⲉ ⲡⲉϥ’ⲣⲁⲛ’ {ⲡⲉ} ⲙ̅ⲙ̅ⲛ̅ⲧ̅ⲥⲩⲣⲟⲥ ⲡⲉ ⲙⲉⲥ‐\nⲥⲓⲁⲥ ⲙ̅ⲙⲛ̅ⲧ̅ⲟⲩⲁⲉⲓⲁⲛⲓⲛ ⲇⲉ ⲡⲉ ⲡⲭ̅ⲥ̅ ⲡⲁⲛ‐\nⲧⲱⲥ ⲛ̅ⲕⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲟⲩⲛ̅ⲧⲁⲩϥ’ ⲙ̅ⲙⲁⲩ\nⲕⲁⲧⲁ ⲧⲁⲥⲡⲉ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ϩⲏⲧⲟⲩ’\nⲡⲛⲁⲍⲁⲣⲏⲛⲟⲥ ⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲡⲉ\nⲙ̅ⲡⲡⲉⲑⲏⲡ’ ⲡⲉⲭ̅ⲥ̅ ⲟⲩⲛ̅ⲧⲁϥ’ ⲟⲩⲟⲛ ⲛⲓⲙ’"
+        },
+        {
+          "title": "Christ Has Everything",
+          "subtitle": "Christ Has Everything",
+          "heading": "Christ Has Everything (56, 13-15)",
+          "rangeLabel": "56, 13-15",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 13
+            },
+            "end": {
+              "page": 56,
+              "line": 15
+            }
+          },
+          "english": "Christ has everything within himself, whether human or angel or mystery, and\nthe Father.",
+          "coptic": "ⲙ̅ⲡⲡⲉⲑⲏⲡ’ ⲡⲉⲭ̅ⲥ̅ ⲟⲩⲛ̅ⲧⲁϥ’ ⲟⲩⲟⲛ ⲛⲓⲙ’\nϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ’ ⲉⲓⲧⲉ ⲣⲱⲙⲉ ⲉⲓⲧⲉ ⲁⲅ’ⲅⲉⲗⲟⲥ\nⲉⲓⲧⲉ ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ⲡⲉⲓⲱⲧ’ §ⲛⲉⲧϫⲱ"
+        },
+        {
+          "title": "Christ Arose, Then Died",
+          "subtitle": "Christ Arose, Then Died",
+          "heading": "Christ Arose, Then Died (56, 15-20)",
+          "rangeLabel": "56, 15-20",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 15
+            },
+            "end": {
+              "page": 56,
+              "line": 20
+            }
+          },
+          "english": "Those who say that the master first died and then arose are wrong, for he first\narose and then died. If someone is not first resurrected, wouldn’t that person die?\nAs God lives, that one would <die>.",
+          "coptic": "ⲉⲓⲧⲉ ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ⲡⲉⲓⲱⲧ’ §ⲛⲉⲧϫⲱ\nⲙ̅ⲙⲟⲥ ϫⲉ ⲁⲡϫⲟⲉⲓⲥ ⲙⲟⲩ’ ⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ\nⲁϥⲧⲱⲟⲩⲛ’ ⲥⲉⲣ̅ⲡⲗⲁⲛⲁ ⲁϥⲧⲱⲟⲩⲛ ⲅⲁⲣ’\nⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ ⲁϥⲙⲟⲩ ⲉⲧⲙ̅ ⲟⲩⲁ ϫⲡⲉ\nⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̅ϣⲟⲣⲡ’ ϥⲛⲁⲙⲟⲩ ⲁⲛ ϥⲟⲛϩ\nⲛ̅ϭⲓ ⲡⲛⲟⲩⲧⲉ ⲛⲉⲣⲉ ⲡⲏ ⲛⲁⲙ〈‐‐‐〉 §ⲙⲗ̅ ⲗⲁ‐"
+        },
+        {
+          "title": "The Precious in the Worthless",
+          "subtitle": "The Precious in the Worthless",
+          "heading": "The Precious in the Worthless (56, 20-26)",
+          "rangeLabel": "56, 20-26",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 20
+            },
+            "end": {
+              "page": 56,
+              "line": 26
+            }
+          },
+          "english": "No one would hide something valuable and precious in a valuable container, but\ncountless sums are commonly kept in a container worth only a cent. So it is\nwith the soul. It is something precious, and it has come to be in a worthless body.",
+          "coptic": "ⲛ̅ϭⲓ ⲡⲛⲟⲩⲧⲉ ⲛⲉⲣⲉ ⲡⲏ ⲛⲁⲙ〈‐‐‐〉 §ⲙⲗ̅ ⲗⲁ‐\nⲁⲩ ⲛⲁϩⲱⲡ’ ⲛ̅ⲛⲟⲩⲛⲟϭ ⲙ̅ⲡⲣⲁⲅⲙⲁ ⲉϥⲧⲁ‐\nⲉⲓⲏⲩ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ϩⲱⲃ ⲁⲗⲗⲁ ϩⲁϩ ⲛ̅ⲥⲟⲡ’\nⲁⲟⲩⲁ ϩⲛ̅ⲧⲃⲁ ⲉⲧⲉ ⲙⲛ̅ⲧⲟⲩ ⲏⲡⲉ ⲁϥⲛⲟϫⲟⲩ\nⲁⲩϩⲱⲃ ϩⲁ ⲟⲩⲁⲥⲥⲁⲣⲓⲟⲛ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅‐\nⲧⲯⲩⲭⲏ ⲟⲩϩⲱⲃ ⲉϥⲧⲁⲉⲓⲏⲩ ⲡⲉ ⲁⲥϣⲱ‐\nⲡⲉ ϩⲛ̅ⲛⲟⲩⲥⲱⲙⲁ ⲉϥϣⲏⲥ §ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ"
+        },
+        {
+          "title": "Naked and Not Naked",
+          "subtitle": "Naked and Not Naked",
+          "heading": "Naked and Not Naked (56, 26-57, 22)",
+          "rangeLabel": "56, 26-57, 22",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 26
+            },
+            "end": {
+              "page": 57,
+              "line": 22
+            }
+          },
+          "english": "Some people are afraid that they may arise from the dead naked, and so they\nwant to arise in flesh. They do not know that it is those who wear the [flesh] who\nare naked. Those who are [able] to take it off are not naked.\n“Flesh [and blood will] not inherit God’s kingdom.” What is this flesh that\nwill not inherit? It is what we are wearing. And what is this flesh that will\ninherit? It is the flesh and blood of Jesus.\nFor this reason he said, “One who does not eat my flesh and drink my blood\ndoes not have life within.” What does this mean? His flesh is the word and his\nblood is the Holy Spirit. Whoever has received these has food, drink, and\nclothing.\nAnd I also disagree with others who say that the flesh will not arise. Both\nviews are wrong. You say that the flesh will not arise? Then tell me what will\narise, so we may salute you. You say it is the spirit in the flesh, and also the light\nin the flesh? But what is in the flesh is the word, and what you are talking about\nis nothing other than flesh. It is necessary to arise in this sort of flesh, since\neverything exists in it.\nIn this world those who wear clothes are superior to the clothes. In heaven’s\nkingdom the clothes are superior to those who wear them.",
+          "coptic": "ⲡⲉ ϩⲛ̅ⲛⲟⲩⲥⲱⲙⲁ ⲉϥϣⲏⲥ §ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ\nⲣ̅ ϩⲟⲧⲉ ϫⲉ ⲙⲏⲡⲱⲥ ⲛ̅ⲥⲉⲧⲱⲟⲩⲛ ⲉⲩⲕⲁ‐\nⲕⲁϩⲏⲩ ⲉⲧⲃⲉ ⲡ[ⲁ]ⲉⲓ ⲥⲉⲟⲩⲱϣ ⲉⲧⲱⲟⲩⲛ\nϩⲛ̅ ⲧⲥⲁⲣⲝ ⲁⲩⲱ [ⲥ]ⲉⲥⲟⲟⲩⲛ ⲁⲛ ϫⲉ ⲛⲉⲧⲣ̅‐\nⲫⲟⲣⲉⲓ ⲛ̅ⲧⲥ[ⲁⲣⲝ ⲛ̅ⲧⲟ]ⲟⲩ ⲡⲉ ⲉⲧⲕⲏⲕⲁϩⲏⲩ\nⲛⲁⲉⲓ ⲉⲧⲉ[......] ⲙ̅ⲙⲟⲟⲩ ⲉⲕⲁⲕⲟⲩ\nⲉϩⲏ[ⲩ] ⲛ̅[ⲧⲟⲟⲩ ⲉⲧⲕ]ⲁⲕⲁϩⲏⲩ ⲁⲛ ⲙⲛ̅ ⲥⲁⲣⲝ’\n[ϩⲓ ⲥⲛⲟϥ ⲛⲁ]ⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛ̅ⲧⲙⲛ̅ⲧⲉ‐\n[ⲣⲟ ⲙ̅ⲡⲛⲟ]ⲩⲧⲉ ⲛⲓⲙ’ ⲧⲉ ⲧⲁⲉⲓ’ ⲉⲧⲛⲁⲕⲗⲏ‐\nⲣⲟⲛⲟⲙⲉⲓ ⲁⲛ’ ⲧⲁⲉⲓ ⲉⲧϩⲓⲱⲱⲛ ⲛⲓⲙ ⲇⲉ ⲧⲉ\nⲧⲁⲉⲓ ϩⲱⲱⲥ ⲉⲧⲛⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲧⲁ ⲓ̅ⲥ̅\nⲧⲉ ⲙⲛ̅ ⲡⲉϥ’ⲥⲛⲟϥ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲡⲉϫⲁϥ ϫⲉ\nⲡⲉⲧⲁⲟⲩⲱⲙ ⲁⲛ ⲛ̅ⲧⲁⲥⲁⲣⲝ ⲁⲩⲱ ⲛ̅ϥⲥⲱ ⲙ̅‐\nⲡⲁⲥⲛⲟϥ’ ⲙⲛ̅ⲧⲁϥ ⲱⲛϩ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ̅ ⲁϣ\nⲧⲉ’ ⲧⲉϥ’ⲥⲁⲣⲝ ⲡⲉ ⲡⲗⲟⲅⲟⲥ ⲁⲩⲱ ⲡⲉϥ’ⲥⲛⲟϥ’\nⲡⲉ ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲡⲉⲛⲧⲁϩϫⲓ ⲛⲁⲉⲓ ⲟⲩⲛ‐\nⲧⲉϥ’ ⲧⲣⲟⲫⲏ ⲁⲩⲱ ⲟⲩⲛ̅ⲧⲁϥ’ ⲥⲱ ϩⲓ ⲃ̅ⲥⲱ’\nⲁⲛⲟⲕ’ ϯϭⲛ̅ ⲁⲣⲓⲕⲉ ⲁⲛⲕⲟⲟⲩⲉ ⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ\nϫⲉ ⲥⲛⲁⲧⲱⲟⲩⲛ ⲁⲛ ⲉⲓⲧⲉ ⲛ̅ⲧⲟⲟⲩ ⲙ̅ⲡⲉⲥ‐\nⲛⲁⲩ ⲥⲉϣⲟⲟⲡ’ ϩⲛ̅ ⲟⲩϣⲧⲁ’ ⲕϫⲱ ⲙ̅ⲙⲟⲥ\nϫⲉ ⲧⲥⲁⲣⲝ’ ⲛⲁⲧⲱⲟⲩⲛ ⲁⲛ ⲁⲗⲗⲁ ϫⲟⲟⲥ ⲉⲣⲟ‐\nⲉⲓ ϫⲉ ⲁϣ ⲡⲉⲧⲛⲁⲧⲱⲟⲩⲛ ϣⲓⲛⲁ ⲉⲛⲁⲧⲁ‐\nⲉⲓⲟⲕ’ ⲕϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲡⲡⲛ̅ⲁ̅ ϩⲛ̅ ⲧⲥⲁⲣⲝ\nⲁⲩⲱ ⲡⲉⲉⲓⲕⲉⲟⲩⲟⲉⲓⲛ ⲡⲉ ϩⲛ̅ ⲧⲥⲁⲣⲝ ⲟⲩⲗⲟ‐\nⲅⲟⲥ ⲡⲉ ⲡⲉⲉⲓⲕⲉ ⲉϥϩⲛ̅ ⲧⲥⲁⲣⲝ ϫⲉ † ⲡⲉⲧⲕⲛⲁ‐\nϫⲟⲟⲥ ⲉⲕϫⲉ ⲗⲁⲁⲩ ⲁⲛ ⲙ̅ⲡⲃⲟⲗ ⲛ̅ⲧⲥⲁⲣⲝ\nϩⲁⲡⲥ̅ ⲡⲉ ⲉⲧⲱⲟⲩⲛ ϩⲛ̅ ⲧⲉⲉⲓⲥⲁⲣⲝ’ ⲉϩⲱⲃ\nⲛⲓⲙ’ ϣⲟⲟⲡ’ ⲛ̅ϩⲏⲧⲥ̅ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ\nⲛⲉⲧϯ ϩⲓⲱⲟⲩ ⲛ̅ⲛ̅ϩⲃⲥⲱ ⲥⲉⲥⲟⲧⲡ’ ⲁⲛⲛ̅‐\nϩ̅ⲃ̅ⲥⲱ ϩⲛ̅ ⲧⲙⲛ̅ⲧⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ ⲛ̅ϩ̅ⲃ̅ⲥⲱ\nⲥⲉⲥⲟⲧⲡ’ ⲁⲛⲉⲛⲧⲁⲩⲧⲁⲁⲩ ϩⲓⲱⲟⲩ §ϩⲓⲧⲛ̅"
+        },
+        {
+          "title": "Baptism and Anointing",
+          "subtitle": "Baptism and Anointing",
+          "heading": "Baptism and Anointing (57, 22-28)",
+          "rangeLabel": "57, 22-28",
+          "range": {
+            "start": {
+              "page": 57,
+              "line": 22
+            },
+            "end": {
+              "page": 57,
+              "line": 28
+            }
+          },
+          "english": "By water and fire this whole realm is purified, the visible by the visible, the\nhidden by the hidden. Some things are hidden by the visible. There is water\nwithin water, there is fire within the oil of anointing.",
+          "coptic": "ⲥⲉⲥⲟⲧⲡ’ ⲁⲛⲉⲛⲧⲁⲩⲧⲁⲁⲩ ϩⲓⲱⲟⲩ §ϩⲓⲧⲛ̅\nⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⲟⲩⲕⲱϩⲧ’ ⲉⲩⲧⲟⲩⲃⲟ ⲙ̅ⲡⲙⲁ\nⲧⲏⲣϥ’ ⲛⲉⲧⲟⲩⲟⲛϩ ϩⲓⲧⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉ‐\nⲃⲟⲗ ⲛⲉⲑⲏⲡ’ ϩⲓⲧⲛ̅ ⲛⲉⲑⲏⲡ’ ⲟⲩⲛ ϩⲟ‐\nⲉⲓⲛⲉ ⲉⲩϩⲏⲡ’ ϩⲓⲧⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲟⲩⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲟⲩⲛ̅ ⲕⲱϩⲧ’\nϩⲛ̅ⲛⲟⲩⲭⲣⲓⲥⲙⲁ §ⲁⲓⲥ̅ ϥⲓⲧⲟⲩ ⲛ̅ϫⲓⲟⲩⲉ"
+        },
+        {
+          "title": "Jesus Tricked Everyone",
+          "subtitle": "Jesus Tricked Everyone",
+          "heading": "Jesus Tricked Everyone (57, 28-58, 10)",
+          "rangeLabel": "57, 28-58, 10",
+          "range": {
+            "start": {
+              "page": 57,
+              "line": 28
+            },
+            "end": {
+              "page": 58,
+              "line": 10
+            }
+          },
+          "english": "Jesus tricked everyone, for he did not appear as he was, but he appeared so that\nhe could be seen. He appeared to everyone. He [appeared] to the great as great,\nhe [appeared] to the small as small, he [appeared to the] angels as an angel\nand to humans as a human. For this reason his word was hidden from everyone.\nSome looked at him and thought they saw themselves. But when he appeared to\nhis disciples in glory upon the mountain, he was not small. He became great. Or\nrather, he made the disciples great, so they could see him in his greatness.",
+          "coptic": "ϩⲛ̅ⲛⲟⲩⲭⲣⲓⲥⲙⲁ §ⲁⲓⲥ̅ ϥⲓⲧⲟⲩ ⲛ̅ϫⲓⲟⲩⲉ\nⲧⲏⲣⲟⲩ ⲙ̅ⲡⲉϥ’ⲟⲩⲱⲛ[ϩ] ⲅⲁⲣ ⲉⲃⲟⲗ’ ⲛ̅ⲑⲉ\nⲉⲛⲉϥϣⲟⲟⲡ’ [ⲛ̅ϩ]ⲏ[ⲧⲥ ⲁ]ⲗⲗⲁ ⲛ̅ⲧ’ⲁϥⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲛ̅ⲑⲉ ⲉⲧ[ⲟⲩⲛⲁϣ]ϭⲙ̅ ϭⲟⲙ’ ⲛ̅ⲛⲁⲩ\nⲉⲣⲟϥ’ ⲛ̅ϩⲏⲧⲥ̅ ⲛ[ⲁⲉⲓ ⲇⲉ ⲧⲏ]ⲣⲟⲩ ⲁϥⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲩ ⲁϥ[ⲟⲩⲱⲛϩ] ⲉⲃⲟⲗ ⲛ̅[ⲛ̅]‐\nⲛⲟϭ ϩⲱⲥ ⲛⲟϭ ⲁϥⲟⲩⲱ[ⲛϩ ⲉⲃⲟⲗ ⲛ̅]‐\nⲛ̅ⲕⲟⲩⲉⲓ ϩⲱⲥ ⲕⲟⲩⲉⲓ ⲁϥⲟ[ⲩⲱⲛϩ ⲉⲃⲟⲗ]\n[ⲛ̅ⲛ̅]ⲁⲅⲅⲉⲗⲟⲥ ϩⲱⲥ ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ\nⲛ̅ⲣ̅ⲣⲱⲙⲉ ϩⲱⲥ ⲣⲱⲙⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲁⲡⲉϥ’‐\nⲗⲟⲅⲟⲥ ⲁϥϩⲟⲡϥ’ ⲉⲟⲩⲟⲛ ⲛⲓⲙ’ ϩⲟⲉⲓⲛⲉ\nⲙⲉⲛ’ ⲁⲩⲛⲁⲩ ⲉⲣⲟϥ’ ⲉⲩⲙⲉⲉⲩⲉ ϫⲉ ⲛⲁⲩⲛⲁⲩ\nⲉⲣⲟⲟⲩ ⲙ̅ⲙⲓⲛ ⲙ̅ⲙⲟⲟⲩ’ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩ‐\nⲱⲛϩ’ ⲉⲃⲟⲗ’ ⲛ̅ⲛⲉϥ’ⲙⲁⲑⲏⲧⲏⲥ ϩⲛ̅ⲛⲟⲩⲉⲟ‐\nⲟⲩ ϩⲓϫⲙ̅ ⲡⲧⲟⲟⲩ ⲛⲉϥⲟ ⲁⲛ ⲛ̅ⲕⲟⲩⲉⲓ ⲁϥ’‐\nϣⲱⲡⲉ ⲛ̅ⲛⲟϭ ⲁⲗⲗⲁ ⲛ̅ⲧⲁϥⲣ̅ ⲙ̅ⲙⲁⲑⲏⲧⲏⲥ\nⲛ̅ⲛⲟϭ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϣϭⲙ̅ ϭⲟⲙ ⲛ̅ⲛⲁⲩ\nⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲛⲟϭ §ⲡⲉϫⲁϥ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅‐"
+        },
+        {
+          "title": "Prayer of Thanksgiving",
+          "subtitle": "Prayer of Thanksgiving",
+          "heading": "Prayer of Thanksgiving (58, 10-14)",
+          "rangeLabel": "58, 10-14",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 10
+            },
+            "end": {
+              "page": 58,
+              "line": 14
+            }
+          },
+          "english": "He said on that day in the prayer of thanksgiving,\nYou who have united perfect light with Holy Spirit,\nunite the angels also with us, as images.",
+          "coptic": "ⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲛⲟϭ §ⲡⲉϫⲁϥ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅‐\nⲙⲁⲩ ϩⲛ̅ ⲧⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓⲁ ϫⲉ ⲡⲉⲛⲧⲁϩϩⲱⲧ̅ⲣ̅\nⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲥ † ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ’ ϩⲟⲧⲣ̅ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲣⲟⲛ’ ϩⲱⲱⲛ ⲁ ⲛ‐\nϩⲓⲕⲱⲛ ⲙ̅ⲡⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ’ ⲙ̅ⲡϩⲓⲉⲓⲃ%2 ⲁϫⲛ̅‐"
+        },
+        {
+          "title": "The Lamb",
+          "subtitle": "The Lamb",
+          "heading": "The Lamb (58, 14-15)",
+          "rangeLabel": "58, 14-15",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 14
+            },
+            "end": {
+              "page": 58,
+              "line": 15
+            }
+          },
+          "english": "Do not despise the lamb, for without it no one could see the <king>.",
+          "coptic": "ϩⲓⲕⲱⲛ ⲙ̅ⲡⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ’ ⲙ̅ⲡϩⲓⲉⲓⲃ%2 ⲁϫⲛ̅‐\nⲧϥ’ ⲅⲁⲣ’ ⲙⲛ̅ ϣϭⲟⲙ’ ⲉⲛⲁⲩ ⲉⲡ〈ⲣ̅〉ⲣⲟ’ ⲙⲛ̅ ⲗⲁⲁⲩ"
+        },
+        {
+          "title": "Meeting the King",
+          "subtitle": "Meeting the King",
+          "heading": "Meeting the King (58, 15-17)",
+          "rangeLabel": "58, 15-17",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 15
+            },
+            "end": {
+              "page": 58,
+              "line": 17
+            }
+          },
+          "english": "No one can meet the king while naked.",
+          "coptic": "ⲧϥ’ ⲅⲁⲣ’ ⲙⲛ̅ ϣϭⲟⲙ’ ⲉⲛⲁⲩ ⲉⲡ〈ⲣ̅〉ⲣⲟ’ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛⲁϣϯ ⲡⲉϥ’ⲟⲩⲟⲉⲓ ⲉϩⲟⲩⲛ’ ⲉⲡⲣ̅ⲣⲟ ⲉϥ’‐\nⲕⲏⲕⲁϩⲏⲩ’ §ⲡⲣⲙ̅ⲙ̅ⲡⲉ ⲛⲁϣⲉ ⲛⲉϥ’ϣⲏⲣⲉ"
+        },
+        {
+          "title": "Children of the Perfect Human",
+          "subtitle": "Children of the Perfect Human",
+          "heading": "Children of the Perfect Human (58, 17-59, 6)",
+          "rangeLabel": "58, 17-59, 6",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 17
+            },
+            "end": {
+              "page": 59,
+              "line": 6
+            }
+          },
+          "english": "The heavenly person has more children than the earthly person. If the children of\nAdam are numerous but die, how much more numerous are the children of the\nperfect human, who do not die but are continually being born.\nA father produces children but a child cannot produce children. One who has\njust been born cannot be a parent. Rather, a child gets brothers and sisters, not\nchildren.\nAll who are born in the world are born of nature, and the others [are\nnourished] from where they are born. People [are] nourished from the promise of\nthe heavenly place. [If they would be]…from the mouth, from which the word\ncomes, they would be nourished from the mouth and would be perfect.\nThe perfect conceive and give birth through a kiss. That is why we also kiss\neach other. We conceive from the grace within each other.",
+          "coptic": "ⲕⲏⲕⲁϩⲏⲩ’ §ⲡⲣⲙ̅ⲙ̅ⲡⲉ ⲛⲁϣⲉ ⲛⲉϥ’ϣⲏⲣⲉ\nⲛ̅ϩⲟⲩⲟ’ ⲁⲡⲣⲙ̅ⲛ̅ⲕⲁϩ ⲉϣϫⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲁ‐\nⲇⲁⲙ’ ⲛⲁϣⲱⲟⲩ ⲕⲁⲓⲧⲟⲓⲅⲉ ϣⲁⲩⲙⲟⲩ ⲡⲟ‐\nⲥⲱ ⲙⲁⲗⲗⲟⲛ ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲥ ⲣ̅ⲣⲱ‐\nⲙⲉ ⲛⲁⲉⲓ ⲉⲙⲁⲩⲙⲟⲩ ⲁⲗⲗⲁ ⲥⲉϫⲡⲟ ⲙ̅ⲙⲟ‐\nⲟⲩ’ ⲟⲩⲟⲉⲓϣ ⲛⲓⲙ’ ⲡⲉⲓⲱⲧ’ ⲧⲁⲙⲉⲓⲟ ϣⲏ‐\nⲣⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ’ ⲙⲛ̅ ϭⲟⲙ ⲙ̅ⲙⲟϥ’ ⲛ̅ϥⲧⲁ‐\nⲙⲓⲉ ϣⲏⲣⲉ ⲡⲉⲛ’ⲧⲁⲩϫⲡⲟϥ ⲅⲁⲣ’ ⲙⲛ̅ ϭⲟⲙ’\nⲙ̅ⲙⲟϥ’ ⲛ̅ϥϫⲡⲟ ⲁⲗⲗⲁ ⲉⲡϣⲏⲣⲉ ϫⲡⲟ’\nⲛⲁϥ’ ⲛ̅ϩⲛ̅ⲥⲛⲏⲩ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ ⲁⲛ ⲛⲉⲧⲟⲩ‐\nϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ\nⲉⲩϫⲡⲟ ⲙ̅ⲙⲟⲟ[ⲩ] ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲫⲩⲥⲓⲥ ⲁⲩ‐\nⲱ ⲛ̅ⲕⲟⲟⲩⲉ ϩⲙ̅ [ⲡⲁⲉ]ⲓ [ⲉⲧ]ⲟⲩϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ’ ⲛ̅ϩⲏⲧϥ [ⲉⲩⲥⲟⲉⲓ]ϣ’ ⲉⲃⲟⲗ’ ⲙ̅ⲙⲁⲩ\nⲉⲡⲣⲱⲙⲉ ϫ[ⲓ ⲙ̅ⲡⲥⲟ]ⲉⲓϣ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲣ̅‐\n[ⲣ]ⲏⲧ’ ⲉϩⲟ[ⲩⲛ ⲉⲡⲧⲟ]ⲡⲟⲥ ⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ\n[........] ⲙ̅ⲙⲟϥ’ ⲉⲃⲟⲗ ϩⲛ ⲧ’ⲧⲁⲡⲣⲟ\n[ⲁⲩⲱ ⲉⲛⲉ] ⲁⲡⲗⲟⲅⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ⲙ̅ⲙⲁⲩ\nⲛⲉϥⲛⲁⲥⲟⲉⲓϣ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲧⲁⲡⲣⲟ ⲁⲩ[ⲱ]\nⲛⲉϥⲛⲁϣⲱⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲅⲁⲣ\nϩⲓⲧⲛ̅ ⲟⲩⲡⲉⲓ ⲉⲩⲱ͂ ⲁⲩⲱ ⲉⲩϫⲡⲟ ⲇⲓⲁ ⲧⲟⲩⲧⲟ\nⲁⲛⲟⲛ’ ϩⲱⲱⲛ ⲧⲛ̅ϯ ⲡⲓ ⲉⲣⲛ̅ ⲛ̅ⲛ̅ⲛⲉⲣⲏⲩ\nⲉⲛϫⲓ ⲙ̅ⲡⲱ͂ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲭⲁⲣⲓⲥ ⲉⲧϩⲛ̅ ⲛ̅‐\nⲛ̅ⲛⲉⲣⲏⲩ §ⲛⲉ ⲟⲩⲛ̅ ϣⲟⲙⲧⲉ ⲙⲟⲟϣⲉ ⲙⲛ̅"
+        },
+        {
+          "title": "Three Women Named Mary",
+          "subtitle": "Three Women Named Mary",
+          "heading": "Three Women Named Mary (59, 6-11)",
+          "rangeLabel": "59, 6-11",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 6
+            },
+            "end": {
+              "page": 59,
+              "line": 11
+            }
+          },
+          "english": "Three women always walked with the master: Mary his mother, <his> sister,\nand Mary of Magdala, who is called his companion. For “Mary” is the name of\nhis sister, his mother, and his companion.",
+          "coptic": "ⲛ̅ⲛⲉⲣⲏⲩ §ⲛⲉ ⲟⲩⲛ̅ ϣⲟⲙⲧⲉ ⲙⲟⲟϣⲉ ⲙⲛ̅\nⲡϫⲟⲉⲓⲥ ⲟⲩⲟⲉⲓϣ ⲛⲓⲙ’ ⲙⲁⲣⲓⲁ ⲧⲉϥⲙⲁⲁⲩ\nⲁⲩⲱ ⲧⲉⲥⲥⲱⲛⲉ ⲁⲩⲱ ⲙⲁⲅⲇⲁⲗⲏⲛⲏ ⲧⲁ‐\nⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲉϥⲕⲟⲓⲛⲱⲛⲟⲥ\nⲙⲁⲣⲓⲁ ⲅⲁⲣ’ ⲧⲉ ⲧⲉϥⲥⲱⲛⲉ ⲁⲩⲱ ⲧⲉϥ’ⲙⲁⲁⲩ\nⲧⲉ ⲁⲩⲱ ⲧⲉϥϩⲱⲧⲣⲉ ⲧⲉ §ⲡⲉⲓⲱⲧ ⲙⲛ̅ ⲡϣⲏ‐"
+        },
+        {
+          "title": "Father, Son, Holy Spirit",
+          "subtitle": "Father, Son, Holy Spirit",
+          "heading": "Father, Son, Holy Spirit (59, 11-18)",
+          "rangeLabel": "59, 11-18",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 11
+            },
+            "end": {
+              "page": 59,
+              "line": 18
+            }
+          },
+          "english": "“Father” and “son” are simple names, “holy spirit” is a double name. They are\neverywhere, above and below, in the hidden and in the visible. The Holy Spirit is\nin the visible, and then it is below, and the Holy Spirit is in the hidden, and then\nit is above.",
+          "coptic": "ⲧⲉ ⲁⲩⲱ ⲧⲉϥϩⲱⲧⲣⲉ ⲧⲉ §ⲡⲉⲓⲱⲧ ⲙⲛ̅ ⲡϣⲏ‐\nⲣⲉ ⲛ̅ϩⲁⲡⲗⲟⲩⲛ ⲛⲉ ⲣ̅ⲣⲁⲛ ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲟⲩⲣⲁⲛ’ ⲡⲉ ⲛ̅ⲇⲓⲡⲗⲟⲩⲛ ⲥⲉϣⲟⲟⲡ ⲅⲁⲣ’ ⲙ̅‐\nⲙⲁ ⲛⲓⲙ’ ⲥⲉⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ⲥⲉⲙ̅ⲡⲥⲁ ⲙⲡⲓ‐\nⲧⲛ̅ ⲥⲉϩⲛ̅ ⲡⲉⲑⲏⲡ’ ⲥⲉϩⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’ ϥϩⲙ̅ ⲡⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ’ ϥϩⲙ̅ ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ϥϩⲙ̅ ⲡⲉⲑⲏⲡ’\nϥϩⲙ̅ ⲡⲥⲁ ⲛⲧⲡⲉ §ⲥⲉϣⲙ̅ϣⲉ ⲛ̅ⲛⲉⲧⲟⲩ‐"
+        },
+        {
+          "title": "Holy Spirit and Evil Forces",
+          "subtitle": "Holy Spirit and Evil Forces",
+          "heading": "Holy Spirit and Evil Forces (59, 18-27)",
+          "rangeLabel": "59, 18-27",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 18
+            },
+            "end": {
+              "page": 59,
+              "line": 27
+            }
+          },
+          "english": "Evil forces serve the saints, for they have been blinded by the Holy Spirit into\nthinking they are helping their own people when they really are helping the\nsaints.\nSo a disciple once asked the master for something from the world and he\nsaid, “Ask your mother, and she will give you something from another realm.”",
+          "coptic": "ϥϩⲙ̅ ⲡⲥⲁ ⲛⲧⲡⲉ §ⲥⲉϣⲙ̅ϣⲉ ⲛ̅ⲛⲉⲧⲟⲩ‐\nⲁⲁⲃ’ ϩⲓⲧⲛ̅ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲟⲛⲏⲣⲟⲛ’\nⲥⲉⲟ ⲅⲁⲣ ⲛ̅ⲃⲗ̅ⲗⲉ ϩⲓⲧⲙ̅ ⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’\nϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲙⲉⲉⲩⲉ ϫⲉ ⲉⲩⲣ̅ϩⲩⲡⲏⲣⲉ‐\nⲧⲉⲓ ⲛ̅ⲛⲟⲩⲣⲱⲙⲉ ϩⲟⲡⲟⲧⲉ ⲉⲩⲉⲓⲣⲉ ⲛ̅ⲛⲉ‐\nⲧⲟⲩⲁⲁⲃ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲁⲩ⟦ⲙ̅⟧ⲙⲁⲑⲏⲧⲏⲥ ⲣ̅‐\nⲁⲓⲧⲉⲓ ⲙ̅ⲡϫⲟⲉⲓⲥ ⲛ̅ⲛⲟⲩϩⲟⲟⲩ ⲉⲧⲃⲉ ⲟⲩ‐\nϩⲱⲃ ⲛ̅ⲧⲉ ⲡⲕⲟⲥⲙⲟⲥ ⲡⲉϫⲁϥ ⲛⲁϥ’ ϫⲉ\nⲉⲣⲓⲁⲓⲧⲉⲓ ⲛ̅ⲧⲉⲕⲙⲁⲁⲩ ⲁⲩⲱ ⲥⲛⲁϯ ⲛⲁⲕ\nⲉⲃⲟⲗ ϩⲛ̅ ⲁⲗⲗⲟⲧⲣⲓⲟⲛ §ⲡⲉϫⲉ ⲛⲁⲡⲟⲥⲧⲟ‐"
+        },
+        {
+          "title": "Wisdom and Salt",
+          "subtitle": "Wisdom and Salt",
+          "heading": "Wisdom and Salt (59, 27-60, 1)",
+          "rangeLabel": "59, 27-60, 1",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 27
+            },
+            "end": {
+              "page": 60,
+              "line": 1
+            }
+          },
+          "english": "The apostles said to the disciples, “May our entire offering be provided with\nsalt.” For they called [Wisdom] salt. Without it an offering is unacceptable.\nWisdom is barren, [with no] children, and so she is called [the pillar] of salt.\nWhenever…the Holy Spirit…, and she has many children.",
+          "coptic": "ⲉⲃⲟⲗ ϩⲛ̅ ⲁⲗⲗⲟⲧⲣⲓⲟⲛ §ⲡⲉϫⲉ ⲛⲁⲡⲟⲥⲧⲟ‐\nⲗⲟⲥ ⲛ̅ⲛ̅ⲙⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ⲧⲙ̅ⲡⲣⲟⲥⲫⲟ‐\nⲣⲁ ⲧⲏⲣⲥ̅ ⲙⲁⲣⲉⲥϫⲡⲟ [ⲛ]ⲁⲥ ⲛ̅ⲟⲩϩⲙⲟⲩ’\nⲛⲉⲩⲙⲟⲩⲧⲉ [ⲉⲧⲥⲟⲫⲓ]ⲁ ϫⲉ ϩⲙⲟⲩ ⲁϫⲛⲧ̅ⲥ̅\nⲙⲁⲣⲉ ⲡⲣⲟⲥⲫ[ⲟⲣⲁ ϣⲱ]ⲡⲉ ⲉϥϣⲏⲡ’ ⲧⲥⲟ‐\nⲫⲓⲁ ⲇⲉ ⲟⲩⲥⲧⲉⲓⲣ[ⲁ ⲧⲉ ⲁϫⲛ̅] ϣⲏⲣⲉ ⲇⲓⲁ ⲧⲟⲩ‐\nⲧⲟ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟ[ⲥ ϫⲉ ⲡⲕⲉ]ⲥⲉⲡⲉⲓ ⲛ̅‐\nϩⲙⲟⲩ ⲡⲙⲁ ⲉⲧⲟⲩⲛⲁϣ[....]ⲛ̅ϣ\nⲛ̅ⲧⲟⲩϩⲉ ⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ [......]\n[ⲁⲩ]ⲱ ⲛⲁϣ[ⲉ] ⲛⲉⲥϣⲏⲣⲉ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥϥ’"
+        },
+        {
+          "title": "Father and Child",
+          "subtitle": "Father and Child",
+          "heading": "Father and Child (60, 1-6)",
+          "rangeLabel": "60, 1-6",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 1
+            },
+            "end": {
+              "page": 60,
+              "line": 6
+            }
+          },
+          "english": "A father’s possessions belong to his child. As long as the child is young, the\nchild will not have what belongs to it. When the child grows up, the father will\nturn over all the possessions.",
+          "coptic": "[ⲁⲩ]ⲱ ⲛⲁϣ[ⲉ] ⲛⲉⲥϣⲏⲣⲉ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥϥ’\nⲛ̅ϭⲓ ⲡⲉⲓⲱⲧ’ ⲛⲁ ⲡϣⲏⲣⲉ ⲛⲉ ⲁⲩⲱ ⲛ̅ⲧⲟϥ ϩⲱ‐\nⲱϥ’ ⲡϣⲏⲣⲉ ⲉⲛ ϩⲟⲥⲟⲛ ϥⲟ ⲛ̅ⲕⲟⲩⲉⲓ’ ⲙⲁⲩ‐\nⲡⲓⲥⲧⲉⲩⲉ ⲛⲁϥ’ ⲁⲛⲉⲧⲉ ⲛⲟⲩϥ’ ϩⲟⲧⲁⲛ ⲉϥ\nϣⲁϣⲱⲡⲉ ⲣ̅ⲣⲱⲙⲉ ϣⲁⲣⲉ ⲡⲉϥⲉⲓⲱⲧ’ ϯ ⲛⲁϥ\nⲛⲉⲧⲉⲩⲛ̅ⲧⲁⲃⲥⲉ ⲧⲏⲣⲟⲩ §ⲛⲉⲧⲥⲟⲣⲙ’ ⲛⲉⲧⲉ ⲡ’‐"
+        },
+        {
+          "title": "The Lost",
+          "subtitle": "The Lost",
+          "heading": "The Lost (60, 6-9)",
+          "rangeLabel": "60, 6-9",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 6
+            },
+            "end": {
+              "page": 60,
+              "line": 9
+            }
+          },
+          "english": "Those who have gone astray, who are offspring of the Spirit, go astray also\nbecause of the Spirit. Thus from one Spirit the fire blazes and the fire is\nextinguished.",
+          "coptic": "ⲛⲉⲧⲉⲩⲛ̅ⲧⲁⲃⲥⲉ ⲧⲏⲣⲟⲩ §ⲛⲉⲧⲥⲟⲣⲙ’ ⲛⲉⲧⲉ ⲡ’‐\nⲡⲛ̅ⲁ̅ ϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ ϣⲁⲩⲥⲱⲣⲙ’ ⲟⲛ’ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲉⲃⲟⲗ’ ϩⲓⲧⲙ̅ ⲡⲓⲡⲛ̅ⲁ̅\nⲟⲩⲱⲧ’ ϥϫⲉⲣⲟ ⲛ̅ϭⲓ ⲡⲕⲱϩⲧ’ ⲁⲩⲱ ϥⲱϣⲙ̅"
+        },
+        {
+          "title": "Wisdom and Wisdom of Death",
+          "subtitle": "Wisdom and Wisdom of Death",
+          "heading": "Wisdom and Wisdom of Death (60, 10-15)",
+          "rangeLabel": "60, 10-15",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 10
+            },
+            "end": {
+              "page": 60,
+              "line": 15
+            }
+          },
+          "english": "There is Echamoth and there is Echmoth. Echamoth is simply Wisdom, but\nEchmoth is the Wisdom of death-that is, the Wisdom that knows death, that is\ncalled little Wisdom.",
+          "coptic": "§ⲕⲉⲟⲩⲁ ⲡⲉ ⲉⲭ̅ⲁ̅ⲙ̅ⲱ̅ⲑ̅ ⲁⲩⲱ ⲕⲉⲟⲩⲁ ⲡⲉ’\nⲉⲭ̅ⲙ̅ⲱ̅ⲑ̅ ⲉⲭ̅ⲁⲙⲱⲑ̅ ⲧⲉ ⲧⲥⲟⲫⲓⲁ ϩⲁⲡⲗⲱⲥ\nⲉⲭⲙⲱⲑ ⲇⲉ ⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲙ̅ⲡⲙⲟⲩ ⲉⲧⲉ ⲧⲁ‐\nⲉⲓ ⲧⲉ {ⲧⲥⲟⲫⲓⲁ ⲙ̅ⲡⲙⲟⲩ ⲉⲧⲉ ⲧⲁⲉⲓ ⲧⲉ} ⲉⲧⲥⲟ‐\nⲟⲩⲛ ⲙ̅ⲡⲙⲟⲩ ⲧⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ\nⲧⲕⲟⲩⲉⲓ ⲛ̅ⲥⲟⲫⲓⲁ §ⲟⲩⲛ̅ ϩⲛ̅ⲑⲏⲣⲓⲟⲛ ϣⲟⲟⲡ’"
+        },
+        {
+          "title": "Tame and Wild Animals",
+          "subtitle": "Tame and Wild Animals",
+          "heading": "Tame and Wild Animals (60, 15-34)",
+          "rangeLabel": "60, 15-34",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 15
+            },
+            "end": {
+              "page": 60,
+              "line": 34
+            }
+          },
+          "english": "Some animals are tame, such as the bull, the donkey, and the like, while others\nare wild and live off in the wild. People plow fields with tame animals, and as a\nresult people are nourished, together with animals, whether tame or wild.\nSo also the perfect human plows with powers that are tame and prepares\neverything to come into being. Thus the whole place has stability, good and evil,\nright and left. The Holy Spirit tends everything and rules over [all] the powers,\nwhether tame or wild and running loose. For the Spirit is [resolved] to corral\nthem, so that they cannot escape even if [they] wish.",
+          "coptic": "ⲧⲕⲟⲩⲉⲓ ⲛ̅ⲥⲟⲫⲓⲁ §ⲟⲩⲛ̅ ϩⲛ̅ⲑⲏⲣⲓⲟⲛ ϣⲟⲟⲡ’\nⲉⲩϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡⲙⲁⲥⲉ\nⲙⲛ̅ ⲡⲉⲓⲱ ⲙⲛ̅ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲛ̅ⲧⲉⲉⲓⲙⲓⲛⲉ ⲟⲩ‐\nⲛ̅ ϩⲛ̅ⲕⲟⲟⲩⲉ ϣⲟⲟⲡ’ ⲉⲩϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲁⲛ’\nⲉⲩⲟⲩⲁⲧ’ ϩⲛ̅ ⲛⲉⲣⲏⲙⲓⲁ’ ⲡⲣⲱⲙⲉ ⲥⲕⲁⲉⲓ ⲛ̅‐\nⲧⲥⲱϣⲉ ϩⲓⲧⲛ̅ ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲉⲧϩⲩⲡⲟⲧⲁⲥⲥⲉ\nⲁⲩⲱ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲁⲉⲓ ϥⲥⲟⲉⲓϣ’ ⲛ̅ⲧⲟϥ’ ⲙⲛ̅ ⲛ̅‐\nⲑⲏⲣⲓⲟⲛ ⲉⲓⲧⲉ ⲛⲉⲧ’ϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲉⲓⲧⲉ ⲛⲉⲧ’‐\nϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲁⲛ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲙ̅ⲡⲧⲉⲗⲓⲟⲥ\nⲣ̅ⲣⲱⲙⲉ ϩⲓⲧⲛ̅ ϩⲛ̅ⲇⲩⲛⲁⲙⲓⲥ † ⲉⲧϩⲩⲡⲟⲧⲁⲥ’‐\nⲥⲉ ⲉϥⲥⲕⲁⲉⲓ ⲟⲩⲟⲛ’ ⲛⲓⲙ’ ⲉϥⲥⲟⲃⲧⲉ ⲉⲧⲣⲟⲩ‐\nϣⲱⲡⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲅⲁⲣ’ ⲉⲡⲙⲁ ⲧⲏⲣϥ’ ⲁϩⲉ‐\nⲣⲁⲧϥ’ ⲉⲓⲧⲉ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ’ ⲉⲓⲧⲉ ⲛⲉⲑⲟⲟⲩ\nⲁⲩⲱ ⲛⲟⲩⲛⲁⲙ’ ⲙⲛ̅ ⲛ̅ϭⲃⲟⲩⲣ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ϥⲙⲟⲟⲛⲉ ⲟ[ⲩⲟ]ⲛ ⲛⲓⲙ’ ⲁⲩⲱ ϥⲣ̅ⲁⲣⲭⲉⲓ\nⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲧ[ⲏⲣⲟ]ⲩ [ⲛ]ⲉⲧ’ϩⲩⲡⲟⲧⲁⲥⲥⲉ\nⲁⲩⲱ ⲛⲉⲧ’ϩⲩⲡ[ⲟⲧⲁⲥⲥⲉ ⲁ]ⲛ ⲙⲛ̅ ⲛⲉⲧ’ⲟⲩⲁⲧ’\nⲕⲁⲓ ⲅⲁⲣ ϥϭⲱⲉ[....]ϣ ⲱⲧⲡ’ ⲙ̅ⲙⲟⲟⲩ ⲉ‐\nϩⲟⲩⲛ’ ϫⲉ[ⲕⲁⲁⲥ ..]ϣⲁⲛ’ⲟⲩⲱϣ ⲛⲟⲩϣ‐\n[ⲃ]ⲱⲕ [ⲉⲃⲟⲗ] §[ⲡⲉⲛⲧ]ⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ ⲛⲉ‐"
+        },
+        {
+          "title": "Adam and Cain",
+          "subtitle": "Adam and Cain",
+          "heading": "Adam and Cain (60, 34-61, 12)",
+          "rangeLabel": "60, 34-61, 12",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 34
+            },
+            "end": {
+              "page": 61,
+              "line": 12
+            }
+          },
+          "english": "[The one] created was [noble, and you would] expect his children to be\nnoble. If he had not been created but rather had been conceived, you would\nexpect his offspring to be noble. But in fact he was created, and then he\nproduced offspring.\nAnd what nobility this is! First came adultery, then murder. One was born\nof adultery, for he was the son of the serpent. He became a murderer, like his\nfather, and he killed his brother. Every act of sexual intercourse between those\nunlike each other is adultery.",
+          "coptic": "[ⲃ]ⲱⲕ [ⲉⲃⲟⲗ] §[ⲡⲉⲛⲧ]ⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ ⲛⲉ‐\n[ⲥⲱϥ ⲁⲩⲱ ⲛ]ⲉⲕⲛⲁϩⲉ ⲁⲛⲉϥϣⲏⲣⲉ ⲉⲩⲟ’\nⲙ̅ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲉⲩⲅⲉⲛⲏⲥ ⲉϣϫⲉ ⲙ̅ⲡⲟⲩⲣ̅‐\nⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁⲗⲗⲁ ⲁⲩϫⲡⲟϥ’ ⲛⲉⲕ’ⲛⲁ‐\nϩⲉ ⲁⲡⲉϥ’ⲥⲡⲉⲣⲙⲁ ⲉϥⲟ ⲛ̅ⲉⲩⲅⲉⲛⲏⲥ ⲧⲉ‐\nⲛⲟⲩ ⲇⲉ ⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁϥ’ϫⲡⲟ ⲁϣ\nⲛ̅ⲉⲩⲅⲉⲛⲉⲓⲁ ⲡⲉ ⲡⲁⲉⲓ’ ϣⲟⲣⲡ’ ⲁⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟ‐\nⲉⲓⲕ’ ϣⲱⲡⲉ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲫⲱⲧⲃⲉ ⲁⲩⲱ ⲁⲩ‐\nϫⲡⲟϥ’ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟⲉⲓⲕ’ ⲛⲉ ⲡϣⲏ‐\nⲣⲉ ⲅⲁⲣ’ ⲙ̅ⲫⲟϥ’ ⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲁϥϣⲱⲡⲉ\nⲛ̅ϩⲁⲧⲃ̅ⲣⲱⲙⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡⲉϥⲕⲉⲉⲓⲱⲧ’ ⲁⲩ‐\nⲱ ⲁϥⲙⲟⲩⲟⲩⲧ’ ⲙ̅ⲡⲉϥ’ⲥⲟⲛ ⲕⲟⲓⲛⲱⲛⲓⲁ ⲇⲉ\nⲛⲓⲙ’ ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉϯⲛⲉ ⲁⲛ’ ⲛ̅‐\nⲛⲟⲩⲉⲣⲏⲩ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲛⲟⲉⲓⲕ’ ⲧⲉ’ §ⲡⲛⲟⲩⲧⲉ"
+        },
+        {
+          "title": "God the Dyer",
+          "subtitle": "God the Dyer",
+          "heading": "God the Dyer (61, 12-20)",
+          "rangeLabel": "61, 12-20",
+          "range": {
+            "start": {
+              "page": 61,
+              "line": 12
+            },
+            "end": {
+              "page": 61,
+              "line": 20
+            }
+          },
+          "english": "God is a dyer. Just as the good dyes, said to be genuine dyes, dissolve into what\nis dyed in them, so also those whom God dyes become immortal through his\ncolors, for his dyes are immortal. And God dips those to be dipped in water.",
+          "coptic": "ⲛⲟⲩⲉⲣⲏⲩ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲛⲟⲉⲓⲕ’ ⲧⲉ’ §ⲡⲛⲟⲩⲧⲉ\nⲟⲩϫϭⲓⲧ ⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛ̅ϫⲱϭⲉ ⲉⲧⲛⲁⲛⲟⲩⲟⲩ\nϣⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ’ ϫⲉ ⲛⲁⲗⲏⲑⲓⲛⲟⲛ ϣⲁⲩ‐\nⲙⲟⲩ ⲙⲛ̅ ⲛⲉⲛ’ⲧⲁⲩϫⲱϭⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ⲧⲁ’‐\nⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛⲉⲛ’ⲧⲁ ⲡⲛⲟⲩⲧⲉ ϫⲟϭⲟⲩ’ ⲉ‐\nⲡⲉⲓⲇⲏ ϩⲛ̅ⲛⲁⲧ’ⲙⲟⲩ ⲛⲉ ⲛⲉϥϫⲱϭⲉ ϣⲁⲩ‐\nⲣ̅ ⲁⲧⲙⲟⲩ ⲉⲃⲟⲗ’ † ϩⲓⲧⲟⲟⲧϥ’ ⲛ̅ⲛⲉϥ’ⲡⲁϩⲣⲉ’\nⲡⲛⲟⲩⲧⲉ ⲇⲉ ⲣ̅ⲃⲁⲡⲧⲓⲍⲉ ⲛ̅ⲛⲉⲧϥⲣ̅ⲃⲁⲡⲧⲓ‐\nⲍⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⟦ⲟⲩ⟧ ϭⲟⲙ’"
+        },
+        {
+          "title": "Seeing",
+          "subtitle": "Seeing",
+          "heading": "Seeing (61, 20-35)",
+          "rangeLabel": "61, 20-35",
+          "range": {
+            "start": {
+              "page": 61,
+              "line": 20
+            },
+            "end": {
+              "page": 61,
+              "line": 35
+            }
+          },
+          "english": "People cannot see anything that really is without becoming like it. It is not so\nwith people in the world, who see the sun without becoming the sun and see the\nsky and earth and everything else without becoming them.\nRather, in the realm of truth,\nyou have seen things there and have become those things,\nyou have seen the Spirit and have become Spirit,\nyou have seen Christ and have become Christ,\nyou have seen the [Father] and will become Father.\n[Here] in the world you see everything but do not [see] yourself, but there in\nthat realm you see yourself, and you will [become] what you see.",
+          "coptic": "ⲍⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⟦ⲟⲩ⟧ ϭⲟⲙ’\nⲛ̅ⲧⲉ ⲗⲁⲁⲩ ⲛⲁⲩ’ ⲁⲗⲁⲁⲩ ϩⲛ̅ ⲛⲉⲧ’ⲥⲙⲟⲛⲧ’\nⲉⲓ ⲙⲏⲧⲓ ⲛ̅ⲧⲉ ⲡⲉⲧⲙ̅ⲙⲁⲩ ϣⲱⲡⲉ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ⲑⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁⲛ ⲉϥ‐\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ϥⲛⲁⲩ ⲉⲡⲣⲏ ⲉϥⲟ ⲣ̅ⲣⲏ\nⲁⲛ ⲁⲩⲱ ϥⲛⲁⲩ ⲉⲧⲡⲉ ⲙⲛ̅ ⲡⲕⲁϩ ⲙ̅ⲛ̅ ⲛ̅‐\nⲕⲉϩⲃⲏⲩⲉ ⲧⲏⲣⲟⲩ ⲉⲛ’ⲧⲟϥ’ ⲁⲛ ⲡⲉ ⲛⲉⲧⲙ̅‐\nⲙⲁⲩ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲙⲉ ⲁⲗⲗⲁ ⲁⲕ’‐\nⲛⲁⲩ ⲉⲗⲁⲁⲩ’ ⲛ̅ⲧⲉ ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲉⲕ’ϣⲱ‐\nⲡⲉ ⲛ̅ⲛⲉⲧⲙ̅ⲙⲁⲩ’ ⲁⲕⲛⲁⲩ ⲁⲡⲡ̅ⲛ̅ⲁ̅ ⲁⲕ’‐\nϣⲱⲡⲉ ⲙ̅ⲡⲛ̅ⲁ̅ ⲁⲕⲛⲁ[ⲩ ⲁ]ⲡⲭ̅ⲥ̅ ⲁⲕϣⲱⲡⲉ\nⲛ̅ⲭⲥ̅ ⲁⲕⲛⲁⲩ ⲁⲡ[ⲉⲓⲱⲧ ⲕ]ⲛⲁϣⲱⲡⲉ ⲛ̅ⲉⲓ‐\nⲱⲧ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ [ⲛ̅ⲛⲉⲉⲓⲙⲁ] ⲙⲉⲛ ⲕⲛⲁⲩ\nⲁϩⲱⲃ ⲛⲓⲙ’ ⲁⲩⲱ ⲕ[ⲛⲁⲩ ⲉⲣⲟ]ⲕ’ ⲁⲛ ⲟⲩⲁⲁⲕ’\nⲕⲛⲁⲩ ⲇⲉ ⲉⲣⲟⲕ’ ⲙ̅ⲡ[ⲙⲁ ⲉⲧⲙ̅]ⲙⲁⲩ ⲡⲉⲧ‐\nⲕⲛⲁⲩ ⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲉⲕⲛⲁϣ[ⲱⲡⲉ ⲙ̅ⲙ]ⲟϥ"
+        },
+        {
+          "title": "Faith and Love",
+          "subtitle": "Faith and Love",
+          "heading": "Faith and Love (61, 36-62, 6)",
+          "rangeLabel": "61, 36-62, 6",
+          "range": {
+            "start": {
+              "page": 61,
+              "line": 36
+            },
+            "end": {
+              "page": 62,
+              "line": 6
+            }
+          },
+          "english": "Faith receives, love gives. [No one can receive] without faith, and no one\ncan give without love. So to receive we have faith and to love we give. If\nsomeone gives without love, that person gets no benefit from what was given.\nAnyone who receives something but does not receive the Lord is still a\nHebrew.",
+          "coptic": "§ⲧⲡⲓⲥⲧⲓⲥ ϫⲓ ⲧⲁⲅⲁⲡⲏ’ ⲥϯ ⲙ[ⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣ]‐\n[ϫⲓ] ⲁϫⲛ̅ ⲧⲡⲓⲥⲧⲓⲥ [ⲙ]ⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣϯ ⲁϫⲛ̅\nⲁⲅⲁⲡⲏ ⲉⲧⲃⲉ ⲡⲁⲉⲓ’ ϫⲉⲕⲁⲁⲥ ⲙⲉⲛ’ ⲉⲛⲁϫⲓ\nⲧⲛ̅ⲣ̅ⲡⲓⲥⲧⲉⲩⲉ ϣⲓⲛⲁ ⲇ〈ⲉ〉 ⲉⲛⲁⲙⲉ ⲛ̅ⲧⲛ̅ϯ ⲉⲡⲉⲓ\nⲉⲣϣⲁ ⲟⲩⲁ ϯ ϩⲛ̅ ⲟⲩⲁⲅⲁⲡⲏ ⲁⲛ ⲙⲛ̅ⲧⲉϥ ⲱ‐\nⲫⲉⲗⲉⲓⲁ ϩⲙ̅ ⲡⲉⲛⲧⲁϥⲧⲁⲁϥ’ ⲡⲉⲛⲧⲁϩϫⲓ\nⲡϫⲟⲉⲓⲥ ⲁⲛ ⲟ ⲛⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲉⲧⲓ §ⲛ̅ⲁⲡⲟ‐"
+        },
+        {
+          "title": "Jesus’s Names",
+          "subtitle": "Jesus’s Names",
+          "heading": "Jesus’s Names (62, 6-17)",
+          "rangeLabel": "62, 6-17",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 6
+            },
+            "end": {
+              "page": 62,
+              "line": 17
+            }
+          },
+          "english": "The apostles who came before us used the names I sous naz raios messias,\nwhich means “Jesus the Nazorean, the Christ.” The last name is “Christ,” the\nfirst name is “Jesus,” the middle name is “the Nazarene.” Messias has two\nmeanings, “Christ” and “measured.” In Hebrew “Jesus” means\n“redemption.” Nazara means “truth,” and so “the Nazarene” means “truth.”\n“Christ” has been “measured,” thus “the Nazarene” and “Jesus” have been\nmeasured out.",
+          "coptic": "ⲡϫⲟⲉⲓⲥ ⲁⲛ ⲟ ⲛⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲉⲧⲓ §ⲛ̅ⲁⲡⲟ‐\nⲥⲧⲟⲗⲟⲥ ⲉⲧϩⲓ ⲧⲛ̅ⲛⲉϩⲏ ⲧⲉⲉⲓϩⲉ ⲛⲉⲩⲙⲟⲩⲧ‐\nⲧⲉ ϫⲉ ⲓⲏ̅ⲥ̅ ⲡⲛⲁⲍⲱⲣⲁⲓⲟⲥ ⲙⲉⲥⲥⲓⲁⲥ ⲉⲧⲉ\nⲡⲁⲉⲓ ⲡⲉ ⲓ̅ⲏ̅ⲥ̅ ⲡⲛⲁⲍⲱⲣⲁⲓⲟⲥ ⲡⲉⲭ̅ⲥ̅’ ⲡϩⲁⲉ\nⲣ̅ⲣⲁⲛ’ ⲡⲉ ⲡⲉⲭⲥ̅ ⲡϣⲟⲣⲡ’ ⲡⲉ ⲓ̅ⲥ̅ ⲡⲉⲧϩⲛ̅\nⲧⲙⲏⲧⲉ ⲡⲉ ⲡⲛⲁⲍⲁⲣⲏⲛⲟⲥ ⲙⲉⲥⲥⲓⲁⲥ’\nⲟⲩⲛ̅ⲧⲁϥ’ ⲥⲏⲙⲁⲥⲓⲁ ⲥⲛ̅ⲧⲉ ⲁⲩⲱ ⲡⲉⲭⲣ̅ⲥ̅\nⲁⲩⲱ ⲡⲉⲧϣⲏⲩ ⲓ̅ⲥ̅ ⲙ̅ⲙ̅ⲛⲧ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲡⲉ\nⲡⲥⲱⲧⲉ ⲛⲁⲍⲁⲣⲁ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲡⲛⲁ‐\nⲍⲁⲣⲏⲛⲟⲥ ⟦ⲛⲉ⟧ ϭⲉ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ † ⲡⲉ ⲡⲭ̅ⲥ̅ †\nⲛ̅ⲧⲁⲩϣⲓⲧϥ’ ⲡⲛⲁⲍⲁⲣⲏⲛⲟⲥ ⲙⲛ̅ ⲓ̅ⲥ̅\nⲛⲉⲛⲧⲁⲩϣⲓⲧⲟⲩ §ⲡⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ ⲉⲩϣⲁⲛ‐"
+        },
+        {
+          "title": "A Pearl in Mud",
+          "subtitle": "A Pearl in Mud",
+          "heading": "A Pearl in Mud (62, 17-26)",
+          "rangeLabel": "62, 17-26",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 17
+            },
+            "end": {
+              "page": 62,
+              "line": 26
+            }
+          },
+          "english": "If a pearl is thrown into mud, it will not lose its value, and if it is anointed with\nbalsam, it will not increase its value. It is always precious in its owner’s eyes.\nLikewise, the children of God are precious in the eyes of the Father, whatever\ntheir circumstances of life.",
+          "coptic": "ⲛⲉⲛⲧⲁⲩϣⲓⲧⲟⲩ §ⲡⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ ⲉⲩϣⲁⲛ‐\nⲛⲟϫϥ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲃⲟⲣⲃⲟⲣⲟⲛ ϣⲁϥϣⲱ‐\nⲡⲉ {ϣⲁϥϣⲱⲡⲉ ⲁⲛ’} ⲉϥϣⲏⲥ ⲛ̅ϩⲟⲩⲟ\nⲟⲩⲧⲉ ⲉⲩϣⲁⲧⲁϩⲥϥ’ ⲛ̅ⲛⲁⲡⲟⲃⲁⲣⲥⲓⲙⲟⲛ\nⲉϥⲛⲁϣⲱⲡⲉ 〈ⲁⲛ〉 ⲉϥⲧⲁⲉⲓⲏⲩ’ ⲁⲗⲗⲁ ⲟⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲧⲁⲉⲓⲟ ϩⲁϩⲧⲛ̅ ⲡⲉϥ’ϫⲟⲉⲓⲥ’\nⲟⲩⲟⲉⲓϣ ⲛⲓⲙ’ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲙ̅‐\nⲡⲛⲟⲩⲧⲉ ϩⲛ̅ ⲛⲉⲧⲟⲩⲛⲁϣⲱⲡⲉ ⲛ̅ϩⲏⲧⲟⲩ\nⲉⲧⲓ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲧⲁⲉⲓⲟ ϩⲁϩⲧⲙ̅ ⲡⲟⲩ‐\nⲉⲓⲱⲧ’ §ⲉⲕ’ϣⲁϫⲟⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲓ̈ⲟⲩⲇⲁⲓ̈"
+        },
+        {
+          "title": "The Name Christian",
+          "subtitle": "The Name Christian",
+          "heading": "The Name Christian (62, 26-35)",
+          "rangeLabel": "62, 26-35",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 26
+            },
+            "end": {
+              "page": 62,
+              "line": 35
+            }
+          },
+          "english": "If you say, “I am a Jew,” no one will be moved. If you say, “I am a Roman,” no\none will be disturbed. If you say, “I am a Greek, barbarian, slave, free,” no one\nwill be troubled. If you say, “I am a Christian,” the [world] will be shaken. May I\n[receive the one] whose name the [world] cannot bear to hear.",
+          "coptic": "ⲉⲓⲱⲧ’ §ⲉⲕ’ϣⲁϫⲟⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲓ̈ⲟⲩⲇⲁⲓ̈\nⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁⲕⲓⲙ’ ⲉⲕϣⲁϫⲟⲟⲥ’ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩ‐\nϩⲣⲱⲙⲁⲓⲟⲥ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁⲣ̅ⲧⲁⲣⲁⲥⲥⲉ ⲉⲕϣⲁ‐\nϫⲟⲟⲥ ϫⲉ ⲁⲛⲟ[ⲕ ⲟ]ⲩϩⲉⲗⲗⲏⲛ ⲟⲩⲃⲁⲣⲃⲁ‐\nⲣⲟⲥ ⲟⲩϩⲙϩ̅ⲁ̅ⲗ̅ [ⲟⲩⲉⲗⲉⲩ]ⲑⲉⲣⲟⲥ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛⲁϣⲧⲟⲣⲧⲣ̅ ⲉⲕ[ϣⲁϫⲟⲟⲥ] ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲭⲣⲏ‐\nⲥⲧⲓⲁⲛⲟⲥ ⲡ[.....] ⲛⲁⲛⲟⲉⲓⲛ ⲛ̅ⲅⲉⲛⲟⲓ‐\nⲧⲟ ⲛ̅ⲧⲁϣ[... ⲛ̅ⲧ]ⲉⲉⲓⲙⲉⲓⲛⲉ ⲡⲁⲉⲓ’ ⲉ‐\n[ⲧ]ⲉ .[.....] ⲛⲁϣϩⲩⲡⲟⲙⲉⲓⲛⲉ ⲁⲛ’ ⲉ‐\n[ⲥⲱⲧⲙ̅ ⲉⲡ]ⲉϥⲣⲁⲛ’ §ⲡⲛⲟⲩⲧⲉ ⲟⲩⲁⲙⲣⲱ’"
+        },
+        {
+          "title": "God Is a Man-Eater",
+          "subtitle": "God Is a Man-Eater",
+          "heading": "God Is a Man-Eater (62, 35-63, 4)",
+          "rangeLabel": "62, 35-63, 4",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 35
+            },
+            "end": {
+              "page": 63,
+              "line": 4
+            }
+          },
+          "english": "God is a man-eater, and so humans are [sacrificed] to him. Before humans\nwere sacrificed, animals were sacrificed, because those to whom they were\nsacrificed were not gods.",
+          "coptic": "[ⲥⲱⲧⲙ̅ ⲉⲡ]ⲉϥⲣⲁⲛ’ §ⲡⲛⲟⲩⲧⲉ ⲟⲩⲁⲙⲣⲱ’\nⲙⲉ ⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲥⲉ[ϣⲱ]ⲱⲧ ⲙ̅ⲡⲣⲱⲙ[ⲉ]\nⲛⲁϥ ϩⲁ ⲧⲉϩⲏ ⲉⲙⲡⲁⲧⲟⲩϣⲱⲱⲧ’ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ⲛⲉⲩϣⲱⲱⲧ’ ⲛ̅ϩⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲉ ϩⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲅⲁⲣ ⲁⲛ ⲛⲉ ⲛⲁⲉⲓ ⲉⲧⲟⲩϣⲱⲱⲧ’ ⲛⲁⲩ"
+        },
+        {
+          "title": "Glass and Ceramic Vessels",
+          "subtitle": "Glass and Ceramic Vessels",
+          "heading": "Glass and Ceramic Vessels (63, 5-11)",
+          "rangeLabel": "63, 5-11",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 5
+            },
+            "end": {
+              "page": 63,
+              "line": 11
+            }
+          },
+          "english": "Glass and ceramic vessels are both made with fire. If glass vessels break, they\nare redone, since they have been made through breath. But if ceramic vessels\nbreak, they are destroyed, since they have been made without breath.",
+          "coptic": "§ⲛ̅ⲥⲕⲉⲩⲟⲥ ⲛ̅ⲛⲁⲃⲁϭⲏⲉⲓⲛ ⲙⲛ̅ ⲛ̅ⲥⲕⲉⲩⲟⲥ\nⲃ̅ⲃⲗϫⲉ ϣⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲕⲱϩⲧ\nⲁⲗⲗⲁ ⲛ̅ⲥⲕⲉⲩⲟⲥ ⲛ̅ⲛⲁⲃⲁϭⲏⲉⲓⲛ ⲉⲩϣⲁ‐\nⲟⲩⲱϭⲡ’ ⲡⲁⲗⲓⲛ’ ϣⲁⲩⲧⲁⲙⲓⲟⲟⲩ ⲛ̅ⲧⲁⲩ‐\nϣⲱⲡⲉ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲡ̅ⲛ̅ⲁ̅ ⲛ̅ⲥⲕⲉⲩⲟⲥ\nⲇⲉ ⲃ̅ⲃⲗ̅ϫⲉ ⲉⲩϣⲁⲟⲩⲱϭⲡ’ ϣⲁⲩⲧⲁⲕⲟ\nⲛ̅ⲧⲁⲩϣⲱⲡⲉ ⲅⲁⲣ ⲭⲱⲣⲓⲥ ⲛⲓϥⲉ §ⲟⲩⲉⲓⲱ"
+        },
+        {
+          "title": "A Donkey Turning a Millstone",
+          "subtitle": "A Donkey Turning a Millstone",
+          "heading": "A Donkey Turning a Millstone (63, 11-21)",
+          "rangeLabel": "63, 11-21",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 11
+            },
+            "end": {
+              "page": 63,
+              "line": 21
+            }
+          },
+          "english": "A donkey turning a millstone walked a hundred miles. When it was set loose, it\nfound itself in the same place. Some people travel long distances but get\nnowhere. By nightfall they have seen no cities or villages, nothing man-made or\nnatural, no powers or angels. These miserable people have labored in vain.",
+          "coptic": "ⲛ̅ⲧⲁⲩϣⲱⲡⲉ ⲅⲁⲣ ⲭⲱⲣⲓⲥ ⲛⲓϥⲉ §ⲟⲩⲉⲓⲱ\nⲉϥⲕⲱⲧⲉ ϩⲁ ⲟⲩⲱⲛⲉ ⲛ̅ⲛⲟⲩⲧ ⲁϥⲛ̅ ϣⲉ ⲙ̅ⲙⲓⲗⲟⲥ\nⲉⲃⲟⲗ ⲉϥ’ⲙⲟⲟϣⲉ ⲛ̅ⲧⲁⲣⲟⲩⲕⲁⲁϥ’ ⲉⲃⲟⲗ\nⲁϥϩⲉ ⲉⲣⲟϥ ⲟⲛ ⲉϥϩⲙ̅ ⲡⲓⲙⲁ ⲡⲓⲙⲁ\nⲟⲩⲛ ϩⲣ̅ⲣⲱⲙⲉ ϣⲟⲟⲡ’ ϣⲁⲩⲛ̅ ϩⲁϩ ⲙ̅ⲙⲟ‐\nⲟϣⲉ’ ⲉⲃⲟⲗ’ ⲁⲩⲱ ⲙⲁⲩⲡⲣⲟⲕⲟⲡⲧⲉ ⲉ‐\nⲗⲁⲁⲩ ⲙ̅ⲙⲁ ⲛ̅ⲧⲁⲣⲉ ⲣⲟⲩϩⲉ ϣⲱⲡⲉ ⲉⲣⲟ‐\nⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲟⲩⲛⲁⲩ ⲉⲡⲟⲗⲓⲥ ⲟⲩⲧⲉ\nⲕⲱⲙⲏ ⲟⲩⲧⲉ ⲕⲧⲓⲥⲓⲥ ⲟⲩⲧⲉ ⲫⲩⲥⲓⲥ ⲙⲛ̅\nⲇⲩⲛⲁⲙⲓⲥ’ ⲙⲛ̅ ⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲓⲕⲏ ⲁⲛⲧⲁⲗⲁⲓ‐\nⲡⲱⲣⲟⲥ ϩⲓⲥⲉ §ⲧⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓⲁ ⲡⲉ ⲓ̅ⲥ̅ ⲉⲩ‐"
+        },
+        {
+          "title": "The Eucharist and Jesus",
+          "subtitle": "The Eucharist and Jesus",
+          "heading": "The Eucharist and Jesus (63, 21-24)",
+          "rangeLabel": "63, 21-24",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 21
+            },
+            "end": {
+              "page": 63,
+              "line": 24
+            }
+          },
+          "english": "The eucharist is Jesus. In Syriac it is called pharisatha, which means “that which\nis spread out.” For Jesus came to crucify the world.",
+          "coptic": "ⲡⲱⲣⲟⲥ ϩⲓⲥⲉ §ⲧⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓⲁ ⲡⲉ ⲓ̅ⲥ̅ ⲉⲩ‐\nⲙⲟⲩⲧⲉ ⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲙ̅ⲙⲛⲧⲥⲩⲣⲟⲥ ϫⲉ ⲫⲁ‐\nⲣⲓⲥⲁⲑⲁ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲧⲡⲟⲣϣ’ ⲉⲃⲟⲗ\nⲁⲓⲥ̅ ⲅⲁⲣ ⲉⲓ ⲉϥ’ⲥⲧⲁⲩⲣⲟⲩ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ"
+        },
+        {
+          "title": "The Dye Works of Levi",
+          "subtitle": "The Dye Works of Levi",
+          "heading": "The Dye Works of Levi (63, 25-30)",
+          "rangeLabel": "63, 25-30",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 25
+            },
+            "end": {
+              "page": 63,
+              "line": 30
+            }
+          },
+          "english": "The master went into the dye works of Levi, took seventy-two colored cloths,\nand threw them into a vat. He drew them out and they all were white. He said,\n“So the son of humanity has come as a dyer.”",
+          "coptic": "§ⲁⲡϫⲟⲉⲓⲥ ⲃⲱⲕ’ ⲉϩⲟⲩ[ⲛ] ⲉⲡⲙⲁ ⲛ̅ϫⲱϭⲉ\nⲛ̅ⲗⲉⲩⲉⲓ ⲁϥϥⲓ ϣⲃⲉⲥⲛⲟⲟⲩⲥ ⲛ̅ⲭⲣⲱⲙⲁ\nⲁϥⲛⲟϫⲟⲩ ⲁⲧⲣⲟϩⲧⲉ ⲁϥⲛ̅ⲧⲟⲩ ⲉϩⲣⲁⲓ̈\nⲉⲩⲟⲃϣ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ ⲧⲁⲉⲓ\nⲧⲉ ⲑⲉ ⲛ̅ⲧⲁϥⲉⲓ ⲙ̅ⲙⲟⲥ ⲛ̅ϭⲓ ⲡϣⲏⲣ⟦ⲉ ⲙ̅‐\nⲡϣⲏⲣ⟧ⲉ ⲙ̅ⲡⲣⲱⲙ[ⲉ ⲉ]ϥ[ⲟ] ⲛ̅ϫϭⲓⲧ’ §ⲧⲥⲟ‐"
+        },
+        {
+          "title": "Wisdom and Mary of Magdala",
+          "subtitle": "Wisdom and Mary of Magdala",
+          "heading": "Wisdom and Mary of Magdala (63, 30-64, 9)",
+          "rangeLabel": "63, 30-64, 9",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 30
+            },
+            "end": {
+              "page": 64,
+              "line": 9
+            }
+          },
+          "english": "Wisdom, who is called barren, is the Mother of the angels.\nThe companion of the [Savior] is Mary of Magdala. The [Savior loved] her\nmore than [all] the disciples, [and he] kissed her often on her [mouth].\nThe other [disciples] …said to him, “Why do you love her more than all\nof us?”\nThe Savior answered and said to them, “Why don’t I love you like her? If a\nblind person and one who can see are both in darkness, they are the same. When\nthe light comes, one who can see will see the light, and the blind person will stay\nin darkness.”",
+          "coptic": "ⲡϣⲏⲣ⟧ⲉ ⲙ̅ⲡⲣⲱⲙ[ⲉ ⲉ]ϥ[ⲟ] ⲛ̅ϫϭⲓⲧ’ §ⲧⲥⲟ‐\nⲫⲓⲁ ⲉⲧⲟⲩⲙⲟⲩⲧ[ⲉ ⲉⲣⲟ]ⲥ ϫⲉ ⲧⲥⲧⲓⲣⲁ ⲛ̅‐\nⲧⲟⲥ ⲧⲉ ⲧⲙⲁⲁ[ⲩ ⲛ̅ⲛ̅ⲁⲅ]ⲅⲉⲗⲟⲥ ⲁⲩⲱ [ⲧ]ⲕⲟⲓ‐\nⲛⲱⲛⲟⲥ ⲙ̅ⲡⲥ[... ⲙⲁ]ⲣⲓⲁ ⲧⲙⲁⲅ[ⲇⲁ]‐\nⲗⲏⲛⲏ ⲛⲉⲣⲉ ⲡ.[..... ⲙⲉ] ⲙ̅ⲙⲟ[ⲥ ⲛ̅]‐\nϩⲟⲩⲟ ⲁⲙ̅ⲙⲁⲑⲏⲧ[ⲏⲥ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛⲉϥ]‐\nⲁⲥⲡⲁⲍⲉ ⲙ̅ⲙⲟⲥ ⲁⲧⲉⲥ[...... ⲛ̅ϩⲁϩ]\nⲛ̅ⲥⲟⲡ’ ⲁⲡⲕⲉⲥⲉⲉⲡⲉ ⲙ̅[ⲙⲁⲑⲏⲧⲏⲥ\n..].ⲉⲣⲟ.[.].[..]ⲙⲁ ⲡⲉϫⲁⲩ ⲛⲁϥ’ ϫⲉ\nⲉⲧⲃⲉ ⲟⲩ ⲕⲙⲉ ⲙ̅ⲙⲟⲥ ⲡⲁⲣⲁⲣⲟⲛ’ ⲧⲏⲣⲛ̅ ⲁϥ’‐\nⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱⲧⲏⲣ’ ⲡⲉϫⲁϥ ⲛⲁⲩ {ⲡⲉ‐\nϫⲁϥ ⲛⲁⲩ} ϫⲉ ⲉⲧⲃⲉ ⲟⲩ ϯⲙⲉ ⲙ̅ⲙⲱⲧⲛ̅ ⲁⲛ’\nⲛ̅ⲧⲉⲥϩⲉ ⲟⲩⲃ̅ⲗⲗⲉ ⲙⲛ̅ ⲟⲩⲁ ⲉϥⲛⲁⲩ ⲉⲃⲟⲗ\nⲉⲩϩⲙ̅ ⲡⲕⲁⲕⲉ ⲙ̅ⲡⲉⲥⲛⲁⲩ ⲥⲉϣⲟⲃⲉ ⲉⲛⲟⲩ‐\nⲉⲣⲏⲩ ⲁⲛ ϩⲟⲧⲁⲛ’ ⲉⲣϣⲁ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲓ’ ⲧⲟⲧⲉ\nⲡⲉⲧⲛⲁⲃⲟⲗ’ ϥⲛⲁⲛⲁⲩ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ\nⲡⲉⲧⲟ ⲃ̅ⲃⲗ̅ⲗⲉ ⲉϥⲛⲁϭⲱ ϩⲙ̅ ⲡⲕⲁⲕⲉ §ⲡⲉ’‐"
+        },
+        {
+          "title": "One Who Is",
+          "subtitle": "One Who Is",
+          "heading": "One Who Is (64, 9-12)",
+          "rangeLabel": "64, 9-12",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 9
+            },
+            "end": {
+              "page": 64,
+              "line": 12
+            }
+          },
+          "english": "The master said, “Blessed is one who is before coming into being. For whoever\nis, was and will be.”",
+          "coptic": "ⲡⲉⲧⲟ ⲃ̅ⲃⲗ̅ⲗⲉ ⲉϥⲛⲁϭⲱ ϩⲙ̅ ⲡⲕⲁⲕⲉ §ⲡⲉ’‐\nϫⲉ ⲡϫⲟⲉⲓⲥ ϫⲉ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉ ⲡⲉⲧ’ϣⲟ‐\nⲟⲡ’ ϩⲁ ⲧⲉϩⲏ ⲉⲙ’ⲡⲁⲧⲉϥ’ϣⲱⲡⲉ’ ⲡⲉⲧϣⲟ‐\nⲟⲡ’ ⲅⲁⲣ ⲁϥϣⲱⲡⲉ ⲁⲩⲱ ϥⲛⲁϣⲱⲡⲉ §ⲡϫⲓ‐"
+        },
+        {
+          "title": "Human Beings and Animals",
+          "subtitle": "Human Beings and Animals",
+          "heading": "Human Beings and Animals (64, 12-22)",
+          "rangeLabel": "64, 12-22",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 12
+            },
+            "end": {
+              "page": 64,
+              "line": 22
+            }
+          },
+          "english": "The superiority of human beings is not apparent to the eye, but lies in what is\nhidden. Consequently, they are dominant over animals that are stronger than they\nare and greater in ways apparent and hidden. So animals survive. But when\nhuman beings leave them, animals kill and devour each other. Animals have\neaten each other because they have found no other food. Now, however, they\nhave food, because humans till the ground.",
+          "coptic": "ⲟⲡ’ ⲅⲁⲣ ⲁϥϣⲱⲡⲉ ⲁⲩⲱ ϥⲛⲁϣⲱⲡⲉ §ⲡϫⲓ‐\nⲥⲉ ⲙ̅ⲡⲣⲱⲙⲉ ϥⲟⲩⲟⲛϩ ⲁⲛ’ ⲉⲃⲟⲗ’ ⲁⲗⲗⲁ\nϥϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲑⲏⲡ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ϥⲟ ⲛ̅‐\nϫⲟⲉⲓⲥ ⲁⲛ’ⲑⲏⲣⲓⲟⲛ ⲉⲧϫⲟⲟⲡ’ ⲉⲣⲟϥ’ ⲉⲧⲛⲉ‐\nⲁⲩ ⲕ’ⲁⲧⲁ ⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ’ ⲙⲛ̅ ⲡⲉⲑⲏⲡ’\nⲁⲩⲱ ⲡⲁⲉⲓ ϯ ⲛⲁⲩ ⲙ̅ⲡⲙⲟⲩⲛ’ ⲉⲃⲟⲗ ⲉⲣϣⲁ’\nⲡⲣⲱⲙⲉ ⲇⲉ ⲡⲱⲣϫ’ ⲉⲣⲟⲟⲩ ϣⲁⲩⲙⲟⲩⲟⲩⲧ’\nⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲛ̅ⲥⲉⲡⲱϩⲥ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ\nⲁⲩⲱ ⲁⲩⲟⲩⲱⲙ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ϫⲉ ⲙ̅ⲡⲟⲩϩⲉ\nⲉⲧⲣⲟⲫⲏ ⲧⲉⲛⲟⲩ ⲇⲉ ⲁⲩϩⲉ ⲉⲧⲣⲟⲫⲏ ⲉⲃⲟⲗ\nϫⲉ ⲁⲡⲣⲱⲙⲉ ⲣ̅ ϩⲱⲃ ⲉⲡⲕⲁϩ §ⲉⲣϣⲁ ⲟⲩⲁ’"
+        },
+        {
+          "title": "Going Down into the Water",
+          "subtitle": "Going Down into the Water",
+          "heading": "Going Down into the Water (64, 22-31)",
+          "rangeLabel": "64, 22-31",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 22
+            },
+            "end": {
+              "page": 64,
+              "line": 31
+            }
+          },
+          "english": "Anyone who goes down into the water and comes up without receiving\nanything and says, “I am a Christian,” has borrowed the name. But one who\nreceives the Holy Spirit has the name as a gift. A gift does not have to be paid\nback, but what is borrowed must be paid. This is how it is with us, when one of\nus experiences a mystery.",
+          "coptic": "ϫⲉ ⲁⲡⲣⲱⲙⲉ ⲣ̅ ϩⲱⲃ ⲉⲡⲕⲁϩ §ⲉⲣϣⲁ ⲟⲩⲁ’\nⲃⲱⲕ’ ⲉⲡⲉⲥⲏⲧ’ ⲉⲡⲙⲟⲟⲩ ⲛ̅ϥⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲙ’‐\nⲡⲉϥϫⲓ ⲗⲁⲁⲩ ⲛ̅ϥϫⲟⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲭⲣⲏ‐\nⲥⲧⲓⲁⲛⲟⲥ ⲛ̅ⲧⲁϥϫⲓ ⲙ̅ⲡⲣⲁⲛ’ ⲉⲧⲙⲏⲥⲉ ⲉϥ’‐\nϣⲁϫⲓ ⲇⲉ ⲙ̅ⲡⲡ̅ⲛ̅̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲟⲩⲛ̅ⲧⲁϥ ⲙ̅‐\nⲙⲁⲩ ⲛ̅ⲧⲇⲱⲣⲉⲁ ⲙ̅ⲡⲣⲁⲛ ⲡⲉⲛ̅ⲧⲁϩϫⲓ ⲛ̅ⲟⲩ‐\nⲇⲱⲣⲉⲁ ⲙⲁⲩϥⲓⲧⲥ̅ ⲛ̅ⲧⲟⲟⲧϥ’ ⲡⲉⲛⲧⲁϩϫⲓ ⲇⲉ\nⲉϫⲱϥ’ ⲉⲧⲙⲏⲥⲉ ϣⲁⲩϣⲁⲧϥ’ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ\nⲉⲧϣⲟ[ⲟ]ⲡ ⲛⲁⲛ ⲉⲣϣⲁ ⲟⲩⲁ ϣⲱⲡⲉ ϩⲛ̅\nⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟ[ⲛ’] §[ⲡⲙ]ⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲅⲁ‐"
+        },
+        {
+          "title": "Marriage",
+          "subtitle": "Marriage",
+          "heading": "Marriage (64, 31-65, 1)",
+          "rangeLabel": "64, 31-65, 1",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 31
+            },
+            "end": {
+              "page": 65,
+              "line": 1
+            }
+          },
+          "english": "The mystery of marriage is great. [Without] it, the world would [not] exist. The\nexistence of [the world depends on] people, and the existence [of people depends\non] marriage. Then think of the power of [pure] intercourse, though its image\nis defiled.",
+          "coptic": "ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟ[ⲛ’] §[ⲡⲙ]ⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲅⲁ‐\nⲙ[ⲟⲥ]’ ⲟⲩⲛⲟϭ [ⲡⲉ ⲁϫⲛ̅]ⲧϥ̅ ⲅⲁⲣ ⲛⲉ ⲡⲕⲟⲥ‐\n[ⲙⲟ]ⲥ ⲛⲁϣⲱ[ⲡⲉ ⲁⲛ ⲧⲥ]ⲩⲥⲧⲁⲥⲓⲥ ⲅⲁⲣ’ ⲙ̅‐\n[ⲡⲕⲟ]ⲥⲙⲟ[ⲥ.....]ⲙⲉ ⲧⲥⲩⲥⲧⲁⲥⲓⲥ ⲇⲉ\n[........ ⲡⲅ]ⲁⲙⲟⲥ ⲉⲣⲓⲛⲟⲉⲓ ⲛ̅ⲧⲕⲟⲓ‐\n[ⲛⲱⲛⲓⲁ .. ϫ]ⲱϩⲙ̅ ϫⲉ ⲟⲩⲛ̅ⲧ̅ⲁⲥ ⲙ̅ⲙⲁⲩ\n[.......]ⲇⲩⲛⲁⲙⲓⲥ ⲧⲉⲥϩⲓⲕⲱⲛ\nⲉⲥϣⲟⲟⲡ ϩⲛ̅ ⲟⲩϫⲱ[ϩⲙ̅] §[ⲛ̅]ⲥⲭ[ⲏⲙ]ⲁ ⲙⲡⲛ̅[ⲁ̅]"
+        },
+        {
+          "title": "Unclean Spirits",
+          "subtitle": "Unclean Spirits",
+          "heading": "Unclean Spirits (65, 1-26)",
+          "rangeLabel": "65, 1-26",
+          "range": {
+            "start": {
+              "page": 65,
+              "line": 1
+            },
+            "end": {
+              "page": 65,
+              "line": 26
+            }
+          },
+          "english": "Unclean spirits are male and female in form. Males have sex with souls that are\nfemale in form, and females cavort promiscuously with souls that are male in\nform. Souls cannot escape them if the spirits seize them, unless they receive the\nmale or female power of the bridegroom and the bride. These are received from\nthe mirrored bridal chamber.\nWhen foolish females see a man by himself, they jump on him, fondle him,\nand pollute him. Likewise, when foolish males see a beautiful woman by herself,\nthey seduce and violate her in order to pollute her. But when they see a husband\nand wife together, the females cannot make advances on the man and the males\ncannot make advances on the woman. So also if the image and the angel are\njoined, none can dare to make advances on the male or the female.",
+          "coptic": "ⲉⲥϣⲟⲟⲡ ϩⲛ̅ ⲟⲩϫⲱ[ϩⲙ̅] §[ⲛ̅]ⲥⲭ[ⲏⲙ]ⲁ ⲙⲡⲛ̅[ⲁ̅]\nⲛ̅ⲁⲕⲁⲑⲁⲣⲧⲟⲛ ⲟⲩⲛ̅ ϩⲟⲟⲩⲧ ⲛ̅ϩⲏⲧⲟⲩ ⲟⲩ‐\nⲛ̅ ϩⲛ̅ⲥϩⲓⲟⲙⲉ ⲛ̅ϩⲟⲟⲩⲧ ⲙⲉⲛ ⲛⲉ ⲉⲧⲣ̅ⲕⲟⲓ‐\nⲛⲱⲛⲉⲓ ⲁⲙⲯⲩⲭⲏ ⲉⲧⲣ̅ⲡⲟⲗⲓⲧⲉⲩⲉⲥⲑⲉ\nϩⲛ̅ⲛⲟⲩⲥⲭⲏⲙⲁ ⲛ̅ⲥϩⲓⲙⲉ ⲛ̅ⲥϩⲓⲟⲙⲉ ⲇⲉ\nⲛⲉ ⲛⲉⲧ̅ⲧⲏϩ ⲙⲛ̅ ⲛⲉⲧϩⲛ̅ ⲟⲩⲥⲭⲏⲙⲁ ⲛ̅‐\nϩⲟⲟⲩⲧ’ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲟⲩⲁⲧ’ⲧⲱⲧ’ ⲁⲩⲱ ⲙⲛ̅\nⲗⲁⲁⲩ ⲛⲁϣⲣ̅ ⲃⲟⲗ ⲉⲛⲁⲉⲓ ⲉⲩⲉⲙⲁϩⲧⲉ ⲙ̅‐\nⲙⲟϥ’ ⲉϥⲧⲙ̅ϫⲓ ⲛ̅ⲟⲩϭⲟⲙ ⲛ̅ϩⲟⲟⲩⲧ’ ⲙⲛ̅‐\nⲛⲟⲩⲥϩⲓⲙⲉ ⲉⲧⲉ ⲡⲛⲩⲙⲫⲓⲟⲥ ⲡⲉ ⲙⲛ\nⲧⲛⲩⲙⲫⲏ ⲟⲩⲁ ⲇⲉ ϫⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲛⲩⲙ’‐\nⲫⲱⲛ ⲛ̅ϩⲓⲕⲟⲛⲓⲕⲟⲥ ⲗ ϩⲟⲧⲁⲛ ⲉⲣϣⲁ ⲛ̅ⲥϩⲓ‐\nⲙⲉ ⲛ̅ⲁⲧⲥⲃⲱ ⲛⲁⲩ ⲁⲩϩⲟⲟⲩⲧ’ ⲉϥϩⲙⲟⲟⲥ\nⲟⲩⲁⲁϥ’ ϣⲁⲩϥⲱϭⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲱϥ ⲛ̅ⲥⲉ‐\nⲥⲱⲃⲉ ⲛⲙ̅ⲙⲁϥ’ ⲛ̅ⲥⲉϫⲟϩⲙⲉϥ’ ⲧⲉⲉⲓϩⲉ\nⲟⲛ ϩⲣ̅ⲣⲱⲙⲉ ⲛ̅ⲁⲧ’ⲥⲃⲱ ⲉⲩϣⲁⲛⲛⲁⲩ ⲉⲩ‐\nⲥϩⲓⲙⲉ ⲉⲥϩⲙⲟⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ ⲉⲛⲉⲥⲱⲥ\nϣⲁⲩⲡⲓⲑⲉ ⲙ̅ⲙⲟⲥ ⲛ̅ⲥⲉⲣ̅ⲃⲓⲁⲍⲉ ⲙ̅ⲙⲟⲥ\nⲉⲩⲟⲩⲱϣ ⲉϫⲟϩⲙⲉⲥ ⲉⲩϣⲁⲛⲛⲁⲩ ⲇⲉ\nⲁⲡϩⲟⲟⲩⲧ’ ⲙⲛ̅ ⲧⲉϥϩⲓⲙⲉ ⲉⲩϩⲙⲟⲟⲥ ϩⲁ‐\nⲧⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲙⲁⲣⲉ ⲛ̅ϩⲓⲟⲙⲉ ϣⲃⲱⲕ’ ⲉ‐\nϩⲟⲩⲛ ϣⲁ ⲡϩⲟⲟⲩⲧ ⲟⲩⲧⲉ ⲙⲁⲣⲉ ⲛ̅ϩⲟⲟⲩⲧ\nϣⲃⲱⲕ’ ⲉϩⲟⲩⲛ̅ ϣⲁ ⲧⲥϩⲓⲙⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ\nⲉⲣϣⲁ ⲑⲓⲕⲱⲛ’ ⲙⲛ̅ ⲡ[ⲁ]ⲅ’ⲅⲉⲗⲟⲥ ϩⲱⲧⲣ̅ ⲉ‐\nⲛⲟⲩⲉⲣⲏⲩ ⲟⲩⲧⲉ ⲙⲛ̅ [ⲗⲁ]ⲁⲩ ⲛⲁϣⲣ̅ⲧⲟⲗⲙⲁ\nⲁⲃⲱⲕ’ ⲉϩⲟⲩⲛ ϣⲁ ⲫ[ϩⲟ]ⲟⲩⲧ’ ⲏ ⲧⲥϩⲓⲙⲉ"
+        },
+        {
+          "title": "Whoever Leaves the World",
+          "subtitle": "Whoever Leaves the World",
+          "heading": "Whoever Leaves the World (65, 27-66, 6)",
+          "rangeLabel": "65, 27-66, 6",
+          "range": {
+            "start": {
+              "page": 65,
+              "line": 27
+            },
+            "end": {
+              "page": 66,
+              "line": 6
+            }
+          },
+          "english": "Whoever leaves the world can no longer be held back as if still in the world.\nSuch a person clearly is beyond desire…and fear, is dominant…, and is above\nenvy.\nIf…, that person is grasped and choked. How can that person escape the\n[great grasping powers]? How can that person [hide from them]?\nSome [say], “We are faithful,” in order that they [may escape unclean]\nspirits and demons. For if they had the Holy Spirit, no unclean spirit could grab\nthem.\nDo not fear the flesh and do not love it. If you fear the flesh, it will dominate\nyou. If you love the flesh, it will swallow you up and strangle you.",
+          "coptic": "§ⲡⲉⲧⲛ̅ⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲛ̅ⲥⲉ‐\nⲧⲙ̅ϣⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟϥ’ ⲉⲧⲓ ϫⲉ ⲛⲉϥϩⲙ̅\nⲡⲕⲟⲥⲙⲟⲥ ϥⲟⲩⲟⲛ[ϩ] ⲉⲃⲟⲗ ϫⲉ ϥϫⲟⲥⲉ\nⲁⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲙ̅ⲡ[..]ϥ’[..]ⲉ [ⲙ]ⲛ̅ ⲑⲣ̅ⲧⲉ\nϥⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲁ..[..]ⲥ[.]ⲥ ϥⲥⲟⲧⲡ’ ⲉ‐\nⲡⲕⲱϩ ⲉϣϫⲉ [....]ⲩ ⲉⲓ ⲥⲉⲁⲙ[ⲁ]ϩⲧⲉ\nⲙ̅ⲙⲟϥ’ ⲥⲉⲱϭ[ⲧ ⲙ̅ⲙⲟϥ] ⲁⲩⲱ ⲡⲱ[ⲥ ⲉϥ’]‐\nⲛⲁϣⲣ̅ ⲃⲟⲗ ⲁⲛⲛ[ⲟϭ ⲛ̅ⲇⲩⲛ]ⲁⲙⲓ[ⲥ ....]\nⲧⲉ ⲡⲱⲥ ϥⲛⲁϣϩ[..........]\nⲕⲓⲥ ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ ⲉⲩ[ϫⲱ ⲙ̅ⲙⲟⲥ’ ϫⲉ]\nⲁⲛⲟⲛ ϩⲙ̅ⲡⲓⲥⲧⲟⲥ ϩⲟⲡⲱ[ⲥ......]\n[.ⲡ]ⲛ̅̅ⲁ̅̅ ⲛ̅ⲁ[ⲕⲁⲑⲁⲣⲧⲟ]ⲛ ϩⲓ ⲇⲁⲓⲙⲟⲛⲓⲟⲛ\nⲛⲉⲩⲛ̅ⲧⲁⲩ ⲅⲁⲣ ⲙ̅ⲙⲁ[ⲩ] ⲙ̅ⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲛⲉ ⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲛ̅ⲁⲕⲁⲑⲁⲣⲧⲟⲛ ⲛⲁⲣ̅ⲕⲟⲗⲗⲁ\nⲉⲣⲟⲟⲩ ⲙⲛ̅ⲣ̅ ϩⲟⲧⲉ ϩⲏⲧⲥ̅ ⲛ̅ⲧⲥⲁⲣⲝ ⲟⲩⲇⲉ\nⲙⲛ̅ⲙⲉⲣⲓⲧⲥ̅ ⲉⲕϣⲁⲣ̅ ϩⲟⲧⲉ ϩⲏⲧⲥ̅ ⲥⲛⲁⲣ̅ ϫⲟ‐\nⲉⲓⲥ ⲉⲣⲟⲕ’ ⲉⲕϣⲁⲛⲙⲉⲣⲓⲧⲥ̅ ⲥⲛⲁⲟⲙ〈ⲕ〉ⲕ’ ⲛ̅ⲥⲟϭ〈ⲧ〉ⲕ’"
+        },
+        {
+          "title": "This World, the Resurrection, and the Middle",
+          "subtitle": "This World, the Resurrection, and the Middle",
+          "heading": "This World, the Resurrection, and the Middle (66, 7-21)",
+          "rangeLabel": "66, 7-21",
+          "range": {
+            "start": {
+              "page": 66,
+              "line": 7
+            },
+            "end": {
+              "page": 66,
+              "line": 21
+            }
+          },
+          "english": "A person is either in this world or in the resurrection-or in the middle place.\nMay I not be found there! In this world there is good and evil, but the good of\nthe world is not really good and the evil of the world is not really evil. After this\nworld there is evil that is really evil: this is called the middle. The middle is\ndeath. As long as we are in this world, we should acquire resurrection, so that\nwhen we take off the flesh we may be found in rest and not wander in the\nmiddle. For many go astray on the way.",
+          "coptic": "§ⲏ ⲛ̅ϥϣⲱⲡⲉ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲏ ϩⲛ̅ ⲧⲁⲛⲁ‐\nⲥⲧⲁⲥⲓⲥ ⲏ ϩⲛ̅ ⲛ̅ⲧⲟⲡⲟⲥ ⲉⲧϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲙⲏ ⲅⲉⲛⲟⲓⲧⲟ ⲛ̅ⲥⲉϩⲉ ⲉⲣⲟⲉⲓ ⲛ̅ϩⲏⲧⲟⲩ ⲡⲉ‐\nⲉⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲙ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲛ̅ϩⲏⲧϥ’\nⲟⲩⲙ̅ ⲡⲉⲑⲟⲟⲩ ⲛⲉϥⲡⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲙ̅ⲡⲉ‐\nⲧⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ ⲛⲉ ⲁⲩⲱ ⲛⲉϥⲡⲉⲑⲟⲟⲩ ϩⲙ̅‐\nⲡⲉⲑⲟⲟⲩ ⲁⲛ ⲛⲉ ⲟⲩⲛ̅ ⲡⲉⲑⲟⲟⲩ ⲇⲉ ⲙⲛ̅ⲛ̅‐\nⲥⲁ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲉϩⲙ̅ⲡⲉⲑⲟⲟⲩ ⲛⲁⲙⲉ ⲛⲉ\nⲧⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲙⲉⲥⲟⲧⲏⲥ ⲛ̅ⲧⲟϥ’\nⲡⲉ ⲡⲙⲟⲩ ϩⲱⲥ ⲉⲛϣⲟⲟⲡ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥ‐\nⲙⲟⲥ ϣϣⲉ ⲉⲣⲟⲛ ⲉϫⲡⲟ ⲛⲁⲛ ⲛ̅ⲧⲁⲛⲁⲥⲧⲁ‐\nⲥⲓⲥ ϫⲉⲕⲁⲁⲥ ⲉⲛϣⲁⲕⲁⲁⲕⲛ ⲁϩⲏⲩ ⲛ̅ⲧⲥⲁⲣⲝ\nⲉⲩⲛⲁϩⲉ ⲉⲣⲟⲛ ϩⲛ̅ ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲛ̅ⲧⲛ̅ⲧⲙ̅‐\nⲙⲟⲟϣⲉ ϩⲛ̅ ⲧⲙⲉⲥⲟⲧⲏⲥ ϩⲁϩ ⲅⲁⲣ’ ⲥⲉⲣ̅ⲡⲗⲁ‐\nⲛⲉⲥⲑⲉ ϩⲛ̅ ⲧϩⲓⲏ ⲛⲁⲛⲟⲩⲥ ⲅⲁⲣ ⲉⲉⲓ ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "Will and Action",
+          "subtitle": "Will and Action",
+          "heading": "Will and Action (66, 21-29)",
+          "rangeLabel": "66, 21-29",
+          "range": {
+            "start": {
+              "page": 66,
+              "line": 21
+            },
+            "end": {
+              "page": 66,
+              "line": 29
+            }
+          },
+          "english": "It is good to leave the world before one sins. Some have neither the will nor the\nstrength to act. Others, even if they have the will, do themselves no good, for\nthey have not acted. And if they do not have the will…. Righteousness is beyond\ntheir grasp, in either case. It always comes down to the will, not the action.",
+          "coptic": "ⲛⲉⲥⲑⲉ ϩⲛ̅ ⲧϩⲓⲏ ⲛⲁⲛⲟⲩⲥ ⲅⲁⲣ ⲉⲉⲓ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ϩⲁ ⲧⲉϩⲏ ⲉⲙⲡⲁⲧⲉ ⲡⲣⲱⲙⲉ\nⲣ̅ ⲛⲟⲃⲉ §ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲟⲩⲧⲉ ⲥⲉⲟⲩⲱϣ\nⲁⲛ’ ⲟⲩⲧⲉ ⲙⲛ̅ ϭⲟⲙ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ\nⲉⲩϣⲁⲛ’ⲟⲩⲱϣ’ ⲙⲛ̅ ϩⲏⲩ ϣⲟⲟⲡ’ ⲛⲁⲩ ϫⲉ\nⲙ̅ⲡⲟⲩⲉⲓⲣⲉ ⲉⲡ[...]ⲩⲱϣ ⲅⲁⲣ’ ϥⲉⲓⲣⲉ ⲙ̅ⲙⲟ‐\nⲟⲩ ⲛ̅ⲣⲉϥⲣ̅ ⲛⲟⲃⲉ [ⲉ]ⲩⲧⲙ̅ⲟⲩⲱϣ ⲇⲉ ⲧⲇⲓ‐\nⲕⲁⲓⲟⲥⲩⲛⲏ ⲛⲁϩⲱⲡ’ ⲉⲣⲟⲟⲩ ⲙ̅ⲡⲉⲥⲛⲁⲩ\nⲁⲩⲱ ⲡⲟⲩⲱϣ ⲁⲛ [ⲡⲉ] ⲛ̅ⲡⲉⲓⲣⲉ ⲁⲛ’ §ⲟⲩⲁⲡⲟ‐"
+        },
+        {
+          "title": "Vision of Hell",
+          "subtitle": "Vision of Hell",
+          "heading": "Vision of Hell (66, 29-67, 1)",
+          "rangeLabel": "66, 29-67, 1",
+          "range": {
+            "start": {
+              "page": 66,
+              "line": 29
+            },
+            "end": {
+              "page": 67,
+              "line": 1
+            }
+          },
+          "english": "In a vision an apostolic person saw people who were locked up in a house of\nfire, bound with [chains] of fire, and thrown [into]…fire [on account of…false]\nfaith. It was said, “[They might have] saved [their souls], but they did not want\nto, so they got [this place of] punishment called the [outer] darkness….”",
+          "coptic": "ⲁⲩⲱ ⲡⲟⲩⲱϣ ⲁⲛ [ⲡⲉ] ⲛ̅ⲡⲉⲓⲣⲉ ⲁⲛ’ §ⲟⲩⲁⲡⲟ‐\nⲥⲧⲟⲗⲓⲕⲟⲥ [ϩ]ⲛ̅ ⲟ[ⲩ]ⲟⲡⲧⲁⲥⲓⲁ ⲁϥⲛⲁⲩ ⲁϩⲟ‐\nⲉⲓⲛⲉ ⲉⲩⲟⲧⲡ [ⲉϩⲟⲩ]ⲛ ⲉⲩⲏⲉⲓ ⲛ̅ⲕⲱϩⲧ’ ⲁⲩ‐\nⲱ ⲉ[ⲩ]ⲙⲏⲣ ϩⲛ̅ [.....] ⲛ̅ⲕⲱϩⲧ ⲉⲩⲛⲏϫ\n[...]ⲛ̅ⲛ̅ⲕⲱϩⲧ [.....]ⲧⲟⲩ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅\n[...ⲡⲓ]ⲥⲧⲓ[ⲥ]’ ⲛ̅[....] ⲁⲩⲱ ⲡⲉϫⲁⲩ ⲛⲁⲩ\n[ϫⲉ......... ϭ]ⲟⲙ’ ⲙ̅ⲙⲟⲟⲩ ⲁⲛⲟⲩϩ̅ⲙ̅\n[...........] ⲙ̅ⲡⲟⲩⲟⲩⲱϣ’ ⲁⲩϫⲓ\n[........]ⲕⲟⲗⲁⲥⲓⲥ ⲡⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟϥ ϫⲉ ⲡⲕⲁⲕⲉ ⲉⲧ[......]ⲗ ϫⲉ ϥ.[....]"
+        },
+        {
+          "title": "Water and Fire",
+          "subtitle": "Water and Fire",
+          "heading": "Water and Fire (67, 2-9)",
+          "rangeLabel": "67, 2-9",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 2
+            },
+            "end": {
+              "page": 67,
+              "line": 9
+            }
+          },
+          "english": "Soul and spirit have come into being from water and fire. The attendant of the\nbridal chamber has come into being from water, fire, and light. Fire is chrism.\nLight is fire. I do not mean ordinary fire, which has no form, but other fire,\nwhich is pure white in appearance, beautifully bright and imparting beauty.",
+          "coptic": "§ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⲟⲩⲕⲱϩⲧ ⲛ̅ⲧⲁ ⲧⲯⲩⲭ[ⲏ]\nⲙⲛ̅ ⲡⲡ̅ⲛ̅ⲁ̅ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅\nⲟⲩⲕⲱϩⲧ’ ⲙⲛ̅ⲛⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲁ ⲡϣⲏⲣⲉ’ ⲙ̅‐\nⲡⲛⲩⲙⲫⲱⲛ ⲡⲕⲱϩⲧ’ ⲡⲉ ⲡⲭⲣⲓⲥⲙⲁ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲡⲉ ⲡⲕⲱϩⲧ’ ⲉⲉⲓϣⲁϫⲉ ⲁⲛ ⲁⲡⲉⲉⲓⲕⲱϩⲧ\nⲉⲧⲉ ⲙⲛ̅ⲧⲁϥ’ ⲙⲟⲣⲫⲏ ⲁⲗⲗⲁ ⲡⲕⲉⲟⲩⲁ ⲉⲧⲉ 〈ⲧⲉ〉ϥ’‐\nⲙⲟⲣϥⲏ ⲟⲩⲁⲃϣ ⲉⲧⲟ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲛⲉⲥⲱϥ’\nⲁⲩⲱ ⲉⲧϯ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲥⲁ §ⲧⲁⲗⲏⲑⲉⲓⲁ ⲙ̅ⲡⲉⲥⲉⲓ"
+        },
+        {
+          "title": "Truth and Nakedness",
+          "subtitle": "Truth and Nakedness",
+          "heading": "Truth and Nakedness (67, 9-27)",
+          "rangeLabel": "67, 9-27",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 9
+            },
+            "end": {
+              "page": 67,
+              "line": 27
+            }
+          },
+          "english": "Truth did not come into the world naked, but in symbols and images. The world\ncannot receive truth in any other way. There is rebirth and an image of rebirth,\nand it is by means of this image that one must be reborn. What image is this? It\nis resurrection. Image must arise through image. By means of this image the\nbridal chamber and the image must approach the truth. This is restoration.\nThose who receive the name of the Father, Son, and Holy Spirit and have\naccepted them must do this. If someone does not accept them, the name will\nalso be taken from that person. A person receives them in the chrism with the oil\nof the power of the cross. The apostles called this power the right and the left.\nThis person is no longer a Christian but is Christ.",
+          "coptic": "ⲁⲩⲱ ⲉⲧϯ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲥⲁ §ⲧⲁⲗⲏⲑⲉⲓⲁ ⲙ̅ⲡⲉⲥⲉⲓ\nⲉⲡⲕⲟⲥⲙⲟⲥ ⲉⲥⲕⲁⲕⲁϩⲏⲩ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲥⲉⲓ ϩⲛ̅\nⲛ̅ⲧⲩⲡⲟⲥ ⲙⲛ̅ ⲛ̅ϩⲓⲕⲱⲛ ϥⲛⲁϫⲓⲧⲥ̅ ⲁⲛ’ ⲛ̅ⲕⲉⲣⲏ‐\nⲧⲉ ⲟⲩⲛ̅ ⲟⲩϫⲡⲟ ⲛ̅ⲕⲉⲥⲟⲡ’ ϣⲟⲟⲡ ⲙⲛ̅ⲛⲟⲩ‐\nϩⲓⲕⲱⲛ ⲛ̅ϫⲡⲟ ⲛ̅ⲕⲉⲥⲟⲡ’ ϣϣⲉ ⲁⲗⲏⲑⲱⲥ\nⲁⲧⲣⲟⲩϫⲡⲟⲟⲩ ⲛ̅ⲕⲉⲥⲟⲡ’ ϩⲓⲧⲛ̅ ⲧϩⲓⲕⲱⲛ ⲁϣ\nⲧⲉ ⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲁⲩⲱ ⲑⲓⲕⲱⲛ ϩⲓⲧⲛ̅ ⲑⲓⲕⲱⲛ\nϣϣⲉ ⲉⲧⲣⲉⲥⲧⲱⲟⲩⲛ ⲡⲛⲩⲙⲫⲱⲛ ⲙⲛ̅ ⲑⲓ‐\nⲕⲱⲛ ϩⲓⲧⲛ̅ ⲑⲓⲕⲱⲛ ϣϣⲉ ⲉⲧⲣⲟⲩⲉⲓ ⲉϩⲟⲩⲛ\nⲉⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲧⲉ ⲧⲁⲉⲓ ⲧⲉ ⲧ’ⲁⲡⲟⲕⲁⲧⲁⲥⲧⲁⲥⲓⲥ\nϣϣⲉ ⲁⲛⲉⲧϫⲡⲟ ⲁⲛ ⲙ̅ⲙⲁⲧⲉ ⲙ̅ⲡⲣⲁⲛ’ ⲙ̅‐\nⲡⲉⲓⲱⲧ’ ⲙⲛ̅ ⲡϣⲏⲣⲉ ⲙⲛ̅ ⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲁⲗⲗⲁ ⲁ〈ⲛⲉⲛⲧⲁ〉ⲩϫⲡⲟⲟⲩ † ⲛⲁⲕ ϩⲱⲟⲩ ⲉⲧⲙ̅ ⲟⲩⲁ ϫⲡⲟ‐\nⲟⲩ ⲛⲁϥ’ ⲡⲕⲉⲣⲁⲛ’ ⲥⲉⲛⲁϥⲓⲧϥ’ ⲛ̅ⲧⲟⲟⲧϥ’\nⲟⲩⲁ ⲇⲉ ϫⲓ ⲙ̅ⲙⲟⲟⲩ ϩⲙ̅ ⲡⲭⲣⲓⲥⲙⲁ ⲙ̅ⲡⲥⲟ.[.]\nⲛ̅ⲧⲇⲩⲛⲁⲙⲓⲥ’ ⲙ̅ⲡⲥx[ⲟ]ⲥ ⲧⲁ[ⲉ]ⲓ ⲛⲉ ⲛⲁⲡⲟⲥⲧⲟ‐\nⲗⲟⲥ ⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ [ⲧⲟ]ⲩⲛⲁⲙ ⲙⲛ̅ ⲧⲉϩⲃⲟⲩⲣ\nⲡⲁⲉⲓ ⲅⲁⲣ’ ⲟⲩⲕⲉⲧⲓ ⲟⲩ[ⲭⲣⲏ]ⲥⲧ[ⲓ]ⲁⲛⲟⲥ ⲡⲉ ⲁⲗⲗⲁ\nⲟⲩⲭⲣ̅ⲥ̅ ⲡⲉ §ⲁⲡϫⲟⲉⲓ[ⲥ ⲣ̅] ϩⲱⲃ’ ⲛⲓⲙ’ ϩⲛ̅ⲛⲟⲩ‐"
+        },
+        {
+          "title": "Sacraments",
+          "subtitle": "Sacraments",
+          "heading": "Sacraments (67, 27-30)",
+          "rangeLabel": "67, 27-30",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 27
+            },
+            "end": {
+              "page": 67,
+              "line": 30
+            }
+          },
+          "english": "The master [did] everything in a mystery: baptism, chrism, eucharist,\nredemption, and bridal chamber.",
+          "coptic": "ⲟⲩⲭⲣ̅ⲥ̅ ⲡⲉ §ⲁⲡϫⲟⲉⲓ[ⲥ ⲣ̅] ϩⲱⲃ’ ⲛⲓⲙ’ ϩⲛ̅ⲛⲟⲩ‐\nⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲟⲩⲃⲁ[ⲡ]ⲧⲓⲥⲙⲁ ⲙⲛ̅ ⲟⲩⲭⲣⲓⲥ‐\nⲙⲁ ⲙⲛ̅ⲛⲟⲩⲉⲩⲭⲁⲣ[ⲓⲥⲧ]ⲓⲁ ⲙⲛ̅ⲛⲟⲩⲥⲱⲧⲉ\nⲙⲛ̅ⲛⲟⲩⲛⲩⲙ’ⲫⲱⲛ §[.....]ⲉⲓ ⲡ[ⲉϫ]ⲁϥ’"
+        },
+        {
+          "title": "The Inner and the Outer",
+          "subtitle": "The Inner and the Outer",
+          "heading": "The Inner and the Outer (67, 30-68, 17))",
+          "rangeLabel": "67, 30-68, 17",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 30
+            },
+            "end": {
+              "page": 68,
+              "line": 17
+            }
+          },
+          "english": ")\n[For this reason] he said, “I have come to make [the lower] like the [upper and\nthe] outer like the [inner, and to unite] them in that place.” [He spoke] here in\nsymbols [and images].\nThose who say [there is a heavenly person and] one that is higher are\nwrong, for they call the visible heavenly person “lower” and the one to\nwhom the hidden realm belongs “higher.” It would be better for them to speak of\nthe inner, the outer, and the outermost. For the master called corruption “the\noutermost darkness,” and there is nothing outside it. He said, “My Father who\nis in secret.” He said, “Go into your room, shut the door behind you, and pray to\nyour Father who is in secret,” that is, the one who is innermost. What is\ninnermost is the Fullness, and there is nothing further within. And this is what\nthey call uppermost.",
+          "coptic": "ⲙⲛ̅ⲛⲟⲩⲛⲩⲙ’ⲫⲱⲛ §[.....]ⲉⲓ ⲡ[ⲉϫ]ⲁϥ’\nϫⲉ ⲁⲉⲓ ⲉⲧⲣⲁⲉⲓⲣⲉ [ⲛ̅ⲛⲁ ⲡⲥⲁ ⲙⲡⲓ]ⲧⲛ̅ ⲛ̅‐\nⲑⲉ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛ[ⲧⲡⲉ ⲁⲩⲱ ⲛⲁ ⲡⲥⲁ ⲛ]ⲃⲟⲗ\nⲛ̅ⲑⲉ ⲛ̅ⲛⲁ ⲡⲥ[ⲁ ⲛϩⲟⲩⲛ ⲁⲩⲱ ⲉⲧⲣⲁϩⲟⲧ]‐\nⲣⲟⲩ ⲙ̅ⲡⲙⲁ ⲉⲧⲙ̅[............ ⲛⲉ]‐\nⲉⲓⲙⲁ ϩⲓⲧⲛ̅ ϩⲛ̅ⲧⲩ[ⲡⲟⲥ ..........]\nⲛⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ [ⲟⲩⲛ̅ ⲟⲩⲣⲙ̅ⲙ̅ⲡⲉ ⲁⲩⲱ]\nⲟⲩⲛ̅ ⲟⲩⲉⲓ ⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ [ⲙ̅ⲙⲟϥ ⲥⲉⲣ̅ⲡⲗⲁ]‐\nⲛⲁⲥⲑⲉ ⲡⲉⲧⲟⲩⲟⲛⲉϩ ⲅ[ⲁⲣ ⲉⲃⲟⲗ ⲡⲣⲙ̅ⲙ̅]‐\nⲡⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲡ[ⲉ]ⲧⲟ[ⲩ]ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ\nⲡⲉⲧⲙ̅ⲡⲥⲁ ⲛⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲡⲉⲧⲉ ⲡⲉⲑⲏⲡ’\nϣⲟⲟⲡ’ ⲛⲁϥ ⲡⲉⲧⲙ̅ⲙⲁⲩ ⲡⲉ ⲉⲧⲛ̅ⲧⲡⲉ ⲙ̅‐\nⲙⲟϥ’ ⲛⲁⲛⲟⲩⲥ ⲅⲁⲣ ⲛ̅ⲥⲉϫⲟⲟⲥ ϫⲉ ⲡⲥⲁ ⲛ‐\nϩⲟⲩⲛ ⲁⲩⲱ ⲡⲉⲧⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ’ ⲙⲛ̅ ⲡⲉⲧⲛ̅‐\nⲡⲥⲁ ⲛⲃⲟⲗ ⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ’ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁⲡϫⲟ‐\nⲉⲓⲥ ⲙⲟⲩⲧⲉ ⲁⲡⲧⲁⲕⲟ ϫⲉ ⲡⲕⲁⲕⲉ ⲉⲧϩⲓ ⲡⲥⲁ ⲛ‐\nⲃⲟⲗ’ ⲙⲛ̅ ϭⲉ ϣⲟⲟⲡ’ ⲙ̅ⲡⲉϥⲃⲁⲗ’ ⲡⲉϫⲁϥ’\nϫⲉ ⲡⲁⲉⲓⲱⲧ’ ⲉⲧϩⲙ̅ ⲡⲉⲑⲏⲡ’ ⲡⲉϫⲁϥ ϫⲉ\nⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲉⲡⲉⲕ’ⲧⲁⲙⲉⲓⲟⲛ ⲛ̅ⲅϣⲧⲁⲙ’\nⲙ̅ⲡⲉⲕ’ⲣⲟ ⲉⲣⲱⲕ’ ⲛ̅ⲅϣⲗⲏⲗ’ ⲁⲡⲉⲕ’ⲉⲓⲱⲧ’\nⲉⲧϩⲙ̅ ⲡⲉⲑⲏⲡ’ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲧϩⲓ ⲥⲁ ⲛ‐\nϩⲟⲩⲛ’ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲡⲉⲧϩⲓ ⲥⲁ ⲛϩⲟⲩⲛ’\nⲇⲉ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲡⲉ ⲡⲡⲗⲏⲣⲱⲙⲁ ⲙ̅‐\nⲙⲛ̅ⲛ̅ⲥⲱϥ’ ⲙⲛ̅ ϭⲉ ⲙ̅ⲡⲉϥ’ⲥⲁ ⲛϩⲟⲩⲛ ⲡⲁ‐\nⲉⲓ ⲡⲉ ⲉⲧⲟⲩϣⲁϫⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲉⲧⲙ̅ⲡⲥⲁ ⲛ‐\nⲧⲡⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲉⲭ̅ⲥ̅ ⲁϩⲟⲉⲓⲛⲉ"
+        },
+        {
+          "title": "Fall and Return to Fullness",
+          "subtitle": "Fall and Return to Fullness",
+          "heading": "Fall and Return to Fullness (68, 17-22)",
+          "rangeLabel": "68, 17-22",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 17
+            },
+            "end": {
+              "page": 68,
+              "line": 22
+            }
+          },
+          "english": "Before Christ some came from a realm they could not reenter, and they went to a\nplace they could not yet leave. Then Christ came. Those who went in he brought\nout, and those who went out he brought in.",
+          "coptic": "ⲧⲡⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲉⲭ̅ⲥ̅ ⲁϩⲟⲉⲓⲛⲉ\nⲉⲓ ⲉⲃⲟⲗ’ ⲉⲃⲟⲗ ⲧⲱⲛ’ ⲟⲩⲕⲉⲧⲓ ⲙ̅ⲡⲟⲩϣ’‐\nⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲁⲩⲱ ⲁⲩⲃⲱⲕ’ ⲉⲧⲱⲛ ⲟⲩⲕⲉⲧⲓ\nⲙ̅ⲡⲟⲩϣⲓ ⲉⲃⲟⲗ ⲁϥⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ⲡⲉⲭⲥ̅ ⲛⲉⲛ‐\nⲧⲁϩⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲁϥⲛ̅ⲧⲟⲩ ⲉⲃⲟⲗ ⲁⲩⲱ ⲛⲉⲛ‐\nⲧⲁϩⲃⲱⲕ’ ⲉⲃⲟⲗ’ ⲁϥⲛ̅ⲧⲟⲩ ⲉϩⲟⲩⲛ§ ⲛ̅ϩⲟⲟⲩ’"
+        },
+        {
+          "title": "When Eve Was in Adam",
+          "subtitle": "When Eve Was in Adam",
+          "heading": "When Eve Was in Adam (68, 22-26)",
+          "rangeLabel": "68, 22-26",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 22
+            },
+            "end": {
+              "page": 68,
+              "line": 26
+            }
+          },
+          "english": "When Eve was in Adam, there was no death. When she was separated from him,\ndeath came. If <she> enters into him again and he embraces <her>, death will\ncease to be.",
+          "coptic": "ⲧⲁϩⲃⲱⲕ’ ⲉⲃⲟⲗ’ ⲁϥⲛ̅ⲧⲟⲩ ⲉϩⲟⲩⲛ§ ⲛ̅ϩⲟⲟⲩ’\nⲛⲉⲣⲉ ⲉⲩϩⲁ [ϩ]ⲛ̅ ⲁ[ⲇ]ⲁⲙ’ ⲛⲉ ⲙⲛ̅ ⲙⲟⲩ ϣⲟⲟⲡ’\nⲛ̅ⲧⲁⲣⲉⲥⲡⲱⲣϫ [ⲉⲣ]ⲟϥ’ ⲁⲡⲙⲟⲩ ϣⲱⲡⲉ ⲡⲁ‐\nⲗⲓⲛ ⲉϥϣⲁⲃⲱ[ⲕ ⲉϩ]ⲟⲩⲛ ⲛ̅ϥϫⲓⲧϥ’ ⲉⲣⲟϥ ⲙⲛ̅\nⲙⲟⲩ ⲛⲁϣⲱⲡⲉ §[ⲡ]ⲁⲛⲟⲩⲧⲉ ⲡⲁⲛⲟⲩⲧⲉ ⲉ‐"
+        },
+        {
+          "title": "Why Have You Forsaken Me?",
+          "subtitle": "Why Have You Forsaken Me?",
+          "heading": "Why Have You Forsaken Me? (68, 26-29)",
+          "rangeLabel": "68, 26-29",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 26
+            },
+            "end": {
+              "page": 68,
+              "line": 29
+            }
+          },
+          "english": "“My God, my God, why, Lord, have you forsaken me?” He spoke these words\non the cross, for he had left that place.",
+          "coptic": "ⲙⲟⲩ ⲛⲁϣⲱⲡⲉ §[ⲡ]ⲁⲛⲟⲩⲧⲉ ⲡⲁⲛⲟⲩⲧⲉ ⲉ‐\nⲧⲃⲉ ⲟⲩ ⲡϫⲟⲉⲓⲥ [ⲁ]ⲕ’ⲕⲁⲁⲧ’ ⲛ̅ⲥⲱⲕ’ ⲛ̅ⲧⲁϥϫⲉ\nⲛⲁⲉⲓ ϩⲓ ⲡⲥxⲟⲥ [ⲛⲉ] ⲁϥⲡⲱⲣϫ’ ⲅⲁⲣ’ ⲙ̅ⲡⲙⲁ\nⲉⲧ[ⲙ‐]ⲙⲁⲩ §[.]..[..] ⲛ̅ⲧⲁⲩϫⲡⲟϥ’ ⲉⲃⲟⲗ ϩⲙ̅"
+        },
+        {
+          "title": "True Flesh",
+          "subtitle": "True Flesh",
+          "heading": "True Flesh (68, 29-37)",
+          "rangeLabel": "68, 29-37",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 29
+            },
+            "end": {
+              "page": 68,
+              "line": 37
+            }
+          },
+          "english": "[The master] was conceived from what [is imperishable], through God. The\n[master rose] from the dead, but [he did not come into being as he] was. Rather,\nhis [body] was [completely] perfect. [It was] of flesh, and this [flesh] was true\nflesh. [Our flesh] is not true flesh, but only an image of the true.",
+          "coptic": "ⲉⲧ[ⲙ‐]ⲙⲁⲩ §[.]..[..] ⲛ̅ⲧⲁⲩϫⲡⲟϥ’ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲉⲧⲧ[.......ⲉ]ⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲛⲟⲩⲧⲉ\n§ⲁⲡ[..........ⲉⲃ]ⲟⲗ ϩⲛ̅ ⲛⲉⲧⲙⲟⲟⲩⲧ’\n[..............ϣ]ⲟⲟⲡ’ ⲁⲗⲗⲁ ⲛⲉ‐\n[..............] ⲉϥⲟ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ\n[.............] ⲛ̅ⲥⲁⲣⲝ ⲁⲗⲗⲁ ⲧⲉⲉⲓ\n[.........ⲟⲩⲥ]ⲁⲣⲝ ⲧⲉ ⲛ̅ⲁⲗⲏⲑⲉⲓⲛⲏ\n[........]ⲉ ⲟⲩⲁⲗⲏⲑⲉⲓⲛⲏ ⲁⲛ ⲧⲉ ⲁⲗ‐\n[ⲗⲁ.......] ⲛ̅ϩⲓⲕⲱⲛ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲛⲏ"
+        },
+        {
+          "title": "The Wedding Chamber",
+          "subtitle": "The Wedding Chamber",
+          "heading": "The Wedding Chamber (69, 1-4)",
+          "rangeLabel": "69, 1-4",
+          "range": {
+            "start": {
+              "page": 69,
+              "line": 1
+            },
+            "end": {
+              "page": 69,
+              "line": 4
+            }
+          },
+          "english": "Animals do not have a wedding chamber, nor do slaves or defiled women. The\nwedding chamber is for free men and virgins.",
+          "coptic": "§ⲙⲁⲣⲉ ⲡⲁⲥⲧⲟⲥ ϣⲱⲡⲉ ⲛ̅ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲟⲩ‐\nⲧⲉ ⲙⲁϥϣⲱⲡⲉ ⲛ̅ⲛ̅ϩⲙ̅ϩ̅̅ⲁ̅̅ⲗ̅̅ ⲟⲩⲧⲉ ⲛ̅ⲥϩⲓⲙⲉ\nⲉϥϫⲟϩⲙ ⲁⲗⲗⲁ ϣⲁϥϣⲱⲡⲉ ⲛ̅ϩⲛ̅ⲣⲱⲙⲉ\nⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲡⲁⲣⲑⲉⲛⲟⲥ §ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "Baptism",
+          "subtitle": "Baptism",
+          "heading": "Baptism (69, 4-14)",
+          "rangeLabel": "69, 4-14",
+          "range": {
+            "start": {
+              "page": 69,
+              "line": 4
+            },
+            "end": {
+              "page": 69,
+              "line": 14
+            }
+          },
+          "english": "We are born again through the Holy Spirit, and we are conceived through Christ\nin baptism with two elements. We are anointed through the Spirit, and when we\nwere conceived, we were united.\nNo one can see oneself in the water or in a mirror without light, nor can you\nsee yourself in the light without water or a mirror. So it is necessary to baptize\nwith two elements, light and water, and light is chrism.",
+          "coptic": "ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲡⲁⲣⲑⲉⲛⲟⲥ §ⲉⲃⲟⲗ\nϩⲓⲧⲙ̅ ⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲥⲉϫⲡⲟ ⲙⲉⲛ ⲙ̅ⲙⲟⲛ\nⲛ̅ⲕⲉⲥⲟⲡ’ ⲥⲉϫⲡⲟ ⲇⲉ ⲙ̅ⲙⲟⲛ ϩⲓⲧⲛ̅ ⲡⲉ‐\nⲭⲥ̅ ϩⲙ̅ ⲡⲥⲛⲁⲩ ⲥⲉⲧⲱϩⲥ ⲙ̅ⲙⲟⲛ ϩⲓⲧⲙ̅ ⲡ’‐\nⲡⲛ̅ⲁ̅ ⲛ̅ⲧⲁⲣⲟⲩϫⲡⲟⲛ ⲁⲩϩⲟⲧⲣⲛ̅ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛⲁϣⲛⲁⲩ ⲉⲣⲟϥ’ ⲟⲩⲧⲉ ϩⲙ̅ ⲙⲟⲟⲩ ⲟⲩⲧⲉ ϩⲛ̅\nⲉⲓⲁⲗ’ ⲭⲱⲣⲓⲥ ⲟⲩⲟⲉⲓⲛ ⲟⲩⲧⲉ ⲡⲁⲗⲓⲛ ⲕⲛⲁϣ‐\nⲛⲁⲩ ⲁⲛ ϩⲛ̅ ⲟⲩⲟⲉⲓⲛ ⲭⲱⲣⲓⲥ ⲙⲟⲟⲩ ϩⲓⲁⲗ\nⲇⲓⲁ ⲧⲟⲩⲧⲟ ϣϣⲉ ⲁⲣ̅ⲃⲁⲡⲧⲓⲍⲉ ϩⲙ̅ ⲡⲥⲛⲁⲩ\nϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ’ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲡⲟⲩⲟⲉⲓⲛ ⲇⲉ\nⲡⲉ ⲡⲭⲣⲓⲥⲙⲁ §ⲛⲉⲩⲛ̅ ϣⲟⲙⲧ’ ⲛ̅ⲏⲉⲓ ⲙ̅ⲙⲁ"
+        },
+        {
+          "title": "The Temple in Jerusalem",
+          "subtitle": "The Temple in Jerusalem",
+          "heading": "The Temple in Jerusalem (69, 14-70, 4)",
+          "rangeLabel": "69, 14-70, 4",
+          "range": {
+            "start": {
+              "page": 69,
+              "line": 14
+            },
+            "end": {
+              "page": 70,
+              "line": 4
+            }
+          },
+          "english": "There were three structures for sacrifice in Jerusalem. One opened to the west\nand was called the holy place; a second opened to the south and was called the\nholy of the holy; the third opened to the east and was called the holy of holies,\nwhere only the high priest could enter. The holy place is baptism; the holy of the\nholy is redemption; the holy of holies is the bridal chamber. Baptism entails\nresurrection and redemption, and redemption is in the bridal chamber. The bridal\nchamber is within a realm superior to [what we belong to], and you cannot find\nanything [like it…. These] are the ones who worship [in spirit and in truth, for\nthey do not worship] in Jerusalem. There are people in Jerusalem who [do\nworship] in Jerusalem, and they await [the mysteries] called [the holy] of holies,\nthe curtain [of which] was torn. [Our] bridal chamber is the image [of the bridal\nchamber] above. That is why its curtain was torn from top to bottom, for\nsome people from below had to go up.",
+          "coptic": "ⲡⲉ ⲡⲭⲣⲓⲥⲙⲁ §ⲛⲉⲩⲛ̅ ϣⲟⲙⲧ’ ⲛ̅ⲏⲉⲓ ⲙ̅ⲙⲁ\nⲛ̅ϯⲡⲣⲟⲥⲫⲟⲣⲁ ϩⲛ̅ ⲑⲓⲉⲣⲟⲥⲟⲗⲩⲙⲁ ⲡⲟⲩ‐\nⲁ’ ⲉϥⲟⲩⲉⲛ ⲉⲡⲁⲙⲛⲧⲉ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲕⲉⲟⲩⲁ ⲉϥⲟⲩⲏⲛ’ ⲉⲡⲥⲁ‐\nⲣⲏⲥ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ ⲙ̅‐\nⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲙⲁϩϣⲟⲙⲧ’ ⲉϥ’ⲟⲩⲏⲛ ⲁ‐\nⲡⲁⲉⲓⲃⲧⲉ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ\nⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ ⲡⲙⲁ ⲉϣⲁⲣⲉ ⲡⲁⲣⲭⲓⲉⲣⲉⲩ[ⲥ]\nⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲉⲙⲁⲩ’ ⲟⲩⲁ[ⲁ]ϥ ⲡⲃⲁⲡⲧⲓⲥⲙⲁ\nⲡⲉ ⲡⲏⲉⲓ ⲉⲧⲟⲩⲁⲁⲃ [ⲡ]ⲥⲱ[ⲧ]ⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ\nⲙ̅ⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲉⲧ[ⲟⲩⲁ]ⲁⲃ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ’\nⲡⲉ ⲡⲛⲩⲙⲫⲱⲛ ⲡ[ⲃⲁⲡⲧⲓ]ⲥⲙⲁ ⲟⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲁⲛⲁⲥⲧⲁⲥ[ⲓⲥ ⲙⲛ̅ ⲡ]ⲥⲱⲧⲉ ⲉⲡⲥⲱ‐\nⲧⲉ ϩⲙ̅ ⲡⲛⲩⲙ’ⲫⲱⲛ [ⲉⲡⲛ]ⲩⲙ’ⲫⲱⲛ ⲇⲉ\nϩⲙ̅ ⲡⲉⲧϫⲟⲥⲉ ⲉⲣⲟ[....]ⲛ̅[..]ⲟⲟ..\nⲕⲛⲁϩⲉ ⲁⲛ’ ⲉⲧⲉϥ[.....]ⲧⲱⲡ [....]\nⲛⲉ ⲛⲉⲧϣⲗⲏⲗ [..............]\nⲑⲓⲉⲣⲟⲥⲟⲗⲩⲙⲁ [..........ⲑⲓⲉⲣⲟ]‐\nⲥⲟⲗⲩⲙⲁ ⲉⲩϣ[........ⲑⲓⲉⲣⲟⲥⲟ]‐\nⲗⲩⲙⲁ ⲉⲩϭⲱϣ[ⲧ .............]\nⲛⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩ[ⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲡⲉⲧⲟⲩ]‐\nⲁⲁⲃ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ [..........ⲡⲕⲁ]‐\nⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲡⲱϩ ⲕⲉ[.........]\nⲡⲁⲥⲧⲟⲥ ⲉⲓ ⲙⲏ ⲑⲓⲕⲱⲛ [........ ⲉⲧ]‐\n[ⲙ̅ⲡ]ⲥⲁ ⲛⲧⲡ’ⲉ] ⲉⲧ[ⲃ]ⲉ [ⲡ]ⲁⲉⲓ’ ⲁⲡⲉϥⲕⲁⲧⲁ‐\nⲡⲉⲧⲁⲥⲙⲁ ⲡⲱ[ϩ] ϫⲓⲙ ⲡⲥⲁ ⲛⲧⲡⲉ ϣⲁ\nⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲛⲉ ϣϣⲉ ⲅⲁⲣ ⲉϩⲟⲉⲓⲛⲉ\nϫⲓⲙ ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲛ̅ⲥⲉⲃⲱⲕ’ ⲉⲡⲥⲁ ⲛ’ⲧⲡⲉ"
+        },
+        {
+          "title": "Wearing the Light",
+          "subtitle": "Wearing the Light",
+          "heading": "Wearing the Light (70, 5-9)",
+          "rangeLabel": "70, 5-9",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 5
+            },
+            "end": {
+              "page": 70,
+              "line": 9
+            }
+          },
+          "english": "The powers cannot see those who have put on the perfect light, and they cannot\nseize them. One puts on the light in the mystery of union.",
+          "coptic": "§ⲛⲉⲛⲧⲁϩϯ ϩⲓⲱⲟⲩ ⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲛ ⲛ̅ⲟⲩ‐\nⲟⲉⲓⲛ ⲙⲁⲣⲟⲩⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲛ̅ϭⲓ ⲛ̅ⲇⲩⲛⲁ‐\nⲙⲓⲥ ⲁⲩⲱ ⲙⲁⲩϣⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲟⲩ‐\nⲁ ⲇⲉ ⲛⲁϯ ϩⲓⲱⲱϥ’ ⲙ̅ⲡⲓⲟⲩⲟⲉⲓⲛ ϩⲙ̅\nⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲙ̅ ⲡϩⲱⲧⲣ̅ §ⲛⲉ ⲙ’ⲡⲉⲧ’‐"
+        },
+        {
+          "title": "Union in the Bridal Chamber",
+          "subtitle": "Union in the Bridal Chamber",
+          "heading": "Union in the Bridal Chamber (70, 9-22)",
+          "rangeLabel": "70, 9-22",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 9
+            },
+            "end": {
+              "page": 70,
+              "line": 22
+            }
+          },
+          "english": "If the female had not separated from the male, the female and the male would\nnot have died. The separation of male and female was the beginning of death.\nChrist came to heal the separation that was from the beginning and reunite the\ntwo, in order to give life to those who died through separation and unite them.\nA woman is united with her husband in the bridal chamber, and those united\nin the bridal chamber will not be separated again. That is why Eve became\nseparated from Adam, because she had not united with him in the bridal\nchamber.",
+          "coptic": "ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲙ̅ ⲡϩⲱⲧⲣ̅ §ⲛⲉ ⲙ’ⲡⲉⲧ’‐\nⲥϩⲓⲙⲉ ⲡⲱⲣϫ ⲉⲫⲟⲟⲩⲧ ⲛⲉⲥⲛⲁⲙⲟⲩ\nⲁⲛ ⲡⲉ ⲙⲛ̅ ⲫⲟⲟⲩⲧ’ ⲡⲉϥⲡⲱⲣϫ ⲛ̅ⲧⲁϥ’‐\nϣⲱⲡⲉ ⲛ̅ⲁⲣⲭⲏ ⲙ̅ⲡⲙⲟⲩ ⲇⲓⲁ ⲧⲟⲩⲧⲟ\nⲁⲡⲉⲭⲣ̅ⲥ̅ ⲉⲓ ϫⲉⲕⲁⲁⲥ ⲡⲡⲱⲣϫ ⲛ̅ⲧⲁϩ‐\nϣⲱⲡⲉ ϫⲓⲛ’ ϣⲟⲣⲡ’ ⲉϥⲛⲁⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ’\nⲡⲁⲗⲓⲛ’ ⲛ̅ϥϩⲟⲧⲣⲟⲩ ⲙ̅ⲡⲥⲛⲁⲩ ⲁⲩⲱ ⲛⲉⲛ‐\nⲧⲁϩⲙⲟⲩ ϩⲙ̅ ⲡⲡⲱⲣϫ’ ⲉϥⲛⲁϯ ⲛⲁⲩ ⲛ̅ⲛⲟⲩ‐\nⲱⲛϩ ⲛ̅ϥϩⲟⲧⲣⲟⲩ ϣⲁⲣⲉ ⲧⲥϩⲓⲙⲉ ⲇⲉ\nϩⲱⲧⲣ̅ ⲁⲡⲉⲥϩⲁⲉⲓ ϩⲣⲁⲓ̈ ϩⲙ ⲡⲡⲁⲥⲧⲟⲥ\nⲛⲉⲛⲧⲁϩⲱⲧⲣ̅ ⲇⲉ ϩⲙ̅ ⲡⲡⲁⲥⲧⲟⲥ ⲟⲩⲕⲉ‐\nⲧⲓ ⲥⲉⲛⲁⲡⲱⲣϫ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲁⲉⲩϩⲁ\nⲡⲱⲣϫ’ ⲁⲁⲇⲁⲙ ϫⲉ ⲛ̅ⲧⲁⲥϩⲱⲧⲣ̅ ⲉⲣⲟϥ’\nⲁⲛ ϩⲙ̅ ⲡⲡⲁⲥ[ⲧⲟ]ⲥ §ⲧⲯⲩⲭⲏ ⲛ̅ⲁⲇⲁⲙ’ ⲛ̅‐"
+        },
+        {
+          "title": "Adam’s Soul",
+          "subtitle": "Adam’s Soul",
+          "heading": "Adam’s Soul (70, 22-34)",
+          "rangeLabel": "70, 22-34",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 22
+            },
+            "end": {
+              "page": 70,
+              "line": 34
+            }
+          },
+          "english": "Adam’s soul came from a breath. The soul’s companion is spirit, and the spirit\ngiven to him is his mother. His soul was [taken] from him and replaced with\n[spirit]. When he was united with spirit, [he] uttered words superior to the\npowers, and the powers envied him. They [separated him from his] spiritual\ncompanion…hidden…bridal chamber….",
+          "coptic": "ⲁⲛ ϩⲙ̅ ⲡⲡⲁⲥ[ⲧⲟ]ⲥ §ⲧⲯⲩⲭⲏ ⲛ̅ⲁⲇⲁⲙ’ ⲛ̅‐\nⲧⲁⲥϣⲱⲡⲉ ⲉ[ⲃ]ⲟⲗ ϩⲛ̅ⲛⲟⲩⲛⲓϥⲉ ⲡⲉⲥ‐\nϩⲱⲧⲣ̅ ⲡⲉ ⲡⲡ[ⲛ̅]ⲁ̅ ⲡ[ⲉ]ⲛ’ⲧⲁⲩⲧⲁⲁϥ ⲛⲁϥ’\nⲧⲉ ⲧⲉϥⲙⲁⲁⲩ ⲁⲩ[ϥⲓ] ⲛ̅ⲧⲉϥⲯⲩⲭⲏ ⲁⲩϯ\nⲛⲁϥ’ ⲛ̅ⲛⲟⲩ[ⲡⲛ̅ⲁ̅ ⲉ]ⲡⲉⲥⲙⲁ ⲉⲡⲉⲓ ⲛ̅‐\nⲧⲁⲣⲉϥ’ⲡϩⲱⲧⲣ̅ [ⲁϥϫ]ⲱ ⲛ̅ϩⲛ̅ϣⲁϫⲉ ⲉⲩϫⲟ‐\nⲥⲉ’ ⲁⲛⲇⲩⲛⲁ[ⲙⲓⲥ] ⲁⲩⲣ̅ⲃⲁⲥⲕⲁⲛⲉ ⲉⲣⲟϥ\n[....]ⲣϫ [....ϩ]ⲱⲧⲣ̅ ⲙ̅ⲡⲛⲉⲩⲙⲁ‐\n[ⲧⲓⲕ..]ⲩ[.]ⲁ[.....]ⲕⲏ ⲧⲉⲑⲏⲡ’ ⲁⲩ‐\n[...........]ⲁⲉⲓϭⲉ ⲛ̅ϭⲓ ⲡⲉ‐\n[............]ⲟ ⲛⲁⲩ ⲟⲩⲁⲁⲩ\n[........... ⲡ]ⲁⲥⲧⲟⲥ ϣⲓⲛⲁ\n[...........].ⲟⲩ §ⲁⲓⲥ̅ ϭⲱⲗⲡ’"
+        },
+        {
+          "title": "Jesus at the Jordan",
+          "subtitle": "Jesus at the Jordan",
+          "heading": "Jesus at the Jordan (70, 34-71, 3)",
+          "rangeLabel": "70, 34-71, 3",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 34
+            },
+            "end": {
+              "page": 71,
+              "line": 3
+            }
+          },
+          "english": "Jesus revealed himself [at the] Jordan River as the fullness of heaven’s kingdom.\nThe one [conceived] before all was conceived again; the one anointed\nbefore was anointed again; the one redeemed redeemed others.",
+          "coptic": "[...........].ⲟⲩ §ⲁⲓⲥ̅ ϭⲱⲗⲡ’\n[ⲉⲃⲟⲗ.....ⲡⲉⲓⲟ]ⲣⲇⲁⲛⲏⲥ ⲡⲡⲗⲏ‐\n[ⲣⲱⲙⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲉ]ⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ ⲡⲉⲛ‐\n[ⲧⲁⲩϫⲡⲟϥ ϩ]ⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲧⲏⲣϥ ⲡⲁ’‐\nⲗⲓⲛ ⲁⲩϫⲡⲟϥ’ ⲡ[ⲉⲛⲧⲁ]ⲩⲧ[ⲟ]ϩⲥϥ̅ ⲛ̅ϣⲟⲣ[ⲡ]\nⲡⲁⲗⲓⲛ ⲁⲩⲧⲟϩⲥϥ̅ ⲡ[ⲉⲛ]’ⲧⲁⲩⲥⲟⲧϥ̅ ⲡⲁ‐\nⲗⲓⲛ ⲁϥⲥⲱⲧⲉ §ⲉϣϫⲉ ϣϣⲉ ⲉϫⲱ ⲛ̅ⲟⲩ‐"
+        },
+        {
+          "title": "The Mystery of the Virgin Birth",
+          "subtitle": "The Mystery of the Virgin Birth",
+          "heading": "The Mystery of the Virgin Birth (71, 3-15)",
+          "rangeLabel": "71, 3-15",
+          "range": {
+            "start": {
+              "page": 71,
+              "line": 3
+            },
+            "end": {
+              "page": 71,
+              "line": 15
+            }
+          },
+          "english": "It is necessary to utter a mystery. The Father of the All united with the virgin\nwho came down, and fire shone on him.\nOn that day that one revealed the great bridal chamber, and in this way his\nbody came into being.\nOn that day he came forth from the bridal chamber as one born of a\nbridegroom and a bride.\nSo Jesus established all within it, and it is fitting for each of the disciples to\nenter into his rest.",
+          "coptic": "ⲗⲓⲛ ⲁϥⲥⲱⲧⲉ §ⲉϣϫⲉ ϣϣⲉ ⲉϫⲱ ⲛ̅ⲟⲩ‐\nⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲡⲉⲓⲱⲧ’ ⲙ̅ⲡⲧⲏⲣϥ’ ϩⲱⲧⲣ̅\nⲁⲧ’ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̅ⲧⲁϩⲉⲓ ⲁⲡⲓⲧⲛ̅ ⲁⲩⲱ\nⲁⲩⲕⲱⲧ’ ⲣ̅ ⲟⲩⲟⲉⲓⲛ’ ⲉⲣⲟϥ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅‐\nⲙⲁⲩ ⲁϥϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲙ̅ⲡⲛⲟϭ ⲙ̅ⲡⲁⲥⲧⲟⲥ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲡⲉϥⲥⲱⲙⲁ ⲛ̅ⲧⲁϥϣⲱⲡⲉ\nⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲙ ⲡⲡⲁ‐\nⲥⲧⲟⲥ ⲛ̅ⲑⲉ ⲙ̅ⲡⲉⲛ’ⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲛⲩⲙⲫⲓⲟⲥ ⲙⲛ̅ ⲧⲛⲩⲙⲫⲏ ⲧⲁ’‐\nⲉⲓ ⲧⲉ ⲑⲉ ⲁⲓ̅ⲥ̅ ⲧⲉϩⲟ ⲙ̅ⲡⲧⲏⲣϥ’ ⲉⲣⲁⲧϥ’\nϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ’ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛⲁⲉⲓ ⲁⲩⲱ’\nϣϣⲉ ⲉⲧⲣⲉ ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲙ̅ⲙⲁⲑⲏⲧⲏⲥ\nⲙⲟⲟϣⲉ ⲉϩⲟⲩⲛ’ ⲉⲧⲉϥ’ⲁⲛⲁⲡⲁⲩⲥⲓⲥ"
+        },
+        {
+          "title": "The Births of Adam and Christ",
+          "subtitle": "The Births of Adam and Christ",
+          "heading": "The Births of Adam and Christ (71, 16-21)",
+          "rangeLabel": "71, 16-21",
+          "range": {
+            "start": {
+              "page": 71,
+              "line": 16
+            },
+            "end": {
+              "page": 71,
+              "line": 21
+            }
+          },
+          "english": "Adam came from two virgins, the Spirit and the virgin earth. Christ was born of\na virgin to correct the fall that occurred in the beginning.",
+          "coptic": "§ⲁⲁⲇⲁⲙ’ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲡⲁⲣⲑⲉⲛⲟⲥ\nⲥⲛ̅ⲧⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ⲉⲃⲟⲗ’\nϩⲙ̅ ⲡⲕⲁϩ ⲙ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲃⲉ ⲡⲁⲉⲓ\nⲁⲩϫⲡⲉ ⲡⲉⲭ̅ⲥ̅ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲡⲁⲣⲑⲉⲛⲟⲥ\nϫⲉⲕⲁⲁⲥ ⲡⲉⲥⲗⲟⲟⲧⲉ ⲛ̅ⲧⲁϩϣⲱⲡⲉ\nϩⲛ̅ ⲧⲉϩⲟⲩⲉⲓⲧⲉ ⲉϥⲛⲁ[ⲥ]ⲉϩⲱϥ ⲉⲣⲁⲧϥ’"
+        },
+        {
+          "title": "Two Trees in Paradise",
+          "subtitle": "Two Trees in Paradise",
+          "heading": "Two Trees in Paradise (71, 22-72, 4)",
+          "rangeLabel": "71, 22-72, 4",
+          "range": {
+            "start": {
+              "page": 71,
+              "line": 22
+            },
+            "end": {
+              "page": 72,
+              "line": 4
+            }
+          },
+          "english": "There are two trees growing in paradise. One produces [animals] and the other\nproduces people. Adam [ate] of the tree that produces animals, and [he] became\nan animal and brought forth animals. As a result Adam’s children worship\nanimals. The tree [whose] fruit [he ate] is the [tree of knowledge, and because\nof this, sins] increased. [If he had] eaten the [fruit of the other tree], the fruit of\n[the tree of life, which] produces people, [gods would] worship people. As [in\nparadise] God created people [that people] might create God, so also in\nthis world people make gods and worship what they have created. It would be\nmore fitting for gods to worship people.",
+          "coptic": "§ⲟⲩⲛ̅ ϣⲏⲛ’ ⲥⲛⲁⲩ ⲣⲏⲧ [ϩ]ⲙ̅ ⲡⲡⲁⲣⲁⲇⲓ‐\nⲥⲟⲥ ⲡⲟⲩⲁ ϫⲡⲉ ⲑ[ⲏⲣⲓⲟⲛ] ⲡⲟⲩⲁ ϫⲡⲉ\nⲣⲱⲙⲉ ⲁⲁⲇⲁⲙ’ ⲟ[ⲩⲱⲙ] ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲛ̅ⲧⲁϩϫⲡⲉ ⲑⲏⲣ’ⲓ[ⲟⲛ ⲁϥϣ]ⲱⲡⲉ ⲛ̅ⲑⲏ‐\nⲣⲓⲟⲛ ⲁϥϫⲡⲉ ⲑⲏ[ⲣⲓⲟⲛ ⲉ]ⲧⲃⲉ ⲡⲁⲓ̈ ⲥⲉ‐\nⲣ̅ⲥⲉⲃⲉⲥⲑⲉ ⲁⲛⲑ[ⲏⲣⲓⲟⲛ ⲛ̅ϭ]ⲓ ⲛ̅ϣⲏⲣⲉ\nⲛ̅ⲁⲇⲁⲙ ⲡϣⲏ[ⲛ ...........]\nⲕⲁⲣⲡⲟⲥ ⲡⲉ ⲡ[............]\nⲡⲁⲉⲓ ⲁⲩⲁϣ[ⲁⲉⲓ............]\nⲟⲩⲱⲙ’ ⲙ̅ⲡ[..............]\nⲕⲁⲣⲡⲟⲥ ⲙ̅ⲡ[..............]\nϫⲡⲟ ⲛ̅ⲣ̅ⲣⲱⲙⲉ [............]\nⲱⲧ’ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅[...........]\nⲡⲛⲟⲩⲧⲉ ⲧⲁⲙⲉⲓⲉ ⲡⲣⲱ[ⲙⲉ...ⲣ̅ⲣⲱ]\nⲙⲉ ⲧⲁⲙⲉⲓⲉ ⲡ[ⲛ]ⲟⲩ[ⲧ]ⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲉⲛⲣⲱ[ⲙ]ⲉ ⲧⲁⲙⲓⲉ ⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲥⲉⲟⲩ‐\nⲱϣⲧ’ ⲛ̅ⲛⲟⲩⲧⲁⲙⲓⲟ ⲛⲉ ϣϣⲉ ⲉⲧⲣⲉ ⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲟⲩⲱϣⲧ’ ⲛ̅ⲣ̅ⲣⲱⲙⲉ §ⲛ̅ⲑⲉ ⲉⲥϣⲟⲟⲡ’ ⲙ̅‐"
+        },
+        {
+          "title": "Accomplishments",
+          "subtitle": "Accomplishments",
+          "heading": "Accomplishments (72, 4-17)",
+          "rangeLabel": "72, 4-17",
+          "range": {
+            "start": {
+              "page": 72,
+              "line": 4
+            },
+            "end": {
+              "page": 72,
+              "line": 17
+            }
+          },
+          "english": "The truth is, a person’s accomplishments depend on that person’s abilities, and\nfor this reason we refer to accomplishments as abilities. Among such\naccomplishments are a person’s children, and they come into being from a time\nof rest. Now, one’s abilities come to expression in what one accomplishes, and\nrest is clearly found in children. You will find this also applies to the image.\nThese are the people made after the image, who accomplish things through\ntheir strength and bring forth children through rest.",
+          "coptic": "ⲧⲉ ⲟⲩⲱϣⲧ’ ⲛ̅ⲣ̅ⲣⲱⲙⲉ §ⲛ̅ⲑⲉ ⲉⲥϣⲟⲟⲡ’ ⲙ̅‐\nⲙⲟⲥ ⲛ̅ϭⲓ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲛ̅ⲛ̅ϩⲃⲏⲩⲉ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ϣⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉϥ’ⲇⲩⲛⲁⲙⲓⲥ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲥⲉⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲛ̅ⲇⲩ‐\nⲛⲁⲙⲓⲥ ⲛⲉϥϩⲃⲏⲩⲉ ⲛⲉ ⲛⲉϥ’ϣⲏⲣⲉ ⲛ̅ⲧⲁⲩ‐\nϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉⲧⲃⲉ\nⲡⲁⲉⲓ ⲧⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲣ̅ⲡⲟⲗⲓⲧⲉⲩⲉⲥⲑⲉ\nϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉϥϩⲃⲏⲩⲉ ⲉⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲇⲉ\nⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ϣⲏⲣⲉ ⲁⲩⲱ’\nⲕⲛⲁϩⲉ ⲉⲡⲁⲉⲓ’ ⲉϥϫⲱⲧⲉ ϣⲁ ϩⲁⲓ̈ ⲉⲑⲓⲕⲱⲛ\nⲁⲩⲱ ⲡⲁⲉⲓ ⲡⲉ ⲡⲣⲱⲙⲉ ⲛ̅ϩⲓⲕⲟⲛⲓⲕⲟⲥ\nⲉϥⲉⲓⲣⲉ ⲛ̅ⲛⲉϥϩⲃⲏⲩⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉϥϭⲟⲙ’\nⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉϥϫⲡⲟ ⲛ̅ⲛⲉϥ’‐\nϣⲏⲣⲉ §ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲣ̅‐"
+        },
+        {
+          "title": "Slaves and the Free",
+          "subtitle": "Slaves and the Free",
+          "heading": "Slaves and the Free (72, 17-29)",
+          "rangeLabel": "72, 17-29",
+          "range": {
+            "start": {
+              "page": 72,
+              "line": 17
+            },
+            "end": {
+              "page": 72,
+              "line": 29
+            }
+          },
+          "english": "In this world slaves serve the free. In heaven’s kingdom the free will serve the\nslaves and the attendants of the bridal chamber will serve the wedding guests.\nThe attendants of the bridal chamber have only one name, and that is rest.\nWhen they are together, they need no other form, [for they are in]\ncontemplation…perception. They are superior…among those in…the glories of\nglories….",
+          "coptic": "ϣⲏⲣⲉ §ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲣ̅‐\nϩⲩⲡⲏⲣⲉⲧⲉⲓ ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ϩⲛ̅ ⲧⲙⲛ̅‐\nⲧⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ ⲛⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲛⲁⲣ̅‐\nⲇⲓⲁⲕⲟⲛ[ⲉⲓ] ⲛ̅ⲛ̅ϩⲙ̅ϩ̅ⲁ̅ⲗ̅ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲙ̅‐\nⲡⲛⲩⲙⲫ[ⲱ]ⲛ ⲛ[ⲁ]ⲣ̅ⲇⲓⲁⲕⲟⲛⲉⲓ ⲛ̅ⲛ̅ϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲅⲁ[ⲙⲟⲥ ⲛ̅]ϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ’ⲫⲱⲛ\nⲟⲩⲣⲁⲛ ⲟⲩ[ⲱⲧ ⲡⲉ]ⲧⲉ ⲟⲩⲛⲧⲁⲩϥ’ ⲧⲁⲛⲁ‐\nⲡⲁⲩⲥⲓⲥ’ ⲉ[ⲩϩⲓ ⲛ]ⲟⲩⲉⲣⲏⲩ ⲥⲉⲣ̅ⲭⲣⲉⲓⲁ ⲁⲛ\nⲛ̅ϫⲓ ϩⲣ̅ⲃ[’ ⲉⲩⲛ̅ⲧⲁⲩ] ⲧⲉⲑⲉⲱⲣⲉⲓⲁ ⲙ̅ⲙⲁⲩ\n[....]ⲫ[.....]ⲑⲏⲥⲓⲥ ϩⲛ̅ϩⲟⲩⲟ ⲛⲉ\n[............]ⲥⲓⲁ ϩⲛ̅ ⲛⲉⲧϩⲛ̅ ⲡ’‐\n[...........]ⲛ̅ ⲛⲉⲟⲟⲩ ⲛ̅ⲛⲉ‐\n[...........]ⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ §ⲛⲉ‐"
+        },
+        {
+          "title": "Jesus Going Down into the Water",
+          "subtitle": "Jesus Going Down into the Water",
+          "heading": "Jesus Going Down into the Water (72, 29-73, 1)",
+          "rangeLabel": "72, 29-73, 1",
+          "range": {
+            "start": {
+              "page": 72,
+              "line": 29
+            },
+            "end": {
+              "page": 73,
+              "line": 1
+            }
+          },
+          "english": "[It] was [necessary for Jesus] to go down into the water [in order to perfect] and\npurify it. [So also] those who are [baptized] in his name [are perfected]. For he\nsaid, “[Thus] shall we perfect all righteousness.”",
+          "coptic": "[...........]ⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ §ⲛⲉ‐\n[..........ⲃ]ⲱⲕ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟ‐\n[ⲟⲩ ........] ⲉⲃⲟⲗ’ ⲉϥⲛⲁⲥⲟⲧϥ’\n[.........]ⲕ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲛⲉⲛ’ⲧⲁϩ‐\n[......] ϩⲙ̅ ⲡⲉϥⲣⲁⲛ ⲡⲉϫⲁϥ ⲅⲁⲣ\n[ϫⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑ]ⲉ ⲉⲛⲁϫⲱⲕ’ ⲉⲃⲟⲗ ⲛ̅ⲇⲓⲕ(ⲁⲓ)‐\nⲟⲥⲩⲛⲏ ⲛⲓⲙ’ §ⲛⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲥⲉⲛⲁ‐"
+        },
+        {
+          "title": "Resurrection and Baptism",
+          "subtitle": "Resurrection and Baptism",
+          "heading": "Resurrection and Baptism (73, 1-8)",
+          "rangeLabel": "73, 1-8",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 1
+            },
+            "end": {
+              "page": 73,
+              "line": 8
+            }
+          },
+          "english": "People who say they will first die and then arise are wrong. If they do not\nreceive the resurrection first, while they are alive, they will receive nothing when\nthey die. So it is said of baptism, “Great is baptism,” for if people receive it, they\nwill live.",
+          "coptic": "ⲟⲥⲩⲛⲏ ⲛⲓⲙ’ §ⲛⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲥⲉⲛⲁ‐\nⲙⲟⲩ ⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ ⲥⲉⲛⲁⲧⲱⲟⲩⲛ ⟦ⲛ̅⟧ ⲥⲉ‐\nⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲉⲩⲧⲙ̅ϫⲓ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ⲧⲁⲛⲁ‐\nⲥⲧⲁⲥⲓⲥ ⲉⲩⲟⲛϩ ⲉⲩϣⲁⲙⲟⲩ ⲥⲉⲛⲁϫⲓ ⲗⲁ‐\nⲁⲩ ⲁⲛ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲟⲛ ⲉⲩϫⲱ ⲙ̅ⲙⲟⲥ ⲉ‐\nⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲉⲩϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲟⲩⲛⲟϭ\nⲡⲉ ⲡⲃⲁⲡⲧⲓⲥⲙⲁ ϫⲉ ⲉⲩϣⲁϫⲓⲧϥ’ ⲥⲉⲛⲁ‐\nⲱⲛϩ §ⲫⲓⲗⲓⲡⲡⲟⲥ ⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲡⲉ‐"
+        },
+        {
+          "title": "Joseph the Carpenter",
+          "subtitle": "Joseph the Carpenter",
+          "heading": "Joseph the Carpenter (73, 8-19)",
+          "rangeLabel": "73, 8-19",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 8
+            },
+            "end": {
+              "page": 73,
+              "line": 19
+            }
+          },
+          "english": "Philip the apostle said, “Joseph the carpenter planted a garden, for he needed\nwood for his trade. He is the one who made the cross from the trees he planted,\nand his own offspring hung on what he planted. His offspring was Jesus and\nwhat he planted was the cross.”\nThe tree of life, however, is in the middle of the garden. It is an olive tree,\nand from it comes chrism, and from chrism comes resurrection.",
+          "coptic": "ⲱⲛϩ §ⲫⲓⲗⲓⲡⲡⲟⲥ ⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲡⲉ‐\nϫⲁϥ ϫⲉ ⲓ̈ⲱⲥⲏⲫ’ ⲡϩⲁⲙ’ϣⲉ’ ⲁϥⲧⲱϭⲉ ⲛ̅‐\nⲛⲟⲩⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ϫⲉ ⲛⲉϥⲣ̅ⲭⲣⲉⲓⲁ ⲛ̅ϩⲛ̅‐\nϣⲉ ⲉϩⲟⲩⲛ’ ⲉⲧⲉϥ’ⲧⲉⲭⲛⲏ ⲛ̅ⲧⲟϥ ⲡⲉⲛ‐\nⲧⲁϩⲧⲁⲙⲓⲟ ⲙ̅ⲡⲥⲧⲁⲩⲣⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅‐\nϣⲏⲛ ⲛ̅ⲧⲁϥ’ⲧⲟϭⲟⲩ ⲁⲩⲱ ⲡⲉϥϭⲣⲟϭ ⲛⲉϥ’‐\nⲟϣⲉ ⲁⲡⲉⲛⲧⲁϥⲧⲟϭϥ’ ⲛⲉ ⲡⲉϥϭⲣⲟϭ ⲡⲉ\nⲓⲏ̅ⲥ̅ ⲡⲧⲱϭⲉ ⲇⲉ ⲡⲉ ⲡⲉⲥxⲟⲥ ⲁⲗⲗⲁ ⲡϣⲏⲛ\nⲙ̅ⲡⲱⲛϩ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ\nⲁⲩⲱ ⲧⲃⲉⲛ̅ϫⲟⲉⲓⲧ’ ⲛ̅ⲧⲁ ⲡⲉⲭⲣⲉⲓⲥⲙⲁ ϣⲱ‐\nⲡⲉ ⲉⲃⲟⲗ’ ⲛ̅ϩⲏⲧⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ’ ⲁⲧⲁ‐\nⲛⲁⲥⲧⲁⲥⲓⲥ §ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲁⲙⲕⲱ‐"
+        },
+        {
+          "title": "This World Eats Corpses",
+          "subtitle": "This World Eats Corpses",
+          "heading": "This World Eats Corpses (73, 19-27)",
+          "rangeLabel": "73, 19-27",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 19
+            },
+            "end": {
+              "page": 73,
+              "line": 27
+            }
+          },
+          "english": "This world eats corpses, and everything eaten in this world also dies. Truth eats\nlife, and no one nourished by [truth] will die. Jesus came from that realm and\nbrought food from there, and he gave [life] to all who wanted it, that they might\nnot die.",
+          "coptic": "ⲛⲁⲥⲧⲁⲥⲓⲥ §ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲁⲙⲕⲱ‐\nⲱⲥ ⲡⲉ ⲛ̅ⲕⲉ ⲛⲓⲙ’ ⲉⲧⲟⲩⲱⲙ’ ⲙ̅ⲙⲟⲟⲩ\nϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ’ ⲥⲉⲙⲟ[ⲩ] ϩⲱⲟⲩ ⲟⲛ’ ⲧⲁⲗⲏⲑⲉⲓ‐\nⲁ ⲟⲩⲁⲙⲱⲛϩ ⲧⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲙⲛ̅ ⲗⲁⲁⲩ\nϩⲛ̅ ⲛⲉⲧ’ⲥⲟⲛϣ ϩⲛ̅ ⲧ[ⲙⲉ] ⲛⲁⲙⲟⲩ ⲛ̅ⲧⲁ ⲓ̅ⲥ̅\nⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲙⲁ ⲉ[ⲧⲙ̅]ⲙⲁⲩ ⲁⲩⲱ ⲁϥⲉⲓ‐\nⲛⲉ ⲛ̅ϩⲛ̅ⲧⲣⲟⲫⲏ ⲉⲃⲟⲗ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲛⲉ‐\nⲧⲟⲩⲱϣ ⲁϥϯ ⲛⲁⲩ [ⲛ̅ⲟⲩ]ⲱ[ⲛϩ] ϫⲉ[ⲕⲁⲁⲥ]\nⲛ̅ⲛⲟⲩⲙⲟⲩ §ⲁⲡⲛ[ⲟⲩⲧⲉ .]..ⲉ ⲛ̅ⲟ[ⲩⲡⲁⲣⲁ]‐"
+        },
+        {
+          "title": "God Plants Paradise",
+          "subtitle": "God Plants Paradise",
+          "heading": "God Plants Paradise (73, 27-74, 12)",
+          "rangeLabel": "73, 27-74, 12",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 27
+            },
+            "end": {
+              "page": 74,
+              "line": 12
+            }
+          },
+          "english": "[God planted] a garden, and humans [lived in the] garden. There are some [who\ndwell] with…God….\nThis garden [is where] it will be said to me, “…[eat] this and do not eat that,\n[as you] wish.” This is where I shall eat everything, where the tree of\nknowledge is.\nThat tree killed Adam, but here the tree of knowledge has brought people\nback to life. That tree was the law. It can give knowledge of good and evil, but it\nneither freed Adam from evil nor made him good, and it brought death to those\nwho ate of it. For when it was said, “Eat this and do not eat that,” death began.",
+          "coptic": "ⲛ̅ⲛⲟⲩⲙⲟⲩ §ⲁⲡⲛ[ⲟⲩⲧⲉ .]..ⲉ ⲛ̅ⲟ[ⲩⲡⲁⲣⲁ]‐\nⲇⲉⲓⲥⲟⲥ ⲁⲡⲣⲱ[ⲙⲉ........ⲡⲁⲣⲁ]‐\nⲇⲉⲓⲥⲟⲥ ⲟⲩⲛ̅ ϩ[.......... ϣⲟ]‐\nⲟⲡ’ ⲙⲛ̅ ϩⲙ̅ⲡ[............]\nⲙ̅ⲡⲛⲟⲩⲧⲉ ϩⲙ̅ [............]\nⲙⲉ ⲛⲉⲧⲛ̅ϩⲏⲧ[ϥ...........ⲉ]‐\nϯ ⲟⲩⲱϣ ⲡⲓⲡⲁⲣⲁⲇ[ⲉⲓⲥⲟⲥ ⲡⲉ ⲡⲙⲁ ⲉ]‐\nⲧⲟⲩⲛⲁϫⲟⲟⲥ ⲛⲁⲉⲓ ϫⲉ [....ⲟⲩⲱⲙ]\nⲙ̅ⲡⲁⲉⲓ ⲏ ⲙⲛ̅ⲟⲩⲱⲙ’ ⲙ̅[ⲡⲁⲉⲓ ⲛ̅ⲑⲉ ⲉⲧⲕ]‐\nⲟⲩⲱϣ ⲡⲁⲉⲓ ⲡⲙⲁ [ⲉ]ϯⲛⲁⲟⲩⲱⲙ’ ⲛ̅ⲕⲉ ⲛⲓⲙ’\nⲙ̅ⲙⲁⲩ ⲉϥϣⲟ[ⲟ]ⲡ’ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲡϣⲏⲛ ⲛ̅ⲧ’‐\nⲅⲛⲱⲥⲓⲥ ⲡⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲙⲟⲩⲧ’ ⲁⲇⲁⲙ ⲡⲉ‐\nⲉⲓⲙⲁ ⲇⲉ ⲡϣⲏⲛ’ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲁϥⲧⲛ̅ϩⲉ ⲡⲣⲱ‐\nⲙⲉ ⲡⲛⲟⲙⲟⲥ ⲛⲉ ⲡϣⲏⲛ ⲡⲉ ⲟⲩⲛ̅ ϭⲟⲙ’\nⲙ̅ⲙⲟϥ ⲛ̅ϥϯ ⲧⲅⲛⲱⲥⲓⲥ ⲙ̅ⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ’\nⲙⲛ̅ ⲡⲉⲑⲟⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲉϥⲗⲁϭⲉ ⲉⲣⲟϥ ϩⲙ̅\nⲡⲡⲉⲑⲟⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲉϥ’ⲕⲁⲁϥ ϩⲙ̅ ⲡⲡⲉⲧⲛⲁ‐\nⲛⲟⲩϥ ⲁⲗⲗⲁ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲙⲟⲩ ⲛ̅ⲛⲉⲛⲧⲁϩ‐\nⲟⲩⲱⲙ’ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ϩⲙ̅ ⲡⲧⲣⲉϥϫⲟⲟⲥ ⲅⲁⲣ\nϫⲉ ⲟⲩⲱⲙ’ ⲡⲁⲉⲓ’ ⲙⲛ̅ⲟⲩⲱⲙ’ ⲡⲁⲉⲓ ⲁϥϣⲱ‐\nⲡⲉ ⲛ̅ⲁⲣⲭⲏ’ ⲙ̅ⲡⲙⲟⲩ §ⲡⲭⲣⲉⲓⲥⲙⲁ ϥⲟ ⲛ̅ϫⲟ‐"
+        },
+        {
+          "title": "Chrism Is Superior to Baptism",
+          "subtitle": "Chrism Is Superior to Baptism",
+          "heading": "Chrism Is Superior to Baptism (74, 12-24)",
+          "rangeLabel": "74, 12-24",
+          "range": {
+            "start": {
+              "page": 74,
+              "line": 12
+            },
+            "end": {
+              "page": 74,
+              "line": 24
+            }
+          },
+          "english": "Chrism is superior to baptism. We are called Christians from the word “chrism,”\nnot from the word “baptism.” Christ also has his name from chrism, for the\nFather anointed the Son, the Son anointed the apostles, and the apostles anointed\nus. Whoever is anointed has everything: resurrection, light, cross, Holy Spirit.\nThe Father gave all this to the person in the bridal chamber, and the person\naccepted it. The Father was in the Son and the Son was in the Father. This is\nheaven’s kingdom.",
+          "coptic": "ⲡⲉ ⲛ̅ⲁⲣⲭⲏ’ ⲙ̅ⲡⲙⲟⲩ §ⲡⲭⲣⲉⲓⲥⲙⲁ ϥⲟ ⲛ̅ϫⲟ‐\nⲉⲓⲥ ⲉⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲉⲃⲟⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲭⲣⲓⲥⲙⲁ\nⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲛ’ ϫⲉ ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲉⲧⲃⲉ\nⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲁⲛ’ ⲁⲩⲱ ⲛ̅ⲧⲁⲩⲙⲟⲩⲧⲉ ⲉⲡⲉ‐\nⲭ̅ⲥ̅ ⲉⲧⲃⲉ ⲡⲭⲣⲓⲥⲙⲁ ⲁⲡⲉⲓⲱⲧ’ ⲅⲁⲣ’ ⲧⲱϩⲥ\nⲙ̅ⲡϣⲏⲣⲉ ⲁⲡϣⲏⲣⲉ ⲇⲉ ⲧⲱϩⲥ ⲛ̅ⲁⲡⲟⲥⲧⲟ‐\nⲗⲟⲥ ⲁⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲇⲉ ⲧⲁϩⲥⲛ̅ ⲡⲉⲛ‐\nⲧⲁⲩⲧⲟϩⲥϥ’ ⲟⲩⲛ̅ⲧⲉϥ’ ⲡⲧⲏⲣϥ’ ⲙ̅ⲙⲁⲩ ⲟⲩⲛ̅‐\nⲧⲁϥ ⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲡⲟⲩⲟⲉⲓⲛ ⲡⲉⲥxⲟⲥ’\nⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’ ⲁⲡⲉⲓⲱⲧ’ ϯ ⲛⲁϥ ⲙ̅ⲡⲁ‐\nⲉⲓ ϩⲙ̅ ⲡⲛⲩ[ⲙ]ⲫⲱⲛ ⲁϥϫⲓ ⲁϥϣⲱⲡⲉ ⲛ̅ϭⲓ\nⲡⲉⲓⲱⲧ’ ϩⲙ̅ ⲡϣ[ⲏ]ⲣⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ ϩⲙ̅ ⲡⲉⲓ‐\nⲱⲧ’ ⲧⲁⲉⲓ ⲧ[ⲉ ⲧⲙⲛ̅ⲧ]ⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ §ⲕⲁⲗⲱⲥ"
+        },
+        {
+          "title": "Laughing",
+          "subtitle": "Laughing",
+          "heading": "Laughing (74, 24-75, 2)",
+          "rangeLabel": "74, 24-75, 2",
+          "range": {
+            "start": {
+              "page": 74,
+              "line": 24
+            },
+            "end": {
+              "page": 75,
+              "line": 2
+            }
+          },
+          "english": "The master put it very well: “Some have gone into heaven’s kingdom laughing,\nand they have come out [laughing].”\nSomeone said, “[That is] a Christian.”\nThe person said [again, “That is the one who went] down into the water and\ncame [up as lord] of all. [Redemption is no] laughing matter, but [a person goes\nlaughing into] heaven’s kingdom out of contempt for these rags. If the person\ndespises [the body] and considers it a laughing matter, [the person will come out]\nlaughing.”\nSo it is also with bread, the cup, and oil, though there are mysteries\nhigher than these.",
+          "coptic": "ⲱⲧ’ ⲧⲁⲉⲓ ⲧ[ⲉ ⲧⲙⲛ̅ⲧ]ⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ §ⲕⲁⲗⲱⲥ\nⲁⲡϫⲟⲉⲓⲥ ϫⲟⲟ[ⲥ ϫ]ⲉ ⲁϩⲟⲉⲓⲛⲉ ⲃⲱⲕ’ ⲉⲧⲙⲛ̅‐\nⲧⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩ[ⲉ] ⲉⲩⲥⲱⲃⲉ ⲁⲩⲱ ⲁⲩⲉⲓ ⲉⲃⲟⲗ\n[...]ⲱ[.]ⲉⲁⲩ[...]ⲟⲩⲁ ϫⲉ ⲟⲩⲭⲣⲏⲥⲧⲓⲁⲛⲟⲥ\n[...]ⲡⲉⲭ[..]’ [....] ⲟⲛ ⲁⲩⲱ ⲛ̅ⲧⲉⲩⲛⲟⲩ’\n[........ⲃⲱⲕ ⲉⲡ]ⲓⲧⲛ̅ ⲉⲡⲙⲟⲟⲩ ⲁϥⲉⲓ\n[............]ⲥ ⲁⲡⲧⲙⲣϥ’ ⲉⲧⲃⲉ\n[..........ⲟⲩⲡ]ⲁⲓⲅⲛⲓⲟⲛ ⲡⲉ ⲁⲗ‐\n[ⲗⲁ ........ⲣ̅ⲕⲁⲧⲁⲫ]ⲣⲟⲛⲉⲓ ⲙ̅ⲡⲉⲉⲓⲡⲉ‐\n[..........]ⲛ’ ⲉⲧⲙⲛ̅ⲧⲉⲣⲟ ⲛⲙ̅‐\n[ⲡⲏⲩⲉ ......] ⲉϥϣⲁⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉ\n[......ⲁ]ⲩⲱ ⲛ̅ϥϣⲟⲥϥ’ ϩⲱⲥ ⲡⲁⲓⲅⲛⲓ‐\n[ⲟⲛ....ⲉⲃ]ⲟⲗ ⲉϥⲥⲱⲃⲉ ⲧⲉⲉⲓϩⲉ ⲟⲛ ⲧⲉ\nϩⲓ ⲡⲟⲉⲓⲕ’ ⲙⲛ̅ ⲡⲡⲟ[ⲧ]ⲏⲣⲓⲟⲛ ⲙⲛ̅ ⲡⲛⲏϩ\nⲕⲁⲛ ⲟⲩⲛ̅ ⲕⲉⲟⲩⲁ ⲉϥϫⲟⲥⲉ ⲉⲛⲁⲉⲓ §ⲁⲡ’‐"
+        },
+        {
+          "title": "Creation Through a Mistake",
+          "subtitle": "Creation Through a Mistake",
+          "heading": "Creation Through a Mistake (75, 2-14)",
+          "rangeLabel": "75, 2-14",
+          "range": {
+            "start": {
+              "page": 75,
+              "line": 2
+            },
+            "end": {
+              "page": 75,
+              "line": 14
+            }
+          },
+          "english": "The world came into being through a mistake. The creator wanted to make it\nincorruptible and immortal, but he failed and did not get what he hoped for. For\nthe world is not incorruptible and the creator of the world is not incorruptible.\nThings are not incorruptible, but offspring are. Nothing can receive\nincorruptibility unless it is an offspring. And whatever cannot receive certainly\ncannot give.",
+          "coptic": "ⲕⲁⲛ ⲟⲩⲛ̅ ⲕⲉⲟⲩⲁ ⲉϥϫⲟⲥⲉ ⲉⲛⲁⲉⲓ §ⲁⲡ’‐\nⲕⲟⲥⲙⲟⲥ ϣⲱⲡⲉ ϩⲛ̅ ⲟⲩⲡⲁⲣⲁⲡⲧⲱⲙⲁ\nⲡⲉⲛⲧⲁϩⲧⲁⲙⲓⲟϥ ⲅⲁⲣ’ ⲛⲉϥ’ⲟⲩⲱϣ’ ⲁⲧⲁ‐\nⲙⲓⲟϥ’ ⲉϥⲟ ⲛ̅ⲁⲧ’ⲧⲁⲕⲟ ⲁⲩⲱ ⲛⲁⲑⲁⲛⲁⲧⲟⲥ\nⲁϥϩⲉ ⲉⲃⲟⲗ ⲁⲩⲱ ⲙ̅ⲡⲉϥ’ⲙⲉⲧⲉ ⲁⲑⲉⲗⲡⲓⲥ\nⲛⲉⲥϣⲟⲟⲡ’ ⲅⲁⲣ ⲁⲛ ⲛ̅ϭⲓ ⲧⲙⲛ̅ⲧⲁⲧⲧⲉⲕⲟ\nⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲁⲩⲱ † ⲛⲉϥϣⲟⲟⲡ’ ⲁⲛ ⲛ̅ϭⲓ\nⲧⲙ̅ⲛ̅ⲧⲁⲧ’ⲧⲁⲕⲟ ⲙ̅ⲡⲉⲛⲧⲁϩⲧⲁⲙⲓⲉ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲥϣⲟⲟⲡ ⲅⲁⲣ ⲁⲛ ⲛ̅ϭⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧ’ⲧⲁ‐\nⲕⲟ ⲛ̅ⲛ̅ϩⲃⲏⲩⲉ ⲁⲗⲗⲁ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲁⲩⲱ ⲙⲛ̅\nⲟⲩϩⲱⲃ’ ⲛⲁϣϫⲓ ⲛ̅ⲟⲩⲙ̅ⲛ̅ⲧⲁⲧⲧⲁⲕⲟ ⲉϥⲧⲙ̅‐\nϣⲱⲡⲉ ⲛ̅ϣⲏⲣⲉ ⲡⲉⲧⲉ ⲙⲛ̅ ϭⲟⲙ ⲇⲉ ⲙ̅ⲙⲟϥ’\nⲉϫⲓ ⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ϥⲛⲁϣϯ ⲁⲛ §ⲡⲡⲟⲧⲏ‐"
+        },
+        {
+          "title": "Eucharist and Baptism",
+          "subtitle": "Eucharist and Baptism",
+          "heading": "Eucharist and Baptism (75, 14-25)",
+          "rangeLabel": "75, 14-25",
+          "range": {
+            "start": {
+              "page": 75,
+              "line": 14
+            },
+            "end": {
+              "page": 75,
+              "line": 25
+            }
+          },
+          "english": "The cup of prayer contains wine and water, for it represents the blood for\nwhich thanksgiving is offered. It is full of the Holy Spirit, and it belongs to the\ncompletely perfect human. When we drink it, we take to ourselves the perfect\nhuman.\nThe living water is a body, and we must put on the living human. Thus, when\none is about to go down into the water, one strips in order to put on the living\nhuman.",
+          "coptic": "ⲉϫⲓ ⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ϥⲛⲁϣϯ ⲁⲛ §ⲡⲡⲟⲧⲏ‐\nⲣⲓⲟⲛ’ ⲙ̅ⲡϣⲗⲏⲗ ⲟⲩⲛ̅ⲧⲁϥ ⲏⲣⲡ’ ⲙ̅ⲙⲁⲩ ⲟⲩ‐\nⲛ̅ⲧⲁϥ’ ⲙⲟⲟⲩ ⲉϥ’ⲕⲏ ⲉϩⲣⲁⲓ̈ ⲉⲡⲧⲩⲡⲟⲥ’ ⲙ̅‐\nⲡⲉⲥⲛⲟϥ’ ⲉⲧⲟⲩⲣ̅ⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓ ⲉϫⲱϥ ⲁⲩ‐\nⲱ ϥⲙⲟⲩϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲁⲩ‐\nⲱ ⲡⲁ ⲡⲧⲉⲗⲉⲓⲟⲥ ⲧⲏⲣϥ ⲣ̅ⲣⲱⲙⲉ ⲡⲉ ϩⲟⲧⲁⲛ\nⲉⲛ’ϣⲁⲛⲥⲱ ⲙ̅ⲡⲁⲉⲓ ⲧⲛⲁϫⲓ ⲛⲁⲛ ⲙ̅ⲡⲧⲉ‐\nⲗⲉⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲡⲙⲟⲟⲩ ⲉⲧⲟⲛϩ ⲟⲩⲥⲱⲙⲁ\nⲡⲉ ϣϣⲉ ⲉⲧⲣⲛ̅ϯ ϩⲓⲱⲱⲛ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲧⲟⲛϩ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲉϥⲉⲓ ⲉϥⲃⲏⲕ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟ‐\nⲟⲩ ϣⲁϥⲕⲁⲕϥ ⲁϩⲏⲩ ϣⲓⲛⲁ ⲉϥⲛⲁϯ ⲡⲏ\nϩⲓⲱⲱϥ’ §ϣⲁⲣⲉ ⲟⲩϩⲧⲟ ϫⲡⲉ ⲟⲩϩⲧⲟ ⲟⲩ‐"
+        },
+        {
+          "title": "Like Bring Forth Like",
+          "subtitle": "Like Bring Forth Like",
+          "heading": "Like Bring Forth Like (75, 25-76, 6)",
+          "rangeLabel": "75, 25-76, 6",
+          "range": {
+            "start": {
+              "page": 75,
+              "line": 25
+            },
+            "end": {
+              "page": 76,
+              "line": 6
+            }
+          },
+          "english": "A horse brings forth a horse, a human brings forth humans, a deity brings forth\ndeities. So also bridegrooms and brides come from the [bridegroom and bride].\nNo Jews…from Greeks…from Jews…to Christians. [There was another\ngeneration of people], and these [blessed people] were called the chosen spiritual\nones, true humanity, the child of humanity, and the offspring of the child of\nhumanity. This true generation is renowned in the world, and this is where the\nattendants of the bridal chamber are.",
+          "coptic": "ϩⲓⲱⲱϥ’ §ϣⲁⲣⲉ ⲟⲩϩⲧⲟ ϫⲡⲉ ⲟⲩϩⲧⲟ ⲟⲩ‐\nⲣⲱⲙⲉ ϣⲁⲣⲉϥ’ϫⲡⲉ ⲣⲱⲙⲉ ⲟⲩⲛⲟⲩⲧⲉ\nϣⲁⲣⲉϥϫⲡⲉ ⲛⲟⲩⲧⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲙ̅[ⲡⲁ ⲧ]‐\nϣⲉⲗⲉⲉⲧ’ ⲙⲛ̅ ϩⲛ̅[ⲕⲉϣⲉ]ⲗⲉⲉⲧ’ ⲁⲩ[ϣⲱ]‐\nⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲛ[......] ⲛ̅[....]\nⲛⲉ ⲙⲛ̅ ⲓⲟⲩⲇⲁⲓ ⲟ[............]\nⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϩⲉ[............]\nϣⲟⲟⲡ’ ⲁⲩⲱ ⲁⲛ[............]\nⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ ⲓⲟⲩⲇ[ⲁⲓ ........]\nⲛ̅ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲁⲕ[...........]\nⲱ ⲁⲩⲙⲟⲩⲧⲉ ⲁⲛⲉⲉⲓⲙⲁ[.....]\nⲡⲅⲉⲛⲟⲥ ⲉⲧⲥⲟⲧⲡ’ ⲙ̅ⲡⲛ[.....]\nⲁⲩⲱ ⲡⲁⲗⲏⲑⲉⲓⲛⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ\nⲙ̅ⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲡⲥⲡⲉⲣⲙⲁ ⲙ̅ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ⲡⲉⲉⲓⲅⲉⲛⲟⲥ ⲛ̅ⲁⲗⲏⲑⲉⲓⲛⲟⲛ ⲥⲉⲣ̅ⲟⲛⲟ‐\nⲙⲁⲍⲉ ⲙ̅ⲙⲟϥ’ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ † ⲛⲁⲉⲓ ⲛⲉ ⲡⲙⲁ †\nⲉⲧⲟⲩϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ‐\nⲫⲱⲛ §ⲉⲡϩⲱⲧⲣ̅ ϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ"
+        },
+        {
+          "title": "Strength and Weakness",
+          "subtitle": "Strength and Weakness",
+          "heading": "Strength and Weakness (76, 6-17)",
+          "rangeLabel": "76, 6-17",
+          "range": {
+            "start": {
+              "page": 76,
+              "line": 6
+            },
+            "end": {
+              "page": 76,
+              "line": 17
+            }
+          },
+          "english": "In this world, where strength and weakness are to be found, there is union of\nmale and female, but in the eternal realm there is a different kind of union.\nAlthough we refer to these things with the same words, there are also other\nwords that are superior to every word that is pronounced.\nThese are above strength. For there is strength and there are those superior to\nstrength, and they are not different but the same. This is incomprehensible to\nhearts of flesh.",
+          "coptic": "ⲫⲱⲛ §ⲉⲡϩⲱⲧⲣ̅ ϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ\nϩⲟⲟⲩⲧ ϩⲓ ⲥϩⲓⲙⲉ † ⲡⲙⲁ ⲉⲧϭⲟⲙ ⲙⲛ̅ ⲧⲙⲛⲧ’‐\nϭⲱⲃ † ϩⲙ̅ ⲡⲁⲓⲱⲛ ⲕⲉⲟⲩⲁ ⲡⲉ ⲡⲉⲓⲛⲉ ⲙ̅ⲡϩⲱ‐\nⲧⲣ̅ ⲉⲙ’ⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲣⲟⲟⲩ ⲛ̅ⲛⲉⲉⲓⲣⲁⲛ ⲟⲩⲛ ϩⲛ̅‐\nⲕⲟⲟⲩⲉ ⲇⲉ ϣⲟⲟⲡ’ ⲥⲉϫⲟⲥⲉ ⲡⲁⲣⲁ ⲣⲁⲛ’\nⲛⲓⲙ ⲉⲧⲟⲩⲣ̅ⲟⲛⲟⲙⲁⲍⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ ⲥⲉ‐\nϫⲟⲟⲥⲉ ⲉⲡϫⲱⲱⲣⲉ ⲡⲙⲁ ⲅⲁⲣ ⲉⲧⲉ ⲟⲩⲛ̅ ⲃⲓⲁ\nⲙ̅ⲙⲁⲩ ⲉⲩϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲛⲉⲧ’ⲥⲟⲧⲡ’\nⲉⲧϭⲟⲙ ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲕⲉⲟⲩⲁ ⲁⲛ ⲡⲉ ⲁⲩⲱ ⲕⲉ‐\nⲟⲩⲁ ⲡⲉ ⲁⲗⲗⲁ ⲛ̅ⲧⲟⲟⲩ ⲙ̅ⲡⲉⲥⲛⲁⲩ ⲡⲓⲟⲩⲁ\nⲟⲩⲱⲧ’ ⲡⲉ ⲡⲁⲉⲓ ⲡⲉ ⲉⲧϥⲛⲁϣⲓ ⲁⲛ ⲉϩⲣⲁⲓ̈\nⲉϫⲛ̅ ⲫⲏⲧ’ ⲛ̅ⲥⲁⲣⲝ §ⲟⲩⲟⲛ’ ⲛⲓⲙ ⲉⲧⲟⲩⲛ̅ⲧⲟⲩ"
+        },
+        {
+          "title": "Know Yourself",
+          "subtitle": "Know Yourself",
+          "heading": "Know Yourself (76, 17-22)",
+          "rangeLabel": "76, 17-22",
+          "range": {
+            "start": {
+              "page": 76,
+              "line": 17
+            },
+            "end": {
+              "page": 76,
+              "line": 22
+            }
+          },
+          "english": "All those who have everything should know themselves, shouldn’t they? If\nsome do not know themselves, they will not enjoy what they have, but those who\nknow themselves will enjoy their possessions.",
+          "coptic": "ⲉϫⲛ̅ ⲫⲏⲧ’ ⲛ̅ⲥⲁⲣⲝ §ⲟⲩⲟⲛ’ ⲛⲓⲙ ⲉⲧⲟⲩⲛ̅ⲧⲟⲩ\nⲡⲧⲏⲣϥ’ ⲙ̅ⲙⲁⲩ ϣϣⲉ ⲁⲛ ⲉⲧⲣⲟⲩⲉⲓⲙⲉ ⲙ̅‐\nⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲉⲩⲧⲙ̅ⲉⲓⲙⲉ\nⲙ̅ⲙⲟⲟⲩ ⲥⲉⲛⲁⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ⲁⲛ ⲛ̅ⲛⲉⲧⲉ\nⲟⲩⲛ̅ⲧⲁⲩⲥⲉ ⲛⲉⲧⲁϩⲥⲉⲃⲟ ⲇⲉ ⲉⲣⲟⲟⲩ ⲥⲉⲛⲁ‐\nⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ⲙ̅ⲙⲟⲟⲩ §ⲟⲩ ⲙⲟⲛⲟⲛ ⲡⲣⲱⲙⲉ"
+        },
+        {
+          "title": "Putting on Light",
+          "subtitle": "Putting on Light",
+          "heading": "Putting on Light (76, 22-77, 1)",
+          "rangeLabel": "76, 22-77, 1",
+          "range": {
+            "start": {
+              "page": 76,
+              "line": 22
+            },
+            "end": {
+              "page": 77,
+              "line": 1
+            }
+          },
+          "english": "The perfect human can neither be grasped nor seen. What is seen can be grasped.\nNo one can obtain this grace without putting on perfect light and becoming\nperfect light. Whoever puts on light will enter [the place of rest]. This is perfect\n[light, and] we [must] become [perfect humans] before we leave [the world].\nWhoever obtains everything [but does not separate] from this world will [not] be\nable [to attain] that realm but will [go to the] middle place, for that one is not\nperfect. Only Jesus knows the fate of that person.",
+          "coptic": "ⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ⲙ̅ⲙⲟⲟⲩ §ⲟⲩ ⲙⲟⲛⲟⲛ ⲡⲣⲱⲙⲉ\nⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲥⲉⲛⲁϣⲉⲙⲁϩⲧⲉ ⲁⲛ ⲙ̅ⲙⲟϥ’\nⲁⲗⲗⲁ ⲥⲉⲛⲁϣⲛⲁⲩ ⲉⲣⲟϥ ⲁⲛ ⲉⲩϣⲁⲛⲛⲁⲩ\nⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲥⲉⲛⲁⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟϥ’ ⲛ̅ⲕⲉⲣⲏⲧⲉ\nⲙⲛ̅ ⲟⲩⲁ ⲛⲁϣϫⲡⲟ ⲛⲁϥ’ ⲛ̅ⲧⲉⲉⲓⲭⲁⲣⲓⲥ ⲉⲓ\n[ⲙⲏ ⲛ̅]ϥϯ ϩ[ⲓ]ⲱⲱϥ ⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲛ’ ⲛ̅ⲟⲩⲟⲉⲓⲛ\n[ⲁⲩⲱ] ⲛ̅ϥϣⲱ[ⲡⲉ ϩ]ⲱⲱϥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ ⲟⲩⲟ‐\n[ⲉⲓⲛ ⲡⲉ]ⲛⲧⲁ[ϩ’ⲧⲁⲁϥ’] ϩⲓⲱⲱϥ’ ϥⲛⲁⲃⲱⲕ’\n[...........] ⲡⲁⲉⲓ ⲡⲉ ⲡⲧⲉⲗⲉⲓⲟⲛ\n[............] ⲉⲧⲣⲛ̅ϣⲱⲡⲉ ⲛ̅‐\n[............]ⲱⲥ ⲉⲙ’ⲡⲁⲧⲛ̅ⲉⲓ ⲉ‐\n[...........] ⲡⲉⲧⲁ⟦ϩ⟧ϫⲓ ⲡⲧⲏⲣϥ’\n[..........] ⲁⲛⲉⲉⲓⲙⲁ ϥⲛⲁϣ ⲣ̅‐\n[........]ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲗⲗⲁ ϥⲛⲁ‐\n[....ⲧⲙⲉ]ⲥⲟⲧⲏⲥ ϩⲱⲥ ⲁⲧϫⲱⲕ’ ⲉⲃⲟⲗ\nⲙⲟⲛⲟⲛ ⲓ̅ⲥ̅ ⲥⲟⲟⲩⲛ ⲙ̅ⲡⲧⲉⲗⲟⲥ ⲙ̅ⲡⲁⲉⲓ"
+        },
+        {
+          "title": "The Priest",
+          "subtitle": "The Priest",
+          "heading": "The Priest (77, 2-7)",
+          "rangeLabel": "77, 2-7",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 2
+            },
+            "end": {
+              "page": 77,
+              "line": 7
+            }
+          },
+          "english": "The holy person is completely holy, including the person’s body. The holy\nperson who takes up bread consecrates it, and does the same with the cup or\nanything else the person takes up and consecrates. So how wouldn’t the person\nconsecrate the body also?",
+          "coptic": "§ⲡⲣⲱⲙⲉ ⲉⲧⲟⲩⲁⲁⲃ ϥⲟⲩⲁⲁⲃ ⲧⲏⲣϥ’ ϣⲁϩ‐\nⲣⲁⲓ̈ ⲉⲡⲉϥ’ⲥⲱⲙⲁ ⲉϣϫⲉ ⲁϥϫⲓ ⲅⲁⲣ’ ⲙ̅ⲡⲟ‐\nⲉⲓⲕ’ ϥⲛⲁⲁϥ’ ⲉϥ’ⲟⲩⲁⲁⲃ’ ⲏ ⲡⲡⲟⲧⲏⲣⲓⲟⲛ\nⲏ ⲡⲕⲉⲥⲉⲉⲡⲉ ⲧⲏⲣϥ’ ⲉⲧϥϫⲓ ⲙ̅ⲙⲟⲟⲩ ⲉϥ’‐\nⲧⲟⲩⲃⲟ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ ⲡⲱⲥ ϥⲛⲁⲧⲟⲩⲃⲟ\nⲁⲛ ⲙ̅ⲡⲕⲉⲥⲱⲙⲁ §ⲛ̅ⲑⲉ ⲛ̅ⲧⲁ ⲓ̅ⲥ̅ ϫⲱⲕ’ ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "The Water of Baptism and Death",
+          "subtitle": "The Water of Baptism and Death",
+          "heading": "The Water of Baptism and Death (77, 7-15)",
+          "rangeLabel": "77, 7-15",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 7
+            },
+            "end": {
+              "page": 77,
+              "line": 15
+            }
+          },
+          "english": "As Jesus perfected the water of baptism, he poured death out. For this reason\nwe go down into the water but not into death, that we may not be poured out into\nthe spirit of the world. When it blows, winter comes. When the Holy Spirit\nblows, summer comes.",
+          "coptic": "ⲁⲛ ⲙ̅ⲡⲕⲉⲥⲱⲙⲁ §ⲛ̅ⲑⲉ ⲛ̅ⲧⲁ ⲓ̅ⲥ̅ ϫⲱⲕ’ ⲉⲃⲟⲗ\nⲙ̅ⲡⲙⲟⲟⲩ ⲙ̅ⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲁϥ’‐\nⲡⲱϩⲧ’ ⲉⲃⲟⲗ’ ⲙ̅ⲡⲙⲟⲩ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲧⲛ̅ⲃⲏⲕ’\nⲙⲉⲛ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟⲟⲩ ⲧⲛ̅ⲃⲏⲕ ⲇⲉ ⲁⲛ\nⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟⲩ ϣⲓⲛⲁ ϫⲉ ⲛⲟⲩⲡⲁϩⲧⲛ̅\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ϩⲟⲧⲁⲛ\nⲉϥϣⲁⲛⲛⲓϥⲉ ϣⲁⲣⲉϥ’ⲧⲉ ⲧⲡⲣⲱ ϣⲱⲡⲉ\nⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ϩⲟⲧⲁⲛ’ ⲉϥ’ϣⲁⲛⲛⲓϥⲉ\nϣⲁⲣⲉ ⲧϣⲁⲙⲏ ϣⲱⲡⲉ’ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥ’ ⲙ̅‐"
+        },
+        {
+          "title": "Knowledge and Love",
+          "subtitle": "Knowledge and Love",
+          "heading": "Knowledge and Love (77, 15-35)",
+          "rangeLabel": "77, 15-35",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 15
+            },
+            "end": {
+              "page": 77,
+              "line": 35
+            }
+          },
+          "english": "Whoever knows the truth is free, and a free person does not sin, for “one\nwho sins is a slave of sin.” Truth is the Mother, knowledge is the Father. Those\nwho do not allow themselves to sin the world calls free. They do not allow\nthemselves to sin, and knowledge of the truth lifts them up118-that is, it makes\nthem free and superior to all. But “love builds up.” Whoever is free through\nknowledge is a slave because of love for those who do not yet have freedom of\nknowledge. Knowledge enables them to be free.\nLove [never says] it owns something, [though] it owns [everything]. Love\ndoes not [say, “This is mine]” or “That is mine,” but rather, “[All that is mine] is\nyours.”",
+          "coptic": "ϣⲁⲣⲉ ⲧϣⲁⲙⲏ ϣⲱⲡⲉ’ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥ’ ⲙ̅‐\nⲙⲁⲩ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲙⲉ ⲟⲩⲉⲗⲉⲩⲑⲉⲣⲟⲥ\nⲡⲉ ⲡⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲇⲉ ⲙⲁϥⲣ̅ ⲛⲟⲃⲉ ⲡⲉ‐\nϯⲣⲉ ⲅⲁⲣ ⲙ̅ⲡⲛⲟⲃⲉ ⲡϩⲙ̅ϩ̅ⲁ̅ⲗ̅ ⲙ̅ⲡⲛⲟⲃⲉ\nⲡⲉ ⲧⲙⲁⲁⲩ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲧⲅⲛⲱⲥⲓⲥ ⲇⲉ\nⲡⲉ ⲡⲧⲱⲧ’ ⲛⲉⲧⲉⲥⲧⲟ ⲛⲁⲩ ⲁⲛ ⲁⲣ̅ ⲛⲟⲃⲉ\nⲉⲡⲕⲟⲥⲙⲟⲥ ⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲉⲗⲉⲩ‐\nⲑⲉⲣⲟⲥ ⲛⲁⲉⲓ ⲉⲧⲥⲧⲟ ⲛⲁⲩ ⲁⲛ ⲁⲣ̅ ⲛⲟⲃⲉ\nⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϫⲓⲥⲉ ⲛ̅ϩⲏⲧ’ ⲉⲧⲉ\nⲡⲁⲉⲓ ⲡⲉ ⲥⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ\nⲁⲩⲱ ⲥⲧⲣⲟⲩϫⲓⲥⲉ ⲉⲡⲙⲁ ⲧⲏⲣϥ’ ⲧⲁⲅⲁⲡⲏ\nⲇⲉ ⲕⲱⲧ’ ⲡⲉⲧⲁϩⲣ̅ ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲇⲉ ϩⲓ‐\nⲧⲛ̅ ⲧⲅⲛⲱⲥⲓⲥ ϥⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲉⲧⲃⲉ ⲧⲁⲅⲁ‐\nⲡⲏ ⲛ̅ⲛⲁⲉⲓ ⲉⲙ’ⲡⲁⲧⲟⲩϣϥⲓ ⲉϩⲣⲁⲓ̈ [ⲛ̅ⲧⲉ]‐\nⲗⲉⲩⲑⲉⲣⲓⲁ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲧⲅⲛⲱ[ⲥⲓⲥ ⲇⲉ]\nⲥⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ϣⲓⲕⲁⲛⲟⲥ ⲉⲥ[ⲧⲣⲟⲩ]‐\nϣⲱⲡⲉ ⲛ̅ⲉⲗⲉⲩ[ⲑ]ⲉⲣ[ⲟⲥ] ⲧⲁⲅⲁⲡⲏ [ⲙⲁⲥϫⲉ]\nⲗⲁⲁⲩ ϫⲉ ⲡⲱⲥ [ⲡⲉ ...]ⲟⲓ[......]\nⲡⲱⲥ ⲡⲉ ⲙⲁⲥϫ[ⲟⲟⲥ ϫⲉ ⲡⲁⲉⲓ ⲡⲱⲉⲓ ⲡⲉ]\nⲏ ⲡⲁⲉⲓ ⲡⲱⲉⲓ ⲡⲉ ⲁ[ⲗⲗⲁ ⲛ]ⲟⲩ[ⲉⲓ ⲧⲏⲣⲟⲩ]\nⲛⲟⲩⲕ’ ⲛⲉ ⲧⲁⲅⲁⲡⲏ ⲙ̅ⲡⲛⲉⲩⲙ[ⲁⲧⲓⲕⲏ]"
+        },
+        {
+          "title": "Spiritual Love",
+          "subtitle": "Spiritual Love",
+          "heading": "Spiritual Love (77, 35-78, 12)",
+          "rangeLabel": "77, 35-78, 12",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 35
+            },
+            "end": {
+              "page": 78,
+              "line": 12
+            }
+          },
+          "english": "Spiritual love is wine and perfume. People who anoint themselves with it\nenjoy it, and while these people are present, others who are around also enjoy it.\nIf the people who are anointed leave them and go away, the others who are not\nanointed but are only standing around are stuck with their own bad odor.\nThe Samaritan gave nothing to the wounded person except wine and oil-\nthat is, only ointment. The ointment healed the wound, for “love covers a\nmultitude of sins.”",
+          "coptic": "ⲛⲟⲩⲕ’ ⲛⲉ ⲧⲁⲅⲁⲡⲏ ⲙ̅ⲡⲛⲉⲩⲙ[ⲁⲧⲓⲕⲏ]\nⲟⲩⲏⲣⲡ’ ⲧⲉ ϩⲓ ⲥⲧⲟⲉⲓ ⲥⲉⲣ̅ⲁⲡⲟ[ⲗⲁⲩⲉ ⲙ̅]‐\nⲙⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̅ϭⲓ ⲛⲉⲧⲛⲁⲧⲟϩⲥⲟⲩ ⲙ̅ⲙⲟⲥ\nⲥⲉⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ϩⲱⲟⲩ ⲛ̅ϭⲓ ⲛⲉⲧ’ⲁϩⲉⲣⲁⲧⲟⲩ\nⲙ̅ⲡⲟⲩⲃⲟⲗ ϩⲱⲥ ⲉⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲛ̅ϭⲓ ⲛⲉⲧ’‐\nⲧⲟϩⲥ ⲛⲉⲧ’ⲧⲁϩⲥ̅ ⲛ̅ⲥⲟϭⲛ ⲉⲩϣⲁⲗⲟ ⲉⲧⲟⲩ‐\nⲱⲟⲩ ⲛ̅ⲥⲉⲃⲱⲕ’ ϣⲁⲣⲉ ⲛⲏ ⲉⲥⲉⲧⲟϩⲥ ⲁⲛ\nⲙⲟⲛⲟⲛ ⲉⲩⲁϩⲉ ⲉⲣⲁⲧⲟⲩ ⲙ̅ⲡⲟⲩⲃⲁⲗ ϣⲁⲩ‐\nϭⲱ ⲟⲛ ϩⲙ̅ ⲡⲟⲩⲥϯⲃⲱⲱⲛ ⲡⲥⲁⲙⲁⲣⲓⲧⲏⲥ\nⲛ̅ⲧⲁϥ’ϯ ⲗⲁⲁⲩ ⲁⲛ’ ⲁⲡⲉⲧϣⲟⲟϭⲉ ⲉⲓ ⲙⲏ’\nⲏⲣⲡ’ ϩⲓ ⲛⲉϩ ⲕⲉⲗⲁⲁⲩ ⲁⲛ ⲡⲉ ⲉⲓ ⲙⲏⲧⲓ’ ⲁ’\nⲡⲥⲟϭⲛ̅ ⲁⲩⲱ ⲁϥⲑⲉⲣⲁⲡⲉⲩⲉ ⲛⲙ̅ⲡⲗⲏⲅⲏ\nⲧⲁⲅⲁⲡⲏ ⲅⲁⲣ ϩⲱⲃⲥ̅ ⲛ̅ⲟⲩⲙⲏⲏϣⲉ ⲛ̅ⲛⲟ‐\nⲃⲉ §ⲡⲉⲧⲉ ⲧⲥϩⲓⲙⲉ ⲙⲉ ⲙ̅ⲙⲟϥ’ ⲛⲉⲧ’ⲥⲛⲁ’‐"
+        },
+        {
+          "title": "Children and Love",
+          "subtitle": "Children and Love",
+          "heading": "Children and Love (78, 12-25)",
+          "rangeLabel": "78, 12-25",
+          "range": {
+            "start": {
+              "page": 78,
+              "line": 12
+            },
+            "end": {
+              "page": 78,
+              "line": 25
+            }
+          },
+          "english": "The children a woman brings forth resemble the man she loves. If it is her\nhusband, they resemble her husband. If it is a lover, they resemble the lover.\nOften, if a woman must sleep with her husband but her heart is with the lover\nwith whom she usually has sex, the child she bears will resemble the lover.\nSo, you who live with the Son of God, do not love the world but love the\nmaster, that what you bring forth may not resemble the world, but may\nresemble the master.",
+          "coptic": "ⲃⲉ §ⲡⲉⲧⲉ ⲧⲥϩⲓⲙⲉ ⲙⲉ ⲙ̅ⲙⲟϥ’ ⲛⲉⲧ’ⲥⲛⲁ’‐\nϫⲡⲟⲟⲩ’ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲙⲟϥ’ ⲉϣⲱⲡⲉ ⲡⲉⲥ‐\nϩⲁⲉⲓ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡⲉⲥϩⲁⲓ̈ ⲉϣⲱⲡⲉ ⲟⲩⲛⲟ‐\nⲉⲓⲕ’ ⲡⲉ’ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡⲛⲟⲉⲓⲕ’ ⲡⲟⲗⲗⲁⲕⲓⲥ\nⲉϣⲱⲡⲉ ⲟⲩⲛ̅ ⲥϩⲓⲙⲉ ⲉⲥⲛ̅ⲕⲟⲧⲕ’ ⲙⲛ̅ ⲡⲉⲥ‐\nϩⲁⲓ̈ ⲕⲁⲧⲁ ⲟⲩϩⲧⲟⲣ’ ⲉⲡⲉⲥϩⲏⲧ ⲇⲉ ϩⲓ ⲡⲛⲟ‐\nⲉⲓⲕ ⲉϣⲁⲥⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁϥ’ ⲡⲉⲧ’‐\nⲥⲁⲙⲁⲥⲧϥ’ ϣⲁⲥⲙⲁⲥⲧϥ’ ⲉϥⲓⲛⲉ ⲙ̅ⲡⲛⲟ‐\nⲉⲓⲕ’ ⲛ̅ⲧⲱⲧⲛ̅ ⲇⲉ ⲛⲉⲧϣⲟⲟⲡ’ ⲙⲛ̅ ⲡϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲙⲛ̅ⲙⲣ̅ⲣⲉ ⲡⲕⲟⲥⲙⲟⲥ’\nⲁⲗⲗⲁ ⲙⲣ̅ⲣⲉ ⲡϫⲟⲉⲓⲥ ϣⲓⲛⲁ ⲛⲉⲧⲉⲧⲛⲁ‐\nϫⲡⲟⲟⲩ ⲛⲟⲩϣⲱⲡⲉ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲁⲗⲗⲁ ⲉⲩⲛⲁϣⲱⲡⲉ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡ‐\nϫⲟⲉⲓⲥ §ϣⲁⲣⲉ ⲡⲣⲱⲙⲉ ⲧⲱϩ ⲙⲛ̅ ⲡⲣⲱⲙⲉ"
+        },
+        {
+          "title": "Sex and Spirit",
+          "subtitle": "Sex and Spirit",
+          "heading": "Sex and Spirit (78, 25-79, 13)",
+          "rangeLabel": "78, 25-79, 13",
+          "range": {
+            "start": {
+              "page": 78,
+              "line": 25
+            },
+            "end": {
+              "page": 79,
+              "line": 13
+            }
+          },
+          "english": "Humans have sex with humans, horses have sex with horses, donkeys have sex\nwith donkeys. Members of a species have sex with members of the same species.\nSo also spirit has intercourse with spirit, word mingles with word, light\nmingles [with light].\nIf [you] become human,\n[a human] will love you.\nIf you become [spirit],\nspirit will unite with you.\nIf you become word,\nword will have intercourse with you.\nIf you become light,\nlight will mingle with you.\nIf you become one of those above,\nthose above will rest on you.\nIf you become a horse or donkey or bull\nor dog or sheep or some other animal,\nwild or tame,\nthen neither human nor spirit\nnor word nor light can love you.\nThose above and those within cannot rest in you,\nand you have no part in them.",
+          "coptic": "ϫⲟⲉⲓⲥ §ϣⲁⲣⲉ ⲡⲣⲱⲙⲉ ⲧⲱϩ ⲙⲛ̅ ⲡⲣⲱⲙⲉ\nϣⲁⲣⲉ ⲡϩⲧⲟ ⲧⲱϩ ⲙⲛ̅ ⲡϩⲧⲟ ϣⲁⲣⲉ ⲡⲉⲓ‐\n[ⲱ ⲧ]ⲱϩ ⲙⲛ̅ ⲡⲉⲓⲱ ⲛ̅ⲅⲉⲛⲟⲥ ⲛⲉϣⲁⲩⲧⲱϩ\n[ⲙⲛ̅] ⲛⲟⲩϣⲃⲣ̅ⲅⲉⲛⲟⲥ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲉϣⲁ’‐\n[ⲣⲉ] ⲡⲡⲛ̅ⲁ̅ ⲧⲱϩ ⲙⲛ̅ ⲡⲡ̅ⲛⲁ̅ ⲁⲩⲱ ⲡⲗⲟ‐\n[ⲅⲟⲥ] ϣⲁϥⲣ̅ⲕ[ⲟ]ⲓⲛⲱ[ⲛ]ⲉⲓ ⲙⲛ̅ ⲡⲗⲟⲅⲟⲥ\n[ⲁⲩⲱ ⲡⲟ]ⲩⲟ[ⲉⲓⲛ ϣⲁ]ϥⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ\n[ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲕ]ϣⲁϣⲱⲡⲉ ⲣ̅ⲣⲱⲙⲉ\n[ⲡⲣⲱⲙ]ⲉ ⲡⲉ[ⲧⲛⲁ]ⲙⲉⲣⲓⲧⲕ’ ⲉⲕϣⲁϣⲱⲡⲉ\n[ⲙ̅ⲡ̅ⲛ̅ⲁ̅] ⲡⲡ̅ⲛⲁ̅ ⲡⲉⲧⲛⲁϩⲱⲧⲣ̅ ⲉⲣⲟⲕ’ ⲉⲕ’‐\n[ϣⲁⲛϣ]ⲱⲡⲉ ⲛ̅ⲗⲟⲅⲟⲥ ⲡⲗⲟⲅⲟⲥ ⲡⲉⲧ’‐\nⲛⲁⲧⲱϩ ⲛⲙ̅ⲙⲁⲕ’ ⲉ[ⲕ]ϣⲁⲛϣⲱⲡⲉ ⲛ̅ⲟⲩ‐\nⲟⲉⲓⲛ ⲡⲟⲩⲟⲉⲓⲛ ⲡⲉⲧⲛⲁⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ\nⲛⲙ̅ⲙⲁⲕ’ ⲉⲕ’ϣⲁⲛϣⲱⲡⲉ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛ‐\nϩⲣⲉ ⲛⲁ ⲡⲥⲁ ⲛϩⲣⲉ ⲛⲁⲙ̅ⲧⲟⲛ’ ⲙ̅ⲙⲟⲟⲩ’\nⲉϩⲣⲁⲓ̈ ⲉϫⲱⲕ’ ⲉⲕϣⲁⲛϣⲱⲡⲉ ⲛ̅ϩⲧⲟ\nⲏ ⲛ̅ⲉⲓⲱ ⲏ ⲙ̅ⲙⲁⲥⲉ ⲏ ⲛ̅ⲟⲩϩⲟⲟⲣ’ ⲏ ⲛⲉ‐\nⲥⲟⲟⲩ ⲏ ϭⲉ ϩⲛ̅ ⲛⲉⲑⲏⲣⲓⲟⲛ ⲉⲧⲛ̅ⲡⲥⲁ ⲛ‐\nⲃⲟⲗ ⲙⲛ̅ ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ϥⲛⲁϣⲙⲉ‐\nⲣⲓⲧⲕ’ ⲁⲛ ⲟⲩⲧⲉ ⲡⲣⲱⲙⲉ ⲟⲩⲧⲉ ⲡⲡⲛ̅ⲁ̅ ⲟⲩ‐\nⲧⲉ ⲡⲗⲟⲅⲟⲥ ⲟⲩⲧⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲟⲩⲧⲉ ⲛⲁ‐\nⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲧⲉ ⲛⲁ ⲡⲥⲁ ⲛϩⲟⲩⲛ ⲥⲉ‐\nⲛⲁϣⲙ̅ⲧⲟⲛ’ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ’ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲕ’\nⲁⲩⲱ ⲙⲛ̅ⲧⲁⲕ’ ⲙⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ §ⲡⲉ‐"
+        },
+        {
+          "title": "Slave and Free",
+          "subtitle": "Slave and Free",
+          "heading": "Slave and Free (79, 13-18)",
+          "rangeLabel": "79, 13-18",
+          "range": {
+            "start": {
+              "page": 79,
+              "line": 13
+            },
+            "end": {
+              "page": 79,
+              "line": 18
+            }
+          },
+          "english": "People who are slaves against their will can be free. People who are freed by\nfavor of their master and then sell themselves back into slavery cannot be free\nagain.",
+          "coptic": "ⲁⲩⲱ ⲙⲛ̅ⲧⲁⲕ’ ⲙⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ §ⲡⲉ‐\nⲧⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲉϩⲛⲁϥ’ ⲁⲛ ϥⲛⲁϣⲣ̅ⲉⲗⲉⲩ‐\nⲑⲉⲣⲟⲥ ⲡⲉⲛⲧⲁϩⲣ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲙ̅ⲡⲉϩ‐\nⲙⲟⲧ’ ⲙ̅ⲡⲉϥϫⲟⲉⲓⲥ ⲁⲩⲱ ⲁϥⲧⲁϥϥ’ ⲉⲃⲟⲗ\nⲟⲩⲁⲁϥ’ ⲁⲩⲙⲛ̅ⲧϩⲙ̅ϩ̅ⲁ̅ⲗ̅ ⲟⲩⲕⲉⲧⲓ ϥⲛⲁϣ‐\nⲣ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ §ⲧⲙ̅ⲛ̅ⲧⲟⲩⲟⲉⲓⲉ ⲙ̅ⲡⲕⲟⲥ‐"
+        },
+        {
+          "title": "Farming",
+          "subtitle": "Farming",
+          "heading": "Farming (79, 18-32)",
+          "rangeLabel": "79, 18-32",
+          "range": {
+            "start": {
+              "page": 79,
+              "line": 18
+            },
+            "end": {
+              "page": 79,
+              "line": 32
+            }
+          },
+          "english": "Farming in this world depends on four things, and a harvest is gathered and\ntaken into the barn as a result of water, earth, air, and light.\nGod’s farming also depends on four things: faith, hope, love, and\nknowledge. Faith is the earth in which we take root. Hope is the water with\nwhich we are nourished. Love is the air through which we grow. Knowledge is\nthe light by which we [ripen].\nGrace exists [in four ways. It is] earthly; it is [heavenly]…the highest\nheaven….",
+          "coptic": "ⲣ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ §ⲧⲙ̅ⲛ̅ⲧⲟⲩⲟⲉⲓⲉ ⲙ̅ⲡⲕⲟⲥ‐\nⲙⲟⲥ ϩⲓⲧⲛ̅ ϥⲧⲟⲟⲩ ⲛ̅ⲉⲓⲇⲟⲥ ϣⲁⲩⲟⲗⲟⲩ\nⲉϩⲟⲩⲛ ⲁⲧⲁⲡⲟⲑⲏⲕⲏ ϩⲓⲧⲛ̅ ⲟⲩⲙⲟⲟⲩ\nⲙⲛ̅ⲛⲟⲩⲕⲁϩ ⲙⲛ̅ⲛⲟⲩⲡⲛ̅ⲁ̅ ⲙⲛ̅ⲛⲟⲩⲟⲉⲓⲛ\nⲁⲩⲱ ⲧⲙ̅ⲛ̅ⲧ̅ⲟⲩⲉⲓⲉ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲧⲉⲉⲓϩⲉ\nⲟⲛ ϩⲓⲧⲛ̅ ϥⲧⲟⲟⲩ ϩⲓⲧⲛ̅ ⲟⲩⲡⲓⲥⲧⲓⲥ ⲙⲛ̅‐\nⲛⲟⲩϩⲉⲗⲡⲓⲥ ⲙⲛ̅ⲛⲟⲩⲁⲅⲁⲡⲏ ⲙⲛ̅ ⲟⲩ‐\nⲅⲛⲱⲥⲓⲥ ⲡⲛ̅ⲕⲁϩ ⲧⲉ ⲧ’ⲡⲓⲥⲧⲓⲥ ⲧⲁⲓ̈ ⲉⲛ’‐\nϫⲉ ⲛⲟⲩⲛⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲡⲙⲟ[ⲟ]ⲩ [ⲇⲉ]\nⲧⲉ ⲑⲉⲗⲡⲓⲥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅ ⲉ[ⲛⲥⲟ]‐\nⲉⲓϣ ⲡⲡⲛ̅ⲁ̅ ⲧⲉ ⲧⲁⲅⲁⲡⲏ ⲉⲃⲟⲗ [ϩⲓⲧⲟ]‐\nⲧⲟϥ’ ⲉⲛⲁⲩⲝⲁⲛⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲇ[ⲉ ⲧⲉ]\nⲧⲅⲛⲱⲥⲓⲥ ⲉⲃⲟ[ⲗ ϩ]ⲓⲧ[ⲟⲟ]ⲧⲥ̅ ⲧⲛ̅ⲡ[ⲱϩ’]\nⲧⲭⲁⲣⲓⲥ ⲥⲟ ⲛ̅ϥ[ⲧⲟⲟⲩ ⲙ̅]ⲙ[ⲉⲓⲛⲉ ⲥⲟ ⲣ̅]‐\nⲣⲙⲛ̅ⲕⲁϩ ⲥⲟ ⲣ̅ⲣ[ⲙ̅ⲙ̅ⲡⲉ ......]"
+        },
+        {
+          "title": "Blessed Is One Who Never Grieves Anyone",
+          "subtitle": "Blessed Is One Who Never Grieves Anyone",
+          "heading": "Blessed Is One Who Never Grieves Anyone (79, 32-80, 23)",
+          "rangeLabel": "79, 32-80, 23",
+          "range": {
+            "start": {
+              "page": 79,
+              "line": 32
+            },
+            "end": {
+              "page": 80,
+              "line": 23
+            }
+          },
+          "english": "[Blessed] is one who has never grieved a soul. This is Jesus Christ. He came\nto the whole earth and never laid a burden upon anyone. Blessed is one like this,\nfor this is a perfect human.\nThe word tells us how difficult it is to bring this about. How can we\naccomplish such a feat? How can we give help to everyone?\nTo begin with, one must not cause grief to anyone, whether great or small,\nunbeliever or believer, and one must not give help to those who are well off.\nThere are some who profit by helping the rich. The person who does good deeds\nwill not help the rich, for this person will not take just anything that may be\ndesirable. Nor can such a person cause them grief, since this person does not\ngive them trouble. The new rich sometimes cause others grief, but the person\nwho does good deeds does not do this. It is the wickedness of these people that\ncauses their grief. The person with the nature of a perfect human gives joy to the\ngood, but some people are deeply distressed by all this.",
+          "coptic": "ⲣⲙⲛ̅ⲕⲁϩ ⲥⲟ ⲣ̅ⲣ[ⲙ̅ⲙ̅ⲡⲉ ......]\nⲧⲡⲉ ⲛ̅ⲧⲉ ⲧⲡⲉ ⲁⲩ[..]ϩⲛ̅ [..] §[ⲟⲩⲙⲁⲕⲁ]‐\nⲣⲓⲟⲥ ⲡⲉ ⲡⲁⲉⲓ ⲉⲙ’ⲡⲉϥⲗ̅ⲗ[.... ⲛ̅]\nⲛⲟⲩⲯⲩⲭⲏ ⲡⲁⲉⲓ ⲡⲉ ⲓⲥ̅ ⲡⲭ̅ⲥ̅ ⲁϥⲣ̅ⲁⲡⲁⲛ‐\nⲧⲁ ⲙ̅ⲡⲙⲁ ⲧⲏⲣϥ’ ⲁⲩⲱ ⲙ̅ⲡⲉϥⲣ̅ⲃⲁⲣⲉⲓ ⲗ̅ⲗⲁⲁⲩ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ’ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉ ⲡⲁⲉⲓ ⲛ̅ⲧⲉⲉⲓ‐\nⲙⲓⲛⲉ ϫⲉ ⲟⲩⲧⲉⲗⲉⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲡⲉ ⲡⲁⲉⲓ ⲅⲁⲣ’\nⲡⲗⲟⲅⲟⲥ ϫⲛⲟⲩⲛ’ ⲙ̅ⲙⲟⲛ ⲉⲣⲟϥ’ ϩⲱⲥ 〈ⲥ〉ⲙⲟⲕϩ\nⲁⲥⲉϩⲉ ⲡⲁⲉⲓ ⲉⲣⲁⲧϥ’ ⲡⲱⲥ ⲧⲛ̅ⲛⲁϣⲣ̅ⲕⲁⲧⲟⲣ‐\nⲑⲟⲩ ⲙ̅ⲡⲉⲉⲓⲛⲟϭ ⲡⲱⲥ ⲉϥⲛⲁϯ ⲁⲛⲁⲡⲁⲩ‐\nⲥⲓⲥ ⲛ̅ⲟⲩⲟⲛ’ ⲛⲓⲙ ϩⲁ ⲧⲉϩⲏ ⲛ̅ϩⲱⲃ ⲛⲓⲙ’ ϣϣⲉ\nⲁⲛ ⲉⲗ̅ⲗⲩⲡⲉⲓ ⲗ̅ⲗⲁⲁⲩ ⲉⲓⲧⲉ ⲛⲟϭ ⲉⲓⲧⲉ ⲕⲟⲩⲉⲓ\nⲏ ⲁⲡⲓⲥⲧⲟⲥ ⲏ ⲡⲓⲥⲧⲟⲥ ⲉⲓⲧⲁ ⲁϯ ⲁⲛⲁⲡⲁⲩⲥⲓⲥ\nⲛ̅ⲛⲉⲧⲙ̅ⲧⲟⲛ’ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ\nⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ ⲉⲧⲟⲩⲛⲟϥⲣⲉ ⲧⲉ ⲉϯ ⲁⲛⲁ‐\nⲡⲁⲩⲥⲓⲥ ⲙ̅ⲡⲉⲧ’ϣⲟⲟⲡ’ ⲕⲁⲗⲱⲥ ⲡⲉϯⲣⲉ\nⲙ̅ⲡⲉⲧⲛⲁⲛⲟⲩϥ’ ⲙⲛ̅ ϭⲟⲙ’ ⲙ̅ⲙⲟϥ ⲛ̅ϥϯ\nⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲛ̅ⲛⲁⲉⲓ 〈ϥ〉ϥⲓ ⲅⲁⲣ ⲁⲛ’ ⲙ̅ⲡⲉⲧⲉϩ‐\nⲛⲁϥ’ ⲙⲛ̅ ϭⲟⲙ ⲇⲉ ⲙ̅ⲙⲟϥ ⲁⲗⲗⲩⲡⲉⲓ’ ⲉϥ’‐\nⲧⲙ̅ⲧⲣⲟⲩⲣ̅ⲑⲗⲓⲃⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲗⲗⲁ ⲡⲉⲧϣⲱ‐\nⲡⲉ ⲕⲁⲗⲱⲥ ϩⲛ̅ⲥⲟⲡ’ ϣⲁϥ’ⲗ̅ⲗⲩⲡⲉⲓ ⲙ̅ⲙⲟ‐\nⲟⲩ ϥϣⲟⲟⲡ’ ⲁⲛ’ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲗⲗⲁ ⲧⲟⲩⲕⲁ‐\nⲕⲓⲁ ⲧⲉ ⲉⲧⲣ̅ⲗⲩⲡⲉⲓ ⲙ̅ⲙⲟⲟⲩ ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲫⲩⲥⲓⲥ ϥϯ ⲟⲩⲛⲟϥ ⲙ̅ⲡⲉⲧⲛⲁ‐\nⲛⲟⲩϥ’ ϩⲟⲉⲓⲛⲉ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲡⲁⲉⲓ ⲥⲉⲗ̅‐\nⲗⲩⲡⲉⲓ ⲕⲁⲕⲱⲥ §ⲟⲩϫⲉⲥϩⲛ̅ⲛⲏⲉⲓ’ ⲁϥϫⲡⲉ"
+        },
+        {
+          "title": "A Householder and Food",
+          "subtitle": "A Householder and Food",
+          "heading": "A Householder and Food (80, 23-81, 14)",
+          "rangeLabel": "80, 23-81, 14",
+          "range": {
+            "start": {
+              "page": 80,
+              "line": 23
+            },
+            "end": {
+              "page": 81,
+              "line": 14
+            }
+          },
+          "english": "There was a householder who had everything: children, slaves, cattle, dogs, pigs,\nwheat, barley, chaff, fodder, [oil], meat, and acorns. The householder was wise\nand knew the food of each. He fed the children [baked] bread [and meat]. He fed\nthe slaves [oil and] grain. [He fed] the cattle barley, chaff, and fodder. He threw\nthe dogs some bones. He fed the pigs acorns and gruel.\nSo it is with the disciples of God. If they are wise, they understand discipleship. Bodily forms will not deceive them, but they will examine the condition of\neach person’s soul and speak appropriately with the person. In the world many\nanimals have human form. If the disciples of God identify them as pigs, they\nfeed them acorns. If cattle, they feed them barley, chaff, and fodder. If dogs, they\nthrow them some bones. If slaves, they feed them what is preliminary. If\nchildren, they feed them what is complete.",
+          "coptic": "ⲗⲩⲡⲉⲓ ⲕⲁⲕⲱⲥ §ⲟⲩϫⲉⲥϩⲛ̅ⲛⲏⲉⲓ’ ⲁϥϫⲡⲉ\nⲛ̅ⲕⲁ ⲛⲓⲙ ⲉⲓⲧⲉ ϣⲏⲣⲉ ⲉⲓⲧⲉ ϩⲙϩ̅ⲁ̅ⲗ̅ ⲉⲓⲧⲉ\nⲧⲃⲛⲏ ⲉⲓⲧⲉ ⲟⲩϩⲟⲣ’ ⲉⲓⲧⲉ ⲣⲓⲣ’ ⲉⲓⲧⲉ ⲥⲟⲩⲟ’\n[ⲉⲓⲧⲉ] ⲉⲓⲱⲧ’ ⲉⲓⲧⲉ ⲧⲱϩ ⲉⲓⲧⲉ ⲭⲟⲣⲧⲟⲥ ⲉⲓⲧⲉ\n[...]. ⲉⲓⲧⲉ ⲁϥ ⲁⲩⲱ ⲃⲁⲗⲁⲛⲟⲥ ⲟⲩⲥⲁⲃⲉ\n[ⲇⲉ ⲡ]ⲉ ⲁⲩⲱ ⲁϥⲉⲓⲙⲉ ⲛ̅ⲧ’ⲧⲣⲟⲫⲏ ⲙ̅ⲡⲟⲩⲁ\n[ⲡⲟⲩⲁ] ⲛ̅ϣⲏⲣ[ⲉ] ⲙⲉⲛ’ ⲁϥⲕⲉ ⲁⲣⲧⲟⲥ ϩⲁⲣⲱ‐\n[ⲟⲩ ....]ⲁⲁ[.... ⲛ̅]ϩⲙϩ̅ⲁ̅ⲗ̅ ⲇⲉ ⲁϥⲕⲉ ⲕⲓ‐\n[.....ϩⲁⲣⲱⲟⲩ ϩⲓ ⲉ]ⲃⲣⲉ ⲁⲩⲱ ⲛ̅ⲧⲃⲛⲟⲟⲩ\n[ⲁϥ’ⲛⲉϫ’ ⲉⲓ]ⲱ[ⲧ ϩ]ⲁⲣⲱⲟⲩ ϩⲓ ⲧⲱϩ ϩⲓ ⲭⲟⲣ’‐\n[ⲧⲟⲥ’ ⲛ̅ⲟⲩ]ϩⲟⲟⲣ̅ ⲁϥⲛⲉϫ ⲕⲉⲉⲥ ϩⲁⲣⲱⲟⲩ\n[ⲁⲩⲱ ⲣ̅ⲣⲓⲣ ⲁ]ϥⲛⲉϫ’ ⲃⲁⲗⲁⲛⲟⲥ ϩⲁⲣⲱⲟⲩ’\nϩⲓ̈ ⲙⲁⲙⲟⲩ ⲛ̅ⲟⲉⲓⲕ’ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲙ̅ⲡⲙⲁⲑⲏ’‐\nⲧⲏⲥ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉϣⲱⲡⲉ ⲟⲩⲥⲁⲃⲉ ⲡⲉ ⲉϥ’‐\nⲁⲓⲥⲑⲁⲛⲉ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲙⲁⲑⲏⲧⲏⲥ ⲙ̅ⲙⲟⲣ’‐\nⲫⲏ ⲛ̅ⲥⲱⲙⲁⲧⲓⲕⲏ ⲥⲉⲛⲁⲣ̅ⲁⲡⲁⲧⲁ ⲁⲛ’ ⲙ̅‐\nⲙⲟϥ’ ⲁⲗⲗⲁ’ ⲉϥⲛⲁϭⲱϣⲧ’ ⲛ̅ⲥⲁ ⲧⲇⲓⲁⲑⲉ‐\nⲥⲓⲥ ⲛ̅ⲧⲉϥ’ⲯⲩⲭⲏ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ϥϣⲁ‐\nϫⲉ ⲛⲙ̅ⲙⲁϥ’ ⲟⲩⲛ̅ ϩⲁϩ ⲛ̅ⲑⲏⲣⲓⲟⲛ ϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲉⲩⲟ ⲙ̅ⲙⲟⲣⲫⲏ ⲣ̅ⲣⲱⲙⲉ ⲛⲁⲉⲓ ⲉϥ’‐\nϣⲁⲥⲟⲩⲱⲛⲟⲩ ⲣ̅ⲣⲓⲣ ⲙⲉⲛ’ ϥⲛⲁⲛⲉϫ’ ⲃⲁ‐\nⲗⲁⲛⲟⲥ ⲉⲣⲟⲟⲩ ⲛ̅ⲧⲃⲛⲟⲟⲩ ⲇⲉ ϥⲛⲁⲛⲉϫ’\nⲉⲓⲱⲧ’ ⲉⲣⲟⲟⲩ ϩⲓ ⲧⲱϩ ϩⲓ ⲭⲟⲣⲧⲟⲥ ⲛ̅ⲟⲩ‐\nϩⲟⲟⲣ’ ϥⲛⲁⲛⲉϫ ⲕⲁⲁⲥ ⲉⲣⲟⲟⲩ ⲛ̅ϩⲙ̅ϩ̅ⲁ̅ⲗ̅\nϥⲛⲁϯ ⲛⲁⲩ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ϣⲏⲣⲉ ϥⲛⲁϯ ⲛⲁⲩ\nⲛ̅ⲧⲉⲗⲉⲓⲟⲛ §ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱ‐"
+        },
+        {
+          "title": "Creating and Procreating",
+          "subtitle": "Creating and Procreating",
+          "heading": "Creating and Procreating (81, 14-34)",
+          "rangeLabel": "81, 14-34",
+          "range": {
+            "start": {
+              "page": 81,
+              "line": 14
+            },
+            "end": {
+              "page": 81,
+              "line": 34
+            }
+          },
+          "english": "There is the Child of Humanity, and there is the child of the Child of Humanity.\nThe Child of Humanity is the Lord, and the child of the Child of Humanity is the\none who creates through the Child of Humanity. The Child of Humanity received\nfrom God the ability to create. He can also procreate. One who has received the\nability to create is a creature, and one who has received the ability to procreate is\nan offspring. One who creates cannot procreate, but one who procreates can\ncreate. One who creates is said to procreate, but the “offspring” are really\ncreatures, because these “offspring” are not children of procreation but [works of\ncreation].\nOne who creates works openly and is visible. One who procreates does so\n[secretly] and is hidden, for one who procreates [is beyond every] image. So,\nthen, one who creates does so openly, and one who procreates [produces]\noffspring secretly.",
+          "coptic": "ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ §ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ⲁⲩⲱ ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡϣⲏⲣⲉ ⲙ̅ⲡϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲡϫⲟⲉⲓⲥ ⲡⲉ ⲡϣⲏⲣⲉ ⲙ̅‐\nⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ ⲙ̅ⲡϣⲏⲣⲉ’ ⲙ̅‐\nⲡⲣⲱⲙⲉ ⲡⲉ ⲡⲉⲧ’ⲥⲱⲛⲧ’ ϩⲓⲧⲙ̅ ⲡϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ϫⲓ\nⲛ̅ⲧⲟⲟⲧϥ’ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉⲧⲣⲉϥⲥⲱⲛⲧ’ ⲟⲩⲛ‐\nⲧⲁϥ’ ⲙ̅ⲙⲁⲩ ⲉⲧⲣⲉϥϫⲡⲟ ⲡⲉⲛⲧⲁϩϫⲓ ⲉ‐\nⲧⲣⲉϥ’ⲥⲱⲛ’ⲧ’ ⲟⲩⲥⲱⲛⲧ’ ⲡⲉ ⲡⲉⲛⲧⲁϩϫⲓ\nⲉϫⲡⲟ ⲟⲩϫⲡⲟ ⲡⲉ ⲡⲉⲧⲥⲱⲛⲧ ⲙⲛ̅ ϭⲟⲙ\nⲛ̅ϥϫⲡⲟ ⲡⲉⲧ’ϫⲡⲟ ⲟⲩⲛ̅ ϭⲟⲙ ⲛ̅ϥⲥⲱⲛⲧ\nⲥⲉϫⲱ ⲇⲉ ⲙ̅ⲙⲟⲥ ϫⲉ ⲡⲉⲧ’ⲥⲱⲛⲧ’ ϫⲡⲟ\nⲁⲗⲗⲁ ⲡⲉϥϫⲡⲟ ⲟⲩⲥⲱⲛⲧ’ ⲡⲉ ⲉⲧ[ⲃⲉ ...]\nⲛ̅ϫⲡⲟ ⲛⲉϥ’ϣⲏⲣⲉ ⲁⲛ ⲛⲉ ⲁⲗⲗⲁ ⲛ[.....]\nⲛⲉ ⲡⲉⲧⲥⲱⲛⲧ’ ⲉϥⲣ̅ ϩⲱⲃ ϩⲛ̅ ⲟⲩ[ⲱⲛϩ]\nⲉⲃⲟⲗ ⲁⲩⲱ ⲛ̅ⲧⲟϥ ϩⲱⲱϥ ϥⲟⲩⲟ[ⲛϩ ⲉ]‐\nⲃⲟⲗ’ ⲡⲉⲧϫⲡⲟ’ ⲉϥϫⲡⲟ ϩⲛ̅ ⲟⲩ[ⲡⲉⲑⲏⲡ]\nⲁⲩⲱ ⲛ̅ⲧⲟϥ ϥϩⲏⲡ’ [ⲉ]ϥ[ⲟ]ⲩⲁ[......]\nⲑⲓⲕⲱⲛ ⲡⲉⲧ’ⲥⲱ[ⲛⲧ ⲟ]ⲛ ⲉϥⲥ[ⲱⲛⲧ ϩⲛ̅]\nⲟⲩⲫⲁⲛⲉⲣⲟⲛ ⲡⲉⲧϫⲡⲟ ⲇ[ⲉ ⲉϥϫⲡⲉ]\nϣⲏⲣⲉ ϩⲛ̅ ⲟⲩⲡⲉⲑⲏⲡ’ ⲙⲛ̅ [ⲗⲁⲁⲩ ⲛⲁϣ]‐"
+        },
+        {
+          "title": "Pure Marriage",
+          "subtitle": "Pure Marriage",
+          "heading": "Pure Marriage (81, 34-82, 26)",
+          "rangeLabel": "81, 34-82, 26",
+          "range": {
+            "start": {
+              "page": 81,
+              "line": 34
+            },
+            "end": {
+              "page": 82,
+              "line": 26
+            }
+          },
+          "english": "No [one can] know when [a husband] and wife have sex except those two,\nfor marriage in this world is a mystery for those married. If defiled marriage is\nhidden, how much more is undefiled marriage a true mystery! It is not fleshly\nbut pure. It belongs not to desire but to will. It belongs not to darkness or night\nbut to the day and the light.\nIf marriage is exposed, it has become prostitution, and the bride plays the\nharlot not only if she is impregnated by another man, but even if she slips out of\nher bedchamber and is seen. Let her show herself only to her father and her\nmother, the friend of the bridegroom, and the attendants of the bridegroom. They\nare allowed to enter the bridal chamber every day. But let the others yearn just to\nhear her voice and enjoy the fragrance of her ointment, and let them feed on the\ncrumbs that fall from the table, like dogs.\nBridegrooms and brides belong to the bridal chamber. No one can see a\nbridegroom or a bride except by becoming one.",
+          "coptic": "ϣⲏⲣⲉ ϩⲛ̅ ⲟⲩⲡⲉⲑⲏⲡ’ ⲙⲛ̅ [ⲗⲁⲁⲩ ⲛⲁϣ]‐\nⲥⲟⲟⲩⲛ ϫⲉ ⲁϣ ⲡⲉ ⲫⲟ[ⲟⲩ ⲉⲧⲉ ⲫⲟⲟⲩⲧ]\nⲙⲛ̅ ⲧⲥϩⲓⲙⲉ ⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ\nⲉⲓ ⲙⲏ ⲛ̅ⲧⲟⲟⲩ ⲟⲩⲁⲁⲩ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲅⲁⲣ’\nⲡⲉ ⲡⲅⲁⲙⲟⲥ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲛ̅ⲛⲉⲛⲧⲁϩϫⲓ\nϩⲓⲙⲉ ⲉϣϫⲉ ⲡⲅⲁⲙⲟⲥ ⲙ̅ⲡϫⲱϩⲙ’ ϥϩⲏⲡ’\nⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ⲡⲅⲁⲙⲟⲥ ⲛ̅ⲁⲧϫⲱϩⲙ’ ⲟⲩ‐\nⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲡⲉ ⲛ̅ⲁⲗⲏⲑⲉⲓⲛⲟⲛ ⲟⲩⲥⲁⲣⲕⲓ‐\nⲕⲟⲛ’ ⲁⲛ ⲡⲉ ⲁⲗⲗⲁ ⲉϥ’ⲧⲃ̅ⲃⲏⲩ ⲉϥⲏⲡ’ ⲁⲛ ⲁⲧⲉ‐\nⲡⲓⲑⲩⲙⲓⲁ ⲁⲗⲗⲁ ⲉⲡⲟⲩⲱϣ ⲉϥⲏⲡ’ ⲁⲛ’ ⲉⲡⲕⲁ‐\nⲕⲉ ⲏ ⲧⲟⲩϣⲏ ⲁⲗⲗⲁ ⲉϥⲏⲡ’ ⲉⲡⲉϩⲟⲟⲩ ⲙⲛ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲟⲩⲅⲁⲙⲟⲥ ⲉϥϣⲁⲕⲱⲕⲁϩⲏⲩ\nⲁϥϣⲱⲡⲉ ⲙ̅ⲡⲟⲣⲛⲉⲓⲁ ⲁⲩⲱ ⲧϣⲉⲗⲉⲉⲧ’\nⲟⲩ ⲙⲟⲛⲟⲛ ⲉⲥϣⲁϫⲓ ⲡⲥⲡⲉⲣⲙⲁ ⲛ̅ⲕⲉϩⲟ‐\nⲟⲩⲧ’ ⲁⲗⲗⲁ ⲕⲁⲛ ⲉⲥϣⲁⲛⲣ̅ ⲡⲃⲟⲗ’ ⲙ̅ⲡⲉⲥⲕⲟⲓ‐\nⲧⲱⲛ ⲛ̅ⲥⲉⲛⲁⲩ ⲉⲣⲟⲥ ⲁⲥⲡⲟⲣⲛⲉⲩⲉ ⲙⲟⲛⲟⲛ\nⲙⲁⲣⲉⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉⲥⲉⲓⲱⲧ’ ⲙⲛ̅ ⲧⲉⲥ‐\nⲙⲁⲁⲩ ⲙⲛ̅ ⲡϣⲃⲏⲣ’ ⲙ̅ⲡⲛⲩⲙ̅ⲫⲓⲟⲥ ⲙⲛ̅ ⲛ̅‐\nⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ’ⲫⲓⲟⲥ ⲛⲁⲉⲓ ⲉⲥⲧⲟⲉⲓ ⲛⲁⲩ\nⲉⲧⲣⲟⲩⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲙ̅ⲙⲏⲛⲉ ⲉⲡⲛⲩⲙⲫⲱⲛ\nⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ ⲙⲁⲣⲟⲩⲣ̅ⲉⲡⲓⲑⲩⲙⲉⲓ ⲕⲁⲛ’\nⲉⲥⲱⲧⲙ̅ ⲉⲧⲉⲥⲥⲙⲏ ⲛ̅ⲥⲉⲣ̅ⲁⲡⲟⲗⲁⲩⲉ’ ⲙ̅‐\nⲡⲉⲥⲥⲟϭⲛ̅ ⲁⲩⲱ ⲙⲁⲣⲟⲩⲥⲟⲛϣ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲛ̅‐\nⲗⲉϥⲗⲓϥⲉ ⲉⲧϩⲉ ⲉⲃⲟⲗ ϩⲓ ⲧⲣⲁⲡⲉⲍⲁ ⲛ̅ⲑⲉ ⲛ̅‐\nⲛⲟⲩϩⲟⲟⲣ’ ⲟⲩⲛ ϩⲛ̅ⲛⲩⲙ’ⲫⲓⲟⲥ ⲙⲛ̅ ϩⲛ̅‐\nⲛⲩⲙⲫⲏ ⲏⲡ’ ⲉⲡⲛⲩⲙⲫⲱⲛ ⲙⲛ̅ ⲟⲩⲁ ⲛⲁϣ‐\nⲛⲁⲩ ⲁⲡⲛⲩⲙ’ⲫⲓⲟⲥ ⲙⲛ̅ ⲧⲛⲩⲙⲫⲏ ⲉⲓ ⲙⲏ\n[ⲛ̅ϥϣ]ⲱⲡⲉ ⲙ̅ⲡⲁⲉⲓ §ⲛ̅ⲧⲉⲣⲉ ⲁⲃⲣⲁϩⲁⲙ’"
+        },
+        {
+          "title": "Abraham’s Circumcision",
+          "subtitle": "Abraham’s Circumcision",
+          "heading": "Abraham’s Circumcision (82, 26-29)",
+          "rangeLabel": "82, 26-29",
+          "range": {
+            "start": {
+              "page": 82,
+              "line": 26
+            },
+            "end": {
+              "page": 82,
+              "line": 29
+            }
+          },
+          "english": "When Abraham [was able] to see what he was to see, [he] circumcised the\nflesh of the foreskin, thus teaching us that it is necessary to destroy the flesh.",
+          "coptic": "[ⲛ̅ϥϣ]ⲱⲡⲉ ⲙ̅ⲡⲁⲉⲓ §ⲛ̅ⲧⲉⲣⲉ ⲁⲃⲣⲁϩⲁⲙ’\n[....] ⲉⲧⲣⲉϥⲛⲁⲩ ⲁⲡⲉⲧ’ϥⲛⲁⲛⲁⲩ ⲉⲣⲟϥ’\n[ⲁϥⲥ]ⲃ̅ⲃⲉ ⲛ̅ⲧⲥⲁⲣⲝ’ ⲛ̅ⲧⲁⲕⲣⲟⲃⲩⲥⲧⲓⲁ ⲉϥⲧⲁ‐\n[ⲙⲟ] ⲙ̅ⲙⲟⲛ ϫⲉ ϣϣⲉ ⲉⲧⲁⲕⲟ ⲛ̅ⲧⲥⲁⲣⲝ’"
+        },
+        {
+          "title": "Hidden Parts",
+          "subtitle": "Hidden Parts",
+          "heading": "Hidden Parts (82, 30-83, 18)",
+          "rangeLabel": "82, 30-83, 18",
+          "range": {
+            "start": {
+              "page": 82,
+              "line": 30
+            },
+            "end": {
+              "page": 83,
+              "line": 18
+            }
+          },
+          "english": "As long as their [insides] are hidden, [most] beings in the world are alive and\nwell. [If their insides] are exposed, they die, as is clear by the example of the\nvisible part of a person. [As long as] a person’s intestines are hidden, the person\nis alive. If the intestines are exposed and come out, the person dies.\nLikewise, while its root is hidden, a tree sprouts and grows. If its root is exposed,\nthe tree withers.\nSo it is with all things produced in the world, not only the visible but also the\nhidden. As long as the root of evil is hidden, it is strong. When it is recognized,\nit is undone, and if it is brought to light, it dies. For this reason the word says,\n“Already the ax is laid at the root of the trees.” It will not merely cut them\ndown, for what is cut down sprouts up again. Rather, the ax will dig down until it\ncuts out the root. Jesus pulled out the root of the whole place, but others did so\nonly in part.",
+          "coptic": "§[ⲡⲉϩⲟ]ⲩⲟ ⲛ̅ⲧⲉ [ⲡ]ⲕⲟⲥⲙⲟⲥ ⲉⲛ ϩⲟⲥⲟⲛ’ ⲛⲟⲩ‐\n[ⲥⲁ ⲛϩⲟⲩ]ⲛ’ ϩⲏ[ⲡ]’ [ⲥⲉ]ⲁϩⲉⲣⲁⲧⲟⲩ’ ⲁⲩⲱ ⲥⲉⲟⲛϩ\n[ⲉⲩϣⲁⲛ]ⲟⲩⲱⲛ[ϩ ⲉⲃ]ⲟⲗ ⲁⲩⲙⲟⲩ ⲕⲁⲧⲁ ⲡⲡⲁ‐\n[ⲣⲁⲇⲓⲅⲙ]ⲁ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲧⲟⲩⲟⲛⲉϩ ⲉⲃⲟⲗ\n[ⲉⲛ ϩⲟⲥⲟ]ⲛ ⲙ̅ⲙⲁϩⲧ’ ⲙ̅ⲡⲣⲱⲙⲉ ϩⲏⲡ’ ϥⲟⲛϩ\nⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ ⲉⲩϣⲁϭⲱⲗⲡ’ ⲛ̅ϭⲓ ⲛⲉϥⲙⲁϩⲧ’\nⲥⲉⲣ̅ ⲡⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ϥⲛⲁⲙⲟⲩ ⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ\nⲧⲉⲉⲓϩⲉ ⲟⲛ ⲙ̅ⲡϣⲏⲛ ϩⲱⲥ ⲉⲧⲉϥⲛⲟⲩⲛⲉ\nϩⲏⲡ’ ϣⲁϥϯ ⲟⲩⲱ ⲛ̅ϥⲗⲉϩⲏⲧ%2 ⲉⲣϣⲁ ⲧⲉϥ’‐\nⲛⲟⲩⲛⲉ ϭⲱⲗⲡ’ ⲉⲃⲟⲗ ϣⲁⲣⲉ ⲡϣⲏⲛ ϣⲟ‐\nⲟⲩⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲓ ϫⲡⲟ ⲛⲓⲙ’ ⲉⲧϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲟⲩ ⲙⲟⲛⲟⲛ ϩⲓ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ’\nⲁⲗⲗⲁ ϩⲓ ⲛⲉⲑⲏⲡ’ ⲉⲫ ϩⲟⲥⲟⲛ ⲅⲁⲣ ⲧⲛⲟⲩⲛⲉ\nⲛ̅ⲧⲕⲁⲕⲓⲁ ϩⲏⲡ ⲥϫⲟⲟⲣ ⲉⲩϣⲁⲛⲥⲟⲩⲱⲛⲥ̅\nⲇⲉ ⲁⲥⲃⲱⲗ ⲉⲃⲟⲗ ⲉⲥϣⲁⲛⲟⲩⲱⲛϩ ⲇⲉ ⲉ‐\nⲃⲟⲗ ⲁⲥⲱϫⲛ̅ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲡⲗⲟⲅⲟⲥ ϫⲱ ⲙ̅‐\nⲙⲟⲥ ϫⲉ ⲏⲇⲏ ⲧⲁⲝⲉⲓⲛⲏ ⲥⲙ̅ⲙⲟⲛⲧ’ ⲁⲧⲛⲟⲩ‐\nⲛⲉ ⲛ̅ⲛ̅ϣⲏⲛ ⲉⲥⲛⲁϣⲱⲱⲧ’ ⲁⲛ ⲡⲉⲧⲟⲩ‐\nⲛⲁϣⲁⲁⲧϥ’ ⲡⲁⲗⲓⲛ ϣⲁϥϯ ⲟⲩⲱ ⲁⲗⲗⲁ ⲉϣⲁ‐\nⲣⲉ ⲧⲁⲝⲉⲓⲛⲏ ⲃⲁⲗⲃⲗ̅ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲉⲥⲏⲧ’ ϣⲁⲛ‐\nⲧⲉⲥⲛ̅ ⲧⲛⲟⲩⲛⲉ ⲉϩⲣⲁⲉⲓ ⲁⲓ̅ⲥ̅ ⲇⲉ ⲡⲱⲣⲕ’ ⲛ̅‐\nⲧⲛⲟⲩⲛⲉ ⲙ̅ⲡⲙⲁ ⲧⲏⲣϥ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ ⲕⲁ‐\nⲧⲁ ⲙⲉⲣⲟⲥ ⲁⲛⲟⲛ ϩⲱⲱⲛ ⲙⲁⲣⲉ ⲡⲟⲩⲁ"
+        },
+        {
+          "title": "The Root of Evil",
+          "subtitle": "The Root of Evil",
+          "heading": "The Root of Evil (83, 18-30)",
+          "rangeLabel": "83, 18-30",
+          "range": {
+            "start": {
+              "page": 83,
+              "line": 18
+            },
+            "end": {
+              "page": 83,
+              "line": 30
+            }
+          },
+          "english": "Let each of us also dig down after the root of evil within us and pull it out of our\nhearts from the root. It will be uprooted if we recognize it. But if we are ignorant\nof it, it takes root in us and produces fruit in our hearts. It dominates us. We are\nits slaves, and it takes us captive so that we do what we do [not] want and do\n[not] do what we want. It is powerful because we do not recognize it. As long as\n[it] exists, it stays active.",
+          "coptic": "ⲧⲁ ⲙⲉⲣⲟⲥ ⲁⲛⲟⲛ ϩⲱⲱⲛ ⲙⲁⲣⲉ ⲡⲟⲩⲁ\nⲡⲟⲩⲁ ⲛ̅ϩⲏⲧⲛ̅ ⲙⲁⲣⲉϥⲃⲁⲗⲃⲗⲉ ⲛ̅ⲥⲁ ⲧⲛⲟⲩ‐\nⲛⲉ ⲛ̅ⲧⲕⲁⲕⲓⲁ’ ⲉⲧⲛ̅ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ̅ ⲛ̅ϥⲡⲟⲣⲕ̅ⲥ̅̅\nϩⲁ ⲧⲉⲥⲛⲟⲩⲛⲉ ϩⲙ̅ ⲡⲉϥϩⲏⲧ’ ⲉⲥⲛⲁⲡⲱⲣⲕ\nⲇⲉ ⲉⲛ’ϣⲁⲥⲟⲩⲱⲛ̅ⲥ̅ ⲉϣⲱⲡⲉ ⲇⲉ ⲧⲛ̅‐\nⲛⲟ ⲛ̅ⲁⲧ’ⲥⲟⲟⲩⲛ ⲉⲣⲟⲥ ⲥϫⲉ ⲛⲟⲩⲛⲉ ϩⲣ[ⲁ]ⲓ̈\nⲛ̅ϩⲏⲧⲛ̅ ⲁⲩⲱ ⲥⲧⲉⲩⲟ ⲉⲃⲟⲗ ⲛ̅ⲛⲉⲥⲕⲁⲣ‐\nⲡⲟⲥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲛ̅ϩⲏⲧ’ ⲥⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲉⲣⲟⲛ\nⲧⲛ̅ⲛⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛⲁⲥ ⲥⲣ̅ⲁⲓⲭⲙⲁⲗⲱ[ⲧ]ⲓⲍⲉ\nⲙ̅ⲙⲟⲛ ⲉⲧⲣⲛ̅ⲉⲓⲣⲉ ⲛ̅ⲛⲉⲧⲛ̅ⲟⲩⲟϣ[ⲟⲩ ⲁⲛ]\nⲛⲉⲧⲛ̅ⲟⲩⲟϣⲟⲩ ⲧⲛ̅ⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ [ⲁⲛ ⲥ]‐\nϭⲙ̅ ϭⲟⲙ’ ϫⲉ ⲙ̅ⲡⲛ̅ⲥⲟⲩⲱⲛ̅ⲥ̅ ϩⲱⲥ [ⲉⲥϣⲟ]‐\nⲟⲡ’ ⲙⲉⲛ ⲥⲣ̅ⲉⲛⲉⲣⲅⲉⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧⲥ[ⲟⲟⲩⲛ]"
+        },
+        {
+          "title": "Ignorance Is the Mother of Evil",
+          "subtitle": "Ignorance Is the Mother of Evil",
+          "heading": "Ignorance Is the Mother of Evil (83, 30-84, 14)",
+          "rangeLabel": "83, 30-84, 14",
+          "range": {
+            "start": {
+              "page": 83,
+              "line": 30
+            },
+            "end": {
+              "page": 84,
+              "line": 14
+            }
+          },
+          "english": "Ignorance is the mother of [all evil]. Ignorance leads to [death, because] those\nwho come from [ignorance] neither were nor [are] nor will be. [But those in the\ntruth] will be perfect when all truth is revealed. For truth is like ignorance.\nWhile hidden, truth rests in itself, but when revealed and recognized, truth is\npraised in that it is stronger than ignorance and error. It gives freedom.\nThe word says, “If you know the truth, the truth will make you free.”\nIgnorance is a slave, knowledge is freedom. If we know the truth, we shall\nfind the fruit of truth within us. If we join with it, it will bring us fulfillment.",
+          "coptic": "ⲟⲡ’ ⲙⲉⲛ ⲥⲣ̅ⲉⲛⲉⲣⲅⲉⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧⲥ[ⲟⲟⲩⲛ]\nⲉⲥϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲁⲩ ⲛ̅ⲛ̅ⲡⲉ[ⲑⲟⲟⲩ ⲧⲏⲣⲟⲩ]\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ’ⲥⲟⲟⲩⲛ [ⲉⲥ]ⲛⲁϣⲉ ⲁⲡ[ⲙⲟⲩ ϫⲉ]\nⲛⲉⲧ’ϣⲟⲟⲡ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅̅[ⲁⲧⲥⲟⲟⲩⲛ]\nⲟⲩⲧⲉ ⲛⲉⲩϣⲟⲟⲡ’ ⲁⲛ’ ⲟⲩⲧⲉ [ⲥⲉϣⲟⲟⲡ ⲁⲛ]\nⲟⲩⲧⲉ ⲥⲉⲛⲁϣⲱⲡⲉ ⲁⲛ [......]\nⲥⲉⲛⲁϫⲱⲕ’ ⲉⲃⲟⲗ’ ϩⲟⲧⲁⲛ ⲉⲣϣⲁ ⲧⲁⲗⲏⲑⲉⲓⲁ\nⲧⲏⲣⲥ’ ⲟⲩⲱⲛϩ’ ⲉⲃⲟⲗ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲅⲁⲣ’ ⲕⲁⲧⲁ ⲑⲉ\nⲛ̅ⲧⲙ̅ⲛ̅ⲧⲁⲧ’ⲥⲟⲟⲩⲛ’ ⲉⲥϩⲏⲡ’ ⲙⲉⲛ ⲥⲣ̅ⲁⲛⲁ‐\nⲡⲁⲩⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲉⲥϣⲁⲟⲩⲱⲛϩ ⲇⲉ ⲉⲃⲟⲗ\nⲛ̅ⲥⲉⲥⲟⲩⲱⲛⲥ̅ ϣⲁⲩⲧⲛⲁⲥ ⲉⲟⲟⲩ ϩⲟⲥⲟⲛ\nⲥϭⲛ̅ ϭⲟⲙ’ ⲉⲧⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲧ’ⲡⲗⲁ‐\nⲛⲏ ⲥϯ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲡⲉϫⲁϥ’ ⲛ̅ϭⲓ\nⲡⲗⲟⲅⲟⲥ ϫⲉ ⲉⲧⲉⲧⲛ̅ϣⲁⲛ’ⲥⲟⲩⲱⲛ ⲧⲁⲗⲏ‐\nⲑⲉⲓⲁ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲛⲁⲣ̅ ⲧⲏⲛⲉ ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ\nⲧⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ’ ⲥⲟ ⲛ̅ϩⲙϩ̅ⲁⲗ̅ ⲧⲅⲛⲱⲥⲓⲥ ⲟⲩ‐\nⲉⲗⲉⲩⲑⲉⲣⲓⲁ ⲧⲉ’ ⲉⲛϣⲁⲥⲟⲩⲱⲛ’ ⲧⲁⲗⲏⲑⲉⲓⲁ\nⲧⲛ̅ⲛⲁϩⲉ’ ⲁⲛⲕⲁⲣⲡⲟⲥ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲣⲁⲓ̈ ⲛ̅‐\nϩⲏⲧⲛ̅ ⲉⲛ’ϣⲁϩⲱⲧⲣ̅ ⲉⲣⲟⲥ ⲥⲛⲁϫⲓ ⲙ̅ⲡⲛ̅ⲡⲗⲏ‐\nⲣⲱⲙⲁ §ⲧⲉⲛⲟⲩ ⲟⲩⲛ’ⲧⲁⲛ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲉⲧⲟⲩ‐"
+        },
+        {
+          "title": "Things Visible and Hidden",
+          "subtitle": "Things Visible and Hidden",
+          "heading": "Things Visible and Hidden (84, 14-20)",
+          "rangeLabel": "84, 14-20",
+          "range": {
+            "start": {
+              "page": 84,
+              "line": 14
+            },
+            "end": {
+              "page": 84,
+              "line": 20
+            }
+          },
+          "english": "At present we encounter the visible things of creation, and we say that they are\nmighty and worthy and the hidden things are weak and insignificant. It is\n<not> so with the visible things of truth. They are weak and insignificant, but\nthe hidden things are mighty and worthy.",
+          "coptic": "ⲣⲱⲙⲁ §ⲧⲉⲛⲟⲩ ⲟⲩⲛ’ⲧⲁⲛ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲉⲧⲟⲩ‐\nⲟⲛⲉϩ ⲉⲃⲟⲗ’ ⲛ̅ⲧⲉ ⲡⲥⲱⲛⲧ’ ϣⲁⲛ’ϫⲟⲟⲥ ϫⲉ\nⲛ̅ⲧⲟⲟⲩ ⲛⲉ ⲛ’ϫⲱⲱⲣⲉ ⲉⲧ’ⲧⲁⲉⲓⲏⲩ ⲛⲉⲑⲏⲡ’\nⲇⲉ ⲛⲉ ⲛϭⲱⲃ’ ⲉⲧϣⲏⲥ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛⲉⲧⲟⲩ‐\nⲟⲛϩ ⲉⲃⲟⲗ’ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲛ̅ϭⲱⲃ’ ⲛⲉ ⲁⲩⲱ\nⲥⲉϣⲏⲥ ⲛⲉⲑⲏⲡ’ ⲇⲉ ⲛ̅ϫⲱⲣⲉ ⲛⲉ ⲁⲩⲱ ⲥⲉⲧⲁ‐\nⲉⲓⲏⲩ ⲥⲉⲟⲩⲟⲛϩ ⲇⲉ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲙ̅ⲙⲩⲥⲧⲏⲣⲓⲟⲛ"
+        },
+        {
+          "title": "Temple, Cross, Ark",
+          "subtitle": "Temple, Cross, Ark",
+          "heading": "Temple, Cross, Ark (84, 20-85, 21)",
+          "rangeLabel": "84, 20-85, 21",
+          "range": {
+            "start": {
+              "page": 84,
+              "line": 20
+            },
+            "end": {
+              "page": 85,
+              "line": 21
+            }
+          },
+          "english": "The mysteries of truth are made known in symbols and images. The bedchamber\nis hidden, and it is the holy of the holy. At first the curtain concealed how God\nmanages creation, but when the curtain is torn and what is inside appears, this\nbuilding will be left deserted, or rather will be destroyed. And the whole\ngodhead will flee from here but not into the holy of holies, for it cannot mingle\nwith pure [light] and [perfect] fullness. Instead, it will remain under the wings of\nthe cross [and under] its arms. This ark will be salvation [for people] when\nfloodwaters surge over them.\nWhoever belongs to the priestly order can go inside the curtain along with\nthe high priest. For this reason the curtain was not torn only at the top, for then\nonly the upper realm would have been opened. It was not torn only at the\nbottom, for then it would have revealed only the lower realm. No, it was torn\nfrom top to bottom. The upper realm was opened for us in the lower realm,\nthat we might enter the hidden realm of truth. This is what is truly worthy and\nmighty, and we shall enter through symbols that are weak and insignificant.\nThey are weak compared to perfect glory. There is glory that surpasses glory,\nthere is power that surpasses power. Perfect things have opened to us, and\nhidden things of truth. The holy of holies was revealed, and the bedchamber\ninvited us in.",
+          "coptic": "ⲉⲓⲏⲩ ⲥⲉⲟⲩⲟⲛϩ ⲇⲉ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲙ̅ⲙⲩⲥⲧⲏⲣⲓⲟⲛ\nⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲩⲟ ⲛ̅ⲧⲩⲡⲟⲥ ϩⲓ ϩⲓⲕⲱⲛ ⲡⲕⲟⲓ‐\nⲧⲱⲛ ⲇⲉ ϥϩⲏⲡ’ ⲛ̅ⲧⲟϥ ⲡⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ’ ϩⲙ̅\nⲡⲉⲧⲟⲩⲁⲁⲃ’ ⲛⲉⲣⲉ ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲙⲉⲛ’\nϩⲟⲃⲥ̅ ⲛ̅ϣⲟⲣⲡ’ ⲡⲱⲥ ⲉⲣⲉ ⲡⲛⲟⲩⲧⲉ ⲣ̅ⲇⲓⲟⲓⲕⲉⲓ\nⲛ̅ⲧⲕⲧⲓⲥⲓⲥ ⲉϥϣⲁⲡⲱϩ ⲇⲉ ⲛ̅ϭⲓ ⲡⲕⲁⲧⲁⲡⲉ‐\nⲧⲁⲥ[ⲙ]ⲁ ⲁⲩⲱ ⲛ̅ⲧⲉ ⲛⲁ ⲡⲥⲁ ⲛϩⲟⲩⲛ’ ⲟⲩⲱⲛϩ\n[ⲉⲃⲟⲗ] ⲥⲉⲛⲁⲕⲱ ⲇⲉ ⲙ̅ⲡⲉⲉⲓⲏⲉⲓ ⲛ̅ⲥⲱⲟⲩ\n[ⲉϥⲟ] ⲛ̅ⲉⲣⲏⲙⲟⲥ ⲙⲁⲗⲗⲟⲛ ⲇⲉ ⲥⲉⲛⲁⲣ̅ⲕⲁⲧⲁ‐\n[ⲗⲩⲉ] ⲙ̅ⲙⲟϥ’ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟⲩⲧⲉ ⲇⲉ ⲧⲏⲣ̅ⲥ̅ ⲥⲁⲡⲱⲧ’\n[ⲉⲃⲟⲗ]’ ⲛ̅ⲛⲉⲉⲓⲙⲁ ⲉϩⲟⲩⲛ ⲁⲛ ⲉⲛⲉⲧⲟⲩⲁⲁⲃ’\n[ⲛ̅ⲧⲉ ⲛ]ⲉⲧ[ⲟ]ⲩⲁⲁⲃ ⲥⲛⲁϣⲧⲱϩ ⲅⲁⲣ ⲁⲛ ⲙⲛ̅ ⲡⲟⲩ‐\n[ⲟⲉⲓⲛ ⲛ̅]ⲁⲧ’ⲧⲱϩ ⲙⲛ̅ ⲡⲡⲗⲏⲣⲱⲙⲁ ⲛ̅ⲁⲧ’‐\n[ϣⲧⲁ ⲁⲗ]ⲗⲁ ⲥⲛⲁϣⲱⲡⲉ ϩⲁ ⲛ̅ⲧⲛϩ ⲙ̅ⲡⲥxⲟⲥ\n[ⲁⲩⲱ ϩⲁ ⲛ]ⲉϥϭⲃⲟⲉⲓ ⲧⲉⲉⲓϭⲓⲃⲱⲧⲟⲥ ⲛⲁϣⲱ‐\n[ⲡⲉ ⲙ̅ⲡⲟ]ⲩⲟⲩϫⲁⲉⲓ ⲛ̅ⲧⲁⲣⲉ ⲡⲕⲁⲧⲁⲕⲗⲩⲥ’‐\nⲙⲟⲥ ⲙ̅ⲙⲟⲟⲩ ⲉⲙⲁϩⲧⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲉⲣϣⲁ\nϩⲛ̅ϩⲟⲉⲓⲛⲉ ϣⲱⲡⲉ ϩⲛ̅ ⲧⲫⲩⲗⲏ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲟⲩ‐\nⲏⲏⲃ ⲛⲁⲉⲓ ⲛⲁϣϭⲛ̅ ϭⲟⲙ’ ⲛ̅ⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲉ‐\nⲡⲥⲁ ⲛϩⲟⲩⲛ ⲙ̅ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲙⲛ̅ ⲡⲁⲣ‐\nⲭⲓⲉⲣⲉⲩⲥ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲙ̅ⲡⲉ ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥ‐\nⲙⲁ ⲡⲱϩ ⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲁⲁⲧϥ ⲉⲡⲉⲓ ⲛⲉⲩ‐\nⲛⲁⲟⲩⲉⲛ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲁⲁⲧⲟⲩ’ ⲟⲩⲧⲉ\nⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲟⲩⲁⲁⲧϥ’ ⲁⲛ ⲛ̅ⲧⲁϥⲡⲱϩ ⲉⲡⲉⲓ\nⲛⲁϥⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲙⲡⲓⲧⲛ ⲟⲩ‐\nⲁⲁⲩ ⲁⲗⲗⲁ ⲛ̅ⲧⲁϥⲡⲱϩ ⲛ̅ⲧⲡⲉ ⲉⲡⲓⲧⲛ̅ ⲁⲛⲁ\nⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲱⲛ’ ⲛⲁⲛ ⲛ̅ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓ‐\nⲧⲛ̅ ϫⲉⲕⲁⲁⲥ ⲉⲛⲛⲁⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲁⲡⲡⲉⲑⲏⲡ’\nⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲡⲁⲉⲓ ⲁⲗⲏⲑⲱⲥ ⲡⲉ ⲡⲉⲧ’ⲧⲁⲉⲓ‐\nⲏⲩ ⲉⲧⲟ ⲛ̅ϫⲱⲱⲣⲉ ⲉⲛⲁⲃⲱⲕ’ ⲇⲉ ⲉϩⲟⲩⲛ ⲉⲙⲁⲩ\nϩⲓⲧⲛ̅ ϩⲛ̅ⲧⲩⲡⲟⲥ ⲉⲩϣⲏⲥ ⲙⲛ̅ ϩⲛ̅ⲙ̅ⲛ̅ⲧ̅ϭⲱⲃ’\nⲥⲉϣⲏⲥ ⲙⲉⲛ’ ⲛ̅ⲛⲁϩⲣⲛ̅ ⲡⲉⲟⲟⲩ ⲉⲧϫⲏⲕ’ ⲉⲃⲟ[ⲗ]\nⲟⲩⲛ̅ ⲉⲟⲟⲩ ⲉϥϫⲟⲥⲉⲉⲟⲟⲩ ⲟⲩⲛ’ ϭⲟⲙ’ ⲉϥϫⲟ‐\nⲥⲉ ⲉϭⲟⲙ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲁⲛ’ⲧⲉⲗⲉⲓⲟⲛ’ ⲟⲩⲉⲛ\nⲛⲁⲛ ⲙⲛ̅ ⲛⲉⲑⲏⲡ’ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲁⲩⲱ ⲛⲉⲧⲟⲩ‐\nⲁⲁⲃ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ ⲁⲩϭⲱⲗⲡ’ ⲉⲃⲟⲗ’ ⲁⲩⲱ ⲁ‐\nⲡⲕⲟⲓⲧⲱⲛ ⲧⲱϩⲙ’ ⲙ̅ⲙⲟⲛ ⲉϩⲟⲩⲛ’ §ⲉⲛ ϩⲟⲥⲟⲛ"
+        },
+        {
+          "title": "Revelation of the Seed",
+          "subtitle": "Revelation of the Seed",
+          "heading": "Revelation of the Seed (85, 21-32)",
+          "rangeLabel": "85, 21-32",
+          "range": {
+            "start": {
+              "page": 85,
+              "line": 21
+            },
+            "end": {
+              "page": 85,
+              "line": 32
+            }
+          },
+          "english": "As long as the seed of the Holy Spirit is hidden, wickedness is ineffective,\nthough it is not yet removed from the midst of the seed, and they are still\nenslaved to evil. But when the seed is revealed, then perfect light will shine on\neveryone, and all who are in the light will [receive the] chrism. Then slaves\nwill be freed and captives ransomed. “Every plant that my Father in heaven has\nnot planted [will be] pulled out.” What is separated will be united, [what is\nempty] will be filled.",
+          "coptic": "ⲡⲕⲟⲓⲧⲱⲛ ⲧⲱϩⲙ’ ⲙ̅ⲙⲟⲛ ⲉϩⲟⲩⲛ’ §ⲉⲛ ϩⲟⲥⲟⲛ\nⲙⲉⲛ’ ϥϩⲏⲡ’ ⲧⲕⲁⲕⲓⲁ ⲟⲩⲟⲥϥ’ ⲙⲉⲛ ⲙ̅ⲡⲟⲩ‐\nϥⲓⲧⲥ̅ ⲇⲉ ⲛ̅ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲥⲡⲉⲣⲙⲁ ⲙ̅ⲡⲡⲛ̅ⲁ̅̅\nⲉⲧⲟⲩⲁⲁⲃ’ ⲥⲉⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ ϩⲟ‐\nⲧⲁⲛ ⲇⲉ ⲉϥϣⲁϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ’ ⲛⲁϩⲁⲧⲉ ⲉⲃⲟⲗ’ ⲉϫⲛ̅ [ⲟ]ⲩⲟⲛ\nⲛⲓⲙ’ ⲁⲩⲱ ⲛⲉⲧⲛ̅ϩⲏⲧϥ’ ⲧⲏⲣⲟⲩ ⲥⲉⲛ[ⲁϫⲓ ⲭⲣⲓ]‐\nⲥⲙⲁ ⲧⲟⲧⲉ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛ̅ⲁⲣ̅ⲉⲗⲉⲩⲑⲉ[ⲣⲟⲥ ⲁⲩⲱ]\nⲛ̅ⲥⲉⲥⲱⲧⲉ ⲛ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲟⲥ ⲧⲱϭⲉ ⲛ[ⲓⲙ ⲉⲙ]‐\nⲡⲉ ⲡⲁⲉⲓⲱⲧ’ ⲉⲧϩⲛ̅ ⲙ̅ⲡⲏⲩⲉ ⲧⲟϭϥ[’ ⲥⲉⲛⲁ]‐\nⲡⲟⲣⲕϥ’ ⲛⲉⲧⲡⲟⲣϫ’ ⲥⲉⲛⲁϩⲱⲧⲣ̅ ⲛ[......]\nⲥⲉⲛⲁⲙⲟⲩϩ ⲟⲩⲟⲛ’ ⲛⲓⲙ’ ⲉⲧⲛⲁⲃ[ⲱⲕ ⲉϩⲟⲩⲛ]"
+        },
+        {
+          "title": "Eternal Light",
+          "subtitle": "Eternal Light",
+          "heading": "Eternal Light (85, 32-86, 19)",
+          "rangeLabel": "85, 32-86, 19",
+          "range": {
+            "start": {
+              "page": 85,
+              "line": 32
+            },
+            "end": {
+              "page": 86,
+              "line": 19
+            }
+          },
+          "english": "Everyone who [enters] the bedchamber will kindle the [light. This is] like\nmarriages that occur [in secret and] take place at night. The light of the fire\n[shines] during the night and then goes out. The mysteries of that marriage,\nhowever, are performed in the day and the light, and neither that day nor its light\never sets.\nIf someone becomes an attendant of the bridal chamber, that person will\nreceive the light. If one does not receive it while here in this place, one cannot\nreceive it in the other place.\nThose who receive the light cannot be seen or grasped. Nothing can trouble\nsuch people even while they are living in this world. And when they leave this\nworld, they have already received truth through images, and the world has\nbecome the eternal realm. To these people the eternal realm is Fullness.\nThis is the way it is. It is revealed to such a person alone, hidden not in\ndarkness and night but hidden in perfect day and holy light.\nThe Gospel According to Philip",
+          "coptic": "ⲥⲉⲛⲁⲙⲟⲩϩ ⲟⲩⲟⲛ’ ⲛⲓⲙ’ ⲉⲧⲛⲁⲃ[ⲱⲕ ⲉϩⲟⲩⲛ]\nⲉⲡⲕⲟⲓⲧⲱⲛ ⲥⲉⲛⲁϫⲉⲣⲟ ⲙ̅ⲡⲟⲩ[ⲟⲉⲓⲛ ...]\nⲟ ⲅⲁⲣ ⲛ̅ⲑⲉ ⲛ̅ⲛ̅ⲅⲁⲙⲟⲥ ⲉⲧⲛ̅ⲛⲉ[......]\nϣⲱⲡⲉ ⲛ̅ⲧⲟⲩϣⲏ ⲡⲕⲱϩⲧ’ ϣ[ⲁϥ......]\nⲛ̅ⲧⲟⲩϣⲏ ϣⲁϥϫⲉⲛⲉ ⲙ̅ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲇⲉ\nⲙ̅ⲡⲓⲅⲁⲙⲟⲥ ⲛ̅ⲧⲟϥ ϣⲁⲩϫⲱⲕ’ ⲉⲃⲟⲗ’ ϩⲙ̅ ⲡⲉ‐\nϩⲟⲟⲩ’ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲙⲁⲣⲉ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ\nⲏ ⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ϩⲱⲧⲡ’ ⲉⲣϣⲁ ⲟⲩⲁ ϣⲱⲡⲉ ⲛ̅‐\nϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ’ⲫⲱⲛ’ ϥⲛⲁϫⲓ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ\nⲉⲧⲙ̅ ⲟⲩⲁ ϫⲓⲧϥ’ ⲉϥⲛ̅ⲛⲉⲉⲓⲙⲁ ϥⲛⲁϣϫⲓⲧϥ’\nⲁⲛ ⲙ̅ⲡⲕⲉⲙⲁ ⲡⲉⲧⲁϫⲓ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲙ̅ⲙⲁⲩ\nⲥⲉⲛⲁⲛⲁⲩ ⲁⲛ’ ⲉⲣⲟϥ’ ⲟⲩⲧⲉ ⲥⲉⲛⲁϣⲉⲙⲁϩⲧⲉ\nⲁⲛ’ ⲙ̅ⲙⲟϥ’ ⲁⲩⲱ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣⲣ̅ⲥⲕⲩⲗⲗⲉ ⲙ̅‐\nⲡⲁⲉⲓ ⲛ̅ⲧⲉⲉⲓⲙⲉⲓⲛⲉ ⲕⲁⲛ’ ⲉϥⲣ̅ⲡⲟⲗⲓⲧⲉⲩⲉⲥ‐\nⲑⲁⲓ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲁⲩⲱ ⲟⲛ ⲉϥϣⲁⲉⲓ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲏⲇⲏ ⲁϥϫⲓ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲛ̅\nⲛ̅ϩⲓⲕⲱⲛ ⲡⲕⲟⲥⲙⲟⲥ ⲁϥϣⲱⲡⲉ ⲛ̅ⲛⲁⲓⲱⲛ\nⲡⲁⲓⲱⲛ ⲅⲁⲣ ⲉϥϣⲟⲟⲡ’ ⲛⲁϥ’ ⲙ̅ⲡⲗⲏⲣⲱ‐\nⲙⲁ ⲁⲩⲱ ⲉϥϣⲟⲟⲡ’ ⲛ̅ⲧⲉⲉⲓϩⲉ ϥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲛⲁϥ ⲟⲩⲁⲁϥ ⲉϥϩⲏⲡ’ ⲁⲛ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲙⲛ̅ ⲧⲟⲩ‐\nϣⲏ ⲁⲗⲗⲁ ⲉϥϩⲏⲡ’ ϩⲛ̅ⲛⲟⲩϩⲟⲟⲩ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ\nⲙⲛ̅ ⲟⲩⲟⲉⲓⲛ ⲉϥⲟⲩⲁⲁⲃ\n0ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ"
+        }
+      ]
+    },
+    {
+      "workId": "hypostasis-of-the-archons",
+      "chapterName": "Hypostasis of the Archons",
+      "title": "Codex II - Hypostasis of the Archons",
+      "sourceTitle": "THE NATURE OF THE RULERS",
+      "sections": [
+        {
+          "title": "The Real Nature of the Authorities",
+          "subtitle": "The Real Nature of the Authorities",
+          "heading": "The Real Nature of the Authorities (86, 20-27)",
+          "rangeLabel": "86, 20-27",
+          "range": {
+            "start": {
+              "page": 86,
+              "line": 20
+            },
+            "end": {
+              "page": 86,
+              "line": 27
+            }
+          },
+          "english": "Concerning the reality of the authorities the great apostle through the spirit of\nthe Father of truth, referred to the authorities of darkness and told us “our\nstruggle is not against flesh and [blood] but against the authorities of the world\nand the spirits of wickedness.” I have sent you this writing because you have\nasked about the real nature of the authorities.",
+          "coptic": "0ⲡⲕⲁⲧⲁ ⲫⲓⲗⲓⲡⲡⲟⲥ \n( codex II ) The Hypostasis of the Archons\n§ⲉⲧⲃⲉ ⲑⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ϩⲙ̅ ⲡⲡ̅ⲛ̅ⲁ\nⲙ̅ⲡⲉⲓⲱⲧ’ ⲛ̅ⲧⲙⲉ ⲁϥϫⲟⲟⲥ ⲛⲁⲛ ⲛ̅ϭⲓ ⲡⲛⲟϭ\nⲛ̅ⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲧⲃⲉ ⲛⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲕⲁⲕⲉ\nϫⲉ ⲡⲛ̅ϣⲱϫⲉ ϣⲟⲟⲡ’ ⲁⲛ ⲟⲩⲃⲉ ⲥⲁⲣⲝ ϩⲓ\n[ⲥⲛⲟ]ϥ ⲁⲗⲗⲁ ⲉϥ’ⲟⲩⲃⲉ ⲛⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲕⲟⲥ‐\n[ⲙⲟⲥ] ⲙⲛ̅ ⲙ̅ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ\n[ⲁⲉⲓ]ϫⲉⲛⲉ ⲛⲁⲉⲓ ⲉⲕϣⲓⲛⲉ ⲉⲧⲃⲉ ⲑⲩⲡⲟⲥⲧⲁ‐\n[ⲥⲓⲥ ⲛ̅]ⲉⲝⲟⲩⲥⲓⲁ §ⲡⲟⲩⲛⲟϭ ⲇⲉ ⲟⲩⲃⲗ̅ⲗⲉ ⲡⲉ"
+        },
+        {
+          "title": "The Blind Demiurge",
+          "subtitle": "The Blind Demiurge",
+          "heading": "The Blind Demiurge (86, 27-87, 23)",
+          "rangeLabel": "86, 27-87, 23",
+          "range": {
+            "start": {
+              "page": 86,
+              "line": 27
+            },
+            "end": {
+              "page": 87,
+              "line": 23
+            }
+          },
+          "english": "The leader of the authorities is blind. [Because of his] power, ignorance, and\narrogance he said, with [power], “I am God; there is no other [but me].”\nWhen he said this, he sinned against [the realm of the All]. This boast rose\nup to Incorruptibility and a voice answered from Incorruptibility and said,\n“You are wrong, Samael”-which means “blind god.”\nHis thoughts were blind. He expressed his power-that is, the blasphemy he\nhad uttered-and pursued it down to chaos and his mother the abyss, at the\ninstigation of Pistis Sophia She established each of his offspring according to\nits power, after the pattern of the eternal realms above. For the visible\noriginated from the invisible.\nIncorruptibility looked down into the region of the waters. Her image\nappeared as a reflection in the waters, and the authorities of darkness fell in love\nwith her. But they could not grasp the image that appeared to them in the waters,\nfor they were weak, and what is only of soul cannot grasp what is of spirit. For\nthe authorities were from below, but the image of Incorruptibility was from\nabove.\nThis is why Incorruptibility looked down into that region, so that, by the\nFather’s will, she might bring all into union with the light.",
+          "coptic": "[ⲥⲓⲥ ⲛ̅]ⲉⲝⲟⲩⲥⲓⲁ §ⲡⲟⲩⲛⲟϭ ⲇⲉ ⲟⲩⲃⲗ̅ⲗⲉ ⲡⲉ\n[ⲉⲧⲃⲉ] ⲧⲉ[ϥ]ϭⲟⲙ ⲙⲛ̅ ⲧⲉϥⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ\n[ⲙⲛ̅ ⲧⲉϥⲙ]ⲛ̅ⲧϫⲁⲥⲓϩⲙⲧ’ ⲁϥϫⲟⲟⲥ ϩⲛ̅ ⲧⲉϥ’‐\n[ϭⲟⲙ ϫⲉ] ⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲗⲁⲁⲩ\n[ⲁϫⲛ̅ⲧ] §[ⲛ̅ⲧ]ⲁⲣⲉϥϫⲉ ⲡⲁⲉⲓ ⲁϥⲣ̅ ⲛⲟⲃⲉ ⲉϩⲣⲁⲓ̈\n[ⲉⲡⲧⲏⲣϥ] ⲁⲩⲱ ⲁⲡⲉⲉⲓϣⲁϫⲉ ⲡⲱϩ ϣⲁϩ‐\nⲣⲁⲓ̈ ⲉⲧⲙ̅ⲛ̅ⲧ̅’̅ⲁⲧⲧⲁⲕⲟ ⲉⲓⲥ ⲟⲩⲥⲙⲏ ⲇⲉ ⲁⲥⲉⲓ ⲉ‐\nⲃⲟⲗ’ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲧⲁⲕⲟ ⲉⲥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ\nⲕⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲥⲁⲙⲁⲏⲗ ⲉⲧⲉ ⲡⲛⲟⲩⲧⲉ ⲡ[ⲉ]\nⲛ̅ⲃ̅ⲃⲗⲗⲉ §ⲁⲛⲉϥⲙⲉⲉⲩⲉ ⲣ̅ ⲃⲗ̅ⲗⲉ ⲁϥⲛⲟⲩϫⲉ\nⲉⲃⲟⲗ ⲛ̅ⲧⲉϥϭⲟⲙ ⲉⲧⲉ ⲡⲟⲩⲁ ⲛ̅ⲧⲁϥϫⲟⲟϥ’\nⲁϥⲇⲓⲱⲕⲉ ⲙ̅ⲙⲟϥ’ ϣⲁ ⲡⲓⲧⲛ̅ ⲁⲡⲭⲁⲟⲥ ⲙⲛ̅\nⲡⲛⲟⲩⲛ ⲧⲉϥ’ⲙⲁⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲡⲓⲥⲧⲓⲥ\nⲧⲥⲟⲫⲓⲁ ⲁⲩⲱ ⲁⲥⲕⲁⲑⲓⲥⲧⲁ ⲛ̅ⲛⲉϥ’ϣⲏⲣⲉ\nⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲕⲁⲧⲁ ⲧⲉϥϭⲟⲙ’ ⲕⲁⲧⲁ ⲡⲧⲩⲡⲟⲥ\nⲛ̅ⲁⲓⲱⲛ’ ⲉⲧⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ϫⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉ‐\nⲑⲏⲡ’ ⲁⲩϩⲉ ⲁⲛⲉⲧⲟⲩⲟⲛϩ’ ⲉⲃⲟⲗ’ §ⲁⲧⲙ̅ⲛ̅ⲧ̅‐\nⲁⲧⲧⲉⲕⲟ ϭⲱϣ’ⲧ ⲁⲡⲓⲧⲛ̅ ⲁⲙⲙⲉⲣⲟⲥ ⲛⲙ̅‐\nⲙⲟⲟⲩ ⲁⲡⲉⲥⲓⲛⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅‐\nⲙⲟⲟⲩ ⲁⲩⲱ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲕⲁⲕⲉ ⲙⲉⲣⲓⲧⲥ̅\nⲙ̅ⲡⲟⲩϣϭⲛ̅ ϭⲟⲙ ⲇⲉ ⲛ̅ⲧⲉϩⲉ ⲡⲓⲛⲉ ⲉⲧⲙ̅ⲙⲁⲩ\nⲡⲉⲛⲧⲁϩⲟⲩⲱⲛ ⲉⲃⲟⲗ ⲛⲁⲩ ϩⲛ̅ⲛⲙ̅ⲙⲟⲟⲩ\nⲉⲧⲃⲉ ⲧⲟⲩⲙⲛ̅ⲧϭⲱⲃ ϫⲉ ⲙ̅ⲯⲩⲭⲓⲕⲟⲥ ⲛⲁϣ‐\nⲧⲉϩⲉ ⲙ̅ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ ⲁⲛ ϫⲉ ϩⲛ̅ⲛⲁ‐\nⲃⲟⲗ ⲛⲉ ⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ ⲛ̅ⲧⲟϥ ⲇⲉ ⲟⲩⲉⲃⲟⲗ\nⲡⲉ ⲙ̅ⲡⲥⲁ ’ⲛⲧⲡⲉ §ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ‐\nⲧⲁⲕⲟ ϭⲱϣ’ⲧ ⲉⲃⲟⲗ ⲉⲡⲓⲧⲛ̅ ⲁⲙⲙⲉⲣⲟⲥ\nϣⲓⲛⲁ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱ’ⲧ ⲉⲥⲛⲁϩⲁ‐\nⲧⲣ̅ ⲡⲧⲏ’ⲣϥ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲛⲁⲣⲭⲱⲛ ϫⲓ ⲛ̅‐"
+        },
+        {
+          "title": "The Creation of Adam and Eve",
+          "subtitle": "The Creation of Adam and Eve",
+          "heading": "The Creation of Adam and Eve (87, 23-89, 17)",
+          "rangeLabel": "87, 23-89, 17",
+          "range": {
+            "start": {
+              "page": 87,
+              "line": 23
+            },
+            "end": {
+              "page": 89,
+              "line": 17
+            }
+          },
+          "english": "The rulers made plans and said, “Come, let’s create a human of soil from the\nearth.” They formed their creature as a being entirely of the earth\nThese archons have bodies that are both female [and male], and faces that are\nthe faces of beasts They took [soil] from the earth and formed [their human],\nafter their own bodies and [after the image] of God that had appeared [to them]\nin the water\nThey said, “[Come], let’s grasp the image by means of the form we have\nshaped, [so that] the image may see its male partner [and fall in love with it],\nand we may seize it with the form we have shaped.” They did not\nunderstand the power of God, because they are powerless.\nSamael blew into his face, and the human acquired a soul and stayed upon\nthe ground for many days. The rulers could not make him arise, because they are\npowerless. Like storm winds they kept on blowing, that they might try to capture\nthe image that appeared to them in the waters. And they did not know what its\npower was\nAll these things came to be by the will of the Father of the All.\nLater the Spirit saw the person of soul upon the ground. The Spirit came\nforth from the adamantine land It descended and made its home within him,\nand that person became a living soul And the Spirit called his name Adam,\nsince he was found moving around upon the ground\nA voice came from Incorruptibility to help Adam. The rulers gathered all the\nanimals of the earth and all the birds of the sky and brought them to Adam to see\nwhat Adam would call them, that he might give a name to each of the birds and\nall the animals\nThe rulers took Adam and put him in the garden, that he might cultivate it\nand watch over it. They commanded him and said, “You may eat from [every]\ntree in the garden, but do not eat from the tree of knowledge of good and evil.\nDo not [touch] it, for the day you eat from it, you will surely die.”\nThey [said this to him], but they did not understand what [they said] to him.\nRather, by the Father’s will, they said this in such a way that Adam might\neat, and Adam might <not>26 perceive them as would a completely material\nperson.\nThe rulers plotted together and said, “Come, let’s make a deep sleep fall\nupon Adam.” So Adam slept. The deep sleep they made to fall upon him, and\nhe slept, is ignorance. They cut open his side…like a living woman Then they\nrepaired his side with flesh in place of her, and Adam had only a soul.\nThe woman of spirit came to him and spoke with him, saying, “Arise,\nAdam.”\nWhen he saw her, he said, “You have given me life. You will be called the\nMother of the living.\nFor she is my mother.\nShe is physician\nwoman,\none who has given birth.”",
+          "coptic": "ⲧⲣ̅ ⲡⲧⲏ’ⲣϥ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲛⲁⲣⲭⲱⲛ ϫⲓ ⲛ̅‐\nⲟⲩⲥⲩⲙⲃⲟⲩⲗⲓⲟⲛ ⲡⲉϫⲁⲩ ϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅\nⲛ̅ⲧⲛ̅ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲛ̅ⲛⲟⲩⲭⲟⲩⲥ ⲉ‐\nⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲁⲩⲣ̅ⲡⲗⲁⲥⲥⲉ ⲙ̅ⲡⲟⲩⲧⲁ[ⲙⲓⲟ]\nⲉⲩⲣⲙⲛ̅ⲕⲁϩ ⲧⲏⲣ〈ϥ〉 ⲡⲉ §ⲛⲓⲁⲣⲭⲱⲛ ⲇ[ⲉ..ⲥⲱ]‐\nⲙⲁ ⲡⲉⲧⲉⲩⲛ̅ⲧⲁ’ⲩϥ ⲛ̅ⲥϩⲓⲙⲉ ⲟⲩϩ[.....]\nⲡⲉ ⲛ̅ϩⲟ ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲉ ⲁⲩϥⲓ ⲛ̅ⲛⲟ[ⲩⲭⲟⲩⲥ]\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲁⲩⲣ̅ⲡⲗⲁⲥⲥⲉ ⲙ̅ⲡ[ⲟⲩⲣⲱ]‐\nⲙⲉ ⲕⲁⲧⲁ ⲡⲟⲩⲥⲱⲙⲁ ⲁⲩⲱ ⲕ[ⲁⲧ]ⲁ [ⲡⲓⲛⲉ]\nⲙ̅ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉ[ⲃⲟⲗ ⲛⲁⲩ]\nϩⲛ̅ⲛⲙⲙⲟⲟⲩ §ⲡⲉϫⲁⲩ ϫⲉ ⲁ[ⲙⲏⲉⲓⲧⲛ̅ ⲙⲁ]‐\nⲣⲛ̅ⲧⲉϩ’ⲟϥ ϩⲙ̅ ⲡⲛ̅ⲡⲗⲁⲥⲙⲁ ϫ[ⲉⲕⲁⲁⲥ]\nⲉϥⲛⲁⲛⲁⲩ ⲁⲡⲉϥϣⲃⲣ̅ⲉⲓ[ⲛⲉ.......]\n[ⲛ̅]ⲧⲛ̅ⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟϥ ϩⲙ̅ ⲡⲙ̅ⲡⲗⲁⲥⲙⲁ ⲉⲩⲣ̅ⲛⲟ‐\n[ⲉ]ⲓ ⲁⲛ ⲛ̅ⲧⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉⲃⲟⲗ ϩⲛ̅\nⲧⲟⲩⲙⲛ̅ⲧ̅ⲁ’ⲧϭⲟⲙ ⲁⲩⲱ ⲁϥⲛⲓϥⲉ ⲉϩⲟⲩⲛ ϩⲙ̅\nⲡⲉϥϩⲟ ⲁⲩⲱ ⲁⲡⲣⲱⲙⲉ ϣⲱⲡⲉ ⲙ̅ⲯⲩⲭⲓⲕⲟⲥ\nϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲛ̅ϩⲁϩ ⲛ̅ϩⲟⲟⲩ ⲙ̅ⲡⲟⲩϣϭⲛ̅ ϭⲟ’ⲙ\nϭⲉ ⲛ̅ⲧⲟⲩⲛⲟ’ⲥϥ ⲉⲧⲃⲉ ⲧⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁ’ⲧϭⲟⲙ ⲁⲩ‐\nⲡⲣⲟⲥ’ⲕⲁⲣⲧⲉⲣⲉⲓ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲁⲧⲏⲟⲩ ϫⲉ ⲉⲩⲛⲁ‐\nϭⲱⲣϭ ⲁⲡⲉⲓⲛⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲡⲁⲉⲓ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲛⲁⲩ ϩⲛ̅ⲛⲙ̅ⲙⲟⲟⲩ ⲛⲉⲩⲥⲟⲟⲩ’ⲛ ⲇⲉ ⲁ’ⲛ\nⲛ̅ⲧⲉϥϭⲟⲙ ϫⲉ ⲛⲓⲙ ⲡⲉ §ⲛⲁⲉⲓ ⲇⲉ ⲧⲏⲣⲟⲩ ⲁⲩϣⲱ‐\nⲡⲉ ϩⲙ̅ ⲡⲟⲩⲱ’ϣ ⲙ̅ⲡⲉⲓⲱ’ⲧ ⲙ̅ⲡⲧⲏ’ⲣϥ ⲙ̅ⲙⲛ̅‐\nⲛ̅ⲥⲁ ⲛⲁⲉ’ⲓ ⲁⲡ̅ⲛ̅ⲁ̅ ⲛⲁⲩ ⲁⲡⲓⲣⲱⲙⲉ ⲛ̅ⲯⲩⲭⲓⲕⲟⲥ\nϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲁⲩⲱ ⲁⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ\nⲛ̅ⲁⲇⲁⲙⲁ’ⲛⲧⲓⲛ’ⲏ ⲁϥⲉⲓ ⲉⲡⲓⲧⲛ̅ ⲁϥⲟⲩⲱϩ ⲛ̅‐\nϩⲏ’ⲧϥ ⲁⲡⲣⲱⲙⲉ ⲉⲧⲙ̅ⲙⲁⲩ ϣⲱⲡⲉ ⲁⲩⲯⲩⲭ’ⲏ\nⲉⲥⲟⲛϩ §ⲁϥⲙⲟⲩⲧⲉ ⲉⲡ’ⲉϥⲣⲁⲛ ϫⲉ ⲁⲇⲁ’ⲙ ϫⲉ\nⲁⲩϩⲉ ⲅⲁ’ⲣ ⲉⲣ’ⲟϥ ⲉϥⲕⲉⲓ’ⲙ ϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲁⲩⲥⲙⲏ\nⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲛ̅ⲧ̅ⲁⲧⲧⲁⲕⲟ ⲉⲧⲃⲉ ⲧⲃⲟⲏⲑⲓⲁ\nⲛ̅ⲁ’ⲇⲁ’ⲙ ⲁⲩⲱ ⲁⲛⲁⲣⲭⲱ’ⲛ ⲥⲱⲟⲩϩ ⲉϩⲟⲩ’ⲛ\nⲛ̅ⲛ̅ⲑ’ⲏⲣⲓⲟ’ⲛ ⲧⲏⲣⲟϥ ⲙ̅ⲡⲕⲁϩ ⲙⲛ̅ ⲛ̅ϩⲁⲗⲁⲧⲉ\nⲧ’ⲏⲣⲟⲩ ⲛ̅ⲧⲡⲉ ⲁⲩⲛ̅ⲧⲟⲩ ⲉϩⲟⲩ’ⲛ ϣⲁ ⲁⲇⲁ’ⲙ\nⲉⲛⲁⲩ ϫⲉⲁⲇⲁ’ⲙ ⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲛⲓ’ⲙ\nⲉⲧⲣⲉϥϯ ⲣⲁⲛ ⲉⲡⲟⲩⲁ ⲡⲟⲩⲁ ϩⲛ̅ ⲛ̅ϩⲁⲗⲁⲧⲉ\nⲙⲛ̅ ⲛ̅ⲧⲃ̅ⲏⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ §ⲁⲩϥⲉⲓ ⲛ̅ⲁⲇⲁ’ⲙ\n[ⲁ]ⲩⲕⲁ’ⲁϥ ϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲉⲧⲣⲉϥⲣ̅ ϩⲱ’ⲃ\n[ⲉⲣⲟϥ]’ ⲛ̅ϥⲁⲣⲉϩ ⲉⲣⲟϥ’ ⲁⲩⲱ ⲁⲛⲁⲣⲭⲱⲛ ϩⲱⲛ’\n[ⲉⲧⲟ]ⲟⲧϥ’ ⲉⲩϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲉⲃⲟⲗ ϩⲛ̅ ϣⲏⲛ\n[ⲛⲓⲙ] ⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲉⲕⲛⲁⲟⲩⲱⲙ’\n[ⲉⲃⲟⲗ] ⲇⲉ ϩⲙ̅ ⲡϣⲏⲛ ⲛ̅ⲥⲟⲩⲱⲛ ⲡⲉⲧⲛⲁ’‐\n[ⲛⲟⲩϥ] ⲙⲛ̅ ⲡⲉⲑⲟⲟⲩ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ’ ⲟⲩⲇⲉ\n[ⲙ̅ⲡⲣ̅ϫⲱϩ ⲉ]ⲣⲟϥ’ ϫⲉ ⲫⲟⲟⲩ ⲉⲧⲉⲧⲛⲁⲟⲩⲱⲙ’\n[ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧ]ϥ’ ϩⲛ̅ ⲟⲩⲙⲟⲩ ⲧⲉⲧⲛⲁⲙⲟⲩ §ⲥⲉ‐\n[.....] ⲡⲁⲓ̈ ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ’ ϫⲉ ⲟⲩ ⲡⲉⲛ‐\n[ⲧⲁⲩϫⲟⲟ]ϥ ⲛⲁϥ’ ⲁⲗⲗⲁ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓ‐\nⲱⲧ’ ⲛ̅ⲧⲁⲩϫⲉ ⲡⲁⲉⲓ ⲛ̅ⲧⲉⲉⲓϩⲉ ϫⲉⲕⲁⲁⲥ ⲉϥ‐\nⲛⲁⲟⲩⲱⲙ’ ⲛ̅ⲧⲉ ⲁⲇⲁⲙ’ 〈ⲧⲙ̅〉 ⟦ⲱⲡ⟧ ⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲉϥⲟ ⲧⲏⲣ[ϥ]\nⲛ̅ϩⲩⲗⲓⲕⲟⲥ §ⲁⲛⲁⲣⲭⲱⲛ ϣⲟϫⲛⲉ ⲙⲛ̅ ⲛⲟⲩ‐\nⲉⲣⲏⲩ ⲡⲉϫⲁⲩ ϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲛ̅ⲧⲛ̅ⲉⲓⲛⲉ ⲛ̅‐\nⲟⲩⲃϣⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲁⲇⲁⲙ ⲁⲩⲱ ⲁϥϩⲱⲣⲡ’\nⲧⲃ̅ϣⲉ ⲇⲉ ⲧⲉ ⲧ’ⲙⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ’ ⲧⲁⲉⲓ ⲛ̅ⲧⲁⲩ‐\nⲛ̅ⲧⲥ̅ ⲉϩⲣⲁⲓ̈ ⲉϫⲱϥ’ ⲁⲩⲱ ⲁϥϩⲱⲣⲡ’ ⲁⲩⲟⲩⲉⲛ\nⲙ̅ⲡⲉϥⲥⲡⲓⲣ’ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩⲥϩⲓⲙⲉ ⲉⲥⲟⲛϩ\nⲁⲩⲱ ⲁⲩⲕⲱⲧ’ ⲙ̅ⲡⲉϥ’ⲥⲡⲓⲣ’ ⲛ̅ⲛⲟⲩⲥⲁⲣⲝ\nⲉⲡⲉⲥⲙⲁ ⲁⲩⲱ ⲁⲁⲇⲁⲙ’ ϣⲱⲡⲉ ⲙ̅ⲯⲩⲭⲓ‐\nⲕⲟⲥ ⲧⲏⲣϥ §ⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲙ̅ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲏ\nⲁⲥⲓ ϣⲁⲣⲟϥ’ ⲁⲥϣⲁϫⲉ ⲛⲙ̅ⲙⲁϥ’ ⲡⲉϫⲁⲥ\nϫⲉ ⲧⲱⲟⲩⲛ ⲁⲇⲁⲙ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲉⲣⲟⲥ\nⲡⲉϫⲁϥ ϫⲉ ⲛ̅ⲧⲟ ⲡⲉⲛ’ⲧⲁϩϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲱⲛϩ\nⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟ ϫⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ\nϫⲉ ⲛ̅ⲧⲟⲥ ⲡⲉ ⲧⲁⲙⲁⲁⲩ ⲛ̅ⲧⲟⲥ ⲧⲉ ⲧⲥⲟⲉⲓⲛ’\nⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲁⲩⲱ ⲧⲉⲛⲧⲁⲥⲙⲓⲥⲉ §ⲁⲛⲉ‐"
+        },
+        {
+          "title": "Adam and Eve in the Garden",
+          "subtitle": "Adam and Eve in the Garden",
+          "heading": "Adam and Eve in the Garden (89, 17-90, 12)",
+          "rangeLabel": "89, 17-90, 12",
+          "range": {
+            "start": {
+              "page": 89,
+              "line": 17
+            },
+            "end": {
+              "page": 90,
+              "line": 12
+            }
+          },
+          "english": "The authorities approached their Adam. When they saw his female partner\nspeaking with him, they became aroused and lusted after her. They said to each\nother, “Come, let’s ejaculate our semen in her,” and they chased her. But she\nlaughed at them because of their foolishness and blindness. In their grasp she\nturned into a tree and when she left for them a shadow of herself that looked\nlike her, they defiled it sexually. They defiled the seal of her voice, and so they\nconvicted themselves through the form they had shaped in their own image\nThen the female spiritual presence came in the shape of the serpent, the\ninstructor. The serpent taught Adam and Eve and said, “What did Samael [say\nto] you? Did he say, ‘You may eat from every tree in the garden, but do not eat\nfrom [the tree] of knowledge of good and evil’?”\nThe woman of flesh said, “Not only did he say ‘Do not eat,’ but also ‘Do\nnot touch it. For the day you eat from it, you will surely die.’”\nThe serpent, the instructor, said, “You will not surely die, for he said this to\nyou out of jealousy. Rather, your eyes will open and you will be like gods,\nknowing good and evil.” And the female instructor was taken away from the\nserpent, and she abandoned it as something of the earth.",
+          "coptic": "ⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲁⲩⲱ ⲧⲉⲛⲧⲁⲥⲙⲓⲥⲉ §ⲁⲛⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲇⲉ ⲉⲓ ⲉϩⲟⲩⲛ ϣⲁ ⲡⲟⲩⲁⲇⲁⲙ’ ⲛ̅ⲧⲁ\nⲣⲟⲩⲛⲁⲩ ⲇⲉ ⲁⲧⲉϥ’ϣⲃⲣ̅ⲉⲓⲛⲉ ⲉⲥϣⲁϫⲉ ⲛⲙ̅‐\nⲙⲁϥ’ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ϣⲧⲟⲣⲧⲣ̅\nⲁⲩⲱ ⲁⲩⲙⲉⲣⲉⲓⲧⲥ̅ ⲡⲉϫⲁⲩ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ\nϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲛ̅ⲧⲛ̅ⲛⲟⲩϫⲉ ⲙ̅ⲡⲛ̅ⲥⲡⲉⲣ’‐\nⲙⲁ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲥ’ ⲁⲩⲣ̅ⲇⲓⲱⲕⲉ ⲙ̅ⲙⲟⲥ ⲁⲩⲱ\nⲁⲥⲥⲱⲃⲉ ⲛ̅ⲥⲱⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲙ̅ⲛ̅ⲁⲧ’‐\nⲑⲏⲧ’ ⲙⲛ̅ ⲧⲟⲩⲙⲛ̅ⲧ̅ⲃⲗ̅ⲗⲉ ⲁⲩⲱ ⲁⲥⲣ̅ ⲟⲩϣⲏⲛ\nⲛ̅ⲧⲟⲟⲧⲟⲩ ⲁⲥⲕⲱ ⲛ̅ⲧⲉⲥϩⲁⲓ̈ⲃⲉⲥ ⲉ[ⲥ]ⲉⲓⲛⲉ\nⲙ̅ⲙⲟⲥ ϩⲁⲧⲟⲟⲧⲟⲩ ⲁⲩⲱ ⲁⲩϫⲟϩⲙ[ⲉⲥ] ϩⲛ̅\nⲟⲩⲥⲱϥ’ ⲁⲩⲱ ⲁⲩϫⲱϩⲙ̅ ⲛ̅ⲧⲥⲫⲣⲁⲅⲓ[ⲥ] ⲛ̅‐\nⲧⲉⲥⲥⲙⲏ ϣⲓⲛⲁ ⲉⲩⲛⲁⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛ[ⲉ] ⲙ̅‐\nⲙⲟⲟⲩ ⲟⲩⲁⲁⲩ ϩⲙ̅ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲙ[ⲛ̅ ⲡⲟⲩ]‐\nⲉⲓⲛⲉ §ⲁⲥⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ϯⲡⲛⲉⲩⲙⲁⲧⲓⲕ[ⲏ ϩⲙ̅]\nⲫⲁϥ’ ⲡⲣⲉϥⲧⲁⲙⲟ’ ⲁⲩⲱ ⲁϥⲧⲁ[ⲙⲟⲟⲩ ⲉϥ]‐\nϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲟⲩ ⲡⲉⲛ̅ⲧⲁϥ[ϫⲟⲟϥ ⲛⲏ]‐\nⲧⲛ̅ ϫⲉ ⲉⲃⲟⲗ ϩⲛ̅ ϣⲏⲛ ⲛⲓⲙ ϩ[ⲙ̅ ⲡⲡⲁⲣⲁ]‐\nϫⲉⲓⲥⲟⲥ ⲉⲕⲛⲁⲟⲩⲱⲙ’ ⲉⲃⲟⲗ ⲇ[ⲉ ϩⲙ̅ ⲡϣⲏⲛ’]\nⲛ̅ⲥⲟⲩⲱⲛ ⲡⲉⲑⲟⲟⲩ ⲙⲛ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ’\nⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ §ⲡⲉϫⲉ ⲧⲥϩⲓⲙⲉ ⲛ̅ⲥⲁⲣⲕⲓⲕⲏ ϫⲉ\nⲟⲩ ⲙⲟⲛⲟⲛ’ ⲡⲉϫⲁϥ ϫⲉ ⲙⲛ̅ⲟⲩⲱⲙ ⲁⲗⲗⲁ\nⲙ̅ⲡⲣ̅ϫⲱϩ ⲉⲣⲟϥ ϫⲉ ϩⲙ̅ ⲡϩⲟⲟⲩ ⲉⲧⲉⲧⲛⲁⲟⲩ‐\nⲱⲙ’ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ϩⲛ̅ⲛⲟⲩⲙⲟⲩ ⲧⲉⲧⲛⲁⲙⲟⲩ\n§ⲁⲩⲱ ⲡⲉϫⲉ ⲫⲁϥ’ ⲡⲣⲉϥⲧⲁⲙⲟ ϫⲉ ϩⲛ̅ ⲟⲩⲙⲟⲩ\nⲉⲧⲉⲧⲛⲁⲙⲟⲩ ⲁⲛ ⲛ̅ⲧⲁϥϫⲉ ⲡⲁⲉⲓ ⲅⲁⲣ ⲛⲏⲧⲛ̅\nⲉϥⲣ̅ⲫⲑⲟⲛⲉⲓ ⲙⲁⲗⲗⲟⲛ ⲉⲛⲉⲧⲛ̅ⲃⲁⲗ ⲛⲁⲟⲩ‐\nⲉⲛ ⲛ̅ⲧⲉⲧⲛ̅ϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲛⲟⲩⲧⲉ ⲉⲧⲉ‐\nⲧⲛ̅ⲥⲟⲟⲩⲛ ⲙ̅ⲡ’ⲡⲉⲑⲟⲟⲩ ⲙⲛ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ’\nⲁⲩⲱ ⲧⲣⲉϥⲧⲁⲙⲟ ⲁⲩϥⲓⲧⲥ̅ ⲛ̅ⲧⲟⲟⲧϥ’ ⲙ̅ⲫⲁϥ’\nⲁⲩⲱ ⲁⲥⲕⲱ ⲙ̅ⲙⲟϥ’ ⲟⲩⲁⲁϥ’ ⲉϥⲟ ⲛ̅ⲣⲙⲛ̅ⲕⲁϩ"
+        },
+        {
+          "title": "They Eat from the Tree",
+          "subtitle": "They Eat from the Tree",
+          "heading": "They Eat from the Tree (90, 13-91, 11)",
+          "rangeLabel": "90, 13-91, 11",
+          "range": {
+            "start": {
+              "page": 90,
+              "line": 13
+            },
+            "end": {
+              "page": 91,
+              "line": 11
+            }
+          },
+          "english": "The woman of flesh took from the tree and ate, and she gave to her husband as\nwell, and thus these beings, who had only a soul, ate. Their imperfection became\napparent in their ignorance. They recognized that they were stripped of the\nspiritual, and they took fig leaves and tied them around their naked bodies\nThe leader of the archons came and said, “Where are you, Adam?” For he\ndid not know what had happened.\nAdam said, “I heard your voice and was afraid because I was naked, and so I\nhid.”\nThe ruler said, “Why did you hide, unless it is because you ate from the only\ntree from which I commanded you not to eat? You did eat!”\nAdam said, “The woman you gave me [offered] me the fruit, and I ate.” And\nthe arrogant [ruler] cursed the woman.\nThe woman said, “The serpent deceived me, and I ate.” [The rulers turned] to\nthe serpent and cursed its shadow, [so that it was] powerless, and they did not\nknow it was a form they themselves had shaped From then on, the serpent was\nunder the curse of the authorities. The curse was on the serpent until the\nperfect human was to come.\nThe rulers turned to their Adam. They took him and cast him and his wife\nout of the garden. They have no blessing, for they are also under the curse.\nThe rulers threw humanity into great confusion and a life of toil, so that their\npeople might be preoccupied with things of the world and not have time to be\noccupied with the holy Spirit",
+          "coptic": "§ⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲛ̅ⲥⲁⲣⲕⲓⲕⲏ ⲁⲥϫⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲁⲥⲟⲩⲱⲙ ⲁⲩⲱ ⲁⲥϯ ⲙ̅ⲡⲉⲥϩⲁⲓ̈ ⲛⲙ̅ⲙⲁⲥ ⲁⲩ‐\nⲱ ⲁⲙⲯⲩⲭⲓⲕⲟⲥ ⲟⲩⲱⲙ ⲁⲩⲱ ⲁⲧⲟⲩⲕⲁⲕⲓⲁ\nⲟⲩⲉⲛ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲙⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ’\nⲁⲩⲉⲓⲙⲉ ϫⲉ ⲛⲉⲩⲕⲏⲕⲁϩⲏⲩ ⲁⲡⲡⲛⲉⲩⲙⲁ’‐\nⲧⲓⲕⲟⲛ ⲁⲩϥⲓ ϩⲛ̅ϭⲱⲃⲉ ⲛ̅ⲕⲛ̅ⲧⲉ ⲁⲩⲙⲟⲣⲟϥ\nⲉϫⲛ̅ ⲧⲟⲩϯⲡⲉ §ⲧⲟⲧⲉ ⲁϥⲉⲓ ⲛ̅ϭⲓ ⲡⲛⲟϭ ⲛ̅ⲁⲣ‐\nⲭⲱⲛ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ ⲁⲇⲁⲙ’ ⲉⲕⲧⲱⲛ ⲛⲉϥ‐\nⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲁⲛ ϫⲉ ⲛ̅ⲧⲁ ⲟⲩ ϣⲱⲡⲉ §ⲁⲩⲱ ⲡⲉ‐\nϫⲉ ⲁⲇⲁⲙ ϫⲉ ⲁⲉⲓⲥⲱⲧⲙ̅ ⲁⲧⲉⲕ’ⲥⲙⲏ ⲁⲉⲓⲣ̅\nϩⲟⲧⲉ ϫⲉ ⲛⲉⲉⲓⲕⲏⲕⲁϩⲏⲩ ⲁⲩⲱ ⲁⲉⲓⲕⲱⲡ’\n§ⲡⲉϫⲉ ⲡⲁⲣⲭⲱⲛ ϫⲉ ⲉⲧⲃⲉ ⲟⲩ’ ⲁⲕⲕⲱⲡ ⲉⲓ\nⲙⲏⲧⲓ ϫⲉ ⲁⲕ’ⲟⲩⲱⲙ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲛ̅ⲧ[ⲁ]ⲉⲓϩⲟⲛϥ ⲉⲧⲟⲟⲧⲕ ϫⲉ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ’ ⲉ‐\nⲃⲟ[ⲗ] ⲛ̅ϩⲏⲧϥ’ ⲟⲩⲁⲁⲧϥ ⲁⲩⲱ ⲁⲕⲟⲩⲱⲙ §ⲡⲉ‐\nϫ[ⲉ ⲁ]ⲇⲁⲙ ϫⲉ ⲧⲥϩⲓⲙⲉ ⲛ̅ⲧⲁⲕⲧⲁⲁⲥ ⲛⲁⲉⲓ\n[ⲁⲥϯ] ⲛⲁⲉⲓ ⲁⲉⲓⲟⲩⲱⲙ’ ⲁⲩⲱ ⲁⲡⲁⲩⲑⲁⲇⲏⲥ\n[ⲛ̅ⲁⲣ]ⲭⲱⲛ ⲥϩⲟⲩⲟⲣ ⲧⲥϩⲓⲙⲉ §ⲡⲉϫⲉ ⲧⲥϩⲓⲙⲉ\n[ϫⲉ ⲫ]ⲟϥ ⲡⲉⲧⲁⲣ’ⲁⲡⲁⲧⲁ ⲙ̅ⲙⲟⲉⲓ ⲁⲉⲓⲟⲩⲱⲙ’\n[ⲁⲩⲕⲟⲧⲟ]ⲩ ⲁⲫⲟϥ ⲁⲩⲥⲟⲩϩⲱⲣ’ ⲧⲉϥϩⲁⲓ̈ⲃⲉⲥ\n[.....ⲟ]ⲩⲁⲧϭⲟⲙ ⲡⲉ ⲉⲩⲥⲟⲟⲩⲛ ⲁⲛ\n[ϫⲉ ⲡⲟ]ⲩⲡⲗⲁⲥⲙⲁ ⲡⲉ ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅‐\nⲙⲁⲩ ⲁⲫⲟϥ’ ϣⲱⲡⲉ ϩⲁ ⲡⲥⲁϩⲟⲩⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓ[ⲁ]\nϣⲁⲛⲧⲉϥ’ⲉⲓ ⲛ̅ϭⲓ ⲡⲧⲉⲗⲉⲓⲟⲥ ⲛ̅ⲣⲱⲙⲉ ⲡⲥ[ⲁ]‐\nϩⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲉⲓ ⲉϫⲛ̅ ⲫⲁϥ’ §ⲁⲩⲕⲟⲧⲟⲩ ⲁ‐\nⲡⲟⲩⲁⲇⲁⲙ’ ⲁⲩϥⲓⲧϥ’ ⲁⲩⲛⲟϫϥ’ ⲉⲃⲟⲗ ϩⲙ ⲡⲡⲁ‐\nⲣⲁⲇⲉⲓⲥⲟⲥ ⲙⲛ̅ ⲧⲉϥϩⲓⲙⲉ ϫⲉ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛ̅ⲥ‐\nⲙⲟⲩ ⲛ̅ⲧⲟⲟⲧⲟⲩ ϫⲉ ⲛ̅ⲧⲟⲟⲩ ϩⲱⲟⲩ ⲥⲉϣⲟⲟⲡ’\nϩⲁ ⲡⲥⲁϩⲟⲩⲉ §ⲁⲩⲛⲟⲩϫ’ ⲣ̅ⲣⲱⲙⲉ ⲇⲉ ⲉϩⲣⲁⲓ̈\nⲁϩⲛ̅ⲛⲟϭ ⲙ̅ⲡⲡⲉⲣⲓⲥⲡⲁⲥⲙⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲙ̅ⲕⲁϩ\nⲛ̅ⲧⲉ ⲡⲃⲓⲟⲥ ϣⲓⲛⲁ ⲉⲛⲟⲩⲣⲱⲙⲉ ⲛⲁϣⲱⲡⲉ\nⲛ̅ⲃⲓⲱⲧⲓⲕⲟⲥ ⲛ̅ⲥⲉⲧⲙ̅ⲣ̅ⲥⲭⲟⲗⲁⲍⲉ ⲁⲣ̅ⲡⲣⲟⲥ‐\nⲕⲁⲣⲧⲉⲣⲉⲓ ⲉⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ §ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲓ̈"
+        },
+        {
+          "title": "Cain, Abel, Seth, Norea",
+          "subtitle": "Cain, Abel, Seth, Norea",
+          "heading": "Cain, Abel, Seth, Norea (91, 11-92, 4)",
+          "rangeLabel": "91, 11-92, 4",
+          "range": {
+            "start": {
+              "page": 91,
+              "line": 11
+            },
+            "end": {
+              "page": 92,
+              "line": 4
+            }
+          },
+          "english": "After this Eve gave birth to Cain, their son, and Cain farmed the land. Then\nAdam had sex with his wife. She became pregnant again and gave birth to Abel,\nand Abel was a shepherd. Cain brought in produce from his field, and Abel\nbrought in an offering from his lambs. God looked with favor upon the offering\nof Abel, but he did not accept the offerings of Cain. Cain, man of flesh, pursued\nAbel his brother.\nGod said to Cain, “Where is your brother Abel?”\nCain answered and said, “Am I my brother’s keeper?”\nGod said to Cain, “Listen. The voice of your brother’s blood is calling to me.\nYou have sinned with your mouth, and it will come back to you. Whoever kills\nCain will release seven vendettas, and you will live groaning and shaking upon\nthe earth.”\nAdam [had sex] with his partner Eve again. She became pregnant and bore\n[Seth] for Adam. She said, “I have given birth to [another] person through God,\nin place [of Abel].”\nEve became pregnant again and gave birth to [Norea] Eve said, “He has\nproduced for me a virgin to help many human generations.” Norea is the\nvirgin whom the forces did not defile.\nAnd humanity began to multiply and develop.",
+          "coptic": "ⲕⲁⲣⲧⲉⲣⲉⲓ ⲉⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ §ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲓ̈\nⲇⲉ ⲁⲥϫⲡⲟ ⲛ̅ⲕⲁⲓ̈ⲛ ⲡⲟⲩϣⲏⲣⲉ ⲕⲁⲓ̈ⲛ ⲇⲉ\nⲛⲉϥⲣ̅ ϩⲱⲃ’ ⲉⲡⲕⲁϩ ⲡⲁⲗⲓⲛ’ ⲁϥⲥⲟⲩⲱⲛ ⲧⲉϥ’‐\nϩⲓⲙⲉ ⲉⲧⲓ ⲁⲥⲱ ⲁⲥϫⲡⲟ ⲛ̅ⲁⲃⲉⲗ ⲁⲃⲉⲗ ⲇⲉ\nⲛⲉⲩϣⲱⲥ ⲡⲉ ⲙ̅ⲙⲁⲛⲉⲥⲟⲟⲩ ⲕⲁⲓ̈ⲛ ⲇⲉ ⲁϥⲉⲓ‐\nⲛⲉ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲛ̅ⲕⲁⲣⲡⲟⲥ ⲛ̅ⲧⲉϥⲥⲱϣⲉ’ ⲁ‐\nⲃⲉⲗ ⲇⲉ’ ⲁϥⲉⲓⲛⲉ ⲉϩⲟⲩⲛ ⲛ̅ⲛⲟⲩⲑⲩⲥⲓⲁ ϩⲛ̅\nⲛⲉϥϩⲓⲉⲓⲃ’ ⲁⲡⲛⲟⲩⲧⲉ ϭⲱϣⲧ’ ⲉϫⲛ̅ ⲛ̅‐\nⲇⲱⲣⲟⲛ ⲛ̅ⲛⲁⲃⲉⲗ ⲙ̅ⲡⲉϥϫⲓ ⲇⲉ ⲛ̅ⲛ̅ⲇⲱ‐\nⲣⲟⲛ ⲛ̅ⲛⲕⲁⲓ̈ⲛ ⲁⲩⲱ ⲕⲁⲓ̈ⲛ ⲛ̅ⲥⲁⲣⲕⲓⲕⲟⲥ ⲁϥ‐\nⲇⲓⲱⲕⲉ ⲛ̅ⲁⲃⲉⲗ’ ⲡⲉϥⲥⲟⲛ §ⲁⲩⲱ ⲡⲉϫⲉ ⲡⲛⲟ[ⲩ]‐\nⲧⲉ ⲛ̅ⲕⲁⲓ̈ⲛ ϫⲉ ⲉϥⲧⲱⲛ’ ⲁⲃⲉⲗ’ ⲡⲉⲕⲥⲟⲛ\n§ⲁϥⲟⲩⲱϣⲃ̅ ⲡⲉϫⲁϥ ϫⲉ ⲙⲏ ⲉⲉⲓϣⲟⲟⲡ’\nⲙⲫⲩⲗⲁⲝ ⲙ̅ⲡⲁⲥⲟⲛ §ⲡⲉϫⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅‐\nⲕⲁⲓ̈ⲛ ϫⲉ ⲉⲓⲥ ⲧⲉⲥⲙⲏ ⲙ̅ⲡⲉⲥⲛⲟϥ ⲙ̅ⲡⲉⲕ‐\nⲥⲟⲛ ϥ〈ⲁ〉ϣⲕⲁⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲉⲓ ⲁⲕⲣ̅ ⲛ[ⲟ]ⲃⲉ ⲛ̅‐\nⲣⲱⲕ’ ϥⲛⲁⲕⲟⲧϥ’ ⲉⲣⲟⲕ ⲟⲩⲟⲛ ⲛⲓⲙ [ⲉⲧ]ⲛⲁ‐\nⲙⲟⲩⲟⲩⲧ’ ⲛ̅ⲕⲁⲉⲓⲛ ϥⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ [ⲛ̅]ⲥⲟϣ[ϥ]\nⲛ̅ϫⲓ ⲕⲃⲁ ⲕⲛⲁϣⲱⲡⲉ ⲇⲉ ⲉⲕⲉϣ ⲉϩ[ⲟⲙ] ⲁⲩ‐\nⲱ ⲉⲕⲥⲧⲱⲧ’ ϩⲓϫⲛ̅ ⲡⲕⲁϩ §〈ⲁ〉ⲁⲇⲁⲙ ⲇⲉ [ⲥⲟⲟⲩⲛ]\nⲛ̅ⲧⲉϥϣⲃⲣ̅ⲉⲓⲛⲉ ⲉⲩϩⲁ ⲁⲥⲱ ⲁⲥϫⲡⲉ [ⲥⲏⲑ]\nⲛ̅ⲁⲇⲁⲙ ⲁⲩⲱ ⲡⲉϫⲁⲥ ϫⲉ ⲁⲓ̈ϫⲡⲟ ⲛ̅[ⲕⲉ]‐\nⲣⲱⲙⲉ ϩⲙ̅ ⲡⲛⲟⲩⲧⲉ ⲉⲡⲙⲁ [ⲛ̅ⲛⲁⲃⲉⲗ]\n§ⲡⲁⲗⲓⲛ ⲁⲥⲱ ⲛ̅ϭⲓ ⲉⲩϩⲁ ⲁⲥϫⲡ[ⲉ ⲛⲱⲣⲉⲁ]\nⲁⲩⲱ ⲡⲉϫⲁⲥ ϫⲉ ⲁϥϫⲡⲟ ⲛⲁ[ⲉⲓ ⲛ̅ⲟⲩⲡⲁⲣ‐\nⲑⲉ]ⲛⲟⲥ ⲛ̅ⲃⲟⲏⲑⲉⲓⲁ [ϩⲛ̅] ⲛ̅ⲅⲉⲛⲉⲁ ⲛ̅ⲅⲉⲛⲉⲁ’\nⲛ̅ⲣ̅ⲣⲱⲙⲉ ⲧⲁⲉⲓ ⲧⲉ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲉ ⲙ̅ⲡⲉ ⲛ̅‐\nⲇⲩⲛⲁⲙⲓⲥ ϫⲁϩⲙⲉⲥ §ⲧⲟⲧⲉ ⲁⲛⲣⲱⲙⲉ ⲣ̅ⲁⲣⲭⲉⲓ\nⲛ̅ⲛⲣ̅ⲁⲩⲝⲁⲛⲉ ⲁⲩⲱ ⲛ̅ⲥⲉⲁⲛⲁⲉⲓ §ⲁⲛⲁⲣⲭⲱⲛ ϣⲟ‐"
+        },
+        {
+          "title": "Noah and the Flood",
+          "subtitle": "Noah and the Flood",
+          "heading": "Noah and the Flood (92, 4-18)",
+          "rangeLabel": "92, 4-18",
+          "range": {
+            "start": {
+              "page": 92,
+              "line": 4
+            },
+            "end": {
+              "page": 92,
+              "line": 18
+            }
+          },
+          "english": "The rulers plotted together and said, “Come, let’s cause a flood with our own\nhands and destroy all flesh, animal and human.”\nWhen the ruler of the forces learned of their plan, he said to Noah, “Make\nan ark of wood that will not rot and hide in it, you and your children and the\nanimals and the birds of the sky, large and small. Put it on Mount Sir.”\nOrea came to Noah and wanted to board the ark. When he would not let\nher, she blew on the ark and made it burn up. So he rebuilt the ark.",
+          "coptic": "ⲛ̅ⲛⲣ̅ⲁⲩⲝⲁⲛⲉ ⲁⲩⲱ ⲛ̅ⲥⲉⲁⲛⲁⲉⲓ §ⲁⲛⲁⲣⲭⲱⲛ ϣⲟ‐\nϫⲛⲉ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲡⲉϫⲁⲩ ϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲛ̅‐\nⲧⲛ̅ⲧⲁⲙⲓⲟ ⲛ̅ⲛⲟⲩⲕⲁⲧⲁⲕⲗⲩⲥⲙⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ⲛ̅‐\nϭⲓϫ ⲛ̅ⲧⲛ̅ϥⲱⲧⲉ ⲉⲃⲟⲗ’ ⲛ̅ⲥⲁⲣⲝ’ ⲛⲓⲙ ϫⲓⲛ ⲣⲱⲙⲉ\nϣⲁ ⲧⲃ̅ⲛⲏ §ⲡⲁⲣⲭⲱⲛ ⲇⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲁ‐\nⲣⲉϥ’ⲉⲓⲙⲉ ⲛ̅ⲟⲩϣⲟϫⲛⲉ ⲡⲉϫⲁϥ ⲛ̅ⲛⲱϩⲉ ϫⲉ\nⲧⲁⲙⲓⲟ ⲛⲁⲕ’ ⲛ̅ⲛⲟⲩⲕⲓⲃⲱⲧⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲟⲩϣⲉ\nⲉⲙⲁϥ’ⲣ̅ ϫⲟⲗⲉⲥ ⲛ̅ⲅϩⲱⲡ’ ⲛ̅ϩⲟⲩⲛ ⲛ̅ϩⲏⲧⲥ̅ ⲛ̅‐\nⲧⲟⲕ’ ⲙⲛ̅ ⲛⲉⲕ’ϣⲏⲣⲉ ⲙⲛ̅ ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ ⲙⲛ̅ ⲛ̅‐\nϩⲁⲗⲁⲧⲉ ⲛ̅ⲧⲡⲉ ϫⲓⲛ’ ⲕⲟⲩⲉⲓ ϣⲁ ⲛⲟϭ ⲛ̅ⲅⲥⲉϩⲱⲥ\nⲉⲣⲁⲧⲥ̅ ϩⲓϫⲙ̅ ⲡⲧⲟⲟⲩ ⲛ̅ⲥⲓⲣ’ §ⲁⲥⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ⲱⲣⲉⲁ\nϣⲁⲣⲟϥ ⲉⲥⲟⲩⲱϣ ⲉⲧⲉⲗⲟ ⲉϩⲣⲁⲓ̈ ⲉⲧⲕⲓⲃⲱⲧⲟⲥ\nⲁⲩⲱ ⲙ̅ⲡⲉϥⲕⲁⲁⲥ ⲁⲥⲛⲓϥⲉ ⲉϩⲟⲩⲛ ⲉϩⲣⲉ ⲧⲕⲓ‐\nⲃⲱⲧⲟⲥ ⲁⲥⲣⲟⲕϩⲥ̅ ⲡⲁⲗⲓⲛ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲧⲕⲓ‐\nⲃⲱⲧⲟⲥ ⲙ̅ⲡⲙⲁϩⲥⲉⲡ’ ⲥⲛⲁⲩ §ⲁⲩⲧⲱⲙⲧ’ ⲉⲣⲟⲥ"
+        },
+        {
+          "title": "Norea Opposes the Rulers",
+          "subtitle": "Norea Opposes the Rulers",
+          "heading": "Norea Opposes the Rulers (92, 18-93, 13)",
+          "rangeLabel": "92, 18-93, 13",
+          "range": {
+            "start": {
+              "page": 92,
+              "line": 18
+            },
+            "end": {
+              "page": 93,
+              "line": 13
+            }
+          },
+          "english": "The rulers went to meet Norea, for they planned to seduce her. Their leader said\nto her, “Your mother Eve came to us.”\nBut Norea turned to them and said, “You are the rulers of the darkness.\nDamn you! You did not have sex with my mother but with one of your own ilk.\nFor I am not from you. I am from the world above.”\nThe arrogant ruler turned, with his might, and his expression was like a\nblazing [fire] He was bold toward her and [said], “You must serve us sexually,\nas your mother Eve did, for I have been given….”\nBut Norea turned with the power of [God] and called in a loud voice to the\nholy one, the God of the All, “Help me with these unrighteous rulers and\nrescue me from their hands-now!”\nAn angel came down from heaven and said to her, “Why are you calling to\nGod? Why are you so bold toward the holy Spirit?”\nNorea said, “Who are you?”\nThe unrighteous rulers had left her. The angel said, “I am Eleleth,\nUnderstanding, the great angel who stands before the holy Spirit. I have been\nsent to speak with you and rescue you from the hand of the lawless ones. And I\nshall teach you about your root.”",
+          "coptic": "ⲃⲱⲧⲟⲥ ⲙ̅ⲡⲙⲁϩⲥⲉⲡ’ ⲥⲛⲁⲩ §ⲁⲩⲧⲱⲙⲧ’ ⲉⲣⲟⲥ\nⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲉⲩⲟⲩⲱϣ ⲁⲣ̅ⲁⲡⲁⲧⲁ ⲙ̅ⲙⲟⲥ ⲡⲉ‐\nϫⲉ ⲡⲟⲩⲛⲟϭ ⲉⲧⲛ̅ϩⲏⲧⲟⲩ ⲛⲁⲥ ϫⲉ ⲧⲉⲙⲁⲁⲩ\nⲉⲩϩⲁ ⲁⲥⲉⲓ ϣⲁⲣⲟⲛ §ⲁⲛⲱⲣⲉⲁ ⲇⲉ ⲕⲟⲧⲥ̅ ⲉⲣⲟ‐\nⲟⲩ ⲡⲉϫⲁⲥ ⲛⲁⲩ ϫⲉ ⲛ̅ⲧⲱⲧⲛ̅ ⲛⲉ ⲛⲁⲣⲭⲱⲛ ⲙ̅‐\nⲡⲕⲁⲕⲉ ⲧⲉⲧⲛ̅ⲥϩⲟⲩⲟⲣⲧ’ ⲟⲩⲧⲉ ⲙ̅ⲡⲉⲧⲛ̅ⲥⲟⲩ‐\nⲱⲛ ⲧⲁⲙⲁⲁⲩ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲧⲉⲧⲛ̅ⲥⲟⲩⲱⲛ ⲧⲉⲧⲛ̅‐\nϣⲃⲣ̅ⲉⲓⲛⲉ ⲁⲛⲟⲕ’ ⲟⲩⲉⲃⲟⲗ ⲅⲁⲣ ⲁⲛ’ ϩⲛ̅ ⲧⲏ‐\nⲛⲉ ⲁ[ⲗ]ⲗⲁ ⲛ̅ⲧⲁⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁ ⲡⲥⲁ ⲛⲧⲡⲉ\n§ⲁⲡ[ⲁⲩ]ⲑⲁⲇⲏⲥ ⲛ̅ⲁⲣⲭⲱⲛ ⲕⲟⲧϥ’ ϩⲛ̅ ⲧⲉϥϭⲟⲙ’\nⲁⲩⲱ [ⲁ]ⲡⲉϥ’ⲡⲣⲟⲥⲱⲡⲟⲛ ϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅‐\n[ⲟⲩ..]ϩⲧ’ ⲉϥⲕⲏⲙ’ ⲁϥⲧⲟⲗⲙⲁ ⲉϩⲟⲩⲛ’ ⲉⲣⲟⲥ\n[ⲡⲉϫ]ⲁϥ ⲛⲁⲥ ϫⲉ ϩⲁⲡⲥ ⲡⲉ ⲉⲧⲣⲉⲣ̅ ⲃⲱⲕ’ ⲛⲁⲛ\n[ⲛ̅ⲑⲉ] ⲛ̅ⲧⲉⲕⲉⲙⲁⲁⲩ ⲉⲩϩⲁ ⲁⲩϯⲛⲁⲉⲓ ⲅⲁⲣ’ ⲙ̅‐\n[.......]’ §[ⲁ]ⲛⲱⲣⲉⲁ ⲇⲉ ⲕⲟⲧⲥ̅ ϩⲛ̅ ⲧϭⲟⲙ ⲙ̅ⲡ’‐\n[....ⲁⲥⲁ]ϣⲕⲁⲕ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ⲥⲙⲏ\n[ⲉϩⲣⲁⲓ̈ ⲉ]ⲡⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲛⲟⲩⲧⲉ ⲙ̅ⲡⲧⲏⲣϥ’\nϫⲉ ⲉⲣⲓⲃⲟⲏⲑⲉⲓ ⲛⲁⲉⲓ ⲁⲛⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲇⲓⲕⲉⲓ‐\nⲁ ⲛ̅ⲅⲛⲁϩⲙⲉⲧ’ ⲁⲛⲟⲩϭⲓϫ ⲛ̅ⲧⲉⲩⲛⲟⲩ §ⲁⲡ〈ⲛⲟϭ ⲛ̅〉ⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅ⲡⲏⲩⲉ ⲉⲡⲉⲥⲏⲧ’\nⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲉⲧⲃⲉ ⲟⲩ ⲧⲉⲱϣ ⲉϩⲣⲁⲓ̈\nⲉⲡⲛⲟⲩⲧⲉ ⲉⲧⲃⲉ ⲟⲩ ⲧⲉⲣ̅ⲧⲟⲗⲙⲁ ⲉϩⲣⲁⲓ̈ ⲉⲡ’‐\nⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ §ⲡⲉϫⲉ ⲛⲱⲣⲉⲁ ϫⲉ ⲛⲧⲕ ⲛⲓⲙ\n§ⲛⲉ ⲁⲛⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲇⲓⲕⲓⲁ ⲥⲉϩⲱⲟⲩ ⲉⲃⲟⲗ\nⲙ̅ⲙⲟⲥ ⲡⲉϫⲁϥ ϫⲉ ⲁⲛⲟⲕ’ ⲡⲉ ⲉⲗⲉ̅ⲗ̅ⲏ̅ⲑ̅\nⲧⲙ̅ⲛ̅ⲧⲥⲁⲃⲉ ⲡⲛⲟϭ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲡⲉⲧⲁϩⲉ‐\nⲣⲁⲧϥ’ ⲙ̅ⲡⲉⲙⲧⲟ ⲉⲃⲟⲗ ⲙ̅ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’\nⲛ̅ⲧⲁⲩⲧⲛ̅ⲛⲟⲟⲩⲧ’ ⲉⲧⲣⲁϣⲁϫⲉ ⲛⲙ̅ⲙⲉ ⲛ̅ⲧⲁ‐\nⲛⲁϩⲙⲉ ⲉⲧϭⲓϫ’ ⲛ̅ⲛⲓⲁⲛⲟⲙⲟⲥ ⲁⲩⲱ ϯⲛⲁⲧⲁ‐\nⲙⲟ ⲉⲧⲉⲛⲟⲩⲛⲉ §ⲡⲁⲅ’ⲅⲉⲗⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ"
+        },
+        {
+          "title": "The Dialogue of Norea and Eleleth",
+          "subtitle": "The Dialogue of Norea and Eleleth",
+          "heading": "The Dialogue of Norea and Eleleth (93, 13-32)",
+          "rangeLabel": "93, 13-32",
+          "range": {
+            "start": {
+              "page": 93,
+              "line": 13
+            },
+            "end": {
+              "page": 93,
+              "line": 32
+            }
+          },
+          "english": "I cannot describe the power of that angel. Its appearance is like fine gold and\nits garment is like snow. My mouth simply cannot bear to speak of its power and\nthe appearance of its face.\nThe great angel Eleleth spoke to me and said, “I am Understanding; I am one\nof the Four Luminaries who stand before the great invisible Spirit Do you\nthink these rulers have power over you? None of them can overpower the root of\ntruth, for on behalf of the root of truth a figure has appeared in the last days,\nand these authorities will be restrained. These authorities cannot defile you or\nthat generation for your home is with Incorruptibility, where the virgin Spirit\ndwells, who is superior to the authorities of chaos and their world.”",
+          "coptic": "ⲙⲟ ⲉⲧⲉⲛⲟⲩⲛⲉ §ⲡⲁⲅ’ⲅⲉⲗⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ\nϯⲛⲁϣϫⲱ ⲁⲛ ⲛ̅ⲧⲉϥϭⲟⲙ ⲡⲉϥⲉⲓⲛⲉ ⲛ̅ⲑⲉ\nⲙ̅ⲡⲛⲟⲩⲃ ⲉⲧ’ⲥⲟⲧⲡ’ ⲁⲩⲱ ⲧⲉϥϩⲃ̅ⲥⲱ ⲛ̅ⲑⲉ\nⲙ̅ⲡⲭⲓⲱⲛ ⲧⲁⲧⲁⲡⲣⲟ ⲅⲁⲣ ⲛⲁϣϣⲟⲡϥ’ ⲁⲛ\nⲉⲧⲣⲁϫⲱ ⲛ̅ⲧⲉϥϭⲟⲙ ⲙⲛ̅ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲉϥϩⲟ\n§ⲡⲉϫⲁϥ ⲛⲁⲉⲓ ⲛ̅ϭⲓ ⲉ̅ⲗ̅ⲉ̅ⲗ̅ⲏ̅ⲑ̅ ⲡⲛⲟϭ ⲛ̅ⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲁⲛⲟⲕ’ ⲡⲉϫⲁϥ’ ⲧⲉ ⲧ’ⲙⲛⲧⲣⲙⲛ̅ϩⲏⲧ’\nⲁⲛⲟⲕ’ ⲟⲩⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥⲧⲟⲟⲩ ⲙ̅ⲫⲱⲥⲧⲏⲣ’\nⲛⲁⲉⲓ ⲉⲧⲁϩⲉⲣⲁⲧⲟⲩ ⲙ̅ⲡⲙ̅ⲧⲟ ⲉⲃⲟⲗ ⲙ̅ⲡⲛⲟϭ\nⲙ̅ⲡⲛ̅ⲁ̅ ⲛ̅ⲁϩⲟⲣⲁⲧⲟⲛ ⲉⲣⲉⲙⲉⲉⲩⲉ ϫⲉ ⲟⲩⲛ\nϭⲟⲙ’ ⲛ̅ⲛⲉⲉⲓⲁⲣⲭⲱⲛ ⲉϩⲟⲩⲛ ⲉⲣⲟ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛ̅ϩⲏⲧⲟⲩ ⲛⲁϣϭⲙ̅ ϭⲟⲙ ⲉϩⲟⲩⲛ ⲉⲧⲛⲟⲩ‐\nⲛⲉ ⲛ̅ⲧⲙⲉ ⲉⲧⲃⲏⲧⲥ ⲅⲁⲣ † ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nϩⲛ̅ ⲛ̅ϩⲁⲉⲉⲩ ⲛ̅ⲕⲁⲓⲣⲟⲥ ⲁⲩⲱ ⲥⲉⲛⲁⲣ̅ ⲣ̅ⲣⲟ ⲉ‐\nϫⲛ̅ ⲛⲉⲉⲓⲉⲝⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲛⲉⲉⲓⲉⲝⲟⲩⲥⲓⲁ\nⲛⲁϣϫⲁϩⲙⲉ ⲁⲛ ⲙⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲉⲧⲙ̅ⲙⲁⲩ\nⲧⲉⲧⲙ̅ⲙⲟⲛⲏ ⲅⲁⲣ’ ⲉⲥϣⲟⲟⲡ’ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧⲁⲧ’‐\nⲧⲁⲕⲟ ⲡⲙⲁ ⲉⲧⲉ ⲡⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲙⲁⲩ ⲡⲉⲧϩⲓϫⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲭⲁⲟⲥ\nⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ϩⲱ ⲡⲉϫⲁⲉⲓ"
+        },
+        {
+          "title": "Eleleth’s Story of Creation",
+          "subtitle": "Eleleth’s Story of Creation",
+          "heading": "Eleleth’s Story of Creation (93, 32-95, 13)",
+          "rangeLabel": "93, 32-95, 13",
+          "range": {
+            "start": {
+              "page": 93,
+              "line": 32
+            },
+            "end": {
+              "page": 95,
+              "line": 13
+            }
+          },
+          "english": "I said, “My lord, teach me about the [power of] these authorities. [How] did\nthey come into being? With what kind of nature?57 Of what material? Who\ncreated them and their power?”\nThe great angel Eleleth, who is understanding, said to me, “Incorruptibility\ndwells within infinite realms. Sophia, who is called Pistis wanted to create\nsomething by herself, without her partner, and what she produced was from\nabove.\n“There is a curtain between the realms above and the aeons below. A shadow\nformed beneath the curtain and the shadow became matter, and the shadow\nwas cast into a region.\n“What she produced came to be something material like an aborted fetus. It\ntook shape from the shadow, and it became an arrogant beast resembling a lion.\nIt was androgynous, as I already said, because it came from matter\n“The beast opened his eyes and saw a vast amount of matter without limit,\nand he became arrogant and said, ‘I am God, and there is none but me.’\n“When he said this, he sinned against the realm of the All. A voice came\nfrom above the tyrannical realm and said, ‘You are wrong, Samael’-which\nmeans ‘blind god.’\n“He said, ‘If anything exists before me, let me see it.’\n“At once Sophia pointed her finger and brought light into matter, and she\npursued it down to the region of chaos. When she returned up to her light,\ndarkness once again [came upon] matter.\n“This ruler was androgynous and made himself a huge realm, an expanse\nwithout limit. He considered creating for himself offspring, and he created\nfor himself seven offspring, androgynous like their parent.\n“He said to his children, ‘I am God of all.’\n“Zoe daughter of Pistis Sophia called out and said to him, ‘You are wrong,\nSakla,’ whose name is understood as Yaldabaoth Zoe breathed into his face,\nand her breath became for her a fiery angel, and that angel bound Yaldabaoth\nand cast him down into Tartaros, at the bottom of the abyss",
+          "coptic": "ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ϩⲱ ⲡⲉϫⲁⲉⲓ\nϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲁⲧⲥⲉⲃⲉⲉⲓ ⲁⲧϭ[ⲟⲙ ⲛ̅ⲛ]ⲉ‐\nⲉⲓⲉⲝⲟⲩⲥⲓⲁ ϫⲉ ⲛ̅ⲧⲁⲩϣⲱⲡⲉ [ⲛ̅ⲁϣ ⲛ̅ϩⲉ]\nⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲁϣ ⲛ̅ϩⲩⲡⲟⲥⲧ[ⲁⲥⲓⲥ ⲁⲩⲱ ⲉ]‐\nⲃⲟⲗ ϩⲛ̅ ⲁϣ ⲛ̅ϩⲩⲗⲏ ⲁⲩⲱ ⲛⲓⲙ ⲡⲉⲛⲧⲁϥⲧⲁ‐\nⲙⲓⲟⲟⲩ ⲙⲛ̅ ⲧⲟⲩⲇⲩⲛⲁⲙⲓⲥ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁⲉⲓ\nⲛ̅ϭⲓ ⲡⲛⲟϭ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲗⲉⲗⲏⲑ ⲧⲙⲛⲧⲣⲙ̅‐\nⲛ̅ϩⲏⲧ’ ϩⲣⲁⲓ̈ ϩⲛ̅ⲛⲁⲓⲱⲛ ⲉⲙⲛ̅ⲧⲁⲩ ⲁⲣⲏϫϥ̅\nⲉⲥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧⲧⲁⲕⲟ ⲧⲥⲟⲫⲓⲁ ⲧⲁⲉⲓ\nⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲡⲓⲥⲧⲓⲥ ⲁⲥⲟⲩⲱϣ’\nⲉⲧⲉⲛⲉ ⲟⲩϩⲱⲃ’ ⲟⲩⲁⲁⲥ ⲁϫⲛ̅ ⲡⲉⲥϩⲱⲧⲣ̅ ⲁⲩ‐\nⲱ ⲡⲉⲥⲉⲣⲅⲟⲛ ⲁϥϣⲱⲡⲉ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲡⲉ ⲟⲩⲛ̅\nⲟⲩⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ϣⲟⲟⲡ’ ⲟⲩⲧⲉ ⲛⲁ ⲡⲥⲁ ⲛ‐\nⲧⲡⲉ ⲙⲛ̅ ⲛⲁⲓⲱⲛ ⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲁⲩ‐\nϩⲁⲓ̈ⲃⲉⲥ ϣⲱⲡⲉ ϩⲁ ⲡⲉⲥⲏⲧ ⲙ̅ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥ‐\nⲙⲁ ⲁⲩⲱ ⲁⲑⲁⲉⲓⲃⲉⲥ ⲉⲧⲙ̅ⲙⲁⲩ ϣⲱⲡⲉ ⲛ̅ϩⲩ‐\nⲗⲏ ⲁⲩⲱ ⲑⲁⲉⲓⲃⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲛⲟϫⲥ̅ ⲁⲩⲥⲁ\nⲛ̅ⲟⲩⲙⲉⲣⲟⲥ ⲁⲩⲱ ⲡⲉⲥⲙⲟⲩⲟⲩⲅ’ ⲁϥϣⲱⲡⲉ\nⲛ̅ⲛⲟⲩⲉⲣⲅⲟⲛ ϩⲛ̅ ⲑⲩⲗⲏ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩϩⲟⲩϩⲉ\nⲁϥϫⲓ ⲧⲩⲡⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲁⲉⲓⲃⲉⲥ ⲁϥϣⲱⲡⲉ\nⲛ̅ⲟⲩⲑⲏⲣⲓⲟⲛ ⲛ̅ⲁⲩⲑⲁⲇⲏⲥ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲙⲟⲩⲉⲓ\nⲟⲩϩⲟⲩⲧ’ⲥϩⲓⲙⲉ ⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲧⲁϩⲓϣⲣ̅ⲡ̅ⲛ̅ϫⲟⲟⲥ\nϫⲉ ⲛ̅ⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩⲗⲏ §ⲁϥⲟⲩⲉⲛ ⲁⲛⲉϥ’‐\nⲃⲁⲗ ⲁϥⲛⲁⲩ ⲁⲩⲛⲟϭ ⲛ̅ϩⲩⲗⲏ ⲉⲙⲛⲧⲉⲥ ⲁⲣⲏϫϥ̅\nⲁⲩⲱ ⲁϥⲣ̅ ϫⲁⲥⲓϩⲏⲧ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲁⲛⲟⲕ’\nⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲙⲛ̅ ϭⲉ ⲁϫⲛ̅ⲧ §ⲛ̅ⲧⲁⲣⲉϥ’\nϫⲉ ⲡⲁⲉⲓ ⲁϥⲣ̅ ⲛⲟⲃⲉ ⲉϩⲣⲁⲓ̈ ⲉⲡⲧⲏⲣϥ’ ⲟⲩⲥⲙⲏ\nⲇⲉ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ ⲛ̅ⲧⲁⲩⲑⲉⲛⲧⲉⲓⲁ\nⲉⲥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲕⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲥⲁⲙⲁ‐\nⲏⲗ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲃ̅ⲃⲗ̅ⲗⲉ §ⲁⲩ‐\nⲱ ⲡⲉϫⲁϥ ϫⲉ ⲉϣϫⲉ ⲟⲩⲛ̅ ϭⲉ ϣⲟⲟⲡ ϩⲓ ⲧⲁ‐\nⲉϩⲏ ⲙⲁⲣⲉϥ’ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲉⲓ ⲁⲩⲱ ⲛ̅‐\nⲧⲉⲩⲛⲟⲩ ⲁⲧⲥⲟⲫⲓⲁ ⲥⲱⲧ’ ⲉⲃⲟⲗ ⲙ̅ⲡⲉⲥⲧⲏ‐\nⲏⲃⲉ ⲁⲥⲓⲛⲉ ⲉϩⲟⲩⲛ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉϩⲟⲩⲛ\nⲉⲑⲩⲗⲏ ⲁⲩⲱ ⲁⲥⲡⲱⲧ’ ⲛ̅ⲥⲱϥ’ ϣⲁ ⲡⲉⲥⲏⲧ’\nⲁⲙⲙⲉⲣⲟⲥ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲩⲱ ⲁⲥⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ\nⲉϩⲣ[ⲁⲓ̈ ⲉⲡⲉ]ⲥⲟⲩⲟⲉⲓⲛ’ ⲡⲁⲗⲓⲛ ⲁⲡⲕⲁⲕⲉ\n[......]ⲛ̅ⲑⲩⲗⲏ §ⲡⲓⲁⲣⲭⲱⲛ ⲉϥⲟ ⲛ̅ϩⲟⲟⲩⲧ’‐\n[ⲥϩⲓⲙⲉ ⲁϥ]ⲧⲁⲙⲓⲟ ⲛⲁϥ’ ⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ⲁⲓⲱⲛ\nⲟⲩⲙⲉⲅⲉⲑⲟⲥ ⲉⲙ[ⲛ̅ⲧ]ⲉϥ ⲁⲣⲏϫϥ̅ ⲁϥⲙⲉⲉⲩ‐\nⲉ ⲇⲉ ⲁⲧⲁⲙⲓⲟ ⲛⲁϥ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ ⲁϥⲧⲁⲙⲓⲟ\nⲛⲁϥ ⲛ̅ⲥⲁϣϥ̅ ⲛ̅ϣⲏⲣⲉ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ ⲙⲛ̅\nⲡⲟⲩⲉⲓⲱⲧ’ §ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛ̅ⲛⲉϥ’ϣⲏⲣⲉ ϫⲉ\nⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲙ̅ⲡⲧⲏⲣϥ̅ §ⲁⲩⲱ ⲍⲱⲏ’\nⲧϣⲉⲉⲣⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲧⲥⲟⲫⲓⲁ ⲁⲥⲁϣⲕⲁⲕ’ ⲉ‐\nⲃⲟⲗ ⲡⲉϫⲁⲥ ⲛⲁϥ’ ϫⲉ ⲕⲣ̅ⲡⲗⲁⲛⲁ ⲥⲁⲕⲗⲁ ⲉ‐\nⲧⲉ ⲡⲉϥ’ⲟⲩϩⲱⲙ ⲡⲉ ⲓ̈ⲁⲗⲧⲁⲃⲁⲱⲑ’ ⲁⲥⲛⲓ‐\nϥⲉ ⲉϩⲟⲩⲛ ϩⲙ̅ ⲡⲉϥϩⲟ ⲁⲩⲱ ⲁⲡⲉⲥⲛⲓϥⲉ ϣⲱ‐\nⲡⲉ ⲛⲁⲥ ⲛ̅ⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲉϥⲟ ⲛ̅ⲕⲱϩⲧ’ ⲁⲩⲱ\nⲁⲡⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ ⲙⲟⲩⲣ’ ⲛ̅ⲓⲁⲗⲇⲁⲃⲁ‐\nⲱⲑ’ ⲁϥⲛⲟϫϥ̅ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲧⲁⲣⲧⲁⲣⲟⲛ ⲙ̅ⲡ’‐\nⲥⲁ ⲙⲓⲧⲛ̅ ⲙ̅ⲡⲛⲟⲩⲛ §ⲡⲉϥϣⲏⲣⲉ ⲇⲉ ⲥⲁ‐"
+        },
+        {
+          "title": "The Story of Sabaoth",
+          "subtitle": "The Story of Sabaoth",
+          "heading": "The Story of Sabaoth (95, 13-96, 17)",
+          "rangeLabel": "95, 13-96, 17",
+          "range": {
+            "start": {
+              "page": 95,
+              "line": 13
+            },
+            "end": {
+              "page": 96,
+              "line": 17
+            }
+          },
+          "english": "“When Sabaoth son of Yaldabaoth saw the strength of that angel, he repented\nand condemned his father and his mother, matter.\n“Sabaoth loathed his mother but he sent songs of praise up to Sophia and\nher daughter Zoe. Sophia and Zoe took him up and established him over the\nseventh heaven, below the curtain between what is above and what is below. He\nis called ‘god of the powers, Sabaoth,’ because he is above the powers of chaos,\nfor Sophia established him.\n“When these things happened, Sabaoth made himself a huge four-faced\nchariot of cherubim, and an infinity of angels as ministers, and harps and lyres\n“Sophia took her daughter Zoe and made her sit at his right to teach him\nabout the things that are in the eighth heaven and she put the angel of wrath at\nhis left. [Since] that day, [his right] had been called ‘life,’ and the left has\nrepresented the unrighteousness of the tyrannical realm above. These things\nhappened before your time.\n“When Yaldabaoth saw Sabaoth exalted in such great glory on high, he\nenvied him, and his envy became something androgynous. This was the\nbeginning of envy. Envy produced death, death produced children, and death put\neach in charge of a heaven. All the heavens of chaos were full of their masses.\n“But all these things came to be by the will of the Father of the All, after the\npattern of all that is above, so that the sum total of chaos might be reached\n“Look, I have taught you about the form of the rulers, the matter in which the\nform was produced, their parent, and their world.”",
+          "coptic": "ⲥⲁ ⲙⲓⲧⲛ̅ ⲙ̅ⲡⲛⲟⲩⲛ §ⲡⲉϥϣⲏⲣⲉ ⲇⲉ ⲥⲁ‐\nⲃⲁⲱⲑ’ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲁⲧⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲙⲉⲧⲁⲛⲟⲉⲓ ⲁϥⲣ̅ⲕⲁ‐\nⲧⲁⲅⲉⲓⲛⲱⲥⲕⲉ ⲙ̅ⲡⲉϥⲉⲓⲱⲧ’ ⲙⲛ̅ ⲧⲉϥⲙⲁⲁⲩ\nⲑⲩⲗⲏ §ⲁϥⲥⲓⲭⲁⲛⲉ ⲉⲣⲟⲥ ⲁϥⲣ̅ϩⲩⲙⲛⲉⲓ ⲇⲉ\nⲉϩⲣⲁⲓ̈ ⲉⲧⲥⲟⲫⲓⲁ ⲁⲩⲱ ⲧⲉⲥϣⲉⲉⲣⲉ ⲛ̅ⲍⲱⲏ\nⲁⲩⲱ ⲁⲧⲥⲟⲫⲓⲁ ⲙⲛ̅ ⲍⲱⲏ ⲧⲟⲣⲡϥ’ ⲉϩⲣⲁⲓ̈ ⲁⲩ‐\nⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ’ ⲉϫⲛ̅ ⲧⲙⲉϩⲥⲁϣϥⲉ ⲙ̅ⲡⲉ\nⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲙ̅ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲟⲩⲧⲉ\nⲡⲥⲁ ⲛⲧⲡⲉ ⲙⲛ̅ ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲁⲩⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲥⲁ‐\nⲃⲁⲱⲑ ϫⲉ ⲉϥⲙ̅ⲡⲥⲁ ⲛ’ⲧⲡⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ\nⲙ̅ⲡⲭⲁⲟⲥ ϫⲉ ⲁⲧⲥⲟⲫⲓⲁ ⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ\n§ϩⲟⲧⲓ ⲇⲉ ⲁⲛⲁⲉⲓ ϣⲱⲡⲉ ⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ’\nⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ϩⲁⲣⲙⲁ ⲛ̅ⲭⲉⲣⲟⲩⲃⲓⲛ ⲉϥⲟ ⲛ̅‐\nϥⲧⲟⲟⲩ ⲙ̅ⲡⲣⲟⲥⲱⲡⲟⲛ ⲙⲛ̅ ϩⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲉⲛⲁϣⲱⲟⲩ ⲉⲙⲛ̅ⲧⲟⲩ ⲏⲡⲉ ⲉⲧⲣⲟⲩⲣ̅ϩⲩ‐\nⲡⲏⲣⲉⲧⲉⲓ’ ⲁⲩⲱ ϩⲙ̅ⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲙⲛ̅ ϩⲛ̅‐\nⲕⲓⲑⲁⲣⲁ §ⲁⲩⲱ ⲁⲧⲥⲟⲫⲓⲁ ϥⲓ ⲧⲉⲥϣⲉⲉⲣⲉ ⲛ̅‐\nⲍⲱⲏ ⲁⲥⲧⲣⲉⲥϩⲙⲟⲟⲥ ϩⲓ ⲟⲩⲛⲁⲙ’ ⲙ̅ⲙⲟϥ’\nⲉⲧⲣⲉⲥⲧⲁⲙⲟϥ’ ⲁⲛⲉⲧ’ϣⲟⲟⲡ [ϩ]ⲛ̅ ⲧⲙⲁϩ‐\nϣⲙⲟⲩⲛⲉ ⲁⲩⲱ ⲡⲓⲁⲅⲅⲉⲗⲟ[ⲥ ⲛ̅ⲧⲉ ⲧⲟ]ⲣ‐\nⲅⲏ ⲁⲥⲕⲁⲁϥ ϩⲓ ϩⲃⲟⲩⲣ ⲙ̅ⲙⲟϥ [ϫⲓⲙ ⲫⲟ]‐\nⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲁⲧ[ⲉϥⲟⲩⲛⲁⲙ]\nϫⲉ ⲍⲱⲏ ⲁⲩⲱ ⲧϩⲃⲟ[ⲩ]ⲣ ⲁⲥϣⲱⲡⲉ ⲛ̅ⲧⲩⲡⲟⲥ\nⲛ̅ⲧⲁⲇⲓⲕⲓⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲁⲩⲑⲉⲛⲧⲏⲥ ⲙ̅ⲡⲥⲁ ⲛ’‐\nⲧⲡⲉ ⲛ̅ⲧⲁⲩϣⲱⲡⲉ ϩⲁ ⲧⲟⲩⲉϩⲏ §ⲛ̅ⲧⲁⲣⲉ ⲓ̈ⲁⲗ’‐\nⲇⲁⲃⲁⲱⲑ ⲇⲉ’ ⲛⲁⲩ ⲉⲣⲟϥ ⲉϥϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲓ̈‐\nⲛⲟϭ ⲛ̅ⲉⲟⲟⲩ ⲙⲛ̅ ⲡⲉⲉⲓϫⲓⲥⲉ ⲁϥⲕⲱϩ ⲉⲣⲟϥ’\nⲁⲩⲱ ⲁⲡⲕⲱϩ ϣⲱⲡⲉ ⲛ̅ⲟⲩⲉⲣⲅⲟⲛ ⲉϥⲟ ⲛ̅ϩⲟ‐\nⲟⲩⲧⲥϩⲓⲙⲉ ⲁⲩⲱ ⲁⲡⲁⲉⲓ ϣⲱⲡⲉ ⲛ̅ⲁⲣⲭⲏ ⲙ̅‐\nⲡⲕⲱϩ ⲁⲩⲱ ⲁⲡⲕⲱϩ ϫⲡⲉ ⲡⲙⲟⲩ ⲁⲡⲙⲟⲩ\nⲇⲉ ϫⲡⲟ ⲛ̅ⲛⲉϥϣⲏⲣⲉ ⲁϥⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲡⲟⲩⲁ\nⲡⲟⲩⲁ ⲙ̅ⲙⲟⲟⲩ ⲉϫⲛ̅ ⲧⲉϥⲡⲉ ⲁⲛⲡⲏⲩⲉ ⲧⲏⲣⲟⲩ\nⲙ̅ⲡⲭⲁⲟⲥ ⲙⲟⲩϩ ⲛ̅ⲛⲟⲩⲏⲡⲉ §ⲛⲁⲉⲓ ⲇⲉ ⲧⲏⲣⲟⲩ\nⲛ̅ⲧⲁⲩϣⲱⲡⲉ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲙ̅ⲡⲧⲏⲣϥ’\nⲕⲁⲧⲁ ⲡⲧⲩⲡⲟⲥ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛ’ⲧⲡⲉ’ ⲧⲏⲣⲟⲩ ϣⲓ‐\nⲛⲁ ⲉϥⲛⲁϫⲱⲕ’ ⲉⲃⲟⲗ’ ⲛ̅ϭⲓ ⲡⲁⲣⲓⲑⲙⲟⲥ ⲙ̅ⲡⲭⲁ‐\nⲟⲥ §ⲉⲓⲥϩⲏⲏⲧⲉ ⲁϩⲓⲧⲥⲉⲃⲟ ⲁⲡⲧⲩⲡⲟⲥ ⲛ̅ⲛ̅‐\nⲁⲣⲭⲱⲛ’ ⲙⲛ̅ ⲑⲩⲗⲏ ⲛ̅ⲧⲁⲩϫⲡⲟϥ ⲛ̅ϩⲏⲧⲥ̅ ⲙⲛ̅\nⲡⲟⲩⲉⲓⲱⲧ’ ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ⲇⲉ ⲁ‐"
+        },
+        {
+          "title": "Conclusion",
+          "subtitle": "Conclusion",
+          "heading": "Conclusion (96, 17-97, 23)",
+          "rangeLabel": "96, 17-97, 23",
+          "range": {
+            "start": {
+              "page": 96,
+              "line": 17
+            },
+            "end": {
+              "page": 97,
+              "line": 23
+            }
+          },
+          "english": "I said, “My lord, am I also from their matter?”\n“You and your offspring are from the Father, who was from the beginning.\nThe souls come from above, from incorruptible light So the authorities cannot\napproach them because of the spirit of truth within them, and all who know this\nway of truth are deathless among dying humanity.\n“But that offspring will not appear now. It will appear after three ages and\nfree them from the bondage of the authorities’ error.”\nI said, “My lord, how long will it be?”\nHe said to me, “Until the time when the true human in human form reveals\n[the spirit of] truth that the Father has sent.\n“Then he will teach them about everything and anoint them with the oil of\neternal life, given from the generation without a king.\n“Then they will be freed of blind thought. They will trample death, which is\nof the authorities. And they will ascend into the infinite light where this\noffspring is.\n“Then the authorities will surrender their years and ages. Their angels will\nweep over their destruction, and their demons will mourn over their death.\n“Then all the children of the light will know the truth, and their root, and the\nFather of the All, and the holy Spirit. They will all say with one voice:\nThe Father’s truth is just,\nthe child is over all\nand with everyone,\nforever and ever.\nHoly, holy, holy!81\nAmen.”",
+          "coptic": "ⲡⲟⲩⲉⲓⲱⲧ’ ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ⲇⲉ ⲁ‐\nⲉⲓϫⲟⲟⲥ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲏⲧⲓ ⲁⲛⲟⲕ’ ϩⲱ ϯ‐\nⲏⲡ’ ⲁⲧⲟⲩϩⲩⲗⲏ §ⲛ̅ⲧⲟ ⲙⲛ̅ ⲛⲟⲩϣⲏⲣⲉ ⲉⲣⲉⲏⲡ’\nⲁⲡⲉⲓⲱⲧ’ ⲉⲧϣⲟⲟⲡ ϫⲓⲛ ⲛ̅ϣⲟⲣⲡ ⲛ̅ⲧⲁ\nⲛⲟⲩⲯⲩⲭⲏ ⲉⲓ 〈ⲉ〉ⲃⲟⲗ ϩⲙ̅ ⲡⲥⲁ ⲛ’ⲧⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲛⲁⲧ’ⲧⲉⲕⲟ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲛ̅ⲉⲝⲟⲩ‐\nⲥⲓⲁ ⲛⲁϣⲧϩⲛⲟ ⲁⲛ ⲉϩⲟⲩⲛ ⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ\nⲡⲛ̅ⲁ̅ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲧⲟⲩⲏϩ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ\nⲟⲩⲟⲛ ⲇⲉ ⲛⲓⲙ’ ⲛ̅ⲧⲁϩⲥⲟⲩⲱⲛ ⲧⲉⲓ̈ϩⲟⲇⲟⲥ\nⲛⲁⲉⲓ ⲥⲉϣⲟⲟⲡ’ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲛ̅ⲣ̅ⲣⲱⲙⲉ ⲉϣⲁⲩⲙⲟⲩ ⲁⲗⲗⲁ ⲡⲉⲥⲡⲉⲣⲙⲁ\nⲉⲧⲙ̅ⲙⲁⲩ ⲛⲁⲟⲩⲱⲛϩ ⲁⲛ’ ⲉⲃⲟⲗ ⲧⲉⲛⲟⲩ §ⲁⲗ‐\nⲗⲁ ⲙⲛ̅ⲛ̅ⲥⲁ ϣⲟⲙⲧⲉ ⲛ̅ⲅⲉⲛⲉⲁ ⲁϥⲛⲁⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ’ † ⲁϥⲛⲟⲩϫⲉ ⲉⲃⲟⲗ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲧⲙⲣ̅ⲣⲉ\nⲛ̅ⲧⲡⲗⲁⲛⲏ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ §ⲁⲛⲟⲕ’ ⲇⲉ ⲡⲉϫⲁⲉⲓ\nϫⲉ ⲡϫⲟⲉⲓⲥ ϣⲁ ⲟⲩⲏⲣ’ ⲛ̅ⲭⲣⲟⲛⲟⲥ §ⲡⲉϫⲁϥ’\nⲛⲁⲉⲓ ϫ[ⲉ ϩⲟ]ⲧⲁⲛ ⲉⲣϣⲁ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲓ‐\n[ⲛⲟⲥ ⲟⲩⲱ]ⲛϩ ⲉⲃⲟⲗ’ ϩⲛ̅ⲛⲟⲩⲡⲗⲁⲥⲙⲁ\n[......]ⲁⲗⲏⲑⲉⲓⲁ ⲡⲉⲛⲧⲁ ⲡⲉⲓⲱⲧ ⲧⲛ̅‐\nⲛⲟⲟⲩϥ §ⲧ[ⲟⲧⲉ] ⲡⲉⲧ[ⲙ̅]ⲙⲁⲩ ⲛⲁⲧⲁⲙⲟⲟⲩ ⲉ‐\nⲧⲃⲉ ϩⲱⲃ ⲛ[ⲓⲙ] ⲁⲩⲱ ϥⲛⲁⲧⲁϩⲥⲟⲩ ϩⲙ̅ ⲡⲭⲣⲉⲓ‐\nⲥⲙⲁ ⲙ̅ⲡⲱⲛϩ ϣⲁ ⲉⲛⲉϩ ⲡⲁⲉⲓ ⲛ̅ⲧⲁⲩⲧⲁ‐\nⲁϥ ⲛⲁϥ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲧⲉⲧⲙ̅ⲙⲛ̅ⲧⲉⲥ\nⲣ̅ⲣⲟ §ⲧⲟⲧⲉ ⲥⲉⲛⲁⲛⲟⲩϫⲉ ⲉⲃⲟⲗ’ ⲙⲙⲟⲟⲩ\nⲙ̅ⲡⲙⲉⲉⲩⲉ ⲃ̅ⲃⲗ̅ⲗⲉ ⲁⲩⲱ ⲥⲉⲛⲁⲣ̅ⲕⲁⲧⲁⲡⲁ‐\nⲧⲉⲓ ⲙ̅ⲡⲙⲟⲩ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲥⲉⲛⲁⲃⲱⲕ’\nⲉϩⲣⲁⲓ̈ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲙⲛ̅ⲧⲁϥ ⲁⲣⲏϫϥ’\nⲡⲁⲉⲓ ⲉⲧⲉ ⲡⲉⲉⲓⲥⲡⲉⲣⲙⲁ ϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲩ\n§ⲧⲟⲧⲉ ⲛⲉⲝⲟⲩⲥⲓⲁ ⲥⲉⲛⲁⲕⲱ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲛⲟⲩ‐\nⲕⲁⲓⲣⲟⲥ ⲁⲩⲱ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲥⲉⲛⲁⲣⲓⲙⲉ\nⲉϫⲛ̅ ⲡⲟⲩⲧⲁⲕⲟ ⲁⲩⲱ ⲛⲟⲩⲇⲁⲓⲙⲱⲛ ⲥⲉⲛⲁ‐\nⲣ̅ϩⲏⲃⲉ ⲉϫⲛ̅ ⲡⲟⲩⲙⲟⲩ §ⲧⲟⲧⲉ ⲛ̅ϣⲏⲣⲉ ⲧⲏ‐\nⲣⲟⲩ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲥⲉⲛⲁⲥⲟⲩⲱⲛ ⲧⲁⲗⲏⲑⲉⲓ‐\nⲁ ⲙⲛ̅ ⲧⲟⲩⲛⲟⲩⲛⲉ ϩⲛ̅ ⲟⲩⲙⲉ ⲁⲩⲱ ⲡⲉⲓⲱⲧ’\nⲙ̅ⲡⲧⲏⲣϥ’ ⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲥⲉⲛⲁϫⲟⲟⲥ\nⲧⲏⲣⲟⲩ ϩⲛ̅ⲛⲟⲩⲥⲙⲏ ⲟⲩⲱⲧ’ ϫⲉ ⲟⲩⲇⲓⲕⲁⲓ‐\nⲟⲥ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲁⲩⲱ ⲡϣⲏⲣⲉ\nϩⲓϫⲛ̅ ⲡⲧⲏⲣϥ’ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲟⲩⲟⲛ ⲛⲓⲙ\nϣⲁ ⲛⲓⲉⲛⲉϩ ⲛ̅ⲉⲛⲉϩ ϩⲁⲅⲓⲟⲥ ϩⲁⲅⲓⲟⲥ ϩⲁ‐\nⲅⲓⲟⲥ ϩⲁⲙⲏⲛ\n0ⲧⲑⲩⲡⲟⲥⲧⲁⲥⲓⲥ\n0ⲛ̅ⲛ̅ⲁⲣⲭⲱⲛ \n( codex II ) On the Origin of the World"
+        }
+      ]
+    },
+    {
+      "workId": "origin-of-the-world",
+      "chapterName": "Origin of the World",
+      "title": "Codex II - Origin of the World",
+      "sourceTitle": "ON THE ORIGIN OF THE WORLD",
+      "sections": [
+        {
+          "title": "Prologue: In the Beginning",
+          "subtitle": "Prologue: In the Beginning",
+          "heading": "Prologue: In the Beginning (97, 24-98, 11)",
+          "rangeLabel": "97, 24-98, 11",
+          "range": {
+            "start": {
+              "page": 97,
+              "line": 24
+            },
+            "end": {
+              "page": 98,
+              "line": 11
+            }
+          },
+          "english": "Since everyone, both the gods of the world and people, says that nothing existed\nbefore chaos, I shall prove they all are wrong, because they do not know the\n[origin] of chaos or its root. Here [is the] proof.\nAlthough certainly people in general are [inclined] to say that chaos is\ndarkness, in actuality chaos comes from a shadow, and it is the shadow that has\nbeen called darkness. The shadow comes from something that has existed from\nthe beginning, and so it is obvious that something in the beginning existed before\nchaos came into being, and chaos came after what was in the beginning.\nLet us consider the facts of the matter, and particularly what was in the\nbeginning, from which chaos came. In this way will the truth be clearly\ndemonstrated.\nNarration: Origin of Sophia and the Powers of the World",
+          "coptic": "§ⲉⲡⲉⲓⲇⲏ ⲟⲩⲟⲛ ⲛⲓⲙ’ ⲛ̅ⲛⲟⲩⲧⲉ ⲙ̅ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲁⲩⲱ ⲣ̅ⲣⲱⲙⲉ ⲥⲉϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲙⲛ̅\nⲗⲁⲁⲩⲉ ϣⲟⲟⲡ’ ϩⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲛⲟⲕ’\nⲇⲉ ϯⲛⲁⲣ̅ⲁⲡⲟⲇⲓⲕⲛⲩⲉ ϫⲉ ⲁ[ⲩ]ⲣ̅ⲡⲗⲁⲛⲁ\nⲧⲏⲣⲟⲩ ⲉⲛ’ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ ⲛ̅ⲧ[ⲥⲩⲥⲧⲁⲥ]ⲓⲥ\nⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲧⲉϥⲛⲟⲩⲛⲉ ⲧⲁ[ⲉⲓ ⲇⲉ ⲧⲉ ⲧⲁ]‐\nⲡⲟⲇⲓⲝⲉⲓⲥ §ⲉϣϫⲉ ⲥⲣ̅ⲥⲩⲙ’[ⲫⲱⲛⲉⲓ ⲙⲛ̅]\n[ⲣ̅]ⲣⲱⲙⲉ ⲧⲏⲣⲟⲩ ⲉⲧⲃⲉ ⲡⲭⲁ[ⲟⲥ] ϫⲉ ⲟⲩⲕⲁ‐\nⲕⲉ ⲡⲉ’ ⲟⲩⲉⲃⲟⲗ ⲇⲉ ⲡⲉ ϩⲛ̅ ⲟⲩϩⲁⲓ̈ⲃⲉⲥ\nⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲕⲁⲕⲉ’ ⲑϩⲣⲁⲓ̈ⲃⲉⲥ ⲇⲉ\nⲟⲩⲉⲓ ⲉⲃⲟⲗ ⲡⲉ ϩⲛ̅ⲛⲟⲩⲉⲣⲅⲟⲛ ⲉϥϣⲟⲟⲡ’\nϫⲓⲛ ⲧⲉϩⲟⲩⲉⲓⲧⲉ ϥⲟⲩⲟⲛϩ ⲇⲉ ⲉⲃⲟⲗ ϫⲉ ⲛⲉϥ’‐\nϣⲟⲟⲡ’ ⲉⲙ’ⲡⲁⲧⲉ ⲡⲭⲁⲟⲥ ϣⲱⲡⲉ ⲛ̅ⲧⲁϥⲟⲩ‐\nⲱϩ ⲇⲉ ⲛ̅ⲥⲁ ⲡϣⲟⲣⲡ’ ⲛ̅ⲉⲣⲅⲟⲛ’ §ⲙⲁⲣⲛ̅ⲉⲓ ⲇⲉ\nⲉϩⲟⲩⲛ’ ⲉⲧⲙⲉ’ ⲉϩⲟⲩⲛ ⲇⲉ’ ⲁⲛ’ ⲉⲡϣⲟⲣⲡ’\nⲛ̅ⲉⲣⲅⲟⲛ ⲡⲁⲉⲓ ⲛ̅ⲧⲁ ⲡⲭⲁⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’\nⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲥⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲁ‐\nⲡⲟⲇⲓⲝⲉⲓⲥ ⲛ̅ⲧⲙⲉ §ⲧⲫⲩⲥⲉⲓⲥ ⲇⲉ ⲛ̅ⲛⲓⲁⲧ’‐"
+        },
+        {
+          "title": "98, 11-99, 22",
+          "subtitle": "98, 11-99, 22",
+          "heading": "(98, 11-99, 22)",
+          "rangeLabel": "98, 11-99, 22",
+          "range": {
+            "start": {
+              "page": 98,
+              "line": 11
+            },
+            "end": {
+              "page": 99,
+              "line": 22
+            }
+          },
+          "english": "After the world of the immortals was brought to completion out of the infinite, a\nbeing with this likeness, called Sophia, flowed from Pistis. This being expressed\nits wish that it come to resemble the first light, and at once its wish appeared as a\nheavenly likeness with an incomprehensible greatness. This being came to be\nbetween the immortals and what came after them, like what is above, and Sophia\nserved as a veil separating humanity from the things above.\nThe aeon of truth has no shadow <within> it because infinite light shines\neverywhere within it. There is a shadow, however, outside it, and the shadow has\nbeen called darkness. From the shadow appeared a power set over the darkness,\nand the powers that came afterward called the shadow limitless chaos. From it\n[every] sort of deity emerged, [one after] another, along with the whole world.\nSo [the shadow] came after something that existed in the beginning, and\nthen it became visible. The abyss also came from Pistis, whom we have\nmentioned.\nThe shadow sensed that there was one stronger than it. It was jealous, and\nwhen it became pregnant by itself, all of a sudden it gave birth to envy. Since\nthen the principle of envy has appeared in all the aeons and their worlds. But\nenvy turned out to be an aborted fetus, without any spirit in it, and it came into\nbeing as a shadow in an expanse of watery substance. Bitter wrath came into\nbeing from the shadow and was cast into a region of chaos.\nSince that day watery substance has been visible. What lurked in the shadow\nflowed out and appeared in chaos. Just as all the afterbirth of a woman who\ngives birth to a baby flows out, so also the matter that came into being from the\nshadow was cast out. Matter did not come out of chaos; it was in chaos, in a\nregion of chaos.",
+          "coptic": "ⲡⲟⲇⲓⲝⲉⲓⲥ ⲛ̅ⲧⲙⲉ §ⲧⲫⲩⲥⲉⲓⲥ ⲇⲉ ⲛ̅ⲛⲓⲁⲧ’‐\nⲙⲟⲩ ⲛ̅ⲧⲁⲣⲉⲥϫⲱⲕ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲧⲉ ⲙⲛ̅ⲧⲉϥ’\nⲁⲣⲏϫϥ ⲧⲟⲧⲉ ⲟⲩⲉⲓⲛⲉ ⲁϥϩϯⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲓ‐\nⲥⲧⲓⲥ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲧⲥⲟⲫⲓⲁ ⲁϥ’ⲟⲩ‐\nⲱϣ ⲁϥϣⲱⲡⲉ ⲛ̅ⲛⲟⲩⲉⲣⲅⲛ ⲉϥⲉ〈ⲓ〉ⲛⲉ\nⲙ̅ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲧϣⲟⲟⲡ’ ⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ\nⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲉⲥⲟⲩ‐\nⲱϣ’ ⲉϥⲟ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲡⲉ ⲉⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ\nⲛ̅ⲛⲟⲩⲙⲉⲅⲉⲑⲟⲥ ⲉⲛⲥⲉⲁϣⲙⲉⲉⲩ ⲁⲛ’ ⲉⲣⲟϥ’\nⲉϥϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ⲛⲓⲁⲧ’ⲙⲟⲩ ⲙⲛ̅ ⲛⲉⲛⲧⲁϩ’‐\nϣⲱⲡⲉ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲑⲉ ⲉⲧⲙ̅ⲡⲉ’ ⲉ‐\nⲥⲟ ⲙ̅ⲡⲁⲣⲁⲡⲉⲧⲁⲥⲙⲁ ⲉϥⲡⲱⲣϫ’ ⲟⲩⲧⲉ\nⲣ̅ⲣⲱⲙⲉ ⲙⲛ̅ ⲛⲁ ⲡⲥⲁ ⲛⲧⲡⲉ §ⲡⲓⲁⲓⲱⲛ’ ⲇⲉ\nⲛ̅ⲧⲉ ⲧⲙⲉ ⲙⲛ̅ⲧⲉϥ ϩⲁⲓ̈ⲃⲉⲥ ⲙ̅ⲙⲁⲩ † ⲙ̅ⲡⲉϥ’‐\nⲃⲟⲗ ϫⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲙⲛ̅ⲧⲉϥ ϣⲓ ϩⲙ̅\nⲙⲁ ⲛⲓⲙ’ ⲛ̅ϩⲏⲧϥ̅ ⲡⲉϥⲥⲁ ⲛⲃⲟⲗ ⲇⲉ ⲟⲩϩⲁ‐\nⲉⲓⲃⲉ ⲡⲉ’ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲕⲁⲕⲉ ⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧϥ’ ⲁⲩⲇⲩⲛⲁⲙⲓⲥ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲓ‐\nϫⲙ̅ ⲡⲕⲁⲕⲉ ϯϩⲁⲉⲓⲃⲉ ⲇⲉ ⲁⲛⲇⲩⲛⲁⲙⲓⲥ\nⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲙⲛ̅ⲛ̅ⲥⲱⲟⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲡⲭⲁⲟⲥ 〈ⲉⲧ〉ⲉⲙⲛ̅ⲧⲉϥ’ ⲁⲣⲏϫϥ’ † ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ †\nⲁⲅⲉⲛ[ⲟⲥ ⲛⲓ]ⲙ’ ⲛ̅ⲛⲟⲩⲧⲉ ϯ ⲟⲩⲱ ⲉϩⲣⲁⲓ̈ ⲁⲩ‐\n[.......]ⲱⲡⲟⲩⲁ’ ⲙⲛ̅ ⲡⲙⲁ ⲧⲏⲣϥ’ ϩⲱⲥ‐\n[ⲧⲉ ⲁⲑϩⲁⲉⲓⲃ]ⲉ ⲁⲛ ⲟⲩϩⲁⲥ ⲛ̅ⲥⲁ ⲡϣⲟⲣⲡ’\nⲛ̅ⲉⲣⲅⲟⲛ ⲛ̅[ⲧⲁⲥ]ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ 〈ⲙ̅〉ⲡⲛⲟⲩⲛ’ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ ⲧⲡⲓⲥⲧⲓⲥ’ ⲛ̅ⲧⲁⲛϣⲁϫⲉ ⲉⲣⲟⲥ §ⲧⲟ‐\nⲧⲉ ⲁⲑϩⲁⲓ̈ⲃⲉⲥ’ ⲣ̅ⲁⲓⲥⲑⲁⲛⲉ ϫⲉ ⲟⲩⲛ̅ ⲡⲉⲧ’‐\nϫⲟⲟⲣ’ ⲉⲣⲟⲥ’ ⲁⲥⲕⲱϩ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉⲥⲩⲟ’ⲩ←\nⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅ ⲟⲩⲁⲁⲧⲥ̅ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁⲥ‐\nϫⲡⲟ ⲙ̅ⲡⲕⲱϩ ϫⲓⲛ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ\nⲁⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲁⲣⲭⲏ ⲙ̅ⲡⲕⲱϩ ϩⲛ̅\nⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ’ ⲙⲛ̅ ⲛⲉⲩⲕⲟⲥⲙⲟⲥ’ ⲡⲕⲱϩ\nⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩϩⲉ ⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲟⲩϩⲉ ⲉ‐\nⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲛ̅ϩⲏⲧϥ’ ⲁϥϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲁ‐\nⲉⲓⲃⲉⲥ ϩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲟⲩⲥⲓⲁ ⲙ̅ⲙⲟⲟⲩ ⲧⲟ‐\nⲧⲉ ϯⲭⲟⲗⲏ ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲁ‐\nⲉⲓⲃⲉⲥ ⲁⲩⲛⲟϫⲥ̅ ⲁⲩⲙⲉⲣⲟⲥ ⲛ̅ⲧⲉ ⲡⲭⲁⲟⲥ\nϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲟⲩⲥⲓⲁ ⲙ̅ⲙⲟⲟⲩ\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲱ ⲡⲉⲛⲧⲁϩⲱⲧⲉ ϩⲣⲁⲓ̈\nⲛ̅ϩⲏⲧⲥ̅ ⲁϥϩϯⲉ ⲉⲃⲟⲗ ⲉϥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲭⲁⲟⲥ ⲛ̅ⲑⲉ ⲛ̅ⲧⲉⲧⲙⲓⲥⲉ ⲛ̅ⲛⲟⲩⲕⲟⲩ‐\nⲉⲓ ⲛⲉⲥⲡⲉⲣⲓⲥⲥⲟⲛ’ ⲧⲏⲣⲟⲩ ϣⲁⲩϩⲁⲉⲓⲉ\nⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲑⲩⲗⲏ ⲛ̅ⲧⲁⲥϣⲱⲡⲉ ⲉⲃⲟⲗ\nϩⲛ̅ ⲑⲁⲉⲓⲃⲉⲥ ⲁⲩⲛⲟϫⲥ̅ ⲉⲩⲥⲁ ⲁⲩⲱ ⲙ̅ⲡⲉⲥ‐\nⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲭⲁⲟⲥ ⲁⲗⲗⲁ ⲛⲉⲥϩⲙ̅ ⲡⲭⲁ‐\nⲟⲥ ⲛ̅ϭⲓ ⲑⲩⲗⲏ ⲉⲥϩⲛ̅ ⲟⲩⲙⲉⲣⲟⲥ ⲙ̅ⲙⲟϥ"
+        },
+        {
+          "title": "The Appearance of Yaldabaoth",
+          "subtitle": "The Appearance of Yaldabaoth",
+          "heading": "The Appearance of Yaldabaoth (99, 23-100, 29)",
+          "rangeLabel": "99, 23-100, 29",
+          "range": {
+            "start": {
+              "page": 99,
+              "line": 23
+            },
+            "end": {
+              "page": 100,
+              "line": 29
+            }
+          },
+          "english": "After these things happened, Pistis came and appeared over chaotic matter,\nwhich had been expelled like an aborted fetus, without any spirit in it. For chaos\nis all limitless darkness and unfathomable water. When Pistis saw what came\ninto being from her deficiency, she was disturbed. And her disturbance appeared\nas something frightful, and it fled to her in the chaos. She turned to it and [blew]\ninto its face in the abyss, below all of the heavens.\nWhen Pistis Sophia wanted to cause this thing with no spirit to be made into\na likeness of the divine and rule over matter and all its powers, for the first time\nan archon appeared, out of the waters, lionlike in appearance, androgynous, with\ngreat authority in himself but ignorant of where he came from.\nWhen Pistis Sophia saw him moving in the depth of the waters, she said to\nhim, “Young man, move over here,” which is the meaning of Yaldabaoth.\nSince then the faculty of speech has come to expression, and the faculty of\nspeech pertains to the gods, angels, and people. The gods, angels, and people\nhave brought to completion what has come into being by means of the word.\nThe ruler Yaldabaoth is ignorant of the power of Pistis. He did not see her\nface, but in the water he saw the likeness that spoke to him, and from that voice\nhe called himself Yaldabaoth. Those who are perfect call him Ariael, because he\nis like a lion.\nAfter Yaldabaoth assumed authority over matter, Pistis Sophia withdrew up\nto her light.\nYaldabaoth Creates Heaven and Earth and Produces Sons",
+          "coptic": "§ⲛ̅ⲧⲁⲣⲉ ⲛⲁⲉⲓ ⲇⲉ ϣⲱⲡⲉ ⲧⲟⲧⲉ ⲁⲥⲉⲓ ⲛ̅ϭⲓ\nⲧⲡⲓⲥⲧⲓⲥ ⲁⲥⲟⲩⲱⲛ’ ⲉⲃⲟⲗ ϩⲓϫⲛ̅ ⲑⲩⲗⲏ ⲙ̅‐\nⲡⲭⲁⲟⲥ ⲧⲁⲉⲓ ⲉⲛⲧⲁⲩⲛⲟϫⲥ̅ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩ‐\nϩⲟⲩⲉ ⲛⲉ ⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲅⲁⲣ ⲛ̅ϩⲏⲧϥ̅ ϫⲉ ⲡⲏ ⲅⲁⲣ\nⲧⲏⲣϥ ⲟⲩⲕⲁⲕⲉ ⲡⲉ ⲉⲙⲛ̅ⲧⲁϥ’ ⲁⲣⲏϫϥ’\nⲁⲩⲱ ⲟⲩⲙⲟⲟⲩ ⲉⲙⲛ̅ⲧⲁϥ’ ϣⲓⲕ’ ⲙ̅ⲙⲁⲩ’\n§ⲛ̅ⲧⲁⲣⲉ ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲛⲁⲩ ⲁⲡⲉⲛⲧⲁϩϣⲱ‐\nⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥϣⲧⲁ ⲁⲥϣⲧⲟⲣⲧⲣ̅\nⲡϣⲧⲟⲣⲧⲣ̅ ⲇⲉ ⲁϥ’ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲛⲟⲩ‐\nⲉⲣⲅⲟⲛ ⲛ̅ϩⲣ̅ⲧⲉ ⲁϥⲡⲱⲧ ⲇⲉ [ⲉⲣⲁⲧ]ⲥ ϩⲙ̅\nⲡⲭⲁⲟⲥ ⲁⲥⲕⲟⲧⲥ̅ ⲇⲉ ⲉⲣⲟϥ’ ⲁ[ⲥⲛⲓϥⲉ ⲉ]‐\nϩⲟⲩⲛ ϩⲙ̅ ⲡⲉϥϩⲟ ϩⲙ̅ ⲡⲛⲟⲩ[ⲛ ⲡⲉⲧⲙ̅]‐\nⲡⲓⲧⲛ̅ ⲛⲙ̅ⲡⲏⲩⲉ ⲧⲏ[ⲣⲟ]ⲩ §ⲧ[ⲡⲓ]ⲥⲧⲓⲥ ⲇⲉ\nⲧⲥⲟⲫⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥⲟⲩⲱϣ [ⲁ]ⲧⲣⲉ ⲡⲏ ⲉⲧⲉ\nⲙⲛ̅ⲧⲉϥ’ ⲡⲛ̅ⲁ̅ ϫⲓ ⲧⲩⲡⲟⲥ ⲛ̅ⲛⲟⲩⲉⲓⲛⲉ\nⲛ̅ϥⲣ̅ⲁⲣⲭⲉⲓ ⲉϫⲛ̅ ⲑⲩⲗⲏ’ ⲁⲩⲱ ⲉϫⲛ̅ ⲛⲉⲥ‐\nⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲛ̅‐\nϣⲟⲣⲡ’ ⲛ̅ϭⲓ ⲟⲩⲁⲣⲭⲱⲛ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲙⲟ‐\nⲟⲩ ⲉϥⲟ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲙⲟⲩⲉⲓ ⲉⲩϩⲟⲩⲧⲥϩⲓⲙⲉ\nⲡⲉ ⲉⲩⲛ̅ⲧⲁϥ’ ⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ϩⲣⲁⲓ̈\nⲛ̅ϩⲏⲧϥ̅ ⲉϥⲥⲟⲟⲩⲛ ⲇⲉ ⲁⲛ ϫⲉ ⲛ̅ⲧⲁϥϣⲱ‐\nⲡⲉ ⲉⲃⲟⲗ ⲧⲱⲛ ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲧⲥⲟⲫⲓⲁ ⲛ̅‐\nⲧⲁⲣⲉⲥⲛⲁⲩ ⲉⲣⲟϥ’ ϩⲙ̅ ⲡϣⲓⲕ’ ⲛ̅ⲙ̅ⲙⲟⲟⲩ ⲉϥ‐\nⲕⲓⲙ’ ⲡⲉϫⲁⲥ ⲛⲁϥ’ ϫⲉ ⲡⲛⲉⲁⲛⲓⲥⲕⲟⲥ ⲉ‐\nⲣⲓⲇⲓⲁⲡⲉⲣⲁ ϣⲁ ⲛⲓⲙⲁ’ ⲉⲧⲉ ⲡⲉϥⲃⲱⲗ ⲡⲉ\nⲓ̅̈̅ⲁ̅ⲗ̅ⲇ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ §ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲁⲣ‐\nⲭⲏ ⲙ̅ⲡϣⲁϫⲉ ⲟⲩⲱⲛϩ ⲡⲁⲉⲓ ⲛ̅ⲧⲁϩⲡⲱϩ\nϣⲁ ⲛ̅ⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲙⲛ̅ ⲛ̅ⲣⲱⲙⲉ\nⲁⲩⲱ ⲡⲉⲛ’ⲧⲁϩϣⲱⲡⲉ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲁⲩ‐\nϫⲟⲕϥ’ ⲉⲃⲟⲗ’ ⲛ̅ϭⲓ ⲛ̅ⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲛ̅ⲁⲅⲅⲉ‐\nⲗⲟⲥ ⲙⲛ̅ ⲛ̅ⲣⲱⲙⲉ §ⲡⲁⲣⲭⲱⲛ ϭⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅\nϥⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ’ ⲁⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ\nⲙ̅ⲡⲉϥⲛⲁⲩ ⲁⲡⲉⲥϩⲟ ⲁⲗⲗⲁ ⲁϥⲛⲁⲩ ⲁⲡⲉⲓ‐\nⲛⲉ ⲛ̅ⲧⲁϩϣⲁϫⲉ ⲛⲙ̅ⲙⲁϥ’ ϩⲙ̅ ⲡⲙⲟⲟⲩ\nⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉⲥⲙⲏ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲓ̈ⲁⲗⲇⲁⲱⲑ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲇⲉ\nⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲁⲣⲓⲁⲏⲗ ϫⲉ ⲛⲉⲩⲉⲓ‐\nⲛⲉ ⲙ̅ⲙⲟⲩⲉⲓ ⲡⲉ §ⲛ̅ⲧⲁⲣⲉ ⲡⲁⲉⲓ ⲇⲉ ϣⲱⲡⲉ\nⲉⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲉⲝⲟⲩⲥⲓⲁ’ ⲛ̅ⲑⲩⲗⲏ\nⲁⲧⲡⲓⲥⲧⲓⲥ ⲧⲥⲟⲫⲓⲁ ⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈\nⲉⲡⲉⲥⲟⲩⲟⲉⲓⲛ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲓⲁⲣⲭⲱⲛ ⲛⲁⲩ’"
+        },
+        {
+          "title": "100, 29-101, 23",
+          "subtitle": "100, 29-101, 23",
+          "heading": "(100, 29-101, 23)",
+          "rangeLabel": "100, 29-101, 23",
+          "range": {
+            "start": {
+              "page": 100,
+              "line": 29
+            },
+            "end": {
+              "page": 101,
+              "line": 23
+            }
+          },
+          "english": "When the ruler saw his greatness, he saw only himself and nothing else except\nwater and darkness. He thought that only he existed. His [thought] was\ncompleted by means of the word, and it appeared as a Spirit moving to and\nfro over the waters. When the Spirit appeared, the ruler separated the watery\nsubstance to one region and the dry substance to another region. From matter the\nruler created for himself a dwelling place and called it heaven, and from matter\nhe created a footstool and called it earth.\nAfter this the ruler had a thought in accordance with his nature, and he\ncreated an androgynous being by means of the word. He opened his mouth and\ncooed to him. The child opened his eyes and saw his father, and he said to him,\n“EE,” so his father called him Yao.\nThe ruler created a second son and cooed to him. The child opened his eyes\nand said to his father, “EH,” so his father called him Eloai.\nThe ruler created a third son and cooed to him. The child opened his eyes\nand said to his father, “AS,” so his father called him Astaphaios.\nThese are the three sons of their father.",
+          "coptic": "ⲉⲡⲉⲥⲟⲩⲟⲉⲓⲛ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲓⲁⲣⲭⲱⲛ ⲛⲁⲩ’\nⲉⲡⲉϥⲙⲉⲅⲉⲑⲟⲥ ⲁⲩⲱ ⲛ̅ⲧⲁϥ’ ⲟⲩⲁⲁⲧϥ’\nⲡⲉⲛⲧⲁϥⲛⲁⲩ ⲉⲣⲟϥ ⲙ̅ⲡⲉϥⲛⲁⲩ ⲉⲕⲉⲟⲩⲁ\nⲉⲓ ⲙⲏⲧⲓ ⲁⲙⲟⲟⲩ ϩⲓ ⲕⲁⲕⲉ ⲧⲟⲧⲉ ⲁϥⲙⲉⲉⲩⲉ\nϫⲉ ⲛ̅[ⲧⲟϥ ⲟ]ⲩⲁⲁⲧϥ’ ⲡⲉⲧϣⲟⲟⲡ’ ⲡⲉϥⲙⲉ‐\n[..... ⲁϥ]ϫⲱⲕ’ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲁϥ’\nⲟⲩⲱⲛϩ ⲉⲃ[ⲟⲗ] ⲛ̅ⲟⲩⲡⲛ̅ⲁ̅ ⲉϥⲛ̅ⲛⲁ ⲉϥⲛ̅ⲛⲏⲩ\nϩⲓϫⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲧⲁⲣⲉ ⲡⲡⲛ̅ⲁ̅ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲁⲡⲁⲣⲭⲱⲛ ⲡⲱⲣϫ’ ⲛ̅ⲧⲟⲩⲥⲓⲁ\nⲙ̅ⲙⲟⲟⲩ ⲁⲩⲙⲉⲣⲟⲥ ⲁⲩⲱ ⲡⲉⲧϣⲟⲩⲱⲟⲩ\nⲁⲩⲡⲟⲣϫϥ’ ⲁⲕⲉⲙⲉⲣⲟⲥ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩ‐\nⲗⲏ ⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ’ ⲛ̅ⲟⲩⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲁϥⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲧⲡⲉ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩⲗⲏ ⲁ’‐\nⲡⲁⲣⲭⲱⲛ ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϩⲩⲡⲟⲡⲟⲇⲓⲟⲛ\nⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲕⲁϩ §ⲙ̅⟦ⲛ⟧ⲙⲛ̅ⲛ̅ⲥⲱⲥ\nⲁⲡⲁⲣⲭⲱⲛ’ ⲙⲉⲉⲩⲉ ϩⲛ̅ ⲧⲉϥ’ⲫⲩⲥⲓⲥ ⲁϥⲧⲁ‐\nⲙⲓⲟ ⲉⲃⲟⲗ’ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲛ̅ⲛⲟⲩϩⲟⲩⲧⲥϩⲓ‐\nⲙⲉ ⲁϥⲟⲩⲱⲛ ⲛ̅ⲧⲉϥⲧⲁⲡⲣⲟ ⲁϥϫⲟⲩϫⲟⲩ ⲉ‐\nⲣⲟϥ’ ⲛ̅ⲧⲁⲣⲟⲩⲟⲩⲱⲛ ⲛ̅ⲛⲉϥⲃⲁⲗ ⲁϥⲛⲁⲩ\nⲁⲡⲉϥ’ⲉⲓⲱⲧ’ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲓ̈ ⲁⲡⲉϥ’‐\nⲉⲓⲱⲧ ⲇⲉ ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲓ̅̈̅ⲁ̅̅ⲱ̅ ⲡⲁⲗⲓⲛ ⲁϥ’‐\nⲧⲁⲙⲓⲟ ⲡⲙⲁϩⲥⲛⲁⲩ ⲛ̅ϣⲏⲣⲉ ⲁϥϫⲟⲩϫⲟⲩ\nⲉⲣⲟϥ ⲁϥⲟⲩⲱⲛ ⲛ̅ⲛⲉϥⲃⲁⲗ ⲁϥϫⲟⲟⲥ ⲙ̅‐\nⲡⲉϥⲉⲓⲱⲧ ϫⲉ ⟦ⲁ⟧ ⲉ’ ⲁⲡⲉϥⲉⲓⲱⲧ ⲙⲟⲩⲧⲉ\nⲉⲣⲟϥ’ ϫⲉ ⲉⲗ̅ⲱ̅ⲁ̅ⲓ̅ ⲡⲁⲗⲓⲛ ⲁϥⲧⲁⲙⲓⲟ ⲙ̅‐\nⲡⲙⲁϩϣⲟⲙⲧ’ ⲛ̅ϣⲏⲣⲉ ⲁϥϫⲟⲩϫⲟⲩ ⲉⲣⲟϥ ⲁϥⲟⲩⲱⲛ ⲛ̅ⲛⲉϥ‐\nⲃⲁⲗ’ ⲁϥϫⲟⲟⲥ ⲙ̅ⲡⲉϥⲉⲓⲱⲧ ϫⲉ ⲁⲥ ⲁⲡⲉϥ‐\nⲉⲓⲱⲧ’ ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲁⲥⲧⲁⲫⲁⲓⲟⲥ ⲛⲁ‐\nⲉⲓ ⲛⲉ ⲡϣⲟⲙⲧ ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲟⲩⲉⲓⲱⲧ’ §ⲁ‐"
+        },
+        {
+          "title": "The Seven Heavens of Chaos",
+          "subtitle": "The Seven Heavens of Chaos",
+          "heading": "The Seven Heavens of Chaos (101, 24-103, 2)",
+          "rangeLabel": "101, 24-103, 2",
+          "range": {
+            "start": {
+              "page": 101,
+              "line": 24
+            },
+            "end": {
+              "page": 103,
+              "line": 2
+            }
+          },
+          "english": "Seven androgynous beings appeared in chaos, and they have masculine names\nand feminine names.\nYaldabaoth’s feminine name is forethought Sambathas, which\ndesignates the week.\nHis son is called Yao, and his feminine name is mastery.\nSabaoth’s feminine name is divinity.\nAdonaios’s feminine name is kingship.\nEloaios’s feminine name is envy.\nOraios’s feminine name is wealth.\nAstaphaios’s feminine name is Sophia.\nThese are the [seven] powers of the seven heavens of [chaos].\nThe powers were androgynous in accordance with the immortal pattern that\nexisted before them and the will of Pistis, so that the likeness of what was from\nthe beginning might have power to the end.\nYou will find the function of the masculine names and powers in the\nArchangelic Book of Moses the Prophet. The feminine names are in the First\nBook of Noraia.\nSince the chief creator Yaldabaoth had great authorities at his disposal, he\ncreated beautiful heavens, by means of the word, as dwelling places for each of\nhis sons, and in each heaven he created great glories, seven times glorious. Each\nson has within his heaven thrones, mansions, temples, chariots, virgin spirits,\nand their glories, extending up to an invisible realm, as well as armies of\ndivine, lordly, angelic, and archangelic powers, myriads without number, so they\nmight serve.\nYou will find a precise account of this in the First Discourse of Oraia.\nEverything was completed in this <way> up to the sixth heaven, the heaven\nof Sophia.\nThis heaven and earth were disrupted by the troublemaker who was beneath\nthem all. The six heavens shook, for the powers of chaos did not know who\nhad disturbed the heaven beneath them. When Pistis found out about the harm\ncaused by the troublemaker, she blew her breath, and she [bound him] and cast\nhim down to Tartaros.\n[Since then] heaven and earth have established themselves through\nSophia, who is the daughter of Yaldabaoth and is beneath them all.",
+          "coptic": "ⲥⲟϣϥ’ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲭⲁⲟⲥ ⲛ̅ϩⲟⲩⲧ’‐\nⲥϩⲓⲙⲉ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲟⲩⲣⲁⲛ ⲛ̅ϩⲟ‐\nⲟⲩⲧ’ ⲙⲛ̅ ⲡⲟⲩⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ † ⲡⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ †\nⲡⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲥⲁⲙⲃⲁⲑⲁⲥ ⲉⲧⲉ ⲑⲉⲃⲇⲟ‐\nⲙⲁⲥ ⲧⲉ ⲡⲉϥ’ϣⲏⲣⲉ ⲇⲉ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲓ̅̈̅ⲁ̅ⲱ̅ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧϫⲁⲉⲓⲥ\nⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ ⲧⲙⲛⲧⲛⲟⲩ‐\nⲧⲉ ⲁⲇⲱⲛⲁⲓⲟⲥ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅‐\nⲣ̅ⲣⲟ ⲉⲗⲱⲁⲓⲟⲥ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩ[ⲓ]ⲙⲉ ⲡⲉ ⲡⲕⲱϩ\nⲱⲣⲁⲓⲟⲥ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ [ⲧⲙⲛ̅ⲧ]ⲣⲙ̅‐\nⲙⲁⲟ ⲁⲥⲧⲁⲫⲁⲓⲟⲥ ⲇⲉ ⲡⲉϥⲣⲁ[ⲛ ⲛ̅ⲥϩⲓⲙⲉ]\nⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲛⲁⲉ[ⲓ ⲛⲉ ⲧ]ⲥⲟ[ϣϥⲉ] ⲛ̅ⲇⲩⲛⲁ‐\nⲙⲓⲥ ⲛ̅ⲧⲥⲟϣϥⲉ ⲙ̅ⲡⲉ ⲙ̅ⲡ[ⲭⲁ]ⲟⲥ §ⲁⲩϣⲱ‐\nⲡⲉ ⲇⲉ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ ⲁⲡⲧⲩⲡⲟⲥ ⲛ̅ⲁⲑⲁ‐\nⲛⲁⲧⲟⲥ ⲉⲧϣⲟⲟⲡ’ ϩⲓ ⲧⲟⲩⲉϩⲏ ⲕⲁⲧⲁ ⲡⲟⲩ‐\nⲱϣ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ϫⲉⲕⲁⲁⲥ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲉⲧ’‐\nϣⲟⲟⲡ ϫⲓⲛ’ ⲛ̅ϣⲟⲣⲡ’ ⲉϥⲛⲁⲁⲣⲭⲉⲓ ϣⲁ\nⲛⲁⲣⲏϫϥ̅’ §ⲕⲛⲁϩⲉ ⲁⲧⲉⲛⲉⲣⲅⲓⲁ ⲛ̅ⲛⲉⲉⲓⲣⲁⲛ\nⲙⲛ̅ ⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲛ̅ϩⲟⲟⲩⲧ’ ϩⲛ̅ ⲧⲁⲣⲭⲁⲅ’‐\nⲅⲉⲗⲓⲕⲏ ⲙ̅ⲙⲱⲩ̈ⲥⲏⲥ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲛ̅‐\nⲣⲁⲛ ⲇⲉ ⲛ̅ⲛⲉϩⲓⲟⲙⲉ ϩⲛ̅ ⲧϣⲟⲣⲡ’ ⲛ̅ⲃⲓⲃⲗⲟⲥ\nⲛ̅ⲛⲱⲣⲁⲓⲁⲥ’ §ⲡⲁⲣⲭⲓⲅⲉⲛⲏⲧⲱⲣ’ ⲇⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲇ̅ⲁ̅‐\nⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲉⲩⲛ̅ⲧⲁϥ ϩⲛ̅ⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁϥ’‐\nⲧⲁⲙⲓⲟ ⲛ̅ϩⲙ̅ⲡⲏⲩⲉ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ⲛⲉϥ’‐\nϣⲏⲣⲉ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲉⲛⲉⲥⲱⲟⲩ ⲙ̅ⲙⲁⲛ̅‐\nϣⲱⲡⲉ ⲁⲩⲱ ⲕⲁⲧⲁ ⲡⲉ ϩⲛ̅ⲛⲟϭ ⲛ̅ⲉⲟⲟⲩ ⲉⲩ‐\nⲥⲟⲧⲡ’ ⲛ̅ⲥⲟϣϥ’ ⲛ̅ⲕⲱⲃ ϩⲛ̅ⲑⲣⲟⲛⲟⲥ ⲙⲛ̅\nϩⲙ̅ⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲙⲛ̅ ϩⲛ̅ⲣ̅ⲡⲏⲩⲉ ⲁⲩⲱ ϩⲛ̅‐\nϩⲁⲣⲙⲁ ⲁⲩⲱ ϩⲙ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲙ̅ⲡⲛ̅ⲁ̅ † ⲉϩⲣⲁⲓ̈\nⲁⲩⲁϩⲟⲣⲁⲧⲟⲛ’ † ⲙⲛ̅ ⲛⲟⲩⲉⲟⲟⲩ ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nⲟⲩⲛ̅ⲧⲁϥⲥⲉ ϩⲛ̅ ⲧⲉϥⲡⲉ ϩⲛ̅ⲥⲧⲣⲁⲧⲉⲩⲙⲁ ⲛ̅‐\nⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲛⲟⲩⲧⲉ ϩⲓ ϫⲟⲉⲓⲥ ϩⲓ ⲁⲅ’ⲅⲉⲗⲟⲥ\nϩⲓ ⲁⲣⲭⲁⲅ’ⲅⲉⲗⲟⲥ ϩⲛ̅ⲧⲃⲁ ⲉⲙⲛ̅ⲧⲁⲩ ⲏⲡⲉ ⲁ’‐\nⲧⲣⲟⲩⲣ̅ϩⲩⲡⲏⲣⲉⲧⲉⲓ §ϫⲓⲥⲧⲟⲣⲓⲁ ⲛ̅ⲛⲁⲉⲓ ⲕⲛⲁ‐\nϩⲉ ⲉⲣⲟⲥ ⲁⲕⲣⲓⲃⲱⲥ ϩⲙ̅ ⲡϣⲟⲣⲡ’ ⲛ̅ⲗⲟⲅⲟⲥ\nⲛ̅ⲱⲣⲁⲓⲁⲥ §ⲁⲩϫⲟⲕⲟⲩ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅ ϯⲡⲉ ϣⲁ‐\nϩⲣⲁⲓ̈ ⲉⲧⲙⲉϩⲥⲟⲉ ⲙ̅ⲡⲉ ⲧⲁ ⲧⲥⲟⲫⲓⲁ §ⲁⲩ‐\nϣⲟⲣϣⲣ̅ ⲛ̅ⲧⲡⲉ ⲙⲛ̅ ⲡⲉϥⲕⲁϩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲡⲉⲧϣⲧⲟⲣⲧⲣ̅ ⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲁⲩ ⲧⲏⲣⲟⲩ\nⲁⲩⲱ ⲁⲧⲥⲟⲉ ⲙ̅ⲡⲉ ⲛⲟⲉⲓⲛ ⲛⲉⲥⲉⲥⲟⲟⲩⲛ\nⲅⲁⲣ’ ⲛ̅ϭⲓ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲭⲁⲟⲥ ϫⲉ ⲛⲓⲙ ⲡⲉⲛ‐\nⲧⲁϩⲧⲁⲕⲟ ⲛ̅ⲧⲡⲉ ⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲛ̅‐\nⲧⲁⲣⲉⲥⲉⲓⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲧⲡⲓⲥⲧⲓⲥ ⲁⲡϣⲱϣϥ\nⲙ̅ⲡⲉϣⲧⲟⲣⲧⲣ̅ ⲁⲥϫⲟⲟⲩ ⲙ̅ⲡⲉⲥⲛⲓϥⲉ ⲁⲥ‐\nⲙ[ⲟⲣϥ’ ⲁⲥ]ⲛⲟϫϥ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲧⲁⲣⲧⲁⲣⲟⲛ\n[ϫⲓⲙ’ ⲫⲟⲟ]ⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲡⲉ ⲥⲙⲛⲧⲥ̅ ⲙⲛ̅\nⲡⲉⲥⲕⲁϩ ⲉⲃ[ⲟⲗ] ϩⲓⲧⲛ̅ ⲧⲥⲟⲫⲓⲁ ⲛ̅ⲓⲁ̅ⲗ̅ⲇ̅ⲁ̅ⲃ̅ⲁ̅‐\nⲱ̅ⲑ̅’̅ ⲧⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲛ̅ⲧⲁ‐"
+        },
+        {
+          "title": "Yaldabaoth Boasts That He Is God",
+          "subtitle": "Yaldabaoth Boasts That He Is God",
+          "heading": "Yaldabaoth Boasts That He Is God (103, 2-32)",
+          "rangeLabel": "103, 2-32",
+          "range": {
+            "start": {
+              "page": 103,
+              "line": 2
+            },
+            "end": {
+              "page": 103,
+              "line": 32
+            }
+          },
+          "english": "After the heavens, their powers, and their entire government were established,\nthe chief creator exalted himself, and he was glorified by the whole army of\nangels. All the gods and their angels praised and glorified him.\nHe was delighted. He boasted over and over again and said to them, “I don’t\nneed anything.”\nHe said, “I am God, and there is no other but me.”\nWhen he said this, he sinned against all the immortals who speak forth, and\nthey watched him carefully.\nWhen Pistis saw the impiety of the supreme ruler, she became angry.\nWithout being seen, she said, “You are wrong, Samael”-which means “blind\ngod.” “An enlightened, immortal human exists before you and will appear within\nthe forms you have shaped. The human will trample upon you as potter’s clay is\ntrampled, and you will descend with those who are yours to your mother the\nabyss. And when your work comes to an end, all the deficiency that appeared\nfrom truth will be dissolved. It will cease to be, and it will be like what never\nwas.”\nAfter Pistis said this, she revealed the likeness of her greatness in the waters,\nand then she withdrew up to her light.",
+          "coptic": "ⲱ̅ⲑ̅’̅ ⲧⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲛ̅ⲧⲁ‐\nⲣⲉ ⲙ̅ⲡⲏⲩⲉ ⲇⲉ ⲥⲙⲛ̅ⲧⲟⲩ ⲙⲛ̅ ⲛⲟⲩϭⲟⲙ’\nⲙⲛ̅ ⲧⲟⲩⲇⲓⲟⲓⲕⲏⲥⲓⲥ ⲧⲏⲣⲥ̅ ⲁⲡⲁⲣⲭⲓⲅⲉⲛⲉ‐\nⲧⲱⲣ ϫⲓⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁⲩⲱ ⲁϥϫⲓ ⲉⲟⲟⲩ ϩⲓⲧⲛ̅\n〈ⲧ〉ⲥⲧⲣⲁⲧⲉⲓⲁ ⲧⲏⲣⲥ̅ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ † ⲛ̅ⲛⲟⲩ‐\nⲛⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲁⲅ’ⲅⲉⲗⲟⲥ ⲟⲩⲥⲙⲟⲩ\nⲙⲛ̅ⲛⲟⲩⲉⲟⲟⲩ ⲁⲩⲧⲁⲁϥ ⲛⲁϥ’ ⲛ̅ⲧⲟϥ ⲇⲉ ⲁϥ‐\nⲟⲩⲛⲟϥ’ ϩⲙ̅ ⲡⲉϥϩⲏⲧ’ ⲁⲩⲱ ⲁϥϣⲟⲩϣⲟⲩ\nⲙ̅ⲙⲟϥ ⲛ̅ⲛⲁⲩ ⲛⲓⲙ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲁⲩ’\nϫⲉ ϯⲣ̅ ⲭⲣⲉⲓⲁ ⲁⲛ ⲗ̅ⲗⲁⲁⲩ ⲡⲉϫⲁϥ ϫⲉ ⲁ‐\nⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲙⲛ̅ ⲕⲉⲟⲩⲁ ϣⲟⲟⲡ’\nⲁϫⲛⲧ’ §ⲛ̅ⲧⲁⲣⲉϥϫⲉ ⲛⲁⲉⲓ ⲇⲉ ⲁϥⲣ̅ ⲛⲟⲃⲉ ⲁ‐\nⲛⲁⲧⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲧϫⲉ ⲟⲩⲱ ⲁⲩⲱ ⲁⲩⲁ‐\nⲣⲏϩ ⲛⲁϥ’ ⲛ̅ⲧⲁⲣⲉ ⲧⲡⲓⲥⲧⲓⲥ ϭⲉ ⲛⲁⲩ ⲁⲧⲙⲛⲧ̅‐\nⲁⲥⲉⲃⲏⲥ ⲙ̅ⲡⲛⲟϭ ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲥⲃⲱⲗⲕ’\nⲛⲉⲩⲛⲁⲩ ⲁⲛ’ ⲉⲣⲟⲥ ⲡⲉϫⲁⲥ ϫⲉ ⲕⲣ̅ⲡⲗⲁⲛⲁ\nⲥⲁⲙⲁⲏⲗ’ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲃ̅ⲃ̅ⲗⲗⲉ\nⲟⲩⲛ̅ ⲟⲩⲣⲱⲙⲉ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ⲣ̅ⲣⲙ̅ⲟⲩⲟⲉⲓⲛ\nϣⲟⲟⲡ’ ϩⲓ ⲧⲉⲕϩⲏ ⲡⲁⲉⲓ ⲉⲧⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nϩⲛ̅ ⲛⲉⲧⲙ̅ⲡⲗⲁⲥⲙⲁ ϥⲛⲁⲣ̅ⲕⲁⲧⲁⲡⲁⲧⲉⲓ ⲙ̅‐\nⲙⲟⲕ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲟⲙⲉ ⲛ̅ⲕⲉⲣⲁⲙⲉⲩⲥ ϣⲁⲩ‐\nⲥⲟⲙⲟⲩ ⲁⲩⲱ ⲕⲛⲁⲃⲱⲕ’ ⲙⲛ̅ ⲛⲉⲧⲉ ⲛⲟⲩⲕ’\nⲛⲉ ⲁⲡⲓⲧⲛ̅ ϣⲁ ⲧⲉⲕ’ⲙⲁⲁⲩ ⲡⲛⲟⲩⲛ ϩⲛ̅\nⲧⲥⲩⲛ’ⲧⲉⲗⲉⲓⲁ ⲅⲁⲣ ⲛ̅ⲛⲉⲧⲛ̅ϩⲃⲏⲩⲉ ⲥⲉ‐\nⲛⲁⲣ̅ⲕⲁⲧⲁⲗⲩⲉ ⲙ̅ⲡϣⲧⲁ ⲧⲏⲣϥ’ ⲛ̅ⲧⲁϥ’ⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲉ ⲁⲩⲱ ϥⲛⲁⲱϫⲛ̅ ⲛ̅ϥⲣ̅\nⲑⲉ ⲙ̅ⲡⲉⲧⲉ ⲙ̅ⲡⲉϥ’ϣⲱⲡⲉ §ⲛ̅ⲧⲁⲣⲉ ⲧⲡⲓ‐\nⲥⲧⲓⲥ ϫⲉ ⲛⲁⲉⲓ ⲁⲥϭⲱⲗⲡ’ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅‐\nⲙⲟⲟⲩ ⲙ̅ⲡⲉⲥⲉⲓⲛⲉ ⲛ̅ⲧⲉⲥⲙⲛⲧⲛⲟϭ ⲁⲩ‐\nⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲥⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉ‐\nⲡⲉⲥⲟⲩⲟⲉⲓⲛ §ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲇⲉ ⲡϣⲏⲣⲉ"
+        },
+        {
+          "title": "Sabaoth Praises Pistis",
+          "subtitle": "Sabaoth Praises Pistis",
+          "heading": "Sabaoth Praises Pistis (103, 32-105, 20)",
+          "rangeLabel": "103, 32-105, 20",
+          "range": {
+            "start": {
+              "page": 103,
+              "line": 32
+            },
+            "end": {
+              "page": 105,
+              "line": 20
+            }
+          },
+          "english": "When Sabaoth son of Yaldabaoth heard the voice of Pistis, he sang songs of\npraise to her, but he condemned his father [and mother] on account of the\nword of Pistis. He glorified her because she told them about the immortal human\nand the light of the human. Pistis Sophia pointed her finger and poured over him\nlight from her light, as condemnation of his father. When Sabaoth was\nenlightened, he received great authority over all of the powers of chaos, and\nsince then he has been called “lord of the powers.”\nHe hated his father, who is darkness, and his mother, who is the abyss. He\nloathed his sister, who is the thought of the chief creator and who moves to and\nfro over the waters.\nAll of the authorities of chaos were jealous of Sabaoth because of his light.\nThey were upset, and they waged a great war in the seven heavens.\nWhen Pistis Sophia saw the war, she sent seven archangels to Sabaoth from\nher light. The archangels carried him up to the seventh heaven and stood in his\npresence as his attendants. Then she sent three more archangels to him and\nestablished his kingdom above everyone, so that he might dwell above the\ntwelve gods of chaos.\nWhen Sabaoth occupied the place of rest because of his repentance, Pistis\nalso gave him her daughter Zoe, with great authority, so that she might tell him\nabout everything in the eighth heaven. And since he had authority, he first made\nhimself a mansion. It is immense, magnificent, seven times as great as all the\nmansions in the seven heavens.\nIn front of his mansion he created a large throne on a chariot with four\nfaces, called cherubim. The cherubim throne has eight figures on each side of the\nfour corners, figures of lions, bulls, humans, and eagles, and there are a total of\nsixty-four figures. Seven archangels stand before the throne. Sabaoth is the\neighth, and he has authority, and so there are seventy-two figures in all. From\nthis chariot the seventy-two gods took shape, so that they might rule over the\nlanguages of the seventy-two nations. Beside that throne he created other,\nserpentlike angels called seraphim, who glorify him unceasingly.\nSabaoth Creates a Congregation of Angels, Israel, and Jesus",
+          "coptic": "ⲡⲉⲥⲟⲩⲟⲉⲓⲛ §ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲇⲉ ⲡϣⲏⲣⲉ\nⲛ̅ⲓⲁⲗⲇⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲛ̅ⲧⲁⲣⲉϥ’ⲥⲱⲧⲙ̅ ⲁⲧ’‐\nⲥⲙⲏ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲁϥϩⲩⲙⲛⲉⲓ ⲉⲣⲟ[ⲥ ⲁϥⲣ̅]‐\nⲕⲁⲧⲁⲅⲉⲓⲛⲱⲥⲕⲉ ⲙ̅ⲡⲉⲓⲱⲧ [......]\nⲉϫⲛ̅ ⲡϣⲁϫⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ [ⲁϥ]ϯ ⲉⲟⲟⲩ ⲛⲁⲥ\nϫⲉ ⲁⲥⲧⲁⲙⲟⲟⲩ ⲁⲡⲣⲱⲙⲉ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ’\nⲙⲛ̅ ⲡⲉϥⲟⲩⲟⲉⲓⲛ ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲧⲥⲟⲫⲓⲁ ⲁⲥ‐\nⲥⲱⲧ’ ⲙ̅ⲡⲉⲥⲧⲏⲏⲃⲉ † ⲉⲃⲟⲥ ⲁⲥⲡⲱϩⲧ ⲁϫⲱϥ’\nⲛ̅ⲟⲩⲟⲉⲓⲛ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥⲟⲩⲟⲉⲓⲛ ⲁⲩⲕⲁ‐\nⲧⲁⲕⲣⲓⲙⲁ ⲙ̅ⲡⲉϥ’ⲉⲓⲱⲧ’ ⲥⲁⲃⲁⲱⲑ’ ϭⲉ ⲛ̅ⲧⲁ’‐\nⲣⲉϥϫⲓ ⲟⲩⲟⲉⲓⲛ ⲁϥϫⲓ ⲟⲩⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ’\nⲉϩⲟⲩⲛ ⲉⲛⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ\nϫⲓⲙ ⲡϩⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ\nⲡϫⲟⲉⲓⲥ ⲛ̅ⲛ̅ϭⲟⲙ’ §ⲁϥⲙⲉⲥⲧⲉ ⲡⲉϥ’ⲉⲓⲱⲧ’ ⲡⲕⲁ‐\nⲕⲉ ⲁⲩⲱ ⲧⲉϥⲙⲁⲁⲩ ⲡⲛⲟⲩⲛ ⲁϥⲥⲓⲭⲁⲛⲉ ⲁ’‐\nⲧⲉϥ’ⲥⲱⲛⲉ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲁⲣⲭⲓⲅⲉⲛⲏⲧⲱⲣ’\nⲡⲉⲧⲛ̅ⲛⲁ ⲉⲧⲛ̅ⲛⲏⲩ ϩⲓϫⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲉⲧⲃⲉ\nⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲇⲉ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲕⲱϩ\nⲉⲣⲟϥ’ ⲛ̅ⲧⲉ ⲡⲭⲁⲟⲥ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲟⲩϣⲧⲟⲣⲧⲣ̅\nⲁⲩⲉⲓⲣⲉ ⲛ̅ⲟⲩⲛⲟϭ ⲙ̅ⲡⲟⲗⲉⲙⲟⲥ ϩⲛ̅ ⲧⲥⲁϣ‐\nϥⲉ ⲙ̅ⲡⲉ §ⲧⲟⲧⲉ ⲧⲡⲓⲥⲧⲓⲥ ⲧⲥⲟⲫⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥ‐\nⲛⲁⲩ ⲁⲡⲡⲟⲗⲉⲙⲟⲥ ⲁⲥϫⲟⲟⲩ ⲛ̅ⲥⲁⲃⲁⲱⲑ’\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥⲟⲩⲟⲉⲓⲛ ⲛ̅ⲥⲁϣϥ ⲛ̅ⲁⲣⲭⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲁⲩⲧⲟⲣⲡϥ’ ⲉϩⲣⲁⲓ̈ ⲉⲧⲙⲁϩⲥⲁϣϥⲉ ⲙ̅‐\nⲡⲉ ⲁⲩⲱⲉϩⲣⲁⲧⲟⲩ ϩⲓ ⲧⲉϥϩⲏ’ ϩⲱⲥ ⲇⲓⲁⲕⲟ‐\nⲛⲟⲥ ⲡⲁⲗⲓⲛ ⲁⲥϫⲟⲟⲩ ⲛⲁϥ’ ⲛ̅ⲕⲉϣⲟⲙⲧ’\nⲛ̅ⲁⲣⲭⲁⲅ’ⲅⲉⲗⲟⲥ ⲁⲥⲥⲙⲛ̅ ⲧⲙⲛ̅ⲧⲉⲣⲟ ⲛⲁϥ’\nⲛ̅ⲧⲡⲉ ⲟⲩⲟⲛ ⲛⲓⲙ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁϣⲱⲡⲉ\nⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ ⲙ̅ⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛ̅ⲛⲟⲩⲧⲉ\nⲙ̅ⲡⲭⲁⲟⲥ §ⲛ̅ⲧⲁⲣⲉ ⲥⲁⲃⲁⲱⲑ ⲇⲉ ϫⲓ ⲡⲧⲟⲡⲟⲥ\nⲛ̅ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉⲡⲙⲁ ⲛ̅ⲧⲉϥⲙⲉⲧⲁⲛⲟⲓⲁ\nⲉⲧⲓ ⲁⲧⲡⲓⲥⲧⲓⲥ ϯ ⲛⲁϥ’ ⲛ̅ⲧⲉⲥϣⲉⲉⲣⲉ ⲛ̅ⲍⲱⲏ\nⲙⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ϫⲉⲕⲁⲁⲥ ⲉⲥⲛⲁ‐\nⲧⲁⲙⲟϥ’ ⲁⲛⲉⲧϣⲟⲟⲡ’ ⲧⲏⲣⲟⲩ ϩⲛ̅ ⲧⲙⲁϩ\nϣⲙⲟⲩⲛⲉ §ϩⲱⲥ ⲉⲩⲛ̅ⲧⲁϥ ⲇⲉ ⲛ̅ⲟⲩⲉⲝⲟⲩⲥⲓⲁ\nⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ’ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ⲟⲩⲙⲁ ⲛ̅ϣⲱ‐\nⲡⲉ ⲟⲩⲛⲟϭ ⲡⲉ ⲉϥⲧⲁⲉⲓⲏⲩ ⲉⲙⲁⲧⲉ ⲉϥⲟ ⲛ̅\nⲥⲁ[ϣ]ϥ ⲛ̅ⲕⲱⲃ ⲡⲁⲣⲁ ⲛⲉⲧϣⲟⲟⲡ ⲧⲏⲣⲟⲩ\n[ϩⲛ̅ ⲧⲥ]ⲁϣϥⲉ ⲙ̅ⲡⲉ §ⲙ̅ⲡⲙ̅ⲧⲟ ⲇⲉ ⲉⲃⲟⲗ’\nⲙ̅ⲡⲉϥⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲁϥⲧⲁⲙⲉⲓⲟ ⲛ̅ⲟⲩⲑⲣⲟ‐\nⲛⲟⲥ ⲉⲩⲛⲟϭ ⲡⲉ ⲉϥϩⲓϫⲛ̅ ⲟⲩϩⲁⲣⲙⲁ ⲉϥⲟ\nⲛ̅ϥⲧⲟⲟⲩ ⲙ̅ⲡⲣⲟⲥⲱⲡⲟⲛ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲭⲉⲣⲟⲩⲃⲓⲛ ⲡⲭⲉⲣⲟⲩⲃⲓⲛ ⲇⲉ ⲟⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ϣⲙⲟⲩⲛⲉ ⲙ̅ⲙⲟⲣⲫⲏ ⲕⲁⲧⲁ ⲡϥ’‐\nⲧⲟⲩⲕⲟⲟϩ ϩⲙ̅ⲙⲟⲣⲫⲏ ⲙ̅ⲙⲟⲩⲉⲓ ⲁⲩⲱ ϩⲙ̅‐\nⲙⲟⲣⲫⲏ ⲙ̅ⲙⲁⲥⲉ ⲁⲩⲱ ϩⲙ̅ⲙⲟⲣⲫⲏ ⲣⲣⲱ‐\nⲙⲉ ⲙⲛ ϩⲙ̅ⲙⲟⲣⲫⲏ ⲛ̅ⲁⲉⲧⲟⲥ ϩⲱⲥⲧⲉ ⲙ̅ⲙⲟⲣ‐\nⲫⲏ ⲧⲏⲣⲟⲩ ⲥⲉⲉⲓⲣⲉ ⲛ̅ⲥⲉⲧⲁϥⲧⲉ ⲙ̅ⲙⲟⲣⲫⲏ\nⲁⲩⲱ ⲥⲁϣϥ̅ ⲛ̅ⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ ⲉⲩⲁϩⲉⲣⲁⲧⲟⲩ\nϩⲓ ⲧⲉϥϩⲏ ⲛ̅ⲧⲟϥ ⲡⲉ ⲡⲙⲁϩϣⲙⲟⲩⲛ ⲉⲩⲛ̅‐\nⲧⲁϥ’ ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲙⲟⲣⲫⲏ ⲧⲏⲣⲟⲩ ⲥⲉⲉⲓⲣⲉ\nⲛ̅ϣⲃⲉⲥⲛⲟⲟⲩⲥ ⲉⲃⲟⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲉⲉⲓϩⲁⲣⲙⲁ\nⲁⲩϫⲓ ⲧⲩⲡⲟⲥ ⲛ̅ϭⲓ ⲡϣⲃⲉⲥⲛⲟⲟⲩⲥ ⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲁⲩϫⲓ ⲧⲩⲡⲟⲥ ⲁⲧⲣⲟⲩⲣ̅ⲁⲣⲭⲉⲓ ⲉϫⲛ̅ ⲧϫⲃⲉ‐\nⲥⲛⲟⲟⲩⲥ ⲛ̅ⲁⲥⲡⲉ ⲛ̅ⲛ̅ϩⲉⲑⲛⲟⲥ ϩⲓϫⲛ̅ ⲡⲑⲣⲟ‐\nⲛⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲧⲁⲙⲓⲉ ϩⲛ̅ⲕⲉⲁⲅ’ⲅⲉ‐\nⲗⲟⲥ ⲙ̅ⲙⲟⲣⲫⲏ ⲛ̅ⲇⲣⲁⲕⲱⲛ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟ‐\nⲟⲩ ϫⲉ ⲥⲁⲣⲁⲫⲓⲛ ⲉⲩϯ ⲉⲟⲟⲩ ⲛⲁϥ’ ⲛ̅ⲛⲁⲩ\nⲛⲓⲙ’ §ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲉⲕⲕⲗⲏⲥⲓⲁ"
+        },
+        {
+          "title": "105, 20-106, 19",
+          "subtitle": "105, 20-106, 19",
+          "heading": "(105, 20-106, 19)",
+          "rangeLabel": "105, 20-106, 19",
+          "range": {
+            "start": {
+              "page": 105,
+              "line": 20
+            },
+            "end": {
+              "page": 106,
+              "line": 19
+            }
+          },
+          "english": "Then he created a congregation of angels, thousands, myriads without number,\nwhich was like the congregation in the eighth heaven. He also created a firstborn\ncalled Israel-that is, “the person who sees God”-and he created another being\ncalled Jesus Christ, who is like the Savior above in the eighth heaven and who\nsits at the right of Sabaoth on a remarkable throne. At his left the virgin of the\nholy Spirit sits upon a throne and glorifies him. Seven virgins stand before her,\nwith thirty harps and lyres and trumpets in their hands, and they glorify\nhim. All the armies of angels glorify and praise him.\nSabaoth sits on a throne covered by a great light cloud. No one was with\nhim in the cloud except Sophia daughter of Pistis, and she taught him about all\nthe things in the eighth heaven, so that what resembles these things might be\ncreated and his reign might last until the end of the heavens of chaos and their\npowers.\nPistis Sophia moved him away from the darkness and summoned him to her\nright, and she put the chief creator at her left. Since then right has been called\njustice and left has been called injustice. They all received a realm in the\ncongregation of justice, and injustice is set over all their creations.",
+          "coptic": "ⲛⲓⲙ’ §ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲉⲕⲕⲗⲏⲥⲓⲁ\nⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ϩⲛ̅ϣⲟ ⲙⲛ̅ ϩⲛ̅ⲧⲃⲁ ⲉⲙⲛ̅ⲧⲟⲩ\nⲏⲡⲉ ⲉⲥⲧⲛ̅ⲧⲟⲛⲧ’ ⲉⲧⲉⲕ’ⲕⲗⲏⲥⲓⲁ ⲉⲧϩⲛ̅\nⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲁⲩⲱ ⲟⲩϣⲣⲡ’ⲙ̅ⲙⲓⲥⲉ\nⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲓⲥⲣⲁⲏⲗ ⲉⲧⲉ ⲡⲁⲉⲓ\nⲡⲉ ⲡⲣⲱⲙⲉ ⲉⲧⲛⲁⲩ ⲉⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲕⲉ‐\nⲟⲩⲁ ϫⲉ ⲓⲏ̅ⲥ̅ ⲡⲉⲭⲥ̅ ⲉϥⲧⲛ̅ⲧⲱⲛ ⲉⲡⲥⲱⲧⲏⲣ’\nⲉⲧϩⲓ ⲡⲥⲁ ⲛⲧⲡⲉ ⲛ̅ⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲉϥ‐\nϩⲙⲟⲟⲥ ϩⲓ ⲟⲩⲛⲁⲙ’ ⲙ̅ⲙⲟϥ ϩⲓϫⲛ̅ ⲟⲩⲑⲣⲟ‐\nⲛⲟⲥ ⲉϥⲧⲁⲉⲓⲏⲩ ϩⲓ ϭⲃⲟⲩⲣ ⲇⲉ ⲙ̅ⲙⲟϥ ⲉⲥ‐\nϩⲙⲟⲟⲥ ⲛ̅ϭⲓ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙ̅ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ϩⲓϫⲛ̅ ⲟⲩⲑⲣⲟⲛⲟⲥ ⲉⲥϯ ⲉⲟⲟⲩ ⲛⲁϥ\nⲁⲩⲱ ⲥⲉⲁϩⲉⲣⲁⲧⲟⲩ ϩⲓ ⲧⲉⲥⲉϩⲏ ⲛ̅ϭⲓ ⲧⲥⲁ‐\nϣ〈ϥ〉ⲉ ⲙ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲩⲙ̅ ⲙⲁⲁⲃⲉ ⲛ̅ϭⲓⲑⲁ‐\nⲣⲁ ⲛ̅ⲧⲟⲟⲧⲟⲩ ⲙⲛ̅ ϩⲙⲯⲁⲗⲧⲏⲣⲓⲟⲛ [ⲙ]ⲛ̅\nϩⲛⲥⲁⲗⲡⲓⲅⲝ’ ⲉⲩϯ ⲉⲟⲟⲩ ⲛⲁϥ’ ⲁⲩⲱ ⲛ̅ⲥⲧⲣⲁ‐\nⲧⲉⲩⲙⲁ ⲧⲏⲣⲟⲩ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲥⲉϯ ⲉⲟⲟⲩ ⲛⲁϥ’\nⲁⲩⲱ ⲥⲉⲥⲙⲟⲩ ⲉⲣⲟϥ’ §ⲉϥϩⲙⲟⲟⲥ ⲇⲉ ϩⲓϫⲛ̅ ⲟⲩ‐\nⲑⲣⲟⲛⲟⲥ ⲟⲩⲟⲉⲓⲛ ⲛ̅〈ⲟⲩ〉ⲛⲟϭ ⲛ̅ⲕⲗⲟⲟⲗⲉ ⲉⲥⲥⲕⲉ‐\nⲡⲁⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁⲩⲱ ⲛⲉ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲙ̅ⲙⲁϥ’\nϩⲛ̅ ⲧⲉⲕⲗⲟⲟⲗⲉ ⲉⲓ ⲙⲏⲧⲓ ⲁⲧⲥⲟⲫⲓⲁ 〈ⲛ̅〉ⲧⲡⲓⲥⲡⲥ\nⲉⲥⲧⲥⲉⲃⲟ ⲙ̅ⲙⲟϥ’ ⲁⲛⲉⲧϣⲟⲟⲡ’ ⲧⲏⲣⲟⲩ ϩⲛ̅ ⲧⲙⲁϩ‐\nϣⲙⲟⲩⲛⲉ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲁⲙⲉⲓⲟ ⲛ̅ⲛ̅ⲧⲟⲛ‐\nⲧⲛ̅ ⲛ̅ⲛⲏ ϣⲓⲛⲁ ⲧⲙⲛ̅ⲧⲉⲣⲟ ⲉⲥⲛⲁⲙⲟⲩⲛ’ ⲉⲃⲟⲗ’\nⲛⲁϥ ϣⲁ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲛⲙ̅ⲡⲏⲩⲉ ⲙ̅ⲡⲭⲁⲟⲥ\nⲙⲛ̅ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲧⲥⲟⲫⲓⲁⲥ‐\nⲡⲟⲣϫϥ̅ ⲉⲡⲕⲁⲕⲉ ⟦ⲥ⟧ ⲁⲥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲉⲟⲩⲛⲁⲙ\nⲙ̅ⲙⲟⲥ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ ⲇⲉ ⲁⲥⲕⲁⲁϥ ϩⲓ ϭⲃⲟⲩⲣ’\nⲙ̅ⲙⲟⲥ ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲟⲩ‐\nⲛⲁⲙ ϫⲉ ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ϭⲃⲟⲩⲣ ⲇⲉ ⲁⲩⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲁⲇⲓⲕⲓⲁ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ϭⲉ ⲁⲩϫⲓ\nⲧⲏⲣⲟⲩ † ⲛ̅ⲟⲩⲕⲟⲥⲙⲟⲥ ⲛ̅ⲧⲉⲕ’ⲕⲗⲏⲥⲓⲁ ⲛ̅ⲧⲇⲓⲕⲁⲓ‐\nⲟⲥⲩⲛⲏ ⲙⲛ̅ ⲧⲁⲇⲓⲕⲓⲁ ⲁϩⲉ ⲉⲣⲁⲓ̈ ⲉϫⲛ̅ ⲟⲩⲥⲱⲛⲧ’\nⲧⲏⲣⲟⲩ † §ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ ϭⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲛ̅ⲧⲁ‐"
+        },
+        {
+          "title": "Yaldabaoth Produces Death",
+          "subtitle": "Yaldabaoth Produces Death",
+          "heading": "Yaldabaoth Produces Death (106, 19-107, 17)",
+          "rangeLabel": "106, 19-107, 17",
+          "range": {
+            "start": {
+              "page": 106,
+              "line": 19
+            },
+            "end": {
+              "page": 107,
+              "line": 17
+            }
+          },
+          "english": "When the chief creator of chaos saw his son Sabaoth and the glory in which he\ndwells, and recognized that he was the greatest of all the authorities of chaos, he\nwas jealous of him. He was angry, and he engendered death from his own death.\nDeath was established over the sixth heaven, for Sabaoth had been carried away\nfrom there. So the complete number of the six authorities of chaos was realized.\nSince death was androgynous, he had sex with himself and produced seven\nandrogynous children. These are the names of the males: envy, wrath, tears,\nsighs, grief, lament, tearful groans. These are the names of the females: anger,\npain, lust, sighs, curses, bitterness, strife. They had sex with each other, and each\none conceived seven children, so that the children total forty-nine\nandrogynous demons.\nYou will find their names and functions in the Book of Solomon.\nIn the presence of these, Zoe, who dwells with Sabaoth, created seven good\nandrogynous powers. These are the names of the males: the one not jealous, the\nblessed, the joyful, the true, the one not envious, the beloved, the faithful. These\nare the names of the females: peace, gladness, joyfulness, blessedness, truth,\nlove, faith. Many good and pure spirits come from these powers.\nYou will find their accomplishments and functions in the Configurations of\nthe Fate of Heaven Beneath the Twelve.\nYaldabaoth Is Distressed About His Mistake",
+          "coptic": "ⲧⲏⲣⲟⲩ † §ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ ϭⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲛ̅ⲧⲁ‐\nⲣⲉϥⲛⲁⲩ ⲉⲡⲉϥ’ϣⲏⲣⲉ ⲥⲁⲃⲁⲱⲑ ⲁⲩⲱ ⲡⲉ‐\nⲟⲟⲩ ⲉⲧϥⲛ̅ϩⲏⲧϥ’ ϫⲉ ϥ’ⲥⲟⲧⲡ’ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ\nⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ ⲁϥⲕⲱϩ ⲉⲣⲟϥ’ ⲁⲩⲱ ⲛ̅ⲧⲁ‐\nⲣⲉϥϭⲱⲛⲧ’ ⲁϥϫⲡⲟ ⲙ̅ⲡⲙⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥ’‐\nⲙⲟⲩ ⲁⲩⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ’ ⲉϫⲛ̅ ⲧⲙⲁϩⲥⲟⲉ\nⲙ̅ⲡⲉⲁⲩⲧⲁⲣⲡ’ ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲙ̅ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ’\nⲁⲩⲱ ⲧⲉⲉⲓϩⲉ ⲁϥϫⲱⲕ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲁⲣⲓⲑⲙⲟⲥ\nⲛ̅ⲧⲥⲟⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲭⲁⲟⲥ ⲧⲟⲧⲉ ⲡⲙⲟⲩ\nⲉϥⲟ ⲛ̅ϩⲟⲩⲧ’ⲥϩⲓⲙⲉ ⲁϥⲧⲱϩ ⲙⲛ̅ ⲧⲉϥⲫⲩⲥⲓⲥ\nⲁϥϫⲡⲟ ⲛ̅ⲥⲁϣϥ ⲛ̅ϣⲏⲣⲉ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\n§ⲛⲁⲉⲓ ⲛⲉ ⲣ̅ⲣⲁⲛ ⲛ̅ⲛ̅ϩⲟⲟⲩⲧ’ ⲡⲕⲱϩ ⲡϭⲱⲛⲧ’\nⲡⲣⲓⲙⲉ ⲡⲁϣ ⲉϩⲟⲙ ⲡⲡⲉⲛⲑⲟⲥ ⲡⲱϣ ⲗⲟⲩ‐\nⲗⲁⲉⲓ ⲡⲣⲓⲙⲉ ⲛ̅ϣⲧⲃⲟ ⲛⲁⲉⲓ ⲇⲉ ⲛⲉ ⲛ̅ⲣⲁⲛ\nⲛ̅ⲛⲥϩⲓⲟⲙⲉ ⲧⲟⲣⲅⲏ’ ⲧⲗⲩⲡⲏ ⲑⲏⲇⲟⲛⲏ\nⲡⲁϣ ⲉϩⲟⲙ’ ⲡⲥⲁϩⲟⲩⲉ ⲧⲡⲓⲕⲣⲓⲁ ⲧⲙ̅ⲛ̅〈ⲧ〉ϯ ⲧⲱⲛ\nⲁⲩⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲁⲡⲟⲩⲁ\nⲇ[ⲉ ⲡⲟ]ⲩⲁ ϫⲡⲉ ⲥⲁϣϥ̅ ϩⲱⲥⲧⲉ ⲥⲉⲉⲓⲣⲉ ⲛ̅\nϩⲙⲉⲯⲓ⟦ⲧ⟧’ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\n§ⲛⲟⲩⲣⲁⲛ ⲙⲛ̅ ⲛⲟⲩⲉⲛⲉⲣⲅⲉⲓⲁ ⲕⲛⲁϩⲉ\nⲉⲣⲟⲟⲩ ϩⲙ̅ ⲡϫⲱⲱⲙⲉ ⲛ̅ⲥⲟⲗⲟⲙⲱⲛ’\n§ⲁⲩⲱ ⲙ̅ⲡⲙ̅ⲧⲟ ⲉⲃⲟⲗ’ ⲛ̅ⲛⲁⲉⲓ ⲍⲱⲏ’ ⲉⲧ’‐\nϣⲟⲟⲡ’ ⲙⲛ̅ ⲥⲁⲃⲁⲱⲑ ⲁⲥⲧⲁⲙⲓⲟ ⲥⲁϣϥ̅\nⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲉⲛⲁⲛⲟⲩⲟⲩ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\nⲛ̅ⲣⲁⲛ ⲛ̅ⲛ̅ϩⲟⲟⲩⲧ ⲛⲉ ⲛⲁⲉⲓ’ ⲡⲉⲧⲉ ⲙⲁϥ‐\nⲕⲱϩ’ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲡ〈ⲉⲧ〉ⲟⲩⲛⲟϥ’ ⲡⲁⲗⲏⲑⲓ‐\nⲛⲟⲥ ⲡⲉⲧⲉ ⲙⲁϥⲫⲑⲟⲛⲉⲓ’ ⲡⲁⲅⲁⲡⲏⲧⲟⲥ\nⲡⲉⲧⲛ̅ϩⲟⲧ’ ⲛ̅ϩⲓⲟⲙⲉ ϩⲱⲟⲩ † ⲛⲉ ⲛⲁⲉⲓ ⲛⲟⲩ‐\nⲣⲁⲛ † ϯⲣⲏⲛⲏ’ ⲡⲟⲩⲣⲁⲧ’ ⲡⲧⲉⲗⲏⲗ ⲧ〈ⲙⲛ̅ⲧ〉ⲙⲁⲕⲁ‐\nⲣⲓⲟⲥ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲧⲁⲅⲁⲡⲏ ⲧⲡⲓⲥⲧⲓⲥ ⲁⲩ‐\nⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁⲉⲓ ⲟⲩⲛ̅ ϩⲁϩ ⲙ̅ⲡⲛ̅ⲁ̅ ⲛ̅ⲁⲅⲁ‐\nⲑⲟⲛ ⲁⲩⲱ ⲃ̅ⲃⲁⲗϩⲏⲧ’ §ⲛⲟⲩⲁⲡⲟⲧⲉⲗⲉⲥ‐\nⲙⲁ ⲙⲛ̅ ⲛⲟⲩⲉⲛⲉⲣⲅⲉⲓⲁ ⲕⲛⲁϩⲉ ⲉⲣⲟⲟⲩ ϩⲛ̅\nⲛ̅ⲥⲭⲏⲙⲁ ⲛ̅ϫⲓⲙⲁⲣⲙⲉⲛⲏ’ ⲛ̅ⲧⲡⲉ ⲉⲧⲙ̅‐\nⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲙ̅ⲡⲓⲙ̅ⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ §ⲡⲁⲣⲭⲓ‐"
+        },
+        {
+          "title": "107, 17-108, 5",
+          "subtitle": "107, 17-108, 5",
+          "heading": "(107, 17-108, 5)",
+          "rangeLabel": "107, 17-108, 5",
+          "range": {
+            "start": {
+              "page": 107,
+              "line": 17
+            },
+            "end": {
+              "page": 108,
+              "line": 5
+            }
+          },
+          "english": "When the chief creator saw the reflection of Pistis in the waters, he was deeply\ndistressed, especially when he heard her voice, which was like the first voice that\ncalled to him out of the waters. When he knew that she was the one who gave\nhim his name, he groaned. He was ashamed because of his transgression. And\nwhen he knew for certain that an enlightened, immortal human existed before\nhim, he was greatly disturbed, because earlier he had said to all the gods and\ntheir angels, “I am God; there is no other but me.” For he feared that they\nmight know another existed before him and condemn him.\nBut the chief creator was a fool. He had contempt for condemnation and\nacted rashly, and he said, “If anything existed before me, let it appear so\nthat we may see its light.”\nAnd at once, look, light shone out of the eighth heaven above and passed\nthrough all the heavens of the earth.",
+          "coptic": "ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲙ̅ⲡⲓⲙ̅ⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ §ⲡⲁⲣⲭⲓ‐\nⲅⲉⲛⲉⲧⲱⲣ ⲇⲉ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲁⲡⲓⲛⲉ ⲛ̅‐\nⲧⲡⲓⲥⲧⲓⲥ ϩⲛ̅ ⲛ̅ⲙ̅ⲙⲟⲟⲩ ⲁϥⲗⲩⲡⲉⲓ ⲉⲙⲁ‐\nⲧⲉ ⲙⲁⲗⲓⲥⲧⲁ ⲛ̅ⲧⲁⲣⲉϥ’ⲥⲱⲧⲙ̅ ⲁⲧⲉⲥⲥⲙⲏ\nⲉⲥⲉⲓⲛⲉ ⲛ̅ⲧϣⲟⲣⲡ’ ⲛ̅ⲥⲙⲏ ⲧⲁⲉⲓ ⲉⲛⲧⲁϩ‐\nⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ\nⲛ̅ⲧⲁⲣⲉϥⲉⲓⲙⲉ ϫⲉ ⲧⲁⲉⲓ ⲧⲉ ⲛ̅ⲧⲁϩϯ ⲣⲁⲛ\nⲉⲣⲟϥ’ ⲁϥⲉϣ ⲉϩⲟⲙ ⲁϥϣⲓⲡⲉ ⲉϫⲛ̅ ⲧⲉϥ’‐\nⲡⲁⲣⲁⲃⲁⲥⲓⲥ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥ’ⲉⲓⲙⲉ ⲛⲁ‐\nⲙⲉ ϫⲉ ⲟⲩⲛ̅ ⲟⲩⲣⲱⲙⲉ ⲛ̅ⲁⲧⲙⲟⲩ ⲣ̅ⲣⲙ̅‐\nⲟⲩⲟⲉⲓⲛ ϣⲟⲟⲡ’ ϩⲓ ⲧⲉϥⲉϩⲏ ⲁϥϣⲧⲟⲣ’‐\nⲧⲣ ⲉⲙⲁⲧⲉ ϫⲉ ⲛⲉ ⲁϥϣⲣ̅ⲡⲛ̅ϫⲟⲟⲥ’\nⲛ̅ⲛ̅ⲛⲟⲩⲧⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ\nϫⲉ ⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲕⲉⲟⲩⲁ\nϣⲟⲟⲡ’ ⲁϫⲛ̅ⲧ ⲛⲉ ⲁϥⲣ̅ ϩⲟⲧⲉ ⲅⲁⲣ ⲙⲏ‐\nⲡⲱⲥ ⲛ̅ⲥⲉⲉⲓⲙⲉ ϫⲉ ⲟⲩⲛ̅ ⲕⲉⲟⲩⲁ\nϣⲟⲟⲡ’ ϩⲓ ⲧⲉϥⲉϩⲏ ⲛ̅ⲥⲉⲣ̅ⲕⲁⲧⲁⲅⲓ‐\nⲛⲱⲥⲕⲉ ⲙ̅ⲙⲟϥ’ §ⲛ̅ⲧⲟϥ ⲇⲉ ϩⲱⲥ ⲁⲛⲟ‐\nⲏⲧⲟⲥ ⲁϥⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲛ̅ⲧⲕⲁⲧⲁⲅⲛⲱ‐\nⲥⲓⲥ ⲁⲩⲱ ⲁϥⲧⲟⲗⲙⲁ ⲡⲉϫⲁϥ ϫⲉ ⲉϣ’\nϫⲉ ⲟⲩⲁ ϣⲟⲟⲡ’ ϩⲓ ⲧⲁⲉϩⲏ ⲙⲁⲣⲉϥⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲕⲁⲥ’ ⲉⲛⲁⲛⲁⲩ ⲉⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ §ⲁⲩⲱ\nⲛ̅ⲧⲉⲩⲛⲟⲩ ⲉⲓⲥ ⲟⲩⲟⲉⲓⲛ ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲁϩ‐\nϣⲙⲟⲩⲛⲉ ⲉⲧⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ ⲁϥϫⲱⲃⲉ ⲛⲙ̅ⲡⲏⲩ‐\nⲉ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲕⲁϩ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’"
+        },
+        {
+          "title": "Adam of Light Shines Forth",
+          "subtitle": "Adam of Light Shines Forth",
+          "heading": "Adam of Light Shines Forth (108, 5-109, 1)",
+          "rangeLabel": "108, 5-109, 1",
+          "range": {
+            "start": {
+              "page": 108,
+              "line": 5
+            },
+            "end": {
+              "page": 109,
+              "line": 1
+            }
+          },
+          "english": "When the chief creator saw that the light was beautiful as it shone forth, he was\namazed and very much ashamed. The light appeared and a human likeness was\nvisible within it, and it was marvelous. No one saw it except the chief creator\nand Forethought, who was with him. But its light was visible to all the powers\nof the heavens, and so they all were disturbed by it.\nWhen Forethought saw this messenger of light, she fell in love with him,\nbut he hated her because she was in darkness. She desired to mate with him, but\nshe was not able. When she was unable to satisfy her desire, she poured out her\nlight upon the earth.\nSince then this messenger has been called Adam of light, which means “the\nenlightened person of blood.” The earth upon <which the light of\nForethought> spread was called holy Adamas, which means “the holy\nadamantine earth.”\nFrom that time on all the authorities have honored the blood of the virgin,\nand the earth was purified because of the blood of the virgin.\nFurther, the water was purified by the reflection of Pistis Sophia, who had\nappeared to the chief creator in the waters. Rightly has it been said, “through the\nwaters.” Since the holy water gives life to all, it purifies all.",
+          "coptic": "ⲉ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲕⲁϩ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’\nⲛⲁⲩ ⲉⲡⲟⲩⲟⲉⲓⲛ ϫⲉ ⲛⲉⲥⲱϥ’ ⲉϥⲡⲣ̅ⲣⲓⲱⲟⲩ’\nⲁϥⲣ̅ ϣⲡⲏⲣⲉ ⲁⲩⲱ ⲁϥϣⲓⲡⲉ ⲉⲙⲁⲧⲉ ⲛⲧⲁⲣⲉ\nⲡⲓⲟⲩⲟⲉⲓⲛ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲉⲓⲛⲉ ⲣ̅ⲣⲱⲙⲉ\nϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ⲉϥⲟ ⲛ̅ϣⲡⲏⲣⲉ ⲉⲙⲁ‐\nⲧⲉ ⲁⲩⲱ ⲙ̅ⲡⲉ ⲗⲁⲁⲩ ⲛⲁⲩ ⲉⲣⲟϥ’ ⲉⲓ ⲙⲏⲧⲓ’ ⲁ‐\nⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’ ⲟⲩⲁⲁϥ’ ⲙⲛ̅ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ\nⲉⲧⲛ̅ⲙ̅ⲙⲁϥ’ ⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲇⲉ ⲁϥ’ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’\nⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲛⲙ̅ⲡⲏⲩⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ\nⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲧⲏⲣⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ̅’ §ⲧⲟⲧⲉ ⲧⲡⲣⲟ‐\nⲛⲟⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥⲛⲁⲩ ⲁⲡⲓⲁⲅⲅⲉⲗⲟⲥ ⲁⲥⲙⲉⲣⲓⲧϥ’\nⲛ̅ⲧⲟϥ’ ⲇⲉ ⲛⲉϥ’ⲙⲟⲥⲧⲉ ⲙ̅ⲙⲟⲥ’ ϫⲉ ⲛⲉⲥϩⲓ ⲡⲕⲁ‐\nⲕⲉ ⲛⲉⲥⲟⲩⲱϣ ⲇⲉ ⲁϭⲟⲗϫⲥ̅ ⲙ̅ⲙⲟϥ’ ⲙ̅ⲡⲉⲥ‐\nϭⲙ̅ϭⲟⲙ ⲛ̅ⲧⲁⲣⲉⲥⲧⲙ̅ϣⲧⲗ̅ϭⲟ ⲙ̅ⲡⲉⲥⲙⲉⲉⲓⲉ\nⲁⲥⲡⲱϩⲧ’ ⲙ̅ⲡⲉⲥⲟⲩⲟⲉⲓⲛ’ ⲉϫⲙ̅ ⲡⲕⲁϩ §ϫⲓⲙ’\nⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲁⲡⲁⲅⲅⲉⲗⲟⲥ ⲉ‐\nⲧⲙ̅ⲙⲁⲩ ϫⲉ ⲁⲇⲁⲙ’ ⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲡⲉϥⲟⲩⲱϩⲙ̅\nⲡⲉ ⲡⲣⲙ̅ⲛ̅ⲥⲛⲟϥ’ ⲛ̅ⲟⲩⲟⲉⲓⲛ † ⲁⲩⲱ ⲁⲡⲕⲁϩ\nⲡⲱⲣϣ’ ⲉⲃⲟⲗ’ ⲉϫⲱϥ’ ⲁⲇⲁⲙⲁⲛ ⲉⲧ’ⲟⲩⲁⲁⲃ’ †\nⲉⲧⲉ ⲡⲉϥ’ⲟⲩⲱϩⲙ’ ⲡⲉ ⲡⲕⲁϩ ⲛ̅ⲁⲇⲁⲙⲁⲛⲧⲓ‐\nⲛⲏ ⲉⲧⲟⲩⲁⲁⲃ §ϫⲓⲙ ⲫⲟⲟⲩ’ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲣ̅‐\nⲧⲓⲙⲁ ⲙ̅ⲡⲥⲛⲟϥ’ ⲛ̅ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̅ϭⲓ ⲛⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲡⲕⲁϩ ⲇⲉ ⲁϥⲧⲟⲩⲃⲟ ⲉⲧⲃⲉ\n† ⲡⲥⲛⲟϭ ⲛ̅ⲧⲡⲁⲣⲑⲉⲛⲟⲥ §ⲛ̅ϩⲟⲩⲟ ⲇⲉ ⲛ̅ϩⲟⲩⲟ\nⲁⲡⲙⲟⲟⲩ ⲧⲟⲩⲃⲟ ϩⲓⲧⲙ̅ ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ\nⲧⲥⲟⲫⲓⲁ ⲧⲁⲉⲓ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲙ̅‐\nⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’ ϩⲛⲛ̅ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ⲛⲟⲩ‐\nⲉⲩⲗⲟⲅⲟⲛ ϭⲉ ⲁⲩϫⲟⲟⲥ ϫⲉ ϩⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ\nⲡⲙⲟⲟⲩ ⲉⲧⲟⲩⲁⲁⲃ ⲉⲡⲉⲓ ϥⲧⲛ̅ϩⲟ ⲙ̅ⲡⲧⲏⲣϥ’\nϥⲧⲟⲩⲃⲟ ⲙ̅ⲙⲟϥ §ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲥⲛⲟϥ’ ⲛ̅ϣⲟⲣⲡ’"
+        },
+        {
+          "title": "Eros",
+          "subtitle": "Eros",
+          "heading": "Eros (109, 1-110, 1)",
+          "rangeLabel": "109, 1-110, 1",
+          "range": {
+            "start": {
+              "page": 109,
+              "line": 1
+            },
+            "end": {
+              "page": 110,
+              "line": 1
+            }
+          },
+          "english": "Out of this first blood Eros appeared. Eros is androgynous. His masculine side\nis Himeros, because he is fire from the light, and his feminine side is a soul of\nblood from the substance of Forethought. He is extremely handsome in\nappearance, and more attractive than all the creatures of chaos.\nWhen all the gods and their angels saw Eros, they fell in love with him. He\nappeared within them all and made them burn with desire. Just as many lamps\nare lit from a single lamp and all the light is the same but the light of the single\nlamp is not diminished, so also Eros was dispersed in all the creatures of chaos\nbut was not diminished. Just as Eros appeared in the middle of light and\ndarkness, and the sexual intercourse of Eros was accomplished in the middle of\nangels and people, so too the first sexual desire sprouted on the earth.\nWoman followed the earth,\nmarriage followed woman,\nbirth followed marriage,\ndecay followed birth.\nAfter Eros, a grapevine sprouted up from the blood that was shed upon the\nearth, and so those who drink of the fruit of the vine are filled with sexual desire.\nAfter the grapevine, a fig tree and a pomegranate tree sprouted up from the\nearth, along with the rest of the trees, of every kind, and the seed of the trees\ncame from the semen of the authorities and their angels.",
+          "coptic": "ϥⲧⲟⲩⲃⲟ ⲙ̅ⲙⲟϥ §ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲥⲛⲟϥ’ ⲛ̅ϣⲟⲣⲡ’\nⲁⲡⲉⲣⲱⲥ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉϥⲟ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\nⲧⲉϥⲙⲛ̅ⲧϩⲟⲟⲩⲧ’ ⲡⲉ ϩⲓⲙ̅ⲓ̅ⲣ̅ⲏ̅ⲣ̅ⲓ̅ⲥ ⲉϥⲟ ⲛ̅‐\nⲕⲱϩⲧ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲧⲉϥⲙⲛ̅ⲧⲥϩⲓ‐\nⲙⲉ ⲉⲧⲛ̅ⲙ̅ⲙⲁϥ’ ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲥⲛⲟϥ’ ⲟⲩⲉ‐\nⲃⲟⲗ ⲧⲉ ϩⲛ̅ ⲧⲟⲩⲥⲓⲁ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ⲛⲉⲥⲱϥ’\nⲉⲙⲁⲧⲉ ϩⲙ̅ ⲡⲉϥⲥⲁ ⲉⲩⲛ̅ⲧⲉϥ’ ⲭⲁⲣⲓⲥ ⲡⲁⲣⲁ\nⲛ̅ⲥⲱⲛⲧ’ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ §ⲧⲟⲧⲉ ⲁⲛⲛⲟⲩ‐\nⲧⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲁⲅ’ⲅⲉⲗⲟⲥ ⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ\nⲁⲡⲉⲣⲱⲥ ⲁⲩⲙⲉⲣⲓⲧϥ’ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩⲱⲛϩ ⲇⲉ\nⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲟⲩ ⲧⲏⲣⲟⲩ ⲁϥⲣⲁⲕϩⲟⲩ ⲛ̅ⲑⲉ\nⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩϩⲏⲃⲥ̅ ⲟⲩⲱⲧ ϣⲁⲣⲉ ϩⲁϩ ⲛ̅ϩⲏⲃ̅ⲥ̅\nϫⲉⲣⲟ ⲁⲩⲱ ⲡⲓⲟⲩⲟⲉⲓⲛ ⲟⲩⲱⲧ’ ⲙ̅ⲙⲁⲩ ⲡϩⲏ̅ⲃ̅ⲥ̅\nⲇⲉ ⲙⲁϥϭⲱϫⲃ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲡⲓⲉⲣⲱⲥ\nϫⲱⲱⲣⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲥⲱⲛⲧ’ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁ‐\nⲟⲥ ⲁⲩⲱ ⲙ̅ⲡⲉϥϭⲱϫⲃ̅ §ⲕⲁⲧⲁ ⲑⲉ ⲉⲃⲟⲗ ϩⲛ̅\nⲧⲙⲉⲥⲟⲧⲏⲥ ⲉⲧⲟⲩⲧⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐\nⲕⲉ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲉⲣⲱⲥ ϩⲛ̅ ⲧⲙⲉ‐\nⲥⲟⲧⲏⲥ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲙⲛ̅ ⲣ̅ⲣⲱⲙⲉ ⲁⲥϫⲱⲕ\nⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲥⲩⲛⲟⲩⲥⲓⲁ ⲙ̅ⲡⲉⲣⲱⲥ ⲧⲉⲓ̈ϩⲉ\nⲉϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲁⲥϯ ⲟⲩⲱ ⲛ̅ϭⲓ ⲧϣⲟⲣⲡ ⲛ̅‐\nϩⲏⲇⲟⲛⲏ §ⲁⲧⲥϩⲓⲙⲉ ⲟⲩⲁϩⲥ̅ ⲛ̅ⲥⲁ ⲡⲕⲁϩ\nⲁⲩⲱ ⲁⲡⲅⲁⲙⲟⲥ ⲟⲩⲏϩ ⲛ̅ⲥⲁ ⲧⲥϩⲓⲙⲉ ⲁⲡ’‐\nϫⲡⲟ ⲟⲩⲏϩ ⲛ̅ⲥⲁ ⲡⲅⲁⲙⲟⲥ ⲁⲡⲃⲱⲗ ⲉⲃⲟⲗ\n† ⲑⲩⲁϩϥ ⲛ̅ⲥⲁ ⲡⲉϫⲡⲟ §ⲙ̅ⲙⲛ̅ⲛⲥⲁ ⲡⲉⲣⲱⲥ\nⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲃⲉⲛⲉⲗⲁⲁⲗⲉ ϯ ⲟⲩⲱ ⲉϩⲣⲁⲓ̈\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲥⲛⲟϥ ⲛ̅ⲧⲁⲩⲡⲁϩⲧϥ̅ ⲉϫⲙ̅\nⲡⲕⲁϩ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲛⲉⲧ’ⲥⲱ ⲙ̅ⲙⲟϥ’ ϣⲁⲩ‐\nϫⲡⲟ ⲛⲁⲩ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲛ̅ⲧⲥⲩⲛⲟⲩⲥⲓⲁ\nⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ ⲧⲃⲉⲛⲉⲗⲟⲟⲗⲉ ⲁⲩⲃⲉⲛ̅ⲕⲛ̅‐\nⲧⲉ ⲙⲛ̅ⲛⲟⲩⲃⲉⲛ̅ⲗⲁϩⲙⲉⲛ ϯ ⲟⲩⲱ ⲉϩ‐\nⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲙⲛ̅ ⲡⲕⲉⲥⲉⲉⲡⲉ ⲛ̅ϣⲏⲛ\nⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲟⲩ‐\nⲥⲡⲉⲣⲙⲁ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ⲉⲃⲟⲗ ϩⲙ ⲡ’\nⲥⲡⲉⲣⲙⲁ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ"
+        },
+        {
+          "title": "The Creation of Paradise",
+          "subtitle": "The Creation of Paradise",
+          "heading": "The Creation of Paradise (110, 2-111, 8)",
+          "rangeLabel": "110, 2-111, 8",
+          "range": {
+            "start": {
+              "page": 110,
+              "line": 2
+            },
+            "end": {
+              "page": 111,
+              "line": 8
+            }
+          },
+          "english": "Then justice created paradise. Paradise is beautiful, and is outside the circuit of\nthe moon and the circuit of the sun in the land of pleasure, which is in the east in\nthe rocky region. Desire dwells in the middle of the beautiful, stately trees. The\ntree of life eternal, as it appeared by the will of God, is in the north of paradise to\ngive immortality to the souls of holy people, who will leave their poor modeled\nbodies at the end of the age. The tree of life looks like the sun, and its branches\nare lovely. Its leaves are like the leaves of the cypress, its fruit is like a cluster of\nwhite grapes, and its height reaches the sky.\nNext to it is the tree of knowledge, which is endowed with the power of\nGod. It is glorious as the moon shining brightly, and its branches are lovely. Its\nleaves are like fig leaves and its fruit is like a bunch of good, delicious dates.\nThe tree of knowledge is in the north of paradise to arouse the souls from\ndemonic stupor, so that they might come to the tree of life, eat its fruit, and\ncondemn the authorities and their angels.\nThe impact of this tree is described in the Holy Book:\nYou are the tree of knowledge,\nwhich is in paradise,\nfrom which the first man ate.\nYou opened his mind,\nand he loved his female partner\nand condemned other strange figures,\nand he loathed them.\nAfter this the olive tree sprouted, and it was to purify kings and high priests\nof justice who were to come in the last days. The olive tree appeared through the\nlight of the first Adam for the sake of the oil of anointing that kings and high\npriests would receive.",
+          "coptic": "§ⲧⲟⲧⲉ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲁⲥⲧⲁⲙⲉⲓⲟ ⲡⲡⲁ‐\nⲣⲁⲇⲉⲓⲥⲟⲥ ⲉⲛⲉⲥⲱϥ ⲉϥⲙ̅ⲡⲃⲟⲗ’ ⲙ̅ⲡⲕⲩ‐\nⲕⲗⲟⲥ ⲙ̅ⲡⲟⲟϩ ⲙⲛ̅ ⲡⲕⲩⲕⲗⲟⲥ ⲙ̅ⲡⲣⲏ ϩⲙ̅\nⲡⲕⲁϩ ⲛ̅ⲧⲣⲩⲫⲏ’ ⲉⲧ〈ⲛ̅〉ⲙ̅ⲙⲁ ⲛ̅ϣⲁ ϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲛ̅ⲛ̅ⲱⲛⲉ ⲁⲩⲱ ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅‐\nⲛ̅ϣⲏⲛ ⲉⲛⲉⲥⲱⲟⲩ ⲉⲩⲟ ⲛ̅ⲗⲁϩⲗϩ ⲁⲩⲱ\nⲡϣⲏⲛ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲛⲁⲧⲙⲟⲩ ⲛ̅ⲑⲉ ⲛ̅ⲧⲁϥ’‐\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲛⲟⲩⲧⲉ\nϩⲙ̅ ⲡⲥⲁ ⲙϩⲓⲧ’ ⲙ̅ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲁⲧⲣⲉϥⲣ̅\nⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ’ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ⲛⲁⲉⲓ\nⲉⲧⲛ̅ⲛⲏⲩ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲛ̅ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲧⲙⲛ̅ⲧ‐\nϩⲏⲕⲉ ⲛ̅ⲧⲥⲩⲛ’ⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ ⲡⲉⲩⲁⲛ\nⲇⲉ ⲙ̅ⲡϣⲏⲛ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲑⲉ ⲙ̅ⲡⲣⲏ ⲁⲩⲱ\nⲛⲉϥⲕⲗⲁⲇⲟⲥ ⲛⲉⲥⲱⲟⲩ ⲛⲉϥϭⲱⲃⲉ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲁ ⲡⲕⲩⲡⲁⲣⲓⲥⲥⲟⲥ ⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲓⲥⲙⲁϩ ⲛ̅ⲉⲗⲟⲟⲗⲉ ⲉϥⲟⲩⲟⲃϣ̅ ⲡⲉϥϫⲓ‐\nⲥⲉ ⲃⲏⲕ ϣⲁϩⲣⲁⲓ̈ ⲉⲧⲡⲉ §ⲁⲩⲱ ⲁⲧⲟⲩⲱϥ ⲡϣⲏⲛ\nⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲉⲩⲛ̅ⲧⲁϥ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲇⲩⲛⲁⲙⲓⲥ\nⲙ̅ⲡⲛⲟⲩⲧⲉ ⲡⲉϥ’ⲉⲟⲟⲩ ⲟ ⲛ̅ⲑⲉ ⲙ̅ⲡⲟⲟϩ ⲉϥ’‐\nⲡⲣ̅ⲣⲓⲱⲟⲩ ⲉⲙⲁⲧⲉ ⲁⲩⲱ ⲛⲉϥⲧⲁⲣ’ ⲛⲉⲥⲱⲟⲩ\nⲛⲉϥϭⲱⲱⲃⲉ ⲟ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϭⲱⲱⲃⲉ ⲛ̅ⲕⲛ̅ⲧⲉ\nⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲟ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲃⲛ̅ⲛⲉ’ ⲉⲧⲛⲁⲛⲟⲩ‐\nⲟⲩ ⲛ̅ⲗⲉϩⲗϩ̅ ⲡⲁⲉⲓ ⲇⲉ ⲉϥϩⲓ ⲡⲥⲁ ⲙϩⲓⲧ’ ⲙ̅ⲡⲁ‐\nⲣⲁⲇⲓⲥⲟⲥ ⲁⲧⲣⲉϥ’ⲧⲱⲟⲩⲛ ⲛⲙ̅ⲯⲩⲭⲏ ⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲃ̅ϣⲉ’ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱⲛ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲏⲩ\nⲉϩⲟⲩⲛ’ ⲉⲡϣⲏⲛ’ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲥⲉⲟⲩⲱⲙ’ ⲙ̅‐\nⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲁⲩⲱ ⲛ̅ⲥⲉⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲛ̅ⲛ̅‐\nⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛⲟⲩⲁⲅ’ⲅⲉⲗⲟⲥ §ⲡⲁⲡⲟⲧⲉⲗⲉⲥ‐\nⲙⲁ ⲙ̅ⲡⲉⲉⲓϣⲏⲛ ϥⲥⲏϩ ϩⲛ̅ ϫⲓⲉⲣⲁ ⲃⲓⲃⲗⲟⲥ\nϫⲉ ⲛ̅ⲧⲟⲕ ⲡⲉ ⲡϣⲏⲛ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲡⲁⲉⲓ\nⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲡⲁⲉⲓ ⲛ̅ⲧⲁ ⲡϣⲟⲣⲡ’\nⲣ̅ⲣⲱⲙⲉ ⲟⲩⲟⲙϥ’ ⲁϥⲟⲩⲏⲛ’ ⲁⲡⲉϥⲛⲟⲩⲥ\nⲁϥⲙⲣ̅ⲣⲉ ⲧⲉϥ’ϣⲃⲣ̅ⲉⲓⲛⲉ ⲁϥⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ\n〈ⲛ̅〉ⲛ̅ⲕⲉⲉⲓⲛⲉ ⲛ̅ⲁⲗⲗⲟⲧⲣⲓⲟⲛ ⲁϥⲥⲓⲭⲁⲛⲉ ⲉⲣⲟ‐\nⲟⲩ’ §ⲙⲛ̅ⲛ̅ⲥⲁ ⲡⲁⲉⲓ ⲇⲉ ⲁⲧⲃⲉⲛϫⲟⲉⲓⲧ’ ϯ ⲟⲩⲱ\nⲉϩⲣⲁⲓ̈ ⲧⲁⲉⲓ ⲉⲧⲛⲁⲧⲟⲩⲃⲟ ⲛ̅ⲣ̅ⲣⲱⲟⲩ ⲙⲛ̅ ⲛ̅‐\nⲁⲣⲭⲓⲉⲣⲉⲩⲥ ⲛ̅ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲛⲁⲉⲓ ⲉⲧⲛⲁ‐\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϩⲁⲉⲩ ⲛ̅ⲛⲉϩⲟⲟⲩ’ ⲉⲁ‐\nⲧⲃⲉⲛϫⲟⲉⲓⲧ ⲇⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲙ̅ⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲇⲁⲙ ⲉⲧⲃⲉ ⲡⲭⲣⲓⲥⲙⲁ\nⲉⲧⲟⲩ〈ⲛⲁ〉ϫⲓⲧϥ’ §ⲧϣⲟⲣⲡ’ ⲇⲉ ⲙ̅ⲯⲩⲭⲏ ⲁⲥⲙⲣ̅ⲣⲉ"
+        },
+        {
+          "title": "The Creation of Plants, Animals, and Heavenly Bodies",
+          "subtitle": "The Creation of Plants, Animals, and Heavenly Bodies",
+          "heading": "The Creation of Plants, Animals, and Heavenly Bodies (111, 8-112, 25)",
+          "rangeLabel": "111, 8-112, 25",
+          "range": {
+            "start": {
+              "page": 111,
+              "line": 8
+            },
+            "end": {
+              "page": 112,
+              "line": 25
+            }
+          },
+          "english": "The first soul, Psyche, loved Eros, who was with her, and she poured her blood\nupon him and upon the earth. From that blood the first rose sprouted upon the\nearth, out of a thorn bush, to give joy to the light that would appear in the\nbramble.\nNext beautiful, fragrant flowers of every kind sprouted upon the earth from\nthe blood of each of the virgin daughters of Forethought. They fell in love with\nEros and poured their blood upon him and upon the earth.\nNext, plants of every kind sprouted upon the earth, and they had the seed of\nthe authorities and their angels within them.\nThen the authorities created animals, reptiles, and birds of every kind from\nthe waters, and they had the seed of the authorities and their angels within\nthem.\nBut before all this, when Adam of light appeared on the first day, he\nremained upon the earth about two days. He left the lower Forethought in heaven\nand ascended toward his light, and at once darkness covered the whole world.\nWhen she wished, Sophia, who is in the lower heaven, received authority\nfrom Pistis and created great heavenly lights and all the stars, and she placed\nthem in the sky to shine upon the earth and designate chronological signs,\nseasons, years, months, days, nights, moments, and so on. Thus the whole region\nof the sky was organized.\nWhen Adam of light wished to enter his light, which is the eighth heaven, he\ncould not do so because of the poverty mingled with his light. So he created a\ngreat aeon for himself, and in that eternal realm he created six more realms and\ntheir worlds, which are six in number and seven times better than the heavens of\nchaos and their worlds.\nAll these realms and their worlds are within the boundless region between\nthe eighth heaven and chaos below it, and they are considered part of the world\nof poverty.\nIf you want to understand the organization of all these, you will find it\ndescribed in the Seventh Cosmos of Hieralias the Prophet.",
+          "coptic": "ⲉⲧⲟⲩ〈ⲛⲁ〉ϫⲓⲧϥ’ §ⲧϣⲟⲣⲡ’ ⲇⲉ ⲙ̅ⲯⲩⲭⲏ ⲁⲥⲙⲣ̅ⲣⲉ\nⲡⲉⲣⲱⲥ ⲉⲧⲛ̅ⲛⲙ̅ⲙⲁⲥ ⲁⲥⲡⲱϩⲧ’ ⲙ̅ⲡⲉⲥ‐\n〈ⲥ〉ⲛⲟϥ’ ⲉϩⲣⲁⲓ̈ ⲉϫⲱϥ’ ⲁⲩⲱ ⲉϫⲙ̅ ⲡⲕⲁϩ ⲉⲃⲟⲗ\nⲇⲉ ϩⲙ̅ ⲡⲥⲛⲟϥ’ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲟⲩⲣⲧ’ ϯ ⲟⲩ‐\nⲱ ⲉϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲛ̅ϣⲟⲣⲡ’ ⲉⲃⲟⲗ ϩⲙ̅\nⲡϣⲟⲛⲧⲉ ⲉⲩⲣⲁϣⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲡⲁⲓ̈ ⲉⲧ’‐\nⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲃⲁⲧⲟⲥ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ\nⲡⲁⲉⲓ ⲁⲛ’ ⲛ̅ϩⲣⲏⲣⲉ ⲉⲛⲉⲥⲱⲟⲩ ⲉⲧⲟ ⲛ̅ⲥⲧⲟⲉⲓ\nⲉⲛⲁⲛⲟⲩϥ’ ⲁⲩϯ ⲟⲩⲱ ⲉϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲕⲁ‐\nⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲉⲓ ⲧⲟⲩⲉⲓ ⲙ̅ⲡⲁⲣ‐\nⲑⲉⲛⲟⲥ ⲛ̅ⲧⲉ ⲛ̅ϣⲉⲉⲣⲉ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ’\nⲛⲁⲉⲓ ⲛ̅ⲧⲁⲣⲟⲩⲙⲉⲣⲉ ⲡⲉⲣⲱⲥ ⲁⲩⲡⲱϩⲧ’\nⲙ̅ⲡⲟⲩⲥⲛⲟϥ’ ⲉϫⲱϥ’ ⲁⲩⲱ ⲉϫⲙ̅ ⲡⲕⲁϩ’ §ⲙ̅‐\nⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲉⲓ’ ⲁⲃⲟⲧⲁⲛⲏ ⲛⲓⲙ’ ϯ ⲟⲩⲱ ⲉϩ‐\nⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅‐\nⲙⲁⲩ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛⲟⲩ‐\nⲁⲅ’ⲅⲉⲗⲟⲥ ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲉⲓ’ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ\nⲥⲱⲛⲧ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲓⲙ\nⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲁⲩⲱ ⲛ̅ϫⲁⲧⲃⲉ ⲙⲛ̅ ⲛϩⲁ’‐\nⲗⲁⲧⲉ ⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅‐\nⲡⲥⲡⲉⲣⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ\n§ϩⲁ ⲧⲉϩⲏ ⲇⲉ ⲛ̅ⲛⲁⲉⲓ ⲧⲏⲣⲟⲩ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ’ ⲙ̅ⲡϣⲟⲣⲡ’ ⲛ̅ϩⲟⲟⲩ ⲥⲛⲁⲩ ⲁϥϭⲱ\nϩⲓϫⲙ̅ ⲡⲕⲁ[ϩ] ⲙ̅ⲡⲣⲏⲧⲉ ⲛ̅ϩⲟⲟⲩ ⲥⲛⲁⲩ ⲁϥ‐\nⲕⲱ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ϩⲛ̅\nⲧⲡⲉ ⲁϥⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ\nⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁⲡⲕⲁⲕⲉ ϣⲱⲡⲉ ⲁϫⲙ̅ ⲡⲕⲟⲥⲙⲟ[ⲥ]\nⲧⲏⲣϥ’ §ⲧⲥⲟⲫⲓⲁ ⲇⲉ ⲉⲧϩⲛ̅ ⲧⲡⲉ ⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅\nⲛ̅ⲧⲁⲣⲉⲥⲟⲩⲱϣ ⲁⲥϫⲓ ⲟⲩⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ⲧⲟⲟⲧⲥ̅\nⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ϩⲛ̅ⲛⲟϭ ⲛ̅ⲣⲉϥ’ⲣ̅ ⲟⲩⲟ‐\nⲉⲓⲛ ⲙⲛ̅ ⲛ̅ⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲥⲕⲁⲁⲩ ϩⲛ̅ ⲧⲡⲉ ⲁⲧⲣⲟⲩ‐\nⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲉϫⲙ̅ ⲡⲕⲁϩ ⲁⲩⲱ ⲥⲉϫⲱⲕ’ ⲉⲃⲟⲗ ⲛ̅‐\nϩⲛ̅ⲥⲏⲙⲉⲓⲟⲛ ⲛ̅ⲭⲣⲟⲛⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲕⲁⲓⲣⲟⲥ ⲙⲛ̅\nϩⲛ̅ⲣⲙ̅ⲡⲟⲟⲩⲉ ⲁⲩⲱ ϩⲛ̅ⲛⲉⲃⲁⲧⲉ ⲙⲛ̅ ϩⲛ̅ϩⲟⲟⲩ\nⲙⲛ̅ ϩⲛ̅ⲟⲩϣⲏ ⲙⲛ̅ ϩⲛ̅ⲥⲟⲩⲥⲟⲩ ⲙⲛ̅ ⲡⲕⲉⲥⲉⲉⲡⲉ\nⲧⲏⲣϥ’ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲡⲙⲁ ⲧⲏⲣϥ’ ⲣ̅ⲕⲟⲥⲙⲉⲓ\nϩⲓϫⲛ̅ ⲧⲡⲉ §ⲁⲇⲁⲙ’ ⲇⲉ ⲟⲩⲟⲉⲓⲛ’ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩⲱϣ\nⲁⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲉⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ\nⲉⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲙ̅ⲡⲉϥϣϭⲙ̅ϭⲟⲙ’ ⲉⲧⲃⲉ\nⲧⲙⲛ̅ⲧϩⲏⲕⲉ ⲛ̅ⲧⲁⲧⲱϩ ⲙⲛ̅ ⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲧⲟⲧⲉ\nⲁϥⲧⲁⲙⲉⲓⲟ ⲛⲁϥ’ ⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ⲁⲓⲱⲛ ⲁⲩⲱ ϩⲙ̅\nⲡⲁⲓⲱⲛ’ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲥⲟⲟⲩ ⲛ̅ⲁⲓⲱⲛ\nⲙⲛ̅ ⲛⲟⲩⲕⲟⲥⲙⲟⲥ ⲉⲩⲉⲓⲣⲉ ⲛ̅ⲥⲟⲟⲩ ⲉⲩⲥⲟⲧⲡ’\nⲁⲛⲙ̅ⲡⲏⲩⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲛⲟⲩⲕⲟⲥⲙⲟⲥ ⲛ̅‐\nⲥⲁϣϥ’ ⲛ̅ⲕⲱⲃ §ⲛⲉⲉⲓⲁⲓⲱⲛ ⲇⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩ‐\nⲕⲟⲥⲙⲟⲥ ⲉⲩϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲧⲉ ⲙⲛ̅ⲧⲉϥ ⲁⲣⲏϫϥ’\nⲉϥⲟⲩⲧⲉ ⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲙⲛ̅ ⲡⲭⲁⲟⲥ ⲉⲧⲙ̅ⲡⲓ‐\nⲧⲛ̅ ⲙ̅ⲙⲟⲥ ⲉⲩⲏⲡ’ ⲙⲛ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲉⲧⲉ ⲡⲁ ⲧ’‐\nⲙⲛ̅ⲧϩⲏⲕⲉ ⲡⲉ §ⲉϣϫⲉ ⲕⲟⲩⲱϣ ⲉⲉⲓⲙⲉ ⲛ̅ⲧⲇⲓⲁ‐\nⲑⲉⲥⲓⲥ ⲛ̅ⲛⲁⲉⲓ ⲕⲛⲁϩⲉ ⲉⲣⲟⲥ ⲉⲥⲥⲏϩ ϩⲙ̅ ⲡⲙⲁϩ‐\nⲥⲁϣϥ ⲛ̅ⲕⲟⲥⲙⲟⲥ ⲛ̅ϣⲓⲉⲣⲁⲗⲓⲁⲥ ⲡⲉⲡⲣⲟⲫⲏ‐\nⲧⲏⲥ §ϩⲁ ⲧⲉϩⲏ ⲇⲉ ⲙ̅ⲡⲁⲧⲉ ⲁⲇⲁⲙ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲣ̅‐"
+        },
+        {
+          "title": "The Creation of Humankind",
+          "subtitle": "The Creation of Humankind",
+          "heading": "The Creation of Humankind (112, 25-114, 4)",
+          "rangeLabel": "112, 25-114, 4",
+          "range": {
+            "start": {
+              "page": 112,
+              "line": 25
+            },
+            "end": {
+              "page": 114,
+              "line": 4
+            }
+          },
+          "english": "Before Adam of light made his return, the authorities saw him in chaos. They\nlaughed at the chief creator because he lied when he said, “I am God; no one\nexists before me.”\nWhen they came to the chief creator, they said, “Is this being not the God\nwho ruined our work?”\nHe answered and said, “Yes. If you do not want him to be able to ruin our\nwork, come, let’s create a human being out of earth in the image of our body and\nwith a likeness to this being, to serve us, so that when this being sees his\nlikeness, he may fall in love with it. Then he will no longer ruin our work, and\nwe shall make the children of the light our slaves for this entire age.”\nAll this happened in accordance with Pistis’s forethought, so that humanity\nmight appear in this likeness and condemn the authorities because of their\nmodeled bodies. For their modeled bodies contained the light.\nThe authorities received knowledge they needed to create humanity. Sophia\nZoe, who is with Sabaoth, anticipated them. She laughed at their decision,\nbecause they are blind, and they created humanity in ignorance and against their\nown interests. They did not know what they were doing.\nSo she anticipated them. She created her own human being first, so that he\nmight tell the modeled bodies of the authorities how to despise them and how to\nescape them.\nThe birth of the instructor happened like this. When Sophia let a drop of light\nfall, it landed on the water, and at once there appeared an androgynous human\nbeing. Sophia first made the drop into the form of a female body, and then she\ntook the body and gave it a shape like the Mother who had appeared. She\nfinished it in twelve months.\nAn androgynous human being was born, whom the Greeks call\nHermaphrodite. The Hebrews call the child’s mother Eve of life, which means\nthe female instructor of life, and the child born to her is lord. Later the\nauthorities called the child the beast so that it might lead their modeled\nbodies astray. The meaning of the beast is the instructor, for it turned out to be\nthe wisest of all creatures.",
+          "coptic": "ⲧⲏⲥ §ϩⲁ ⲧⲉϩⲏ ⲇⲉ ⲙ̅ⲡⲁⲧⲉ ⲁⲇⲁⲙ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲣ̅‐\nⲁⲛⲁⲭⲱⲣⲉⲓ ϩⲙ̅ ⲡⲭⲟⲁⲥ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲛⲁⲩ ⲉ‐\nⲣⲟϥ’ ⲁⲩⲥⲱⲃⲉ ⲛ̅ⲥⲁ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’ ϫⲉ ⲁϥ’‐\nϫⲉ ϭⲟⲗ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩ‐\nⲧⲉ ⲙⲗ̅ ⲗⲁⲁⲩ ϣⲟⲟⲡ’ ϩⲓ ⲧⲁⲉϩⲏ §ⲛ̅ⲧⲁⲣⲟⲩⲉⲓ ϣⲁ‐\nⲣⲟϥ’ ⲡⲉϫⲁⲩ ϫⲉ ⲙⲏ ⲡⲁⲉⲓ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲁϩ‐\nⲧⲁⲕⲟ ⲙ̅ⲡⲛ̅ⲉⲣⲅⲟⲛ ⲁϥ’ⲟⲩⲱϣⲃ̅ ⲡⲉϫⲁϥ ϫⲉ\nⲉϩⲉ’ ⲉϣϫⲉ ⲧⲉⲧⲛ̅ⲟⲩⲱϣ ϫⲉⲕⲁⲥ ⲛⲉϥ’ϣϭⲛ̅\nϭⲟⲙ ⲛ̅ⲧⲁⲕⲟ ⲙ̅ⲡⲛ̅ⲉⲣⲅⲟⲛ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲙⲁⲣⲛ̅‐\nⲧⲁⲙⲉⲓⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲕⲁⲧⲁ\nⲧϩⲓⲕⲱⲛ’ ⲙ̅ⲡⲛ̅ⲥⲱⲙⲁ’ ⲁⲩⲱ ⲕⲁⲧⲁ ⲡⲉⲓⲛⲉ\nⲙ̅ⲡⲏ ⲛϥ̅ϣⲙ̅ϣⲉ ⲛⲁⲛ ϫⲉⲕⲁⲁⲥⲉ ⲡⲏ ⲉϥϣⲁⲛ‐\nⲛⲁⲩ ⲉⲡⲉϥ’ⲉⲓⲛⲉ ⲛ̅ϥⲙⲉⲣⲉⲓⲧϥ̅’ ⲟⲩⲕⲉⲧⲓ ϥⲛⲁ‐\nⲧⲁⲕⲟ ⲙ̅ⲡⲛ̅ⲉⲣⲅⲟⲛ ⲁⲗⲗⲁ ⲛⲉⲧⲟⲩⲛⲁϫⲡⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲛ̅ⲁⲁⲩ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛⲁⲛ\nϩⲙ̅ ⲡⲭⲣⲟⲛⲟⲥ ⲧⲏⲣϥ̅ ⲙ̅ⲡⲉⲉⲓⲁⲓⲱⲛ §ⲡⲁⲉⲓ ⲇⲉ\nⲧⲏⲣϥ’ ⲛ̅ⲧⲁϥ’ϣⲱⲡⲉ ⲕⲁⲧⲁ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲛ̅ⲧⲡⲓ‐\nⲥⲧⲓⲥ ϣⲓⲛⲁ ⲉⲡⲣⲱⲙⲉ ⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲛ̅‐\nⲛⲁϩⲣⲙ̅ ⲡⲉϥ’ⲉⲓⲛⲉ ⲛ̅ϥⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲁⲩⲱ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ\nⲁϥϣⲱⲡⲉ ⲛ̅ϫⲟⲗϫⲗ̅ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ §ⲧⲟⲧⲉ ⲛ̅ⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲁⲩϫⲓ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲁⲧⲣⲟⲩⲧⲁⲙⲓⲉ\nⲡⲣⲱⲙⲉ ⲁⲥⲣ̅ ϣⲟⲣⲡ’ ⲉⲣⲟⲟⲩ ⲛ̅ϭⲓ ⲧⲥⲟⲫⲓⲁ\nⲍⲱⲏ ⟦ⲉ⟧ ⲧⲁⲉⲓ ⲉⲧ’ϩⲁⲧⲛ̅ ⲥⲁⲃⲁⲱⲑ’ ⲁⲩⲱ ⲁⲥⲥⲱ‐\nⲃⲉ ⲛ̅ⲥⲁ ⲧⲟⲩⲅⲛⲱⲙⲏ ϫⲉ ϩⲛ̅ⲃⲗ̅ⲗⲉⲉⲩⲉ ⲛⲉ ϩⲛ̅\nⲟⲩⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲧⲁⲙⲓⲟϥ’ ⲉⲣⲟⲟⲩ ⲟⲩⲁ‐\nⲁⲩ ⲁⲩⲱ ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ ϫⲉ ⲟⲩ ⲡⲉ ⲉⲧⲟⲩⲛⲁ‐\nⲁϥ’ §ⲇⲓⲁ ⲧⲟⲩⲧⲟ’ ⲁⲥⲣ̅ ϣⲟⲣⲡ’ ⲉⲣⲟⲟⲩ ⲁⲥⲧⲁⲙⲓⲟ\nⲛ̅ϣⲟⲣⲡ’ ⲙ̅ⲡⲉⲥⲣⲱⲙⲉ ϣⲓⲛⲁ ⲉϥⲛⲁⲧⲁⲙⲉ\nⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲛ̅ⲑⲉ ⲉϥⲛⲁⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲙ̅‐\nⲙⲟⲟⲩ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ϥⲛⲁⲛⲟⲩϩⲙ’ ⲉⲣⲟⲟⲩ\n§ⲡϫⲡⲟ ⲇⲉ ⲙ̅ⲡⲣⲉϥⲧⲁⲙⲟ ⲛ̅ⲧⲁϥϣⲱⲡⲉ ⲛ̅‐\nⲧⲉⲉⲓϩⲉ ⲧⲥⲟⲫⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥⲛⲟⲩϫⲉ ⲛ̅ⲟⲩⲧⲗ̅‐\nϯⲗⲉ ⲟⲩⲟⲉⲓⲛ ⲁⲥϩⲁϯⲉ ⲉϫⲙ̅ ⲡⲙⲟⲟⲩ ⲛ̅ⲧⲉⲩ‐\nⲛⲟⲩ ⲁⲡⲣⲱⲙⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉϥⲟ ⲛ̅ϩⲟⲩⲧ’‐\nⲥϩⲓⲙⲉ §ⲧⲗ̅ϯⲗⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲥⲣ̅ⲧⲩⲡⲟⲩ ⲙ̅‐\nⲙⲟⲥ ϣⲟⲣⲡ’ ⲛ̅ⲛⲟⲩⲥⲱⲙⲁ ⲛ̅ⲥϩⲓⲙⲉ ⲙ̅‐\nⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁⲥⲣ̅ⲧⲩⲡⲟⲩ ⲙ̅ⲙⲟⲥ ϩⲙ̅ ⲡⲥⲱ‐\nⲙⲁ ⲙ̅ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲙⲁⲁⲩ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲁⲥϫⲟⲕⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲙⲛ̅ⲧⲥⲛⲟⲟⲩⲥ ⲛ̅ⲉⲃⲟⲧ’\nⲁⲩϫⲡⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲛ̅ϩⲟⲩⲧ’ⲥϩⲓⲙⲉ ⲡⲁⲉⲓ\nⲉⲛϩⲉⲗⲗⲏⲛ ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ϩⲉⲣⲙⲁⲫⲣⲟ‐\nⲇⲓⲧⲏⲥ ⲧⲉϥⲙⲁⲁⲩ ⲛ̅ⲇⲉ ⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲉⲩϩⲁ ⲛ̅ⲍⲱⲏ ⲉⲧⲉ ⲧⲣⲉϥⲧⲁⲙⲟ\nⲧⲉ ⲙ̅ⲡⲱⲛϩ §ⲡⲉⲥϣⲏⲣⲉ ⲇⲉ ⲡⲉ ⲡϫⲡⲟ\nⲉⲧⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ’ ⲁⲛ[ⲉ]ⲝⲟⲩⲥⲓⲁ\nⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲑⲏⲣⲓⲟⲛ ⲁⲧⲣⲉϥⲣ̅ⲡⲗⲁⲛⲁ\nⲛ̅ⲛⲟⲩⲡⲗⲁⲥⲙⲁ ⲑⲉⲣⲙⲏⲛⲉⲓⲁ ⲙ̅ⲡⲑⲏⲣⲓⲟⲛ’\nⲡⲉ ⲡⲣⲉϥ’ⲧⲁⲙⲟ ⲁⲩϩⲉ ⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲥⲁⲃⲉ\nⲡⲁⲣⲁⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲉⲩϩⲁ ϭⲉ ⲧⲉ ⲧϣⲟⲣⲡ’ ⲙ̅‐"
+        },
+        {
+          "title": "Song of Eve",
+          "subtitle": "Song of Eve",
+          "heading": "Song of Eve (114, 4-24)",
+          "rangeLabel": "114, 4-24",
+          "range": {
+            "start": {
+              "page": 114,
+              "line": 4
+            },
+            "end": {
+              "page": 114,
+              "line": 24
+            }
+          },
+          "english": "Eve is the first virgin, and she gave birth to her first child without a man. She\nwas her own physician. For this reason she is said to have declared:\nI am part of my mother, and I am the mother.\nI am the wife, I am the virgin.\nI am pregnant, I am the physician,\nI am the comforter of birth pains.\nMy husband produced me, and I am his mother,\nand he is my father and lord.\nHe is my strength,\nhe speaks of what he wants reasonably.\nI am becoming,\nbut I have given birth to a lordly person.\nThis was revealed by the will of Sabaoth and his Christ to the souls who\nwere going to enter the modeled bodies of the authorities, about whom the holy\nvoice said, “Flourish and multiply, rule over all creatures.” These souls were\ntaken captive, in accordance with their destinies, by the chief creator, and they\nwere locked up in the prisons of the modeled bodies <…until> the end of the\nage.",
+          "coptic": "ⲡⲁⲣⲁⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲉⲩϩⲁ ϭⲉ ⲧⲉ ⲧϣⲟⲣⲡ’ ⲙ̅‐\nⲡⲁⲣⲑⲉⲛⲟⲥ ⲧⲁⲉⲓ ⲁϫⲛ̅ ϩⲟⲟⲩⲧ’ ⲁⲥϣⲁⲙⲓⲥⲉ\nⲛ̅ⲧⲟⲥ ⲡⲉ ⲛ̅ⲧⲁϩⲣ̅ ⲥⲟⲉⲓⲛ ⲉⲣⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ §ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ⲥⲉϫⲱ ⲙ̅ⲙⲟⲥ ⲉⲣⲟⲥ ϫⲉ ⲁⲥϫⲟⲟⲥ ϫⲉ ⲁ‐\nⲛⲟⲕ ⲡⲉ ⲡⲙⲉⲣⲟⲥ ⲛ̅ⲧⲁⲙⲁⲁⲩ ⲁⲩⲱ ⲁⲛⲟⲕ’ ⲧⲉ\nⲧⲙⲁⲁⲩ’ ⲁⲛⲟⲕ’ ⲧⲉ ⲧϩⲓⲙⲉ ⲁⲛⲟⲕ’ ⲧⲉ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ\nⲁⲛⲟⲕ’ ⲧⲉⲧⲉⲉⲧ’ ⲁⲛⲟⲕ’ ⲧⲉ ⲧ’ⲥⲟⲉⲓⲛ ⲁⲛⲟⲕ’ ⲧⲉ ⲧⲣⲉϥ’‐\nⲥⲟⲗⲥⲗ̅ ⲛ̅ⲛ̅ⲛⲁⲕⲉ ⲡⲁϩⲁⲉⲓ ⲡⲉⲛⲧⲁϩϫⲡⲟⲉⲓ ⲁⲩ‐\nⲱ ⲁⲛⲟⲕ’ ⲧⲉ ⲧⲉϥ’ⲙⲁⲁⲩ ⲁⲩⲱ ⲛ̅ⲧⲟϥ’ ⲡⲉ ⲡⲁⲉⲓⲱⲧ’\nⲁⲩⲱ ⲡⲁϫⲟⲉⲓⲥ ⲛ̅ⲧⲟϥ’ ⲡⲉ ⲧⲁϭⲟⲙ’ ⲡⲉⲧϥ’ⲟⲩ‐\nⲁϣϥ̅ ϥϫⲱ ⲙ̅ⲙⲟϥ’ ⲉⲩⲗⲟⲅⲱⲥ ϯϣⲱⲡⲉ ⲁⲗ‐\nⲗⲁϩⲓϫⲡⲉ ⲟⲩⲣⲱⲙⲉ ⲛ̅ϫⲟⲉⲓⲥ §ⲛⲁⲉⲓ ⲇⲉ ϩⲙ̅ ⲡⲟⲩ‐\nⲱϣ 〈 ʹ26 〉 ⲁⲩϭⲱⲗⲡ’ ⲉⲃⲟⲗ’ ⲛⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲥⲁⲃⲁⲱⲑ’\nⲙⲛ̅ ⲡⲉϥⲭ̅ⲥ̅ ⟦.⟧ ⲛⲁⲉⲓ ⲉⲧⲛ̅ⲛⲏⲩ ⲁ’ⲙⲡⲗⲁⲥⲙⲁ\nⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲉⲧⲃⲉ ⲛⲁⲉ’ⲓ ⲁⲧⲉⲥⲙⲏ ⲉⲧⲟⲩⲁⲁ’ⲃ\nϫⲟⲟⲥ ϫⲉ ⲁϣⲁⲉⲓ ⲁⲩⲱ ⲛ̅ⲧⲉⲧⲛ̅ⲁⲛⲁⲉ’ⲓ ⲉⲣⲓ ϫⲟ‐\nⲉⲓⲥ ⲉϫⲛ̅ ⲛ̅ⲥⲱⲛ’ⲧ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛⲁⲉⲓ ⲛⲉ ⲛ̅ⲧⲁⲩ‐\nⲣ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲓⲍⲉ ⲙ̅ⲙⲟⲟⲩ ⲕⲁⲧⲁ ⲕⲗⲏⲣⲟⲥ ⲉ‐\nⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱ’ⲣ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ\nⲁⲩⲟ’ⲧⲡⲟⲩ ⲉϩⲟⲩⲛ ⲉⲛϣⲧⲉⲕⲱⲟⲩ ⲛ̅ⲛ̅ⲡⲗⲁⲥ‐\nⲙⲁ † ⲏ ϩⲛ̅ ⲧⲥⲩ’ⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ † §ϩⲙ̅ ⲡⲕⲁⲓ‐"
+        },
+        {
+          "title": "The Rulers of the World Mold Adam",
+          "subtitle": "The Rulers of the World Mold Adam",
+          "heading": "The Rulers of the World Mold Adam (114, 24-115, 30)",
+          "rangeLabel": "114, 24-115, 30",
+          "range": {
+            "start": {
+              "page": 114,
+              "line": 24
+            },
+            "end": {
+              "page": 115,
+              "line": 30
+            }
+          },
+          "english": "Then the chief creator voiced his opinion about humankind to those who were\nwith him. Then each of them ejaculated his semen into the middle of the navel of\nthe earth.\nSince then the seven archons have formed humanity with a body resembling\ntheir own body, but the likeness of humankind reflects the human being who\nappeared to them. The modeled body came into being, part by part, from each of\nthe rulers, and the leader of the rulers created the brain and marrow.\nAfterward the person appeared like the one before him. He became a\nperson with soul, and he was called Adam, which means father, after the name of\nthe one who was before him.\nAfter Adam was made, the chief creator abandoned him as a lifeless vessel,\nsince Adam was formed like an aborted fetus, with no spirit. When the chief\nruler recalled the word of Pistis, he was afraid that the true human might enter\nhis modeled body and rule over it. So he left his modeled body forty days\nwithout soul, and he withdrew and left him.\nOn the fortieth day Sophia Zoe blew her breath into Adam, in whom there\nwas no soul. He began to crawl on the ground, but he could not stand up.\nWhen the seven rulers came and saw him, they were greatly troubled. They\napproached him and grabbed him, and the chief ruler said to the breath within\nhim, “Who are you? Where have you come from?”\nHe answered and said, “I have come through the power of the human to\ndestroy your work….”\nWhen they heard this, they glorified him, because he gave them rest from\ntheir fear and concern. They called that day the Day of Rest, because they\nrested themselves from their troubles.\nWhen they saw that Adam could not stand up, they were glad. They took him\nand put him in paradise, and withdrew up to their heavens.",
+          "coptic": "ⲙⲁ † ⲏ ϩⲛ̅ ⲧⲥⲩ’ⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ † §ϩⲙ̅ ⲡⲕⲁⲓ‐\nⲣⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲧⲟⲧⲉ ⲁⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ\nⲁϥϯ ⲟⲩⲅⲛⲱⲙⲏ ⲛ̅ⲛⲉⲧⲛ̅ⲙ̅ⲙ’ⲁϥ ⲉⲧⲃⲉ ⲡⲣⲱ‐\nⲙⲉ ⲧⲟⲧⲉ ⲁⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ϩⲏⲧⲟⲩ ⲛⲟⲩϫⲉ\nⲙ̅ⲡ’ⲉϥⲥⲡⲉⲣⲙⲁ ⲉϫⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ⲑϩⲗ̅ⲡⲉ ⲙ̅‐\nⲡⲕⲁϩ §ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲡⲥⲁϣϥ ⲛ̅ⲁ’ⲣ‐\nⲭⲱⲛ ⲣ̅ⲡⲗⲁⲥⲥⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲡⲉϥⲥⲱⲙⲁ\nⲙⲉⲛ ⲉⲓⲛⲉ ⲙ̅ⲡⲟⲩⲥⲱⲙⲁ ⲡ’ⲉϥⲉⲓⲛⲉ ⲇⲉ ’ⲉϥ‐\nⲉⲓⲛⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲩ\nⲡⲉϥⲡⲗⲁⲥⲙⲁ ⲁϥϣⲱⲡⲉ ⲕ[ⲁ]ⲧⲁ ⲙⲉⲣⲟⲥ ⲙ̅‐\nⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲡⲟⲩⲛⲟϭ ⲇⲉ ⲁϥⲧⲁⲙⲉⲓⲉ\nⲡⲉⲅⲕⲉⲫⲁⲗⲛ ⲙⲛ̅ ⲡⲁⲧⲕⲁⲥ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ\n† ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲱⲥ ⲁⲧ’ⲉϥⲉϩⲏ † ⲁϥϣⲱⲡⲉ\nⲛ̅ⲟⲩⲣⲱⲙⲉ ⲙ̅ⲯⲩⲭⲓⲕⲟⲥ ⲁⲩⲱ ⲁⲩⲙⲟⲩⲧⲉ ⲉ‐\nⲣ’ⲟϥ ϫⲉ ⲁⲇⲁ’ⲙ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲓⲱ’ⲧ ⲕⲁⲧⲁ\nⲡⲣⲁⲛ ⲙ̅ⲡⲉ’ⲧϩⲓ ⲧ’ⲉϥⲉϩⲏ §ⲛ̅ⲧⲁⲣⲟⲩϫⲱⲕ ⲇⲉ ⲛ̅‐\nⲁⲇⲁ’ⲙ ⲁϥⲕⲁⲁϥ ⲛ̅ⲛⲟⲩⲥⲕⲉⲩⲟⲥ ⲉⲁϥϫⲓ ⲙⲟⲣ‐\nⲫⲏ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲟⲩϩⲉ ⲉⲙⲛ̅ ⲡⲛⲉⲩⲙⲁ ⲛ̅ϩⲏ’ⲧϥ\nⲉⲧⲃⲉ ⲡⲉⲉⲓϩⲱⲃ ⲛ̅ⲧⲁⲣⲉ ⲡⲛⲟϭ ⲛ̅ⲁⲣⲭⲱⲛ\nⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡϣⲁϫⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲁϥⲣ̅ ϩⲟⲧⲉ\nⲙⲏⲡⲱⲥ ⲛ̅ϥⲓ ⲛ̅ϭⲓ ⲡⲣⲙ̅ⲙ̅ⲙⲉ ⲉϩⲟⲩ’ⲛ ⲉⲡ’ⲉϥ‐\nⲡⲗⲁⲥⲙⲁ ⲛ̅ϥⲣ̅ ϫⲟⲉⲓⲥ ⲉϫⲱϥ%2 §ⲉⲧⲃⲉ ⲡⲁⲉⲓ ’ⲁϥ‐\nⲕⲱ ⲙ̅ⲡⲉϥⲡⲗⲁⲥⲙⲁ ⲛ̅ϩⲙⲉ ⲛ̅ϩⲟⲟⲩ ⲭⲱⲣⲓⲥ\nⲯⲩⲭⲏ ⲁⲩⲱ ’ⲁϥⲁⲛⲁⲭⲱⲣⲉⲓ ⲁϥⲕⲁ’ⲁϥ ϩⲙ̅ ⲡⲙ[ⲁϩ]‐\nϩⲙⲉ ⲇⲉ ⲛ̅ϩⲟⲟⲩ ⲁⲧⲥⲟⲫⲓⲁ ⲛ̅ⲍⲱⲏ ⲧⲛ̅ⲛⲟⲟⲩ\nⲙ̅ⲡⲉⲥⲛⲓϥⲉ ⲉϩⲟⲩⲛ ⲁⲁⲇⲁⲙ ⲡⲁⲉⲓ ⲉⲧⲉ ⲙⲛ̅\nⲯⲩⲭⲏ ⲙ̅ⲙ’ⲟϥ ⲁϥⲁⲣⲭⲉⲓ ⲛ̅ⲕⲓⲙ ϩⲓϫⲙ̅ ⲡⲕⲁϩ\nⲁⲩⲱ ⲙ̅ⲡⲉϥϣϭⲙ̅ ϭⲟ’ⲙ ⲉⲧⲱⲟⲩⲛ §ⲡⲥⲁϣϥ̅\nⲇⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓ ⲁⲩⲛⲁⲩ ⲉⲣ’ⲟϥ ⲁⲩ‐\nϣⲧⲟⲣⲧⲣ̅ ⲉⲙⲁⲧⲉ ⲁⲩϯ ⲡⲉⲩⲟⲩⲟⲉⲓ ⲉϩⲟⲩⲛ ⲉ‐\nⲣ’ⲟϥ ⲁⲩⲉⲙⲁϩⲧⲉ ⲙ̅ⲙ’ⲟϥ ⲁⲩⲱ ⲡⲉϫ’ⲁϥ ⲙ̅‐\nⲡⲛⲓϥⲉ ⲉⲧⲛ̅ϩⲏⲧϥ̅ ϫⲉ ⲛ̅ⲧⲟ’ⲕ ⲛⲓ’ⲙ ⲁⲩⲱ ⲛ̅‐\nⲧⲟ’ⲕⲉⲓ ⲉⲃⲟⲗ ⲧⲱⲛ ⲉⲛⲓⲙⲁ ’ⲁϥⲟⲩⲱϣⲃ̅\nⲡⲉϫ’ⲁϥ ϫⲉ ⲛ̅ⲧⲁⲉⲓⲉⲓ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲇⲩⲛⲁ‐\nⲙⲓⲥ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲧⲃⲉ ⲡⲧⲁⲕⲟ ⲙ̅ⲡⲉⲧⲛ̅ⲉⲣ‐\nⲅⲟⲛ §〈 ʹ26 〉 ⲛ̅ⲧⲁⲣⲟⲩⲥⲱⲧⲙ̅ ⲁⲩϯ ⲉⲟⲟⲩ ⲛ’ⲁϥ ϫⲉ ⲁϥ‐\nϯ ⲛⲁⲩ ⲙ̅ⲧⲟⲛ ⲉⲑⲣ̅ⲧⲉ ⲙⲛ̅ ⲡⲣⲟⲟⲩϣ ⲉⲧⲟⲩⲛ̅‐\nϩⲏ’ⲧϥ ⲧⲟⲧⲉ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ\nϫⲉ ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ϫⲉ ⲁⲩⲙ̅ⲧⲟⲛ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩϩⲓⲥⲉ §ⲛ̅ⲧⲉⲣⲟⲩⲛⲁⲩ ⲇⲉ ⲉⲁⲇⲁ’ⲙ\nϫⲉ ⲙ̅ⲡⲉϥϣⲧⲱⲟⲩⲛ ⲁⲩⲣⲁϣⲉ ⲁⲩϥⲓ’ⲧϥ\nⲁⲩⲕⲁⲁϥ ϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲁⲩⲱ ⲁⲩⲣ̅ⲁ‐\nⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲛⲟⲩⲙ̅ⲡⲏⲩⲉ §ⲙⲛ̅ⲛ̅‐"
+        },
+        {
+          "title": "Eve Gives Adam Life",
+          "subtitle": "Eve Gives Adam Life",
+          "heading": "Eve Gives Adam Life (115, 30-116, 8)",
+          "rangeLabel": "115, 30-116, 8",
+          "range": {
+            "start": {
+              "page": 115,
+              "line": 30
+            },
+            "end": {
+              "page": 116,
+              "line": 8
+            }
+          },
+          "english": "After the day of rest, Sophia sent her daughter Zoe, called Eve, as an instructor\nto raise Adam, in whom there was no soul, so that the children he would\nengender might be vessels of light.\n[When] Eve saw her male partner on the ground, she felt sorry for him\nand said, “Adam, live! Get up from the ground!”\nAt once her word became an accomplished deed. When Adam got up, at\nonce he opened his eyes, and he saw her and said, “You will be called the\nMother of the living, because you have given me life.”",
+          "coptic": "ⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲛⲟⲩⲙ̅ⲡⲏⲩⲉ §ⲙⲛ̅ⲛ̅‐\nⲥⲁ ⲡϩⲟⲟⲩ ⲛ̅ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲁⲧⲥⲟⲫⲓⲁ\nϫⲟⲟⲩ ⲛ̅ⲍⲱⲏ ⲧⲉⲥϣⲉⲉⲣⲉ ⲉⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟⲥ ϫⲉ ⲉⲩϩⲁ ϩⲱⲥ ⲣ’ⲉϥⲧⲁⲙⲟ ⲁⲧⲣⲉⲥ‐\nⲧⲟⲩⲛⲟⲥ ⲁⲇⲁ’ⲙ ⲡⲁⲉⲓ ⲉⲙⲛ̅ ⲯⲩⲭⲏ ⲛ̅ϩⲏⲧϥ̅\nϫⲉⲕⲁⲁⲥ ⲛⲉⲧⲉϥⲛⲁϫⲡⲟⲟⲩ [ⲉ]ⲩⲛⲁϣⲱ‐\nⲡⲉ ⲛ̅ⲁⲅⲅⲉⲓⲟⲛ ⲙ̅ⲡⲟⲩⲟ[ⲉⲓ’ⲛ §ⲛ̅ⲧ]ⲁ[ⲣ]ⲉ\nⲉⲩϩⲁ ⲛⲁⲩ ⲉⲡⲉⲥϣⲃⲣ̅ⲉⲓⲛⲉ ⲉϥⲛ’ⲏϫ ⲁⲥϣⲛ̅\nϩⲧⲏⲥ ϩⲁⲣ’ⲟϥ ⲁⲩⲱ ⲡⲉϫⲁⲥ ϫⲉ ⲁⲇⲁ’ⲙ ⲱⲛϩ\nⲧⲱⲟⲩⲛ ϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁⲡⲉⲥϣⲁ‐\nϫⲉ ϣⲱⲡⲉ ⲛ̅ⲟⲩⲉⲣⲅⲟⲛ ⲛ̅ⲧⲁⲣⲉ ⲁⲇⲁⲙ ⲅⲁ’ⲣ\nⲧⲱⲟⲩⲛ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁϥⲟⲩⲉ’ⲛ ⲛ̅ⲛⲉϥⲃⲁ’ⲗ\nⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲉⲣⲟⲥ ⲡⲉϫⲁϥ ϫⲉ ⲛ̅ⲧⲟ ⲉⲩⲛⲁⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟ ϫⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ ϫⲉ ⲛ̅ⲧⲟ ⲡⲉⲧⲁϩ‐\nϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲱⲛϩ §ⲧⲟⲧⲉ ⲁⲩⲧⲁⲙⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓ’ⲁ"
+        },
+        {
+          "title": "The Powers Rape Earthly Eve",
+          "subtitle": "The Powers Rape Earthly Eve",
+          "heading": "The Powers Rape Earthly Eve (116, 8-117, 15)",
+          "rangeLabel": "116, 8-117, 15",
+          "range": {
+            "start": {
+              "page": 116,
+              "line": 8
+            },
+            "end": {
+              "page": 117,
+              "line": 15
+            }
+          },
+          "english": "The authorities were told that their modeled body was alive and had gotten up,\nand they were greatly troubled. They sent seven archangels to see what had\nhappened.\nThey came to Adam, and when they saw Eve speaking with him, they said to\neach other, “Who is this enlightened woman? She looks like what appeared to us\nin the light. Come, let’s seize her and ejaculate our semen into her, so that she\nmay be unclean and unable to ascend to her light, and her children will serve us.\nBut let’s not tell Adam, because he is not one of us. Instead, let’s put him to\nsleep and suggest to him in his sleep that Eve came from his rib, so that the\nwoman may serve and he may rule over her.”\nSince Eve was a heavenly power, she laughed at what they had in mind. She\nblinded their eyes and secretly left something that resembled her with Adam.\nShe entered the tree of knowledge and stayed there. The rulers chased her,\nand she revealed to them that she had entered the tree and had become a tree.\nThe blind powers fell into great fear and ran away.\nLater, when they recovered their sight, they came to [Adam]. They saw a\nfemale like that woman with him, and they were troubled and thought this\nwas the true Eve. They acted rashly. They came to her, seized her, and ejaculated\ntheir semen upon her.\nThe powers acted wickedly. They defiled her in ways natural and obscene.\nFirst they defiled the seal of her voice, which had said to them, “What exists\nbefore you?” In this way they meant also to defile those who say that they were\nborn at the end of the age through the word, through the true human.\nThe authorities and their angels erred. They did not know they defiled their\nown body and likeness in all these ways.",
+          "coptic": "ϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲱⲛϩ §ⲧⲟⲧⲉ ⲁⲩⲧⲁⲙⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓ’ⲁ\nϫⲉ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲟⲛ’ϩ ⲁⲩⲱ ⲁϥⲧⲱⲟⲩⲛ ⲁⲩ‐\nϣⲧⲟⲣⲧⲣ̅ ⲉⲙⲁⲧ’ⲉ ⲁⲩϫⲟⲟⲩ ⲥⲁ’ϣϥ ⲛ̅ⲁⲣⲭⲁ’ⲅ‐\nⲅⲉⲗⲟⲥ ⲁⲧⲣⲟⲩⲛⲁⲩ ⲉⲡⲉⲛⲧⲁϩϣⲱⲡⲉ §ⲁⲩⲉⲓ\nϣⲁ ⲁⲇⲁⲙ ⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ ⲉⲉⲩϩⲁ ⲉⲥϣⲁϫⲉ ⲛⲙ̅‐\nⲙ’ⲁϥ ⲡⲉϫⲁⲩ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ϫⲉ ⲟⲩⲟⲩ ⲧⲉ ⲧⲉⲉⲓⲣⲙ̅‐\nⲟⲩⲟⲉⲓⲛ ⲕⲁⲓ ⲅⲁⲣ ⲉⲥⲓⲛⲉ ⲙ̅ⲡⲓⲉⲛⲉ ⲛ̅ⲧⲁϩⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲛ ϩⲙ̅ ⲡⲓⲟⲩⲟⲉⲓⲛ ⲧⲉⲛⲟⲩ ⲁⲙⲏ‐\nⲉⲓⲧⲛ̅ ⲙⲁⲣⲛ̅ⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲥ ⲛ̅ⲧⲛ̅ⲛⲟⲩϫⲉ\nⲙ̅ⲡⲛ̅ⲥⲡⲉⲣⲙⲁ ⲉⲣⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲥϣⲁϫⲱϩⲙ̅\nⲛ̅ⲛⲉⲥϣϭⲙ̅ ϭⲟ’ⲙ ⲛ̅ⲃⲱ’ⲕ ⲉϩⲣⲁⲓ̈ ⲉⲡⲉⲥⲟⲩⲟⲉⲓⲛ\nⲁⲗⲗⲁ ⲛⲉ’ⲧⲥⲛⲁϫⲡⲟⲟⲩ ⲥⲉⲛⲁⲣ̅ϩⲩⲡⲟⲧⲁⲥⲥⲉ\nⲛⲁⲛ §ⲙ̅ⲡⲣ̅ⲧⲣⲛ̅ϫⲟⲟⲥ ⲇⲉ ⲛ̅ⲁⲇⲁⲙ ϫⲉ ⲟⲩⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧⲛ̅ ⲁⲛ ⲡⲉ ⲁⲗⲗⲁ ⲙⲁⲣⲛ̅ⲉⲓⲛⲉ ⲛ̅ⲟⲩⲃ̅ϣⲉ\nⲉϩⲣⲁⲓ̈ ⲉϫ’ⲱϥ ⲁⲩⲱ ⲙⲁⲣⲛ̅ⲧⲥⲉⲃ’ⲟϥ ϩⲙ̅ ⲡ’ⲉϥ‐\nϩⲓⲛⲏⲃ ϩⲱⲥ ⲉϣϫⲉ ⲛ̅ⲧⲁⲥϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅\nⲡ’ⲉϥⲥⲡⲓⲣ ϫⲉⲕⲁⲁⲥ ⲉⲧⲉⲥϩⲓⲙⲉ ⲛⲁⲣ̅ϩⲩⲡⲟ‐\nⲧⲁⲥⲥ’ⲉ ⲛ̅ϥⲣ̅ ϫⲟⲉⲓⲥ ⲉⲣⲟⲥ §ⲧⲟⲧⲉ ⲉⲩϩⲁ ⲉⲥ‐\nϣⲟⲟ’ⲡ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲁⲥⲥⲱⲃⲉ ⲛ̅ⲥⲁ ⲧⲟⲩⲅⲛⲱ‐\nⲙ’ⲏ ⲁⲥϯ ⲑⲗⲁⲥⲧⲛ̅ ⲉⲛⲟⲩⲃⲁⲗ ⲁⲥⲕⲱ ⲙ̅ⲙⲁⲩ\nⲙ̅ⲡⲉⲥⲉⲓⲛⲉ ⲛ̅ϫⲓⲟⲩⲉ ⲁⲧⲟⲩⲛ̅ ⲁⲇⲁ’ⲙ §ⲁⲥⲃⲱ’ⲕ\nⲉϩⲟⲩⲛ ⲉⲡϣⲏⲛ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲁⲥϭⲱ ⲙ̅ⲙⲁⲩ\nⲛ̅ⲧⲟⲟⲩ ⲇⲉ ⲁⲩⲟⲩⲱϩ ⲛ̅ⲥⲱⲥ ⲁⲥⲟⲩⲱⲛϩ ⲉ‐\nⲃⲟⲗ ⲛⲁⲩ ϫⲉ ⲁⲥⲃⲱ’ⲕ ⲉϩⲟⲩⲛ ⲉⲡϣⲏ’ⲛ ⲁⲥⲣ̅\nϣⲏⲛ ⲛ̅ⲧⲁⲣⲟⲩϣⲱⲡⲉ ⲇⲉ [ϩ]ⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅‐\nϩⲣ̅ⲧⲉ ⲁⲩⲡⲱ’ⲧ ⲉⲃⲟⲗ ⲛ̅ϭⲓ † ⲃⲣ̅ⲣⲉ §ⲙ̅ⲙⲛⲛ̅‐\nⲥⲱⲥ ⲛ̅ⲧ[ⲁⲣ]ⲟⲩⲛⲏⲫⲉ ϩⲛ̅ ⲧⲃ̅ϣⲉ ⲁⲩⲉⲓ ⲉϩⲟⲩⲛ\nϣ[ⲁ] ⲁ[ⲇⲁ’ⲙ ⲁ]ⲩⲱ ⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ ⲁⲡⲓⲛⲉ ⲛ̅ⲧ’ⲏ\nϩⲁⲧⲟⲟⲧϥ̅ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲉⲩⲙⲉⲉⲩⲉ ϫⲉ ⲧⲁⲉⲓ\nⲧⲉ ⲉⲩϩⲁ ⲛ̅ⲁⲗⲏⲑⲓⲛⲏ ⲁⲩⲱ ⲁⲩⲣ̅ⲧⲟⲗⲙⲁ ⲁⲩⲉⲓ\nⲉϩⲟⲩ’ⲛ ϣⲁⲣⲟⲥ ⲁⲩⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲥ ⲁⲩⲛⲟⲩ‐\nϫⲉ ⲙ̅ⲡⲟⲩⲥⲡⲉⲣⲙⲁ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲥ §ⲁⲩⲁⲁⲥ ϩⲛ̅\nⲟⲩⲙⲛ̅ⲧⲡⲁⲛⲟⲩⲣⲅⲟⲥ ⲉⲩϫⲱϩⲙ̅ ⲟⲩ ⲙⲟ‐\nⲛⲟⲛ ⲫⲩⲥⲓⲕⲱⲥ ⲁⲗⲗⲁ ϩⲛ̅ ⲟⲩⲥⲱ’ⲱϥ ⲉⲩ‐\nϫⲱϩⲙ̅ ⲛ̅ⲧⲥⲫⲣⲁⲅⲓⲥ ⲙ̅ⲡⲉⲥϩⲣⲟⲟⲩ ⲛ̅ϣⲟⲣ’ⲡ\nⲛ̅ⲧⲁϩϣⲁϫⲉ ⲛⲙ̅ⲙⲁⲩ ϫⲉ ⲟⲩ ⲡⲉⲧϣⲟⲟ’ⲡ\nϩⲓ ⲧⲉⲧⲛ̅ⲉϩⲏ ⲁⲧⲣⲟⲩϫⲱϩ’ⲙ ⲛ̅ⲛⲉⲧϫⲱ ⲙ̅‐\nⲙⲟⲥ ϫⲉ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲉⲩϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ\nϩⲛ̅ ⲧⲥⲩ’ⲛⲧⲉⲗⲉⲓⲁ ϩⲓⲧⲛ̅ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲉⲓ‐\nⲛⲟⲥ §ⲁⲩⲱ ⲁⲩⲣ̅ⲡⲗⲁⲛⲁ ⲉⲛⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ\nϫⲉ ⲛ̅ⲧⲁⲩϫⲁϩⲙ̅ ⲡⲟⲩⲥⲱⲙⲁ ⲡⲓⲛⲉ ⲡⲉ ⲛ̅‐\nⲧⲁⲩϫⲁϩⲙϥ̅ ⲛ̅ϭⲓ ⲛⲉⲝⲟⲩⲥⲓⲁ ϩⲛ̅ⲥⲙⲟ’ⲧ ⲛⲓⲙ\nⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ §ⲁⲥⲱ ⲛ̅ϣⲟⲣ’ⲡ ⲛ̅ⲁⲃⲉⲗ"
+        },
+        {
+          "title": "Eve Bears the Children of the Powers",
+          "subtitle": "Eve Bears the Children of the Powers",
+          "heading": "Eve Bears the Children of the Powers (117, 15-118, 6)",
+          "rangeLabel": "117, 15-118, 6",
+          "range": {
+            "start": {
+              "page": 117,
+              "line": 15
+            },
+            "end": {
+              "page": 118,
+              "line": 6
+            }
+          },
+          "english": "She first became pregnant with Abel from the first ruler, and then she gave birth\nto her other children from the seven authorities and their angels.\nAll this happened in accordance with the chief creator’s forethought, so that\nthe first mother might bear within herself every seed, every one mixed and\njoined with the fate of the world and its configurations, and justice.\nA plan for Eve emerged, that the modeled bodies of the authorities might\ncontain the light. Then the light would condemn the authorities through their\nown modeled bodies.\nThe first Adam of light is spiritual and appeared on the first day. The second\nAdam is psychical and appeared on the sixth day, called Aphrodite. The third\nAdam is earthly, a person of law, who appeared on the eighth day, called Sunday,\n[after] the poor Day of Rest.\nThe offspring of earthly Adam multiplied and filled the earth, and they\nacquired all the technical skills psychical Adam had. But they all were in\nignorance.",
+          "coptic": "ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ §ⲁⲥⲱ ⲛ̅ϣⲟⲣ’ⲡ ⲛ̅ⲁⲃⲉⲗ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲟⲣ’ⲡ ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲡⲕⲉⲥⲉⲉ‐\nⲡⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲧⲁⲥϫⲡⲟⲟⲩ ϩⲓⲧⲛ̅ ⲧⲥⲁϣϥⲉ\nⲛ̅ⲉⲝⲟⲩⲥⲓ’ⲁ ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ §ⲡⲁⲉⲓ ⲇⲉ\nⲧⲏ’ⲣϥ ⲁϥϣⲱⲡⲉ ⲕⲁⲧⲁ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲙ̅ⲡⲁⲣ‐\nⲭⲓⲅⲉⲛⲉⲧⲱⲣ ϫⲉⲕⲁⲁⲥ ⲧϣⲟⲣ’ⲡ ⲙ̅ⲙⲁⲁⲩ\nⲉⲥⲁϫⲡⲟ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲛ̅ⲥⲡⲉⲣⲙⲁ ⲛⲓⲙ\nⲉϥⲧⲏϩ ⲉϥⲣ̅ϩⲁⲣⲙⲟⲥⲉ ⲉϩⲟⲩ’ⲛ ⲉϫⲓⲙⲁⲣ‐\nⲙⲉⲛⲏ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲙⲛ̅ ⲛⲉⲥⲥⲭⲏⲙⲁ ⲁⲩ‐\nⲱ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛ’ⲏ §ⲁⲩⲟⲓⲕⲟⲛⲟⲙⲓⲁ ϣⲱⲡⲉ\nⲉⲧⲃⲉ ⲉⲩϩⲁ ϫⲉⲕⲁⲁⲥ ⲙ̅ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ\nⲉⲩⲛⲁϣⲱⲡⲉ ⲛ̅ϫⲟⲗϫⲗ̅ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲧⲟ‐\nⲧⲉ ϥⲛⲁⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲓⲧⲛ̅ ⲛⲟⲩ‐\nⲡⲗⲁⲥⲙⲁ §ⲡϣⲟⲣⲡ ϭⲉ ⲛ̅ⲁⲇⲁ’ⲙ ⲛ̅ⲧⲉ ⲡⲟⲩ‐\nⲟⲉⲓⲛ ⲟⲩⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ ⲡⲉ ⲁϥⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲙ̅ⲡϣⲟⲣ’ⲡ ⲛ̅ϩⲟⲟⲩ ⲡⲙⲁϩⲥⲛⲁⲩ\nⲛ̅ⲁⲇⲁ’ⲙ ⲟⲩⲯⲩⲭⲓⲕⲟⲥ ⲡⲉ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲙ̅ⲡⲙⲁϩ[ⲥⲟ]ⲟⲩ ⲛ̅ϩⲟⲟⲩ ⲡⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ ϫ[ⲉ ⲁ]ⲫⲣⲟⲇⲉⲓⲧⲏ ⲡⲙⲁϩϣⲟⲙⲧ\nⲛ̅ⲁⲇⲁⲙ ⲟⲩⲭⲟⲓ̈ⲕⲟⲥ ⲡⲉ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ\nⲡⲣⲙ̅ⲛ̅ⲛⲟⲙⲟⲥ ⲛ̅ⲧⲁϩⲟⲩ[ⲱⲛϩ] ⲉⲃⲟ[ⲗ] ϩⲙ̅\nⲡⲙⲁϩϣⲙⲟⲩⲛ ⲛ̅ϩⲟⲟⲩ [ ʹ26 ⲧⲁⲛⲁ]\nⲡⲁⲩⲥⲓⲥ ⲛ̅ⲧⲙⲛ̅ⲧϩⲏⲕⲉ ⲧⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟⲥ ϫⲉ ϩⲏⲙⲉⲣⲁ ⲏⲗⲓⲟⲩ §ⲡϫⲡⲟ ⲇⲉ ⲙ̅’ⲡ‐\nⲭⲟⲓ̈ⲕⲟⲥ ⲛ̅ⲁⲇⲁⲙ ⲁϥⲁϣⲉⲉⲓ ⲁϥϫⲱ’ⲕ ⲉⲃⲟ’ⲗ\nⲁϥϫⲡⲟ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏ’ⲧϥ ⲛ̅ϣⲓⲥⲧⲟⲣⲓⲁ ⲛⲓ’ⲙ ⲙ̅‐\nⲯⲩⲭⲓⲕⲟⲥ ⲛ̅ⲁⲇⲁ’ⲙ ⲡⲧⲏ’ⲣϥ ⲇⲉ ⲛ’ⲉϥϩⲛ̅ ⲟⲩ‐\nⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩ’ⲛ §ⲙⲙⲛ̅ⲛ̅ⲥⲱⲥ ϯⲛⲁϫⲟⲟⲥ"
+        },
+        {
+          "title": "The Trees of Paradise and the Beast",
+          "subtitle": "The Trees of Paradise and the Beast",
+          "heading": "The Trees of Paradise and the Beast (118, 6-119, 19)",
+          "rangeLabel": "118, 6-119, 19",
+          "range": {
+            "start": {
+              "page": 118,
+              "line": 6
+            },
+            "end": {
+              "page": 119,
+              "line": 19
+            }
+          },
+          "english": "Let me continue.\nWhen the rulers saw him and the woman with him in error and ignorance,\nlike animals, they were very pleased.\nThen they found out that the immortal human was not going to pass them by\nand they would even have to fear the woman who turned into a tree. They were\ntroubled and said, “Could this be the one who blinded us and taught us about the\ndefiled woman who resembles the true human, in order to overpower us?”\nThe seven hatched a plot. They approached Adam and Eve carefully and said\nto him, “You may eat the fruit of every tree created for you in paradise, but be\ncareful not to eat from the tree of knowledge. If you eat, you will die.” They\ngave them a great fright and withdrew up to their authorities.\nThe beast, the wisest of all creatures, came by. When it saw the likeness of\ntheir mother, Eve, it said to her, “What did God say to you? ‘Do not eat from the\ntree of knowledge’?”\nShe said, “He not only said, ‘Do not eat from it,’ but ‘Do not touch it, or you\nwill die.’”\nThe beast said to her, “Don’t be afraid. You certainly will [not die. He\nknows] that when you eat from it your minds will become sober and you\nwill be like gods, knowing the difference between evil and good people. He said\nthis to you because he is jealous, so that you would not eat from it.”\nEve believed the words of the instructor. She looked at the tree and saw it\nwas beautiful and appealing, and she liked it. She took some of its fruit and ate,\nand she gave it to her husband too, and he also ate. Their minds opened.\nWhen they had eaten,\nthe light of knowledge shone on them.\nWhen they clothed themselves with shame,\nthey knew they were stripped of knowledge.\nWhen they became sober,\nthey saw they were naked\nand they fell in love.\nWhen they saw their makers looked like beasts,\nthey loathed them.\nThey understood a great deal.\nThe Rulers Confront Adam and Eve",
+          "coptic": "ⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩ’ⲛ §ⲙⲙⲛ̅ⲛ̅ⲥⲱⲥ ϯⲛⲁϫⲟⲟⲥ\nⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ ⲇⲉ ⲉⲣ’ⲟϥ ⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲙⲛ̅\nⲧⲉⲧⲛ̅ⲛⲙ̅ⲙ’ⲁϥ ⲉⲩⲣ̅ⲡⲗⲁⲛⲁ ϩⲛ̅ ⲟⲩⲙⲛ̅ⲧⲁ’ⲧ‐\nⲥⲟⲟⲩ’ⲛ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲧⲃ̅ⲛⲏ ⲁⲩⲣⲁϣⲉ ⲙ̅ⲡϣ’ⲁ\n§〈 ʹ26 〉 ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲙⲉ ϫⲉ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲧⲙⲟⲩ ϥⲛⲁⲣ̅‐\nⲡⲁⲣⲁⲃⲁ ⲁ’ⲛ ⲉⲣⲟⲟⲩ ⲁⲗⲗⲁ ⲉⲩⲛⲁⲣ̅ⲡⲕⲉⲣ̅ ϩⲟ‐\nⲧⲉ ϩⲏⲧⲥ̅ ⲛ̅ⲧⲉⲛⲧⲁϩⲣ̅ ϣⲏⲛ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲡⲉ‐\nϫⲁⲩ ϫⲉ ⲙⲏⲡⲱⲥ ⲡⲁⲉⲓ ⲡⲉ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗ’ⲏ‐\nⲑⲉⲓⲛⲟⲥ ⲡⲁⲉⲓ ⲉⲛⲧⲁϩϯ ⲗⲟⲥⲧⲛ̅ ⲛⲁⲛ ⲁⲩⲱ\nⲁϥⲧⲥⲉⲃⲟⲛ ⲉⲧⲁⲉⲓ ⲉⲛⲧⲁⲩϫⲁϩⲙⲉⲥ ⲉⲥⲓⲛⲉ\nⲙ̅ⲙ’ⲟϥ ϣⲓⲛⲁ ⲉⲩⲛⲁϫⲣⲟ ⲉⲣⲟⲛ §ⲧⲟⲧⲉ ⲁⲩϫⲓ\nⲥⲩⲙⲃⲟⲩⲗⲓⲟⲛ ⲙ̅ⲡⲥⲁ’ϣϥ ⲁⲩⲉⲓ ⲉϩⲟⲩ’ⲛ ϣⲁ ⲁ‐\nⲇⲁ’ⲙ ⲙⲛ̅ ⲉⲩϩⲁ ϩⲛ̅ⲛⲟⲩⲫⲟⲃⲟⲥ ⲡⲉϫⲁⲩ ⲛ’ⲁϥ\nϫⲉ ϣⲏⲛ ⲛⲓ’ⲙ ⲉⲧϩⲛ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲛ̅ⲧⲁⲩⲥⲟⲛ‐\nⲧⲟⲩ ⲛⲏⲧⲛ̅ ⲉⲩ〈ⲛⲁ〉ⲟⲩⲱⲙ ⲡⲟⲩⲕⲁⲣⲡⲟⲥ ⲡϣⲏⲛ\nⲇⲉ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲉⲣⲏϩ ⲉⲣⲱⲧⲛ̅ ⲙ̅ⲡⲣ̅ⲟⲩⲱ’ⲙ\nⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ ⲉϣⲱⲡⲉ ⲧⲉⲧⲛⲁⲟⲩⲱ’ⲙ ⲧⲉ\nⲧⲛⲁⲙⲟⲩ ⲛ̅ⲧⲁⲣⲟⲩϯ ⲛⲁⲩ ⲟⲩⲛⲟϭ ⲙ̅ⲫⲟⲃⲟⲥ\nⲁⲩⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲛⲟⲩⲉⲝⲟⲩⲥⲓⲁ §ⲧⲟ\nⲧⲉ ⲁϥⲉⲓ ⲛ̅ϭⲓ ⲡⲥⲁⲃⲉ ⲡⲁⲣⲁⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ\nⲡⲁⲉⲓ ⲛ̅ⲧⲁⲩⲙⲟⲩⲧⲉ ⲉⲣ’ⲟϥ ϫⲉ ⲡⲑⲏⲣⲓⲟⲛ\nⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲉⲡⲓⲛⲉ ⲛ̅ⲧⲟⲩⲙⲁⲁⲩ\nⲉⲩϩ’ⲁ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲟⲩ ⲡⲉⲛⲧⲁ ⲡⲛⲟⲩⲧⲉ\nϫⲟ’ⲟϥ ⲛⲏⲧⲛ̅ ϫⲉ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲡⲉϫⲁⲥ ϫⲉ ⲁϥϫⲟⲟⲥ ϫⲉ ⲟⲩ ⲙⲟ‐\nⲛⲟⲛ ϫⲉ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ ⲉⲃⲟ[ⲗ ⲛ̅]ϩⲏ’ⲧϥ ⲁⲗⲗⲁ\nⲙ̅ⲡⲣ̅ϫⲱϩ ⲉⲣ’ⲟϥ ϣⲓⲛⲁ ϫ[ⲉ ⲛⲉ]ⲙⲟⲩ ⲡⲉϫⲁϥ\nⲛⲁⲥ ϫⲉ ⲙⲡⲣ̅ⲣ̅ ϩⲟⲧⲉ ϩⲛ̅ⲛⲟⲩⲙⲟⲩ ⲉⲧⲉⲧⲛⲁ‐\nⲙ[ⲟⲩ ⲁ’ⲛ ϥⲥⲟⲟ]ⲩⲛ ⲅⲁⲣ ϫⲉ ⲉⲧⲉⲧⲛ̅ⲟⲩⲱ’ⲙ\nⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ ⲡⲉⲧⲛ̅ⲛⲟⲩⲥ ⲛⲁⲣ̅ⲛⲏⲫⲉ ⲁⲩⲱ\nⲧⲉⲧⲛ̅ⲛⲁϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲛⲟⲩⲧⲉ ⲉⲧⲉⲧⲛ̅‐\nⲥⲟⲟⲩⲛ ⲛ̅ⲧⲇⲓⲁⲫⲟⲣ’ⲁ ⲉⲧϣⲟⲟ’ⲡ ⲟⲩⲧⲉ ⲙ̅‐\nⲡⲟⲛⲏⲣⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲙⲛ̅ ⲛ̅ⲁⲅⲁⲑⲟⲥ ⲛ̅ⲧⲁϥ‐\nϫⲉ ⲡⲁⲉⲓ ⲅⲁⲣ ⲛⲏⲧⲛ̅ ⲉϥⲣ̅ⲫⲑⲟⲛⲉⲓ ϫⲉ ⲛⲉⲧⲛ̅‐\nⲟⲩⲱⲙ ⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ §ⲉⲩϩⲁ ⲇⲉ ⲁⲥⲑⲁⲣⲣⲉⲓ\nⲁⲛϣⲁϫⲉ ⲙ̅ⲡⲣⲉϥⲧⲁⲙⲟ ⲁⲥϭⲱϣ’ⲧ ⲉϩⲟⲩⲛ\nϩⲙ̅ ⲡϣⲏⲛ ⲁⲥⲛⲁⲩ ⲉⲣⲟϥ ϫⲉ ⲛⲉⲥⲱϥ ⲁⲩⲱ\nⲟⲩⲗⲉϩⲗϩ ⲡⲉ ⲁⲥⲙⲉⲣⲓ’ⲧϥ ⲁⲥϫⲓ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲁⲥⲟⲩⲱ’ⲙ ⲁⲥϯ ⲙ̅ⲡⲉⲥⲕ[ⲉ]‐\nϩⲁⲓ̈ ’ⲁϥⲟⲩⲱ’ⲙ ϩⲱ’ⲱϥ ⲧⲟⲧⲉ ⲁⲡⲟⲩⲛⲟⲩⲥ\nⲟⲩⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲟⲩⲱ’ⲙ ⲅⲁⲣ ⲁⲡⲟⲩⲟⲉⲓⲛ\nⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲛⲁⲩ ⲛ̅ⲧⲁⲣⲟⲩϯ ϩⲓⲱ‐\nⲟⲩ ⲙ̅ⲡϣⲓⲡⲉ ⲁⲩⲉⲓⲙⲉ ϫⲉ ⲛⲉⲩⲕⲁⲕⲁϩⲏⲩ\nⲁⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲁⲣⲟⲩⲣ̅ⲛⲏⲫⲉ ⲁⲩⲛⲁⲩ ⲉⲣⲟⲟⲩ\nϫⲉ ⲥⲉⲕⲁⲕⲁϩⲏⲩ ⲁⲩⲙⲣ̅ⲣⲉ ⲛⲟⲩⲉⲣⲏⲩ ⲛ̅ⲧⲁ‐\nⲣⲟⲩⲛⲁⲩ ⲁⲛⲟⲩⲡⲗⲁⲥⲧⲏⲥ ⲉⲩⲟ ⲙ̅ⲙⲟⲣⲫⲏ\nⲛ̅ⲑⲏⲣⲓⲟⲛ ⲁⲩⲥⲓⲭⲁⲛⲉ ⲉⲣⲟⲟⲩ ⲁⲩⲉⲓⲙⲉ ⲉⲙⲁ‐\nⲧⲉ §ⲧⲟⲧⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲙⲉ ϫⲉ ⲁⲩⲡⲁ‐"
+        },
+        {
+          "title": "119, 19-121, 27",
+          "subtitle": "119, 19-121, 27",
+          "heading": "(119, 19-121, 27)",
+          "rangeLabel": "119, 19-121, 27",
+          "range": {
+            "start": {
+              "page": 119,
+              "line": 19
+            },
+            "end": {
+              "page": 121,
+              "line": 27
+            }
+          },
+          "english": "When the rulers realized that Adam and Eve had broken their commandment,\nthey entered paradise and came to Adam and Eve with an earthquake and a great\nthreat, in order to see what happened as a result of the help that was given. Adam\nand Eve were very much disturbed, and they hid in the trees in paradise. The\nrulers did not know where they were, and they said, “Adam, where are you?”\nHe said, “I’m here. I was ashamed and hid because I was afraid of you.”\nThey said to him, ignorantly, “Who told you about the shame with which you\nclothed yourselves? Unless you ate from the tree!”\nHe said, “The woman you gave me gave it to me, and I ate.”\nThey [said] to the woman, “What have you done?”\nShe answered and said, “The instructor urged me to eat, and I ate.”\nThe rulers approached the instructor. Their eyes were blinded by it, and they\ncould not do anything to it. They were powerless, and they cursed it. Then they\ncame to the woman, and they cursed her and her children. After the woman they\ncursed Adam and the earth and the fruit because of him. Everything they created\nthey cursed. There is no blessing from them. Good cannot come from evil.\nSince then the authorities have known for certain that there is something\nstronger than they. They simply recognized that their commandment was broken.\nGreat envy came into the world just because of the immortal human.\nWhen the rulers saw that their Adam had acquired different knowledge, they\nwanted to test him. They gathered all the domestic animals, wild beasts of the\nearth, and the birds of the sky, and brought them to Adam to see what he would\ncall them. When he saw them, he gave names to the creatures of the rulers.\nThe rulers were troubled that Adam had recovered from all his anguish.\nThey gathered together and made a plan, and said, “Look, Adam has become\nlike one of us, and he knows the difference between light and darkness. Now\nperhaps he will go astray as he did with the tree of knowledge and will come to\nthe tree of life, eat from it, and become immortal and [rule] and despise us and\nconsider [us] and all our glory to be foolish. And he will denounce [us and our]\nworld. Come, let’s throw him out of paradise down to the earth, where he\ncame from, so that he no longer can know anything better than we can.”\nSo they threw Adam and his wife out of paradise.\nWhat they had done did not satisfy them. They were still afraid. So they went\nto the tree of life and set great dreadful things around it, fiery living creatures\ncalled cherubim, and among them they put a flaming sword, constantly turning\nin a terrifying way, so that no one from the earth might ever enter that place.\nAfter this, since the rulers were jealous of Adam, they wanted to shorten the\nhuman life span, but they could not do so because of fate, which was established\nfrom the beginning. To each human being there was assigned a life span of one\nthousand years according to the circuit of the heavenly luminaries. Though the\nrulers were not able to do this, each one of the evildoers subtracted ten years, so\nthe remaining time comes to nine hundred thirty years, and these are spent in\ngrief and weakness and evil distractions. This is how life has gone, from that day\nuntil the end of the age.",
+          "coptic": "ⲧⲉ §ⲧⲟⲧⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲙⲉ ϫⲉ ⲁⲩⲡⲁ‐\nⲣⲁⲃⲁ ⲛ̅ⲧⲟⲩⲉⲛⲧⲟⲗⲏ ⲁⲩⲉⲓ ϩⲛ̅ ⲟⲩⲕⲙ̅ⲧⲟ\nⲙⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲁⲡⲉⲓⲗⲏ ⲉϩⲟⲩ’ⲛ ⲉⲡⲡⲁ‐\nⲣⲁⲇⲉⲓⲥⲟⲥ ϣⲁ ⲁⲇⲁ’ⲙ ⲙⲛ̅ⲛⲉⲩϩⲁ ⲉⲧⲣⲟⲩⲛⲁⲩ\nⲉⲡⲁⲡⲟⲧⲉⲗⲉⲥⲙⲁ ⲛ̅ⲧⲃⲟⲏⲑⲉⲓⲁ ⲧⲟⲧⲉ\nⲁⲁⲇⲁⲙ ⲙⲛ̅ⲛⲉⲩϩⲁ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲉⲙⲁⲧⲉ\nⲁⲩⲕⲱ’ⲡ ϩⲁ ⲛϣⲏⲛ ⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ\nⲧⲟⲧⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲙ̅ⲡⲟⲩⲉⲓⲙⲉ ϫⲉ ⲉⲩⲧⲱⲛ\nⲡⲉϫⲁⲩ ϫⲉ ⲁⲇⲁ’ⲙ ⲉⲕⲧⲱ’ⲛ ⲡⲉϫⲁϥ ϫⲉ ϯⲛ̅‐\nⲛⲉⲉⲓⲙⲁ ⲉⲧⲃⲉ ⲧⲉⲧⲛ̅ϩⲣ̅ⲧⲉ ⲇⲉ ⲁϩⲓⲕⲱ’ⲡ\nⲛ̅ⲧⲁⲣⲓϣⲓⲡ’ⲉ ⲡⲉϫⲁⲩ ⲇⲉ ⲛ’ⲁϥ ϩⲛ̅ ⲟⲩⲙⲛ̅ⲧ‐\nⲁⲧⲥⲟⲟⲩⲛ ϫⲉ ⲛⲓⲙ ⲡⲉⲛⲧⲁϩϫⲱ ⲛⲁ’ⲕ ⲙ̅‐\nⲡϣⲓⲡⲉ ⲛ̅ⲧⲁ’ⲕⲧⲁⲁϥ ϩⲓⲱⲱ’ⲕ ⲉⲓ ⲙⲏⲧⲓ ϫⲉ\nⲁ’ⲕⲟⲩⲱ[ⲙ ⲉⲃⲟ]ⲗ ϩⲙ̅ ⲡⲓϣⲏ’ⲛ ⲡⲉϫⲁϥ\nϫⲉ ⲧⲥϩⲓⲙ[ⲉ] ⲛ̅ⲧⲁ’ⲕⲧⲁⲁⲥ ⲛⲁⲉⲓ ⲛ̅ⲧⲟⲥ ⲡⲉⲛ‐\nⲧⲁⲥϯ ⲛⲁⲉⲓ ⲁⲉⲓⲟⲩⲱ’ⲙ ⲧⲟⲧ[ⲉ ⲡⲉϫⲁ]ⲩ ⲛ̅[ⲧ]ⲏ\nϫⲉ ⲟⲩ ⲡⲉ ⲡⲁⲉⲓ ⲛ̅ⲧⲁⲁ’ⲁϥ ⲁⲥⲟⲩⲱϣ’ⲃ ⲡⲉ‐\nϫⲁⲥ ϫⲉ ⲡⲣ’ⲉϥⲧⲁⲙⲟ ⲡⲉⲛⲧⲁϩⲧⲟⲃⲥ’ⲧ ⲁϩⲓ‐\nⲟⲩⲱ’ⲙ §ⲧⲟⲧⲉ ⲁⲛⲁⲣⲭⲱⲛ ⲉⲓ ϣⲁ ⲡⲣⲉϥⲧⲁ‐\nⲙⲟ ⲁⲛⲟⲩⲃⲁ’ⲗ ⲣ̅ ϩⲗⲟⲥⲧⲛ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟ’ⲧϥ\nⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟⲙ ⲛ̅ⲣ̅ ⲗⲁⲁⲩ ⲛ’ⲁϥ ⲁⲩⲥⲟⲩϩⲱ’ⲣϥ\nϩⲱⲥ ⲉⲩⲟ ⲛ̅ⲁⲧϭⲟⲙ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁⲩⲉⲓ ϣⲁ ⲧⲥϩⲓ‐\nⲙⲉ ⲁⲩⲥⲟⲩϩⲱⲣⲥ̅ ⲙⲛ̅ ⲛⲉⲥϣⲏⲣⲉ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ\nⲧⲥϩⲓⲙ’ⲉ ⲁⲩⲥϩⲟⲩⲱ’ⲣ ⲁⲇⲁ’ⲙ ⲙⲛ̅ ⲡⲕⲁϩ ⲉⲧⲃⲏ’ⲧϥ\nⲙⲛ̅ ⲛ̅ⲕⲁⲣⲡⲟⲥ ⲁⲩⲱ ϩⲱⲃ ⲛⲓⲙ ⲛ̅ⲧⲁⲩⲧⲁⲙⲓⲟ‐\nⲟⲩ ⲁⲩⲥϩⲟⲩⲱⲣⲟⲩ §ⲙⲛ̅ ⲗⲁⲁⲩ ⲛ̅ⲥⲙⲟⲩ ⲛ̅ⲧⲟⲟ‐\nⲧⲟⲩ ⲙⲛ̅ ϭⲟⲙ ⲛ̅ⲥⲉϫⲡⲉ ⲁⲅⲁⲑⲟⲛ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲡⲟⲛⲏⲣⲟⲛ §ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲛⲉⲝⲟⲩ‐\nⲥⲓⲁ ⲉⲓⲙⲉ ϫⲉ ⲁⲗⲏⲑⲱⲥ ⲟⲩⲙ̅ ⲡⲉⲧϫⲟⲟ’ⲣ ϩⲓ\nⲧⲟⲩⲉϩⲏ ⲛⲉⲩⲥⲟⲟⲩ’ⲛ ⲁⲛ ⲡⲉ ⲉⲓ ⲙⲏⲧⲓ ϫⲉ\nⲙ̅ⲡⲟⲩⲣ̅ⲧⲏⲣⲉⲓ ⲛ̅ⲧⲟⲩⲉⲛⲧⲟⲗⲏ ⲁⲩⲛ̅ ⲟⲩⲛⲟϭ\nⲛ̅ⲕⲱϩ ⲉϩⲟⲩⲛ ⲉⲡⲕⲟⲥⲙⲟⲥ ⲙⲟⲛⲟ’ⲛ ⲉⲧⲃⲉ\nⲡⲣⲱⲙⲉ ⲛ̅ⲁⲧⲙⲟⲩ §ⲛ̅ⲧⲁⲣⲉ ⲛⲁⲣⲭⲱⲛ ⲇⲉ ⲛⲁⲩ\nⲉⲡⲟⲩⲁⲇⲁ’ⲙ 〈ⲉ〉ⲁϥϣⲱⲡⲉ ϩⲛ̅ ⲕⲉⲅⲛⲱⲥⲓⲥ ⲁⲩ‐\nⲟⲩⲱϣ ⲁⲣ̅ⲡⲉⲓⲣⲁⲥⲉ ⲙ̅ⲙ’ⲟϥ ⲁⲩⲥⲱⲟⲩ’ϩ ⲉ‐\nϩⲟⲩ’ⲛ ⲛ̅ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛ̅ⲑⲏⲣⲓⲟⲛ\nⲙ̅ⲡⲕⲁϩ ⲙⲛ̅ ⲛ̅ϩⲁⲗⲁⲧⲉ ⲛ̅ⲧⲡⲉ ⲁⲩⲛ̅ⲧⲟⲩ ϣⲁ ’ⲁ‐\nⲇⲁⲙ ϫⲉ ⲉⲩⲉⲛⲁⲩ ϫⲉ ϥⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ\nⲛⲓ’ⲙ ⲛ̅ⲧⲁⲣ’ⲉϥⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲁϥϯ ⲣⲁ’ⲛ ⲉⲛⲟⲩ‐\nⲕⲧⲓⲥⲙ’ⲁ §ⲁⲩϣⲧⲟⲣⲧⲣ̅ ϫⲉ ⲁϥⲣ̅ⲛⲏⲫⲉ ⲉⲃⲟⲗ\nϩⲛ̅ ⲁⲅⲱⲛⲓⲁ ⲛⲓ’ⲙ ⲛ̅ϭⲓ ⲁⲇⲁ’ⲙ ⲁⲩⲥⲱⲟⲩϩ ⲁⲩ‐\nϫⲓ ⲥⲩⲙⲃⲟⲩⲗⲓⲟⲛ ⲡⲉϫⲁⲩ ϫⲉ ⲉⲓⲥ ⲁⲇⲁ’ⲙ\nⲁϥϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲟⲩⲁ ⲉⲃⲟ’ⲗ ⲙ̅ⲙⲟⲛ ⲁⲧⲣ’ⲉϥ‐\nⲉⲓⲙⲉ ⲛ̅ⲧⲇⲓⲁⲫⲟⲣⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐\nⲕⲉ ⲧⲉⲛⲟⲩ ⲙⲏⲡⲱⲥ ⲛ̅ⲥⲉⲣ̅ ϩⲁ̅ⲗ̅ ⲙ̅ⲙ’ⲟϥ ⲛ̅ⲑⲉ\nⲙ̅ⲡϣⲏⲛ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ϥⲓ ⲟⲛ ⲉϩⲟⲩⲛ\nⲉⲡϣⲏ’ⲛ ⲙ̅ⲡⲱⲛϩ ⲛ̅ϥⲟⲩⲱ’ⲙ ⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ\nⲛ̅ϥϣⲱⲡⲉ ⲛ̅ⲁⲧⲙⲟ’ⲩ ⲛ̅ϥⲣ̅ ϫⲟ[ⲉⲓⲥ] ⲛ̅ϥⲕⲁⲧⲁ‐\nⲫⲣⲟⲛⲉⲓ ⲙ̅ⲙⲟⲛ ⲛ̅ϥⲃⲁⲃ[ⲱⲱⲛ ⲙ]ⲛ̅ ⲡⲛ̅ⲛⲉ‐\nⲟⲟⲩ ⲧⲏⲣ[ϥ] ⲙⲛ̅ⲛ̅ⲥⲱⲥ ϥⲛⲁⲣ̅[ⲕ]ⲁⲧⲁⲕⲣⲓⲛⲉ ⲙ̅‐\nⲙ[ⲟⲛ ⲙⲛ̅ ⲡⲛ̅ⲕⲟ]ⲥⲙⲟⲥ ⲁⲙⲏⲓ̈ⲧⲛ̅ ⲙⲁⲣⲛ̅ⲛ’ⲟϫϥ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡⲁⲣⲁϫⲉⲓⲥⲟⲥ ⲉⲡⲓⲧⲛ̅ ⲉϫⲙ̅ ⲡⲕⲁϩ\nⲡⲙⲁ ⲉⲛⲧⲁⲩⲛ̅ⲧϥ̅ ⲉⲃⲗ ⲛ̅ϩⲏ’ⲧϥ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉϥ‐\nϣϭⲙ̅ ϭⲟ’ⲙ ϫⲓⲛ ⲧⲉⲛⲟⲩ ⲁⲥⲟⲩⲱ’ⲛ ⲗⲁⲁⲩ ⲛ̅ϩⲟⲩ‐\nⲟ ⲉⲣⲟⲛ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲩⲛⲟ’ⲩϫ ⲁⲇⲁⲙ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲙⲛ̅ ⲧⲉϥϩⲓⲙⲉ §ⲁⲩⲱ ⲙ̅ⲡⲉ ⲡⲁ‐\nⲉⲓ ⲣⲱϣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲧⲁⲩⲁⲁϥ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲩⲣ̅ ϩⲟ‐\nⲧⲉ ⲁⲩⲉⲓ ⲉϩⲟⲩⲛ ⲉⲡϩϣⲏⲛ ⲙ̅ⲡⲱⲛϩ ⲁⲩⲧⲕⲧⲟ\nⲛ̅ϩⲛ̅ⲛⲟϭ ⲛ̅ϩⲣ̅ⲧⲉ ⲉⲣ’ⲟϥ ϩⲛ̅ⲍⲱⲟ’ⲛ ⲛ̅ⲕⲱϩ’ⲧ\nⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲭⲉⲣⲟⲩⲃⲓⲛ ⲁⲩⲱ ⲁⲩⲕⲱ\nⲛ̅ⲟⲩⲥⲏϥⲉ ⲛ̅ⲥⲁⲧⲉ ϩⲛ̅ ⲧⲟⲩⲙⲏⲧⲉ ⲉⲥⲕ[ⲱ]ⲧⲉ\nⲛ̅ⲛⲁⲩ ⲛⲓⲙ ϩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ϩⲣ̅ⲧⲉ ϣⲓⲛⲁ [ϫ]ⲉ\nⲛⲉ ⲗⲁⲁⲩ ⲉⲛⲉϩ ϩⲛ̅ 〈ⲣ̅〉ⲣⲙⲛ̅ⲕⲁϩ ⲃⲱⲕ ⲉϩⲟⲩ’ⲛ ⲉ‐\nⲡⲧⲟⲡⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲉ’ⲓ ⲛ̅ⲧⲁ‐\nⲣⲉ ⲛⲁⲣⲭⲱ’ⲛ ⲕⲱϩ ⲁⲁⲇⲁⲙ ⲁⲩⲟⲩⲱ’ϣ ⲁϭⲱϫⲃ̅\nⲛ̅ⲛⲟⲩⲭⲣⲟⲛⲟⲥ ⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟⲙ ⲉⲧⲃⲉ ϫⲓ‐\nⲙⲁⲣⲙⲉⲛⲏ ⲉⲧⲕⲏ ⲉϩⲣⲁⲓ̈ ϫⲓⲛ ⲛ̅ϣⲟⲣ’ⲡ ⲁⲩⲣ̅‐\nϩⲟⲣⲓⲥⲉ ⲅⲁ’ⲣ ⲛ̅ⲛⲟⲩⲭⲣⲟⲛⲟⲥ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nϣⲟ ⲣ̅ⲣⲟⲙⲡⲉ ⲕⲁⲧⲁ ⲡⲇⲣⲟⲙⲟⲥ ⲛ̅ⲛ̅ⲣⲉϥⲣ̅ ⲟⲩ‐\nⲟⲉⲓⲛ ⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟⲙ ⲇⲉ ⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ\nⲁⲉⲓⲣⲉ ⲙ̅ⲡⲁⲉ’ⲓ ⲁⲡⲟⲩⲁ ⲡⲟⲩⲁ ϩⲛ̅ ⲛⲉϯⲣⲉ ⲙ̅‐\nⲡⲡⲉⲑⲟⲟⲩ ⲁⲩϭⲱϫⲃ̅ ⲙ̅ⲙⲏⲧⲉ ⲣ̅ⲣⲟⲙⲡⲉ\nⲁⲩⲱ ⲡⲉⲓ̈ⲭⲣⲟⲛⲟⲥ ⲧⲏ’ⲣϥ ⲁϥⲣ̅ ⲯⲓ’ⲧ ⲛ̅ϣⲉ ⲙⲁ‐\nⲁⲃⲉ ⲛ̅ⲣⲟⲙⲡⲉ ⲁⲩⲱ ⲛⲁⲉⲓ ϩⲛ̅ ⲟⲩⲗⲩⲡⲏ ⲙⲛ̅\nⲟⲩⲙⲛ̅ⲧϭⲱⲃ ⲁⲩⲱ ϩⲛ̅ ϩⲙ̅ⲡⲉⲣⲓⲥⲡⲁⲥⲙⲟⲥ\nⲙ̅ⲡⲟⲛⲏⲣⲟⲛ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ϫⲓⲙ ⲡϩⲟⲟⲩ\nⲉⲧⲙ̅ⲙⲁⲩ ⲁⲡⲃⲓⲟⲥ ⲣ̅ⲕⲁⲧⲁⲛⲧⲁ ϣⲁ ⲧⲥⲩ’ⲛⲧⲉ‐\nⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ §ⲧⲟⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲍⲱⲏ ⲛ̅ⲧⲁ‐"
+        },
+        {
+          "title": "Phoenixes, Water Serpents, and Bulls of Egypt",
+          "subtitle": "Phoenixes, Water Serpents, and Bulls of Egypt",
+          "heading": "Phoenixes, Water Serpents, and Bulls of Egypt (121, 27-123, 2)",
+          "rangeLabel": "121, 27-123, 2",
+          "range": {
+            "start": {
+              "page": 121,
+              "line": 27
+            },
+            "end": {
+              "page": 123,
+              "line": 2
+            }
+          },
+          "english": "When Sophia Zoe saw that the archons of darkness cursed her friends who were\nlike her, she was angry. She came from the first heaven with all her power and\nchased the rulers from [their] heavens, and she cast them down into the sinful\nworld so that they might dwell there as evil demons upon the earth.\n[She sent a bird] that was in paradise so that, until the end of the age, it\nmight spend a thousand years in the rulers’ world. The bird, a living creature\nendowed with soul, is called the phoenix, and it kills itself and revives itself as\nan image of the judgment against the rulers, because they dealt unjustly with\nAdam and his generation, until the end of the age.\nThere are three human beings and their descendants in the world until the\nend of the age: the spiritual, the psychical, and the earthly. This circumstance is\nlike the three kinds of phoenixes of paradise: the first is immortal, the second\nlives a thousand years, and the third is consumed, according to what is written in\nthe Holy Book. Likewise, there are three baptisms: the first is spiritual, the\nsecond is by fire, the third is by water.\nAs the image of the phoenix appears with reference to the angels, so the\nwater serpents in Egypt indicate those who go down for the baptism of a true\nhuman being.\nThe two bulls in Egypt indicate a mystery, the sun and the moon, which\nrepresent Sabaoth, because Sophia of the world has been exalted above the sun\nand the moon from the time when she created them and sealed her heaven until\nthe end of the age.\nThe worm that is born from the phoenix also represents humanity. It is\nwritten of it, “The just will sprout like a phoenix.” The phoenix first appears\nalive, then dies, and then rises again, as an image of what appears at the end of\nthe age.\nThese great images have [appeared] only in Egypt, not in other lands,\nindicating that Egypt is like God’s paradise.",
+          "coptic": "ⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ §ⲧⲟⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲍⲱⲏ ⲛ̅ⲧⲁ‐\nⲣⲉⲥⲛⲁⲩ ϫⲉ ⲁⲛⲁⲣⲭⲱⲛ ⲙ̅ⲡⲕⲁⲕⲉ ϫⲉ ⲁⲩ‐\nⲥϩⲟⲩⲱⲣ ⲛⲉⲥϣⲃⲣ̅ⲉⲓⲛⲉ ⲁⲥⲣ̅ⲁⲅⲁⲛⲁⲕⲧⲉⲓ\nⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧϣⲟⲣ’ⲡ ⲙ̅ⲡⲉ ⲙⲛ̅\nⲇⲩⲛⲁⲙⲓⲥ ⲛⲓ’ⲙ ⲁⲥⲣ̅ⲇⲓⲱⲕⲉ ⲛ̅ⲛⲓⲁⲣⲭⲱⲛ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ [ⲛⲟⲩⲙ̅]ⲡⲏⲩⲉ ⲁⲩⲱ ⲁⲥⲛⲟϫⲟⲩ ⲉⲡⲓ‐\nⲧⲛ̅ ⲉⲡⲕⲟ[ⲥⲙⲟ]ⲥ ⲛ̅ⲣⲉϥⲣ̅ ⲛⲟⲃⲉ ϣⲓⲛⲁ ⲉⲩ‐\nⲛⲁϣⲱⲡⲉ ⲙ̅ⲙⲁⲩ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓ[ⲇ]ⲁⲓⲙⲱⲛ\nⲙ̅ⲡⲟⲛⲏⲣⲟⲥ ϩⲓϫⲙ̅ ⲡⲕⲁϩ §[........]\nϫⲉⲕⲁⲁⲥ ⲧϣⲟ ⲣ̅ⲣⲟⲙⲡⲉ ⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ\nⲉϥⲛⲁⲁⲩ ⲙ̅ⲡⲟⲩⲕⲟⲥⲙⲟⲥ ⲟⲩⲍⲱⲟⲛ ⲛ̅ⲉ’ⲙ‐\nⲯⲩⲭⲟⲛ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣ’ⲟϥ ϫⲉ ⲫⲟⲓⲛⲓⲝ ϣ’ⲁϥ‐\nⲙⲟⲟⲩ’ⲧϥ ⲟⲩⲁⲁ’ⲧϥ ⲛ̅ϥⲧⲛ̅ϩ’ⲟϥ ⲁⲩⲙⲛ̅ⲧⲣⲉ\nⲙ̅ⲡⲟⲩϩⲁⲡ ϫⲉ ⲁⲩⲣ̅ⲁⲇⲓⲕⲉⲓ ⲛ̅ⲁⲇⲁ’ⲙ ⲙⲛ̅ ⲧⲉϥ̅‐\nⲅⲉⲛⲉⲁ ϣⲁ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ §〈....〉 ϣⲟⲙ’ⲧ\nⲣ̅ⲣⲱⲙⲉ ⲛ’ⲉ ⲁⲩⲱ ⲛⲉϥⲅⲉⲛⲉⲁ ϣⲁ ⲧⲥⲩ’ⲛⲧⲉ‐\nⲗⲉⲓⲁ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ ⲙ̅ⲡⲁⲓⲱⲛ\nⲙⲛ̅ ⲡⲯⲩⲓ̈ⲕⲟⲥ ⲙⲛ̅ ⲡⲭⲟⲓ̈ⲕⲟⲥ §ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲙ̅‐\nⲡϣⲟⲙ’ⲧ ⲙ̅ⲫⲟⲓⲛⲓ’ⲝ 〈ⲙ̅〉ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲡϣⲟⲣ’ⲡ\n[ⲟ ⲛ̅]ⲁⲑⲁⲛⲁⲧⲟⲥ ⲡⲙⲁϩⲥⲛⲁⲩ ϣⲁϥⲣ̅ ϣⲟ ⲣ̅‐\nⲣⲟⲙⲡⲉ ⲡⲙⲁϩϣⲟ’ⲙ’ⲧ ϥⲥⲏϩ ϩⲛ̅ ϫⲓⲉⲣⲁ ⲃⲓ‐\nⲃⲗⲟⲥ ϫⲉ ϣⲁⲩⲟⲩⲟⲙϥ̅ §ⲧⲉⲉⲓϩⲉ ⲟⲛ ⲟⲩⲛ̅\nϣⲟⲙ’ⲧ ⲛ̅ϫⲱⲕⲙ̅ ϣⲟⲟ’ⲡ ⲡϣⲟⲣ’ⲡ ⲡⲉ ⲡⲛⲉⲩ‐\nⲙⲁⲧⲓⲕⲟⲛ ⲡⲙⲁϩⲥⲛⲁⲩ ⲟⲩⲕⲱϩⲧ ⲡⲉ ⲡⲙⲁϩ‐\nϣⲟⲙ’ⲧ ⲟⲩⲙⲟⲟⲩ §ⲡⲉ ⲛ̅ⲑⲉ ⲙ̅ⲫⲟⲓⲛⲓ’ⲝ ’ⲉϥ‐\nⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲱⲥ ⲙⲛ̅ⲧⲣⲉ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛ̅ϩⲩⲇⲣⲓⲁ ⲙ̅ⲙⲟⲟⲩ ⲉⲧϩⲛ̅ ⲕⲏ‐\nⲙⲉ ⲁⲥϣⲱⲡⲉ ⲁⲩⲙⲛ̅ⲧⲣⲉ ⲛ̅ⲛⲉⲧⲃⲏ’ⲕ ⲁⲡⲓ‐\nⲧⲛ̅ ⲁⲡϫⲱⲕⲙ̅ ⲛ̅ⲛⲟⲩⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲓⲛⲟⲥ\n§ⲡⲙⲁⲥⲉ ⲥⲛⲁⲩ ⲉⲧϩⲛ̅ ⲕⲏⲙⲉ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ\nⲛ̅ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲡⲣⲏ ⲙⲛ̅ ⲡⲟⲟϩ ⲉⲩϣⲟ‐\nⲟ’ⲡ ⲁⲩⲙⲛ̅ⲧⲣⲉ ⲛ̅ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ϫⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲱ‐\nⲟⲩ ⲁⲥϫⲓ ⲛ̅ϭⲓ ⲧⲥⲟⲫⲓⲁ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ϫⲓⲙ\nⲫⲟⲟⲩ ⲛ̅ⲧⲁⲥⲧⲁⲙⲓⲟ ⲙ̅ⲡⲣⲏ ⲙⲛ̅ ⲡⲟⲟϩ ⲁⲥⲣ̅‐\nⲥⲫⲣⲁⲅⲓⲍⲉ ⲛ̅ⲧⲉⲥⲡⲉ ϣⲁ ϩⲟⲩ’ⲛ ⲁⲡⲁⲓⲱⲛ\n§ⲡϥⲛ̅ⲧ ⲇⲉ ⲛ̅ⲧⲁⲩϫⲡ’ⲟϥ ⲉⲃⲟⲗ ϩⲙ̅ ⲫⲟⲓⲛⲓ’ⲝ\nⲟⲩⲣⲱⲙⲉ ⲁⲛ ⲡⲉ ϥⲥⲏϩ ⲉⲧⲃⲏ’ⲧϥ ϫⲉ ⲡⲇⲓ‐\nⲕⲁⲓⲟⲥ ⲛⲁϯ ⲟⲩⲱ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩⲫⲟⲓⲛⲓⲝ ⲁⲩⲱ\nⲫⲟⲓⲛⲓ’ⲝ ϣ’ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϣⲟⲣ’ⲡ ⲉϥ‐\nⲟⲛϩ ⲁⲩⲱ ϣⲁϥⲙⲟⲩ ⲡⲁⲗⲓⲛ ⲛ̅ϥⲧⲱⲟⲩⲛ\nⲉϥϣⲟⲟ’ⲡ ⲛ̅ⲥⲏⲙⲉⲓⲟⲛ ⲙ̅ⲡⲉⲛⲧⲁϩⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ϩⲛ̅ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲙ̅[ⲡⲁⲓⲱⲛ] §ⲛⲉⲉⲓ‐\nⲛⲟϭ ⲛ̅ⲥⲏⲙⲉⲓⲟⲛ ⲛ̅ⲧⲁ[ⲩⲟⲩⲱ]ⲛϩ ⲉⲃⲟⲗ\nϩⲛ̅ ⲕⲏⲙ[ⲉ] ⲟⲩⲁ’ⲁϥ ϩⲛ̅ ⲕⲉⲭⲱⲣⲁ ⲁⲛ ⲉϥⲥ’ⲏ‐\nⲙⲁⲛⲉ ϫⲉ ⲉⲥⲧⲛ̅ⲧⲱⲛ ⲉⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲙ̅ⲡⲛⲟⲩ‐\nⲧⲉ §ⲡⲁⲗⲓⲛ ⲙⲁⲣⲛ̅ⲉⲓ ⲉϩⲟⲩⲛ ⲉⲛⲁⲣⲭⲱⲛ ⲛ̅‐"
+        },
+        {
+          "title": "Proof: The World Is in Error and Ignorance",
+          "subtitle": "Proof: The World Is in Error and Ignorance",
+          "heading": "Proof: The World Is in Error and Ignorance (123, 2-31)",
+          "rangeLabel": "123, 2-31",
+          "range": {
+            "start": {
+              "page": 123,
+              "line": 2
+            },
+            "end": {
+              "page": 123,
+              "line": 31
+            }
+          },
+          "english": "Let us return to the rulers of whom we spoke, so that we may offer an\nexplanation of them.\nWhen the seven rulers were cast from their heavens down to the earth, they\ncreated for themselves angels, numerous and demonic, to serve them. These\nangels taught people much about error, magic, potions, idolatry, bloodshed,\naltars, temples, sacrifices, and libations to all the demons of the earth. The angels\nwork with fate, which came into being by agreement of the gods of injustice\nand justice.\nSo when the world came into being, it went about in error and confusion all\nthe time. All people on earth served the demons from the creation until the end\nof the age-both the angels of justice and the people of injustice. Thus the world\nwas in confusion, ignorance, and stupor. All erred, until the appearance of the\ntrue human.\nEnough on this. Next we shall consider our world so that we may present an\naccurate description of its structure and administration.\nThen it will be clear how the proof of hidden things, which have been\napparent from the foundation of the world to the end of the age, came about.\nEpilogue: The Blessed Little Innocent Spirits and the Church",
+          "coptic": "ⲧⲉ §ⲡⲁⲗⲓⲛ ⲙⲁⲣⲛ̅ⲉⲓ ⲉϩⲟⲩⲛ ⲉⲛⲁⲣⲭⲱⲛ ⲛ̅‐\nⲧⲁⲛϣⲁϫⲉ ⲉⲣⲟⲟⲩ ϫⲉⲕⲁⲁⲥ ⲉⲛⲁⲣ̅ⲡⲁⲣϩⲓⲥⲧⲁ\nⲛ̅ⲧⲟⲩⲁⲡⲟⲇⲓⲝⲉⲓⲥ §ⲡⲓⲥⲟϣϥ ⲅⲁⲣ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅‐\nⲧⲁⲣⲟⲩⲛⲟϫⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲟⲩⲙ̅ⲡⲏⲩⲉ ⲉⲡⲓ‐\nⲧⲛ̅ ⲉϫⲙ̅ ⲡⲕⲁ’ϩ ⲁⲩⲥⲱⲛⲧ ⲛⲁⲩ ⲛ̅ϩⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲉⲧⲉ ϩⲁϩ ⲛⲉ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲁⲧⲣⲟⲩⲣ̅ϩⲩⲡⲏⲣⲉⲧⲉⲓ\nⲛⲁⲩ ⲛⲁⲉⲓ ⲇⲉ ⲁⲩⲧⲥⲉⲃⲉ ⲣ̅ⲣⲱⲙⲉ ⲁϩⲁϩ ⲙ̅ⲡⲗⲁ‐\nⲛⲏ ϩⲓ ⲙⲁⲅⲉⲓⲁ ϩⲓ ⲫⲁⲣⲙⲁⲕⲓⲁ ϩⲓ ⲙ̅ⲛ̅ⲧϣⲙ̅ϣⲉ\nⲉⲓⲇⲱⲗⲟ’ⲛ ϩⲓ ⲡⲉⲧϩ ⲥⲛ’ⲟϥ ⲉⲃⲟⲗ ϩⲓ ϣⲏⲩⲉ ϩⲓ\nⲣ̅ⲡⲉ ϩⲓ ⲑⲩⲥⲓⲁ ϩⲓ ⲥⲡⲟⲛⲇⲏ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱⲛ\nⲧⲏⲣⲟⲩ ⲙ̅ⲡⲕⲁϩ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲟⲩϣⲃⲣ̅‐\nⲣ̅ ϩⲱⲃ ⲇⲓⲙⲁⲣⲙⲉⲛⲏ ⲧⲁⲉⲓ ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲕⲁ‐\nⲧⲁ ⲧⲥⲩ’ⲙⲫⲱⲛⲓⲁ ϩⲓⲧⲛ̅ ⲛ̅ⲛⲟⲩⲧⲉ ⲛ̅ⲧⲁⲇⲓⲕⲉⲓⲁ\nⲙⲛ̅ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ §ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲛ̅ⲧⲁⲣⲉ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ϣⲱⲡⲉ ϩⲛ̅ ⲛⲟⲩϫⲓ ϩⲣ’ⲁϥ ⲁϥⲣ̅ⲡⲗⲁⲛⲁⲥ‐\nⲑⲉ ϩⲙ̅ ⲡⲭⲣⲟⲛⲟⲥ ⲧⲏ’ⲣϥ ⲁⲛⲣⲱⲙⲉ ⲅⲁⲣ ⲧⲏⲣⲟⲩ\nⲉⲧϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲁⲩϣⲙ̅ϣⲉ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱⲛ ϫⲓⲛ\nⲧⲕⲁⲧⲁⲃⲟⲗⲏ ϣⲁ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲙⲉⲛ ⲛ̅ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲙⲛ̅ ⲛ̅ⲣⲱⲙⲉ ⲛ̅ⲧⲁⲇⲓ‐\nⲕⲓⲁ ⲧⲉⲉⲓϩⲉ ⲁⲡⲕⲟⲥⲙⲟⲥ ϣⲱⲡⲉ ϩⲛ̅ⲛⲟⲩ‐\nϫⲓ ϩⲣ’ⲁϥ ϩⲛ̅ⲛⲟⲩⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲙⲛ̅ⲛⲟⲩⲃ̅‐\nϣⲉ ⲁⲩⲡⲗⲁⲛⲁ ⲧⲏⲣⲟⲩ ϣⲁ ϩⲟⲩⲛ ⲁⲧⲡⲁⲣⲟⲩⲥⲓⲁ\nⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲓⲛⲟⲥ §ⲟⲩⲁϣⲣⲉ ⲉⲣⲱⲧⲛ̅\nϣⲁ ⲛⲉⲉⲓⲙⲁ ⲉⲓⲧⲁ ⲧⲛ̅ⲛⲏⲩ ⲉϩⲟⲩⲛ ⲉⲡⲛ̅ⲕⲟⲥ‐\nⲙⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲛⲁϫⲱ’ⲕ ⲉⲃⲟ’ⲗ ⲛ̅ⲧ’ⲉϥⲥⲩⲥⲧⲁ‐\nⲥⲓⲥ ⲙⲛ̅ ⲧ’ⲉϥⲇⲓⲟⲓⲕⲏⲥⲓⲥ ⲕⲁⲧⲁ ⲟⲩⲙⲛ̅ⲧⲁⲕⲣⲓ‐\nⲃⲏⲥ §ⲧⲟⲧⲉ ϥⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲑⲉ ⲉⲛⲧⲁⲩ‐\nϩⲉ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲛ̅ⲛⲉⲑⲏ’ⲡ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nϫⲓⲛ ⲧⲕⲁⲧⲁⲃⲟⲗ’ⲏ ϣⲁ ϩⲟⲩⲛ ⲁⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ\nⲙ̅ⲡⲁ[ⲓ]ⲱⲛ §ϯⲛ̅ⲛⲏⲩ ⲇⲉ ⲉϩⲟⲩⲛ ⲉⲛⲕⲉⲫⲁⲗⲁⲓⲟⲛ"
+        },
+        {
+          "title": "123, 31-125, 14",
+          "subtitle": "123, 31-125, 14",
+          "heading": "(123, 31-125, 14)",
+          "rangeLabel": "123, 31-125, 14",
+          "range": {
+            "start": {
+              "page": 123,
+              "line": 31
+            },
+            "end": {
+              "page": 125,
+              "line": 14
+            }
+          },
+          "english": "Now I come to the main points [about] immortal humanity. I shall discuss all the\nbeings belonging to immortal humanity and explain how they got here.\nWhen a multitude of people had come into being through [Adam, who]\nwas formed from matter, and the world was filled, the rulers reigned over it-\nthat is, they kept it in ignorance.\nWhat is the reason? It is this. The immortal Father knows that deficiency of\ntruth came to be among the aeons and their world. So when he wanted to bring\ndown the rulers of perdition by means of their modeled creatures, he sent the\nblessed little innocent spirits, who are like you, down to the world of perdition.\nThey are not strangers to knowledge.\nAll knowledge is in one angel who appears to them. This angel stands before\nthe Father and is not incapable of giving them knowledge.\nWhenever they appear in the world of perdition, the blessed spirits\nimmediately reveal the pattern of incorruptibility so as to condemn the rulers and\ntheir powers.\nWhen the blessed spirits appeared in the modeled bodies of the authorities,\nthe authorities were jealous of them. Out of envy the authorities mixed their\nsemen with them in order to defile them, but they were not able.\nWhen the blessed spirits appeared in an enlightened form, they appeared in\ndifferent ways. They came from different realms and revealed their knowledge to\nthe church that appeared in the modeled bodies of perdition. The church was\nfound to have all kinds of seed because of the seed of the authorities mixed [with\nit].\nThen the Savior made all of them [one]. The spirits of these people [proved\nto be] superior, being blessed but varying in election. There are many\nothers who are kingless and superior to everyone before them.\nSo there are four generations. Three generations belong to the kings of the\neighth heaven, and the fourth generation, which is the most exalted, is kingless\nand perfect.\nThese people will enter the holy place of their Father, and they will reside in\nrest, and eternal, ineffable glory, and ceaseless joy. They already are kings. They\nare the immortal within the mortal, and they will condemn the gods of chaos and\ntheir powers.",
+          "coptic": "ⲙ̅ⲡⲁ[ⲓ]ⲱⲛ §ϯⲛ̅ⲛⲏⲩ ⲇⲉ ⲉϩⲟⲩⲛ ⲉⲛⲕⲉⲫⲁⲗⲁⲓⲟⲛ\nⲉⲧϫⲓ ⲉ[ϩⲟⲩⲛ ⲉ]ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ϯⲛⲁ‐\nϣⲁϫⲉ ⲉⲛ[ⲉⲧⲉ] ⲛⲟ’ⲩϥ ⲧⲏⲣⲟⲩ ϫⲉ ⲉⲧⲃⲉ ⲟⲩ\nⲛ̅ⲥⲙⲟ’ⲧ ⲉⲩⲛ̅ⲛⲉⲉⲓⲙⲁ §ⲛ̅ⲧⲁ[ⲣⲉ ⲟ]ⲩⲙ[ⲏ]ⲏ‐\nϣⲉ ⲣ̅ⲣⲱⲙⲉ ϣⲱⲡⲉ ⲉⲃⲟ[ⲗ ϩⲛ̅ ⲁⲇⲁⲙ ⲡⲁⲓ̈]\nⲛ̅ⲧⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙ’ⲟϥ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩⲗ’ⲏ\nⲏⲇⲏ ⲛ̅ⲧⲁⲣⲉ ⲡⲕⲟⲥⲙⲟⲥ ⲙⲟⲩϩ ⲁⲛⲁⲣⲭⲱⲛ ⲣ̅ ϫⲟ‐\nⲉⲓⲥ ⲉϩⲣⲁⲓ̈ ⲉϫ’ⲱϥ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲁⲩⲕⲁⲧⲉⲭⲉ ⲙ̅‐\nⲙ’ⲟϥ ϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ §ⲁϣ ⲡⲉ ⲡⲁⲓⲧⲓⲟⲛ\nⲡⲁⲉⲓ ⲡⲉ ⲉⲡⲉⲓ ⲡⲉⲓⲱ’ⲧ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ⲥⲟⲟⲩⲛ\nϫⲉ ⲁⲩϣⲧⲁ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲁⲓ‐\nⲱ’ⲛ ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲛ̅ⲧⲁⲣ’ⲉϥⲟⲩ‐\nⲱϣ ⲁⲟⲩⲱⲥϥ ⲛ̅ⲛ̅ⲁⲣⲭⲱ’ⲛ ⲙ̅ⲡⲧⲁⲕⲟ ϩⲓⲧⲛ ⲛⲟⲩ‐\nⲡⲗⲁⲥⲙⲁ ⲁϥϫⲟⲟⲩ ⲛ̅ⲛⲉⲧⲛ̅ⲉⲓⲛⲉ ⲉϩⲣⲁⲓ̈ ⲉⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲙ̅ⲡⲧⲁⲕⲟ ⲉⲧⲉ ⲛⲁⲉⲓ ⲛⲉ ⲙ̅ⲡⲛ̅ⲁ̅ ⲛ̅ⲃⲁⲗϩⲏ’ⲧ\nⲛ̅ⲕⲟⲩⲉⲓ ⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ ⲥⲉⲟ ⲁⲛ ⲛ̅ϣⲙ̅ⲙⲟ ⲉ’ⲧ‐\nⲅⲛⲱⲥⲓⲥ §ⲧⲅⲛⲱⲥⲓⲥ ⲅⲁⲣ ⲧⲏⲣⲥ̅ ϩⲛ̅ⲛⲟⲩⲁ’ⲅⲅⲉⲗⲟⲥ\n† ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲓ ⲧⲟⲩⲉϩⲏ ⲡⲁⲉⲓ ⲟⲩⲁⲧϭⲟ’ⲙ\nⲁⲛ ⲡⲉ ⲛ̅ⲛⲁϩⲣⲙ̅ ⲡⲉⲓⲱ’ⲧ ⲁⲩⲱ ⲁ〈ϥ〉ϯ ⲛⲁⲩ ⲛ̅ⲧⲅⲛⲱ‐\nⲥⲓⲥ [ⲧⲅⲛⲱⲥⲓⲥ ⲅⲁⲣ ⲧⲏⲣⲥ̅ ϩⲛ̅ⲛⲟⲩⲁ’ⲅⲅⲉⲗⲟⲥ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ%2 ϩⲓⲧⲟⲩⲉϩⲏ ⲡⲁⲉⲓ ⲟⲩⲁⲧϭⲟ’ⲙ\nⲁⲛ ⲡⲉ ⲛ̅ⲛⲁϩⲣⲙ̅ ⲡⲉⲓⲱ’ⲧ ⲁⲩⲱ ⲁϯ ⲛⲁⲩ ⲛ̅ⲧⲅⲛⲱ‐\nⲥⲓⲥ] §ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲉⲩϣⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲙ̅ⲡⲧⲁⲕⲟ ⲥⲉⲛⲁϭⲱⲗ’ⲡ ⲉⲃⲟⲗ ⲛ̅ϣⲟⲣ’ⲡ ⲙ̅‐\nⲡⲧⲩⲡⲟⲥ ⲛ̅ⲧⲙⲛ̅ⲧⲁ’ⲧⲧⲁⲕⲟ ⲁⲩⲕⲁⲧⲁⲕⲣⲓⲥⲓⲥ\nⲛ̅ⲛ̅ⲁⲣⲭⲱⲛ ⲙⲛ̅ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲛ̅ⲧⲁⲣⲉ ⲙ̅ⲙⲁ‐\nⲕⲁⲣⲓⲟⲥ ϭⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟ’ⲗ ϩⲛ̅ ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲁⲩⲕⲱϩ ⲉⲣⲟⲟⲩ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲇⲉ ⲉⲧⲃⲉ\nⲡⲕⲱϩ ⲁⲩⲧⲱϩ ⲛ̅ⲛⲟⲩⲥⲡⲉⲣⲙ’ⲁ ⲛⲙ̅ⲙⲁⲩ ⲁⲧⲣⲟⲩ‐\nϫⲁϩⲙⲟⲩ ⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟ’ⲙ §ⲙ̅ⲙⲁⲕⲁⲣⲓⲟ’ⲥ\nϭⲉ ⲛ̅ⲧⲁⲣⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲟⲩⲟⲉⲓⲛ ⲕⲁⲧⲁ\nⲇⲓⲁⲫⲟⲣⲁ ⲁⲩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲱ ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nⲛ̅ϩⲏⲧⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲕⲁϩ ⲁⲩϭⲱⲗ’ⲡ ⲉⲃⲟⲗ\nⲛ̅ⲧⲟⲩⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲉ’ⲕⲕⲗⲏⲥⲓⲁ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅ⲡⲗⲁⲥⲙⲁ ⲙ̅ⲡⲧⲁⲕ’ⲟ ⲁⲩϩⲉ ⲉ‐\nⲣⲟⲥ ⲉⲩⲛ̅ⲧⲁⲥ ⲥⲡⲉⲣⲙⲁ ⲛⲓ’ⲙ ⲉⲧⲃⲉ ⲛ̅[ⲥ]ⲡⲉⲣ‐\nⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ⲧⲁϩⲧⲱ[ϩ ⲛⲙ̅ⲙⲁⲥ] §ⲧⲟ[ⲧ]ⲉ\nⲡⲥⲱⲧⲏ’ⲣ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟ[ⲩ.....]ⲉⲓ ⲉⲃⲟⲗ\nⲛ̅[ϩ]ⲏⲧⲟⲩ [ⲧ]ⲏⲣⲟⲩ ⲁⲩⲱ ⲙ̅ⲡ̅ⲛ̅ⲁ̅̅ ⲛ̅ⲛⲁⲉⲓ ⲟⲩ‐\n[ⲟⲛϩ ⲉⲃⲟⲗ ⲉⲩⲥ]ⲟⲧ’ⲡ ⲉⲩⲟ ⲙ̅ⲙⲁⲕⲁⲣⲓⲟ’ⲥ\nⲁⲩⲱ ⲉⲩϣⲃⲉⲓⲟⲉⲓ’ⲧ ⲁⲛⲉ’ⲕⲗⲟⲅⲏ ⲁⲩⲱ ϩⲛ̅‐\nⲕⲟⲟⲩⲉ ⲉⲛⲁϣⲱⲟⲩ ⲉⲩⲟ ⲛ̅ⲁⲧⲣ̅ⲣⲟ ⲉⲩⲥⲟⲧ’ⲡ\nⲁⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧϩⲓ ⲧⲟⲩⲉϩⲏ §ϩⲱⲥⲧⲉ ⲟⲩⲛ̅ ϥⲧⲟ‐\nⲟⲩ ⲛ̅ⲅⲉⲛⲟⲥ ϣⲟⲟ’ⲡ ⲟⲩⲛ̅ ϣⲟⲙⲧ ⲉⲧⲏ’ⲡ ⲁⲛⲣ̅‐\nⲣⲱⲟⲩ ⲛ̅ⲧⲁⲙⲁϩϣⲙⲟⲩⲛⲉ ⲡⲙⲁϩϥⲧⲟⲟⲩ ⲇⲉ\nⲛ̅ⲅⲉⲛⲟⲥ ⲟⲩⲁ’ⲧⲣ̅ⲣⲟ ⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ ⲉϥⲙ̅‐\nⲡⲟⲩⲥⲁ ⲛϩⲣⲉ ⲧⲏⲣⲟⲩ §ⲛⲁⲉⲓ ⲅⲁⲣ ⲉⲩⲛⲁⲃⲱⲕ†\nⲉϩⲟⲩ’ⲛ ⲉⲡⲧⲟⲡⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ ⲙ̅ⲡⲟⲩⲉⲓⲱ’ⲧ\nⲁⲩⲱ ⲥⲉⲛⲁⲙ̅ⲧⲟⲛ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲁⲛⲁⲡⲁⲩ‐\nⲥⲓⲥ ⲙⲛ̅ⲛⲟⲩⲉⲟⲟⲩ ϣⲁ ⲉⲛⲉϩ ⲉⲙⲁⲩϣϣⲁϫⲉ\nⲉⲣⲟϥ ⲁⲩⲱ ϩⲛ̅ ⲟⲩⲣⲁϣⲉ ⲁϫⲛ̅ ⲱϫⲛ̅ §ⲥⲉⲟ ⲇⲉ\nⲛ̅ⲣ̅ⲣⲟ ϩⲙ̅ ⲡⲑⲛⲏⲧⲟⲛ ϩⲱⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ ⲥⲉ‐\nⲛⲁⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲛ̅ⲛ̅ⲛⲟⲩⲧⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅\nⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲡⲗⲟⲅⲟⲥ ϭⲉ ⲉⲧϫⲟⲥⲉ ⲉⲟⲩ‐"
+        },
+        {
+          "title": "Jesus the Word",
+          "subtitle": "Jesus the Word",
+          "heading": "Jesus the Word (125, 14-32)",
+          "rangeLabel": "125, 14-32",
+          "range": {
+            "start": {
+              "page": 125,
+              "line": 14
+            },
+            "end": {
+              "page": 125,
+              "line": 32
+            }
+          },
+          "english": "The Word who is above all was sent for one reason only, to announce what is\nunknown. He said, “There is nothing hidden that is not apparent, and what has\nnot been known will be known.”\nThese people were sent to reveal what is hidden and expose the seven\nauthorities of chaos and their godlessness, and so they were condemned to\ndeath.\nWhen all those who are perfect appeared in the modeled bodies of the rulers\nand revealed matchless truth, they put to shame all the wisdom of the gods.\nTheir fate was condemnation,\ntheir power was dried up,\ntheir dominion was dissolved,\ntheir forethought was [empty],\nas was their glory.",
+          "coptic": "ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲡⲗⲟⲅⲟⲥ ϭⲉ ⲉⲧϫⲟⲥⲉ ⲉⲟⲩ‐\nⲟⲛ ⲛⲓⲙ ⲁⲩⲧⲛ̅ⲛⲟⲟ’ⲩϥ ⲉⲡⲉⲉⲓϩⲱⲃ ⲙⲟⲛⲟⲛ\nⲁⲧⲣⲉϥⲣ̅ⲕⲏⲣⲩⲥⲥⲉ ⲉⲧⲃⲉ ⲡⲉⲧⲟⲩⲥⲟⲟⲩⲛ ⲁⲛ\nⲙ̅ⲙⲟϥ ⟦ϫ⟧ ⲡⲉϫ’ⲁϥ ϫⲉ ⲙⲛ̅ ⲡⲉⲑⲏ’ⲡ ⲉⲧⲟⲩ‐\nⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ ⲁⲩⲱ ⲡⲉⲧⲉ ⲙ̅ⲡⲟⲩⲥⲟⲩⲱ’ⲛϥ\nⲥⲉⲛⲁⲥⲟⲩⲱ’ⲛϥ §ⲛⲁⲉⲓ ⲇⲉ ⲁⲩⲧⲛ̅ⲛⲟⲟⲩⲥⲉ\nⲁⲧⲣⲟⲩⲟⲩⲱⲛ’ϩ ⲉⲃⲟⲗ ϩⲙ̅ⲡⲡⲉⲑⲏ’ⲡ ⲙⲛ̅\nⲧⲥⲁϣϥⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲧⲟⲩ‐\nⲙⲛ̅ⲧⲁⲥⲉⲃⲏⲥ ⲁⲩⲱ ⲧⲉⲉⲓϩⲉ ⲁⲩⲕⲁⲧⲁⲕⲣⲓ‐\nⲛⲉ ⲙ̅ⲙⲟⲟⲩ ⲉⲙⲟⲟⲩⲧⲟⲩ §ⲛ̅ⲧⲁⲣⲉ ⲛ̅ⲧⲉⲗⲉⲓ‐\nⲟⲥ ϭⲉ ⲧⲏⲣⲟⲩ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲡⲗⲁⲥ‐\nⲙⲁ ⲛ̅ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲟⲩϭⲱⲗ’ⲡ ⲉ‐\nⲃⲟⲗ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲙⲛ̅ ⲡⲉ’ⲧⲧⲛ̅ⲧⲱⲛ ⲉ‐\nⲣⲟⲥ ⲁⲩϯ ϣⲓⲡⲉ ⲛ̅ⲥⲟⲫⲓⲁ ⲛⲓⲙ ⲛ̅ⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲁⲩⲱ ⲧⲟⲩϣⲓⲙⲁⲣⲙⲉⲛⲏ%2 ⲁⲩϩⲉ ⲉⲣⲟⲥ\nⲉⲥⲟ ⲛ̅ⲕⲁⲧⲁⲅⲛⲱⲥⲓⲥ ⲁⲩⲱ ⲧⲟⲩⲇⲩⲛⲁⲙⲓⲥ\nⲁⲥⲱϣ’ⲙ̅ ⲧⲟⲩⲙⲛ̅ⲧϫⲟⲉⲓⲥ ⲁⲩⲣ̅ⲕⲁⲧⲁⲗⲩⲉ\nⲙ̅ⲙ[ⲟ]ⲥ ⲧⲟⲩⲡⲣⲟⲛⲟⲓⲁ ⲁⲥϣⲱⲡⲉ ⲁⲩⲡⲉ’ⲧ‐\nϣ[ⲟⲩⲉⲓ’ⲧ ⲙⲛ̅ ⲡ]ⲟⲩⲉⲟⲟⲩ §ϩⲁ ⲧⲉϩⲏ ⲛ̅ⲧⲥⲩⲛ‐"
+        },
+        {
+          "title": "The End of the Age",
+          "subtitle": "The End of the Age",
+          "heading": "The End of the Age (125, 32-126, 35)",
+          "rangeLabel": "125, 32-126, 35",
+          "range": {
+            "start": {
+              "page": 125,
+              "line": 32
+            },
+            "end": {
+              "page": 126,
+              "line": 35
+            }
+          },
+          "english": "Before the end [of the age], this whole region will shake with loud thunder. The\narchons will lament because of their [fear of] death, the angels will grieve\nfor their human beings, the demons will weep over their times and seasons, and\ntheir people will mourn and cry on account of their death.\nThen the age will come, and they will be disturbed. Their kings will be drunk\nfrom the flaming sword and will wage war against each other, so that the earth\nwill be drunk from the blood that is poured out. The seas will be troubled by war.\nThe sun will darken and the moon will lose its light. The stars of the sky will\nabandon their circuits, and loud thunder will roar from a great power, above all\nthe powers of chaos, where the firmament of the female is located. She had\nproduced the first creation, and now she will put away her wise fire of\nafterthought and put on irrational wrath.\nPistis Sophia will drive out the gods of chaos, whom she had created along\nwith the chief creator, and she will cast them down to the abyss. They will be\nwiped out through their own injustice. They will be like mountains blazing with\nfire, and they will consume one another until they are destroyed by their chief\ncreator. When he destroys them, he will turn on himself and attack himself until\nhe is no more.\nThe heavens of the gods of chaos will collapse upon one another and their\npowers will be consumed. Their realms will also be overthrown. The chief\ncreator’s heaven will fall and split in half. His [stars in their sphere] will fall\ndown to the earth, [and the earth will not] be able to endure them. They will fall\n[down] to the abyss, and the abyss will be overthrown.",
+          "coptic": "ϣ[ⲟⲩⲉⲓ’ⲧ ⲙⲛ̅ ⲡ]ⲟⲩⲉⲟⲟⲩ §ϩⲁ ⲧⲉϩⲏ ⲛ̅ⲧⲥⲩⲛ‐\nⲧⲉⲗⲉⲓⲁ [ⲙ̅ⲡⲁⲓⲱ]ⲛ ⲡⲙⲁ ⲧⲏⲣϥ ⲛⲁⲛⲟⲉⲓⲛ\nϩⲓⲧⲛ̅ⲛⲟⲩ[ⲛ]ⲟϭ ⲛ̅ϩⲣⲟⲩⲃⲃⲁ[ⲉⲓ] ⲧⲟⲧⲉ ⲛ̅ⲁⲣ‐\nⲭⲱⲛ ⲛⲁⲣ̅ⲡⲉⲛⲑⲉⲓ ⲉⲩ[.......ⲡⲟ]’ⲩ\nⲙⲟⲩ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛⲁⲣ̅ ϩⲏⲃⲉ ⲛ̅ⲛⲟⲩⲣⲱⲙⲉ\nⲁⲩⲱ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲛⲁⲣⲓⲙⲉ ⲛ̅ⲛⲟⲩⲕⲁⲓⲣⲟⲥ\nⲁⲩⲱ ⲛⲟⲩⲣⲱⲙⲉ ⲥⲉⲛⲁⲛⲉϩⲡⲉ ⲛ̅ⲥⲉⲁϣ‐\nⲕⲁ’ⲕ ⲉⲃⲟⲗ ⲉϫⲛ̅ ⲡⲟⲩⲙⲟⲩ §ⲧⲟⲧⲉ ⲡⲁⲓⲱⲛ\nⲛⲁⲣ̅ⲁⲣⲭⲉⲓ ⲛ̅ⲥⲉϣⲧⲟⲣⲧⲣ̅ ⲛⲉϥⲣ̅ⲣⲱⲟⲩ ⲛⲁ‐\nϯϩⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲥⲏϥⲉ ⲛ̅ⲥⲁⲧⲉ ⲁⲩⲱ ⲥⲉⲛⲁ‐\nⲣ̅ ⲡⲟⲗⲉⲙⲟⲥ ⲉϩⲟⲩⲛ ⲉⲛⲟⲩⲉⲣⲏⲩ ϩⲱⲥⲧⲉ\nⲛ̅ⲧⲉ ⲡⲕⲁϩ ϯϩⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲥⲛ’ⲟϥ ⲉⲧⲡⲟϩ’ⲧ\nⲉⲃⲟⲗ ⲁⲩⲱ ⲛ̅ⲑⲁⲗⲁⲥⲥⲁ ⲛⲁϣⲧⲟⲣⲧⲣ̅ ϩⲓⲧⲛ̅\nⲙ̅ⲡⲟⲗⲉⲙⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ §ⲧⲟⲧⲉ ⲡⲣⲏ ⲛⲁⲣ̅ ⲕⲁ‐\nⲕⲉ ⲁⲩⲱ ⲡⲟⲟϩ ⲛⲁⲧⲁⲕⲟ ⲙ̅ⲡⲉϥⲟⲩⲟⲉⲓⲛ\nⲛ̅ⲥⲓⲟⲩ ⲛ̅ⲧⲡⲉ ⲛⲁⲣ̅ⲁⲑⲉⲧⲉⲓ ⲙ̅ⲡⲟⲩⲇⲣⲟⲙⲟⲥ\nⲁⲩⲱ ⲟⲩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ϩⲣⲟⲩⲃⲃⲁⲉⲓ ⲛⲏⲩ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲉⲧⲙ̅ⲡⲥⲁ ⲛ‐\nⲧⲡⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ ⲡⲙⲁ\nⲉⲧⲉ ⲡⲥⲧⲉⲣⲉⲱⲙⲁ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲥϩⲓⲙⲉ ⲛ̅ⲧⲁ‐\nⲣⲉ ⲧⲏ ⲧⲁⲙⲓⲟ ⲙ̅ⲡϣⲟⲣ’ⲡ ⲛ̅ⲉⲣⲅⲟⲛ ⲥⲛⲁ‐\nⲕⲱ ⲉϩⲣⲁⲓ̈ ⲙ̅ⲡⲕⲱϩ’ⲧ ⲛ̅ⲥⲁⲃⲉ ⲛ̅ⲧⲉ ⲧⲉⲡⲓ‐\nⲛⲟⲓⲁ ⲥⲛⲁϯ ϩⲓⲱⲱⲥ ⲛ̅ⲟⲩⲟⲣⲅⲏ ⲙ̅ⲙⲛ’ⲧ‐\nⲁⲑⲏⲧ §ⲧⲟⲧⲉ ⲥⲛⲁⲣ̅ⲇⲓⲱⲕⲉ ⲛ̅ⲛ̅ⲛⲟⲩⲧⲉ\nⲙ̅ⲡⲭⲟⲁⲥ ⲛⲁⲉⲓ ⲛ̅ⲧⲁⲥⲥⲟⲛⲧⲟⲩ ⲙⲛ̅ ⲡⲁ’ⲣ‐\nⲭⲓⲅⲉⲛⲉⲧⲱ’ⲣ ⲥⲛⲁⲛⲟϫⲟⲩ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲛⲟⲩⲛ\nⲥⲉⲛⲁϥⲟⲧⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲟⲩⲁⲇⲓⲕⲓ’ⲁ ⲥⲉⲛⲁ‐\nϣⲱⲡⲉ ⲅⲁ’ⲣ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲧⲟⲟⲩ ⲉⲧϫⲉⲣⲉ ⲕⲱϩ’ⲧ\nⲛ̅ⲥⲉⲟⲩⲱⲙ ⲛ̅ⲥⲁ ⲛⲟⲩⲉⲣⲏⲩ ϣⲁⲛⲧⲟⲩⲱϫⲛ̅\nⲉⲃⲟⲗ ϩⲓⲧⲟⲟ’ⲧϥ ⲙ̅ⲡⲟⲩⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱ’ⲣ\nϩⲟⲧⲁⲛ ⲉϥϣⲁⲛⲟϫⲛⲟⲩ ϥⲛⲁⲕⲟ’ⲧϥ ⲉⲣ’ⲟϥ\nⲟⲩⲁ’ⲁϥ ⲛ̅ϥⲟϫⲛ’ⲉϥ ϣⲁⲛⲧ’ⲉϥⲱϫⲛ̅ §ⲁⲩⲱ\nⲛⲟⲩⲙ̅ⲡⲏⲩⲉ ⲛⲁϩⲁⲉⲓⲉ ⲉϫⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ\nⲁⲩⲱ ⲛ̅ⲧⲉ ⟦ⲩ⟧ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ ⲣⲟⲕϩ † ⲛ̅ⲟⲩⲕⲉ‐\nⲁⲓⲱⲛ ⲥⲉⲛⲁϣⲟⲣϣⲣ̅ §ⲁⲩⲱ ⲧⲉϥⲡⲉ ⲛⲁ‐\nϩⲁⲉⲓⲉ ⲛ̅ⲥⲣ̅ ⲥⲛⲁⲩ ⲡⲉϥⲕ....ⲛ̅[...] ⲛⲁ‐\nϩⲁⲉⲓⲉ ⲉⲡⲉⲥⲏ’ⲧ ⲉⲡⲕⲁ[........].‐\nϣϥⲓ ϩⲁⲣⲟⲟⲩ ⲥⲛⲁϩⲁⲉ[ⲓⲉ ⲉⲡⲓⲧ]ⲛ̅ ⲉⲡⲛⲟⲩⲛ\nⲁ[ⲩ]ⲱ ⲡⲛ[ⲟⲩ]ⲛ ⲛⲁϣⲟⲣ̅ϣⲣ̅ §ⲡⲟⲩⲟⲉⲓⲛ ⲛ’ⲁ‐"
+        },
+        {
+          "title": "Light Overcomes Darkness",
+          "subtitle": "Light Overcomes Darkness",
+          "heading": "Light Overcomes Darkness (126, 35-127, 17)",
+          "rangeLabel": "126, 35-127, 17",
+          "range": {
+            "start": {
+              "page": 126,
+              "line": 35
+            },
+            "end": {
+              "page": 127,
+              "line": 17
+            }
+          },
+          "english": "The light will [overcome the] darkness and banish it. The darkness will be like\nsomething that never was, and the source of darkness will be dissolved.\nDeficiency will be pulled out by its root and cast down into the darkness, and the\nlight will withdraw up to its root.\nThe glory of the unbegotten will appear and fill all the eternal realms when\nthe prophets and the writings of rulers are revealed and fulfilled by those who\nare called perfect. Those who have not become perfect in the unbegotten Father\nwill receive glory in their realms and the kingdoms of immortals, but they will\nnever enter the kingless realm.\nAll must return to the place where they came from. By what they do and\nwhat they know all of them will reveal their natures.",
+          "coptic": "ⲁ[ⲩ]ⲱ ⲡⲛ[ⲟⲩ]ⲛ ⲛⲁϣⲟⲣ̅ϣⲣ̅ §ⲡⲟⲩⲟⲉⲓⲛ ⲛ’ⲁ‐\n[.... ⲙ̅ⲡⲕⲁ]ⲕⲉ ⲛ̅ϥϥⲟ’ⲧϥ ⲉⲃⲟⲗ ϥⲁⲣ̅ ⲑⲉ\nⲙⲡⲉⲧⲉ ⲙ̅ⲡⲉϥϣⲱⲡⲉ ⲁⲩⲱ ⲡⲉⲣⲅⲟⲛ ⲛ̅ⲧⲁ\nⲡⲕⲁⲕⲉ ⲟⲩⲏϩ ⲛ̅ⲥ’ⲱϥ ϥⲛⲁⲃⲱ’ⲗ ⲉⲃⲟ’ⲗ ⲁⲩⲱ\nⲡϣⲧⲁ ⲛⲁⲡⲱⲣ’ⲕ ϩⲁ ⲧⲉϥⲛⲟⲩⲛⲉ ⲉⲡⲓⲧⲛ̅ ⲉ‐\nⲡⲕⲁⲕⲉ ⲁⲩⲱ ⲡⲟⲩⲟⲉⲓⲛ ⲛⲁⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩ‐\nⲣⲁⲓ̈ ⲉⲧⲉϥⲛⲟⲩⲛⲉ §ⲁⲩⲱ ⲡⲉⲟⲟⲩ ⲙ̅ⲡⲁⲅⲉⲛ‐\nⲛⲏⲧⲟⲥ ⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲱ ϥⲛⲁⲙⲟⲩϩ\nⲛ̅ⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ ⲉⲣϣⲁ ⲧⲡⲣⲟⲫⲏⲧⲉⲓⲁ ⲙⲛ̅\nϫⲓⲥⲧⲟⲣⲓⲁ ⲛ̅ⲛⲉⲧⲟ ⲛ̅ⲣ̅ⲣⲟ ϭⲱⲗ’ⲡ ⲉⲃⲟⲗ ⲁⲩⲱ\nⲛ̅ⲥϫⲱ’ⲕ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ\nϫⲉ ⲧⲉⲗⲉⲓⲟⲥ ⲛⲉⲧⲉ ⲙ̅ⲡⲟⲩⲣ̅ ⲧⲉⲗⲉⲓⲟⲥ ⲇⲉ\nϩⲙ̅ ⲡⲁⲅⲉⲛ〈ⲛ〉ⲏⲧⲟⲥ ⲉⲓⲱ’ⲧ ⲥⲉⲛⲁϫ’ⲓ ⲛ̅ⲛⲟⲩⲉ‐\nⲟⲟⲩ ϩⲛ̅ ⲛⲟⲩⲁⲓⲱⲛ ⲁⲩⲱ ϩⲛ̅ ⲙ̅ⲙⲛⲧⲣ̅ⲣⲟ ⲛ̅‐\nⲛⲁⲧⲙⲟⲩ ⲥⲉⲛⲁⲃⲱ’ⲕ ⲇⲉ ⲁⲛ ⲉⲛⲉϩ ⲉϩⲟⲩⲛ\nⲉⲧⲙⲛ̅ⲧⲁⲧⲣ̅ⲣⲟ §ϩⲁⲡⲥ̅ ⲅⲁⲣ ⲉⲧⲣⲉ ⲟⲩⲟⲛ ⲛⲓ’ⲙ\nⲃⲱ’ⲕ ⲉⲡⲧⲟⲡⲟⲥ ⲛ̅ⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ̅ ⲡⲟⲩ‐\nⲁ ⲅⲁⲣ ⲡⲟⲩⲁ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉϥⲡⲣⲁⲝⲓⲥ ⲙⲛ̅ ⲧⲉϥ‐\nⲅⲛⲱⲥⲓⲥ ⲛⲁϭⲱⲗ’ⲡ ⲉⲃⲟ’ⲗ ⲛ̅ⲧⲉϥⲫⲩⲥⲓⲥ \n( codex II ) The Exegesis on the Soul"
+        }
+      ]
+    },
+    {
+      "workId": "exegesis-on-the-soul",
+      "chapterName": "Exegesis on the Soul",
+      "title": "Codex II - Exegesis on the Soul",
+      "sourceTitle": "EXEGESIS ON THE SOUL",
+      "sections": [
+        {
+          "title": "The Female Soul",
+          "subtitle": "The Female Soul",
+          "heading": "The Female Soul (127, 18-22)",
+          "rangeLabel": "127, 18-22",
+          "range": {
+            "start": {
+              "page": 127,
+              "line": 18
+            },
+            "end": {
+              "page": 127,
+              "line": 22
+            }
+          },
+          "english": "The sages who came before us gave the soul a feminine name. She is also\nfeminine in nature, and she even has a womb.",
+          "coptic": "]ⲧⲉⲝⲏⲅⲏⲥⲓⲥ ⲉⲧⲃⲉ ⲧⲯⲩⲭⲏ[\n§ⲁⲛⲥⲟⲫⲟⲥ ⲉⲧϣⲟⲟⲡ ϩⲓⲧⲛ̅ⲛⲉϩⲏ ⲁⲩϯ ⲟ‐\nⲛⲟⲙⲁⲥⲓⲁ ⲉⲧⲯⲩⲭⲏ ⲛ̅ⲛⲟⲩⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ\nⲟⲛⲧⲱⲥ ⲟⲛ ϩⲛ̅ ⲧⲉⲥⲫⲩⲥⲓⲥ ⲟⲩⲥϩⲓⲙⲉ ⲧⲉ\nⲟⲩⲛ̅ⲧⲁⲥ ⲙ̅ⲙⲁⲩ ϩⲱⲱⲥ ⲛ̅ⲧⲉⲥⲙⲏⲧⲣⲁ §ϩⲉⲱⲥ"
+        },
+        {
+          "title": "Fall of the Soul",
+          "subtitle": "Fall of the Soul",
+          "heading": "Fall of the Soul (127, 22-129, 5) While the soul was alone with the Father, she",
+          "rangeLabel": "127, 22-129, 5",
+          "range": {
+            "start": {
+              "page": 127,
+              "line": 22
+            },
+            "end": {
+              "page": 129,
+              "line": 5
+            }
+          },
+          "english": "While the soul was alone with the Father, she\nwas a virgin and androgynous in form. When she fell down into a body and\nentered this life, she fell into the hands of many robbers. These shameless men\npassed her from one to the other and [violated] her. Some raped her, others\nseduced her with gifts. They defiled her, and she [lost her] virginity.\nIn her body she became a whore and gave herself to everyone, and she\nconsidered each sexual partner to be her husband. After she gave herself to\nshameless, faithless adulterers for them to abuse her, she sighed deeply and\nrepented.\nBut when she turned her face from those adulterers, she ran after others, and\nthey made her live with them and serve them in their beds as if they were her\nmasters. She was ashamed, and then she did not dare to leave them. For a long\ntime they fooled her into thinking they respected her like faithful, true husbands.\nBut finally they left and abandoned her.\nShe became a poor lost widow. She was helpless, and no one even gave ear\nto her in her pain. She got nothing from the adulterers except the filth they left\nwhen they had sex with her. The children she had from the adulterers are mute,\nblind, and sickly. They are disturbed.\nHer Father on high noticed her. He looked down on her and saw her sighing\nin pain and disgrace and repenting of her prostitution. She began to call on him\nfor help, and [she sighed] with all her heart and said, “My Father, save me. Look,\nI shall tell [you how I] left home and fled from my maiden’s quarters.\nRestore me to yourself.”\nWhen he sees her in this condition, he will consider her worthy of his mercy.\nFor many afflictions have come upon her because she left home.",
+          "coptic": "ⲟⲩⲛ̅ⲧⲁⲥ ⲙ̅ⲙⲁⲩ ϩⲱⲱⲥ ⲛ̅ⲧⲉⲥⲙⲏⲧⲣⲁ §ϩⲉⲱⲥ\nⲙⲉⲛ ⲉⲥϣⲟⲟⲡ’ ⲟⲩⲁⲁⲧⲥ̅ ϩⲁϩⲧⲙ̅ ⲡⲉⲓⲱⲧ’\nⲟⲩⲡⲁⲣⲑⲉⲛⲟⲥ ⲧⲉ ⲁⲩⲱ ⲟⲩϩⲟⲩⲧⲥϩⲓⲙⲉ ⲧⲉ\nϩⲙ̅ ⲡⲉⲥⲉⲓⲛⲉ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲥϣⲁⲛϩⲁⲉⲓⲉ\nⲉⲡⲓⲧⲛ̅ ⲉⲥⲱⲙⲁ ⲛ̅ⲥⲓ ⲉⲡⲉⲉⲓⲃⲓⲟⲥ ⲧⲟⲧⲉ ⲁⲥ‐\nϩⲁⲉⲓⲉ ⲁⲧⲟⲟⲧⲟⲩ ⲛ̅ϩⲁϩ ⲛ̅ⲗⲏⲥⲧⲏⲥ ⲁⲩⲱ ⲛ̅‐\nϩⲩⲃ[ⲣⲓ]ⲥⲧⲏⲥ ⲁⲩⲛⲟϫⲥ ⲉⲧⲟⲟⲧⲟⲩ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ\nⲁⲩ[.........]ⲟⲥ ϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲁⲩⲭⲣⲱ\nⲛⲁⲥ ϩ[ⲛ̅ⲛⲟⲩⲃⲓ]ⲁ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ ⲉⲩⲡⲉⲓⲑⲉ\nⲙ̅ⲙⲟⲥ ϩⲛ̅ [ⲟ]ⲩⲁⲡⲁⲧⲏ ⲛ̅ⲇⲱⲣ[ⲟ]ⲛ ϩⲁⲡⲁⲝ\nϩⲁⲡⲗⲱⲥ ⲁⲩϫⲟϩⲙⲥ̅ⲁⲥ[.....ⲧⲉⲥⲙⲛ̅]ⲧ\nⲡⲁⲣⲑⲉⲛⲟⲥ §ⲁⲩⲱ ⲁⲥⲡⲟⲣⲛⲉⲩⲉ ϩⲙ̅ ⲡⲉⲥ‐\nⲥⲱⲙⲁ ⲁⲩⲱ ⲁⲥⲧⲁⲁⲥ ⲛ̅ⲧⲟⲟⲧϥ’ ⲟⲩⲟⲛ ⲛⲓⲙ’\nⲁⲩⲱ ⲡⲉⲧⲥⲁϭⲟⲗϫⲥ̅ ⲙ̅ⲙⲟϥ’ ⲉⲥⲙⲉⲉⲩⲉ\nϫⲉ ⲡⲉⲥϩⲁⲉⲓ ⲡⲉ ϩⲟⲡⲧⲟⲉ ⲛ̅ⲧⲁⲥⲧⲁⲁⲥ ⲛ̅‐\nⲧⲟⲟⲧⲟⲩ ⲛ̅ϩⲛ̅ⲙⲟⲓⲭⲟⲥ ⲛ̅ϩⲩⲃⲣⲓⲥⲧⲏⲥ ⲛ̅ⲁ‐\nⲡⲓⲥⲧⲟⲥ ⲁⲧⲣⲟⲩⲣ̅ⲭⲣⲱ ⲛⲁⲥ ⲧⲟⲧⲉ ⲁⲥⲁϣ ⲉϩⲟⲙ’\nⲉⲙⲁⲧⲉ ⲁⲩⲱ ⲁⲥⲙⲉⲧⲁⲛⲟⲉⲓ ⲡⲁⲗⲓⲛ ⲉⲥϣⲁⲛ‐\nⲕⲧⲉ ⲡⲉⲥϩⲟ ⲉⲃⲟⲗ ⲛ̅ⲛⲉⲉⲓⲙⲟⲓⲭⲟⲥ ϣⲁⲥⲡⲱⲧ\nⲉϩⲟⲩⲛ ⲉϩⲛ̅ⲕⲟⲟⲩⲉ ⲛ̅ⲥⲉⲣ̅ⲁⲛⲁⲅⲕⲁⲍⲉ ⲙ̅ⲙⲟⲥ\nⲁⲧⲣⲉⲥϣⲱⲡⲉ ⲛⲙ̅ⲙⲁⲩ ⲛ̅ⲥⲣ̅ ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛⲁⲩ’\nⲛ̅ⲑⲉ ⲛ̅ⲛ̅ϫⲟⲉⲓⲥ ϩⲓϫⲛ̅ ⲡⲟⲩⲙⲁ ⲛ̅ⲅⲕⲟⲧⲕ’\nⲉⲃⲟⲗ ⲇⲉ ⲙ̅ⲡϣⲓⲡⲉ ⲟⲩⲕⲉⲧⲓ ⲙⲁⲥⲧⲟⲗⲙⲁ\nⲉⲕⲁⲁⲩ ⲛ̅ⲥⲱⲥ ⲛ̅ⲧⲟⲟⲩ ⲇⲉ ϣⲁⲩⲁⲡⲁⲧⲁ ⲙ̅‐\nⲙⲟⲥ ⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲭⲣⲟⲛⲟⲥ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲁ‐\nⲉⲓ ⲉⲧⲛ̅ϩⲟⲧ ⲛ̅ⲣⲙ̅ⲙ̅ⲙⲉ ϩⲱⲥ ⲉϣϫⲉ ⲉⲩⲧⲓⲙⲁ\nⲙ̅ⲙⲟⲥ ⲉⲙⲁⲧⲉ ⲁⲩⲱ ⲑϩⲁⲏ ⲛ̅ⲛⲁⲉⲓ ⲧⲏⲣⲟⲩ\nϣⲁⲩⲕⲁⲁⲥ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲥⲉⲃⲱⲕ §ⲛ̅ⲧⲟⲥ ⲇⲉ ϣⲁ‐\nⲣⲉⲥϣⲱⲡⲉ ⲛ̅ⲭⲏⲣⲁ ⲛ̅ϩⲏⲕⲉ ⲛ̅ⲉⲣⲏⲙⲟⲥ’\nⲉⲙⲛ̅ⲧⲁⲥ ⲃⲟⲏⲑⲉⲓⲁ ⲙ̅ⲙⲁⲩ ⲟⲩⲇⲉ ϣⲁⲩⲙⲁ‐\nⲁϫⲉ ⲙⲛ̅ⲧⲁ⟦ϥ⟧ⲥϥ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥⲙ̅ⲕⲁϩ ⲙ̅‐\nⲡⲉⲥϭⲛ̅ ϩⲏⲩ ⲅⲁⲣ ⲗ̅ⲗⲁⲁⲩ ⲛ̅ⲧⲟⲟⲧⲟⲩ ⲉⲓ ⲙⲏ‐\nⲧⲓ ⲁⲛϫⲱϩⲙ̅ ⲛ̅ⲧⲁⲩⲧⲁⲁⲩ ⲛⲁⲥ ϩⲙ̅ ⲡⲧⲣⲟⲩⲣ̅‐\nⲕⲟⲓⲛⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁⲥ ⲁⲩⲱ ⲛⲉⲛⲧⲁⲥϫⲡⲟ‐\nⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲙⲟⲓⲭⲟⲥ ⲛ̅ⲕⲱⲫⲟⲥ ⲛⲉ ⲁⲩ‐\nⲱ ϩⲛ̅ⲃⲗ̅ⲗⲁⲁⲩ ⲛⲉ ⲁⲩⲱ ⲥⲉⲟ ⲛ̅ⲣⲙ̅ⲛ̅ⲗⲁϫ‐\nⲗⲉϫ’ ⲡⲟⲩϩⲏⲧ’ ⲡⲟϣⲥ̅ §ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲣϣⲁⲛ‐\nⲡⲉⲓⲱⲧ’ ⲉⲧⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ϭⲙ̅ ⲡⲉⲥϣⲓⲛⲉ ⲛ̅‐\nϥϭⲱϣⲧ’ ⲉⲡⲓⲧⲛ̅ ⲉϫⲱⲥ ⲛ̅ϥⲛⲁⲩ ⲉⲣⲟⲥ ⲉⲥⲉ‐\nϣ ⲉϩⲟⲙ ⲙⲛ̅ ⲛⲉⲥⲡⲁⲑⲟⲥ ⲙⲛ̅ ⲧⲁⲥⲭⲏⲙⲟ‐\nⲥⲩⲛⲏ ⲁⲩⲱ ⲉⲥⲙⲁⲧⲉⲛⲟⲉⲓ ⲉϫⲛ̅ ⲧⲉⲥⲡⲟⲣ’‐\nⲛⲉⲓⲁ ⲛ̅ⲧⲁⲥⲁⲁⲥ ⲁⲩⲱ ⲛ̅ⲥⲁⲣⲭⲉⲓ ⲛ̅ⲛⲣ̅ⲉ‐\nⲡⲓⲕⲁⲗⲉⲓ {ⲛ̅ⲣ̅ⲉⲡⲓⲕⲁⲗⲉⲓ} ⲉϩⲣⲁⲓ̈ ⲉⲡ[ⲉϥⲣ]ⲁⲛ\nⲁⲧⲣⲉϥⲣ̅ⲃⲟⲏⲑⲉⲓ ⲛⲁⲥ ⲉ[ⲥ.......ⲡ]ⲉⲥ‐\nϩⲏⲧ’ ⲧⲏⲣϥ’ ⲉⲥϫⲱ ⲙ̅ⲙⲟ[ⲥ ϫⲉ ⲙⲁ]ⲧⲟⲩϫⲟ‐\nⲉⲓ ⲡⲁⲉⲓⲱⲧ ϫⲉ ⲉⲓⲥϩⲏⲏⲧⲉ ϯⲛⲁϯ ⲗⲟⲅⲟⲥ\n[ⲛⲁⲕ ϫⲉ ⲁϩⲓⲕⲱ] ⲛ̅ⲥⲱⲉⲓ ⲙ̅ⲡⲁⲏⲉⲓ ⲁⲩⲱ’\nⲁϩⲓⲡⲱⲧ’ ⲉⲃⲟⲗ ⲙ̅ⲡⲁⲡⲁⲣ’ⲑⲉⲛⲱⲛ ⲡⲁⲗⲓⲛ\nⲧⲕⲧⲟⲉⲓ ϣⲁⲣⲟⲕ ϩⲟⲧⲁⲛ ⲉϥϣⲁⲛⲛⲁⲩ ⲉⲣⲟⲥ\nⲉⲥϣⲟⲟⲡ’ ⲙ̅ⲡⲉⲉⲓⲥⲙⲟⲧ’ ⲧⲟⲧⲉ ϥⲛⲁⲣ̅ⲕⲣⲓⲛⲉ\nⲁⲁⲥ ⲛ̅ⲁⲝⲓⲟⲥ ⲁⲧⲣⲉϥⲛⲁ ⲛⲁⲥ ϫⲉ ⲛⲁϣⲉ ⲙ̅ⲙⲟⲕϩⲥ\nⲛ̅ⲧⲁϩⲓ ⲉϫⲱⲥ ϫⲉ ⲁⲥⲕⲱ ⲙ̅ⲡⲉⲥⲏⲉⲓ ⲛ̅ⲥⲱⲥ §ⲉϫⲛ̅"
+        },
+        {
+          "title": "On the Prostitution of the Soul",
+          "subtitle": "On the Prostitution of the Soul",
+          "heading": "On the Prostitution of the Soul (129, 5-131, 13) The holy Spirit prophesies in",
+          "rangeLabel": "129, 5-131, 13",
+          "range": {
+            "start": {
+              "page": 129,
+              "line": 5
+            },
+            "end": {
+              "page": 131,
+              "line": 13
+            }
+          },
+          "english": "The holy Spirit prophesies in\nmany places about the prostitution of the soul. The Spirit said in the prophet\nJeremiah:\nIf a husband divorces his wife and she goes and takes another man, can\nshe ever go back to him again? Has not such a woman utterly defiled\nherself? “You played the whore with many shepherds and you returned to\nme,” said the Lord. “Lift up your eyes and see clearly where you went\nwhoring. Were you not sitting in the streets defiling the land with your\nwhoring and your vices? And you took many shepherds as a way of\nstumbling for you. You were shameless with everyone. You did not call on\nme as companion or father or guardian of your virginity.”\nIt is also written in the prophet Hosea:\nCome, accuse your mother, for she is not to be my wife nor I her husband.\nI shall remove her whoring from my presence and her adultery from\nbetween her breasts. I shall make her naked as on the day she was born\nand desolate as a waterless land. I shall make her childless with a [longing\nfor children. I] shall show her children no pity, for they are children of\nprostitution. Their mother played the whore and [shamed her children].\nShe said, “I shall be a whore to my lovers. They gave me bread,\nwater, garments, robes, wine, oil-everything I needed.” Look, I shall\nblock them so that she will not be able to run after her adulterers. When\nshe seeks them but does not find them, she will say, “I shall go back to my\nformer husband, for I was better off then than now.”\nAgain, it is said in Ezekiel:\nIt happened that after much wickedness, the Lord said, you built yourself a\nbrothel and made yourself a beautiful place in the streets. You built\nbrothels in every alley and you wasted your beauty, you spread your legs\nin every alley and multiplied your acts of prostitution. You were a whore\nfor the sons of Egypt, your neighbors, well-endowed men.\nWhat does “the sons of Egypt, well-endowed men” mean if not the realm of the\nflesh and the senses and the things of the earth by which the soul is defiled in\nthis world? She receives from them bread, wine, oil, clothing, and the other\nexternal stuff surrounding the body, the things she thinks she needs.\nBut as to this prostitution, the apostles of the Savior commanded,\nGuard yourselves against it, purify yourself from it.\nThey were speaking not just of the prostitution of the body but especially that of\nthe soul. That is why the apostles write [to the churches] of God so that such\n[things] might not go on among us.\nThe greatest [struggle] is the prostitution of the soul. From it comes the\nprostitution of the body. Thus Paul wrote to the Corinthians and said:\nI wrote to you in my letter, “Do not associate with whores,” not meaning\nthe whores of this world or the greedy or thieves or idol worshipers, since\nthen you would have to leave the world.\nHere he is speaking spiritually:\nFor our struggle is not against flesh and blood-as he said-but against\nthe world rulers of this darkness and the spirits of evil.",
+          "coptic": "ⲛ̅ⲧⲁϩⲓ ⲉϫⲱⲥ ϫⲉ ⲁⲥⲕⲱ ⲙ̅ⲡⲉⲥⲏⲉⲓ ⲛ̅ⲥⲱⲥ §ⲉϫⲛ̅\nⲧⲡⲟⲣⲛⲓⲁ ϭⲉ ⲛ̅ⲧⲯⲩⲭⲏ ϥⲡⲣⲟⲫⲏⲧⲉⲩⲉ ⲛ̅‐\nϩⲁϩ ⲙ̅ⲙⲁ ⲛ̅ϭⲓ ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲡⲉϫⲁϥ’\nⲅⲁⲣ ϩⲛ̅ ⲓⲉⲣⲏⲙⲓⲁⲥ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ϫⲉ §ϩⲟⲧⲁⲛ\nⲉⲣϣⲁ ⲡϩⲁⲉⲓ ⲧⲟⲩⲉⲓⲉ ⲧⲉϥϩⲓⲙⲉ §ⲁⲩⲱ ⲛ̅ⲥ‐\nⲃⲟⲕ’ ⲛ̅ⲥϫⲓ ⲕⲉⲟⲩⲁ ⲙⲏ ⲥⲛⲁⲕⲟⲧⲥ̅ §ⲉⲣⲟϥ ϫⲓⲛ\nⲧⲉⲛⲟⲩ ⲙⲏ ϩⲛ̅ ⲟⲩϫⲱϩⲙ’ §ⲙ̅ⲡⲉⲥϫⲱϩⲙ’\nⲛ̅ϭⲓ ⲧⲉⲥϩⲓⲙⲉ ⲉⲧⲙ̅ⲙⲁⲩ §ⲁⲩⲱ ⲛ̅ⲧⲟ ⲁⲣⲉⲡⲟⲣ‐\nⲛⲉⲩⲉ ⲙⲛ̅ ϩⲁϩ §ⲛ̅ϣⲱⲥ ⲁⲩⲱ ⲁⲣⲉⲕⲟⲧⲉ ϣⲁ‐\nⲣⲟⲉⲓ ⲡⲉϫⲁϥ’ ⲛ̅ϭⲓ ⲡϫⲟⲉⲓⲥ ϥⲓ ⲛ̅ⲛⲉⲃⲁⲗ’ §ⲉϩ‐\nⲣⲁⲓ̈ ⲉⲡⲥⲟⲟⲩⲧⲛ̅ ⲁⲩⲱ ⲛ̅ⲧⲉⲛⲁⲩ §ϫⲉ ⲛ̅ⲧⲁϩⲉ‐\nⲡⲟⲣⲛⲉⲩⲉ ⲧⲱⲛ §ⲙⲏ ⲛⲉⲣⲉϩⲙⲟⲟⲥ ⲁⲛ ϩⲛ̅ ⲛⲉ‐\nϩⲓⲏ ⲉⲣⲉϫⲱϩⲙ §ⲙ̅ⲡⲕⲁϩ ϩⲛ̅ ⲛⲉⲡⲟⲣⲛⲓⲁ\nⲙⲛ̅ ⲛⲉⲕⲁⲕⲓⲁ §ⲁⲩⲱ ⲁⲣⲉϫⲓ ϩⲁϩ ⲛ̅ϣⲱⲥ ⲉⲩ‐\nϫⲣⲟⲡ’ §ⲛⲉ ⲁⲣⲉϣⲱⲡⲉ ⲛ̅ⲁⲧ’ϩϣⲓⲡⲉ ⲙⲛ̅ ⲟⲩ‐\nⲟⲛ §ⲛⲓⲙ’ ⲙ̅ⲡⲉⲙⲟⲩⲧⲉ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲉⲓ §ϩⲱⲥ\nⲣⲙ̅ⲛ̅ⲏⲉⲓ’ ⲏ ϩⲱⲥ ⲉⲓⲱⲧ’ ⲏ ⲁⲣⲭⲏⲅⲟⲥ §ⲛ̅ⲧⲉ‐\nⲙⲛ̅ⲧ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲡⲁⲗⲓⲛ’ ϥⲥⲏϩ ϩⲛ̅ ⲱⲥⲏⲉ\nⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ϫⲉ §ⲁⲙⲏⲉⲓⲧⲛ̅ ϫⲓ ϩⲁⲡ’ ⲙⲛ\nⲧⲉⲧⲙ̅ⲙⲁⲁⲩ §ϫⲉ ⲥⲛⲁϣⲱⲡⲉ ⲛⲁⲉⲓ ⲁⲛ ⲛ̅ϩⲓ‐\nⲙⲉ ⲁⲩⲱ §ⲁⲛⲟⲕ’ ϯⲛⲁϣⲱⲡⲉ ⲛⲁⲥ ⲁⲛ ⲛ̅ϩⲁ‐\nⲉⲓ ϯⲛⲁϥⲓ §ⲛ̅ⲧⲉⲥⲡⲟⲣⲛⲓⲁ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲁⲙ̅ⲧⲟ\nⲉⲃⲟⲗ §ⲁⲩⲱ ϯⲛⲁϥⲓ ⲛ̅ⲧⲉⲥⲙⲟⲓⲭⲉⲓⲁ ϩⲛ̅\nⲧⲙⲏⲧⲉ §ⲛ̅ⲛⲉⲥⲕⲓⲃⲉ ϯⲛⲁⲕⲁⲁⲥ ⲉⲥⲕⲁⲕⲁ‐\nϩⲏⲩ §ⲛ̅ⲑⲉ ⲙ̅ⲫⲟⲟⲩ ⲛ̅ⲧⲁⲩϫⲡⲟⲥ ⲙ̅ⲙⲟϥ ⲁⲩ‐\nⲱ §ϯ[ⲛ]ⲁⲁⲥ ⲛ̅ⲉⲣⲏⲙⲟⲥ ⲛ̅ⲑⲉ ⲛ̅ⲟⲩⲕⲁϩ §ⲉⲙⲛ̅\nⲙ[ⲟⲟⲩ ⲛ̅ϩⲏⲧϥ ⲁ]ⲩⲱ ϯⲛⲁⲁⲥ §ⲛ̅ⲁⲧϣⲏⲣⲉ\nϩⲛ̅ⲛⲟ[ⲩⲉⲓⲃⲉ ϯ]ⲛⲁⲛⲁ §ⲁⲛ ⲛ̅ⲛⲉⲥϣⲏⲣⲉ ϫⲉ\nϩⲛ̅ϣⲏⲣⲉ §[ⲛ]ⲉ ⲙ̅ⲡⲟⲣⲛⲉⲓⲁ ϫⲉ ⲁⲧⲟⲩⲙⲁⲁⲩ\n§ⲣ̅ⲡⲟⲣⲛⲉⲩⲉ ⲁⲩⲱ ⲁⲥϯ ϣ[ⲓⲡⲉ §ⲛ̅ⲛⲉⲥϣ]ⲏⲣ[ⲉ]\nϫⲉ † ⲁⲥϫⲟⲟϥ §ϫⲉ ϯⲛⲁⲡⲟⲣⲛⲉⲩⲉ ⲙⲛ̅ ⲛⲉⲧ’‐\nⲙⲉ §ⲙ̅ⲙⲟⲉⲓ ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲛⲉⲩϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲁ‐\nⲟⲉⲓⲕ’ §ⲙⲛ̅ ⲡⲁⲙⲟⲟⲩ ⲙⲛ̅ ⲛⲁϣⲧⲏⲛ’ ⲙⲛ̅ ⲛⲁ‐\nϩⲃⲟⲟⲥ §ⲙⲛ̅ ⲡⲁⲏⲣⲡ’ ⲙⲛ̅ ⲡⲁⲛⲏϩ ⲙⲛ̅ ϩⲱⲃ’\nⲛⲓⲙ §ⲉⲧⲣ̅ ϣⲁⲩ ⲛⲁⲉⲓ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲉⲓⲥ§ϩⲏⲏⲧⲉ\nⲁⲛⲟⲕ’ ϯⲛⲁϣⲧⲁⲙ ⲙ̅ⲙⲟⲟⲩ ϫⲉ §ⲛⲉⲥϣϭⲙ̅\nϭⲟⲙ’ ⲙ̅ⲡⲱⲧ’ ⲛ̅ⲥⲁ ⲛⲉⲥⲛⲟⲉⲓⲕ’ §ⲁⲩⲱ ⲉⲥϣⲁ‐\nϣⲓⲛⲉ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲥⲧⲙ̅ϭⲛ̅ⲧⲟⲩ §ⲥⲛⲁϫⲟⲟⲥ\nϫⲉ ϯⲛⲁⲕⲟⲧ’ ⲉⲡⲁϩⲁⲉⲓ §ϫⲓⲛ ϣⲟⲣⲡ’ ϫⲉ ⲛⲉ‐\nⲉⲓⲣ̅ ϣⲁⲩ ⲛ̅ⲛ̅ϩⲟⲟⲩ §ⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ϩⲟⲩⲟ ⲁⲧⲉ‐\nⲛⲟⲩ ⲡⲁⲗⲓⲛ ⲡⲉϫⲁϥ’ ϩⲛ̅ ⲉϩⲉⲕⲓⲏⲗ ϫⲉ §ⲁⲥ‐\nϣⲱⲡⲉ ⲙⲛ̅ⲛ̅ⲥⲁ ϩⲁϩ ⲛ̅ⲕⲁⲕⲓⲁ’ ⲡⲉϫⲁϥ §ⲛ̅ϭⲓ\nⲡϫⲟⲉⲓⲥ ϫⲉ ⲁⲣⲉⲕⲱⲧ ⲛⲉ §ⲛ̅ⲟⲩⲡⲟⲣⲛⲓⲟⲛ\nⲁⲩⲱ ⲁⲣⲉⲧⲁⲙⲉⲓⲟ ⲛⲉ §ⲛ̅ⲟⲩⲧⲟⲡⲟⲥ ⲛ̅ⲥⲁⲉⲓ‐\nⲉ ϩⲛ̅ ⲛ̅ⲡⲗⲁⲧⲉⲁ’ §ⲁⲩⲱ ⲁⲣⲉⲕⲱⲧ’ ⲛⲉ ⲛ̅ϩⲛ̅‐\nⲡⲟⲣⲛⲓⲟⲛ ϩⲓ ϩⲓⲏ §ⲛⲓⲙ ⲁⲩⲱ ⲁⲣⲉⲧⲉⲕⲟ ⲛ̅‐\nⲧⲉⲙ̅ⲛ̅ⲧ̅ⲥⲁⲉⲓⲉ §ⲁⲩⲱ ⲁⲣⲉⲥⲱⲧ’ ⲛ̅ⲛⲉⲩⲉⲣⲏⲧⲉ\nⲉⲃⲟⲗ ⲉϫⲛ̅ §ϩⲓⲏ ⲛⲓⲙ’ ⲁⲩⲱ ⲁⲣⲉⲧⲁϣⲟ ⲛ̅ⲧⲉⲡⲟⲣ‐\nⲛⲓⲁ §ⲁⲣⲉⲡⲟⲣⲛⲉⲩⲉ ⲙⲛ̅ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲕⲏⲙⲉ\nⲛⲁⲉⲓ §ⲉⲧⲟ ⲛ̅ⲧⲉϣⲉ ⲛⲁ ⲛⲁ ⲛⲓⲛⲟϭ ⲛ̅ⲥⲁⲣⲝ’ ⲛⲓⲙ\nⲇⲉ ⲛⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲕⲏⲙⲉ ⲛⲁ ⲛⲓⲛⲟϭ ⲛ̅ⲥⲁⲣⲝ\nⲉⲓ ⲙⲏⲧⲓ ⲁⲛⲥⲁⲣⲕⲓⲕⲟⲛ ⲁⲩⲱ ⲛ̅ⲁⲓⲥⲑⲏⲧⲟⲛ\nⲙⲛ̅ ⲛ̅ϩⲃⲏⲩⲉ ⲙ̅ⲡⲕⲁϩ ⲛⲁⲉⲓ ⲛ̅ⲧⲁ ⲧⲯⲩⲭⲏ\nϫⲱϩⲙ̅ ⲛ̅ϩⲏⲧⲟⲩ ⲛ̅ⲛⲉⲉⲓⲙⲁ ⲉⲥϫⲓ ⲟⲉⲓⲕ’ ⲛ̅‐\nⲧⲟⲟⲧⲟⲩ ⲉⲥϫⲓ ⲏⲣⲡ’ ⲉⲥϫⲓ ⲛⲉϩ ⲉⲥϫⲓ ϩⲃⲟ‐\nⲟⲥ ⲁⲩⲱ ⲧⲕⲉⲫⲗⲟⲓⲁⲣⲓⲁ ⲉⲧⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ\nⲙ̅ⲡⲕⲱⲧⲉ ⲙ̅ⲡⲥⲱⲙⲁ ⲛⲁⲉⲓ ⲉⲧⲥⲙⲉⲉⲩⲉ\nϫⲉⲥⲉⲣ̅ ϣⲁⲩ ⲛⲁⲥ §ⲧⲉⲉⲓⲡⲟⲣⲛⲓⲁ ⲇⲉ ⲁⲛⲁ‐\nⲡⲟⲥⲧⲟⲗⲟⲥ ⲙ̅ⲡⲥⲱⲧⲏⲣ ⲡⲁⲣⲁⲅ’ⲅⲉⲓⲗⲉ ϫⲉ\n§ⲁⲣⲉϩ ⲉⲣⲱⲧⲛ̅ ⲉⲣⲟⲥ ⲧⲟⲩⲃⲉ ⲧⲏⲩⲧⲛ̅ §ⲉⲣⲟⲥ\nⲉⲩϣⲁϫⲉ ⲉⲧⲡⲟⲣⲛⲓⲁ ⲟⲩⲁⲁⲧⲥ ⲁⲛ ⲙ̅ⲡⲥⲱ‐\nⲙⲁ ⲁⲗⲗⲁ ⲧⲁ ⲧ’ⲯⲩⲭⲏ ⲛ̅ϩⲟⲩⲟ ⲉⲧ[ⲃⲉ ⲡ]ⲁⲉⲓ\nⲛ̅ⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲩⲥϩ[ⲁⲓ̈ ⲛ̅ⲛ̅ⲉⲕⲕⲗⲏⲥⲓⲁ] ⲙ̅‐\nⲡⲛⲟⲩⲧⲉ ϣⲓⲛⲁ ϫⲉ ⲛⲉ[ⲩⲡⲟⲣⲛⲓ]ⲁ’ ⲛ̅ⲧⲉⲉⲓ‐\nⲙ[ⲓ]ⲛⲉ ϣⲱⲡⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧ[ⲛ̅] §ⲁⲗⲗⲁ ⲡⲛⲟϭ\n[ⲛ̅ⲁⲅⲱⲛ ⲉϥϣ]ⲟⲟⲡ’ ⲉⲧⲃⲉ ⲧⲡⲟⲣⲛⲓⲁ’\nⲛ̅ⲧⲯⲩⲭⲏ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ϣⲁⲣⲉ ⲧⲡⲟⲣⲛⲓⲁ ⲙ̅‐\nⲡⲕⲉⲥⲱⲙⲁ ϣⲱⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲡⲁⲩⲗⲟⲥ ⲉϥ‐\nⲥϩⲁⲓ̈ ⲛ̅ⲅⲕⲟⲣⲓⲑⲓⲟⲥ ⲡⲉϫⲁϥ ϫⲉ §ⲁⲉⲓⲥϩⲁⲓ̈ ⲛⲏ‐\nⲧⲛ̅ ϩⲛ̅ ⲧⲉⲡⲓⲥⲧⲟⲗⲏ §ϫⲉ ⲙ̅ⲡⲣ̅ⲧⲱϩ ⲙⲛ̅ ⲡⲟⲣ‐\nⲛⲟⲥ ⲟⲩ §ⲡⲁⲛⲧⲱⲥ ⲙ̅ⲡⲣ̅ⲛⲟⲥ ⲙ̅ⲡⲉⲉⲓⲕⲟⲥ‐\nⲙⲟⲥ ⲏ §ⲡⲗⲉⲟⲛϩⲉⲕⲧⲏⲥ ⲏ ⲛ̅ⲣⲉϥⲧⲱⲣⲡ’ ⲏ §ⲛ̅‐\nⲣⲉϥϣⲙ̅ϣⲉ ⲉⲓⲇⲱⲗⲟⲛ ⲉⲡⲉⲓ ⲁⲣⲁ §ⲧⲉⲧⲛ̅ⲏⲡ’\nⲉⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲉϥ’ϣⲁ‐\nϫⲉ ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲱⲥ §ϫⲉ ⲉⲡⲛ̅ⲁⲅⲱⲛ ϣⲟⲟⲡ’\nⲛⲁⲛ ⲁⲛ’ ⲟⲩⲃⲉ §ⲥⲁⲣⲝ’ ϩⲓ ⲥⲛⲟϥ’ ⲕⲁⲧⲁ ⲑⲉ ⲉⲛ‐\nⲧⲁϥϫⲟⲟⲥ §ⲁⲗⲗⲁ ⲟⲩⲃⲉ ⲛ̅ⲕⲟⲥⲙⲟⲕⲣⲁⲧⲱⲣ’\nⲙ̅ⲡⲉⲉⲓⲕⲁⲕⲉ ⲙⲛ̅ ⲙ̅ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ’ ⲛ̅ⲧⲡⲟ‐\nⲛⲏⲣⲓⲁ §ϣⲁ ϩⲟⲩⲛ ⲙⲉⲛ ⲉⲫⲟⲟⲩ ⲉⲧⲯⲩⲭⲏ’"
+        },
+        {
+          "title": "Restoration of the Soul",
+          "subtitle": "Restoration of the Soul",
+          "heading": "Restoration of the Soul (131, 13-132, 27) As long as the soul keeps running here",
+          "rangeLabel": "131, 13-132, 27",
+          "range": {
+            "start": {
+              "page": 131,
+              "line": 13
+            },
+            "end": {
+              "page": 132,
+              "line": 27
+            }
+          },
+          "english": "As long as the soul keeps running here\nand there having sex with whomever she meets and defiling herself, she will\nsuffer what she deserves. But when she perceives the trouble she is in and weeps\nbefore the Father and repents, the Father will pity her. He will make her womb\nturn from the outside back to the inside, so that the soul will recover her proper\ncharacter. It is not so with a woman. The womb of the body is inside the body\nlike the other internal organs, but the womb of the soul is turned to the outside\nlike male sex organs, which are external.\nWhen the womb of the soul, by the Father’s will, turns to the inside, she is\nbaptized, and at once she is free of the external pollution forced upon her, just as\ndirty [clothes] are soaked in [water and] are moved about until the dirt is\nremoved and they are clean. The soul is cleansed so that she may regain what\nshe had at first, her former nature, and she may be restored. That is her\nbaptism.\nThen she will begin to rage like a woman in labor, who writhes and rages at\nthe time of delivery. But since she is female and cannot conceive a child by\nherself, her Father sent her from heaven her man, her brother, the firstborn. The\nbridegroom came down to the bride. She gave up her former whoring and\ncleansed herself of the pollution of adulterers, and she was restored to be a bride.\nShe cleansed herself in the bridal chamber. She filled it with perfume and sat\nthere awaiting the true bridegroom. She no longer went around the marketplace\nhaving sex with whomever she desired, but she stayed and waited for him,\nsaying, “When will he come?” And she feared him. For she did not know what\nhe looked like. She no longer remembered from the time she fell from her\nFather’s house. Yet, by the Father’s will, she dreamed of him like a woman who\nloves a man.",
+          "coptic": "ⲛⲏⲣⲓⲁ §ϣⲁ ϩⲟⲩⲛ ⲙⲉⲛ ⲉⲫⲟⲟⲩ ⲉⲧⲯⲩⲭⲏ’\nⲡⲏⲧ’ ⲛ̅ⲥⲁ ⲉⲥⲁ ⲉⲥⲕⲟⲓⲛⲱⲛⲓ ⲙⲛ̅ ⲡⲉⲧⲥⲛⲁ‐\nⲧⲱⲙⲧ’ ⲉⲣⲟϥ’ ⲉⲥϫⲱϩⲙ’ ⲥϣⲟⲟⲡ’ ϩⲁ ⲡⲁⲥ‐\nⲭⲁ ⲛ̅ⲛⲉⲧⲥⲙ̅ⲡϣⲁ ⲉⲧⲣⲉⲥϫⲓⲧⲟⲩ ϩⲟⲧⲁⲛ ⲇⲉ\nⲉⲥϣⲁⲣ̅ⲁⲓⲥⲑⲁⲛⲉ ⲛ̅ⲙ̅ⲙⲟⲕϩⲥ̅ ⲉⲧⲥⲛ̅ϩⲏⲧⲟⲩ\nⲁⲩⲱ ⲛ̅ⲥⲣⲓⲙⲉ ⲉϩⲣⲁⲓ̈ ⲉⲡⲉⲓⲱⲧ ⲛ̅ⲥⲙⲉⲧⲁⲛⲟ‐\nⲉⲓ ⲧⲟⲧⲉ ϥⲛⲁⲛⲁ ⲛⲁⲥ ⲛ̅ϭⲓ ⲡⲉⲓⲱⲧ ⲛ̅ϥⲕⲧⲟ\nⲛ̅ⲧⲉⲥⲙⲏⲧⲣⲁ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁ ⲡⲥⲁ ⲛⲃⲟⲗ ⲡⲁⲗⲓⲛ\nⲛ̅ϥⲕⲧⲟⲥ ⲉϩⲟⲩⲛ ⲛ̅ⲧⲉ ⲧⲯⲩⲭⲏ ϫⲓ ⲙ̅ⲡⲉⲥ‐\nⲙⲉⲣⲓⲕⲟⲛ † ⲉⲩϣⲟⲟⲡ ⲅⲁⲣ ⲁⲛ ⲛ̅ⲑⲉ ⲛ̅ⲛⲉϩⲓ‐\nⲟⲙⲉ ⲙ̅ⲙⲏⲧⲣⲁ ⲅⲁⲣ ⲙ̅ⲡⲥⲱⲙⲁ ⲉⲩϣⲟⲟⲡ’\nⲙ̅ⲫⲟⲩⲛ’ ⲙ̅ⲡⲥⲱⲙⲁ ⲛ̅ⲑⲉ ⲛⲅⲕⲉⲙⲁϩⲧ ⲧⲙⲏ‐\nⲧⲣⲁ ⲛ̅ⲧⲟϥ’ ⲛ̅ⲧⲯⲩⲭⲏ ⲉⲥⲕⲱⲧⲉ ⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ\nⲛ̅ⲑⲉ ⲛⲙ̅ⲫⲩⲥⲓⲕⲟⲛ ⲙ̅ⲫⲟⲟⲩⲧ’ ⲉⲩϣⲟⲟⲡ’\nⲙ̅ⲡⲃⲟⲗ’ §ⲉⲣϣⲁ ⲧⲙⲏⲧⲣⲁ ϭⲉ ⲛ̅ⲧⲯⲩⲭⲏ’\nⲧⲕⲧⲟⲥ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲉⲡⲥⲁ ⲛ‐\nϩⲟⲩⲛ ϣⲁⲣⲉⲥⲣ̅ⲃⲁⲡⲧⲓⲍⲉ ⲁⲩⲱ ⲛ̅ⲧⲟⲩ‐\nⲛⲟⲩ ϣⲁⲥⲧⲟⲩⲃⲟ ⲉⲡϫⲱϩⲙ̅ ⲙ̅ⲡⲥⲁ ⲛ‐\nⲃⲟ[ⲗ] ⲡⲁⲉⲓ ⲉⲛⲧⲁⲩⲁⲃϥ’ ⲉϫⲱⲥ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓ‐\nϣ[ⲧⲏⲛ ⲉⲩ]ϣⲁ[ⲗ]ⲱⲱⲙ’ ϣⲁⲩⲧⲉⲗⲟⲟⲩ’ ⲉ‐\nⲡ[ⲙⲟⲟⲩ ⲁⲩⲱ ⲛ̅ⲥ]ⲉⲧⲕⲧⲟⲟⲩ ϣⲁⲛⲧⲟⲩⲛ̅ ⲧⲟⲩ‐\nⲗⲁⲁⲙ[ⲉ ⲉⲃⲟⲗ] ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲟⲩⲃⲟ ⲡⲧⲟⲩⲃⲟ\nⲇⲉ ⲛ̅ⲧⲯⲩⲭⲏ ⲡⲉ ϫⲓ ⲧⲉⲥⲙⲛⲧ[ⲃ]ⲣ̅[ⲣ]ⲉ ⲟⲛ’\nⲙ̅ⲡⲉⲥⲫⲩⲥⲓⲕⲟⲛ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ⲥⲕⲧⲟⲥ ⲛ̅ⲕⲉ‐\nⲥⲟⲡ’ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲥⲃⲁⲡⲧⲓⲥⲙⲁ §ⲧⲟⲧⲉ ⲥⲛⲁ‐\nⲣ̅ⲁⲣⲭⲉⲓ ⲛ̅ⲃⲱⲗⲕ’ ⲉⲣⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ ⲛ̅ⲑⲉ ⲛ̅ⲛⲉⲧ‐\nϣⲁⲩⲙⲓⲥⲉ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲉⲩϣⲁϫⲡⲉ ⲡϣⲏⲣⲉ\nϣⲁⲩⲕⲟⲧⲟⲩ ⲉⲣⲟⲟⲩ ⲟⲩⲁⲁⲩ ϩⲛ̅ⲛⲟⲩⲃⲗⲕⲉ\nⲁⲗⲗⲁ ⲉⲡⲉⲓ ⲟⲩⲥϩⲓⲙⲉ ⲧⲉ ⲙⲛ̅ ϭⲟⲙ’ ⲁⲧⲣⲉⲥϫⲡⲉ\nϣⲏⲣⲉ ⲟⲩⲁⲁⲧⲥ̅ ⲁⲡⲉⲓⲱⲧ’ ⲧⲛ̅ⲛⲁⲩ ⲛⲁⲥ ⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲡⲉ ⲙ̅ⲡⲉⲥϩⲟⲟⲩⲧ’ ⲉⲧⲉ ⲡⲉⲥⲥⲟⲛ ⲡⲉ’\nⲡϣⲟⲣⲡ’ ⲙ̅ⲙⲓⲥⲉ ⲧⲟⲧⲉ ⲁⲡⲣⲙ̅ϣⲉⲗⲉⲉⲧ’ ⲉⲓ\nⲁⲡⲓⲧⲛ̅ ϣⲁ ϫⲉⲗⲉⲉⲧ’ ⲁⲥⲕⲱ ⲙⲉⲛ ⲛ̅ⲥⲱⲥ ⲛ̅‐\nⲧⲉⲥⲡⲟⲣⲛⲓⲁ ⲛ̅ϣⲟⲣⲡ’ ⲁⲥⲧⲟⲩⲃⲟⲥ ⲁⲛϫⲱϩⲙ̅\nⲛ̅ⲛ̅ⲛⲟⲉⲓⲕ’ ⲁⲥⲣ̅ ⲃⲣ̅ⲣⲉ ⲇⲉ ⲁⲩⲙⲛ̅ⲧ̅ϣⲉⲗⲉⲉⲧ’\nⲁⲥⲧⲟⲩⲃⲟⲥ ϩⲙ̅ 〈ⲡ〉ⲙⲁ ⲛ̅ϣⲉⲗⲉⲉⲧ’ ⲁⲥⲙⲁϩϥ ⲛ̅ⲥϯ‐\nⲛⲟⲩϥⲉ ⲁⲥϩⲙⲟⲟⲥ ⲛ̅ϩⲟⲩⲛ’ ⲛ̅ϩⲏⲧϥ̅ ⲉⲥϭⲱϣⲧ’\nⲉⲃⲟⲗ’ ϩⲏⲧϥ̅ ⲙ̅ⲡⲣⲙ̅ϣⲉⲗⲉⲉⲧ’ ⲙ̅ⲙⲉ ⲟⲩⲕⲉⲧⲓ\nⲥⲡⲏⲧ’ ϩⲛ̅ ⲧⲁⲅⲟⲣⲁ ⲉⲥⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲡⲉⲧⲥ̅‐\nⲟⲩⲟϣϥ’ ⲁⲗⲗⲁ ⲁⲥϭⲱ ⲉⲥϭⲟϣⲧ’ ⲉⲃⲟⲗ ϩⲏⲧϥ̅\nϫⲉ ⲁϣ ⲛ̅ϩⲟⲟⲩ ⲉϥⲛ̅ⲛⲏⲩ ⲉⲥⲣ̅ ϩⲟⲧⲉ ϩⲏⲧϥ̅\nⲛⲉⲥⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲁⲛ ⲙ̅ⲡⲉϥⲉⲓⲛⲉ ⲟⲩⲕⲉ‐\nⲧⲓ ⲥⲣ̅ ⲡⲙⲉⲉⲩⲉ ϫⲓⲙ ⲡⲟⲩⲟⲉⲓϣ ⲛ̅ⲧⲁⲥϩⲉ ⲉ‐\nⲃⲟⲗ ϩⲙ̅ ⲡⲏⲉⲓ ⲙ̅ⲡⲉⲥⲉⲓⲱⲧ’ ϩⲙ̅ ⲡⲟⲩⲱϣⲉ\nⲇⲉ ⲙ̅ⲡⲉⲓⲱⲧ’ 〈 〉 ⲁⲥⲡⲣ̅ⲣⲉ ⲣⲁⲥⲟⲩ ⲇⲉ ⲉⲣⲟϥ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲓϩⲓⲟⲙⲉ ⲉⲧⲙⲉ ⲛ̅ⲛⲓϩⲟⲟⲩⲧ’ §ⲧⲟⲧⲉ ϭⲉ\nⲡⲣⲙ̅ϣⲉⲗⲉⲉⲧ’ ⲕⲁⲧⲁ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’\nⲁϥⲉⲓ ⲉⲡⲓⲧⲛ̅ ϣⲁⲣⲟⲥ ⲉϩⲟⲩⲛ ⲉⲡⲙⲁ ⲛ̅ϣⲉ‐\nⲗⲉⲉⲧ’ ⲉⲧⲥⲃ̅ⲧⲱⲧ’ ⲁϥⲕⲟⲥⲙⲉⲓ’ ⲇⲉ ⲙ̅ⲡⲛⲩⲙ‐\nⲫⲱⲛ §ⲉⲡⲅⲁⲙⲟⲥ ⲅⲁⲣ’ ⲉⲧⲙ̅ⲙⲁⲁⲩ ⲉϥϣⲟⲟⲡ’"
+        },
+        {
+          "title": "Marriage of the Soul to Her Beloved",
+          "subtitle": "Marriage of the Soul to Her Beloved",
+          "heading": "Marriage of the Soul to Her Beloved (132, 27-133, 31) Then, by the Father’s",
+          "rangeLabel": "132, 27-133, 31",
+          "range": {
+            "start": {
+              "page": 132,
+              "line": 27
+            },
+            "end": {
+              "page": 133,
+              "line": 31
+            }
+          },
+          "english": "Then, by the Father’s\nwill, the bridegroom came down to her in the bridal chamber that had been\nprepared. And he decorated the chamber.\nThis marriage of the soul is not like a marriage of the flesh. In a marriage of\nthe flesh, those who have sex with each other become satiated with sex, and so\nthey leave behind them the annoying burden of physical desire and [turn their\nfaces] from each other. This marriage of the soul [is different]. When the\npartners join [with each other], they become a single life.\nThus the prophet said about the first man and woman,\nThey will become a single flesh.\nThese partners were originally joined to each other when they were with the\nFather, before the woman led astray the man, her brother. This marriage has\nbrought them together again, and the soul has joined her true love and real\nmaster, as it is written:\nThe master of the woman is her husband.\nGradually she recognized him. She was happy again, and she wept in his\narms when she remembered the disgrace of her former widowhood. She adorned\nherself even more, so that he might be pleased to stay with her.\nThe prophet said in the Psalms:\nHear, my daughter, see and give ear,\nand forget your people and your father’s house,\nfor the king has desired your beauty,\nand he is your master.\nHer master has her turn her face from her people and the many adulterers\nwith whom she once was, to devote herself to her king, her real master, and to\nforget the house of the earthly father, with whom things went badly for her, but\nto remember her Father in heaven.\nSo also it was said to Abraham:\nLeave your country and your relatives and your father’s house.",
+          "coptic": "ⲫⲱⲛ §ⲉⲡⲅⲁⲙⲟⲥ ⲅⲁⲣ’ ⲉⲧⲙ̅ⲙⲁⲁⲩ ⲉϥϣⲟⲟⲡ’\nⲁⲛ ⲛ̅ⲑⲉ ⲙ̅ⲡⲅⲁⲙⲟⲥ ⲛ̅ⲥⲁⲣⲕⲓⲕⲟⲥ ⲛⲉⲧⲁⲣ’‐\nⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲛⲟⲩⲣⲏⲩ’ ϣⲁⲩⲥⲓ ⲛ̅ⲧⲕⲟⲓ‐\nⲛⲱⲛⲓⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲉⲧⲡⲱ\nϣⲁⲩⲕⲱ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲧⲉⲛⲱⲭⲗⲏⲥⲓⲥ [ⲛ]ⲧⲉ‐\nⲡⲓⲑⲩⲙⲉⲓⲁ ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲕ[ⲧⲟ] ⲛ̅[ⲛⲟⲩϩⲟ ⲉⲃ]ⲟⲗ\nⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲁⲗⲗⲁ ⲡⲉⲉⲓ[......].[.]ⲛ ⲡⲉ\nⲡⲉⲉⲓⲅⲁⲙⲟⲥ ⲁⲗⲗⲁ ⲉⲩϣⲁⲛ[ⲡ]ϩⲛ̅ϩⲱⲧⲣ̅\nⲁⲛ[ⲟ]ⲩ[ⲉⲣⲏ]ⲩ ϣⲁⲩϣⲱⲡⲉ ⲁⲩⲱⲛϩ ⲟⲩⲱⲧ’ .\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲡⲉϫⲁϥ ⲛ̅ϭⲓ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ\nⲉⲧⲃⲉ ⲡϣⲟⲣⲡ’ ⲣ̅ⲣⲱⲙⲉ ⲙⲛ̅ ⲧϣⲟⲣⲡ’ ⲛ̅ⲥϩⲓ‐\nⲙⲉ ϫⲉ §ⲥⲉⲛⲁϣⲱⲡⲉ ⲁⲩⲥⲁⲣⲝ ⲟⲩⲱⲧ’ ⲛⲉⲩ‐\nϩⲟⲧⲣ̅ ⲅⲁⲣ ⲉⲛⲟⲩⲉⲣⲏⲩ ⲛ̅ϣⲟⲣⲡ ϩⲁϩⲧⲙ̅ ⲡⲉⲓⲱⲧ’\nⲉⲙⲡⲁⲧⲉ ⲧⲥϩⲓⲙⲉ ⲥⲱⲣⲙ ⲙ̅ⲫⲟⲟⲩⲧ’ ⲉⲧⲉ\nⲡⲉⲥⲥⲟⲛ ⲡⲉ ⲡⲁⲗⲓⲛ ⲟⲛ ⲁⲡⲡⲉⲉⲓⲅⲁⲙⲟⲥ\nⲥⲟⲟⲩϩⲟⲩ ⲉϩⲟⲩⲛ ⲉⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ ⲁⲧⲯⲩ‐\nⲭⲏ ϩⲱⲧⲣ̅ ⲉϩⲟⲩⲛ ⲉⲡⲉⲥⲙⲉⲣⲉⲓⲧ’ ⲛⲁⲙⲉ ⲡⲉⲥ‐\nⲫⲩⲥⲓⲕⲟⲥ ⲛ̅ϫⲟⲉⲓⲥ ⲕⲁⲧⲁ ⲑⲉ ⲉⲧϥⲥⲏϩ ϫⲉ §ⲡϫⲟ‐\nⲉⲓⲥ ⲅⲁⲣ ⲛ̅ⲧⲉⲥϩⲓⲙⲉ ⲡⲉ ⲡⲉⲥϩⲁⲓ̈ §ⲁⲥⲥⲟⲩⲱⲛϥ’\nⲇⲉ ϣⲏⲙ’ ϣⲏⲙ’ ⲁⲩⲱ ⲁⲥⲣⲁϣⲉ ϩⲛ̅ⲕⲉⲥⲟⲡ’ ⲉⲥⲣⲓ‐\nⲙⲉ ϩⲁⲧⲟⲟⲧϥ’ ⲛ̅ⲧⲁⲣⲉⲥⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲉⲥⲁⲥ‐\nⲭⲏⲙⲟⲥⲩⲛⲏ ⲛ̅ⲧⲉⲥⲙ̅ⲛ̅ⲧⲭⲏⲣⲁ ⲛ̅ϣⲟⲣⲡ’\nⲁⲩⲱ ⲁⲥⲕⲟⲥⲙⲉⲓ ⲙ̅ⲙⲟⲥ ⲛ̅ϩⲟⲩⲟ ϣⲓⲛⲉ ⲉⲥ‐\nⲛⲁⲣ ⲉⲛⲁϥ ⲛ̅ϭⲱ ϩⲁⲧⲟⲟⲧⲥ̅ §ⲡⲉϫⲁϥ ⲇⲉ ⲛ̅ϭⲓ\nⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ϩⲛ̅ⲛ̅ⲙ̅ⲯⲁⲗⲙⲟⲥ ϫⲉ §ⲥⲱ‐\nⲧⲙ̅ ⲧⲁϣⲉⲉⲣⲉ ⲛ̅ⲧⲉⲛⲁⲩ ⲛ̅ⲧⲉⲣⲓⲕⲉ §ⲙ̅ⲡⲉⲙⲁ‐\nⲁϫⲉ ⲛ̅ⲧⲉⲣ̅ ⲡⲱⲃϣ ⲙ̅ⲡⲟⲩⲗⲁⲟⲥ §ⲙⲛ̅ ⲡⲏⲉⲓ\nⲙ̅ⲡⲉⲉⲓⲱⲧ ϫⲉ ⲁⲡⲣ̅ⲣⲟ §ⲉⲡⲓⲑⲩⲙⲉⲓ ⲉⲡⲟⲩⲥⲁ‐\nⲉⲓⲉ ϫⲉ ⲛ̅ⲧⲟϥ §ⲡⲉ ⲡⲟⲩϫⲟⲉⲓⲥ ϥⲣ̅ⲁⲝⲓⲟⲩ ⲅⲁⲣ\nⲙ̅ⲙⲟⲥ ⲁⲧⲣⲉⲥⲕⲧⲉ ⲡⲉⲥϩⲟ ⲉⲃⲟⲗ’ ⲙ̅ⲡⲉⲥ‐\nⲗⲁⲟⲥ ⲙⲛ̅ ⲡⲙⲏⲏϣⲉ ⲛ̅ⲛⲉⲥⲙⲟⲓⲭⲟⲥ ⲛⲁ‐\nⲉⲓ ⲛⲉⲥϩⲛ̅ ⲧⲟⲩⲙⲏⲧⲉ ⲛ̅ϣⲟⲣⲡ ⲛⲉⲥⲣ̅ⲡⲣ[ⲟ]ⲥ‐\nⲉⲭⲉ ⲁⲡⲉⲥⲣ̅ⲣⲟ ⲟⲩⲁⲁⲧϥ’ ⲡⲉⲥⲫⲩⲥⲓⲕⲟⲥ\nⲛ̅ϫⲟⲉⲓⲥ ⲁⲩⲱ ⲛ̅ⲥⲣ̅ ⲡⲱⲃϣ ⲙ̅ⲡⲏⲉⲓ ⲙ̅ⲡⲉⲓ‐\nⲱⲧ’ ⲙ̅ⲡⲕⲁϩ ⲡⲁⲉⲓ ⲉⲛⲉⲥϣⲟⲟⲡ ϩⲁⲧⲟⲟⲧϥ’\nⲕⲁⲕⲱⲥ ⲛ̅ⲥⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲟϥ ⲙ̅ⲡⲉⲥⲉⲓⲱⲧ\nⲉⲧϩⲛ̅ ⲙ̅ⲡⲏⲩⲉ ⲧⲉⲉⲓ ⲟⲛ ⲧⲉ ⲑⲉ ⲉⲛⲧⲁⲩϫⲟ‐\nⲟⲥ ⲛ̅ⲁⲃⲣⲁϩⲁⲙ ϫⲉ §ⲁⲙⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲕ’‐\nⲕⲁϩ ⲙⲛ̅ §ⲧⲉⲕⲥⲩⲛⲅⲉⲛⲉⲓⲁ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲏ[ⲉ]ⲓ §ⲙ̅ⲡⲉⲕ’ⲉⲓⲱⲧ’ §ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲧⲁⲣⲉ ⲧⲯⲩ‐"
+        },
+        {
+          "title": "Rebirth of the Soul",
+          "subtitle": "Rebirth of the Soul",
+          "heading": "Rebirth of the Soul (133, 31-135, 4) When the soul [adorned] herself again in",
+          "rangeLabel": "133, 31-135, 4",
+          "range": {
+            "start": {
+              "page": 133,
+              "line": 31
+            },
+            "end": {
+              "page": 135,
+              "line": 4
+            }
+          },
+          "english": "When the soul [adorned] herself again in\nher beauty, she [was eager] to enjoy her beloved. [He also] loved her. When she\nmade love with him, she received from him the seed, which is the lifegiving spirit. She bears good children by him and brings them up. This is the\ngreat, perfect, wonderful birth.\nThis marriage is consummated by the Father’s will.\nThe soul needs to regenerate herself and become as she formerly was. So the\nsoul stirred, and she received the divine from the Father, that she might be\nrestored and returned to where she was before.\nThis is resurrection from the dead.\nThis is freedom from captivity.\nThis is ascent to heaven.\nThis is the way up to the Father.\nTherefore the prophet said:\nMy soul, praise the Lord,\nall within me, praise his holy name.\nMy soul, praise God,\nwho forgave all your sins,\nwho healed all your sicknesses,\nwho freed your life from death,\nwho crowned you with mercy,\nwho satisfies your longing with good things.\nYour youth will be renewed like an eagle’s.\nWhen the soul is renewed, she will arise and praise the Father and her\nbrother, by whom she was rescued. In this way, through rebirth, the soul will be\nsaved. This is not because of practical lessons or technical skills or learned\nbooks. Rather, it is the grace of the [Spirit], it is the gift of the merciful [God],\nfor it is from above.\nThus the Savior calls out:\nNo one can come to me unless my Father draws and brings that one to me.\nI myself will raise that one on the last day.",
+          "coptic": "ⲡⲏ[ⲉ]ⲓ §ⲙ̅ⲡⲉⲕ’ⲉⲓⲱⲧ’ §ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲧⲁⲣⲉ ⲧⲯⲩ‐\nⲭ[ⲏ ⲣ̅ⲕ]ⲟ[ⲥ]ⲙⲉⲓ ⲙ̅ⲙⲟⲥ ϩⲛ̅ ⲧⲉⲥⲙ̅ⲛ̅ⲧ̅ⲥⲁⲉⲓⲉ\nⲟⲛ [.......]ⲙⲉⲉⲧⲉ ⲉⲡⲉⲥⲙⲉⲣⲉⲓⲧ’\nⲁⲩⲱ ⲛ̅[ⲧⲟϥ ϩⲱ]ⲱϥ ⲁϥⲙⲉⲣⲉⲓⲧⲥ̅ ⲁⲩⲱ ⲛ̅‐\nⲧⲁⲣⲉⲥⲣ̅ⲕⲟ[ⲓ]ⲛⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁϥ [ⲁ]ⲥϫⲓ ⲙ̅‐\nⲡⲉⲥⲡⲉⲣⲙⲁ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ̅ ⲉⲧⲉ ⲡⲡⲛ̅ⲁ̅\nⲡⲉ ⲉⲧ’ⲧⲛ̅ϩⲟ ϣⲁⲛⲧⲉⲥϫⲡⲟ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ\nⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ⲉⲛⲁⲛⲟⲩⲟⲩ ⲛ̅ⲥⲥⲁⲛⲟⲩϣⲟⲩ\nⲡⲁⲉⲓ ⲅⲁⲣ’ ⲡⲉ ⲡⲛⲟϭ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ ⲛ̅ⲑⲁⲩⲙⲁ\nⲛ̅ϫⲡⲟ ϩⲱⲥⲧⲉ ⲡⲉⲉⲓⲅⲁⲙⲟⲥ ⲉϥϫⲱⲕ’ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’ §ϣϣⲉ ⲇⲉ ⲁⲧⲣⲉ ⲧⲯⲩ‐\nⲭⲏ ϫⲡⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ ⲛ̅ⲥϣⲱⲡⲉ ⲟⲛ’ ⲛ̅ⲧⲉⲥ‐\nϩⲉ ⲛ̅ϣⲟⲣⲡ’ ⲧⲯⲩⲭⲏ ϭⲉ ϣⲁⲣⲉⲥⲕⲓⲙ’ ⲟⲩⲁ‐\nⲁⲧⲥ̅ ⲁⲩⲱ ⲁⲥϫⲓ ⲡⲑⲉⲓⲟⲛ ⲛ̅ⲧⲙ̅ ⲡⲉⲓⲱⲧ’ ⲁ’‐\nⲧⲣⲉⲥⲣ̅ ⲃⲣ̅ⲣⲉ ϫⲉⲕⲁⲁⲥ ⲟⲛ ⲉⲩⲛⲁϫⲓⲧⲥ̅ ⲉ‐\nⲡⲙⲁ ⲉⲛⲉⲥⲙ̅ⲙⲁⲩ ϫⲓⲛ’ ϣⲟⲣⲡ’ ⲧⲁⲉⲓ ⲧⲉ\nⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲉⲧ’ϣⲟⲟⲡ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉⲧⲙⲟ‐\nⲟⲩⲧ’ ⲡⲁⲉⲓ ⲡⲉ ⲡⲥⲱⲧⲉ ⲛ̅ⲧⲁⲓⲭⲙⲁⲗⲱⲥⲓⲁ ⲧⲁ‐\nⲉⲓ ⲧⲉ ⲧⲁⲛⲧⲃⲁⲥⲓⲥ ⲛ̅ⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲧⲡⲉ ⲧⲁⲉⲓ\nⲧⲉ ⲑⲟⲇⲟⲥ ⲛ̅ⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ϣⲁ ⲡⲉⲓⲱⲧ’ §ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ⲡⲉϫⲉ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ’ ϫⲉ §ⲧⲁⲯⲩ‐\nⲭⲏ ⲉⲣⲓⲉⲩⲗⲟⲅⲉⲓ ⲙ̅ⲡϫⲟⲉⲓⲥ ⲁⲩⲱ ⲛⲁ §ⲡⲥⲁ ⲛ‐\nϩⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲉϥⲣⲁⲛ’ §ⲉⲧⲟⲩⲁⲁⲃ’ ⲧⲁⲯⲩ‐\nⲭⲏ ⲉⲣⲓⲉⲩⲗⲟⲅⲉⲓ §ⲙ̅ⲡⲛⲟⲩⲧⲉ’ ⲡⲉⲛⲧⲁϩⲕⲱ\nⲉⲃⲟⲗ §ⲛ̅ⲛⲉ⟦ⲛ⟧ⲁⲛⲟⲙⲓⲁ’ ⲧⲏⲣⲟⲩ ⲡⲉⲛⲧⲁϩⲧⲁⲗ‐\nϭⲟ §ⲛ̅ⲛⲉϣⲱⲛⲉ ⲧⲏⲣⲟⲩ ⲡⲉⲛⲧⲁϩⲥⲱⲧⲉ\nⲙ̅ⲡⲉⲱⲛϩ §ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲙⲟⲩ ⲡⲉⲛⲧⲁϩϯ\n[ⲕ]ⲗⲟⲙ’ ⲉϫⲱ §ϩⲛ̅ ⲟⲩⲛⲁ’ ⲡⲉⲧⲧ〈ⲥ〉ⲉⲓⲟ ⲛ̅ⲧⲉⲉⲡⲓ‐\n[ⲑ]ⲩⲙⲓⲁ §ϩⲛ̅ ⲛ̅ⲁⲅⲁⲑⲟⲛ ⲧⲉⲙⲛⲧⲕⲟⲩⲉⲓ ⲛⲁ‐\nⲣ̅ §ⲃⲣ̅ⲣⲉ ⲛ̅ⲑⲉ ⲛ̅ⲧⲁ ⲟⲩⲁⲉⲧⲟⲥ §ⲉⲥϣⲁⲣ̅ ⲃⲣ̅ⲣⲉ\nϭⲉ ⲥⲛⲁⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲥⲥⲙⲟⲩ ⲉⲡⲉⲓⲱⲧ’\nⲙⲛ̅ ⲡⲉⲥⲥⲟⲛ ⲡⲁⲉⲓ ⲛ̅ⲧⲁⲥⲟⲩϫⲁⲉⲓ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ̅ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲧⲯⲩⲭⲏ ⲉⲥⲛⲁⲟⲩ‐\nϫⲁⲉⲓ ϩⲓⲧⲛ̅ ⲡⲉϫⲡⲟ ⲛ̅ⲕⲉⲥⲟⲡ’ ⲡⲁⲉⲓ ⲇⲉ\nⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϣⲁϫⲉ ⲁⲛ ⲛ̅ⲁⲥⲕⲏⲥⲓⲥ ⲉϣⲁϥ’‐\nⲉⲓ ⲟⲩⲇⲉ ⲉⲃⲟⲗ ⲁⲛ ϩⲛ̅ ⲛ̅ⲧⲉⲭⲛⲏ ⲟⲩ[ⲇ]ⲉ ϩⲛ̅‐\nⲥⲃⲱ ⲛ̅ⲥϩⲁⲓ̈ ⲁⲗⲗⲁ ⲧⲭⲁⲣⲓ[ⲥ] ⲙ̅ⲡ[... ⲧ]ⲉ\nⲁⲗⲗⲁ ⲧⲇⲱⲣⲉⲁ ⲙ̅ⲡⲛ[.........]ⲁⲉ\nⲡⲉⲉⲓϩⲱⲃ ⲅⲁⲣ ⲟⲩⲉⲓⲉⲓ ⲡⲉ ⲙ̅[ⲡⲥⲁ] ⲛⲧⲡⲉ §ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ϥ[ⲁ]ϣⲕⲁⲕ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲥⲱⲧⲏⲣ’\nϫⲉ §ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣⲉⲓ ϣⲁⲣⲟⲉⲓ ⲉⲓ ⲙⲏⲧⲓ ⲛ̅‐\nⲧⲉ §ⲡⲁⲉⲓⲱⲧ’ ⲥⲱⲕ’ ⲙ̅ⲙⲟϥ’ ⲛ̅ϥⲛⲧ̅ϥ̅ ⲛⲁⲉⲓ\nⲁⲩⲱ §〈ⲁ〉ⲛⲟⲕ’ ϩⲱ ϯⲛⲁⲧⲟⲩⲛⲟⲥϥ’ ϩⲙ̅ ⲫϩⲁⲉ ⲛ̅‐\nϩⲟⲟⲩ §ϣϣⲉ ϭⲉ ⲉϣⲗⲏⲗ’ ⲉⲡⲉⲓⲱⲧ ⲛ̅ⲧⲙ̅ⲙⲟⲩ‐"
+        },
+        {
+          "title": "Praying with All Our Soul",
+          "subtitle": "Praying with All Our Soul",
+          "heading": "Praying with All Our Soul (135, 4-136, 16) So we need to pray to the Father and",
+          "rangeLabel": "135, 4-136, 16",
+          "range": {
+            "start": {
+              "page": 135,
+              "line": 4
+            },
+            "end": {
+              "page": 136,
+              "line": 16
+            }
+          },
+          "english": "So we need to pray to the Father and\ncall on him with all our soul, not outwardly with our lips but with the spirit,\nwhich is within and has come from the depth,\nsighing,\nrepenting for the lives we led,\nconfessing our sins,\nrecognizing the vain deception\nand vain zeal we were in,\nweeping over our lives\nin darkness, as billows roll,\nmourning for ourselves\nthat he might pity us,\nhating ourselves\nfor what we are now.\nAgain, the Savior said:\nBlessed are they who mourn, for they will be pitied.\nBlessed are the hungry, for they will be filled.\nAgain he said:\nOne who does not hate one’s own soul cannot follow me.\nThe beginning of salvation is repentance. Thus:\nBefore Jesus appeared John came and preached the baptism of\nrepentance.\nRepentance takes place in sorrow and grief. The Father is good and loves\npeople, and hears the soul that calls to him and sends her the light of salvation.\nThus he said through the spirit to the prophet:\nSay to the children of my people,\n“[If] your sins reach [from earth to] heaven,\nif they become [red] as scarlet and blacker than sackcloth, [and if]\nyou return to me with all your soul and say to me, ‘My Father,’\nI will listen to you as a holy people.”\nAgain, elsewhere:\nThus says the Lord, the holy one of Israel,\n“If you return and sigh,\nyou will be saved\nand know where you were\nwhen you trusted what is vain.”\nAnd again he said:\nJerusalem wept and wept, saying, “Pity me.” He will have pity on the\nvoice of your lamentation. When he noticed, he listened to you. And the\nLord will give you bread of affliction and water of oppression. From now\non those who deceive will never approach you again. Your eye will see\nthose who would deceive you.",
+          "coptic": "ϩⲟⲟⲩ §ϣϣⲉ ϭⲉ ⲉϣⲗⲏⲗ’ ⲉⲡⲉⲓⲱⲧ ⲛ̅ⲧⲙ̅ⲙⲟⲩ‐\nⲧⲉ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟϥ ϩⲛ̅ ⲧⲙ̅ⲯⲩⲭⲏ ⲧⲏⲣⲥ̅ ϩⲛ̅ ⲛ̅ⲥⲡⲟ‐\nⲧⲟⲩ ⲁⲛ ⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ’ ⲁⲗⲗⲁ ϩⲙ̅ ⲡⲛⲉⲩⲙⲁ\nⲉⲧϩⲓ ⲡⲥⲁ ⲛϩⲟⲩⲛ ⲡⲉⲛⲧⲁϩⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲃⲁ‐\nⲑⲟⲥ ⲉⲛⲉϣ ⲉϩⲟⲙ ⲉⲛⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ⲉϫⲙ̅\nⲡⲃⲓⲟⲥ ⲛ̅ⲧⲁϩⲛ̅ⲛⲁⲁϥ’ ⲉⲛⲣ̅ⲉⲝϩⲟⲙⲟⲗⲟⲅⲉⲓ\nⲛ̅ⲛ〈ⲛ̅〉ⲛⲟⲃⲉ ⲉⲛⲁⲓⲥⲑⲁⲛⲉ ⲉⲧ’ⲡⲗⲁⲛⲏ ⲉⲧϣⲟⲩ‐\nⲉⲓⲧ’ ⲧⲁⲉⲓ ⲛⲉⲛ’ϣⲟⲟⲡ’ ⲛ̅ϩⲏⲧⲥ̅ ⲁⲩⲱ ⲁⲧⲥⲡⲟⲩ‐\nⲇⲏ ⲉⲧϣⲟⲩⲉⲓⲧ’ ⲉⲛⲣⲓⲙⲉ ⲛ̅ⲑⲉ ⲛⲉⲛϣⲟⲟⲡ’\nϩⲙ̅ ⲡⲕⲁⲕⲉ ⲙⲛ̅ ⲫⲟⲉⲓⲙ ⲉⲛⲣ̅ⲡⲉⲛⲑⲉⲓ ⲛⲁⲛ\nⲟⲩⲁⲁⲛ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲛⲁ ⲛⲁⲛ ⲉⲙⲙⲟⲥⲧⲉ\nⲙ̅ⲙⲟⲛ ⲛ̅ⲑⲉ ⲉⲧⲛ̅ⲛ̅ϩⲏⲧⲥ̅ ⲧⲉⲛⲟⲩ §ⲡⲁⲗⲓⲛ\nⲡⲉϫⲁϥ ⲛ̅ϭⲓ ⲡⲥⲱⲧⲏⲣ ϫⲉ §ϩⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ\nⲛⲉ ⲛⲁⲉⲓ ⲉⲧⲡⲉⲛⲑⲉⲓ §ϫⲉ ⲛ̅ⲧⲟⲟⲩ ⲡⲉ ⲉⲧⲟⲩⲛⲁ‐\nⲛⲁ ⲛⲁⲩ §ϩⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉⲧϩⲕⲁⲉⲓⲧ’ ϫⲉ ⲛ̅‐\nⲧⲟⲟⲩ §ⲡⲉ ⲉⲧⲛⲁⲥⲉⲓ ⲡⲁⲗⲓⲛ ⲡⲉϫⲁϥ ϫⲉ ⲉ[ⲣ]‐\nⲧⲙ̅ⲟⲩⲁ ⲙⲉⲥⲧⲉ ⲧⲉϥⲯⲩⲭⲏ ϥⲛⲁϣ§ⲟⲩϩⲁϥ\nⲁⲛ’ ⲛ̅ⲥⲱⲉⲓ ⲧⲁⲣⲭⲏ ⲅⲁⲣ ⲙ̅ⲡⲟⲩϫⲁⲉⲓ ⲡⲉ ⲧ’‐\nⲙⲉⲧⲁⲛⲟⲓⲁ ⲇⲓⲁ ⲧⲟⲩⲧⲟ §ϩⲁ ⲧⲉϩⲏ ⲛ̅ⲧⲡⲁ’‐\nⲣⲟⲩⲥⲓⲁ ⲙ̅ⲡⲉⲭⲣⲥ̅ ⲁϥⲓ ⲛ̅ϭⲓ §ⲓ̈ⲱϩⲁⲛⲛⲏⲥ [ⲉϥ]‐\nⲕⲏⲣⲩⲥⲥⲉ ⲙ̅ⲡⲃⲁⲡⲧⲓⲥⲙⲁ §ⲛ̅ⲧⲙⲉⲧⲁⲛⲟⲓ’ⲁ\nⲧⲙⲉⲧⲁⲛⲟⲓⲁ ⲇⲉ ϣⲁⲥϣⲱⲡⲉ ϩⲛ̅ ⲟⲩⲗⲩⲡ’ⲏ\nⲙⲛ̅ ⲟⲩⲙ̅ⲕⲁϩ ⲛ̅ϩⲏ’ⲧ ⲡⲉⲓⲱⲧ ⲇⲉ ⲟⲩⲙⲁⲉⲓ‐\nⲣⲱⲙⲉ ⲡ’ⲉ ⲛ̅ⲁⲅⲁⲑⲟⲥ ⲁⲩⲱ ⲉϥⲥⲱⲧⲙ̅ ⲁ’ⲧ‐\nⲯⲩⲭⲏ ⲉⲧⲣ̅ⲉⲡⲓⲕⲁⲗⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲣ’ⲟϥ ⲁⲩⲱ ’ⲛ̅ϥ‐\nⲧⲛ̅ⲛⲁⲩ ⲛⲁⲥ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲛⲟⲩϫⲁⲉⲓ ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ⲡⲉϫⲁϥ ϩⲓⲧⲙ̅ ⲡⲉⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲉⲡⲣⲟ‐\nⲫ[ⲏⲧ]ⲏⲥ ⲇⲉ §ϫⲟⲟⲥ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲁⲗⲁⲟⲥ\nϫ[ⲉ §ⲉⲣ]ϣ[ⲁ] ⲛⲉⲧⲛ̅ⲛⲟⲃⲉ ϣⲱⲡⲉ ⲉⲩⲟⲩⲏⲟⲩ\nϫ[ⲓⲙ §ⲡⲕⲁϩ ϣⲁ ⲧ]ⲡⲉ ⲁⲩⲱ ⲉⲩϣⲁϣⲱⲡⲉ\n§ⲉⲩⲧⲣⲉ[ϣⲣⲱ]ϣ ⲛ̅ⲑⲉ ⲙ̅ⲡⲕⲟ’ⲕⲕⲟⲥ §ⲁⲩⲱ\nⲉⲩⲕⲏⲙ ⲛ̅ϩⲟⲩⲟ ⲉⲩϭⲟ[ⲟ]ⲩ[ⲛⲉ §ⲁⲩ]ⲱ [ⲛ̅ⲧⲉ]‐\nⲧⲛ̅ⲕⲟⲧⲧⲏⲩⲧⲛ̅ ϣⲁⲣⲟⲉⲓ §ϩⲛ̅ ⲧⲉⲧⲛ̅ⲯⲩⲭⲏ\nⲧⲏⲣⲥ̅ ⲁⲩⲱ ⲛ̅ⲧⲉⲧⲛ̅ϫⲟⲟⲥ §ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲉⲓ ϫⲉ\nⲡⲁⲉⲓⲱ’ⲧ ϯⲛⲁⲥⲱⲧⲙ̅ §ⲉⲣⲱⲧⲛ̅ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩ‐\nⲗⲁⲟⲥ ’ⲉϥⲟⲩⲁⲁⲃ ⲡⲁⲗⲓⲛ ⲕⲉⲙⲁ §ϥϫⲱ ⲙ̅ⲙⲟⲥ\nⲛ̅ⲧⲉⲉⲓϩⲉ ⲛ̅ϭⲓ ⲡϫⲟⲉⲓⲥ §ⲡⲉⲧⲟⲩⲁⲁⲃ ⲛ̅ⲧⲉ ⲡⲓ‐\nⲥⲣⲁⲏⲗ ϫⲉ ϩⲟⲧⲁⲛ §ⲉⲕϣⲁⲕⲧⲟ’ⲕ ⲛ̅ⲕⲉϣ ⲉϩⲟ’ⲙ\nⲧⲟⲧⲉ §ⲕⲛⲁⲟⲩϫⲁⲉⲓ ⲁⲩⲱ ⲕⲛⲁⲉⲓⲙⲉ ϫⲉ §ⲛⲉⲕⲧⲱⲛ\nⲛ̅ϩⲟⲟⲩ ⲉⲕⲛⲁϩⲧⲉ §ⲁⲛⲓⲡⲉ’ⲧϣⲟⲩⲉⲓ’ⲧ ⲡⲁⲗⲓⲛ\nⲡⲉϫⲁϥ ⲛ̅ⲕⲉⲙⲁ ϫⲉ §ⲑⲓⲉⲣⲟⲩⲥⲁⲗⲏ’ⲙ ϩⲛ̅ ⲟⲩ‐\nⲣⲓⲙⲉ ⲁⲥⲣⲓⲙⲉ ϫⲉ §ⲛⲁ ⲛⲁⲉⲓ ϥⲛⲁⲛⲁ ⲛ̅ⲧⲉⲥⲙⲏ\n§ⲙ̅ⲡⲉⲣⲓⲙⲉ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲁϥⲥⲱⲧⲙ̅ §ⲉⲣ’ⲟ\nⲁⲩⲱ ⲡϫⲟⲉⲓⲥ ⲛⲁϯ ⲛⲏⲧⲛ̅ ⲛ̅ⲟⲩⲟⲉⲓ’ⲕ §ⲛ̅ⲑⲗⲓ‐\nⲯⲓⲭ ⲙⲛ̅ⲛⲟⲩⲙⲟⲟⲩ ⲛ̅ⲗⲱϫϩ ⲥⲉⲛⲁⲥⲱⲧⲉ §ⲁⲛ\nϫⲓ’ⲛ ⲧⲉⲛⲟⲩ ⲉⲧⲣⲟⲩⲧϩⲛⲟ ⲉϩⲟⲩⲛ §ⲉⲣⲟ ⲛ̅ϭⲓ\n† ⲡⲉⲧ̅ⲣ̅ⲡⲗⲁⲛⲁ ⲛⲉⲃⲁⲗ §ⲛⲁⲛⲁⲩ ⲁ’ⲛⲉⲧⲣ̅ⲡⲗⲁⲛⲁ\nⲙ̅ⲙⲟ §ϩⲱⲥⲧⲉ ϣϣⲉ ⲁⲣ̅ⲡⲣⲟⲥⲉⲩⲭⲉⲥⲑⲁⲓ ⲉ‐"
+        },
+        {
+          "title": "Repentance of Odysseus and Helen",
+          "subtitle": "Repentance of Odysseus and Helen",
+          "heading": "Repentance of Odysseus and Helen (136, 16-137, 11) We need to pray to God",
+          "rangeLabel": "136, 16-137, 11",
+          "range": {
+            "start": {
+              "page": 136,
+              "line": 16
+            },
+            "end": {
+              "page": 137,
+              "line": 11
+            }
+          },
+          "english": "We need to pray to God\nnight and day and lift our hands to him as people do who sail in the middle of the\nsea. They pray to God with all their heart without hypocrisy. Those who pray\nwith hypocrisy deceive only themselves. For God examines what is within and\nsearches the depths of the heart to find out who is worthy of salvation. And no\none is worthy of salvation who still loves the place of deception.\nThus it is written in the poet:\nOdysseus sat weeping and grieving on the island. He turned his face from\nthe words of Calypso and from her tricks, and longed to see his village and\nsmoke coming from it. If he had not [received] help from heaven, [he\nwould not have been able to return] to his village.\nAgain, [Helen also] says:\nMy heart turned away from me. I want to return to my own house.\nShe sighed and said:\nAphrodite deceived me and brought me out of my village. I left my only\ndaughter behind, and my good, understanding, handsome husband.\nWhen the soul leaves her perfect husband because of the deception of\nAphrodite, which happens in the act of conception in this world, the soul suffers\nharm. But if she sighs and repents, she will be restored to her house.",
+          "coptic": "ⲙ̅ⲙⲟ §ϩⲱⲥⲧⲉ ϣϣⲉ ⲁⲣ̅ⲡⲣⲟⲥⲉⲩⲭⲉⲥⲑⲁⲓ ⲉ‐\nⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲟⲩϣⲏ ⲙⲛ̅ ⲡⲉϩⲟⲟⲩ ⲉ’ⲙⲡⲱⲣϣ\nⲛ̅ⲛ̅ϭⲓϫ ⲉϩⲣⲁⲓ̈ ⲉⲣ’ⲟϥ ⲛ̅ⲑⲉ ⲛ̅ⲛⲉⲧϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲛ̅ⲑⲁⲗⲁⲥⲥⲁ ⲉⲧⲡⲗⲉⲁ ϣⲁⲩϣⲗⲏⲗ ⲉⲡⲛⲟⲩ‐\nⲧⲉ ϩⲙ̅ ⲡⲟⲩϩⲏⲧ ⲧⲏ’ⲣϥ ϩⲛ̅ⲛⲟⲩϩⲩⲡⲟⲕⲣⲓⲥⲓⲥ\nⲁⲛ ϫⲉ ⲛⲉ’ⲧⲡⲣⲟⲥⲉⲩⲭⲉⲥⲑⲁⲓ ϩⲛ̅ⲛⲟⲩϩⲩ‐\nⲡⲟⲕⲣⲓⲥⲓⲥ ⲉⲩⲁⲡⲁⲧⲁ ⲙ̅ⲙⲟⲟⲩ ⲟⲩⲁⲧⲟⲩ ⲉ‐\nⲡⲛⲟⲩⲧⲉ ⲅⲁⲣ ϭⲱϣ’ⲧ ⲛ̅ⲥⲁ ⲛ̅ϭⲗⲁⲧⲉ ⲁⲩ’ⲱ\nⲉϥⲙⲟⲩϣ’ⲧ ⲙ̅ⲫⲏ’ⲧ ⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅\nⲉⲧⲣ’ⲉϥⲉⲓⲙⲉ ⲉⲡⲁⲝⲓⲟⲥ ⲛ̅ⲛⲟⲩϫⲁⲉⲓ ⲙⲛ̅ ⲗⲁ‐\nⲁⲩ ⲅⲁⲣ ⲟⲉⲓ ⲛ̅ⲁⲝⲓⲟⲥ ⲙ̅ⲡⲟⲩϫⲁⲉⲓ ⲉⲧⲓ ⲉϥⲙⲉ\nⲙ̅ⲡⲧⲟⲡⲟⲥ ⲛ̅ⲧⲉⲡⲗⲁⲛⲏ §ⲇⲓⲁ ⲧⲟⲩⲧⲟ ϥⲥⲏϩ\nϩⲙ̅ ⲡⲟⲓⲏⲧⲏⲥ ϫⲉ §ⲟⲇⲩⲥⲥⲉⲩⲥ ⲛⲉϥϩⲙⲟⲟⲥ\nϩⲓ ⲧⲙⲟⲩⲉ §ⲉϥⲣⲓⲙⲉ ⲁⲩⲱ ⲉϥⲗⲩⲡⲉⲓ ⲉϥⲕⲧⲟ\nⲙ̅ⲡⲉϥϩⲟ §ⲉⲃⲟⲗ ⲛ̅ⲛ̅ϣⲁϫⲉ ⲛ̅ⲕⲁⲗⲩⲯⲱ\nⲙⲛ̅ ⲛⲉⲥⲁⲡⲁⲧⲏ §ⲉϥⲉⲡⲓⲑⲩⲙⲉⲓ ⲉⲧⲣⲉϥⲛⲁⲩ\nⲉⲡⲉϥϯⲙⲉ §ⲁⲩⲱ ⲉⲩⲕⲁⲡⲛⲟⲥ ⲉϥⲛⲛ[ⲏⲩ] ⲉ‐\nⲃⲟ’ⲗ §ⲙ̅ⲙ’ⲟϥ ⲁⲩⲱ ⲥⲁⲃⲏ[’ⲗ] ϫ[ⲉ ⲁϥϫⲓ §ⲛ̅ⲛⲟⲩ]ⲃⲟ‐\nⲏⲑⲉⲓⲁ ⲉⲃⲟ’ⲗ ϩⲛ̅ ⲧⲡⲉ §ⲛ[ⲉϥⲛⲁϣ]ⲕⲟ[ⲧϥ] ⲁⲛ\nⲉⲡⲉϥϯⲙ’ⲉ ⲡⲁⲗⲓ’ⲛ ⲧⲕⲉϩ[ⲉⲗⲉ]ⲛⲏ 〈 〉 ⲉⲥϫⲱ\n[ⲙ̅ⲙⲟⲥ ϫⲉ] §ⲡⲁ[ϩ]ⲏ’ⲧ ⲁϥⲕⲧⲟϥ ⲛ̅ⲧⲟⲟ’ⲧ ⲡⲁⲗⲓⲛ\n§ⲉⲉⲓⲟⲩⲱϣ ⲃⲱ’ⲕ ⲉⲡⲁⲏⲉⲓ ⲛⲉⲥⲁϣ ⲉϩⲟⲙ ⲅⲁ’ⲣ\nⲉⲥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ §ⲁⲫⲣⲟⲇⲓⲧⲏ ⲧⲉⲛⲧⲁϩⲣ̅ⲁ‐\nⲡⲁⲧⲁ ⲙ̅ⲙⲟⲉⲓ §ⲁⲥⲛ̅ⲧ̅ ⲉⲃⲟ’ⲗ ⲙ̅ⲡⲁϯⲙⲉ ⲧⲁϣⲣ̅‐\nⲟⲩⲟⲟⲧⲥ̅ §ⲁϩⲓⲕⲁⲁⲥ ⲛ̅ⲥⲱⲉⲓ ⲁⲩⲱ ⲡⲁϩⲁⲉⲓ\nⲉⲧⲛⲁⲛⲟ’ⲩϥ §ⲣ̅ⲣⲙⲛ̅ϩⲏ’ⲧ ⲛ̅ⲁⲥⲉⲓⲉ §ϩⲟⲧⲁⲛ\nⲅⲁⲣ ⲉⲣϣⲁⲛ ⲧⲯⲩⲭⲏ ⲕⲱ ⲛ̅ⲥⲱⲥ ⲙ̅ⲡⲉⲥϩⲁⲓ̈\nⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲉⲧⲃⲉ ⲧⲁⲡⲁⲧⲏ ⲛ̅ⲧⲁⲫⲣⲟⲇⲉⲓⲧⲏ\nⲧⲁⲉⲓ ⲉⲧϣⲟⲟ’ⲡ ϩⲙ̅ ⲡⲉϫⲡⲟ ⲙ̅ⲡⲉⲉⲓⲙⲁ ⲧⲟ‐\nⲧⲉ ⲥⲛⲁⲣ̅ⲃⲗⲁⲡⲧⲉⲥⲑⲁⲓ ⲉⲥϣⲁⲛⲁϣ ⲉϩⲟ’ⲙ\nⲇⲉ ⲛ̅ⲥⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ⲥⲉⲛⲁⲕⲧⲟⲥ ⲉϩⲟⲩ’ⲛ ⲉⲡⲉⲥ‐\nⲏⲉⲓ §ⲕⲁⲓ ⲅⲁⲣ ⲡⲓⲥⲣⲁⲏ’ⲗ ⲙ̅ⲡⲟⲩϭⲛ̅ ⲡⲉϥϣⲓⲛⲉ"
+        },
+        {
+          "title": "Our Repentance",
+          "subtitle": "Our Repentance",
+          "heading": "Our Repentance (137, 11-27)",
+          "rangeLabel": "137, 11-27",
+          "range": {
+            "start": {
+              "page": 137,
+              "line": 11
+            },
+            "end": {
+              "page": 137,
+              "line": 27
+            }
+          },
+          "english": "Israel would not have once been visited by God and brought out of the land of\nEgypt and the house of bondage if it had not sighed to God and wept about its\noppressive labors.\nAgain, it is written in the Psalms:\nI have been deeply troubled\nin my groaning.\nI shall drench my bed and cover each night\nwith my tears.\nI have become old among all my enemies.\nDepart from me, all you who do lawless things,\nfor look, the Lord has heard the cry of my weeping, and the Lord has\nheard my prayer.\nIf we truly repent, God, who is patient and abundant in mercy, will hear us.\nTo God be the glory forever and ever.\nAmen.\nExegesis on the Soul",
+          "coptic": "ⲏⲉⲓ §ⲕⲁⲓ ⲅⲁⲣ ⲡⲓⲥⲣⲁⲏ’ⲗ ⲙ̅ⲡⲟⲩϭⲛ̅ ⲡⲉϥϣⲓⲛⲉ\nⲛ̅ϣⲟⲣ’ⲡ ⲉⲧⲣⲟⲩⲛ̅ⲧϥ̅ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲛ̅ⲕⲏⲙⲉ\nϩⲙ̅ ⲡⲏⲉⲓ ⲛ̅ⲧⲙⲛ̅ⲧϩⲙϩ̅ⲁ̅ⲗ̅ ⲉⲓ ⲙⲏⲧⲓ ϫⲉ ’ⲁϥⲉ‐\nϣ ⲉϩⲟ’ⲙ ⲉϩⲣⲁⲓ̈ ⲉⲡⲛⲟⲩⲧⲉ ⲁϥⲣⲓⲙⲉ ⲙ̅ⲡⲗⲱϫϩ\nⲛ̅ⲛⲉϥϩⲃⲏⲩⲉ ⲡⲁⲗⲓⲛ ϥⲥⲏϩ ϩⲛ̅ ⲙ̅ⲯⲁⲗⲙⲟⲥ\nϫⲉ §ⲁⲉⲓϩⲓⲥⲉ ⲉⲙⲁⲧⲉ ϩⲙ̅ ⲡⲁⲁϣ ⲉϩⲟ’ⲙ §ϯⲛⲁ‐\nϫⲱⲕⲙ̅ ⲙ̅ⲡⲁϭⲗⲟϭ ⲙⲛ̅ ⲡⲁⲡⲣⲏϣ §ⲕⲁⲧⲁ ⲟⲩ‐\nϣⲏ ϩⲛ̅ ⲛⲁⲣⲙ̅ⲙⲉⲓⲏ ⲁϩⲓⲣ̅ ⲁⲥ §ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲁϫ[ⲁ]‐\nϫⲉ ⲧⲏⲣⲟⲩ ⲥⲁϩⲉ §ⲧⲏⲩⲧⲛ̅ ⲉⲃⲟⲗ ⲙ̅ⲙⲟⲉⲓ ⲟ[ⲩ]‐\nⲟⲛ ⲛⲓ’ⲙ ⲉⲧⲣ̅ §ϩⲱ’ⲃ ⲉⲧⲁⲛⲟⲙⲓⲁ ϫⲉ ⲉⲓⲥ ⲡϫⲟ\nⲉⲓⲥ §ⲁϥⲥⲱⲧⲙ̅ ⲉⲡⲁϣⲕⲁ’ⲕ ⲙ̅ⲡⲁⲣⲓⲙⲉ ⲁⲩ‐\nⲱ §ⲁⲡϫⲟⲉⲓⲥ ⲥⲱⲧⲙ̅ ⲉⲡⲁⲥⲟⲡⲥ̅ §ⲉϣⲱⲡ[ⲉ]\nⲧⲛⲁⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ⲛⲁⲙⲉ ⲡⲛⲟⲩⲧⲉ ⲛⲁ‐\nⲥⲱⲧⲙ̅ ⲉⲣⲟⲛ ⲡϩⲁⲣϣϩⲏ’ⲧ ⲁⲩⲱ ⲡⲁ ⲡⲛⲟϭ\nⲛ̅ⲛⲁ † ⲛⲁⲉⲓ ⲉⲧⲉ ⲡⲱϥ ⲡⲉ ⲡⲉⲟⲟⲩ ϣⲁ ⲛⲓⲉ‐\nⲛⲉϩ ⲛ̅ⲉⲛⲉϩ ϩⲁⲙⲏⲛ\nⲧⲉⲝⲏⲅⲏⲥⲓⲥ ⲉⲧⲃⲉ ⲧⲯⲩⲭⲏ \n( codex II ) The Book of Thomas the Contender"
+        }
+      ]
+    },
+    {
+      "workId": "book-of-thomas-the-contender",
+      "chapterName": "Book of Thomas the Contender",
+      "title": "Codex II - Book of Thomas the Contender",
+      "sourceTitle": "THE BOOK OF THOMAS",
+      "sections": [
+        {
+          "title": "Hidden Sayings",
+          "subtitle": "Hidden Sayings",
+          "heading": "Hidden Sayings (138, 1-4)",
+          "rangeLabel": "138, 1-4",
+          "range": {
+            "start": {
+              "page": 138,
+              "line": 1
+            },
+            "end": {
+              "page": 138,
+              "line": 4
+            }
+          },
+          "english": "The hidden sayings that the Savior spoke to Judas Thomas, which I, Mathaias, in\nturn recorded. I was walking, listening to them speak with each other.",
+          "coptic": "§ⲛ̅ϣⲁϫⲉ ⲉⲑⲏⲡ’ ⲛⲁⲓ̈ ⲉⲛⲧⲁϥϣⲁϫⲉ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲛ̅‐\nⲓ̈ⲟⲩⲇⲁⲥ ⲑⲱⲙⲁⲥ ⲛⲁⲓ̈ ⲉⲛⲧⲁⲓ̈ⲥⲁϩⲟⲩ’ ⲁⲛⲟⲕ ϩⲱⲱⲧ’ ⲙⲁ‐\nⲑⲁⲓⲁⲥ ⲛⲉⲉⲓⲙⲟⲟϣⲉ ⲉⲉⲓⲥⲱⲧⲙ̅ ⲉⲣⲟⲟⲩ ⲉⲩϣⲁϫⲉ ⲙⲛ̅\nⲛⲟⲩⲉⲣⲏⲩ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲡⲥⲁⲛ ⲑⲱⲙⲁⲥ ϩⲱⲥ"
+        },
+        {
+          "title": "Jesus Speaks with Brother Thomas",
+          "subtitle": "Jesus Speaks with Brother Thomas",
+          "heading": "Jesus Speaks with Brother Thomas (138, 4-21)",
+          "rangeLabel": "138, 4-21",
+          "range": {
+            "start": {
+              "page": 138,
+              "line": 4
+            },
+            "end": {
+              "page": 138,
+              "line": 21
+            }
+          },
+          "english": "The Savior said, “Brother Thomas, while you are still in the world, listen to me\nand I shall reveal to you what you have thought about in your heart.\n“Since it is said that you are my twin and true friend, examine yourself and\nunderstand who you are, how you exist, and how you will come to be. Since you\nare to be called my brother, it is not fitting for you to be ignorant of yourself.\nAnd I know that you have understood, for already you have understood that I am\nthe knowledge of truth. So while you are walking with me, though you do lack\nunderstanding, already you have obtained knowledge and you will be called one\nwho knows himself. For those who have not known themselves have known\nnothing, but those who have known themselves already have acquired\nknowledge about the depth of the All. So then, my brother Thomas, you have\nseen what is hidden from people, what they stumble against in their ignorance.”",
+          "coptic": "ⲛⲟⲩⲉⲣⲏⲩ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲡⲥⲁⲛ ⲑⲱⲙⲁⲥ ϩⲱⲥ\nⲉⲩⲛ̅ⲧⲁⲕ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲟⲩⲟⲉⲓϣ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲥⲱⲧⲙ̅ ⲉⲣⲟⲓ̈\nⲛ̅ⲧⲁϭⲱⲗⲡ’ ⲛⲁⲕ’ ⲉⲃⲟⲗ ⲉⲧⲃⲉ ⲛⲉⲛⲧⲁⲕ’ⲙⲉⲉⲩⲉ ⲉⲣⲟⲟⲩ\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲉⲕ’ϩⲏⲧ’ §ⲉⲡⲉⲓ ⲇⲉ ⲁⲩϫⲟⲟⲥ ϫⲉ ⲛ̅ⲧⲟⲕ’ ⲡⲁ’‐\nⲥⲟⲉⲓϣ’ ⲁⲩⲱ ⲡⲁϣⲃⲣ̅ⲙ̅ⲙⲏⲉ’ ϩⲉ’ⲧϩⲱⲧⲕ̅ ⲛ̅ⲕⲙ̅ⲙⲉ\nϫⲉ ⲛ̅ⲧⲕ ⲛⲓⲙ’ ⲁⲩⲱ ⲁⲕϣⲟⲟⲡ’ ⲛ̅ⲁϣ ⲛ̅ϩⲉ ⲏ ⲉⲕⲛⲁϣⲱ‐\nⲡⲉ ⲛ̅ⲛⲁϣ ⲛ̅ⲣⲏⲧⲉ ⲉⲡⲉⲓⲇⲏ ⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲕ’ ϫⲉ ⲡⲁⲥⲟⲛ\nⲡⲉⲧⲉⲥϣⲉ ⲁⲛ ⲡⲉ’ ⲉⲧⲣⲉⲕ’ϣⲱⲡⲉ ⲉⲕⲟ ⲛ̅ⲧⲁⲥⲟⲟⲩⲛ’ⲉ’\nⲉⲣⲟⲕ’ ⲙ̅ⲙⲓⲛ’ ⲙ̅ⲙⲟⲕ’ϩ ⲁⲩⲱ ϯⲥⲟⲟⲩⲛⲉ ϫⲉ ⲁⲕⲙ̅ⲙⲉ’ϩ\nⲁⲕⲟⲩ ⲱ ⲅⲁⲣ ⲉⲕⲙ̅ⲙⲉ ⲙ̅ⲙⲟⲉⲓ ϫⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡⲥⲟⲟⲩⲛ ⲛ̅ⲧⲙⲏⲉ\nϩⲱⲥ ⲉⲕⲙⲟⲟϣⲉ ϭⲉ ⲛⲙ̅ⲙⲁⲉⲓ ⲕⲁⲛ ⲛ̅ⲧⲁⲕ’ ⲟⲩⲁⲧ’ⲥⲟⲟⲩⲛ’\nⲁⲕⲟⲩⲱ ⲉⲕⲥⲟⲟⲩⲛ’ⲉ ⲁⲩⲱ ⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲕ’ ϫⲉ ⲡⲣⲉϥ’‐\nⲥⲟⲟⲩⲛ’ⲉ ⲉⲣⲟϥ’ ⲙ̅ⲙⲓⲛ’ ⲙ̅ⲙⲟϥ’ ϫⲉ ⲡⲉⲧⲉ ⲙ̅ⲡϥ’ⲥⲟⲩ‐\nⲱⲛϥ ⲅⲁⲣ’ ⲙ̅ⲡϥⲥⲟⲩⲱⲛ ⲗⲁⲁⲩ’ ⲡⲉⲛⲧⲁϥⲥⲟⲩⲱⲛϥ ⲇⲉ ⲟⲩ‐\nⲁⲁⲧϥ’ ⲁϥⲟⲩⲱ ⲟⲛ’ ⲉϥϫⲓ ⲥⲟⲟⲩⲛⲉ’ ⲁⲡⲃⲁⲑⲟⲥ ⲙ̅ⲡⲧⲏⲣϥ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ϭⲉ ⲛ̅ⲧⲟⲕ’ ⲡⲁⲥⲟⲛ̅ ⲑⲱⲙⲁⲥ’ ⲁⲕⲛⲁⲩ ⲁⲡⲡⲉⲑⲏⲡ’\nⲉⲃⲟⲗ ϩⲛ̅ ⲣⲣⲱⲙⲉ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲉⲧⲟⲩϫⲓ ϫⲣⲟⲡ’ ⲉⲣⲟϥ’ ⲉⲛ’‐\nⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ’ §ⲡⲁϫⲉϥ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ’ ⲙ̅ⲡϫⲟⲉⲓⲥ ϫⲉ"
+        },
+        {
+          "title": "The Hidden and the Visible",
+          "subtitle": "The Hidden and the Visible",
+          "heading": "The Hidden and the Visible (138, 21-139, 31)",
+          "rangeLabel": "138, 21-139, 31",
+          "range": {
+            "start": {
+              "page": 138,
+              "line": 21
+            },
+            "end": {
+              "page": 139,
+              "line": 31
+            }
+          },
+          "english": "Thomas said to the master, “That is why I beg you to tell me what I ask before\nyour ascension. When I hear from you about what is hidden, I can speak of it.\nAnd it is clear to me that the truth is difficult to accomplish before people.”\nThe Savior answered and said, “If what is visible to you is obscure to you,\nhow can you comprehend what is invisible? If deeds of truth visible in the world\nare difficult for you to accomplish, how will you accomplish things of the\nexalted majesty and fullness, which are invisible? How will you be called\nworkers? You are beginners and have not attained the greatness of perfection.”\nThomas answered and said to the Savior, “Tell us about these things that you\nsay are invisible and hidden from us.”\nThe Savior said, “[All] bodies [have come into being in the same irrational\nway] that animals are produced, and so they are visible, as [creatures lusting\nafter creatures]. Those that are above, however, [do not exist like] those that are\nvisible. Rather, [they] live from their own root, and their crops nourish\nthem. But the visible bodies feed on creatures that are like them, and so the\nbodies are subject to change. Whatever is subject to change will perish and be\nlost, and henceforth has no hope of life, because this body is an animal body.\nJust as an animal body perishes, these modeled forms also will perish. Are they\nnot from sexual intercourse like that of the animals? If the body too is from\nintercourse, how will it give birth to anything different from them? So, then, you\nare children until you become perfect.”\nThomas answered, “This is why I say to you, master, those who speak about\nwhat is invisible and difficult to explain are like people who shoot their arrows at\na target during the night. Of course, they shoot their arrows as any people do,\nsince they are shooting at the target, but it is not visible. When light comes,\nhowever, and banishes darkness, then the accomplishment of each person will be\nclear. And you, our light, bring enlightenment, master.”\nJesus said, “It is through light that light exists.”\nThomas spoke and said, “Master, why does this visible light that shines for\npeople rise and set?”\nThe Savior said, “Blessed Thomas, surely this visible light has shone for you\nnot to keep you here, but that you might leave. And when all the chosen ones lay\ndown their animal nature, this light will withdraw up to its being, and its being\nwill welcome it to itself, because the light is a good helper.”",
+          "coptic": "ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ’ §ⲡⲁϫⲉϥ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ’ ⲙ̅ⲡϫⲟⲉⲓⲥ ϫⲉ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ϭⲉ ϯⲥⲟⲡⲥ̅ ⲙ̅ⲙⲟⲕ ϫⲉⲕⲁⲁⲥ ⲉⲕⲛⲁϫⲱ ⲛⲁⲓ̈\n[ⲛ̅ⲛ]ⲉϯϣⲓⲛⲉ ⲙ̅ⲙⲟⲕ’ ⲉⲣⲟⲟⲩ’ ϩⲁ ⲑⲏ ⲛ̅ⲧⲉⲕ’ⲁⲛⲁⲗⲏⲙ̅ⲯⲓⲥ\n[ⲁⲩ]ⲱ ϩⲟⲧⲁⲛ’ ⲉⲉⲓϣⲁⲛ’ⲥⲱⲧⲙ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲕ’ ϩⲁ ⲡⲣⲁ\nⲛⲛⲉⲑⲏⲡ’ ⲧⲟⲧⲉ ⲟⲩⲛ̅ ϭⲟⲙ ⲙ̅ⲙⲟⲉⲓ ⲉϣⲁϫⲉ ⲉⲧⲃⲏ’‐\nⲧ[ⲟ]ⲩ ⲁⲩⲱ ⲥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲛⲁⲉⲓ ϫⲉ ⲧⲙⲏⲉ ⲥⲙⲟⲕϩ ⲁ’‐\nⲁ[ⲥ] ⲛ̅ⲛⲁϩⲣⲛ̅ ⲛ̅ⲣⲱⲙⲉ’ §ⲁϥ’ⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ⲉϥϫⲱ ⲙ̅‐\nⲙ[ⲟ]ⲥ ϫⲉ ⲉϣⲡⲉ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲛⲏⲧⲛ̅ ⲥⲉϩⲏⲡ’\nⲛ̅[ⲛ]ⲁϩⲣⲛ̅ ⲧⲏⲛⲉ ⲛ̅ⲁϣ ⲛ̅ϩⲉ’ ⲉⲩⲛ̅ ϭⲁⲙ’ ⲙ̅ⲙⲱⲧⲛ̅ ⲁⲥⲱⲧⲙ̅\nⲁⲛⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ’ ⲉϣⲡⲉ ⲛ̅ϩⲃⲏⲩⲉ ⲛ̅ⲧⲙⲏⲉ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲥⲉⲙⲟⲕϩ ⲁⲧⲣⲉⲧⲛ̅ⲁ’‐\nⲁⲩ ⲉⲉⲓⲉ ⲡⲱⲥ ϭⲉ ⲉⲧⲉⲧⲛⲁⲉⲓⲣⲉ ⲛ̅ⲛⲁ ⲡⲙⲉⲅⲉⲑⲟⲥ ⲉⲧ’‐\nϫⲟⲥⲉ’ ⲁⲩⲱ ⲛⲁ ⲡⲡⲗⲏⲣⲱⲙⲁ ⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲁⲛ’ ⲛ̅ⲛⲁϣ ϭⲉ ⲛ̅ϩⲉ ⲉⲩⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲱⲧⲛ̅ ϫⲉ ⲉⲣⲅⲁⲧⲏⲥ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲛ̅ⲧⲱⲧⲛ̅ ϩⲉⲛⲥⲃⲟⲩⲉⲓ ⲁⲩⲱ ⲙ̅ⲡⲁⲧⲉⲧⲛϫⲓ ⲙ̅‐\nⲡⲙⲉⲅⲉⲑⲟⲥ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲧⲉⲗⲉⲓⲟⲥ §ⲁϥⲟⲩⲱϣ̅ⲃ̅ ⲇⲉ ⲛ̅ϭⲓ\nⲑⲱⲙⲁⲥ ⲡⲉϫⲁϥ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ϫⲟⲥ ⲛⲁⲛ’ ⲉⲧⲃⲉ [ⲛ]ⲁⲉⲓ\nⲉⲧⲕϫⲱ ⲙ̅ⲙⲟⲟⲩ ϫⲉ ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ’ ⲁ[ⲗⲗⲁ ⲥⲉ]ϩⲏⲡ’\nⲉⲣⲟⲛ’ §ⲡⲁϫⲉ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲥⲱⲙⲁ [ⲛⲓ]ⲙ’ [.........]ⲛ̅\nⲛ̅ⲧⲃⲛⲟⲟⲩⲉ’ ⲉⲩϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ .[.......].. .[..]ⲉ\nⲉϥ[ⲟⲩ]ⲟⲛϩ ⲉ[ⲃ]ⲟⲗ ⲙ̅ⲡⲓⲣⲏⲧⲉ ⲛ̅ⲑⲉ ⲛ̅[...]ⲱ[.]ⲧ’ ⲉϥ’ⲥⲟⲩ‐\n[..........]ⲧⲉ[...] ⲡⲁⲓ̈ ϩⲱⲱϥ’ ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲛ’ⲧⲡⲉ\n[...............].ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲗⲗⲁ ⲉ[ⲩ]‐\nⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩⲛⲉ ⲟⲩⲁⲁⲧⲟⲩ ⲁⲩⲱ ⲛⲉⲩⲕⲁⲣ‐\nⲡⲟⲥ ⲡⲉⲧ’ⲥⲁⲁⲛϣ ⲙ̅ⲙⲟⲟⲩ ⲛⲉⲉⲓⲥⲱⲙⲁ ⲛ̅ⲧⲟⲟⲩ ⲉⲧⲟⲩ‐\nⲟⲛϩ ⲉⲃⲟⲗ’ ⲉⲩⲱⲙ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲥⲱⲛⲧ’ ⲉϯⲛⲉ ⲙ̅ⲙⲟⲟⲩ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ϭⲉ ⲛ̅ⲥⲱⲙⲁ ⲥⲉϣⲓⲃⲉ ⲡⲉⲧϣⲓⲃⲉ ⲁⲉ ϥⲛⲁⲧⲉ‐\nⲕⲟ ⲛ̅ϥⲱϫⲛ̅ ⲁⲩⲱ ⲙⲛ̅ⲧⲉϥ ϩⲉⲗⲡⲓⲥ ⲛ̅ⲱⲛϩ ϫⲙ̅ ⲡⲓⲛⲁⲩ\nϫⲉ ⲡⲓⲥⲱⲙⲁ ⲅⲁⲣ’ ⲟⲩⲧⲃ̅ⲛⲏ ⲡⲉ ⲛ̅ⲛ̅ⲑⲉ ϭⲉ ⲛ̅ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ’\nⲉϣⲁⲣⲉ ⲡⲟⲩⲥⲱⲙⲁ’ ⲧⲉⲕⲟ ⲧⲉⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛⲉⲉⲓⲡⲗⲁⲥⲙⲁ’\nⲥⲉⲛⲁⲧⲉⲕⲟ’ ⲙⲏⲧⲓ ⲟⲩⲉⲃⲟⲗ ⲁⲛ ⲡⲉ ϩⲛ̅ ⲧⲥⲩⲛⲟⲩⲥⲓⲁ ⲛ̅‐\nⲑⲉ ⲙ̅ⲡⲁ ⲛ̅ⲧⲃ̅ⲛⲟⲟⲩⲉ’ ⲉϣϫⲉ ⲟⲩⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ϩⲱ‐\nⲱϥ ⲡⲉ ⲛ̅ⲁϣ ⲛ̅ϩⲉ ⲉϥⲛⲁϫⲡⲟ ⲛ̅ⲟⲩⲇⲓⲁⲫⲟⲣⲁ ⲛ̅ϩⲟⲩⲟ\nⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ϭⲉ ⲛ̅ⲧⲱⲧⲛ̅ ϩⲉⲛⲕⲟⲩⲉⲓ ϣⲁⲛⲧⲉ‐\nⲧⲛ̅ⲣ̅ ⲧⲉⲗⲉⲓⲟⲥ’ §ⲁϥⲟⲩⲱϣⲃ̅ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ ϫⲉ ⲉ‐\nⲧⲃⲉ ⲡⲁⲓ̈ ϯϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲁⲕ’ ⲡϫⲟⲉⲓⲥ ϫⲉ ⲛⲉⲧϣⲁϫⲉ\nⲉⲧⲃⲉ ⲛⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲕ ⲁⲛ’ ⲁⲩⲱ ⲛⲉⲧ’ⲙⲟⲕϩ\nⲛ̅ⲃⲟⲗⲟⲩ ⲉⲩⲧⲛ̅ⲧⲱⲛ ⲁⲛⲉⲧϫⲱⲗⲕ’ ⲛ̅ⲛⲉⲩⲥⲁⲧⲉ ⲁⲩ‐\nⲙⲏⲓ̈ⲛⲉ ϩⲛ̅ ⲧⲟⲩϣⲏ ⲥⲉϫⲱⲗⲕ’ ⲙⲉⲛ ⲛ̅ⲛⲉⲩⲥⲟⲧⲉ ⲛ̅ⲑⲉ\nⲛ̅ϩⲟⲉⲓⲛⲉ ϫⲉ ⲉⲩϫⲱⲗⲕ’ ⲁⲡⲙⲁⲓ̈ⲛⲉ’ ⲁⲗⲗⲁ ϥⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ⲁⲛ’ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲣϣⲁⲛ ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϥ’‐\nϩⲱ’ ⲙ̅ⲡⲕⲁⲕⲉ ⲧⲟⲧⲉ ⲡϩⲱⲃ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲁⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ’ ⲛ̅ⲧⲟⲕ’ ⲇⲉ ⲡⲛ̅ⲟⲩⲟⲉⲓⲛ’ ⲉⲕⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲡϫⲟⲉⲓⲥ’\n§ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲓ̅ⲥ̅ ϫⲉ ⲡⲟⲩⲟⲉⲓⲛ’ ⲉϥϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲟⲩ[ⲟ]‐\nⲉⲓ’ⲛ §ⲡⲁϫ’ⲉϥ ⲛ̅ϭⲓ ⲑⲱⲙⲁ’ⲥ ⲉϥϫⲱ ⲙ̅ⲙⲟ’ⲥ ϫⲉ ⲡϫⲟ[ⲉⲓⲥ]\nⲉⲧⲃⲉ ⲟⲩ ⲡⲓⲟⲩⲟⲉⲓ’ⲛ ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲉⲧⲣ̅ ⲟⲩⲟⲉⲓⲛ\nⲉⲧⲃⲉ ⲛ̅ⲣⲱⲙ’ⲉ ϣⲁϥⲡⲣ̅ⲣ̅ⲓⲉ ⲁⲩⲱ ϣⲁϥϩⲱⲧ’ⲡ §ⲡⲁϫ’ⲉϥ\nⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲱ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲑⲱⲙⲁⲥ ⲡⲓⲟⲩⲟⲉⲓⲛ ⲅ[ⲁ]ⲣ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁϥⲣ̅ ⲟⲩⲟⲉⲓⲛⲉ ⲉⲧⲃⲉ ⲧⲏⲛⲉ ϫⲉⲕⲁ[ⲁⲥ]\nⲁⲛ ⲉⲧⲉⲧⲛⲁϭⲱ ⲙ̅ⲡⲓⲙ’ⲁ ⲁⲗⲗⲁ ϫⲉ ⲉⲧⲉⲧⲛⲁⲉⲓ ⲉⲃ[ⲟⲗ]\nⲛ̅ϩⲏ’ⲧϥ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲣⲉϣⲁ ⲛ̅ⲥⲱⲧ’ⲡ ⲧⲏⲣⲟⲩ ⲕⲱ [ⲉ]ϩ‐\nⲣⲁⲓ̈ ⲛ̅ϯⲙ̅ⲛ̅ⲧⲧⲃ̅ⲛ’ⲏ ⲧⲟⲧⲉ ⲡⲓⲟⲩⲟⲉⲓⲛ ϥⲛⲁⲣ̅ⲁⲛⲁ‐\nⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲧ’ⲉϥⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲧ’ⲉϥⲟⲩⲥⲓⲁ ⲛⲁϣⲟ’ⲡϥ\nⲉⲣⲟⲥ ϫⲉ ⲟⲩϩⲩⲡⲏⲣⲉⲧⲏⲥ ⲉⲛⲁⲛⲟ’ⲩϥ ⲡⲉ §ⲧⲟⲧⲉ"
+        },
+        {
+          "title": "Wisdom and Foolishness",
+          "subtitle": "Wisdom and Foolishness",
+          "heading": "Wisdom and Foolishness (139, 31-141, 2)",
+          "rangeLabel": "139, 31-141, 2",
+          "range": {
+            "start": {
+              "page": 139,
+              "line": 31
+            },
+            "end": {
+              "page": 141,
+              "line": 2
+            }
+          },
+          "english": "The Savior continued and said, “Oh, unsearchable love of light! Oh, bitterness of\nthe fire! You blaze in the bodies of people and in the marrow of their bones,\nblazing in them night and day, burning their limbs and [making] their minds\ndrunk and their souls deranged. [You dominate] males and females day and\nnight; you move [and arouse] them secretly and visibly. When the males are\n[aroused, they are attracted to the] females and the females to the males. That is\nwhy it is said that everyone who seeks truth from true wisdom will\nfashion wings to fly, fleeing from the passion that burns human spirits. And one\nwill fashion wings to flee from every visible spirit.”\nThomas answered and said, “Master, this is precisely what I ask you, since I\nunderstand that you are beneficial to us through what you say.”\nAgain the Savior answered and said, “This is why we must speak to you,\nbecause this is the teaching for the perfect. If you wish to become perfect, keep\nthese sayings. If not, the name for you is ‘ignorant,’ since an intelligent person\ncannot associate with a fool. The intelligent person is perfect in all wisdom, but\nto the fool good and evil are the same. The wise person will be nourished by\ntruth, and will be like a tree growing by the stream of water. Some people have\nwings but rush toward visible things that are far from truth. The fire that guides\nthem gives them an illusion of truth. It will shine on them with a perishable\nbeauty, and it will imprison them in dark delight and capture them in sweetsmelling pleasure. And it will make them blind with insatiable desire, inflame\ntheir souls, and be like a stake that is jammed into their heart and can never be\nremoved. Like a bit in the mouth, it leads them according to its own wish.\n“It has bound them with its chains, and tied all their limbs with the bitterness\nof the bondage of desire for those visible things that perish and change and\nfluctuate impulsively. They have always been drawn downward. When they are\nslain, they are drawn to all the animals of corruption.”\nThomas answered and said, “It is clear and has been said that [many are]…\nthose who do not know…soul.”\n[The Savior] answered and said, “[Blessed] is the wise person who has\n[sought truth, and] when it has been found, has rested upon it forever, and\nhas not been afraid of those who wish to trouble him.”",
+          "coptic": "ⲉⲣⲟⲥ ϫⲉ ⲟⲩϩⲩⲡⲏⲣⲉⲧⲏⲥ ⲉⲛⲁⲛⲟ’ⲩϥ ⲡⲉ §ⲧⲟⲧⲉ\nⲁϥⲟⲩⲱϩ ⲉⲧⲟⲟ’ⲧϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫ’ⲉϥ ϫⲉ ⲱ͂ ⲧⲉⲧⲉ\nⲙⲁⲩϣⲛ̅ ⲣⲁⲧⲥ̅ ⲧⲁⲅⲁⲡⲏ ⲙ̅ⲡⲟⲩⲟⲉⲓ’ⲛ ⲱ͂ ⲡⲥⲓϣⲉ ⲙ̅‐\nⲡⲕⲱϩ’ⲧ ⲉⲧϫⲉⲣⲟ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ⲥⲱⲙⲁ ⲛ̅ⲛ̅ⲣⲱⲙⲉ ⲙⲛ̅\nⲛⲉⲩⲁⲧⲕⲁ’ⲥ ⲉϥϫⲉⲣⲟ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ⲛ̅ⲧⲟⲩϣⲏ ⲙⲛ̅\nⲫ[ⲟⲟⲩ] ⲁⲩⲱ ⲉⲧⲣⲱⲭϩ ⲛ̅ⲙ̅ⲙⲉⲗⲟⲥ ⲛ̅ⲛ̅ⲣⲱⲙ’ⲉ ⲁⲩⲱ\nⲉ[ⲧⲧⲣⲉ ⲛ]ⲉⲩϩⲏⲧ ϯϩ’ⲉ ⲁⲩⲱ ⲛⲉⲩⲯⲩⲭⲏ ⲉⲥⲧⲣⲟⲩⲡⲱϣⲥ̅\nⲁ[........] ⲉⲣ[ⲟ]ⲟⲩ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ϩⲟⲩ’ⲧ ⲙⲛ̅ ⲛ̅ⲥϩⲓⲟⲙⲉ\n[.].ⲉϩ.[....ⲧⲟ]ⲩϣⲏ ⲁⲩⲱ ⲉⲧⲕⲓ’ⲙ ⲉⲣⲟⲟⲩ [ϩⲛ̅] ⲟⲩ‐\n[..]’ⲙ ⲉϥ[...ϩ]ⲛ̅ ⲟⲩϩⲱ’ⲡ ⲙⲛ̅ ⲟⲩⲱⲛϩ ⲉⲃⲟ[ⲗ ⲥⲉ]‐\n[ⲕⲓ]ⲙ ⲅⲁ’ⲣ ⲛ̅ϭⲓ ⲛ̅ϩⲟⲟⲩ’ⲧ ⲥ[...ⲁϫⲛ̅ ⲛ̅ⲥϩⲓⲟ]‐\nⲙ’ⲉ ⲁⲩⲱ ⲛ̅ⲥϩⲓⲟⲙ’ⲉ ’ⲁϫⲛ̅ ⲛ̅ϩⲟⲟⲩⲧ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲥⲉ]\nϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲟⲩⲟⲛ ⲛⲓ’ⲙ ⲉⲧϣⲓⲛⲉ ⲛ̅ⲥⲁ ⲧⲙⲏⲉ ⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲥⲁⲃⲏ ⲙ̅ⲙⲏⲉ ϥⲛⲁⲥⲙⲓⲛⲉ ⲛ’ⲁϥ ⲛ̅ϩⲉⲛⲧⲛ̅ϩ ⲁⲧⲣ’ⲉϥ‐\nϩⲱ’ⲗ ⲉϥⲡⲏ’ⲧ ϩⲏⲧⲥ̅ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲉⲧⲣⲱⲕ ⲛⲙ̅ⲡⲛ̅ⲁ̅\nⲛ̅ⲛ̅ⲣⲱⲙ’ⲉ ⲁⲩⲱ ϥⲛⲁⲥⲙⲓⲛⲉ ⲛ’ⲁϥ ⲛ̅ϩⲉⲛⲧⲛϩ ⲉϥⲡⲱ’ⲧ\nϩⲏ’ⲧϥ ⲙ̅ⲡⲛ̅ⲁ̅ ⲛⲓ’ⲙ ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟ’ⲗ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ\nⲑⲱⲙⲁ’ⲥ ⲉϥϫⲱ ⲙ̅ⲙⲟ’ⲥ ϫⲉ ⲡϫⲟⲉⲓ’ⲥ ⲡⲁⲓ̈ ⲣⲱ ⲡⲉϯϩϣⲓ‐\nⲛⲉ ⲙ̅ⲙⲟ’ⲕ ⲉⲧⲃⲏ’ⲧϥ ϩⲱⲥ ⲉⲡⲓⲇⲏ ⲁⲉⲓⲙ̅ⲙⲉ ϫⲉ ⲛ̅ⲧⲟ’ⲕ\nⲡⲉⲧⲣ̅ ⲛⲟϥⲣⲉ ⲛⲁ’ⲛ ⲕⲁⲧⲁ ⲑⲉ ⲉⲧⲕϫⲱ ⲙ̅ⲙⲟⲥ §ⲡⲁⲗⲓⲛ ’ⲁϥ‐\nⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲉϫⲁϥ ϫⲉ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲟⲩⲁⲛⲁⲅⲕⲏ\nⲉⲣⲟⲛ ⲧⲉ ⲁϫⲟⲟⲥ ⲛⲏⲧⲛ̅ ϫⲉ ⲧⲁⲉⲓ ⲅⲁⲣ ⲧⲉ ⲧⲉⲥⲃⲱ ⲛ̅ⲛ̅ⲧⲉ‐\nⲗⲉⲓⲟⲥ ⲉϣⲡⲉ ⲧⲉⲧⲛ̅ⲟⲩⲱϣⲉ ϭ’ⲉ ⲁⲣ̅ ⲧⲉⲗⲉⲓⲟ’ⲥ ⲧⲉⲧⲛⲁ‐\nⲁⲣⲉϩ ⲁⲛⲁⲉ’ⲓ ⲉϣⲱⲡⲉ ⲙ̅ⲙⲟ’ⲛ ⲡⲉⲧⲛ̅ⲣⲁⲛ ⲡⲉ ⲁⲧⲥⲃ’ⲱ\nⲉⲡⲓⲇⲏ ⲙⲛ̅ ϣϭⲟ’ⲙ ⲛ̅ⲧⲉ ⲟⲩⲣⲙⲛ̅ϩⲏ’ⲧ ⲑⲩⲱϩ ⲙⲛ̅ ⲟ’ⲩ‐\nⲥⲟϭ ⲡⲣⲙⲛ̅ϩⲏ’ⲧ ⲅⲁ’ⲣ ϥϫⲏ’ⲕ ⲉⲃⲟⲗ ⲛ̅ⲥⲱⲫⲓⲁ ⲛⲓ’ⲙ\nⲡⲥⲟϭ ⲛ̅ⲧ’ⲟϥ ⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲡⲡⲉⲑⲟⲟⲩ ⲡⲓϣⲱϣ\nⲛ̅ⲟⲩⲱ’ⲧ ⲛ’ⲁϥ ⲡⲉ ϫⲉ ⲡⲥⲟⲫⲟⲥ ⲅⲁ’ⲣ ϥⲛⲁⲥⲁⲁⲛϣ ϩⲛ̅\nⲧⲙⲏⲉ ⲁⲩⲱ ϥⲛⲁϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡϣⲏⲛ ⲉⲧⲣⲏ’ⲧ ϩⲓ‐\nϫⲛ̅ ⲡⲙⲟⲩ ⲛ̅ⲥⲱⲣ’ⲙ ⲉⲡⲓⲇⲏ ⲟⲩⲛ ϩⲟⲉⲓⲛⲉ ⲉⲩⲛ̅ⲧⲛ̅ϩ̅\nⲙ̅ⲙⲟⲟⲩ ⲉⲩⲡⲱ’ⲧ ϩⲓϫⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲛⲁⲉⲓ ⲉ‐\nⲧⲟⲩⲏⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲏ’ⲉ ⲡⲉⲧϫⲓ ⲙⲟⲉⲓ’ⲧ ⲅⲁⲣ ϩⲏⲧⲟ’ⲩ\nⲉ[ⲧ]ⲉ ⲡⲕⲱϩⲧ ⲡ’ⲉ ϥⲛⲁϯ ⲛⲁⲩ ⲛ̅ⲟⲩⲫⲁⲛⲧⲁⲥⲓⲁ ⲙ̅ⲙⲏⲉ\n[ⲁⲩ]ⲱ ϥⲛⲁⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲉⲣⲟⲟⲩ ϩⲛ̅ ⲟⲩⲥⲁⲉⲓⲉ ⲉϥⲛⲁⲧⲉ‐\n[ⲕⲟ] ⲁⲩⲱ ϥⲛⲁⲣ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲓⲍⲉ ⲙ̅ⲙⲟⲟ’ⲩ ϩⲛ̅ ⲟⲩϩⲗ̅‐\nϭⲉ ⲛ̅ⲕⲁⲕ’ⲉ ⲛ̅ϥⲧⲟⲣⲡⲟⲩ ϩⲛ̅ ⲟⲩϩⲏⲇⲟⲛⲏ ⲉⲥϯ ⲥⲧⲟⲉⲓ\nⲁⲩⲱ ϥⲛⲁⲁⲩ ⲛ̅ⲃⲗ̅ⲗⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲛ̅ⲁⲧⲥⲉⲓ\nⲁⲩⲱ ϥⲛⲁϫⲁϥϫϥ̅ ⲛ̅ⲛⲉⲩⲯⲩⲭⲟⲟⲩ’ⲉ ⲁⲩⲱ ⲛ̅ϥϣⲱ‐\n[ⲡⲉ] ⲛⲁⲩ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩϣⲙⲟⲩ’ⲉ ⲉⲥⲧⲁⲕⲥ̅ ϩⲙ̅ ⲡⲟⲩϩⲏ’ⲧ\nⲉ[ⲙ]ⲛ̅ ϣϭⲟ’ⲙ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲛⲁϩⲥ̅ ⲉⲛⲉϩ ⲁⲩⲱ ⲛ̅ⲑⲉ ⲛ̅‐\nⲟⲩⲭⲁⲗⲓⲛⲟⲥ ϩⲛ̅ ⲟⲩⲧⲁⲡⲣⲟ ⲉϥⲥⲱ’ⲕ ⲙ̅ⲙⲟⲟⲩ ⲁⲡ’ⲉϥ‐\nⲟⲩⲱϣ’ⲉ ⲙ̅ⲙⲓ’ⲛ ⲙ̅ⲙ’ⲟϥ §ⲁⲩⲱ ⲁϥⲙⲟⲣⲟⲩ ϩⲛ̅ ⲛ’ⲉϥ‐\nⲁⲗⲩⲥⲓ’ⲥ ⲁⲩⲱ ⲛⲉⲩⲙⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁϥⲥⲟⲛϩⲟⲩ ⲛ̅‐\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲥⲓϣ’ⲉ ⲛ̅ⲧⲙⲣ̅ⲣⲉ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲉⲓ’ⲁ ⲛ̅ⲛⲁⲉⲓ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲉⲧⲛⲁⲧⲉⲕⲟ ⲁⲩⲱ ⲉⲧⲛⲁϣⲓⲃⲉ\nⲁⲩⲱ ⲉⲧⲛⲁⲡⲱⲛⲉ ⲕⲁⲧⲁ ⲡⲥⲱ’ⲕ ⲛ̅ⲧⲁⲩⲥⲟⲕⲟ’ⲩ\nⲛ̅ⲧⲡⲉ ⲁⲡⲓⲧⲛ̅ ⲛ̅ⲟⲩⲟⲉⲓϣ ⲛⲓ’ⲙ ⲉⲩϩⲱⲧⲃ̅ ⲙ̅ⲙⲟⲟⲩ\nⲉⲩⲥⲱⲕ ⲙ̅ⲙⲟⲟⲩ ϩⲓϫⲛ̅ ⲛ̅ⲧⲃ̅ⲛⲟⲟⲩ’ⲉ ⲧⲏⲣⲟⲩ ⲙ̅ⲡ‐\nϫⲱϩⲙ̅ §’ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ ⲡⲁϫ[ⲉϥ ϫⲉ] ϥ’‐\nⲟⲩⲟⲛϩ ⲉⲃⲟ’ⲗ ⲁⲩⲱ ⲁⲩϫⲟⲟ[ⲥ] ϫⲉ ϩ[ⲁϩ]’ [ⲛⲉⲧ..]’\nⲉ[..] ⲛ̅ⲛⲉⲧⲉ ⲛ̅ⲥⲉⲥⲟⲟⲩⲛ ⲁ[ⲛ.....]..[..]\n[...]ⲯⲩⲭⲏ §ⲁϥⲟⲩⲱϣⲃ̅ ⲇⲉ ⲛ̅ϭ[ⲓ ⲡⲥⲱ̅ⲣ̅] ⲉϥϫⲱ\n[ⲙ̅ⲙⲟ]ⲥ [ϫⲉ ⲛⲁⲉ]ⲓⲁ’ⲧ[ϥ] ⲙ̅ⲡⲥⲁⲃⲉ ⲛ̅ⲣⲱⲙⲉ ⲛ̅ⲧ’ⲁϥϣ[ⲓ]‐\n[ⲛⲉ ⲛ̅ⲥⲁ ⲧⲙⲏⲉ ⲁⲩⲱ ⲛ̅]ⲧⲁⲣⲉϥϭⲛ̅ⲧⲥ̅ ⲁϥⲙ̅ⲧⲟ’ⲛ ⲙ̅‐\nⲙ’ⲟϥ ⲉϩⲣⲧⲁⲓ̈ ⲉϫⲱⲥ ϣⲁ ⲉⲛⲉϩ ⲁⲩⲱ ⲙ̅ⲡϥⲣ̅ ϩⲟⲧⲉ ϩⲏⲧⲟⲩ\nⲛ̅ⲛⲉⲧⲟⲩⲱϣⲉ ⲁϣⲧⲣ̅ⲧⲱ’ⲣϥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ"
+        },
+        {
+          "title": "Our Own and the Others",
+          "subtitle": "Our Own and the Others",
+          "heading": "Our Own and the Others (141, 2-142, 26)",
+          "rangeLabel": "141, 2-142, 26",
+          "range": {
+            "start": {
+              "page": 141,
+              "line": 2
+            },
+            "end": {
+              "page": 142,
+              "line": 26
+            }
+          },
+          "english": "Thomas answered and said, “Master, is it beneficial for us to rest among our\nown?”\nThe Savior said, “Yes, it is useful, and it is good for you, since the things\nvisible among people will pass away. For the vessel of their flesh will pass away,\nand when it disintegrates, it will come to be among visible things, among things\nthat can be seen. The visible fire gives them pain, because of the love of faith\nthey once had. They will be gathered back to the visible realm. Moreover,\namong the invisible things, those who can see will perish, without the first love,\nin their concern for this life and the burning of the fire. There is only a little time\nbefore what is visible will pass away. Then shapeless phantoms will come and\ndwell forever in the midst of the tombs on corpses, in pain and destruction of\nsoul.”\nThomas answered and said, “What can we say in the face of these things?\nWhat shall we say to those who are blind? What teaching shall we give those\nmiserable mortals who say, ‘We have come to [do] good and not to curse,’ and\nwill [say] further, ‘If we had not been born in the flesh, we would not have\nknown iniquity’?”\nThe Savior said, “To tell the truth, do not think of these as human beings, but\nregard them [as] animals. As animals devour each other, so people like this\ndevour each other. They are deprived of the kingdom, since they love the\ndelight of fire and are slaves of death and rush to deeds of corruption. They\nfulfill the desire of their parents. They will be cast down into the abyss and be\nafflicted by the compulsion of the bitterness of their evil nature. They will be\nwhipped to drive them down to a place they do not know, and they will leave\ntheir limbs behind, not with fortitude but with despair. And they rejoice in [the\nfire, they love] madness and derangement, because they are [fools]. They pursue\nderangement, not realizing their madness but thinking they are wise. They…the\nlove of their body…, their hearts turning to themselves and their thoughts\nbeing on their affairs. But fire will consume them.”\nThomas answered and said, “Master, what can one cast down to them do? I\nam very concerned about them, for many oppose them.”\nThe Savior answered and said, “What is evident to you?”\nJudas, called Thomas, said, “Master, you should speak and I should listen.”\nThe Savior answered, “Listen to what I tell you and believe the truth. What\nsows and what is sown will pass away in their fire, in fire and water, and will be\nhidden in tombs of darkness. And after a long time the fruit of evil trees will\nappear and be punished and slain in the mouths of animals and people through\nthe agency of the rains, the winds, the air, and the light shining above.”\nThomas answered, “You certainly have convinced us, master. We realize in\nour hearts it is clearly so, and your word is not meager. But these sayings that\nyou tell us are laughable and ridiculous to the world, since they are not\nunderstood. How can we go forth and preach them when we are [not] respected\nin the world?”",
+          "coptic": "ⲛ̅ⲛⲉⲧⲟⲩⲱϣⲉ ⲁϣⲧⲣ̅ⲧⲱ’ⲣϥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ\nⲡⲁϫ’ⲉϥ ϫⲉ ⲥⲣ̅ ⲛⲟϥⲣⲉ ⲛⲁ’ⲛ ⲡϫⲟⲉⲓ’ⲥ ⲁⲙ̅ⲧⲟⲛ ⲙ̅ⲙⲟ’ⲛ\nϩⲛ̅ ⲛⲉⲧⲉ ⲛⲱⲛ ⲛ’ⲉ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ϫⲉ ⲡⲉⲧⲣ̅ ϣⲁⲩ\nⲅⲁⲣ ⲡ’ⲉ ⲁⲩⲱ ⲛⲁⲛⲟⲩⲥ ⲛⲏⲧⲛ̅ ⲉⲡⲓⲇⲏ ⲛⲉⲧⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ϩⲛ̅ ⲣ̅ⲣⲱⲙ’ⲉ ⲥⲉⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ⲡⲥⲕⲉⲩⲟⲥ ⲅⲁⲣ ⲛ̅‐\nⲧⲟⲩⲥⲁⲣⲝ ⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ⲁⲩⲱ ⲉϥϣⲁⲛϫⲱⲣⲉ ⲉⲃⲟⲗ\nϥⲛⲁϣⲱⲡⲉ ϩⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉⲧⲟⲩⲛⲁⲩ ⲉ‐\nⲣⲟⲟⲩ ⲁⲩⲱ ⲧⲟⲧⲉ ⲡⲕⲱϩ’ⲧ ⲉⲧⲟⲩⲛⲁⲩ ⲉⲣ’ⲟϥ ⲉϥϯ ⲧⲕⲁⲥ ⲛⲁⲩ\nⲉⲧⲃⲉ ⲧⲁⲅⲁⲡⲏ ⲛ̅ⲧⲡⲓⲥⲧⲓ’ⲥ ⲉⲧⲉ ⲟⲩⲛ̅ⲧⲁⲩ’ⲥ ϩⲁ ⲑⲏ ⲙ̅ⲡⲓ‐\nⲟⲩⲟⲉⲓϣ ⲡⲁⲗⲓ’ⲛ ⲥⲉⲛⲁⲥⲟⲟⲩϩⲟⲩ ⲁⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲛⲉⲧⲛⲁⲩ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁ’ⲛ ⲁϫⲛ̅\nⲧϣⲟⲣ’ⲡ ⲛ̅ⲁⲅⲁⲡⲏ ⲥⲉⲛⲁⲧⲁⲕⲟ ϩⲙ̅ ⲡⲣⲟⲟⲩϣ ⲙ̅ⲡⲃⲓⲟ’ⲥ\nⲙⲛ̅ ⲡⲣⲱⲭ’ϩ ⲙ̅⟦ⲛ̅⟧ⲡⲕⲱϩ’ⲧ ⲛ̅ⲟⲩⲕⲟⲩⲓ̈ ⲛ̅ⲟⲩⲟⲉⲓϣ ϣⲁⲛ‐\nⲧⲉϥⲃⲱⲗ ⲉⲃⲟ’ⲗ ⲛ̅ϭⲓ ⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲥⲉⲛ’ⲁ‐\nϣⲱⲡ’ⲉ ⲛ̅ϭⲓ ϩⲉ’ⲛⲉⲓⲇⲱⲗⲟⲛ ⲉⲙⲛ̅ⲧⲉⲩ ⲙⲟⲣⲫⲏ ⲁⲩⲱ\nⲛ̅ⲧⲙⲏⲧⲉ ⲛ̅ⲛ̅ⲧⲁⲫⲟⲥ ⲛ̅ⲥⲉϣⲱⲡⲉ ϩⲓϫⲛ̅ ⲛ̅ⲕⲱⲥ ⲛ̅ϣⲁ\nⲉⲛⲉϩ ϩⲛ̅ ⲟⲩϯ ⲧⲕⲁⲥ ⲙⲛ̅ ⲟⲩⲧⲁⲕⲟ ⲙ̅ⲯⲩⲭⲏ §’ⲁϥⲟⲩⲱ‐\nϣⲃ̅ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ ⲡⲁϫ’ⲉϥ ϫⲉ ⲟⲩ ⲡⲉⲧⲉ ⲟⲩⲛ̅ⲧⲁ’ⲛϥ\nⲁϫⲟ’ⲟϥ ⲛ̅ⲛⲁϩⲣⲛ̅ ⲛⲁⲉⲓ ⲏ ⲟⲩ ⲡⲉⲧⲛ̅ⲛⲁϫⲟ’ⲟϥ ⲛ̅ⲃⲗ̅ⲗⲉ‐\nⲉⲩⲉ ⲛ̅ⲣⲱⲙⲉ ⲏ ⲁϣ ⲛ̅ⲥⲃⲱ ⲧⲉⲧⲛ̅ⲛⲁϫⲟⲟ’ⲥ ⲛ̅ⲛⲓⲧ[ⲁⲗ]ⲁⲓ‐\nⲡⲱⲣⲟⲥ ⲛ̅ⲑⲛⲏⲧⲟⲥ ⲛⲉⲧϫⲱ ⲙ̅ⲙⲟ’ⲥ ϫⲉ ⲁⲛⲉⲓ ⲁ[ⲣ̅ ⲡⲉ]‐\nⲧⲛⲁⲛⲟ’ⲩϥ ⲁⲩⲱ ⲁⲩⲥⲁϩⲟⲩ ⲁ’ⲛ ⲡⲁⲗⲓⲛ ⲇⲉ ⲥⲉⲛⲁϫ[ⲟⲟⲥ]\nϫⲉ ⲉⲛⲉ ⲙ̅ⲡⲟⲩϫⲡⲟⲛ ϩⲛ̅ ⲧⲥⲁⲣ’ⲝ ⲛⲉⲛⲛⲁⲥⲟⲩⲱⲛ [ϣ]ⲁϥ‐\nⲧⲉ ⲁⲛ ⲡⲉ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ϫⲉ ϩⲛ̅ ⲟⲩⲙⲏⲉ ⲛ[ⲁⲉⲓ] ⲉ‐\nⲧⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲣ̅ⲕⲁⲁⲩ ⲛⲁ’ⲕ ⲛ̅ⲣⲱⲙⲉ ⲁⲗⲗⲁ ⲟⲡⲟⲩ ϩ[ⲱⲥ ⲧⲃ̅]‐\nⲛⲟⲟⲩ’ⲉ ⲛ̅ⲑⲉ ⲅⲁⲣ ⲛ̅ⲛ̅ⲧⲃ̅ⲛⲟⲟⲩⲉ ⲉⲩⲟⲩⲱ’ⲙ ⲛ̅ⲛ[ⲉⲩⲉ]‐\nⲣⲏ’ⲩ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲱⲟⲩ ⲛ̅ⲛⲉⲉⲓⲣⲱⲙⲉ ⲛ̅ⲧⲉⲉⲓⲙⲓⲛ[ⲉ ⲥⲉ]‐\nⲟⲩⲱ’ⲙ ⲛ̅ⲛⲉⲩⲉⲣⲏⲩ ⲁⲗⲗⲁ ⲥⲉϩⲟⲩⲣⲟⲉⲓ’ⲧ ⲛ̅ⲧⲙⲛ̅ⲧⲣ̅[ⲣⲟ]\nⲉⲡⲓⲇⲏ ⲥⲉⲙⲁⲉⲓⲉ ⲛ̅ⲧϩⲗ̅ϭⲉ ⲙ̅ⲡⲕⲱϩ’ⲧ ⲁⲩⲱ ⲥⲉⲟ ⲛ̅‐\nϩⲙϩ̅ⲁ̅ⲗ̅ ⲙ̅ⲡⲙⲟⲩ ⲁⲩⲱ ⲥⲉⲡⲏ’ⲧ ⲁⲛϩⲃⲏⲩⲉ ⲙ̅ⲡϫⲱϩ̅ⲙⲉ̅\nⲥⲉϫⲱⲕ ⲉⲃⲟⲗ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲉⲓⲁ ⲛ̅ⲛⲉⲩⲉⲓⲟⲧⲉ ⲥⲉⲛⲁ‐\nⲛⲟϫⲟⲩ ⲉϩⲣⲁⲓ̈ ⲁⲡⲛⲟⲩ’ⲛ ⲛ̅ⲥⲉⲣ̅ⲙⲁⲥⲧⲓⲅⲟⲩ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲁⲛⲁ’ⲅⲕⲏ ⲙ̅ⲡⲥⲓϣⲉ ⲛ̅ⲧⲟⲩⲫⲩⲥⲓⲥ ⲉⲑⲟ‐\nⲟⲩ ⲥⲉⲛⲁⲫⲣⲁⲅⲉⲗⲗⲟⲩ ⲅⲁ’ⲣ ⲙ̅ⲙⲟⲟⲩ ⲁⲧⲣⲟⲩⲡⲱ’ⲧ ⲛ̅‐\nⲥⲁϫⲱⲟⲩ ⲁⲡⲙⲁ ⲉⲧⲉ ⲛ̅ⲥⲉⲥⲟⲟⲩⲛ ⲙ̅ⲙⲟϥ ⲁ’ⲛ ⲁⲩⲱ\nⲥⲉⲛ[ⲁⲗ]ⲟ ⲛ̅ⲛⲉⲩⲙⲉⲗⲟ’ⲥ ϩⲛ̅ ⲟⲩϩⲩⲡⲟⲙⲟⲛⲏ ⲁⲛ ⲁⲗ‐\nⲗⲁ [ϩⲛ̅ ⲟⲩ]ⲕⲁ ⲧⲟⲟⲧ’ⲕ ⲉⲃⲟ’ⲗ ⲁⲩⲱ ⲥⲉⲣⲁϣⲉ ⲉϫⲙ̅ [...]\nⲣ[...........] ⲡⲗⲓⲃ’ⲉ ⲙⲛ̅ ⲡⲡⲱϣⲥ̅ ⲉⲩⲟ [ⲛ̅...] ‐\n[ⲥⲉ]ⲡⲏⲧ ⲛ̅[ⲥⲁ ⲡⲓ]ⲡⲱϣⲥ̅ ⲛ̅ϩⲏ’ⲧ ⲉⲛ[ⲥ]ⲉⲙ̅ⲙⲉ ⲁ[ⲛ ⲙ̅ⲡⲟⲩ]‐\n[ⲗⲓ]ⲃ’ⲉ ⲉⲩ[ⲙⲉⲉ]ⲩⲉ ϫⲉ ϩⲛ̅ⲥⲁⲃⲉⲉⲩ ⲛ[ⲉ ⲥⲉ......]\n[..]ⲁⲉⲓⲉ ⲙ̅ⲡⲟⲩⲥⲱⲙⲁ ϩ.[..........]\nⲉⲣⲉ ⲡⲟⲩϩⲏ’ⲧ ⲡⲟⲟⲛⲉ ⲉⲣⲟⲟ’ⲩ ⲉⲣⲉ ⲡⲟⲩⲙⲉⲉⲩⲉ ϩⲓ\nⲛⲉⲩⲡⲣⲁⲝⲓⲥ ⲧⲥⲁⲧⲉ ⲇⲉ ⲧⲉⲧⲛⲁⲣⲱⲕϩ ⲙ̅ⲙⲟⲟ’ⲩ §’ⲁϥ‐\nⲟⲩⲱϣⲃ̅ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁ’ⲥ ⲡⲁϫⲉϥ ϫⲉ ⲡϫⲟⲉⲓ’ⲥ ⲡⲉⲛ‐\nⲧⲁⲩⲛ’ⲟϫϥ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲟⲩ ⲉϥⲛⲁⲣ ⲟⲩ ϯⲣ̅ⲙⲉⲣⲓⲙⲛⲁ\nⲅⲁⲣ ⲙ̅ⲡϣ’ⲁ ⲉⲧⲃⲏⲧⲟⲩ ϩⲁϩ ⲅⲁ’ⲣ ⲛⲉⲧϯ ⲟⲩⲃⲏⲩ §’ⲁϥⲟⲩ‐\nⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫ’ⲉϥ ϫⲉ ⲉⲩ ⲛ̅ⲧⲁ’ⲕ ⲡⲉⲧⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ⲛⲁ’ⲕ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲓ̈ⲟⲩⲇⲁ’ⲥ ⲡⲁⲓ̈ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉ‐\nⲣ’ⲟϥ ϫⲉ ⲑⲱⲙⲁⲥ ϫⲉ ⲛ̅ⲧⲟⲕ ⲡϫⲟⲉⲓ’ⲥ ⲡⲉⲧⲥⲣ̅ⲡⲣⲉⲡⲉ’ⲓ\nⲛⲁ’ⲕ ⲁϣⲉϫ’ⲉ ⲁⲛⲟⲕ ⲇⲉ ⲛ̅ⲧⲁⲥⲱⲧⲙ̅ ⲉⲣⲟ’ⲕ §’ⲁϥⲟⲩ‐\nⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ϫⲉ ⲥⲱⲧⲙ̅ ⲁⲡⲉϯⲛⲁϫⲟ’ⲟϥ ⲛⲁ’ⲕ\nⲛ̅ⲕⲣ̅ⲡⲓⲥⲧⲉⲩⲉ ϩⲛ̅ ⲧⲙⲏⲉ ⲡⲉ’ⲧϫⲟ ⲙⲛ̅ ⲡⲉⲧⲟⲩϫⲟ ⲙ̅ⲙ’ⲟϥ\nⲥⲉⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲕⲱϩ’ⲧ ⲛ̅ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲱϩ’ⲧ\nⲙⲛ̅ ⲡⲙⲟⲟⲩ [ⲁ]ⲩⲱ ⲛ̅ⲥⲉϩⲱ’ⲡ ϩⲛ̅ ⲛ̅ⲧⲁⲫⲟ’ⲥ ⲙ̅ⲡⲕⲁⲕⲉ\nⲁⲩⲱ ⲙⲛ̅ⲛ̅ⲥⲁ ϩⲁϩ ⲛ̅ⲟⲩⲟⲉⲓϣ ⲥⲉⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅‐\nⲛ̅ⲕⲁⲣⲡⲟⲥ ⲛ̅ⲛ̅ϣⲏ’ⲛ̅ ⲉⲑⲟⲟⲩ ⲉⲩⲣ̅ⲕⲟⲗⲁⲍⲉ ⲙ̅ⲙⲟⲟⲩ ⲉⲩ‐\nϩⲱⲧⲃⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ ’ⲧⲧⲁⲡⲣⲟ̓ ⲛ̅ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ ⲙⲛ̅ ⲛ̅ⲣⲱ‐\nⲙ’ⲉ ϩⲛ̅ ⲧⲁⲫⲟⲣⲙ’ⲏ ⲛ̅ⲛ̅ϩⲟⲟⲩ ⲙⲛ̅ ⲛ̅ⲧⲏⲩ ⲙⲛ̅ ⲡⲁⲏ’ⲣ\nⲙⲛ̅ ⲡⲟⲩⲟⲉⲓ’ⲛ ⲉⲧⲣ̅ ⲟⲩⲟⲉⲓ’ⲛ ⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ §ⲁϥⲟⲩⲱϣⲃ̅\nⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁ’ⲥ ϫⲉ ⲁⲕⲣ̅ⲡⲓⲑⲉ ⲙⲉ’ⲛ ⲙ̅ⲙⲟ’ⲛ ⲡϫⲟⲉⲓ’ⲥ\nⲁⲛⲣ̅ⲛⲟⲉⲓ ϩⲙ̅ ⲡⲛ̅ϩⲏ’ⲧ ⲁⲩⲱ ⲥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϫⲉ ⲧⲁⲉⲓ\n[ⲧⲉ ⲑ]ⲉ ⲁⲩⲱ ⲡⲉⲕϣⲁϫⲉ ⲟ ⲛ̅ⲁⲧⲫⲑⲟⲛⲟⲥ ⲁⲗⲗⲁ ⲛⲓϣⲁ‐\n[ϫⲉ ⲉ]ⲧⲕϫⲱ ⲙ̅ⲙⲟⲟⲩ ⲛⲁ’ⲛ ϩⲉⲛⲥⲱⲃⲉ ⲛⲉ ⲙ̅ⲡⲕⲟⲥ‐\n[ⲙⲟ]’ⲥ ⲁⲩⲱ ϩⲛ̅ⲗ̅ⲕ ϣⲁⲉⲓ ⲛ̅ⲥⲱⲟⲩ ⲛ’ⲉ ⲉⲡⲓⲇⲏ ⲥⲉⲥⲟ‐\n[ⲟⲩ]ⲛⲉ ⲙ̅ⲙⲟⲟⲩ ⲁ’ⲛ ⲛ̅ⲁϣ ϭⲉ ⲛ̅ⲣⲏⲧⲉ ⲉⲛⲛⲁϣⲃⲱ’ⲕ ’ⲁ‐\n[ⲧⲁ]ϣⲉ ⲟⲉⲓϣ ⲙ̅ⲙⲟⲟⲩ ⲉⲡⲓⲇⲏ ϫⲉ ⲥⲉⲱ’ⲡ ⲙ̅ⲙⲟ’ⲛ\n[ⲁ’ⲛ ϩ]ⲙ̅ ⲡⲕⲟⲥⲙⲟ’ⲥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫⲉϥ ϫⲉ"
+        },
+        {
+          "title": "Jesus Preaches About Judgment",
+          "subtitle": "Jesus Preaches About Judgment",
+          "heading": "Jesus Preaches About Judgment (142, 26-143, 7)",
+          "rangeLabel": "142, 26-143, 7",
+          "range": {
+            "start": {
+              "page": 142,
+              "line": 26
+            },
+            "end": {
+              "page": 143,
+              "line": 7
+            }
+          },
+          "english": "The Savior answered and said, “I tell you the truth, whoever listens to [your]\nword and turns away or sneers at it or smirks at these things, I tell you the truth,\nthat person will be handed over to the ruler who is on high, who rules as king\nover all the powers, and the ruler will turn him away and cast him down from on\nhigh into the abyss, and he will be imprisoned in a cramped, dark place. So he\ncannot turn or move because of the great depth of Tartaros and the\n[burdensome bitterness] of Hades. Whoever relies on what [is brought] to him…\nwill not be forgiven [his] madness, but will [be judged. Whoever has] persecuted\nyou will be handed over to the angel Tartarouchos, [who has flaming] fire that\npursues them, and fiery whips that spew forth sparks into the face of one\npursued. If he flees to the west, he finds fire. If he turns south, he finds it there as\nwell. If he turns north, the threat of erupting fire meets him again. Nor can he\nfind the way to the east, to flee there and be saved, for he did not find it while\nembodied so as to find it on the day of judgment.”",
+          "coptic": "[ⲁ’ⲛ ϩ]ⲙ̅ ⲡⲕⲟⲥⲙⲟ’ⲥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫⲉϥ ϫⲉ\n[ϩⲁⲙ]ⲏ’ⲛ ϯϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲏⲧⲛ̅ ϫⲉ ⲡⲉⲧⲛⲁⲥⲱⲧⲙ̅ ⲁⲡⲉ‐\n[ⲧⲛ̅ϣ]ⲁϫ’ⲉ ⲁⲩⲱ ⲛ̅ϥⲕⲧⲟ ⲙ̅ⲡⲉϥϩⲟ ⲉⲃⲟ’ⲗ ⲏ ⲛ̅ϥⲗⲕ ϣⲉ‐\n[ⲉ] ⲛ̅ⲥ’ⲱϥ ⟦ⲛ̅⟧ ⲏ ⲛ̅ϥⲥⲱⲧⲣ̅ ⲛ̅ⲛ’ⲉϥⲥⲡⲟⲧⲟⲩ ϩⲓ ⲛⲁⲉ[ⲓ] ϩⲁ‐\nⲙⲏ’ⲛ ϯϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲏⲧⲛ̅ ϫⲉ ⲥⲉⲛⲁⲧⲁ’ⲁϥ ⲁⲧⲟⲟⲧϥ̅\nⲙ̅ⲡⲁⲣⲭⲱⲛ ⲉⲧⲙ̅ⲡⲥⲁ ’ⲛⲧⲡ’ⲉ ⲡⲁⲓ̈ ⲉⲧⲁⲣⲭⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉ‐\nϫⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲉϥⲟ ⲛ̅ⲣ̅ⲣⲟ ⲉϫⲱⲟⲩ ⲛ̅ϥⲕⲧⲟ\nⲙ̅ⲡⲁⲉⲓ ⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ϥⲛⲟϫϥ̅ ϫⲛ̅ ⲛ̅ⲧⲡ’ⲉ ϣⲁ ⲡⲓⲧⲛ̅ ’ⲁ‐\nⲡⲛⲟⲩ’ⲛ ⲛ̅ⲥⲉⲱⲣ’ⲉϫ ⲁⲣ’ⲱϥ ϩⲛ̅ ⲟⲩⲙⲁ ⲉϥϭⲏⲩ ⲉϥⲟ\nⲛ̅ⲕⲁⲕ’ⲉ ⲙⲁϥϣϭⲛ̅ ϭⲟⲙ ϭⲉ ⲙ̅ⲡⲟⲛ’ⲉϥ ⲏ ⲁⲕⲓ’ⲙ ⲉⲧⲃⲉ\nⲡⲓⲛⲟϭ ⲛ̅ⲃⲁⲑⲟ’ⲥ ⲛ̅ⲧⲉ ⲡⲧⲁⲣⲧⲁⲣⲟⲥ ⲙⲛ̅ ⲡⲓⲥ[ⲓϣ]ⲉ ⟦ⲉ⟧\n[ⲉⲧϩ]ⲟⲣϣ ⲛ̅ⲧⲉ ⲁⲙⲛ̅ⲧⲉ ⲡⲁⲓ̈ ⲉ’ⲧⲧⲁϫⲣⲏⲩ ⲁ[.....]ⲩ‐\n[...] ⲙ̅ⲙⲟⲟⲩ ⲉϩⲟⲩⲛ ⲉⲣ’ⲟϥ [ⲉ]ⲩϣ[.......]ⲁ‐\n[....] ⲛ̅ⲥⲉⲛ[ⲁ]ⲕⲱ ⲁ’ⲛ ⲉⲃⲟⲗ ⲙ̅[....]ⲓⲃⲉ .[...]‐\n[.........]ϥⲡⲱ’ⲧ ⲛ̅ⲥⲁ ⲧⲏⲛⲉ ⲥ[ⲉⲛⲁ]ⲡⲁⲣⲁⲇⲓⲇ[ⲟⲩ]\n[..........ⲡⲁⲅ]ⲅⲉⲗⲟ’ⲥ ⲡⲧⲁⲣⲧⲁⲣⲟⲩⲭⲟⲥ [.]\n[..............ⲥ]ⲁⲧⲉ ⲉϥⲡⲏ’ⲧ ⲛ̅ⲥⲱⲟⲩ [..]\n[.]ϩⲉ’ⲛⲫⲣⲁⲅⲉⲗⲗⲟⲩ ⲛ̅ⲥⲁⲧ’ⲉ ⲉⲩⲛⲉϫ ϯ’ⲕ ϯⲕ̅ ⲉⲃⲟ’ⲗ ⲉϩⲟⲩⲛ\n[ϩ]ⲛ̅ ⲫⲟ ⲙ̅ⲡⲉⲧⲟⲩⲡⲏ’ⲧ ⲛ̅ⲥ’ⲱϥ ⲉϥ’ⲡⲏ’ⲧ ⲁⲡⲁⲙⲛⲧⲉ ⲉϥϭⲓ‐\n[ⲛ]ⲉ ⲛ̅ⲧⲥⲁⲧ’ⲉ ⲉϥϣⲁⲛⲕⲧ’ⲟϥ ⲁⲣⲏⲥ ⲉϥϭⲛⲧⲥ̅ ⲟ’ⲛ ⲙ̅ⲙⲁⲩ\nⲉϥϣⲁⲛⲕⲧⲟϥ ⲁϩⲏ’ⲧ ϣⲁⲥⲧⲱⲙⲧ ⲉⲣ’ⲟϥ ⲁ’ⲛ ⲛ̅ϭⲓ ⲧⲁⲡⲓⲗⲏ\nⲛ̅ⲥⲁⲧ’ⲉ ⲉⲥⲃⲣ̅ⲃⲣ̅ ⲙⲁϥϭⲓⲛⲉ ⲇⲉ ⲛ̅ⲧⲟϥ ⲛ̅ⲑⲓⲏ ⲙ̅ⲡⲁⲉⲓⲃ̅ⲧⲉ\nⲁⲡⲱ’ⲧ ⲉⲙⲁⲩ ⲛ̅ϥⲟⲩϫⲁⲉⲓ ⲙ̅ⲡⲉϥ̅ϭⲛⲧⲥ̅ ⲅⲁⲣ ⲙ̅ⲫⲟⲟⲩ ⲉϥ‐\nϩⲛ̅ ⲥⲱⲙ[ⲁ] ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁϭⲛⲧⲥ̅ ⲙ̅ⲫⲟⲟⲩ ⲛ̅ⲧⲕⲣⲓⲥⲓ’ⲥ"
+        },
+        {
+          "title": "Woes upon the Godless",
+          "subtitle": "Woes upon the Godless",
+          "heading": "Woes upon the Godless (143, 8-145, 1)",
+          "rangeLabel": "143, 8-145, 1",
+          "range": {
+            "start": {
+              "page": 143,
+              "line": 8
+            },
+            "end": {
+              "page": 145,
+              "line": 1
+            }
+          },
+          "english": "Then the Savior continued and said, “Woe to you, godless people, who have no\nhope, who are secure in things that do not last.\n“Woe to you who hope in the flesh and in the prison that will perish. How\nlong will you sleep and think that what is imperishable will also perish? Your\nhope is based upon the world, and your god is this present life. You are\ndestroying your souls.\n“Woe to you with the fire that burns within you. It is insatiable.\n“Woe to you because of the wheel that turns in your minds.\n“Woe to you because of the smoldering within you. It will devour your flesh\nvisibly, tear your souls secretly, and prepare you for each other.\n“Woe to you, prisoners, for you are bound in caves. You laugh, you rejoice in\nmad laughter. You do not perceive your destruction. Neither do you perceive\nyour plight, nor have you understood that you dwell in darkness and death.\nRather, you are drunk with fire and [full] of bitterness. Your hearts are deranged\nbecause of the smoldering within you, and the poison and blows of your enemies\nare a delight to you. Darkness has risen in you like the light, for you have\nsurrendered your freedom to slavery. You have darkened your hearts and\nsurrendered your minds to foolishness. You have filled your minds with the\nsmoke of the fire within you, and your light has been hidden in the [dark] cloud.\nYou [love] the garment you wear, [although it is filthy], and you have been\ngripped [by] nonexistent hope. [You have] believed in what you do [not] know.\nYou all live in [bondage] but pride yourselves [in your freedom]. You\nhave baptized your souls in the water of darkness. You have pursued your own\nwishes.\n“Woe to you who dwell in error, not seeing that the light of the sun, which\njudges the universe and looks down on the universe, will encircle everything to\nmake slaves of the enemies. Nor do you perceive how the moon looks down\nnight and day, seeing the bodies of your slaughters.\n“Woe to you who love intercourse and filthy association with the female.\n“And woe to you because of the powers of your bodies, for they will mistreat\nyou.\n“Woe to you because of the actions of the evil demons.\n“Woe to you who entice your limbs with fire. Who will sprinkle a restful dew\non you, to extinguish the many fires within you, and your burning? Who will\nmake the sun shine on you, to dispel the darkness within you and hide the\ndarkness and filthy water?\n“The sun and the moon will give a fragrant aroma to you, as will the air, the\nspirit, the earth, and the water. If the sun does not shine on these bodies, they\nwill rot and perish just like weeds or grass. If the sun shines on them, they grow\nstrong and choke the grapevine. But if the grapevine becomes strong and casts\nits shadow over the weeds and all the rest of the brush growing with it, and\n[spreads] and fills out, it alone inherits the land where it grows, and dominates\nwherever it has cast its shadow. So when it grows, it dominates the whole land,\nand it is productive for its master and pleases him greatly. He would have gone\nto great pains because of the weeds before pulling them out, but the grapevine by\nitself disposed of them and choked them, and they died and became like earth.”\nThen Jesus continued and said to them, “Woe to you, for you have not\naccepted the teaching, and those who [wish to accept it] will suffer when they\npreach. [You will persecute them], but you will rush into [your own traps]. You\nwill cast them down [to the lions] and put them to death, daily, and they\nwill rise from death.",
+          "coptic": "ⲧⲟⲧⲉ ’ⲁϥⲟⲩⲱϩ ⲁⲧⲟⲟ’ⲧϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ\nϫⲉ ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲛ̅ⲁⲧⲛⲟⲩⲧ’ⲉ ⲉⲧⲉ ⲙⲛ̅ⲧⲉⲩ ϩⲉⲗⲡⲓ’ⲥ\nⲉⲧⲧⲁϫⲣⲁⲓ̈’ⲧ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲛⲉⲧⲛⲁϣⲱⲡⲉ ⲁⲛ §ⲟⲩⲟⲓ̈ ⲛⲏⲧⲛ̅\nⲛⲉⲧⲣ̅ϩⲉⲗⲡⲓⲍⲉ ⲁⲧⲥⲁⲣⲝ ⲁⲩⲱ ⲡϣⲧⲉⲕⲟ ⲉⲧⲛⲁⲧⲉⲕⲟ ϣⲁⲛ‐\nⲧⲉ ⲟⲩ ϣⲱⲡⲉ ⲉⲧⲉⲧⲛ̅ⲟⲃϣ̅ ⲁⲩⲱ ⲛ̅ⲁ’ⲧⲧⲉⲕⲟ ⲉⲧⲉⲧⲛ̅ⲙⲉ‐\nⲉⲩⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲥⲉⲛⲁⲧⲁⲕⲟ ⲁ’ⲛ ⲉⲧⲉ[ⲧ]ⲛ̅ϩⲉⲗⲡⲓⲥ ⲧⲁϫⲣⲏⲩ\nⲁϫⲛ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲁⲩⲱ ⲡⲉⲧⲛ̅ⲛⲟⲩⲧⲉ ⲡⲉ ⲡⲉⲉⲓⲃⲓⲟⲥ\nⲉⲧⲉⲧⲛ̅ⲧⲁⲕⲟ ⲛ̅ⲛⲉⲧⲛ̅ⲯⲩⲭⲟⲟⲩ’ⲉ §ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ϩⲣⲁⲓ̈\nϩⲙ̅ ⲡⲕⲱϩ’ⲧ ⲉⲧⲣⲱⲕϩ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲏⲛⲉ ϫⲉ ⲟⲩⲁⲧⲥⲓ ⲡⲉ\n§ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲙ̅ⲡⲕⲁ’ⲧ ⲉⲧⲕⲱⲧⲉ ϩⲛ̅\nⲛⲉⲧⲛ̅ⲙⲉⲉⲩⲉ §ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲛ̅ⲧⲟⲟⲧϥ̅ ⲙ̅ⲡⲙⲟⲩϩ\nⲉⲧϩ[ⲛ̅] ⲧⲏⲛⲉ ϫⲉ ϥⲛⲁⲩⲱ’ⲙ ⲛ̅ⲛⲉⲧⲛ̅ⲥⲁⲣ’ⲝ ϩⲛ̅ ⲟⲩⲱⲛϩ\nⲉⲃⲟ’ⲗ ⲁⲩⲱ ϥⲛⲁⲡⲱϩ ⲛ̅ⲛⲉⲧⲛ̅ⲯⲩⲭⲟⲟⲩ’ⲉ ϩⲛ̅ ⲟⲩ‐\nϩⲱⲡ ⲛ̅ϥⲥⲃ̅ⲧⲉ ⲧⲏⲛⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉⲧⲛ̅ⲉⲣⲏ’ⲩ §ⲟⲩⲟⲓ̈ [ⲛ]ⲏ‐\nⲧⲛ̅ ⲛ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲟⲥ ϫⲉ ⲧⲉⲧⲛ̅ⲙⲏ’ⲣ ϩⲛ̅ ⲛ̅ⲥⲡⲏⲗ[ⲁⲓ]‐\nⲟ’ⲛ ⲧⲉⲧⲛ̅ⲥⲱⲃⲉ ⲉⲧⲉⲧⲛ̅ⲣⲁϣⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ⲥⲱⲃ[ⲉ]\nⲛ̅ⲗⲓⲃⲉ ⲧⲉⲧⲛ̅ⲣ̅ⲛⲟⲉⲓ ⲁⲛ ⲙ̅ⲡⲉⲧⲛ̅ⲧⲁⲕⲟ ⲟⲩⲧⲉ ⲧ[ⲉ]‐\nⲧⲛ̅ⲣ̅ⲛⲟⲉⲓ ⲁ’ⲛ ϩⲛ̅ ⲛⲉⲧⲉⲧⲛ̅〈ⲛ̅〉ϩⲏⲧⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡ[ⲉⲧ]ⲛ̅‐\nⲙ̅ⲙⲉ ϫⲉ ⲧⲉⲧⲛ̅ϣⲟⲟ’ⲡ ϩⲙ̅ ⲡⲕⲁⲕ’ⲉ ⲙⲛ̅ ⲡⲙⲟ[ⲩ]\nⲁⲗⲗⲁ ⲉⲧⲉⲧⲛ̅ⲧⲁϩⲉ ϩⲙ̅ ⲡⲕⲱϩ’ⲧ ⲁⲩⲱ ⲧⲉⲧⲛ̅[ⲙⲉϩ]\nⲛ̅ⲥⲓϣ’ⲉ ⲉⲣⲉ ⲡⲉⲧⲛ̅ϩⲏ’ⲧ ⲡⲟϣⲥ̅ ⲉⲣⲱⲧⲛ̅ ⲉⲧⲃⲉ ⲡ[ⲙ]ⲟⲩϩ\nⲉⲧ[ϩ]ⲛ̅ ⲧⲏⲛ’ⲉ ⲁⲩⲱ ϥϩⲟⲗϭ ⲛⲏⲧⲛ̅ ⲛ̅ϭⲓ ⲡⲕⲗⲟ ⲙⲛ̅\nⲧⲡⲗⲏⲅⲏ ⲛ̅ⲛⲉⲧⲛ̅ϫⲁϫ’ⲉ ⲁⲩⲱ ⲡⲕⲁⲕⲉ ⲁϥϣⲁⲉ ⲛⲏ‐\nⲧⲛ̅ ⲛ̅ⲑⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓ’ⲛ ⲧⲉⲧⲛⲙ̅ⲛ̅ⲧⲣⲙ̅ϩⲉ ⲅⲁ’ⲣ ⲁⲧⲉⲧⲛ̅\nⲧⲁⲁⲥ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ϩⲙϩ̅ⲁⲗ̅ ⲁⲧⲉⲧⲛ̅ⲉⲓⲣⲉ ⲛ̅ⲛⲉⲧⲛ̅ϩⲏ’ⲧ ⲛ̅‐\nϩⲏ’ⲧ ⲛ̅ⲕⲁⲕ’ⲉ ⲁⲩⲱ ⲛⲉⲧⲛ̅ⲙⲉⲉⲩ’ⲉ ⲁⲧⲉⲧⲛ̅ⲧⲁⲁⲩ\nⲛ̅ⲧⲙⲛ̅ⲧⲥⲉϭ’ⲉ ⲁⲩⲱ ⲁⲧⲉⲧⲛ̅ⲙⲟⲩϩ ⲛ̅ⲛⲉⲧⲛ̅ⲙⲉ‐\nⲉ[ⲩ]ⲉ ϩⲛ̅ ⲡⲕⲁⲡⲛⲟ’ⲥ ⲙ̅ⲡⲕⲱϩ’ⲧ ⲉⲧϩⲛ̅ ⲧⲏⲛⲉ ⲁⲩ‐\nⲱ [ⲁϥϩ]ⲱ’ⲡ ⲛ̅ϭⲓ ⲡⲉⲧⲛ̅ⲟⲩⲟⲉⲓⲛ’ⲉ ϩⲛ̅ ⲧⲕⲗⲟⲟⲗⲉ\n[ⲛ̅.... ⲁ]ⲩⲱ ⲧϩⲃⲥⲱ ⲉ’ⲧⲧⲟ ϩⲓ ⲧⲏⲛⲉ ⲁⲧⲉⲧⲛⲡ[ ]‐\n[.........]ⲣ’ⲟϥ ⲁⲩⲱ ⲁⲩⲣ̅ⲕⲁⲧⲉⲭⲉ ⲙ̅ⲙⲱ[ⲧⲛ̅ ϩⲓ]‐\n[ⲧⲛ̅] ⲑⲉⲗ[ⲡⲓⲥ ⲉⲧ]ϣⲟⲟ’ⲡ ⲁⲛ ⲁⲩⲱ ⲛ[ⲓ]ⲙ ⲡⲉⲛⲧ[ⲁⲧⲉ]‐\n[ⲧⲛ̅]ⲡⲓⲥⲧ[ⲉⲩⲉ] ⲉⲣ’ⲟϥ ⲧⲉⲧⲛ̅ⲥⲟⲟ[ⲩⲛ ⲁⲛϫⲉ ⲧⲉⲧⲛ̅]‐\n[ϣⲟⲟⲡ ⲧⲏⲣⲧⲛ̅ ϩⲛ̅ ⲛⲉⲧ[.................]‐\n[..]ⲟⲩ ⲙ̅ⲙⲱⲧⲛ̅ ϩⲱⲥ ⲉⲧ[ⲉⲧ’ⲛ̅..............]\nⲁⲧⲉⲧⲛ̅ⲱⲱⲙⲥ̅ ⲛ̅ⲛⲉⲧⲛ̅ⲯⲩⲭ’ⲏ ϩⲙ̅ ⲡⲙⲟⲟⲩ ⲙ̅ⲡⲕⲁⲕ[ⲉ]\nⲁⲧⲉⲧⲛ̅ⲡⲱ’ⲧ ϩⲛ̅ ⲛⲉⲧⲛ̅ⲟⲩⲱϣⲉ ⲙ̅ⲙⲓ’ⲛ ⲙ̅ⲙⲱⲧⲛ̅ §ⲟⲩ‐\nⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲛⲉ’ⲧϣⲟⲟ’ⲡ ϩⲙ̅ ⲡⲥⲱⲣⲙ̅ ⲉⲧⲉⲧⲛ̅ϭⲁϣ’ⲧ\nⲁⲛ ⲁⲡⲟⲩⲟⲉⲓⲛ ⲙ̅ⲡⲣ’ⲏ ⲡⲉⲧⲕⲣⲓⲛⲉ ⲙ̅ⲡⲧⲏ’ⲣϥ ⲉ’ⲧ‐\nϭⲁϣ’ⲧ ⲁϫⲛ̅ ⲡⲧⲏ’ⲣϥ ϫⲉ ϥⲛⲁⲕⲱⲧⲉ ⲁϫⲛ̅ ⲛ̅ϩⲃⲏⲩⲉ\nⲧⲏⲣⲟⲩ ⲁⲧⲣⲉ ⲛ̅ϫⲁϫⲉ ⲣ̅ ϩⲙϩ̅ⲁ̅ⲗ̅ ⲁⲩⲱ ⲟⲛ ⲧⲉⲧⲛ̅ⲣ̅ⲛⲟⲉⲓ\nⲁⲛ ⲙ̅ⲡⲟⲟϩ ϫⲉ ⲛ̅ⲁϣ ⲛ̅ϩⲉ ⲛ̅ⲧⲟⲩϣⲏ ⲙⲛ̅ ⲫⲟⲟⲩ ’ⲉϥ‐\nϭⲁϣ’ⲧ ⲉϩⲣⲁⲓ̈ ⲉϥⲛⲁⲩ ⲁⲛⲥⲱⲙⲁ ⲛ̅ⲛⲉⲧ[ⲛ̅]ϩⲉⲧⲃⲉ §ⲟⲩⲟⲓ̈\nⲛⲏⲧⲛ̅ ⲛⲉⲧⲙⲁⲉⲓⲉ ⲛ̅ⲧⲥⲩⲛⲏⲑⲉⲓ’ⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲥϩⲓⲙⲉ\nⲙⲛ̅ ⲡⲉⲥϣⲱⲡⲉ ⲛⲙ̅ⲙⲁⲥ ⲉⲧⲥⲟ’ⲟϥ §ⲁⲩⲱ ⲟⲩⲟⲉ’ⲓ\nⲛⲏⲧⲛ̅ ⲛ̅ⲧⲟⲟⲧⲟⲩ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲉⲧⲛ̅ⲥⲱⲙⲁ ϫⲉ\nⲛⲉⲧⲙ̅ⲙⲟ ⲅⲁ’ⲣ ⲥⲉⲛⲁⲑⲙ̅ⲕⲉ ⲧⲏⲛ’ⲉ §ⲟⲩⲟⲓ̈ ⲛⲏⲧⲛ̅ ⲛ̅ⲧⲟ‐\nⲟⲧⲟⲩ ⲛ̅ⲛ̅ⲉⲛⲉⲣⲅⲉⲓⲁ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱ’ⲛ ⲙ̅ⲡⲟⲛⲏⲣⲟ’ⲛ\n§ⲟⲩⲟⲓ̈ ⲛⲏⲧⲛ̅ ⲛⲉ’ⲧⲥⲱ’ⲕ ⲛ̅ⲛⲉⲩⲙⲉⲗⲟ’ⲥ ϩⲙ̅ ⲡⲕⲱϩ’ⲧ\nⲛⲓ’ⲙ ⲡⲉⲧⲛⲁϩⲱⲟⲩ ⲛⲏⲧⲛ̅ ⲛ̅ⲟⲩⲉⲓⲱⲧ’ⲉ ⲛⲙ̅ⲧⲟⲛ\nϫⲉⲕⲁⲁⲥ ⲉⲥⲛⲁϩⲱⲧⲙ̅ ⲛ̅ϩⲁϩ ⲛ̅ⲕⲱϩ’ⲧ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲏⲛⲉ\nⲙⲛ̅ ⲡⲉⲧⲛ̅ⲣⲱⲕ’ϩ ⲛⲓⲙ ⲡⲉⲧⲛⲁϯ ⲛⲏⲧⲛ̅ ⲙ̅ⲡⲣⲏ ⲁⲡⲣ̅‐\nⲣⲓⲉ ⲁϫⲛ̅ ⲧⲏⲛ’ⲉ ⲁⲃⲱⲗ ⲉⲃⲟⲗ ⲙ̅ⲡⲕⲁⲕ’ⲉ ⲉⲧϩⲛ̅ ⲧⲏⲛⲉ\nⲁⲩⲱ ⲁϩⲱ’ⲡ ⲙ̅ⲡⲕⲁⲕⲉ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲉⲧⲥⲟ’ⲟϥ §ⲡⲣⲏ\nⲙⲛ̅ ⲡⲟϩ ⲛⲁϯ ⲥϯⲛⲟⲩϥⲉ ⲛⲏⲧⲛ̅ ⲙⲛ̅ ⲡⲁⲏⲣ ⲙⲛ̅\nⲡⲡⲛ̅ⲁ̅ ⲙⲛ̅ ⲡⲕⲁϩ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲡⲣⲏ ⲅⲁ’ⲣ ⲉϥⲧⲙ̅‐\nⲡⲣ̅ⲣⲓⲉ ⲁϫⲛ̅ ⲛⲓⲥⲱⲙ’ⲁ ⲥⲉⲛⲁⲗⲟϥⲗ’ⲉϥ ⲛ̅ⲥⲉ[ⲧ]ⲁⲕⲟ\n[ⲙ̅]ⲡⲣⲏⲧⲉ ϩⲱ’ⲱϥ ⲛ̅ⲟⲩⲛ̅ⲧⲏϭ ⲏ ⲟⲩⲭⲟⲣⲧⲟ’ⲥ ⲉϣⲱⲡⲉ\n[ⲙ]ⲉⲛ ⲉⲡⲣⲏ ⲡⲣ̅ⲣⲓⲉ ⲁϫ’ⲱϥ ϣⲁϥϭⲛ̅ ϭⲁ’ⲙ ⲛ̅ϥⲱϭ’ⲧ\n[ⲛ̅]ⲧⲃⲱ ⲛ̅ⲉⲗⲟⲟⲗ’ⲉ ⲉϣⲱⲡⲉ ⲇⲉ ⲉⲥϣⲁⲛϭⲛ̅ ϭⲟⲙ\n[ⲛ̅]ϭⲓ ⲧⲃⲱ ⲛ̅ⲉⲗⲟⲟⲗ’ⲉ ⲛ̅ⲥⲣ̅ ϩⲁⲓ̈ⲃⲉⲥ ⲁϫⲛ̅ ⲛⲓⲛ̅ⲧ’ⲏϭ\n[ⲙ]ⲛ̅ ⲛⲓⲕⲉⲫϣⲛⲁ ⲧⲏⲣⲟⲩ ⲉⲧⲣⲏ’ⲧ ⲉϩⲣⲁⲓ̈ ⲛⲙ̅ⲙⲁ’ⲥ ⲛ̅[ⲥ]‐\n[ⲡⲱⲣ]’ϣ ⲉⲃⲟ’ⲗ ⲁⲩⲱ ⲛ̅ⲥⲟⲩⲟⲥⲧⲛ̅ ⲉⲃⲟⲗ ϣⲁⲥⲣ̅ⲕⲗⲏ‐\n[ⲣⲟ]ⲛ[ⲟ]ⲙⲉⲓ ⲙ̅ⲡⲕⲁϩ ⲟⲩⲁⲁⲧⲥ̅ ⲡⲁⲓ̈ ⲉⲧⲥⲣⲏⲧ̓ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥⲡ̅\nⲁⲩⲱ ⲁⲥⲣ̅ ⲛⲁ’ⲡ ⲁⲙⲁ ⲛⲓ’ⲙ ⲉⲧⲁⲥⲣ̅ ϩⲁⲓ̈ⲃⲉ’ⲥ ⲁϫ’ⲱϥ\nⲧⲟⲧⲉ ϭⲉ ⲉⲥϣⲁ’ⲛⲁⲩⲝⲁⲛ’ⲉ ϣⲁⲥⲣ̅ ⲛⲉ’ⲡ ⲁⲡⲕⲁϩ ⲧⲏⲣϥ\nⲁⲩⲱ ϣⲁⲥⲣ̅ ϩⲉⲛⲟⲩϥⲉ̅ ⲙ̅ⲡⲉⲥϫⲟⲉⲓⲥ ⲛ̅ⲥⲁⲣ̅ ⲁⲛ’ⲁϥ\nⲛ̅ϩⲟⲩⲟ ϫⲉ ⲛⲉϥⲛⲁϣⲱ’ⲡ ⲅⲁ’ⲣ ⲛ̅ϩⲉⲛⲛⲟϭ ⲛ̅ϩⲓⲥⲉ\nⲡ’ⲉ ⲉⲧⲃⲉ ⲛⲓⲛ̅ⲧⲏϭ ϣⲁⲛⲧϥ̅ⲡⲟⲣⲕⲟⲩ ⲁⲗⲗⲁ ⲧⲃⲱ\nⲛ̅ⲉⲗⲟⲟⲗⲉ ⲟⲩⲁⲁⲧⲥ̅ ⲁⲥϥⲓⲧⲟⲩ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲁⲥⲱϭⲧ ⲙ̅‐\nⲙⲟⲟⲩ ⲁⲩⲙⲟⲩ ⲁⲩϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡⲕⲁϩ §ⲧⲟⲧⲉ [’ⲁ]ϥ‐\nⲟⲩⲱϩ ⲉⲧⲟⲟ’ⲧϥ ⲛ̅ϭⲓ ⲓ̅ⲥ̅ ⲡⲁϫⲉϥ ⲛⲁⲩ ϫⲉ ⲟⲩⲟ[ⲉⲓ ⲛ]ⲏ‐\n[ⲧⲛ̅] ϫⲉ ⲙ̅ⲡⲉⲧⲛ̅ϫⲓ ⲛ̅ⲧⲥⲃ’ⲱ ⲁⲩⲱ ⲛⲉⲧⲟ [.....]‐\n[...] ⲥⲉⲛⲁϩⲓⲥⲉ ⲉⲩⲧⲁϣⲉ ⲟⲉⲓϣ’ [..........]‐\n[.. ] ⲁⲩⲱ ⲧⲉ[ⲧ]ⲛ̅ⲡⲏⲧ’ ⲁϩⲟⲩⲛ ⲁ.[..].ϣⲛ[....]\n[..........] ⲛⲁⲧⲛ̅ⲛⲟⲟⲩⲥ[ⲉ ⲁⲡ]ⲓⲧⲛ̅ ⲛ̅ⲛⲁ‐\n[............]ⲧⲛ̅ⲙⲟⲟⲩⲧⲟⲩ ⲙ̅ⲙⲏⲛ[ⲉ]\nϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲱⲟⲩⲛ ϩⲙ̅ ⲡⲙⲟⲩ §ⲛⲁⲉⲓⲁⲧ’ⲧⲏⲛⲉ"
+        },
+        {
+          "title": "Blessed Are You",
+          "subtitle": "Blessed Are You",
+          "heading": "Blessed Are You (145, 1-19)",
+          "rangeLabel": "145, 1-19",
+          "range": {
+            "start": {
+              "page": 145,
+              "line": 1
+            },
+            "end": {
+              "page": 145,
+              "line": 19
+            }
+          },
+          "english": "“Blessed are you who understand beforehand the temptations and flee from\nthings that are alien.\n“Blessed are you who are mocked and are not respected because of the love\nyour master has for you.\n“Blessed are you who weep and are oppressed by those who have no hope,\nfor you will be released from all bondage.\n“Watch and pray that you may not remain in the flesh, but that you may\nleave the bondage of the bitterness of this life. And when you pray, you will find\nrest, for you have left pain and reproach behind. When you leave the pains and\nthe passions of the body, you will receive rest from the Good One. You will\nreign with the King, you united with him and he with you, from now on and\nforever. Amen.”\nThe Book of Thomas\nThe Contender Writing\nto the Perfect",
+          "coptic": "ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲱⲟⲩⲛ ϩⲙ̅ ⲡⲙⲟⲩ §ⲛⲁⲉⲓⲁⲧ’ⲧⲏⲛⲉ\nⲛⲉⲧⲣ̅ϣⲣⲡ’ⲛⲙ̅ⲙⲉ’ ⲁⲛⲥⲕⲁⲛⲇⲁⲗⲟⲛ’ ⲁⲩⲱ ⲉⲧⲡⲱⲧ’\n† ϩⲏⲧϥ̅ ⲛ̅ⲛ̅ⲁⲗⲗⲟⲧⲣⲓⲟⲛ’ §ⲛⲁⲉⲓⲁⲧ’ⲧⲏⲛⲉ ⲛⲉⲧⲟⲩⲛⲟϭ‐\nⲛⲉϭ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ ⲉⲩⲱⲡ’ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ’ ⲉⲧⲃⲉ ⲡⲙⲁⲉⲓⲉ\nⲉⲧⲉⲩⲛ̅ⲧⲁϥϥ’ ⲉϩⲟⲩⲛ ⲉⲣⲟⲟⲩ ⲛ̅ϭⲓ ⲡⲟⲩϫⲟⲉⲓⲥ §ⲛⲁⲉⲓⲁⲧ’‐\nⲧⲏⲛⲉ ⲛⲉⲧⲣⲓⲙⲉ ⲁⲩⲱ ⲉⲧⲟⲩⲣ̅ⲑⲗⲓⲃⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲓⲧⲛ̅\nⲛⲉⲧⲉ ⲙ[ⲛ̅ⲧⲉ]ⲩ ϩⲉⲗⲡⲓⲥ ϫⲉ ⲥⲉⲛⲁⲃⲱⲗ ⲧⲏⲛⲉ ϩⲓⲧⲛ̅ ⲙⲣ̅‐\nⲣⲉ ⲛⲓⲙ §ⲡⲟⲉⲓⲥ ⲉⲧⲉⲧⲛ̅ⲥⲟⲡⲥ̅ ϫⲉ ⲉⲧⲉⲧⲛⲁϣⲱⲡⲉ ⲁⲛ\nϩⲛ̅ ⲧⲥⲁⲣⲝ’ ⲁⲗⲗⲁ ϫⲉ ⲉⲧⲉⲧⲛⲁⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲣ̅ⲣⲉ ⲙ̅ⲡⲥⲓ‐\nϣⲉ ⲛ̅ⲧⲉ ⲡⲃⲓⲟⲥ ⲁⲩⲱ ⲉⲧⲉⲧⲛ̅ⲥⲟⲡⲥ̅ ⲧⲉⲧⲛ̅ⲛⲁϭⲓⲛⲉ\nⲛ̅ⲟⲩⲙ̅ⲧⲟⲛ ϫⲉ ⲁⲧⲉⲧⲛ̅ⲕⲱ ⲛ̅ⲥⲱⲧⲛ̅ ⲙ̅ⲡϩⲓⲥⲉ ⲙⲛ̅ ⲡⲛⲟϭ‐\nⲛⲉϭ ⲛ̅ϩⲏⲧ’ ⲉⲧⲉⲧⲛ̅ϣⲁⲛⲉⲓ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϩⲓⲥⲉ ⲙⲛ̅\nⲙ̅ⲡⲁⲑⲟⲥ ⲛ̅ⲧⲉ ⲡⲥⲱⲙⲁ’ ⲧⲉⲧⲛⲁϫⲓ [ⲛ̅ⲟ]ⲩⲁⲛⲁⲡⲁⲩⲥⲓⲥ\nⲛ̅ⲧⲟⲟⲧϥ ⲙ̅ⲡⲁⲅⲁⲑⲟⲥ ⲁⲩⲱ ⲧⲉⲧⲛⲁⲣ̅ ⲣⲣⲟ’ ⲙⲛ̅ ⲡⲣ̅ⲣⲟ ⲉ‐\nⲧⲉⲧⲛ̅ⲧⲏⲧ’ ⲛⲙ̅ⲙⲁϥ’ ⲉϥⲧⲏⲧ’ ⲛⲙ̅ⲙⲏⲧⲛ̅ ϫⲓⲛ ⲧⲉⲛⲟⲩ ϣⲁ\nⲉⲛ[ⲉ]ϩ ⲛ̅ⲁⲛⲉϩ ϩⲁⲙⲏⲛ\n6\n]ⲡϫⲱⲙⲉ ⲛ̅ⲑⲱⲙⲁⲥ[\n]ⲡⲁⲑⲗⲏⲧⲏⲥ ⲉϥⲥϩⲁⲓ̈["
+        },
+        {
+          "title": "Scribal Note",
+          "subtitle": "Scribal Note",
+          "heading": "Scribal Note (145, 20-23)",
+          "rangeLabel": "145, 20-23",
+          "range": {
+            "start": {
+              "page": 145,
+              "line": 20
+            },
+            "end": {
+              "page": 145,
+              "line": 23
+            }
+          },
+          "english": "Remember me also, my brothers, in your prayers. Peace be with the holy and\nthe spiritual.",
+          "coptic": "]ⲛ̅ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ[\n6\n]ⲁⲣⲓ ⲡⲁⲙⲉⲉⲩⲉ ϩⲱ ⲛⲁⲥⲛⲏⲩ[\n]ϩ[ⲛ̅] ⲛⲉⲧⲛ̅ⲡⲣⲟⲥⲉⲩⲭⲏ’["
+        }
+      ]
+    },
+    {
+      "workId": "apocryphon-of-john",
+      "chapterName": "Apocryphon of John",
+      "title": "Codex II - Apocryphon of John",
+      "sourceTitle": "THE SECRET BOOK OF JOHN",
+      "sections": [
+        {
+          "title": "The Teaching of the Savior",
+          "subtitle": "The Teaching of the Savior",
+          "heading": "The Teaching of the Savior (1, 1-4)",
+          "rangeLabel": "1, 1-4",
+          "range": {
+            "start": {
+              "page": 1,
+              "line": 1
+            },
+            "end": {
+              "page": 1,
+              "line": 4
+            }
+          },
+          "english": "The teaching of the Savior, and [the revelation] of the mysteries [and the things]\nhidden in silence, things he taught his disciple John.",
+          "coptic": "ⲧⲉⲥⲃⲱ [ⲛ̅ⲧⲉ ⲡⲥⲱⲧⲏⲣ ⲁⲩⲱ] ⲡϭ[ⲱⲗ]ⲡ ⲉ‐\nⲃⲟⲗ ⲛⲙⲙ̅[ⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲛ̅ ⲛⲉ]ⲧϩⲏⲡ ϩⲛ̅ ⲟⲩ‐\nⲙⲛ̅ⲧ̅ⲕⲁⲣⲱϥ ⲙ[ⲛ̅ ⲛⲁⲓ̈ ⲉ]ⲛⲧⲁϥⲧⲥⲉⲃⲟⲟⲩ\nⲁⲓ̈ⲱϩⲁⲛⲛ[ⲏⲥ ⲡⲉϥⲙⲁ]ⲑⲏⲧⲏⲥ"
+        },
+        {
+          "title": "The Revealer Appears to John",
+          "subtitle": "The Revealer Appears to John",
+          "heading": "The Revealer Appears to John (1, 5-2, 25)",
+          "rangeLabel": "1, 5-2, 25",
+          "range": {
+            "start": {
+              "page": 1,
+              "line": 5
+            },
+            "end": {
+              "page": 2,
+              "line": 25
+            }
+          },
+          "english": "One day when John the brother of James, who are the sons of Zebedee, went up\nto the temple, it happened that a Pharisee named Arimanios came up to him and\nsaid to him, “Where is your teacher, whom you followed?”\nI said to him, “He has returned to the place he came from.”\nThe Pharisee said to me, “This Nazarene really has deceived you, filled your\nears with lies, closed [your minds], and turned you from the traditions of your\nancestors.”\nWhen I, John, heard this, I turned away from the temple and went to a\nmountainous and barren place. I was distressed within, and I asked how the\nSavior was chosen:\nWhy was he sent into the world by his Father?\nWho is his Father who sent him?\nTo what kind of eternal realm shall we go?\nAnd why did he tell us, when he spoke,\nthat this eternal realm [to which we shall go]\nis modeled after the incorruptible realm,\nbut he did not teach us what kind of aeon that one is?\nAt the moment I was thinking about this, look, the heavens opened, all\ncreation under heaven lit up, and the world shook. I was afraid, and look, I\nsaw within the light [someone standing] by me. As I was looking, it seemed to\nbe an elderly person. Again it changed its appearance to be a youth. Not that\nthere were several figures before me. Rather, there was a figure with several\nforms within the light. These forms were visible through each other, and the\nfigure had three forms.\nThe figure said to me, “John, John, why are you doubting? Why are you\nafraid? Aren’t you familiar with this figure? Then do not be fainthearted. I am\nwith you always. I am [the Father], I am the Mother, I am the Child. I am the\nincorruptible and the undefiled one. [Now I have come] to teach you what is,\nwhat [was], and what is going to come, that you may [understand] what is\ninvisible and what is visible; and to teach you about the [unshakable generation\nof] the perfect [human]. So now, lift up your [head] that you may [hear] the\nthings I shall tell you today, and that you may relate them to your spiritual\nfriends who are from the unshakable generation of the perfect human.”",
+          "coptic": "ⲁⲥϣⲱⲡⲉ [ⲇⲉ] ⲛ̅ⲟⲩ[ϩⲟ]ⲟⲩ ⲛ̅ⲧⲁⲣⲉϥⲉⲓ ⲉϩ‐\nⲣⲁⲓ̈ ⲛ̅ϭⲓ ⲓ̈ⲱ[ϩⲁⲛⲛ]ⲏⲥ [ⲡⲥⲟⲛ] ⲛ̅ⲓⲁⲕⲱⲃⲟⲥ ⲉⲧⲉ\nⲛⲁⲓ̈ ⲛⲉ ⲛ̅ϣⲏ[ⲣⲉ] ⲛ̅ⲍⲉ[ⲃⲉⲇ]ⲁⲓⲟⲥ ⲁϥⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉ‐\nⲡⲉⲣⲡⲉ ⲁϥϯ ⲡⲉϥⲟ[ⲩⲟ]ⲉⲓ ⲉⲣⲟϥ’ ⲛ̅ϭⲓ ⲟⲩ[ⲫⲁ]ⲣⲓ‐\nⲥⲁⲓⲟⲥ ⲉⲡⲉϥⲣⲁⲛ ⲡ[ⲉ ϫⲉ] ⲁⲣⲓⲙⲁⲛⲓⲟⲥ ⲁⲩ[ⲱ]\nⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲉϥⲧⲱⲛ ⲡⲉⲕⲥⲁϩ ⲡⲁⲓ̈ ⲉ[ⲧⲁ]‐\nⲕⲟⲩⲏϩ ⲛ̅ⲥⲱϥ ⲁⲩⲱ ⲡ[ⲉϫⲁ]ϥ ⲛⲁϥ [ϫ]ⲉ ⲡⲙ[ⲁ ⲉ]‐\nⲧⲁϥⲉⲓ ⲛ̅ϩⲏⲧϥ ⲁϥⲃⲱ[ⲕ ⲉⲣⲟϥ ⲡⲉϫⲁϥ ⲛⲁϥ’]\nⲛ̅ϫⲉ ⲡⲉⲫⲁⲣⲓⲥⲁⲓⲟⲥ [ϫⲉ ϩⲛ̅ ⲟⲩⲡⲗⲁⲛⲏ ⲁϥⲣ̅]‐\nⲡⲗⲁⲛⲁ ⲙ̅ⲙⲱⲧ[ⲛ̅] ⲛ̅ϭ[ⲓ ⲡⲉⲓ̈ⲛⲁⲍⲱⲣⲁⲓⲟⲥ]\nⲁⲩⲱ ⲁϥⲙⲁϩ [ⲛⲉⲧⲛ̅ⲙⲁⲁϫⲉ ⲛ̅ϩⲉⲛϭⲟⲗ]\nⲁⲩⲱ ⲁϥⲧⲱⲙ ⲛ̅[ⲛⲉⲧⲛ̅ϩⲏⲧ ⲁϥⲕⲧⲱⲧⲛ̅ ⲉ]‐\nⲃⲟⲗ’ ⲛ̅ⲙ̅ⲡⲁⲣⲁⲇ[ⲟⲥⲓⲥ ⲛ̅ⲛⲉⲧⲛ̅ⲉⲓⲟⲧⲉ ⲛ̅ⲧⲁⲣⲓ]‐\nⲥⲱ[ⲧⲙ̅] ⲉⲛⲁⲓ̈ ⲁⲛ[ⲟⲕ ⲓ̈ⲱϩⲁⲛⲛⲏⲥ ⲁⲓ̈ⲕⲱⲧⲉ]\nⲉⲃ[ⲟ]ⲗ ϩⲙ̅ ⲡⲉⲣⲡ[ⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲟⲩⲙⲁ ⲛ̅ϫⲁⲉⲓⲉ]\nⲁⲩⲱ ⲁⲓ̈ⲣ̅ⲗⲩⲡⲉ[ⲓ ⲛ̅ϩⲟⲩⲟ ϩⲙ̅ ⲡⲁϩⲏⲧ ⲉⲓ̈ϫⲱ]\nⲙ̅]ⲙⲟⲥ ⲉⲧⲃⲉ [ⲑⲉ ⲉⲧⲁⲩⲡⲱϣⲛ ⲙ̅ⲡⲥⲱⲧⲏⲣ]\nⲁⲩⲱ ϫⲉ ⲉⲧⲃⲉ[ⲟⲩ ⲁⲩⲧⲛ̅ⲛⲟⲟⲩϥ ⲉⲡⲕⲟⲥⲙⲟⲥ]\nⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉ[ϥⲉⲓⲱⲧ ⲁⲩⲱ ⲛⲓⲙ ⲡⲉ ⲡⲉϥ]‐\nⲉⲓⲱⲧ ⲉⲧⲁϩⲧ[ⲛ̅ⲛⲟⲟⲩϥ ⲁⲩⲱ ⲟⲩⲁϣ ⲛ̅ϩⲉ]\nⲡⲉ ⲡⲁⲓⲱⲛ ⲉ[ⲧⲙ̅ⲙⲁⲩ ⲡⲉⲧⲛ̅ⲛⲁⲃⲱⲕ ⲉⲣⲟϥ]\nⲟⲩ ⲅⲁⲣ ⲉϥϣ[ⲁϫⲉ ⲉⲧⲃⲏⲧϥ ⲁϥϫⲟⲟⲩ ⲁⲛ]\nϫⲉ ⲡⲓⲁⲓⲱⲛ ⲉⲧ[ⲛ̅ⲛⲁⲃⲱⲕ ⲉⲣⲟϥ ⲁϥϫⲓ ⲧⲩ]‐\nⲡⲟⲥ ⲙ̅ⲡⲁⲓⲱⲛ ⲛ̅[ⲁⲧⲧⲉⲕⲟ ⲁⲩⲱ ⲙ̅ⲡⲉϥⲧⲥⲉ]‐\nⲃⲟⲛ ⲉⲧⲃ[ⲉ ⲡⲉ]ⲧⲙ̅ⲙⲁⲩ ϫⲉ ⲟⲩⲁϣ ⲛ̅ϩⲉ ⲡⲉ]\nϩⲛ̅ ⲧⲟⲩⲛ[ⲟⲩ ⲛ̅ⲧⲁⲣⲓⲙⲉⲉⲩⲉ ⲉⲛⲁⲓ̈ ⲉⲓⲥϩⲏ]‐\nⲏⲧⲉ ⲁⲙ[ⲡⲏⲩⲉ ⲟⲩⲱⲛ ⲉⲃⲟⲗ ⲁⲩⲱ ⲛⲉⲥⲟ]\nⲛ̅ⲟⲩⲟⲉⲓⲛ [ⲛ̅ϭⲓ] ⲧⲕⲧⲓⲥ[ⲓⲥ ⲧⲏⲣⲥ ⲉⲧⲙ̅ⲡⲥⲁ]\nⲙ̅ⲡⲓⲧⲛ̅ ⲛ̅ⲧⲡⲉ ⲁⲩⲱ ⲁϥⲕⲓⲙ [ⲛ̅ϭⲓ ⲡⲕⲟⲥ]‐\n[ⲙⲟⲥ]\nⲁ[ⲓ̈ⲣ ϩⲟⲧⲉ ⲁⲩⲱ ⲉⲓⲥϩⲏⲏⲧⲉ ⲁⲓ̈]ⲛⲁⲩ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡⲟⲩⲟⲉⲓⲛ [ⲉⲩⲁⲗⲟⲩ ⲉⲧⲁϩⲁϩⲉ] ⲉⲣⲁⲧϥ ⲛⲁⲓ̈\nⲛ̅ⲧⲁⲣⲓⲛⲁ[ⲩ ⲉⲣⲟϥ ⲁϥϣⲱⲡ]ⲉ ⲉϥⲟ ⲛ̅ⲑⲉ ⲛ̅ⲟⲩ‐\nⲛⲟϭ ⲁⲩⲱ ⲛⲁϥⲕⲱ[ⲧⲉ ⲙ̅ⲡⲉ]ϥⲥⲙⲁⲧ ⲉϥⲟ ⲛ̅ⲑⲉ\nⲛ̅ⲟⲩϩⲁⲗ ⲛ̅ⲛⲁⲩ[ⲟ ⲛ̅ϩⲁϩ ⲁⲛ ⲙ̅]ⲡⲁⲙ̅ⲧⲟ ⲉⲃⲟⲗ\nⲁⲩⲱ ⲛⲉⲟⲩⲛ ⲟ[ⲩⲉⲓ]ⲛⲉ ⲉ[ϥⲟ ⲛ̅]ϩⲁϩ ⲙ̅ⲙⲟⲣⲫⲏ\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲟⲩⲟ[ⲉⲓⲛ] ⲁⲩⲱ ⲛ[ⲓⲥⲙⲁⲧ] ⲛⲁⲩⲟⲩⲟⲛϩ\nϩⲓⲧⲛ̅ ⲛⲉⲩⲉⲣⲏⲩ ⲁ[ⲩⲱ] ⲡⲉ[ⲥⲙⲁ]ⲧ’· ⲛⲁϥⲟ ⲛ̅ϣⲟ[ⲙ]‐\nⲧ[ⲉ] ⲙ̅ⲙⲟⲣⲫⲏ ⲡⲉϫ[ⲁϥ] ⲛⲁⲓ̈ ϫⲉ ⲓ̈ⲱϩⲁⲛⲛⲏ· ⲓ̈ⲱ‐\n[ϩⲁⲛ]ⲛⲏ· ⲉⲧⲃⲉ ⲟⲩ[ⲕⲣ̅ⲇⲓ]ⲥⲧⲁⲍⲉ ⲏ ⲉⲧⲃⲉ ⲟⲩ\n[ⲕⲟ] ⲛ̅ϩⲟⲧⲉ ⲙⲏ ⲛ̅[ⲧⲕ] ⲟⲩϣⲙ̅ⲙⲟ ⲁϯⲉⲓⲇⲉⲁ\n[ⲉ]ⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲙ̅ⲡ[ⲉⲣⲣ̅ ϩ]ⲏⲧ ϣⲏⲙ ⲁⲛⲟⲕ ⲡⲉⲧ‐\n[ϣⲟⲟⲡ ⲛⲙ̅ⲙⲏⲧⲏⲩⲧⲛ̅] ⲛ̅ⲟⲩⲟⲉⲓϣ ⲛⲓⲙ ⲁⲛⲟⲕ\n[ⲡⲉ ⲡⲉⲓⲱⲧ ⲁⲛⲟⲕ ⲡⲉ] ⲧⲙⲁⲁⲩ· ⲁⲛⲟⲕ ⲡⲉ ⲡϣⲏ‐\n[ⲣⲉ· ⲁⲛⲟⲕ ⲡⲉ ⲡⲓⲁⲧ]ⲧⲱⲗⲙ ⲁⲩⲱ ⲡⲓⲁⲧϫⲱϩⲙ\n[ⲧⲉⲛⲟⲩ ⲁⲓ̈ⲉⲓ ⲉⲧⲥⲉⲃ]ⲟⲕ [ϫ]ⲉ ⲟⲩ ⲡⲉⲧϣⲟⲟⲡ\n[ⲁⲩⲱ ⲟⲩ ⲡⲉⲧⲁϩϣⲱⲡⲉ ⲁⲩ]ⲱ [ⲟ]ⲩ ⲡⲉⲧϣⲉ ⲉ‐\n[ϣⲱⲡⲉ ϫⲉⲕⲁⲁⲥ ⲉⲕⲛⲁⲙ̅ⲙⲉ ⲉⲛ]ⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟ[ⲛϩ]\n[ⲁⲛ ⲙⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲁⲩⲱ ⲉⲧⲥⲉⲃⲟ]ⲕ’ ⲉⲧⲅⲉ[ⲛⲉⲁ]\n[ⲛ̅ⲁⲧⲕⲓⲙ ⲛ̅ⲧⲉ ⲡⲓⲧⲉⲗⲓⲟⲥ ⲛ̅ⲣⲱⲙⲉ ⲧ]ⲉⲛⲟⲩ‐\n[ϭⲉ ϥⲓ ⲙ̅ⲡⲉⲕϩⲟ ⲉϩⲣⲁⲓ̈ ⲉⲃⲟⲗ ϫⲉⲕⲁⲁ]ⲥ ⲉⲕⲛⲁ‐\n[ϫⲓ ⲛ̅ⲛⲉϯⲛⲁⲧⲥⲉⲃⲟⲟⲩ ⲉⲣⲟⲕ ⲙ̅]ⲡⲟⲟⲩ [ⲁ]ⲩ[ⲱ]\n[ⲛ̅ⲕⲧⲁⲩⲟⲩ ⲛ̅ⲛⲉⲕϣ̅ⲃ̅ⲣ̅ⲡ̅]̅̅̅ⲛ̅̅ⲁ̅ ⲛⲁⲓ̈ ⲉⲧϣ[ⲟⲟ]ⲡ\n[ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧⲕⲓⲙ] ⲛ̅ⲧⲉ ⲡⲓⲧⲉⲗⲓⲟⲥ\n[ⲛ̅ⲣⲱⲙⲉ ⲁⲩⲱ ⲁⲛⲟⲕ ⲁⲓ̈ϫⲛ]ⲟⲩⲥ ϫⲉⲕⲁⲁⲥ ⲉⲓ̈[ⲛⲁ]‐"
+        },
+        {
+          "title": "The One",
+          "subtitle": "The One",
+          "heading": "The One (2, 25-4, 19)",
+          "rangeLabel": "2, 25-4, 19",
+          "range": {
+            "start": {
+              "page": 2,
+              "line": 25
+            },
+            "end": {
+              "page": 4,
+              "line": 19
+            }
+          },
+          "english": "I asked if I might understand this, and it said to me, The One is a sovereign that\nhas nothing over it. It is God and Parent, Father of the All, the invisible one that\nis over the All, that is incorruptible, that is pure light at which no eye can gaze.\nThe One is the Invisible Spirit. We should not think of it as a god or like a\ngod. For it is greater than a god, because it has nothing over it and no lord\nabove it. It does not [exist] within anything inferior [to it, since everything]\nexists within it, [for it established] itself. It is eternal, since it does not need\nanything. For it is absolutely complete. It has never lacked anything in order to\nbe completed by it. Rather, it is always absolutely complete in light.\nThe One is\nillimitable, since there is nothing before it to limit it,\nunfathomable, since there is nothing before it to fathom it,\nimmeasurable, since there was nothing before it to measure it,\ninvisible, since nothing has seen it,\neternal, since it exists eternally,\nunutterable, since nothing could comprehend it to utter it,\nunnamable, since there is nothing before it to give it a name.\nThe One is the immeasurable light, pure, holy, immaculate. It is unutterable,\nand is perfect in incorruptibility. Not that it is just perfection, or blessedness, or\ndivinity: it is much greater.\nThe One is not corporeal and it is not incorporeal.\nThe One is not large and it is not small.\nIt is impossible to say,\nHow much is it?\nWhat [kind is it]?\nFor no one can understand it.\nThe One is not among the things that exist, but it is much greater. Not that it\nis greater. Rather, as it is in itself, it is not a part of the aeons or time. For\nwhatever is part of a realm was once prepared by another. Time was not allotted\nto it, since it receives nothing from anyone: what would be received would be on\nloan. The one who is first does not need to receive anything from another. It\nbeholds itself in its light.\nThe One is majestic and has an immeasurable purity.\nThe One is a realm that gives a realm,\nlife that gives life,\na blessed one that gives blessedness,\nknowledge that gives knowledge,\na good one that gives goodness,\nmercy that gives mercy and redemption,\ngrace that gives grace.\nNot that the One possesses this. Rather, the One gives immeasurable and\nincomprehensible light.\nWhat shall I tell you about it? Its eternal realm is incorruptible, at peace,\ndwelling in silence, at rest, before everything.\nIt is the head of all realms, and it is the one who sustains them through its\ngoodness.\nWe would not know [what is ineffable], we would not understand what is\nimmeasurable, were it not for the one who has come from the Father. This is the\none who has told these things to us [alone].",
+          "coptic": "[ⲛ̅ⲣⲱⲙⲉ ⲁⲩⲱ ⲁⲛⲟⲕ ⲁⲓ̈ϫⲛ]ⲟⲩⲥ ϫⲉⲕⲁⲁⲥ ⲉⲓ̈[ⲛⲁ]‐\n[ⲙ̅ⲙⲉ ⲉⲣⲟⲥ ⲁⲩⲱ ⲡⲉϫⲁϥ] ⲛⲁⲉⲓ ϫⲉ ⲧⲙ[ⲟ]ⲛⲁⲥ\n[ⲟⲩⲙⲟⲛⲁⲣⲭⲓⲁ ⲧⲉ ⲉⲙⲛ̅] ⲡⲉⲧϣⲟⲟⲡ ϩⲓϫⲱⲥ\n[ⲡⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ⲛ̅ⲛⲟⲩⲧ]ⲉ ⲁⲩⲱ ⲛ̅ⲉⲓⲱⲧ ⲙ̅ⲡ‐\n[ⲧⲏⲣϥ ⲡⲉ ⲡⲓⲁϩⲟⲣⲁⲧ]ⲟⲥ ⲉⲧϣⲟⲟⲡ ϩⲓϫⲛ̅\n[ⲡⲧⲏⲣϥ ⲉϥϣⲟⲟⲡ ⲛ̅]ⲧⲙ̅ⲛ̅̅ⲧ̅ⲁⲧⲧⲉⲕⲟ ⲉⲧϣⲟ‐\n[ⲟⲡ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ] ⲡⲁⲓ̈ ⲉⲧⲉ ⲙⲛ̅\n[ϣϭⲟⲙ ⲛ̅ⲗⲁⲁⲩ ⲛ̅ⲃⲁⲗ ⲉϭⲱ]ϣⲧ ⲛ̅ⲥⲱϥ ⲛ̅‐\n[ⲧⲟϥ ⲡⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅] ⲛ̅ⲁ[ϩⲟⲣⲁⲧ]ⲟⲛ ⲛ̅ⲥϣⲉ ⲁⲛ\n[ⲉⲙⲉⲉⲩⲉ ⲉ]ⲣ[ⲟ]ϥ ⲛ̅ⲑⲉ ⲛ̅ⲛ[ⲓⲛⲟ]ⲩⲧⲉ ⲏ ϫⲉ ⲉϥⲟ]\n[ⲛ̅ⲧⲉⲓϩ]ⲉ ⲛ̅ⲧⲟϥ ⲅⲁⲣ ⲟⲩϩⲟⲩⲟ ⲁⲛⲟⲩⲧⲉ\n[ⲡⲉ ⲉⲙⲛ̅ ⲡ]ⲉⲧϣⲟⲟⲡ ϩⲓϫⲱϥ ⲙⲛ̅ ⲗⲁⲁⲩ ⲅⲁⲣ\nⲟ ⲛ̅ϫⲟⲉⲓⲥ [ⲉⲣⲟϥ ϥϣⲟⲟⲡ ⲅⲁⲣ] ⲁⲛ ϩⲛ̅ ⲗ[ⲁ]ⲁⲩ\nⲛ̅ϭⲱϫⲃ’[ⲉⲣⲟϥ ⲉⲣⲉⲡⲧⲏⲣϥ ϣ]ⲟⲟⲡ ⲛ̅ϩⲏⲧϥ\n(blank)\nⲟⲩⲁⲁⲧϥ [ⲛ̅ⲧⲟϥ ⲟⲩϣⲁ ⲉⲛⲉϩ ⲡ]ⲉ ⲉⲃⲟⲗ ϫⲉ\nϥⲣ̅ ⲭⲣⲉⲓ[ⲁ ⲛ̅ⲗⲁⲁⲩ ⲁⲛ ⲛ̅ⲧⲟϥ ⲅ]ⲁⲣ ⲟⲩϫⲱⲕ ⲧⲏⲣϥ\nⲡⲉ ⲙ̅ⲡⲉ[ϥϣⲱⲱⲧ ⲛ̅ⲗⲁⲁⲩ ϫⲉ]ⲕⲁⲁⲥ ⲉϥⲛⲁ\nϫⲱⲕ’ ⲛ̅ϩⲏ[ⲧϥ ⲁⲗⲗⲁ ⲛ̅ⲟⲩⲟ]ⲉⲓϣ ⲛⲓⲙ ⲉϥϫⲏⲕ\nⲧⲏⲣϥ ϩⲛ̅ ⲟ[ⲩⲟⲉⲓⲛ ⲟⲩⲁⲧϯ ⲧⲟ]ϣϥ ⲡⲉ ⲉⲃⲟⲗ\nϫⲉ ⲙⲛ̅ ⲡⲉ[ⲧϩⲁⲧⲉϥϩⲏ ⲁⲧ]ⲣⲉϥϯ ⲧⲱϣ ⲉⲣⲟϥ\nⲟⲩⲁⲧϩⲉⲧ’[ϩⲱⲧϥ ⲡⲉ ϫⲉ ⲙ]ⲛ̅ ⲡⲉⲧϣⲟⲟⲡ\nϩⲁⲧⲉϥϩⲏ ⲁ[ⲧⲣⲉϥϩⲉⲧϩⲱⲧϥ ⲟ]ⲩⲁ[ⲧϣⲓⲧϥ ⲡⲉ]\nϫⲉ ⲙ̅ⲡⲉⲗⲁ[ⲁⲩ ϣⲱⲡⲉ ϩⲁⲧⲉϥϩⲏ ⲁⲧⲣⲉϥϣⲓ]\nⲉⲣⲟϥ ⲟⲩⲁⲧ[ⲛⲁⲩ ⲉⲣⲟϥ ⲡⲉ ⲉⲃⲟⲗ ϫⲉ ⲙ̅ⲡⲉ]‐\nⲗⲁⲁⲩ ⲛⲁⲩ ⲉⲣ[ⲟϥ ⲟⲩϣⲁ ⲉⲛⲉϩ ⲡⲉ ⲉϥϣⲟⲟⲡ]\nϣⲁ ⲉⲛⲉϩ ⲟⲩⲁ[ⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲡⲉ ⲉⲃⲟⲗ ϫⲉ ⲙ̅]‐\nⲡⲉⲗⲁⲁⲩ ϣⲧⲉ[ϩⲟϥ ⲉϣⲁϫⲉ ⲉⲣⲟϥ ⲟⲩⲁⲧϯ]‐\nⲣⲁⲛ ⲉⲣⲟϥ ⲡ[ⲉ ⲉⲃⲟⲗ ϫⲉ ⲙⲛ̅ ⲡⲉⲧϩⲁⲧⲉϥϩⲏ]\nⲁⲧⲣⲉϥϯ ⲣⲁⲛ ⲉ[ⲣⲟϥ ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲁⲧϣⲓⲧϥ]\nⲡⲉ ⲉϥⲧⲃ̅ⲃⲏⲩ ⲉ[ϥⲟⲩⲁⲁⲃ ⲛ̅ⲕⲁⲑⲁⲣⲟⲛ ⲟⲩⲁⲧ]\nϣⲁϫⲉ ⲉⲣⲟϥ ⲡ[ⲉ ⲉϥϫⲏⲕ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ]\nⲧⲉⲕⲟ ϩⲛ̅ ⲟⲩ[ⲙ̅ⲛ̅ⲧ̅ⲧⲉⲗⲓⲟⲥ ⲁⲛ ⲟⲩⲧⲉ ϩⲛ̅]\nⲟⲩⲙ̅ⲛ̅ⲧ̅ⲙⲁⲕ[ⲁⲣⲓⲟⲥ ⲁⲛ ⲟⲩⲧⲉ ϩⲛ̅ ⲟⲩⲙ̅ⲛⲧ̅]‐\nⲛⲟⲩⲧⲉ ⲁⲛ ⲁ[ⲗⲗⲁ ⲉϥⲥⲟⲧⲡ ⲛ̅ϩⲟⲩⲟ ⲟⲩⲥⲱ]‐\nⲙⲁⲧⲓⲕⲟⲥ ⲁⲛ [ⲡⲉ ⲟⲩⲧⲉ ⲟⲩⲁⲧⲥⲱⲙⲁ ⲁⲛ ⲡⲉ]\nⲟⲩⲛⲟϭ ⲁⲛ ⲡ[ⲉ ⲟⲩⲧⲉ ⲟⲩϣⲏⲙ ⲁⲛ ⲡⲉ ⲙⲛ̅]\nⲑⲉ ⲛ̅ϫⲟⲟⲥ ϫ[ⲉ ⲟⲩⲏⲣ ⲡⲉ ⲏ ⲟⲩ ⲙ̅ⲙⲓⲛⲉ ⲡⲉ]\nⲙⲛ̅ ϭⲟⲙ ⲅⲁⲣ [ⲛ̅ⲧⲉⲗⲁⲁⲩ ⲣ̅ⲛⲟⲉⲓ ⲙ̅ⲙⲟϥ ⲟⲩ]‐\nⲗⲁⲁⲩ ⲁⲛ ⲡⲉ [ϩⲛ̅ ⲛⲉⲧϣⲟⲟⲡ’ ⲁⲗⲗⲁ ⲉϥⲥⲟⲧⲡ]\nⲛ̅ϩⲟⲩⲟ ϩⲱⲥ [ⲁⲛ ⲉϥⲥⲟⲧⲡ ⲁⲗⲗⲁ ⲙ̅ⲡⲁⲓ̈ ⲉ]‐\nⲧⲉ ⲡⲱϥ ⲉϥⲙⲉ[ⲧⲉⲭⲉ ⲁⲛ ϩⲛ̅ ⲛⲁⲓⲱⲛ ⲟⲩⲇⲉ]\nϩⲛ̅ ⲭⲣⲟⲛⲟⲥ ⲡⲉ[ⲧⲙⲉⲧⲉⲭⲉ ⲅⲁⲣ ϩⲛ̅ ⲟⲩⲁⲓⲱⲛ]\nⲡⲁⲓ̈ 〈ⲉⲛ〉ⲧⲁⲩⲣ̅ϣ[ⲟⲣⲡ ⲛ̅ⲥⲃ̅ⲧⲱⲧϥ ⲙ̅ⲡⲟⲩⲡⲟⲣϫϥ]\nϩⲛ̅ ⲟⲩⲭⲣⲟⲛ[ⲟⲥ ϫⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲕⲉⲟⲩⲁ ⲉ]‐\nⲙⲁϥϫⲓ ⲗⲁ[ⲁⲩ ⲡⲉⲧⲟⲩϫⲓ ⲙ̅ⲙⲟϥ ⲅⲁⲣ ⲉⲡⲟⲩ]‐\nϣⲓⲡ ⲡⲉ· ϥϣ[ⲁⲁⲧ] ⲅⲁⲣ ⲁ[ⲛ] ⲛ̅ϭ[ⲓ ⲡⲉⲧⲟ ⲛ̅ϣⲟⲣⲡ]\nⲉⲣⲟϥ ϫⲉⲕⲁ[ⲁⲥ] ⲉϥⲛⲁϫⲓ ⲉⲃ[ⲟⲗ ϩⲓⲧⲟⲟⲧϥ]\nⲡⲁⲓ̈ ⲅⲁⲣ ⲉϥⲉⲓⲟⲣⲙ ⲛ̅ⲥⲱϥ ⲟ[ⲩⲁⲁⲧϥ ϩⲣⲁⲓ̈ ϩⲙ̅]\nⲡ[ⲉϥ]ⲟⲩⲟⲉⲓⲛ ⲡ[ϫⲱⲕ ⲉⲃⲟⲗ ⲅⲁⲣ] ⲟⲩⲙⲉⲅⲉ‐\nⲑⲟⲥ ⲡⲉ ⲟⲩⲛ[ⲟⲩⲥ ⲛ̅ⲁⲕⲉⲣⲁⲓⲟⲥ ⲛ̅]ⲁⲧϣⲓⲧϥ\nⲡⲉ ⲟⲩⲁⲓⲱ[ⲛ ⲡⲉ ⲉϥϯ ⲛ̅ⲟⲩⲁⲓⲱⲛ] ⲟⲩⲱⲛϩ\nⲡⲉ ⲉϥϯ ⲛ̅ⲟ[ⲩⲱⲛϩ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ] ⲡⲉ ⲉϥϯ\nⲛ̅ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲙⲁ[ⲕⲁⲣⲓⲟⲥ ⲟⲩⲅⲛⲱⲥ]ⲓⲥ ⲡⲉ ⲉϥ‐\nϯ ⲛ̅ⲟⲩⲥⲟⲟⲩⲛ [ⲟⲩⲁⲅⲁⲑⲟⲥ ⲡⲉ ⲉϥ]ϯ ⲛ̅ⲟⲩⲙ̅ⲛ̅ⲧ̅‐\nⲁⲅⲁⲑⲟⲥ ⲟⲩⲛ[ⲁⲉ ⲡⲉ ⲉϥϯ ⲛ̅ⲛⲟⲩⲛ]ⲁ ⲙⲛ̅ ⲟⲩⲥⲱⲧⲉ\nⲟⲩⲭⲁⲣⲓⲥ ⲡⲉ ⲉ[ϥϯ ⲛ̅ⲟⲩϩⲙⲟⲧ ⲟⲩⲭ] ϩⲟⲧⲓ ϫⲉ ⲟⲩⲛ̅‐\nⲧⲁ[ⲥ]ϥ ⲁⲗⲗⲁ ϫ[ⲉ ⲉϥϯ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ]ⲉ ⲛ̅ⲁⲧϣⲓⲧϥ ⲛ̅‐\n[ⲁⲧⲧⲉϩⲟϥ ⲡⲱⲥ ϯϣⲁϫⲉ ⲛⲙ̅ⲙⲁ]ⲕ ⲉⲧⲃⲏⲧϥ ⲡⲉϥ‐\n[ⲁⲓⲱⲛ ⲅⲁⲣ ⲟⲩⲁⲧⲧⲉⲕⲟ ⲡⲉ ⲉϥⲥ]ϭⲣⲁϩⲧ ⲁⲩⲱ ⲉϥ‐\n[ϣⲟⲟⲡ ϩⲛ̅ ⲟⲩⲥⲓⲅⲏ ⲉϥⲙ̅ⲧⲟⲛ] ⲙ̅ⲙⲟϥ ⲉϥⲟ ⲛ̅‐\n[ϣⲟⲣⲡ ⲉⲡⲧⲏⲣϥ ⲛ̅ⲧⲟϥ ⲅⲁⲣ ⲡ]ⲉ ⲧⲁⲡⲉ ⲛ̅ⲁⲓⲱⲛ\n[ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛ̅ⲧⲟϥ ⲉⲧϯ ⲛⲁⲩ ⲛ̅]ⲟⲩⲧⲁϫⲣⲟ ϩⲣⲁⲓ̈ ϩⲛ̅\n[ⲧⲉϥⲙ̅ⲛ̅ⲧ̅ⲁⲅⲁⲑⲟⲥ ⲧⲛ̅ⲥⲟⲟⲩ]ⲛ ⲅⲁⲣ ⲁⲛ ⲁⲛⲟⲛ ⲁ‐\n[ⲛⲉⲧⲟ ⲛ̅ⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲁⲩⲱ ⲛ̅]ⲧⲛ̅ⲙ̅ⲙⲉ ⲁⲛ 〈ⲁⲛ〉ⲉⲧ’\n[ⲟ ⲛ̅ⲁⲧϣⲓⲧϥ ⲉⲓⲙⲏⲧⲓ ⲁⲡⲉⲛ]ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\n[ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡ]ⲉⲓⲱⲧ ⲡⲁⲓ̈ ⲅⲁⲣ ⲡⲉ‐\n[ⲧⲁϩϫⲟⲟⲥ ⲉⲣⲟⲛ ϩⲱⲱⲛ ⲛ̅]ⲧⲟϥ ⲅⲁⲣ ⲉⲧϭⲟϣⲧ ⲉ‐"
+        },
+        {
+          "title": "Barbelo Appears",
+          "subtitle": "Barbelo Appears",
+          "heading": "Barbelo Appears (4, 19-6, 10)",
+          "rangeLabel": "4, 19-6, 10",
+          "range": {
+            "start": {
+              "page": 4,
+              "line": 19
+            },
+            "end": {
+              "page": 6,
+              "line": 10
+            }
+          },
+          "english": "This Father is the one who beholds himself in the light surrounding him, which\nis the spring of living water and provides all the realms. He reflects on his image\neverywhere, sees it in the spring of the Spirit, and becomes enamored of his\nluminous water, [for his image is in] the spring of pure luminous water\nsurrounding him.\nHis thought became a reality, and she who appeared in his presence in\nshining light came forth. She is the first power who preceded everything and\ncame forth from his mind as the Forethought of the All. Her light shines like\nthe Father’s light; she, the perfect power, is the image of the Perfect and\nInvisible Virgin Spirit.\nShe, [the first] power, the glory of Barbelo, the perfect glory among the\naeons, the glory of revelation, she glorified and praised the Virgin Spirit, for\nbecause of the Spirit she had come forth.\nShe is the first Thought, the image of the Spirit. She became the universal\nwomb, for she precedes everything,\nthe Mother-Father,\nthe first Human,\nthe holy Spirit,\nthe triple male,\nthe triple power,\nthe androgynous one with three names,\nthe aeon among the invisible beings,\nthe first to come forth.\nBarbelo asked the Invisible Virgin Spirit to give her Foreknowledge, and the\nSpirit consented. When the Spirit consented, Foreknowledge appeared and\nstood by Forethought. This is the one who came from the Thought of the\nInvisible Virgin Spirit. Foreknowledge glorified the Spirit and the Spirit’s\nperfect power, Barbelo, for because of her Foreknowledge had come into being.\nShe asked again to be given Incorruptibility, and the Spirit consented. When\nthe Spirit consented, Incorruptibility appeared and stood by Thought and\nForeknowledge. Incorruptibility glorified the invisible one and Barbelo. Because\nof her they had come into being.\nBarbelo asked to be given Life Eternal, and the Invisible Spirit consented.\nWhen the Spirit consented, Life Eternal appeared, and they stood together and\nglorified the Invisible Spirit and Barbelo. Because of her they had come into\nbeing.\nShe asked again to be given Truth, and the Invisible Spirit consented. Truth\nappeared, and they stood together and glorified the good Invisible Spirit and\nits Barbelo. Because of her they had come into being.\nThese are the five aeons of the Father. They are:\nthe first human, the image of the Invisible Spirit, that is,\nForethought, which is Barbelo, and Thought,\nalong with Foreknowledge,\nIncorruptibility,\nLife Eternal\nand Truth.\nThese are the five androgynous aeons, which are the ten aeons, which is the\nFather.",
+          "coptic": "[ⲧⲁϩϫⲟⲟⲥ ⲉⲣⲟⲛ ϩⲱⲱⲛ ⲛ̅]ⲧⲟϥ ⲅⲁⲣ ⲉⲧϭⲟϣⲧ ⲉ‐\n[ⲣⲟϥ ⲟⲩⲁⲁⲧϥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲉϥⲟ]ⲩⲟⲉⲓⲛ [ⲉⲧ]ⲕⲧⲏⲩ ⲉ‐\n[ⲣⲟϥ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲧⲡⲏⲅⲏ ⲙ̅ⲡ]ⲙⲟⲟⲩ ⲛ̅ⲱⲛϩ ⲁⲩⲱ\n[ⲉϥϯ ⲛ̅ⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ϩ]ⲛ̅ ⲥⲙⲟⲧ ⲛⲓⲙ ⲉϥⲉⲓ‐\n[ⲱⲣⲙ ⲛ̅ⲥⲁ ⲧⲉϥϩⲓⲕⲱⲛ ⲉϥⲛ]ⲁⲩ ⲉⲣⲟⲥ ϩⲣⲁ[ⲓ̈]\n[ϩⲛ̅ ⲧⲡⲏⲅⲏ ⲛ̅ⲧⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉϥ]ⲟⲩⲱϣⲉ ϩⲙ̅ ⲡⲉϥ‐\n[ⲟⲩⲟⲉⲓⲛ ⲙ̅ⲙⲟⲟⲩ ⲉⲧϩⲛ̅ ⲧⲡⲏⲛ̅]ⲧⲡⲏⲅⲏ ⲛ̅ⲧⲉ ⲡⲙⲟ‐\n[ⲟⲩ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ ⲉⲧ]ⲕⲧⲏⲩ ⲉⲣⲟϥ ⲁⲩⲱ\n[ⲁⲧⲉϥⲉⲛⲛⲟⲓⲁ ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩ]ϩⲱⲃ ⲁⲩⲱ ⲁⲥϭⲱⲗⲡ’\n[ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲁⲓ̈ ⲉⲛⲧⲁϩⲟⲩⲱⲛ]ϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉϥⲙ̅‐\n[ⲧⲟ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲣ̅ⲣⲓⲉ ⲛ̅ⲧⲉ] ⲡⲉϥⲟⲩⲟⲉⲓⲛ ⲧⲁⲓ̈ ⲧⲉ‐\n[ⲧϣⲟⲣⲡ ⲛ̅ϭⲟⲙ ⲛ̅ⲧⲁϩϣ]ⲱⲡⲉ ϩⲁⲧⲟⲩⲉϩⲏ ⲧⲏ‐\n[ⲣⲟⲩ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅] ⲡⲉϥⲙⲉⲉⲩⲉ ⲉⲧⲉ\n[ⲧⲁⲓ̈ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲙ̅ⲡⲧⲏⲣϥ ⲡ]ⲉⲥⲟⲩⲟⲉⲓⲛ ⲉ‐\n[ⲧⲣ̅ ⲟⲩⲟⲉⲓⲛ ϩⲙ̅ ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉ ⲡⲉϥ]ⲟⲩⲟⲉⲓⲛ ⲧϭⲟⲙ’\n[ⲉⲧϫⲏⲕ ⲉ]ⲃⲟⲗ [ⲉ]ⲧⲉ ⲧⲁⲓ̈ [ⲧⲉ ⲑⲓ]ⲕⲱⲛ ⲙ̅ⲡⲓⲁⲧⲛⲁⲩ\n[ⲉⲣⲟϥ ⲙ̅ⲡ]ⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅̅ⲁ̅ ⲉϥϫⲏⲕ ⲉⲃⲟⲗ\n[ⲧϣⲟⲣⲡ ⲛ̅ϭ]ⲟⲙ ⲡⲉⲟⲟⲩ ⲛ̅ⲃⲁⲣⲃⲏⲗⲱ ⲡⲉⲟⲟⲩ\nⲉⲧϫⲏⲕ ⲉⲃⲟ[ⲗ] ϩⲛ̅ ⲛⲁⲓⲱⲛ ⲡⲉⲟⲟⲩ ⲙ̅ⲡⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟ[ⲗ] ⲁ[ⲥ]ϯ ⲉⲟ[ⲟ]ⲩ ⲙ̅ⲡ[ⲡ]ⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ⲉⲥⲥⲙⲟⲩ ⲉⲣⲟϥ ϫⲉ ⲉⲧⲃⲏⲧϥ\nⲁⲥⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲡⲁⲓ̈ ⲡⲉ ⲡϣⲟⲣⲡ ⲙ̅ⲙⲉⲉⲩⲉ\nⲛ̅ⲧⲉϥϩⲓⲕⲱⲛ’ ⲁⲥϣⲱⲡⲉ ⲙ̅ⲙⲏⲧⲣⲁ ⲙ̅ⲡⲧⲏⲣϥ\nϫⲉ ⲛ̅ⲧⲟⲥ ⲉ[ⲥ]ⲟ ⲛ̅ϣⲟⲣⲡ ⲉⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ· ⲧⲙ̅ⲏ̅‐\nⲧ̅ⲣ̅ⲟ̅ⲡⲁⲧ̅ⲱ[ⲣ̅] ⲡϣⲟⲣⲡ’ ⲛ̅ⲣⲱⲙⲉ ⲡ̅ⲛⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ· ⲡϣⲟⲙⲧ 〈ⲛ̅〉ϩⲟⲟⲩⲧ ⲧϣⲟⲙⲧⲉ ⲛ̅ϭⲟⲙ\nⲡϣⲟⲙⲧ ⲛ̅ⲣⲁⲛ ⲛ̅ϩⲟ[ⲟ]ⲩⲧ ⲥϩⲙⲉ ⲁⲩⲱ ⲡⲁⲓ‐\nⲱⲛ ⲛ̅ϣⲁ ⲉⲛⲉϩ ϩⲛ̅ ⲛ̅ⲁⲧⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲁⲩⲱ\nⲡϣⲟⲣⲡ ⲛ̅ⲉⲓ ⲉⲃⲟⲗ ⲁϥ[ⲁⲓ]ⲧⲉⲓ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅\nⲉⲧⲉ ⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅ ⲧⲉ ⲁⲧⲛ̅ ⲛⲁⲥ ⲛ̅ⲟⲩⲡⲣ[ⲟ]ⲅⲛ[ⲱ]‐\nⲥⲓⲥ ⲁⲩⲱ ⲁϥⲉⲓⲱⲣⲙ’ ⲛ̅ϭⲓ ⲡ̅ⲛ̅ⲁ̅ ⲛ̅ⲧⲁ[ϥ]ⲉ[ⲓ]ⲱ[ⲣⲙ]\nⲇⲉ ⲁⲥϭⲱⲗⲡ ⲉⲃⲟⲗ [ⲛ̅]ϭⲓ ⲧⲡⲣⲟⲅⲛⲱⲥⲓ[ⲥ ⲁⲩ]‐\nⲱ ⲁⲥⲁϩⲉⲣⲁⲧ̅ⲥ̅ ⲙⲛ̅ ⲧ[ⲡ]ⲣⲟⲛⲟⲓⲁ· ⲧⲁⲓ̈ ⲟⲩⲉⲃ[ⲟⲗ ]\nⲧⲉ ϩⲙ̅ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲓⲁⲧ ⲛⲁⲩ ⲉⲣⲟϥ ⲙ̅[ⲡⲁⲣ]‐\nⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲉⲥϯ ⲉⲟⲟⲩ ⲛⲁϥ ⲁ[ⲩⲱ]\nⲧⲉϥϭⲟⲙ ⲉⲧϫⲏⲕ ⲉⲃⲟ[ⲗ ⲃ̅ⲁ̅]̅ⲣ̅̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅̅ ϫ[ⲉ ⲛ̅]‐\nⲧⲁⲥϣⲱⲡⲉ ⲉ[ⲧⲃⲏ]ⲧⲥ̅ ⲁ[ⲩⲱ ⲟ]ⲛ ⲁⲥⲁⲓⲧⲉ[ⲓ]\nⲉⲧⲛ̅ ⲛⲁⲥ ⲛ̅ϭ[ⲓ ⲧⲙ̅ⲛ̅ⲧ̅]ⲁⲧ ⲧⲉⲕ]ⲟ ⲁⲩⲱ ⲁϥⲉⲓ‐\nⲱⲣⲙ ϩⲙ̅ ⲡⲧⲣⲉ[ϥⲉⲓⲱⲣⲙ ⲁⲥϭⲱⲗ]ⲡ ⲉⲃⲟⲗ\nⲛ̅ϭⲓ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ ⲧ[ⲉⲕ]ⲟ ⲁ[ⲩⲱ ⲁⲥⲁϩⲉⲣ]ⲁⲧ̅ⲥ̅ ⲙⲛ̅\nⲡⲙⲉⲉⲩⲉ ⲁⲩⲱ [ⲧ]ⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲥϯ ⲉⲟⲟⲩ\nⲙ̅ⲡⲓⲁⲧ ⲛⲁⲩ ⲉⲣ[ⲟ]ϥ ⲙⲛ̅ ⲧⲃⲁⲣⲃⲏⲗⲱ ⲧⲁⲓ̈ ⲉ‐\nⲧⲁⲩϣⲱⲡⲉ ⲉⲧ[ⲃⲏⲧ]ⲥ̅ ⲁⲩⲱ ⲁⲥⲁⲓⲧⲉⲓ [ⲛ̅]ϭⲓ ⲧⲃ̅ⲁ̅ⲣ̅‐\nⲃⲏⲗⲱ ⲉⲧⲛ̅ ⲛⲁⲥ ⲛ̅ⲟⲩⲱ[ⲛϩ] ϣⲁ[ⲉ]ⲛⲉϩ ⲁⲩⲱ\nⲁϥⲉⲓⲱⲣⲙ ⲛ̅ϭⲓ ⲡⲁ[ϩ]ⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ\nϩⲙ̅ ⲡⲧⲣⲉϥⲉⲓⲱⲣⲙ ⲁϥϭⲱⲗⲡ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲱⲛϩ\nϣⲁ ⲉⲛⲉϩ ⲁⲩⲱ ⲁ[ⲩⲁϩ]ⲉⲣ[ⲁⲧⲟⲩ] ⲁⲩϯ ⲉⲟⲟⲩ\nⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅[ⲡ̅ⲛ̅]̅ⲁ̅ ⲁ[ⲩⲱ ⲧⲃ̅]ⲁⲣⲃⲏⲗⲱ̅ ⲧⲁⲓ̈\nⲉⲛⲧⲁⲩϣⲱⲡⲉ ⲉⲧ[ⲃⲏⲧⲥ̅] ⲁⲩⲱ ⲟⲛ ⲁⲥⲁⲓⲧⲉⲓ\nⲉⲧⲛ̅ ⲛⲁⲥ ⲛ̅ⲧⲙ[ⲏⲉ] ⲁⲩⲱ [ⲁ]ϥⲉⲓⲱⲣⲙ ⲛ̅ϭⲓ ⲡⲁϩⲟ‐\nⲣⲁⲧⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ⲁⲥϭⲱⲗⲡ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲙⲏⲉ\nⲁⲩⲱ ⲁⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲁⲩϯ ⲉⲟⲟⲩ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟ[ⲛ]\nⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲏⲡ ⲙⲛ̅ ⲧⲉϥⲃ[ⲁ]ⲣⲃⲏⲗⲱ ⲧⲁⲓ̈\nⲉⲛ’ⲧⲁ→ⲩ← ϣⲱⲡ[ⲉ] ⲉⲧⲃⲏⲧⲥ̅ ⲧ[ⲁ]ⲓ̈ ⲧⲉ ⲧⲡⲉⲛⲧⲁⲥ\nⲛ̅ⲁⲓⲱⲛ’ ⲛ̅ⲧⲉ ⲡⲓⲱⲧ [ⲉ]ⲧⲉ ⲡ[ⲁⲓ̈] ⲡⲉ ⲡϣⲟⲣⲡ\nⲛ̅ⲣⲱⲙⲉ ⲑⲓⲕⲱⲛ ⲙ̅ⲡⲓⲁϩⲟⲣⲁ[ⲧ]ⲟⲥ ⲙ̅ⲡⲛ̅ⲁ̅\nⲧⲁⲓ̈ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ· ⲉⲧⲉ ⲧⲁⲓ̈ ⲧ[ⲉ] ⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅\nⲁⲩⲱ ⲡⲙⲉⲉⲩⲉ ⲙⲛ̅ ⲧⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲩⲱ\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ ⲧⲉⲕⲟ ⲁⲩⲱ ⲡⲱⲛϩ [ϣ]ⲁ ⲉⲛⲉϩ· ⲁⲩⲱ\nⲧⲙⲉ·ⲧⲁⲓ̈ ⲧⲉ ⲧⲡⲉⲛⲧⲁⲥ ⲛ̅ⲁ[ⲓ]ⲱⲛ ⲛ̅ϩⲟⲟⲩⲧ ⲥϩⲓ‐\nⲙⲉ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧⲇⲉ[ⲕⲁ]ⲥ ⲛ̅ⲁⲓⲱⲛ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ\nⲡⲉ[ⲓ]ⲱⲧ ⲁⲩⲱ ⲁϥϭⲱϣⲧ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅"
+        },
+        {
+          "title": "Barbelo Conceives",
+          "subtitle": "Barbelo Conceives",
+          "heading": "Barbelo Conceives (6, 10-7, 30)",
+          "rangeLabel": "6, 10-7, 30",
+          "range": {
+            "start": {
+              "page": 6,
+              "line": 10
+            },
+            "end": {
+              "page": 7,
+              "line": 30
+            }
+          },
+          "english": "The Father gazed into Barbelo, with the pure light surrounding the Invisible\nSpirit, and his radiance. Barbelo conceived from him, and he produced a spark of\nlight similar to the blessed light but not as great. This was the only Child of the\nMother-Father that had come forth, the only offspring, the only Child of the\nFather, the pure light. The Invisible Virgin Spirit rejoiced over the light that\nwas produced, that came forth from the first power of the Spirit’s Forethought,\nwho is Barbelo. The Spirit anointed it with his own goodness until it was\nperfect, with no lack of goodness, since it was anointed with the goodness of the\nInvisible Spirit. The Child stood in the presence of the Spirit as the Spirit\nanointed the Child. As soon as the Child received this from the Spirit, it\nglorified the holy Spirit and perfect Forethought. Because of her it had come\nforth.\nThe Child asked to be given Mind as a companion to work with, and the\nSpirit consented. When the Invisible Spirit consented, Mind appeared and\nstood by the anointed, and glorified the Spirit and Barbelo.\nAll these beings came into existence in silence.\nMind wished to create something by means of the word of the Invisible\nSpirit. Its Will became a reality and appeared, with Mind and the light,\nglorifying it. Word followed Will. For the anointed, the divine Self-Generated,\ncreated everything by the Word. Life Eternal, Will, Mind, and Foreknowledge\nstood together and glorified the Invisible Spirit and Barbelo, for because of her\nthey had come into being.\nThe holy Spirit brought the divine Self-Generated Child of himself and\nBarbelo to perfection, so that the Child might stand before the great Invisible\nVirgin Spirit as the divine Self-Generated, the anointed, who honored the Spirit\nwith loud acclaim. The Child came forth through Forethought. The Invisible\nVirgin Spirit set the true, divine Self-Generated over everything and caused all\nauthority and the truth within to be subject to it, so that the Child might\nunderstand everything, the one called by a name greater than every name, for\nthat name will be told to those who are worthy of it.",
+          "coptic": "ⲡⲉ[ⲓ]ⲱⲧ ⲁⲩⲱ ⲁϥϭⲱϣⲧ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅\nϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲉ[ⲧ]ⲧⲃ̅ⲃⲏⲩ ⲉⲧⲕⲧⲏⲩ ⲁⲡⲁϩⲟⲣⲁ‐\nⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲙⲛ̅ ⲡⲉϥⲡⲣ̅ⲣⲉ ⲁⲩⲱ ⲁⲥϫⲉ ⲟⲩⲱ\n[ⲉⲣⲟϥ ⲁ]ϥϫⲡⲟ ⲛ̅ⲟⲩϯⲕ̅ ⲛ̅ⲟⲩⲟⲉⲓⲛ’ ϩⲛ̅ ⲟⲩⲟⲉⲓ‐\n[ⲛ]ⲉ ⲙ̅ⲙ̅ⲛ̅ⲧ̅ⲙⲁⲕⲁⲣⲓ[ⲟⲥ] ⲛ̅ⲉⲓⲛⲉ· ⲉϥϣⲏϣ ⲇⲉ\n[ⲁⲛ] ⲙⲛ̅ ⲧⲉϥⲙ̅ⲛ̅ⲧ̅ⲛ[ⲟ]ϭ ⲡⲁⲓ̈ ⲛⲉⲟⲩϣⲣ̅ⲟⲩⲱⲧ\n[ⲡⲉ] ⲛ̅ⲧⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ ⲉⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉⲧⲉ\n[ⲡⲁⲓ̈] ⲡⲉ ⲡⲉϥϫⲡⲟ ⲟⲩⲁⲁⲧϥ ⲡϣⲣ̅ⲟⲩⲱⲧ ⲛ̅‐\n[ⲧ]ⲉ [ⲡ]ⲉⲓⲱⲧ [ⲡⲟⲩ]ⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ ⲁ[ϥ]ⲧⲉⲗⲏⲗ\n[ⲇ]ⲉ ⲛ̅ϭⲓ ⲡⲁ[ϩⲟⲣ]ⲁⲧⲟⲛ’ [ⲙ̅]ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅̅\nⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ [ⲡⲟ]ⲩⲟⲉ[ⲓⲛ ⲉⲧⲁ]ϩϣⲱⲡⲉ ⲡⲉⲧⲁϩ‐\nϣⲣⲡ ⲟ[ⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉⲃⲟⲗ] ϩⲛ̅ ⲧϣⲟⲣⲡ ⲛ̅ϭⲟ[ⲙ]\nⲛ̅ⲧ〈ⲉ〉ϥ ⲡ[ⲣⲟⲛⲟⲓⲁ] ⲉ[ⲧⲉ] ⲧⲁⲓ̈ ⲧⲉ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅ⲗ̅ⲱ̅\nⲁⲩⲱ ⲁϥ[ⲧ]ⲱϩⲥ̅ ⲙ̅ⲙⲟϥ’ ⲉ[ⲃⲟ]ⲗ ϩⲛ̅ ϯⲙ̅ⲛ̅ⲧⲭⲣ̅ⲥ̅\nⲛ̅ⲧⲏϥ ϣⲁⲛⲧⲉϥ ϣⲱⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲉⲛϥϣⲁ‐\nⲁⲧ ⲛ̅[ⲗ]ⲁⲁⲩ →ⲁ←ⲛ ⲙ̅ⲙ̅ⲛ̅ⲧ̅[ⲭ̅]ⲣ[ⲥ̅] ⲉⲃⲟⲗ ϫⲉ ⲉⲁϥⲧⲁϩⲥϥ\nϩⲣⲁⲓ̈ ϩⲛ̅ ⲧ[ⲙ̅]̅ⲛ̅ⲧ̅̅[ⲭ̅]ⲣⲥ̅ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲥ ⲙ̅ⲡ̅ⲛⲁ̅ ⲁⲩ‐\nⲱ ⲁϥⲁϩⲉⲣⲁⲧϥ ⲙ̅ⲡⲉϥⲙ̅ⲧⲟ ⲉⲃⲟⲗ ⲉϥϣⲟⲩⲟ\nⲉϫⲱϥ ϩⲛ̅ ⲧ[ⲟ]ⲩ[ⲛ]ⲟⲩ ⲇ[ⲉ] ⲛ̅ⲧⲁⲣⲉϥϫⲓ ⲉⲃⲟⲗ ϩⲓ‐\nⲧⲛ̅ ⲡⲉⲡ[ⲛ̅ⲁ̅ ⲁϥ]ϯ ⲉ[ⲟ]ⲟⲩ ⲙ̅ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲁⲩⲱ ⲧⲉⲡⲣⲟ[ⲛⲟⲓ]ⲁ ⲉ[ⲧϫ]ⲏⲕ ⲉⲃⲟⲗ {ϩⲓⲧⲛ̅ ⲡⲉⲡ̅ⲛ̅ⲁ̅\nⲁϥϯ ⲉⲟⲟⲩ ⲙ̅ⲡⲉ[ⲡ̅ⲛ̅ⲁ̅ ⲉ]ⲧⲟⲩⲁⲁⲃ· ⲁⲩⲱ ⲧⲉⲡⲣⲟ‐\nⲛⲟⲓⲁ’ ⲉⲧϫⲏⲕ ⲉ[ⲃⲟ]ⲗ} ⲧⲁ[ⲓ̈ ⲉ]ⲧⲁϥϭⲱⲗⲡ ⲉⲃⲟⲗ\nⲉⲧⲃⲏⲧⲥ̅ ⲁⲩⲱ ⲁϥⲣ̅ⲁⲓⲧⲉⲓ ⲉⲧⲛ̅ ⲛⲁϥ ⲛ̅ⲟⲩϣⲃ̅ⲣ̅‐\nⲣ̅ ϩⲱⲃ ⲉⲧⲉ ⲡⲛⲟⲩⲥ ⲡⲉ ⲁⲩⲱ ⲁϥⲉⲓⲱⲣⲙ ϩⲙ̅\n[ⲡ]ⲧⲣⲉϥⲉⲓ[ⲱⲣ]ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅\nⲁϥϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲛⲟⲩⲥ ⲁⲩⲱ ⲁϥⲁϩⲉ‐\nⲉⲣⲁⲧϥ ⲙⲛ̅ ⲡⲉⲭⲣ̅ⲥ̅ ⲉϥϯ ⲉⲟⲟⲩ ⲛⲁϥ ⲙⲛ̅‐\nⲧⲃⲁⲣⲃⲏⲗⲱ ⲛⲁⲓ̈ ⲇⲉ ⲧⲏⲣⲟⲩ ⲉⲧⲁϩϣⲱⲡⲉ\nϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲕⲁⲣⲱϥ ⲁⲩⲱ ⲡⲙⲉⲉⲩⲉ· ⲁϥⲟⲩ‐\nⲱϣⲉ ϩⲓⲧⲛ̅ ⲡϣⲁϫⲉ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅\nⲉⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϩⲱⲃ ⲁⲩⲱ ⲡⲉϥⲟⲩⲱϣ ⲁϥϣⲱ‐\nⲡⲉ ⲛ̅ⲟⲩⲉⲣⲅⲟⲛ ⲁⲩⲱ ⲁϥϭⲱⲗⲡ ⲉⲃⲟⲗ ⲙⲛ̅‐\nⲡⲛⲟⲩⲥ ⲁⲩⲱ ⲡⲟⲩⲟⲉⲓⲛ ⲉϥϯ ⲉⲟⲟⲩ ⲛⲁϥ\nⲁⲩⲱ ⲡϣⲁϫⲉ ⲁϥⲟⲩⲁϩϥ ⲛ̅ⲥⲁ ⲡⲟⲩⲱϣⲉ\nⲉⲧⲃⲉ ⲡϣⲁϫⲉ ⲅⲁⲣ ⲁϥⲧⲁⲙⲓⲟ ⲙ̅ⲡⲧⲏⲣϥ ⲛ̅‐\nϭⲓ ⲡⲉⲭ̅ⲥ̅ ⲡⲁⲩⲧⲟⲅⲉⲛ[ⲏ]ⲥ ⲛ̅ⲛⲟⲩⲧⲉ ⲡⲱⲛϩ\nⲇⲉ ϣⲁ ⲉⲛⲉϩ ϩⲙ̅ ⲡⲉϥⲟⲩⲱϣ ⲁⲩⲱ ⲡⲛⲟⲩ[ⲥ]\nⲙⲛ̅ ⲧⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲁⲩϯ ⲉ[ⲡ]‐\nⲟⲩ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ⲙⲛ̅ ⲧⲃⲁ̅ⲣⲃⲏⲗ[ⲱ̅]\nϫⲉ ⲉⲧⲃⲏⲧⲥ̅ ⲅⲁⲣ ⲁⲩϣⲱⲡⲉ ⲁⲩⲱ ⲁϥϫⲱⲕ’\nⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲙ̅ⲡⲁⲩⲧⲟ‐\nⲅⲉⲛⲏⲥ ⲛ̅ⲛⲟⲩⲧⲉ ⲡⲉϥϣⲏⲣⲉ ⲙⲛ̅ ⲧⲃ̅ⲁ̅ⲣ̅ⲃ̅ⲏ̅̅[̅ⲗ̅ⲱ̅]\nⲁⲧⲣⲉϥⲁϩⲉⲣⲁⲧϥ̅ ⲉⲡⲛⲟϭ [ⲁ]ⲩⲱ ⲡⲁϩⲟⲣ[ⲁ]‐\nⲧⲟⲥ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅[ⲡ̅]̅ⲛ̅ⲁ̅ ⲙ̅ⲡⲁⲩⲧⲟ‐\nⲅⲉⲛⲏⲥ ⲛ̅ⲛ̅ⲟⲩⲧⲉ [ⲡ]ⲉⲭ̅ⲥ̅ [ⲡ]ⲁⲉⲓ ⲉⲛⲧⲁϥⲧⲁ‐\nⲉⲓⲟϥ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ⲥⲙⲏ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nϩⲓⲧⲛ̅ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲁⲩⲱ [ⲁ]ϥⲕⲱ ⲛ̅ϭⲓ ⲡⲁϩⲟ‐\nⲣⲁⲧⲟⲛ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲁⲩ‐\nⲧⲟⲅⲉⲛⲏⲥ ⲛ̅ⲛⲟⲩⲧⲉ ⲙ̅ⲙⲟϥ ⲁϫⲙ̅ ⲡⲧⲏⲣϥ\nⲁⲩⲱ ⲁϥⲣ̅ϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲛⲁϥ ⲛ̅ⲧⲉⲝⲟⲩⲥⲓⲁ\nⲧⲏⲣⲥ̅ ⲁⲩⲱ ⲧⲙⲉ ⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ⲛ̅ϩⲏⲧϥ̅\nϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲙ̅ⲙⲉ ⲁⲡⲧⲏⲣϥ ⲡⲁⲓ̈ ⲉⲛ‐\nⲧⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲛ̅ⲟ[ⲩ]ⲣ[ⲁⲛ] ⲉϥϫⲟⲥⲉ ⲉ‐\nⲣⲁⲛ ⲛⲓⲙ ⲡⲣⲁⲛ ⲅⲁⲣ ⲉ[ⲧⲙ̅ⲙⲁⲩ ⲥ]ⲉⲛⲁϫⲟⲟϥ\nⲁⲛⲉⲧⲙ̅ⲡϣⲁ ⲙ̅ⲙⲟϥ ⲉⲃ[ⲟ]ⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲟⲩⲟ‐"
+        },
+        {
+          "title": "The Four Luminaries",
+          "subtitle": "The Four Luminaries",
+          "heading": "The Four Luminaries (7, 30-8, 28)",
+          "rangeLabel": "7, 30-8, 28",
+          "range": {
+            "start": {
+              "page": 7,
+              "line": 30
+            },
+            "end": {
+              "page": 8,
+              "line": 28
+            }
+          },
+          "english": "Now from the light, which is the anointed, and from Incorruptibility, by the\ngrace of the Spirit, the Four Luminaries that derive from the divine SelfGenerated gazed out in order to stand before it. The three beings are:\nwill,\nthought,\nlife.\nThe four powers are:\nunderstanding,\ngrace,\nperception,\nthoughtfulness.\nGrace dwells in the eternal realm of the luminary Harmozel, who is the first\nangel. There are three other aeons with this eternal realm:\ngrace,\ntruth,\nform.\nThe second luminary is Oroiael, who has been appointed over the second\neternal realm. There are three other aeons with it:\nInsight,\nperception,\nmemory.\nThe third luminary is Daveithai, who has been appointed over the third\neternal realm. There are three other aeons with it:\nunderstanding,\nlove,\nidea.\nThe fourth eternal realm has been set up for the fourth luminary, Eleleth.\nThere are three other aeons with it:\nperfection,\npeace,\nSophia.\nThese are the Four Luminaries that stand before the divine Self-Generated;\nthese are the twelve aeons that stand before the Child of the Great One, the SelfGenerated, the anointed, by the will and grace of the Invisible Spirit. The twelve\naeons belong to the Child, the Self-Generated, and everything was established by\nthe will of the holy Spirit through the Self-Generated.",
+          "coptic": "ⲁⲛⲉⲧⲙ̅ⲡϣⲁ ⲙ̅ⲙⲟϥ ⲉⲃ[ⲟ]ⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉⲭ̅̅ⲣ̅ⲥ̅ ⲁⲩⲱ ⲧⲙ̅ⲛ̅ⲧⲁⲧ‐\nⲧⲉⲕⲟ ϩⲓⲧⲛ̅ ⲡϯ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲙ̅ⲡⲓϥⲧⲟⲟⲩ\nⲙ̅ⲫⲱⲥⲧⲏⲣ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲁⲩⲧⲟⲅⲉⲛⲏⲥ\nⲛ̅ⲛⲟⲩⲧⲉ ⲁϥϭⲱϣⲧ ⲉⲃⲟⲗ ⲁⲧⲣⲟⲩⲱϩⲉ\nⲉⲣⲁⲧⲟⲩ ⲉⲣⲟϥ ⲡϣⲟⲙⲧ ⲇⲉ ⲡⲟⲩⲱϣⲉ\nⲧⲉⲛⲛⲟⲓⲁ· ⲁⲩⲱ ⲡⲱⲛϩ· ⲧⲉϥⲧⲟⲉ ⲇⲉ ⲛ̅‐\nϭⲟⲙ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙⲛ̅ϩⲏⲧ· ⲧⲭⲁⲣⲓⲥ· ⲧⲉⲥⲑⲏⲥⲓⲥ\nⲧⲫⲣⲟⲛⲏⲥⲉⲓⲥ ⲧⲭⲁⲣⲓⲥ ⲇⲉ ⲉⲥϣⲟⲟⲡ ϩⲁ\nϩⲧⲛ̅ ⲡⲁⲓⲱⲛ ⲙ̅ⲫⲱⲥⲧⲏⲣ ⲁⲣⲙⲟⲍⲏⲗ ⲉⲧⲉ\nⲡⲁⲓ̈ ⲡⲉ ⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲡⲓⲁⲓⲱⲛ ⲇⲉ\nⲥⲉⲛ̅ⲛⲉⲙⲁϥ’ ⲛ̅ϭⲓ ⲕⲉϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲧⲭⲁ‐\nⲣⲓⲥ· ⲧⲙⲏⲉ· ⲧⲙⲟⲣⲫⲏ· ⲡⲙⲉϩⲥⲛⲁⲩ ⲇⲉ ⲙ̅‐\nⲫⲱⲥⲧⲏⲣ ⲱⲣⲓⲏⲗ ⲡⲉⲛⲧⲁⲩⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ\nⲉϫⲙ̅ ⲡⲙⲉϩⲥⲛⲁⲩ ⲛ̅ⲁⲓⲱⲛ ⲥⲉⲛ̅ⲛⲉⲙⲁϥ ⲇⲉ\nⲛ̅ϭⲓ ⲕⲉϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲧⲉⲥⲑⲏ‐\nⲥⲓⲥ· ⲡⲣ̅ⲡⲙⲉⲉⲩⲉ ⲡⲙⲁϩϣⲟⲙⲧ ⲇⲉ ⲙ̅ⲫⲱ‐\n[ⲥ]ⲧⲏⲣ ⲡⲉ ⲇ̅ⲁ̅ⲩ̅ⲉ̅ⲓ̅ⲑ̅ⲁ̅ⲓ̅ ⲡⲁⲓ̈ ⲉⲛⲧⲁⲩⲥⲉ ϩⲱϥ ⲉ‐\nⲣⲁⲧϥ ⲉϫⲙ̅ ⲡⲙⲉϩϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲥⲉⲛ̅ⲛⲉ‐\nⲙⲁϥ ⲇⲉ ⲛ̅ϭⲓ ⲕⲉϣⲟⲙⲧ ⲛ̅ⲁⲓⲱⲛ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙ̅‐\nⲛ̅ϩⲏⲧ ⲧⲁⲅⲁⲡⲏ· ϯⲇⲉⲁ· ⲡⲙⲁϩϥⲧⲟⲟⲩ ⲇⲉ\nⲛ̅ⲁⲓⲱⲛ ⲁⲩⲧⲉϩⲟϥ ⲉⲣⲁⲧϥ ⲉϫⲙ̅ ⲡⲙⲉϩ‐\nϥⲧⲟⲟⲩ ⲙ̅ⲫⲱⲥⲧⲏⲣ ⲏ̅ⲗ̅ⲏ̅ⲗ̅ⲏ̅ⲑ̅ ⲥⲉⲛ̅ⲛⲉⲙⲁϥ\nⲇⲉ ⲛ̅ϭ̅ⲓ ⲕⲉ[ϣ]ⲟⲙⲧ ⲛ̅ⲁ̅ⲓⲱⲛ ⲡϫⲱⲕ ⲉⲃⲟⲗ\nϯⲣⲏⲛⲏ ⲧⲥ[ⲟ]ⲫⲓⲁ ⲛⲁⲓ̈ ⲛⲉ ⲛϥⲧⲟⲟⲩ ⲙ̅ⲫⲱ‐\nⲥⲧⲏⲣ ⲉⲧⲁϩⲉⲣⲁⲧⲟⲩ ⲁⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲛ̅ⲛⲟⲩⲧⲉ\nⲛⲁⲓ̈ ⲛⲉ ⲡⲙ̅ⲛ̅ⲧ̅̅ⲥⲛⲟⲟⲩⲥ ⲛ̅ⲁⲓⲱⲛ ⲉⲧⲁϩⲉⲣⲁⲧⲟⲩ\nⲁⲡϣⲏⲣⲉ ⲙ̅ⲡⲛⲟϭ ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲡⲉⲭⲣ̅ⲥ̅\nϩⲓⲧⲛ̅ ⲡⲟⲩⲱϣⲉ ⲙⲛ̅ ⲡϯ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲥ ⲙ̅‐\nⲡ̅ⲛ̅ⲁ̅ ⲡⲓⲙ̅ⲛⲧ̅ⲥⲛⲟⲟⲩⲥ [ⲇ]ⲉ ⲛ̅ⲁⲓⲱⲛ ⲛ̅ⲛⲁ\nⲡϣⲏⲣⲉ ⲙ̅ⲡ[ⲁ]ⲩⲧⲟⲅⲉⲛⲏⲥ ⲛⲉ ⲁⲩⲱ ⲛ̅ⲧⲁⲡⲧⲏⲣϥ\nⲧⲁϫⲣⲟ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ⲉⲃⲟ[ⲗ ϩ]ⲓⲧ[ⲙ̅] ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲉⲃⲟⲗ ⲇⲉ"
+        },
+        {
+          "title": "Pigeradamas and Seth",
+          "subtitle": "Pigeradamas and Seth",
+          "heading": "Pigeradamas and Seth (8, 28-9, 24)",
+          "rangeLabel": "8, 28-9, 24",
+          "range": {
+            "start": {
+              "page": 8,
+              "line": 28
+            },
+            "end": {
+              "page": 9,
+              "line": 24
+            }
+          },
+          "english": "From the Foreknowledge of the perfect Mind, through the expressed will of the\nInvisible Spirit and the will of the Self-Generated, came the perfect human, the\nfirst revelation, the truth. The Virgin Spirit named the human Pigeradamas, and\nappointed him to the first eternal realm with the great Self-Generated, the\nanointed, by the first luminary, Harmozel. Its powers dwell with it. The invisible\none gave him an invincible power of mind.\nPigeradamas spoke and glorified and praised the Invisible Spirit by saying,\nBecause of you everything has come into being,\nand to you everything will return.\nI shall praise and glorify you,\nthe Self-Generated,\nthe eternal realms,\nthe three, Father, Mother, Child,\nperfect power.\nHe appointed his son Seth to the second eternal realm, before the second\nluminary, Oroiael.\nIn the third eternal realm were stationed the offspring of Seth, with the third\nluminary, Daveithai. The souls of the saints were stationed there.\nIn the fourth eternal realm were stationed the souls of those who were\nignorant of the Fullness. They did not repent immediately, but held out for a\nwhile and repented later. They came to be with the fourth luminary, Eleleth.\nThese are creatures that glorify the Invisible Spirit.",
+          "coptic": "ⲁⲁⲃ ⲉⲃⲟ[ⲗ ϩ]ⲓⲧ[ⲙ̅] ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲉⲃⲟⲗ ⲇⲉ\nϩⲛ̅ ⲧⲡⲣ[ⲟⲅⲛⲱⲥⲓ]ⲥ ⲙ̅ⲡⲛⲟⲩⲥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ\nϩⲓⲧⲙ̅ ⲡϭⲱ[ⲗⲡ ⲉ]ⲃⲟⲗ ⲙ̅ⲡⲟⲩⲱϣ ⲙ̅ⲡⲁϩⲟ‐\nⲣⲁⲧⲟⲥ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ⲡⲟⲩⲱϣⲉ ⲙ̅ⲡⲁⲩⲧⲟⲅⲉ‐\nⲛⲏⲥ ⲛ̅ⲣⲱⲙⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲡϣⲟⲣⲡ ⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ· ⲁⲩⲱ ⲡⲙⲉⲉ· ⲡⲉⲧⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ\nⲛ̅ϭⲓ ⲡⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲙ̅ⲡⲛ̅ⲁ̅ ϫⲉ ⲡ̅ⲓⲅⲉⲣⲁ̅‐\nⲁ̅̅ⲇ̅ⲁ̅ⲙ̅ⲁ̅ⲛ̅ ⲁⲩⲱ ⲁϥⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ ⲁϫⲛ̅\nⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲓⲱⲛ ⲙⲛ̅ ⲡⲛⲟϭ ⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ\nⲡⲉⲭⲥ̅ ϩⲁϩⲧⲛ̅ ⲡϣⲟⲣⲡ’ ⲙ̅ⲫⲱⲥⲧⲏⲣ’ ⲁⲣ̅ⲙ̅ⲟ̅‐\nⲍ̅ⲏ̅ⲗ̅ ⲁⲩⲱ ⲉⲩϣⲟⲟⲡ’ ⲛⲙ̅ⲙⲁϥ ⲛ̅ϭⲓ ⲛⲉϥϭⲟⲙ\nⲁⲩⲱ ⲁϥϯ ⲛⲁϥ ⲛ̅ϭⲓ ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲛ̅ⲛⲟⲩϭⲟⲙ\nⲛ̅ⲛⲟⲉⲣⲟⲛ ⲛ̅ⲛⲁⲧϭⲣⲟ ⲉⲣⲟⲥ ⲁⲩⲱ ⲁϥϫⲟⲟⲥ\nⲁϥϯ ⲉⲟⲟⲩ ⲁⲩⲱ ⲁϥⲥⲙⲟⲩ ⲁⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅‐\nⲡⲛ̅ⲁ̅ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲉⲧⲃⲏⲧⲕ ⲁⲡⲧⲏⲣϥ\nϣⲱⲡⲉ ⲁⲩⲱ ⲉⲣⲉⲡⲧⲏⲣϥ ⲛⲁⲛⲁⲩϩϥ ⲉⲣⲟⲕ\nⲁⲛⲟⲕ’ ⲇⲉ ϯⲛⲁⲥⲙⲟⲩ ⲛ̅ⲧⲁϯ ⲉⲟⲟⲩ ⲛⲁⲕ ⲁⲩⲱ\nⲡⲁⲩⲧⲟⲅⲉⲛⲏⲥ ⲙⲛ̅ ⲛⲁⲓⲱⲛ ⲡⲓϣⲟⲙⲧ ⲡⲓⲱⲧ’\nⲧⲙⲁⲩ· ⲡϣⲏⲣⲉ ⲧϭⲟⲙ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲁⲩⲱ ⲁϥ‐\nⲧⲉϩⲟ ⲉⲣⲁⲧϥ ⲙ̅ⲡⲉϥϣⲏⲣⲉ ⲥⲏⲑ· ⲁϫⲛ̅ ⲡⲙⲁϩ‐\nⲥⲛⲟ ⲛ̅ⲁⲓⲱⲛ ⲛⲁϩⲣⲛ̅ ⲡⲙⲁϩⲥⲛⲟ ⲙ̅ⲫⲱⲥⲧⲏⲣ\nⲱ̅ⲣ̅ⲱ̅ⲓ̅̈̅ⲏ̅ⲗ̅ ϩⲣⲁⲓ̈ ⲇⲉ ϩⲙ̅ ⲡⲙⲁϩϣⲟⲙⲧ’ ⲛ̅[ⲁⲓ]ⲱⲛ\nⲁⲩⲧⲉϩⲟ ⲇⲉ ⲉⲣⲁⲧϥ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛ̅ⲥⲏⲑ ⲁ‐\nϫⲛ̅ ⲡⲙⲁϩϣⲟⲙⲧ ⲙ̅ⲫⲱⲥⲧⲏⲣ ⲇⲁ̅ⲩ̅ⲉ̅ⲓ̅ⲑ̅ⲁ̅̅[ⲓ]\nⲁⲩⲧⲉϩⲟ ⲇⲉ ⲉⲣⲁⲧϥ ⲛⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲛⲉⲧⲟⲩⲁ[ⲁ]ⲃ\nⲛ̅ϩⲣⲁⲓ̈ ⲇⲉ ϩⲙ̅ ⲡⲙⲉϩϥⲧⲟⲟⲩ ⲛ̅ⲁⲓⲱⲛ ⲁⲩⲧⲉϩⲟ\nⲉⲣⲁⲧⲟⲩ ⲛⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲛⲉ[ⲧ]ⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲡ‐\nⲡⲗⲏⲣⲱⲙⲁ· ⲁⲩⲱ ⲙ̅ⲡⲟⲩⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ϩⲛ̅ ⲟⲩ‐\nϭⲉⲡⲏ ⲁⲗⲗⲁ ⲁⲩϭⲱ ϩⲛ̅ ⲟⲩⲟⲉⲓϣ ⲁⲩⲱ ⲙⲛ̅ⲛ̅‐\nⲥⲱⲥ ⲁⲩⲙⲉⲧⲁⲛⲟⲉⲓ ⲁⲩϣⲱⲡⲉ ϩⲁϩⲧⲛ̅ ⲡⲙⲉϩ‐\nϥⲧⲟⲟⲩ ⲙ̅ⲫⲱ[ⲥ]ⲧⲏⲣ ⲏⲗ̅ⲏ̅ⲗ̅ⲏ̅ⲑ̅ ⲛⲁⲓ̈ ⲛⲉ ϩⲉⲛ‐\nϫⲡⲟ ⲛⲉ ⲉⲩϯ ⲉⲟⲟⲩ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅"
+        },
+        {
+          "title": "The Fall of Sophia",
+          "subtitle": "The Fall of Sophia",
+          "heading": "The Fall of Sophia (9, 25-10, 19)",
+          "rangeLabel": "9, 25-10, 19",
+          "range": {
+            "start": {
+              "page": 9,
+              "line": 25
+            },
+            "end": {
+              "page": 10,
+              "line": 19
+            }
+          },
+          "english": "Now, Sophia, who is the Wisdom of Insight and who constitutes an aeon,\nconceived of a thought from herself, with the conception of the Invisible Spirit\nand Foreknowledge. She wanted to bring forth something like herself, without\nthe consent of the Spirit, who had not given approval, without her partner and\nwithout his consideration. The male did not give approval. She did not find her\npartner, and she considered this without the Spirit’s consent and without the\nknowledge of her partner. Nonetheless, she gave birth. And because of the\ninvincible power within her, her thought was not an idle thought. Something\ncame out of her that was imperfect and different in appearance from her, for she\nhad produced it without her partner. It did not resemble its mother and was\nmisshapen.\nWhen Sophia saw what her desire had produced, it changed into the figure of\na snake with the face of a lion. Its eyes were like flashing bolts of lightning.\nShe cast it away from her, outside that realm so that none of the immortals would\nsee it. She had produced it ignorantly.\nShe surrounded it with a bright cloud and put a throne in the middle of the\ncloud so that no one would see it except the holy Spirit, who is called the Mother\nof the living. She named her offspring Yaldabaoth.",
+          "coptic": "ⲧⲥⲟⲫⲓⲁ ⲇⲉ ⲛ̅ⲧⲉⲡⲓⲛⲟⲓⲁ· ⲉⲥϣⲟⲟⲡ’ ⲛ̅ⲁⲓⲱⲛ\nⲁⲥⲙⲉⲉⲩⲉ ϩⲛ̅ ⲟⲩⲙⲉⲉⲩⲉ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ⲙⲛ̅‐\nⲧⲉⲛⲑⲩⲙⲏⲥⲓⲥ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ\nⲧⲡⲣⲟⲅⲛⲱⲥⲓⲥ ⲁⲥⲟⲩⲱϣ[ⲉ] ⲉⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲛ̅ⲟⲩⲉⲓⲛⲉ ⲛ̅ϩⲏⲧⲥ̅ ⲁϫⲙ̅ [ⲡⲟⲩⲱ]ϣ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅\nⲙ̅ⲡⲉϥⲣ̅ⲉⲩⲇⲟⲕⲉⲓ ⲁⲩ[ⲱ ⲁϫⲙ̅ ⲡ]ⲉⲥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅\nⲁⲩⲱ ⲁϫⲙ̅ ⲡⲉϥⲙⲟⲕⲙⲉⲕ ⲉⲙⲡⲉϥⲣ̅ⲥⲩⲛⲉⲩ‐\nⲇⲟⲕⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ⲡⲡⲣⲟⲥⲱⲡⲟⲛ ⲛ̅ⲧⲉⲥⲙ̅ⲛ̅ⲧ̅‐\nϩⲟⲟⲩⲧ ⲉⲙⲡⲉⲥϭⲓⲛⲉ ⲇⲉ ⲙ̅ⲡⲉⲥϫⲱⲛϥ\nⲁⲥⲙⲟⲕⲙⲉⲕ ⲇⲉ ⲭⲱⲣⲓⲥ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲡ̅ⲛ̅ⲁ̅\nⲁⲩⲱ ⲡⲥⲟⲟⲩⲛ ⲙ̅ⲡⲉⲥϫⲱⲛϥ ⲁⲥⲉⲓⲛⲉ ⲉⲃⲟⲗ\nⲉⲧⲃⲉ ⲧϭⲟⲙ ⲇⲉ ⲛ̅ⲁⲧϫⲣⲟ ⲉⲣⲟⲥ ⲉⲧⲛ̅ϩⲏⲧⲥ̅\nⲙ̅ⲡⲉⲡⲉⲥⲙⲉⲉⲩⲉ ϣⲱⲡⲉ ⲛ̅ⲁⲣⲅⲟⲛ ⲁⲩⲱ\nⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ⲛ̅ϭⲓ ⲟⲩϩⲱⲃ ⲛ̅‐\nⲁⲧϫⲱⲕ ⲁⲩⲱ ⲉϥϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲁⲡⲉⲥⲥⲙⲟⲧ\nⲉⲃⲟⲗ ϫⲉ ⲁⲥⲧⲁⲙⲓⲟϥ ⲁϫⲙ̅ ⲡⲉⲥϣⲃⲣ̅ ⲛϩⲱⲧⲣ̅\nⲁⲩⲱ ⲛⲉ ⲟⲩⲁⲧⲥⲙⲟⲧ ⲡⲉ ⲁⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉϥⲙⲁ‐\nⲁⲩ ⲁϥⲟ ⲛ̅ϭⲉⲙⲟⲣⲫⲏ ⲛ̅ⲧⲁⲣⲉⲥⲛⲁⲩ ⲇⲉ ⲁⲡⲉⲥ‐\nⲟⲩⲱϣⲉ ⲁϥϣⲱⲡⲉ ⲛ̅ⲟⲩⲧⲩⲡⲟⲥ ⲉϥϣⲃⲃⲓ\nⲁⲉⲓⲧ ⲛ̅ⲇⲣⲁⲕⲱⲛ ⲛ̅ϩⲟ ⲙ̅ⲙⲟⲩⲉⲓ· ⲛⲉϥⲃⲁⲗ ⲇⲉ\nⲛⲉⲩⲟ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲕⲱϩⲧ ⲛ̅ϩⲃ̅ⲃⲣⲏϭⲉ ⲉⲩϯ\nⲟⲩⲟⲉⲓⲛ ⲁⲥⲛⲟϫϥ̅ ϩⲓⲥⲁⲛⲃⲟⲗ ⲙ̅ⲙⲟⲥ ⲙ̅ⲡⲃⲟⲗ\nⲛ̅ⲛ̅ⲧⲟⲡⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉⲗⲁⲁⲩ\nϩⲛ̅ ⲛⲁⲧⲙⲟⲩ ⲛⲁⲩ ⲉⲣⲟϥ’ ϫⲉ ⲛ̅ⲧⲁⲥⲧⲁⲙⲓⲟϥ ⲅⲁⲣ\nϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲥⲕⲧⲟ ⲉⲣⲟϥ ⲛ̅‐\nⲟⲩⲕⲗⲟⲟⲗⲉ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥⲕⲱ ⲛ̅ⲟⲩⲑⲣⲟ‐\nⲛⲟⲥ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ⲧⲉⲕⲗⲟⲟⲗⲉ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉ\nⲗⲁⲁⲩ ⲛⲁⲩ ⲉⲣⲟϥ ⲉⲓⲙⲏⲧⲓ ⲁⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ\nⲁⲥⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲡⲉϥⲣⲁⲛ ϫⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲡⲁⲓ̈"
+        },
+        {
+          "title": "Yaldabaoth’s World Order",
+          "subtitle": "Yaldabaoth’s World Order",
+          "heading": "Yaldabaoth’s World Order (10, 19-13, 13)",
+          "rangeLabel": "10, 19-13, 13",
+          "range": {
+            "start": {
+              "page": 10,
+              "line": 19
+            },
+            "end": {
+              "page": 13,
+              "line": 13
+            }
+          },
+          "english": "This is the first ruler, the archon who took great power from his mother. Then he\nleft her and moved away from the place where he was born. He took control and\ncreated for himself other aeons with luminous fire, which still exists. He mated\nwith the mindlessness in him and produced authorities for himself:\nThe name of the first is Athoth, whom generations call the [reaper].\nThe second is Harmas, who is the jealous eye.\nThe third is Kalila-Oumbri.\nThe fourth is Yabel.\nThe fifth is Adonaios, who is called Sabaoth.\nThe sixth is Cain, whom generations of people call the sun.\nThe seventh is Abel.\nThe eighth is Abrisene.\nThe ninth is Yobel.\nThe tenth is Armoupieel.\nThe eleventh is Melcheir-Adonein.\nThe twelfth is Belias, who is over the depth of the underworld.\nYaldabaoth stationed seven kings, one for each sphere of heaven, to reign\nover the seven heavens, and five to reign over the depth of the abyss. He shared\nhis fire with them, but he did not give away any of the power of the light he had\ntaken from his mother. For he is ignorant darkness.\nWhen light mixed with darkness, it made the darkness shine. When darkness\nmixed with light, it dimmed the light, and it became neither light nor darkness,\nbut rather gloom.\nThis gloomy archon has three names: the first name is Yaldabaoth, the\nsecond is Sakla, the third is Samael.\nHe is wicked in the mindlessness within him. He said, “I am God and there is\nno other god beside me,” since he did not know from where his own strength\nhad come.\nThe rulers each created seven powers for themselves, and the powers each\ncreated six angels, until there were 365 angels. These are the names and the\ncorresponding physiques:\nThe first is Athoth, and has the face of a sheep.\nThe second is Eloaios, and has the face of a donkey.\nThe third is Astaphaios, and has the face of a hyena.\nThe fourth is Yao, and has the face of a snake with seven heads.\nThe fifth is Sabaoth, and has the face of a snake.\nThe sixth is Adonin, and has the face of an ape.\nThe seventh is Sabbataios, and has a face of flaming fire.\nThis is the sevenfold nature of the week.\nYaldabaoth has many faces, more than all of these, so that he could\nshow whatever face he wanted when he was among the seraphim. He shared\nhis fire with them, and lorded it over them because of the glorious power he had\nfrom his mother’s light. That is why he called himself God and defied the place\nfrom which he came.\nIn his thought he united the seven powers with the authorities that were with\nhim. When he spoke, it was done. He named each of the powers, beginning with\nthe highest:\nFirst is goodness, with the first power, Athoth.\nSecond is forethought, with the second power, Eloaios.\nThird is divinity, with the third power, Astaphaios.\nFourth is lordship, with the fourth power, Yao.\nFifth is kingdom, with the fifth power, Sabaoth.\nSixth is jealousy, with the sixth power, Adonin.\nSeventh is understanding, with the seventh power, Sabbataios.\nEach has a sphere in its own realm.\nThey were named after the glory above for the destruction of the powers.\nAlthough the names given them by their maker were powerful, the names given\nthem after the glory above would bring about their destruction and loss of power.\nThat is why they have two names.\nYaldabaoth organized everything after the pattern of the first aeons that had\ncome into being, so that he might create everything in an incorruptible\nform. Not that he had seen the incorruptible ones. Rather, the power that is in\nhim, that he had taken from his mother, produced in him the pattern for the\nworld order.\nWhen he saw creation surrounding him, and the throng of angels around him\nthat had come forth from him, he said to them, “I am a jealous god and there is\nno other god beside me.”\nBut by announcing this, he suggested to the angels with him that there is\nanother god. For if there were no other god, of whom would he be jealous?",
+          "coptic": "ⲁⲥⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲡⲉϥⲣⲁⲛ ϫⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲡⲁⲓ̈\nⲡⲉ ⲡϣⲟⲣⲡ ⲛ̅[ⲁⲣ]ⲭⲱⲛ ⲡⲁⲓ̈ ⲉⲧⲁϩϫⲓ ⲟⲩⲛⲟϭ\nⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲉ[ⲃ]ⲟⲗ ϩⲓⲧⲛ ⲧⲉϥⲙⲁⲁⲩ ⲁⲩⲱ ⲁϥ‐\nⲥⲉϩⲱⲱϥ ⲉⲃⲟⲗ ⲙ̅ⲙⲟⲥ ⲁⲩⲱ ⲁϥ ⲡⲱⲱⲛⲉ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲧⲟⲡⲟⲥ ⲉⲧⲁⲩϫⲡⲟϥ ⲛ̅ϩⲏⲧⲟⲩ· ⲁϥ‐\nⲉⲙⲁϩⲧⲉ ⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ ⲛ̅ϩⲛ̅ⲕⲉⲁⲓⲱⲛ ϩⲛ̅\nⲟⲩϣⲁϩ ⲛ̅ⲕⲱϩⲧ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲡⲁⲓ̈ ⲉⲧϣⲟⲟⲡ\nⲧⲉⲛⲟⲩ ⲁⲩⲱ ⲁϥⲧⲱⲙⲧ ϩⲛ̅ ⲧⲉϥⲁⲡⲟⲛⲟⲓⲁ\nⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ· ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁϥϫⲡⲟ ⲛ̅‐\nϩⲉⲛⲉⲝⲟⲩⲥⲓⲁ ⲛⲁϥ ⲡϣⲟⲣⲡ ⲙⲉⲛ ⲡⲉϥⲣⲁⲛ\nⲡⲉ ⲁ̅ⲑ̅ⲱ̅ⲑ̅ ⲡⲁⲓ̈ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲛ̅ϭⲓ ⲛ̅ⲅⲉ‐\nⲛⲉⲁ ϫⲉ ⲡ[ϫⲁⲓ̈ⲟ]ϩⲥ̅ ⲡⲙⲉϩⲥⲛⲁⲩ ⲡⲉ ϩ̅ⲁ̅ⲣ̅ⲙ̅ⲁ̅ⲥ̅\nⲉⲧⲉ ⲡⲁⲓ [ⲡⲉ ⲡⲃⲁⲗ] ⲙ̅ⲡⲕⲱϩ· ⲡⲙⲉϩϣⲟⲙⲧ\nⲡⲉ ⲕ̅ⲁ̅ⲗ̅ⲓ̅ⲗ̅ⲁ̅ ⲟ̅ⲩⲙⲃⲣⲓ̅ ⲡⲙⲉϩϥⲧⲟⲟⲩ ⲡⲉ ⲓ̅̈ⲁⲃⲏⲗ̅\nⲡⲙⲉϩϯⲟⲩ ⲡⲉ ⲁ̅ⲇ̅ⲱ̅ⲛ̅ⲁ̅ⲓ̅̈̅ⲟ̅ⲩ̅ ⲡⲉⲧⲟⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟϥ ϫⲉ ⲥ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅· ⲡⲙⲉϩⲥⲟⲟⲩ ⲡⲉ ⲕ̅ⲁⲓ̈ⲛ̅\nⲡⲁⲓ̈ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲛ̅ϭⲓ ⲛ̅ⲅⲉⲛⲉⲁ ⲛ̅ⲣⲣⲱ‐\nⲙⲉ ϫⲉ ⲡⲣⲏ ⲡⲙⲉϩⲥⲁϣϥ ⲡⲉ ⲁ̅ⲃ̅ⲉ̅ⲗ̅ ⲡⲙⲉϩ\nϣⲙⲟⲩⲛ ⲡⲉ ⲁ̅ⲃ̅ⲣ̅ⲓ̅ⲥ̅ⲉ̅ⲛ̅ⲉ̅· ⲡⲙⲉϩⲯⲓⲥ ⲡⲉ ⲓ̅̈ⲱⲃⲏⲗ̅\nⲡⲙⲉϩⲙⲏⲧ’ ⲡⲉ ⲁ̅ⲣ̅ⲙ̅ⲟ̅ⲩ̅ⲡ̅ⲓ̅ⲉ̅ⲏ̅ⲗ̅· ⲡⲙⲉϩⲙⲛ̅‐\nⲧⲟⲩⲉ· ⲡⲉ ⲙ̅ⲉ̅ⲗ̅ⲭ̅ⲉ̅ⲓ̅ⲣ̅ⲁ̅ⲇ̅ⲱ̅ⲛ̅ⲉ̅ⲓ̅ⲛ̅· ⲡⲙⲉϩⲙⲛ̅\nⲧⲥⲛⲟⲟⲩⲥ ⲡⲉ ⲃⲉⲗⲓⲁⲥ ⲡⲁⲓ̈ ⲡⲉ ⲉⲧϩⲓϫⲛ̅ ⲡϣⲓⲕ‐\nⲛ̅ⲁⲙ̅ⲛ̅ⲧ̅ⲉ ⲁⲩⲱ ⲁϥⲧⲉϩⲟ ⲉⲣⲁⲧϥ̅ ⲛ̅ⲥⲁϣϥ ⲛ̅ⲣ̅ⲣⲟ\nⲟⲩⲁ ⲕⲁⲧⲁ ⲥⲧⲉⲣⲉⲱⲙⲁ ⲛ̅ⲧⲡⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲧⲙⲉϩ‐\nⲥⲁϣϥⲉ ⲙ̅ⲡⲉ ⲁⲩⲱ ϯⲟⲩ ⲁϫⲙ̅ ⲡϣⲓⲕ ⲙ̅ⲡⲛⲟⲩⲛ\nϩⲱⲥⲧⲉ ⲁⲧⲣⲟⲩⲣ̅ⲣ̅ⲣⲟ ⲁⲩⲱ ⲁϥⲡⲱϣ ⲉϫⲱⲟⲩ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲉϥⲕⲱϩⲧ’ ⲙ̅ⲡⲉϥⲧⲛ̅ⲛⲉⲩ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅\nⲧϭⲁⲙ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲛⲧⲁϥϫⲓⲧⲥ̅ ⲛⲧⲛ̅ ⲧⲉϥⲙⲁ‐\nⲁⲩ ⲛ̅ⲧⲟϥ ⲅⲁⲣ ⲟⲩⲕⲁⲕⲉ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛⲉ ⲡⲉ ⲡⲟⲩ‐\nⲟⲉⲓⲛ ⲇⲉ ⲛ̅ⲧⲁⲣⲉϥⲧⲱϩ ⲙⲛ̅ ⲡⲕⲁⲕⲉ ⲁϥⲧⲣⲉⲡⲕⲁ‐\nⲕⲉ ⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲡⲕⲁⲕⲉ ⲇⲉ ⲛ̅ⲧⲁⲣⲉϥⲧⲱϩ ⲙⲛ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲁϥϩⲧⲙ̅ⲧⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲙ̅ⲡϥϣⲱ‐\nⲡⲉ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲟⲩⲧⲉ ⲛ̅ⲕⲁⲕⲉ ⲁⲗⲗⲁ ⲁϥϣⲱⲡⲉ ⲉϥ‐\nϣⲟⲛⲉ ⲡⲓⲁⲣⲭⲱⲛ ϭⲉ ⲉⲧϣⲟⲛⲉ ⲟⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ\nⲛ̅ϣⲟⲙⲧ ⲛ̅ⲣⲁⲛ ⲡϣⲟⲣⲡ ⲛ̅ⲣⲁⲛ ⲡⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅̅[̅ⲱ̅ⲑ̅]̅\nⲡⲙⲉϩⲥⲛⲁⲩ ⲡⲉ ⲥ̅ⲁ̅ⲕ̅ⲗ̅ⲁ̅ⲥ̅ ⲡⲙⲉϩϣⲟⲙⲧ ⲡⲉ\nⲥⲁ̅ⲙ̅ⲁ̅ⲏ̅ⲗ ⲡⲁⲓ̈ ⲇⲉ ⲟⲩϣⲁϥⲧⲉ ⲡⲉ ϩⲛ̅ ⲧⲉϥⲁⲡⲟ[ⲛⲟ]ⲓⲁ\nⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ⲛ̅ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ̅ ⲁϥϫⲟⲟⲥ ⲅⲁⲣ ϫⲉ\nⲁⲛⲟⲕ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲙⲛ̅ ⲕⲉⲛⲟⲩⲧⲉ ϣⲟⲟⲡ\nⲛ̅ⲥⲁⲃⲗ̅ⲗⲏⲉⲓ· ⲉϥⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ⲙ̅ⲡⲉϥⲧⲁϫⲣⲟ\nⲡⲙⲁ ⲉⲛⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲁⲩⲧⲁⲙⲓⲟ\nⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲛ̅ⲥⲁϣϥⲉ ⲛ̅ϭⲟⲙ ⲛⲁⲩ· ⲁⲩⲱ\nⲛ̅ϭⲟⲙ ⲁⲩⲧⲁⲙⲓⲟ ⲛⲁⲩ ⲛ̅ⲥⲟⲟⲩ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁ‐\nⲡⲟⲩⲁ ϣⲁⲛⲧⲟⲩⲣ̅ ϣⲙ̅ⲧ̅ϣⲉⲥⲉⲧⲏ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nϯ ⲇⲉ ⲛⲉ ⲛⲥⲱⲙⲁ ⲛ̅ⲛ̅ⲣⲓⲛ ⲡϣⲟⲣⲡ 〈ⲡ〉ⲉ ⲁ̅ⲑ̅ⲱ̅ⲑ̅\nⲟⲩϩⲟ ⲛ̅ⲛⲉⲥⲟⲟⲩ ⲡⲉ ⲡⲙⲉϩⲥⲛⲁⲩ ⲡⲉ ⲉ̅ⲗ̅ⲱ̅‐\nⲁ̅ⲓ̅ⲟ̅ⲩ̅ ⲟⲩϩⲟ ⲛ̅ⲧⲩⲫⲱⲛ ⲡⲉ ⲡⲙⲉϩϣⲟⲙⲧ\nⲡⲉ ⲁⲥⲧ̅ⲁ̅ⲫ̅ⲁ̅ⲓ̅ⲟ̅ⲥ̅ ⲟⲩϩ[ⲟ ⲛ̅ϩⲟⲉⲓ]ⲧⲉ ⲡⲉ ⲡⲙⲉϩ‐\nϥⲧⲟⲟⲩ ⲡⲉ ⲓ̅̈̅ⲁ̅ⲱ̅ ⲟⲩϩ[ⲟ ⲛ̅ⲇⲣⲁⲕ]ⲱⲛ ⲡⲉ ⲉⲩⲛ̅‐\nⲧⲉϥ’ ⲥⲁϣϥⲉ ⲛ̅ⲁⲡⲉ· ⲡⲙⲉϩϯⲟⲩ ⲡⲉ ⲥ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅\nⲟⲩϩⲟ ⲛ̅ⲇⲣⲁⲕⲱⲛ ⲡⲙⲉϩⲥⲟⲟⲩ ⲡⲉ ⲁⲇⲱⲛⲓⲛ\nⲟⲩϩⲟ ⲛ̅ⲏⲛⲉ ⲡⲉ ⲡⲙⲉϩⲥⲁϣϥ ⲡⲉ ⲥ̅ⲁ̅ⲃ̅ⲃ̅ⲉ̅ⲇ̅ⲉ̅\nⲟⲩϩⲟ ⲛ̅ⲕⲱϩⲧ ⲡⲉ ⲉϥϯ ⲟⲩⲟⲉⲓⲛ ⲧⲁⲓ̈ ⲧⲉ ⲧϩⲉ‐\nⲃⲇⲟⲙⲁⲥ ⲛ̅ⲧⲉ ⲡⲥⲁⲃⲃⲁⲧⲟⲛ ⲓ̈ⲁⲗⲧⲁⲃⲁⲱⲑ\nⲇⲉ ⲛⲉ ⲟⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ ⲛ̅ⲟⲩⲙⲏⲏϣ[ⲉ]\nⲙ̅ⲡⲣⲟⲥⲱⲡⲟⲛ ⲉϥⲟⲩⲏϩ ϩⲓϫⲱⲟⲩ ⲧⲏ‐\nⲣⲟⲩ ϩⲱⲥⲧⲉ ⲁⲧⲣⲉϥⲉⲓⲛⲉ ⲛ̅ⲟⲩϩⲟ ⲛⲁϩ‐\nⲣⲉⲟⲩ ⲧⲏⲣⲟⲩ ⲕⲁⲧⲁ ⲡⲉϥⲟⲩⲱϣⲉ ⲉϥϣⲟ‐\nⲟⲡ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ϩⲉⲛⲥⲁⲣⲁⲫⲓⲛ ⲁϥⲡⲱ‐\nϣⲉ ⲁϫⲱⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥⲕⲱϩⲧ ⲉⲧⲃⲉ\nⲡⲁⲓ̈ ⲁϥⲣ̅ ϫⲟⲉⲓⲥ ⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ ⲧϭⲟⲙ ⲙ̅‐\nⲡⲉⲟⲟⲩ ⲉⲧϣⲟⲟⲡ ⲛⲁϥ’ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲉ\nⲧⲉϥⲙⲁⲁⲩ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲙ̅‐\nⲙⲓⲛ ⲙ̅ⲙⲟϥ ϫⲉ ⲛⲟⲩⲧⲉ ⲛⲁϥⲣ̅ⲡⲓⲑⲉ ⲇⲉ\nⲁⲛ ⲁⲡⲙⲁ ⲉⲛⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ\nⲁϥⲙⲟⲩϣϭ ⲙⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲉⲧϣⲟⲟⲡ\nϩⲁⲣⲟϥ ⲛ̅ⲥⲁϣϥⲉ ⲛ̅ϭⲟⲙ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲉϥⲙⲉ‐\nⲉⲩⲉ ⲁⲩⲱ ϩⲙ̅ ⲡⲧⲣⲉϥϫⲟⲟⲥ ⲁϥϣⲱⲡⲉ ⲁⲩ‐\nⲱ ⲁϥϯ ⲣⲁⲛ ⲉⲧϭⲟⲙ ⲧϭⲟⲙ ⲁϥⲣ̅ⲁⲣⲭⲉⲥ‐\nⲑⲁⲓ ϫⲛ̅ ⲙ̅ⲡⲥⲁⲛⲧⲡⲉ ⲡϣⲟⲣⲡ ⲙⲉⲛ ⲧⲉ\nⲧⲙⲛⲧⲭⲣ̅ⲥ̅ ϩⲁϩⲧⲛ̅ ⲡϣⲟⲣⲡ ⲁ̅ⲑⲱⲑ̅·\nⲡⲙⲉϩⲥⲛⲁⲩ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ϩⲁⲧⲛ̅\nⲡⲙⲉϩⲥⲛⲁⲩ ⲉ̅ⲗ̅ⲱ̅ⲁ̅ⲓ̅ⲱ̅· ⲧⲙⲉϩϣⲟⲙⲧ’\nⲇⲉ ⲡⲉ ⲁ̅ⲥ̅ⲧ̅ⲣ̅ⲁ̅ⲫ̅ⲁ̅ⲓ̅ⲱ̅· ⲧⲙⲉϩϥⲧⲟⲉ ⲧⲉ ⲧ‐\nⲙ̅ⲛ̅ⲧ̅ϫⲟⲉⲓⲥ ϩⲁⲧⲛ̅ ⲡⲙⲉϩϥⲧⲟⲟⲩ ⲓ̅ⲁⲱ̅\nⲧⲙⲉϩϯⲉ ⲧⲉ ⲧⲙⲛⲧⲉⲣⲟ ϩⲁϩⲧⲛ̅ ⲡⲙⲉϩϯ‐\nⲟⲩ· ⲥⲁ̅ⲛ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅· ⲧⲙⲉϩⲥⲟ ⲡⲉ ⲡⲕⲱϩ ϩⲁ‐\nϩⲧⲛ̅ ⲡⲙⲉϩⲥⲟⲟⲩ ⲁⲇ̅ⲱ̅ⲛ̅ⲉ̅ⲓ̅ⲛ̅ ⲧⲙⲉϩⲥⲁϣϥ\nⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙⲛ̅ϩⲏⲧ ϩⲁⲧⲛ̅ ⲡⲙⲉϩⲥⲁϣ̅ϥ̅\nⲥⲁⲃⲃⲁⲧⲉⲱⲛ ⲛⲁⲓ̈ ⲇⲉ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅‐\nⲟⲩⲥⲧⲉⲣⲉⲱⲙⲁ ⲕⲁⲧⲁ ⲡⲉ ⲛ̅ⲁⲓⲱⲛ ⲛⲁⲓ̈ ⲙⲉⲛ\nⲁⲩϯ ⲣⲁⲛ ⲉⲣⲟⲟⲩ ⲕⲁⲧⲁ ⲡⲉⲟⲟⲩ ⲛ̅ⲛⲁⲧⲡⲉ\nⲉⲡϣⲟⲣ[ϣⲣ̅ ⲛ̅ⲛⲓ]ϭⲟⲙ ⲛ̅ⲣⲁⲛ ⲇⲉ ⲉⲛⲧⲁⲩ‐\nⲧⲁⲁⲩ ⲉⲣⲟ[ⲟⲩ ϩⲓⲧⲛ̅] ⲡⲟⲩⲁⲣⲭⲓⲅⲉⲛⲛⲏⲧⲱⲣ\nⲉⲩⲣ̅ ϭⲟⲙ’ ϩⲣⲁⲓ ⲛ̅ϩⲏⲧⲟⲩ ⲛ̅ⲣⲁⲛ ⲇⲉ ⲉⲧⲧⲟ\nⲉⲣⲟⲟⲩ ⲕⲁⲧⲁ ⲡⲉⲟⲟⲩ ⲛ̅ⲛⲁⲧⲡⲉ ⲉⲩ ϣⲟⲟⲡ\nⲛⲁⲩ ⲉⲩϣⲟⲣϣⲣ̅· ⲁⲩⲱ ⲁⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧϭⲟⲙ ⲛⲁⲩ\nϩⲱⲥⲧⲉ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲣⲁⲛ ⲥⲛⲁⲩ ⲛ̅ⲕⲁ\nⲇⲉ ⲛⲓⲙ ⲁϥⲧⲥⲉⲛⲟϥ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲛ̅ⲛ̅ϣⲟⲣⲡ\n[ⲛ̅]ⲁⲓⲱⲛ ⲉⲛⲧⲁϩϣⲱⲡⲉ ϩⲱⲥⲧⲉ ⲁⲧⲣⲉϥ‐\nⲧⲁⲙⲓⲟⲟⲩ ⲙ̅ⲡⲥⲙⲁⲧ ⲛ̅ⲁⲧⲧⲉⲕⲟ ⲟⲩⲭ ϩⲟⲧⲓ\nⲛ̅ⲧⲁϥ ϫⲉ ⲁϥⲛⲁⲩ ⲁⲛⲁⲧⲧⲉⲕⲟ ⲁⲗⲗⲁ ⲧϭⲟⲙ\nⲉⲧⲛ̅ϩⲏⲧϥ ⲧⲁⲓ̈ ⲉⲛⲧⲁϥϫⲓⲧⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲧⲉϥⲙⲁⲁⲩ ⲉⲁⲥϫⲡⲟ ⲛ̅ϩⲏⲧϥ ⲙ̅ⲡⲓⲛⲉ· ⲙ̅‐\nⲡⲧⲥⲉⲛⲟ ⲉϥⲛⲁⲩ ⲇⲉ ⲁⲧⲕⲧⲓⲥⲓⲥ ⲉⲧⲕⲱⲧⲉ\nⲉⲣⲟϥ ⲁⲩⲱ ⲡⲁϣⲁⲓ̈ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲉⲧⲕⲧⲏⲩ\nⲉⲣⲟϥ’ ⲛⲁⲓ̈ ⲉⲛⲧⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ⲙ̅ⲙⲟϥ ⲡⲉ‐\nϫⲁϥ ⲛⲁⲩ· ϫⲉ ⲁⲛⲟⲕ ⲁⲛⲕ ⲟⲩⲛⲟⲩⲧⲉ ⲛ̅ⲣⲉϥ‐\nⲕⲱϩ ⲁⲩⲱ ⲙⲛ̅ ⲕⲉⲛⲟⲩⲧⲉ ⲛ̅ⲥⲁⲃⲗ̅ⲗⲁⲓ̈ ⲡⲁⲓ̈ ⲇⲉ\nⲉϥⲧⲁⲩⲟ ⲙ̅ⲙⲟϥ· ⲉϥⲣ̅ⲥⲏⲙⲁⲛⲉ ⲛ̅ⲛ̅ⲁⲅⲅⲉ‐\nⲗⲟⲥ ⲉⲧϣⲟⲟⲡ’ ϣⲁⲣⲟϥ ϫⲉ ⲟⲩⲛ ⲕⲉ ⲛⲟⲩⲧⲉ\nϣⲟⲟⲡ ⲉⲛⲉ ⲙ̅ⲛ̅ ⲕⲉⲟⲩⲁ ⲅⲁⲣ ϣⲟⲟⲡ’ ⲛⲉ ⲛⲓⲙ\nⲡⲉⲧϥⲛⲁⲕⲱϩ ⲉⲣⲟϥ ⲁⲥⲣ̅ⲁⲣⲭⲉⲥⲑⲉ ϭⲉ ⲛ̅ϣⲉ"
+        },
+        {
+          "title": "Sophia Repents",
+          "subtitle": "Sophia Repents",
+          "heading": "Sophia Repents (13, 13-14, 13)",
+          "rangeLabel": "13, 13-14, 13",
+          "range": {
+            "start": {
+              "page": 13,
+              "line": 13
+            },
+            "end": {
+              "page": 14,
+              "line": 13
+            }
+          },
+          "english": "Then the Mother began to move around. She realized that she was lacking\nsomething when the brightness of her light diminished. She grew dim because\nher partner had not collaborated with her.\nI said, “Lord, what does it mean that she moved around?”\nThe Lord laughed and said, Do not suppose that it is as Moses said, above\nthe waters. No, when she recognized the wickedness that had taken place and\nthe robbery her son had committed, she repented. When she became forgetful in\nthe darkness of ignorance, she began to be ashamed. She did not dare to return,\nbut she was agitated. This agitation is the moving around.\nThe arrogant one took power from his mother. He was ignorant, for he\nthought no one existed except his mother alone. When he saw the throng of\nangels he had created, he exalted himself over them.\nWhen the Mother realized that the trappings of darkness had come into\nbeing imperfectly, she understood that her partner had not collaborated with her.\nShe repented with many tears. The whole realm of Fullness heard her prayer\nof repentance and offered praise on her behalf to the Invisible Virgin Spirit, and\nthe Spirit consented. When the Invisible Spirit consented, the holy Spirit\npoured upon her some of the fullness of all. For her partner did not come to her\non his own, but he came to her through the realm of Fullness, so that he might\nrestore what she lacked. She was taken up not to her own eternal realm, but\ninstead to a position above her son. She was to remain in the ninth heaven until\nshe restored what was lacking in herself.",
+          "coptic": "ⲡⲉⲧϥⲛⲁⲕⲱϩ ⲉⲣⲟϥ ⲁⲥⲣ̅ⲁⲣⲭⲉⲥⲑⲉ ϭⲉ ⲛ̅ϣⲉ\nⲉⲓ ⲛ̅ϭⲓ ⲧⲙⲁⲁⲩ ⲁⲥⲙ̅ⲙⲉ ⲁⲡϣⲧⲁ ϩⲙ̅ ⲡⲧⲣⲉϥ‐\nϭⲱϫⲃ ⲛ̅ϭⲓ ⲡⲣⲣⲓⲉ ⲙ̅ⲡⲉⲥⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥ‐\nϩⲧⲟⲙϩⲧⲙ̅ ⲉⲃⲟⲗ ϫⲉ ⲙ̅ⲡⲉϥⲣ̅ⲥⲩⲙⲫⲱⲛⲉ\nⲛⲙ̅ⲙⲁⲥ ⲛ̅ϭⲓ ⲡⲉⲥϣⲃⲣ̅ϩⲱⲧ̅ⲣ̅ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉ‐\nϫⲁⲉⲓ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲟⲩ ⲡⲉ ⲁⲥϣⲉⲉⲓ· ⲛ̅ⲧⲟϥ ⲇⲉ\nⲁϥⲥⲱⲃⲉ ⲡⲉϫⲁϥ ϫⲉ ⲙ̅ⲡⲣ̅ⲙⲉⲉⲩⲉ ϫⲉ ⲕⲁ‐\nⲧⲁ ⲑⲉ ⲉⲛⲧⲁϥϫⲟⲟⲥ ⲛ̅ϭⲓ ⲙⲱⲩ̈ⲥⲏⲥ ϩⲓϫⲛ̅\nⲙ̅ⲙⲟⲩⲉⲓⲟⲟⲩⲉ ⲙ̅ⲙⲁⲛ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲣⲉⲥⲛⲁⲩ\nⲁⲧⲕⲁⲕⲓⲁ ⲉⲛⲧⲁⲥϣⲱⲡⲉ ⲁⲩⲱ ⲡϫⲓ ⲉⲛⲧⲁϥ‐\nϫⲓⲧϥ’ ⲛ̅ϭⲓ ⲡⲉⲥϣⲏⲣⲉ· ⲁⲥⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ\nⲁⲩⲱ ⲁⲩⲃ̅ϣⲉ ϣⲱⲡⲉ ⲛⲁⲥ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲛ̅‐\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲥⲁⲣⲭⲉⲓ ⲛ̅ϣⲓⲡⲉ\nϩⲛ̅ ⲟⲩⲕⲓⲙ ⲡⲕⲓⲙ ⲇⲉ ⲡⲉ ⲡϣⲉⲉⲓ ⲁϥϫⲓ\nⲇⲉ ⲛ̅ϭⲓ ⲡⲁⲩⲑⲁⲇⲏⲥ ⲛ̅ⲟⲩϭⲟⲙ ⲉⲃⲟⲗ ϩⲓ‐\nⲧⲛ̅ ⲧⲉϥⲙⲁⲁⲩ ⲛⲁϥⲟ ⲅⲁⲣ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ⲉϥ‐\nⲙⲉⲉⲩⲉ ⲅⲁⲣ ϫⲉ ⲙⲛ̅ ϭ[ⲉ ϣⲟⲟ]ⲡ ⲉⲓⲙⲏⲧⲓ\nⲁⲧⲉϥⲙⲁⲁⲩ ⲟⲩⲁⲁⲧ[ⲥ̅ ⲉϥⲛⲁⲩ] ⲇⲉ ⲁⲡⲁϣⲁⲓ̈\nⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛⲁⲓ̈ ⲉⲛⲧ[ⲁϥⲥ]ⲟⲛⲧⲟⲩ ⲁϥϫⲓ‐\nⲥⲉ ϭⲉ ⲙ̅ⲙⲟϥ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲧⲙⲁⲁⲩ ⲇⲉ\nⲛ̅ⲧⲁⲣⲉⲥⲙ̅ⲙⲉ ⲁⲧϩⲃⲥⲱ ⲙ̅ⲡⲕⲁⲕⲉ ϫⲉ ⲙ̅‐\nⲡⲉϥϣⲱⲡⲉ ϩⲛ̅ ⲟⲩϫⲱⲕ ⲁⲥⲙ̅ⲙⲉ ϭⲉ\nϫⲉ ⲙ̅ⲡⲉϥⲣ̅ⲥⲩⲙⲫⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁⲥ ⲛ̅‐\nϭⲓ ⲡⲉⲥϣⲃⲣ̅ ⲛ̅ϩⲱⲧ̅ⲣ̅ ⲁⲥⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ\nϩⲛ̅ ⲟⲩⲣⲓⲙⲉ ⲉⲛⲁϣⲱϥ ⲁⲩⲱ ⲁⲩⲥⲱⲧⲙ̅ ⲁ‐\nⲡⲥⲟⲡⲥ̅ ⲛ̅ⲧⲉⲥⲙⲉⲧⲁⲛⲟⲓⲁ ⲁⲩⲱ ⲁⲩⲉⲓⲛⲉ\nⲛ̅ⲟⲩⲥⲙⲟⲩ ⲉϩⲣⲁⲓ̈ ϩⲁⲣⲟⲥ ⲛ̅ϭⲓ ⲡⲉⲡⲗⲏⲣⲱ‐\nⲙⲁ ⲧⲏⲣϥ ⲙ̅ⲡⲁϩⲟⲣⲁⲧⲟⲛ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲡ̅ⲛ̅ⲁ̅ ⲁϥⲡⲱϩⲧ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲥ ⲛ̅ϭⲓ ⲡⲉ ⲡ̅ⲛⲁ̅\nⲉⲧⲟⲩⲁⲁⲃ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉ→ⲩ←ⲡⲗⲏⲣⲱⲙⲁ ⲧⲏⲣϥ\nⲛ̅ⲧⲁϥⲉⲓ ⲅⲁⲣ ⲛⲁⲥ ⲁⲛ ⲛ̅ϭⲓ ⲡⲉⲥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅\nⲁⲗⲗⲁ 〈ⲛ̅〉ⲧⲁϥⲉⲓ ⲛⲁⲥ ⲉϩⲣⲁⲓ̈ ϩⲓⲧⲛ̅ ⲡⲡⲗⲏⲣⲱⲙⲁ\nϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲥⲱϩⲉ ⲙ̅ⲡⲉⲥϣⲧⲁ ⲁⲩⲱ ⲁⲩⲉⲓ‐\nⲛⲉ ⲙ̅ⲙⲟⲥ ⲉϩⲣⲁⲓ̈ ⲁⲡⲥⲁⲓⲱⲛ ⲁⲛ ⲙ̅ⲙⲓⲛ ⲙ̅‐\nⲙⲟⲥ ⲁⲗⲗⲁ ⲛ̅ⲧⲡⲉ ⲙ̅ⲡⲉⲥϣⲏⲣⲉ ⲁⲧⲣⲉⲥϣⲱ‐\nⲡⲉ ϩⲙ̅ ⲡⲙⲁϩⲯⲓⲧ ϣⲁⲛⲧⲉⲥⲥⲱϩⲉ ⲙ̅ⲡⲉⲥ‐\nϣⲧⲁ ⲁⲩⲱ ⲟⲩⲥⲙⲏ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲉ ⲛ̅ⲁⲓ‐"
+        },
+        {
+          "title": "The Human Appears",
+          "subtitle": "The Human Appears",
+          "heading": "The Human Appears (14, 13-34)",
+          "rangeLabel": "14, 13-34",
+          "range": {
+            "start": {
+              "page": 14,
+              "line": 13
+            },
+            "end": {
+              "page": 14,
+              "line": 34
+            }
+          },
+          "english": "A voice called from the exalted heavenly realm,\nHumanity exists and the Child of Humanity.\nThe first ruler, Yaldabaoth, heard the voice and thought it had come from his\nmother. He did not realize its source.\nThe holy perfect Mother-Father,\nthe complete Forethought,\nthe image of the invisible one,\nbeing the Father of the All,\nthrough whom everything came into being,\nthe first human-\nthis is the one who showed them and appeared in human shape.\nThe entire realm of the first ruler quaked, and the foundations of the abyss\nshook. The bottom side of the waters above the material world was lit up by this\nimage that had appeared. When all the authorities and the first ruler stared at this\nappearance, they saw the whole bottom side as it was lit up. And through the\nlight they saw the shape of the image in the water.",
+          "coptic": "ϣⲧⲁ ⲁⲩⲱ ⲟⲩⲥⲙⲏ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲉ ⲛ̅ⲁⲓ‐\nⲱⲛ ⲉⲧϫⲟⲥⲉ ϫⲉ ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ ⲁⲩⲱ\nⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁϥⲥⲱⲧⲙ̅ ⲇⲉ ⲛ̅ϭⲓ ⲡⲣⲱ‐\nⲧⲁⲣⲭⲱⲛ ⲓ̈ⲁⲗⲧⲁⲃⲁⲱⲑ· ⲉϥⲙⲉⲉⲩⲉ ϫⲉ ⲛ̅ⲧⲁϯ‐\nⲥⲙⲏ ϣⲱⲡⲉ {ϣⲱⲡⲉ} ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲉϥⲙⲁ‐\nⲁⲩ· ⲁⲩⲱ ⲙ̅ⲡⲉϥⲙ̅ⲙⲉ ϫⲉ ⲛ̅ⲧⲁⲥⲉⲓ ⲧⲱⲛ ⲁⲩⲱ\nⲁϥⲧⲥⲉⲃⲟⲟⲩ ⲛ̅ϭⲓ ⲡⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ ⲉⲧⲟⲩⲁⲁⲃ\nⲁⲩⲱ ⲡⲧⲉⲗⲉⲓⲟⲥ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ· ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ\nⲧϩⲓⲕⲱⲛ ⲙ̅ⲡⲓⲁϩⲟⲣⲁⲧⲟⲥ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉⲓⲱⲧ\nⲙ̅ⲡⲧⲏⲣϥ ⲡⲁⲓ̈ ⲉⲛⲧⲁⲡⲧⲏⲣϥ ϣⲱⲡⲉ ⲛ̅ϩⲏⲧϥ\nⲡϣⲟⲣⲡ’ ⲛ̅ⲣⲱⲙⲉ ϫⲉ ϩⲛ̅ ⲟⲩⲧⲩⲡⲟⲥ ⲛ̅ⲁⲛⲇⲣⲉ‐\nⲁⲥ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉϥⲉⲓⲛⲉ ⲁⲩⲱ ⲁϥ‐\nⲥⲧⲱⲧ’ ⲧⲏⲣϥ ⲛ̅ϭⲓ ⲡⲁⲓⲱⲛ ⲙ̅ⲡⲣⲱⲧⲁⲣⲭⲱⲛ\nⲁⲩⲱ ⲁⲛⲥⲛ̅ⲧⲉ ⲙ̅ⲡⲛⲟⲩⲛ ⲁⲩⲕⲓⲙ ⲁⲩⲱ ⲉⲃⲟⲗ\nϩⲓⲧⲛ̅ ⲙ̅ⲙⲟⲩⲉⲓⲟⲟⲩⲉ ⲛⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ϩⲓϫⲛ̅\nⲧϩⲩⲗⲏ ⲁϥⲣ̅ ⲟ[ⲩⲟⲉⲓ]ⲛ ⲛ̅ϭⲓ ⲡⲥⲁⲙⲡⲓⲧⲛ̅ ⲉⲃⲟⲗ\nϩⲓⲧⲙ̅ ⲡⲟⲩ[ⲱⲛϩ ⲉⲃⲟ]ⲗ ⲛ̅ⲧⲉϥϩⲓⲕⲱⲛ ⲧⲁⲓ̈ ⲉⲛ‐\nⲧⲁⲥⲟⲩⲱⲛϩ[ⲥ̅ ⲁⲩ]ⲱ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲱⲣⲙⲉ ⲛ̅ϭⲓ\nⲛⲉⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ⲁⲩ‐\nⲛⲁⲩ ⲁⲡⲙⲉⲣⲟⲥ ⲧⲏⲣϥ ⲙ̅ⲡⲥⲁⲙⲡ→ⲓ←ⲧⲛⲉ ⲉⲁϥⲣ̅‐\nⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲛⲁⲩ\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲙⲟⲟⲩ ⲁⲡⲧⲩⲡⲟⲥ ⲛ̅ⲧϩⲓⲕⲱⲛ"
+        },
+        {
+          "title": "The Creation of Adam",
+          "subtitle": "The Creation of Adam",
+          "heading": "The Creation of Adam (15, 1-19, 10)",
+          "rangeLabel": "15, 1-19, 10",
+          "range": {
+            "start": {
+              "page": 15,
+              "line": 1
+            },
+            "end": {
+              "page": 19,
+              "line": 10
+            }
+          },
+          "english": "Yaldabaoth said to the authorities with him, “Come, let’s create a human being\nafter the image of God and with a likeness to ourselves, so that this human image\nmay give us light.”\nThey created through their respective powers, according to the features that\nwere given. Each of the authorities contributed a psychical feature corresponding\nto the figure of the image they had seen. They created a being like the perfect\nfirst human, and said, “Let’s call it Adam, that its name may give us power of\nlight.”\nThe powers began to create:\nThe first one, goodness, created a soul of bone.\nThe second, forethought, created a soul of sinew.\nThe third, divinity, created a soul of flesh.\nThe fourth, lordship, created a soul of marrow.\nThe fifth, kingdom, created a soul of blood.\nThe sixth, jealousy, created a soul of skin.\nThe seventh, understanding, created a soul of hair.\nThe throng of angels stood by and received these seven psychical substances\nfrom the authorities, in order to create a network of limbs and trunk, with all\nthe parts properly arranged.\nThe first one, who is Raphao, began by creating the head,\nAbron created the skull,\nMeniggesstroeth created the brain,\nAsterechme the right eye,\nThaspomocha the left eye,\nYeronumos the right ear,\nBissoum the left ear,\nAkioreim the nose,\nBanen-Ephroum the lips,\nAmen the teeth,\nIbikan the molars,\nBasiliademe the tonsils,\nAchcha the uvula,\nAdaban the neck,\nChaaman the vertebrae,\nDearcho the throat,\nTebar the right shoulder,\nN…the left shoulder,\nMniarchon the right elbow,\n…e the left elbow,\nAbitrion the right underarm,\nEuanthen the left underarm,\nKrus the right hand,\nBeluai the left hand,\nTreneu the fingers of the right hand,\nBalbel the fingers of the left hand,\nKrima the fingernails,\nAstrops the right breast,\nBarroph the left breast,\nBaoum the right shoulder joint,\nArarim the left shoulder joint,\nAreche the belly,\nPhthaue the navel,\nSenaphim the abdomen,\nArachethopi the right ribs,\nZabedo the left ribs,\nBarias the right hip,\nPhnouth the left hip,\nAbenlenarchei the marrow,\nChnoumeninorin the bones,\nGesole the stomach,\nAgromauma the heart,\nBano the lungs,\nSostrapal the liver,\nAnesimalar the spleen,\nThopithro the intestines,\nBiblo the kidneys,\nRoeror the sinews,\nTaphreo the backbone,\nIpouspoboba the veins,\nBineborin the arteries,\nAatoimenpsephei the breaths in all the limbs,\nEntholleia all the flesh,\nBedouk the right buttock,\nArabeei the left [buttock],\n…the penis,\nEilo the testicles,\nSorma the genitals,\nGormakaiochlabar the right thigh,\nNebrith the left thigh,\nPserem the muscles of the right leg,\nAsaklas the muscle of the left,\nOrmaoth the right leg,\nEmenun the left leg,\nKnux the right shin,\nTupelon the left shin,\nAchiel the right ankle,\nPhneme the left ankle,\nPhiouthrom the right foot,\nBoabel its toes,\nTrachoun the left foot,\nPhikna its toes,\nMiamai the toenails,\nLabernioum…\nThose who are appointed over all these are seven in number:\nAthoth,\nArmas,\nKalila,\nYabel,\nSabaoth,\nCain,\nAbel.\nThose who activate the limbs are, part by part:\nthe head, Diolimodraza,\nthe neck, Yammeax,\nthe right shoulder, Yakouib,\nthe left shoulder, Ouerton,\nthe right hand, Oudidi,\nthe left one, Arbao,\nthe fingers of the right hand, Lampno,\nthe fingers of the left hand, Leekaphar,\nthe right breast, Barbar,\nthe left breast, Imae,\nthe chest, Pisandraptes,\nthe right shoulder joint, Koade,\nthe left shoulder joint, Odeor,\nthe right ribs, Asphixix,\nthe left ribs, Sunogchouta,\nthe abdomen, Arouph,\nthe womb, Sabalo,\nthe right thigh, Charcharb,\nthe left thigh, Chthaon,\nall the genitals, Bathinoth,\nthe right leg, Choux,\nthe left leg, Charcha,\nthe right shin, Aroer,\nthe left shin, Toechtha,\nthe right ankle, Aol,\nthe left ankle, Charaner,\nthe right foot, Bastan,\nits toes, Archentechtha,\nthe left foot, Marephnounth,\nits toes, Abrana.\nSeven have been empowered over all these:\nMichael,\nUriel,\nAsmenedas,\nSaphasatoel,\nAarmouriam,\nRichram,\nAmiorps.\nThose who are over the senses are Archendekta,\nthe one who is over perception is Deitharbathas,\nthe one who is over imagination is Oummaa,\nthe one who is over arrangement is Aachiaram,\nthe one who is over all impulse to action is Riaramnacho.\nThe source of the demons that are in the entire body is divided into four:\nheat,\ncold,\nwetness,\ndryness,\nand the mother of them all is matter.\nThe one who is lord over heat is Phloxopha,\nthe one who is lord over cold is Oroorrothos,\nthe one who is lord over what is dry is Erimacho,\nthe one who is lord over wetness is Athuro.\nThe mother of all these, Onorthochras, stands in the midst of them, for she is\nunlimited and mingles with them all. She is matter, and by her they are\nnourished.\nThe four principal demons are:\nEphememphi, the demon of pleasure,\nYoko, the demon of desire,\nNenentophni, the demon of grief,\nBlaomen, the demon of fear.\nThe mother of them all is Esthesis-Ouch-Epi-Ptoe.\nFrom the four demons have come passions:\nFrom grief come jealousy, envy, pain, trouble, distress, hardheartedness,\nanxiety, sorrow, and others.\nFrom pleasure comes an abundance of evil, vain conceit, and the like.\nFrom desire come anger, wrath, bitterness, intense lust, greed, and the like.\nFrom fear come terror, servility, anguish, and shame.\nAll these are like virtues and vices. The insight into their true nature is Anaro,\nwho is head of the material soul, and it dwells with Esthesis-Z-Ouch-EpiPtoe.\nThis is the number of angels. In all they number 365. They all worked\ntogether until, limb by limb, the psychical and material body was completed.\nNow, there are others over the remaining passions, and I have not told you about\nthem. If you want to know about them, the information is recorded in the Book\nof Zoroaster.",
+          "coptic": "ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲉⲧϣⲟⲟⲡ’ ϣⲁⲣⲟϥ\nϫⲉ ⲁⲙⲏⲉⲓⲛⲉ ⲛ̅ⲧⲛ̅ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲕⲁⲧⲁ\nⲑⲓⲕⲱⲛ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲕⲁⲧⲁ ⲡⲛ̅ⲉⲓⲛⲉ ϫⲉ‐\nⲕⲁⲁⲥ ⲁⲣⲉⲧⲉϥϩⲓⲕⲱⲛ ⲛⲁϣⲱⲡⲉ ⲛⲁⲛ ⲛ̅ⲟⲩⲟ‐\nⲉⲓⲛ ⲁⲩⲱ ⲁⲩⲧⲁⲙⲓⲟ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛ̅ϭⲟⲙ ⲛ̅ⲛⲟⲩ‐\nⲉⲣⲏⲩ· ⲕⲁⲧⲁ ⲙ̅ⲙⲁⲓ̈ⲛ ⲉⲛⲧⲁⲩϯ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ\nⲧⲟⲩⲉⲓⲉ ⲧⲟⲩⲉⲓⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁⲩϯ ⲛ̅ⲟⲩⲙⲁⲉⲓⲛ\nⲛ̅ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲧⲩⲡⲟⲥ ⲛ̅ⲧϩⲓⲕⲱⲛ ⲧⲁⲓ̈ ⲉⲛⲧⲁϥⲛⲁⲩ\nⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲉϥⲯⲩⲭⲓⲕⲏ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϩⲩ‐\nⲡⲟⲥⲧⲁⲥⲓⲥ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲙ̅ⲡϣⲟⲣⲡ’ ⲛ̅ⲣⲱⲙⲉ ⲛ̅‐\nⲧⲉⲗⲉⲓⲟⲥ ⲁⲩⲱ ⲡⲉϫⲁⲩ ϫⲉ ⲙⲁⲣⲛ̅ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ\nϫⲉ ⲁⲇⲁⲙ’ ϫⲉⲕⲁⲁⲥ ⲉⲣⲉⲡⲉϥⲣⲁⲛ ⲛⲁϣⲱⲡⲉ\nⲛⲁⲛ ⲛ̅ⲟⲩϭⲟⲙ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲩⲁⲣⲭⲉⲓ ⲛ̅ϭⲓ\nⲛ̅ⲇⲩⲛⲁⲙⲓⲥ· ⲧϣⲟⲣⲡ ⲧⲙ̅ⲛ̅ⲧ̅ⲭⲣⲏⲥⲧⲟⲥ ⲁⲥⲧⲁ‐\nⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲕⲁⲥ ⲧⲙⲉϩⲥⲛ̅ⲧⲉ ⲇⲉ ⲧⲡⲣⲟ‐\nⲛⲟⲓⲁ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲙ̅ⲙⲟⲩⲧ’ ⲧⲙⲉϩ‐\nϣⲟⲙⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟⲩⲧⲉ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ\nⲛ̅ⲥⲁⲣⲝ· ⲧⲙⲉϩϥⲧⲟⲉ ⲇⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ϫⲟⲉⲓⲥ ⲁⲥⲧⲁ‐\nⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲁⲧⲕⲁⲥ· ⲧⲙⲉϩϯⲉ ⲧⲉ ⲧⲙⲛ̅‐\nⲧⲉⲣⲟ· ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲥⲛⲟϥ ⲧⲙⲉϩ‐\nⲥⲟⲉ ⲡⲉ ⲡⲕⲱϩ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ϣⲁ‐\nⲁⲣⲉ ⲧⲙⲉϩⲥⲁϣϥⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲣⲙⲛ̅ϩⲏⲧ’ ⲁⲥⲧⲁ‐\nⲙⲓⲟ ⲛ̅ⲟⲩⲯⲩⲭⲏ ⲛ̅ϥⲟⲩϩⲉ ⲁⲩⲁϩⲉ ⲇⲉ ⲉⲣⲁⲧⲟⲩ\nⲉⲣⲟϥ ⲛ̅ϭⲓ ⲡⲁϣⲁⲓ̈ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩϫⲓ ⲉⲃⲟⲗ\nϩⲓⲧⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ⲧⲥⲁϣϥⲉ ⲛ̅ϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ\nⲛ̅ⲧⲉ ⲧⲯⲩⲭⲓⲕⲏ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲁⲙⲓⲟ ⲙ̅‐\nⲡϫⲱⲛϥ ⲛⲙ̅ⲙⲉⲗⲟⲥ ⲙⲛ̅ ⲡϫⲱⲛϥ ⲛ̅ⲛ̅ϣⲁⲩ\nⲙⲛ̅ ⲧⲥⲩⲛⲑⲉⲥⲓⲥ ⲙ̅ⲡⲧⲥⲁⲛⲟ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nⲛⲙ̅ⲙⲉⲗⲟⲥ ⲡϣⲟⲣⲡ ⲙ[ⲉⲛ ⲁϥⲁⲣ]ⲭⲉⲓ ⲛ̅ⲧⲁⲙⲓⲟ\nⲛ̅ⲧⲁⲡⲉ ⲉⲧ̅ⲉ̅ⲣ̅ⲁ̅ⲫ̅ⲁ̅ⲱ̅ⲡ̅̅[̅ⲉ̅] ⲁ[ⲃⲣⲱ]ⲛ ⲁϥⲧⲁⲙⲓⲟ\nⲛ̅ϫⲱϥ ⲙⲏ̅ⲛ̅ⲓ̅ⲅ̅ⲅ̅ⲉ̅ⲥ̅ⲥ̅ⲧ̅ⲣ̅ⲱ̅ⲏ̅ⲑ̅ ⲁϥⲧⲁⲙⲓⲟ ⲙ̅‐\nⲡⲉⲛⲕⲉⲫⲁⲗⲟⲥ ⲁ̅ⲥ̅ⲧ̅ⲉ̅ⲣ̅ⲉ̅ⲭ̅ⲙ̅ⲏ̅ⲛ̅ ⲡⲃⲁⲗ ⲛ̅ⲟⲩ\nⲛⲁⲙ· ⲑⲁ̅ⲥ̅ⲡ̅ⲟ̅ⲙ̅ⲟ̅ⲭ̅ⲁ̅ⲙ̅ ⲡⲃⲁⲗ ⲛ̅ϭⲃⲟⲩⲣ ⲓ̅ⲉⲣⲱ̅‐\nⲛⲩ̅ⲙ̅ⲟ̅ⲥ̅ ⲡⲙⲁⲁϫⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲃⲓ̅ⲥⲥⲟⲩⲙ̅\nⲡⲙⲁⲁϫⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲁⲕ̅ⲓ̅ⲱ̅ⲣ̅ⲉ̅ⲓ̅ⲙ̅ ⲙ̅ⲡϣⲁ\nⲃⲁ̅ⲛ̅ⲏ̅ⲛ̅·̅ ̅ⲉ̅ⲫ̅ⲣ̅ⲟ̅ⲩ̅ⲙ̅ ⲛ̅ⲛⲉⲥⲡⲟⲧⲟⲩ ⲁⲙⲏⲛ\nⲛ̅ⲛⲟⲃϩⲉ ⲓ̅ⲃ̅ⲓ̅ⲕ̅ⲁ̅ⲛ̅ ⲛ̅ⲛⲁϫϩⲉ ⲃⲁ̅ⲥⲓⲗⲓⲁⲇⲏⲙⲏ̅\nⲙ̅ⲡⲁⲣⲓⲥⲑⲙⲓⲟⲛ ⲁ̅ⲭ̅ⲭ̅ⲁ̅ⲛ̅ ⲥ̅ⲧⲁⲫⲩⲗⲏ̅ ⲁ̅ⲇⲁ̅‐\nⲃ̅ⲁ̅ⲛ̅· ⲙ̅ⲡⲙⲟⲩⲧ ⲭⲁ̅ⲁⲙⲁⲛ̅ ⲙ̅ⲡⲥⲫⲟⲛⲧⲩⲗⲟⲥ\nⲇⲉ̅ⲁ̅ⲣ̅ⲭ̅ⲱ̅ ⲛ̅ⲧϣⲟⲩⲱⲃⲉ ⲧⲏ̅ⲃⲁⲣ̅ ⲛ̅ⲧⲛⲁϩⲃⲉ\nⲛ̅ϭⲃⲟⲩⲣ ⲙⲛ̅ⲓ̅ⲁ̅ⲣ̅ⲭ̅ⲱ̅ⲛ̅ ⲙ̅ⲡⲕⲉⲗⲉⲛⲕⲉϩ ⲛ̅‐\nϭⲃⲟⲩⲣ ⲁⲃ̅ⲓ̅ⲧ̅ⲣ̅ⲓ̅ⲱ̅ⲛ̅ ⲛ̅ⲑⲱⲙⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲉ̅ⲩ̅‐\nⲁ̅ⲛ̅ⲑ̅ⲏ̅ⲛ̅ ⲛ̅ⲑⲱⲙⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲕ̅ⲣⲩⲥ̅ ⲛ̅ⲧϭⲓϫ\nⲛ̅ⲟⲩⲛⲁⲙ ⲃⲏ̅ⲗ̅ⲩ̅ⲁ̅ⲓ̅ ⲛ̅ⲧϭⲓϫ ⲛ̅ϭⲃⲟⲩⲣ ⲧ̅ⲣⲏ̅‐\nⲛ̅ⲉ̅ⲩ̅ ⲛ̅ⲛ̅ⲧⲏⲃⲉ· ⲛ̅ⲧϭⲓϫ ⲛ̅ⲛⲟⲩⲛⲁⲙ ⲃⲁ̅ⲗⲃⲏⲗ̅\nⲛ̅ⲛ̅ⲧⲏⲃⲉ ⲛ̅ⲧϭⲓϫ ⲛ̅ϭⲟⲩⲣ ⲕⲣⲓⲙⲁ ⲛ̅ⲛ̅ⲉⲓⲉ‐\nⲃⲉ ⲛ̅ⲛ̅ϭⲓϫ ⲁ̅ⲥ̅ⲧ̅ⲣ̅ⲱ̅ⲯ̅ ⲛ̅ⲧϭⲓⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ\nⲃ̅ⲁ̅ⲣ̅ⲣ̅ⲱ̅ⲫ̅ ⲛ̅ⲧϭⲓⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲃⲁⲟ̅ⲩⲙ̅ ⲙ̅ⲡϫⲱ\nⲛ̅ⲟⲩⲛⲁⲙ ⲁⲣ̅ⲁ̅ⲣ̅ⲓ̅ⲙ̅ ⲙ̅ⲡϫⲱ ⲛ̅ϭⲃⲟⲩⲣ ⲁⲣ̅ⲉⲭ̅\nⲛ̅ⲧⲕⲟⲓⲗⲓⲁ ⲫⲑⲁⲩⲏ ⲛ̅ⲑⲟⲗⲡⲉ ⲥⲏⲛⲁⲫⲓⲙ\nⲙ̅ⲡⲩⲡⲟⲭⲟⲛ〈ⲇ〉ⲣⲓⲟⲥ ⲁⲣ̅ⲁ̅ⲭ̅ⲉ̅ⲑ̅ⲱ̅ⲡ̅ⲓ̅ ⲙ̅ⲡⲥⲡⲓⲣ\nⲛ̅ⲟⲩⲛⲁⲙ ⲍⲁ̅ⲃ̅ⲉ̅ⲇ̅ⲱ̅ ⲙ̅ⲡⲥⲡⲓⲣ ⲛ̅ϭⲃⲟⲩⲣ\nⲃⲁ̅ⲣ̅ⲓ̅ⲁ̅ⲥ̅ ⲛ̅ⲧϯⲡⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲁ̅ⲃⲏⲛⲗⲉⲛⲁⲣⲭⲉⲓ̅\nⲛ̅ⲛⲁⲧⲕⲁⲥ ⲭⲛ̅ⲟ̅ⲩ̅ⲙ̅ⲉ̅ⲛ̅ⲓ̅ⲛ̅ⲟ̅ⲣ̅ⲓ̅ⲛ̅ ⲛ̅ⲛ̅ⲕⲉⲉⲥ\nⲅ̅ⲏ̅ⲥ̅ⲟ̅ⲗ̅ⲉ̅ ⲙ̅ⲡⲥⲧⲟⲙⲁⲭⲟⲥ ⲁⲅ̅ⲣⲟⲙⲁⲩⲙⲁ̅ ⲙ̅‐\nⲫⲏⲧ ⲃ̅ⲁ̅ⲛ̅ⲱ̅ ⲙ̅ⲡⲛⲉⲩⲙⲟⲛⲓⲛ ⲥⲱ̅ⲥⲧⲣⲁⲡⲁⲗ̅\nⲙ̅ⲡϩⲏⲡⲁⲣ ⲁⲛ̅ⲏ̅ⲥ̅ⲓ̅ⲙ̅ⲁ̅ⲗ̅ⲁ̅ⲣ̅ ⲙ̅ⲡⲥⲡⲗⲏⲛ ⲑ̅ⲱ̅‐\nⲡ̅ⲓ̅ⲑ̅ⲣ̅ⲱ̅ ⲛ̅ⲛⲙⲉϩⲧ ⲃ̅ⲓⲃⲗⲱ̅ ⲛ̅ⲛ̅ϭⲗⲁⲧⲉ\nⲣⲟⲉⲣⲱⲣ ⲛ̅ⲙⲙⲟⲩⲧ ⲧⲁⲫ̅ⲣ̅ⲉ̅ⲱ̅ ⲛ̅ⲛ̅ϫⲓⲥⲉ\nⲙ̅ⲡⲥⲱⲙⲁ ⲓⲡ̅ⲟ̅ⲩ̅ⲥ̅ⲡ̅ⲟ̅ⲃ̅ⲱ̅ⲃ̅ⲁ̅ ⲛ̅ⲛ̅ⲫⲗⲉⲯ\nⲃⲓⲛⲉⲃⲟⲣⲓⲛ ⲛ̅ⲁⲣ̅ⲧ̅ⲏ̅ⲣ̅ⲓ̅ⲁ̅ ⲁⲁⲧ̅ⲟⲓⲙⲉⲛⲯⲏⲫⲉⲓ̅\nⲛⲱⲟⲩ ⲛⲉ ⲛ̅ⲛⲓϥⲉ ⲉⲧϩⲛ̅ ⲙⲙⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ\nⲏ̅ⲛ̅ⲑⲟⲗⲗⲉⲓⲁ ⲛ̅ⲧⲥⲁⲣⲝ ⲧⲏⲣ̅ⲥ̅ ⲃⲉⲇⲟⲩⲕ\nⲙ̅ⲡⲧⲉⲧⲉ [ⲛ̅ⲟⲩⲛⲁⲙ] ⲁⲣⲁⲃⲏⲉⲓ ⲡⲃⲁϩ ⲛ̅ϭⲃⲟⲩⲣ\nⲉⲓⲗⲱ ⲛ̅ⲁⲧⲣ[ⲉⲩⲉ] ⲥⲱⲣⲙⲁ ⲛ̅ⲉⲇⲩⲟⲛ ⲅⲟ̅ⲣ̅ⲙ̅ⲁ̅‐\nⲕⲁ̅ⲓ̅ⲟ̅ⲭ̅ⲗ̅ⲁ̅ⲃ̅ⲁ̅ⲣ̅ ⲡⲙⲏⲣⲟⲥ ⲛ̅ⲟⲩⲛⲁⲙ ⲛⲉ̅ⲃⲣⲓⲑ̅\nⲡⲙⲏⲣⲟⲥ ⲛ̅ϭⲃⲟⲩⲣ ⲯⲏ̅ⲣ̅ⲏ̅ⲙ̅ ⲛ̅ϭⲗⲁⲧⲉ ⲛ̅‐\nⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ⲟⲩⲛⲁⲙ’ ⲁⲥⲁⲕⲗⲁⲥ ⲧϭⲗⲱⲧ\nⲛ̅ϭⲃⲟⲩⲣ ⲟⲣ̅ⲙ̅ⲁ̅ⲱ̅ⲑ̅ ⲙ̅ⲡⲛⲉⲧ ⲛ̅ⲟⲩⲛⲁⲙ\n[ⲏ]ⲙⲏⲛⲩⲛ ⲙ̅ⲡⲡⲛⲉⲧ ⲛ̅ϭⲃⲟⲩⲣ ⲕ̅ⲛ̅ⲩ̅ⲝ̅ ⲧⲥⲏ‐\nⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲧ̅ⲩ̅ⲡ̅ⲏ̅ⲗ̅ⲟ̅ ⲛⲧⲥⲏⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ\nⲁ̅ⲭ̅ⲓ̅ⲏ̅ⲗ̅ ⲛ̅ⲧⲕⲗ̅ⲗⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲫⲛ̅ⲏⲙⲏ̅ ⲛ̅ⲧⲕⲗ̅‐\nⲗⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲫⲓ̅ⲟ̅ⲩ̅ⲑ̅ⲣ̅ⲟ̅ⲙ̅ ⲛ̅ⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ⲟⲩ‐\nⲛ̅ⲁ̅ⲙ̅ ⲃⲟ̅ⲁⲃⲉⲗ̅ ⲛ̅ⲛⲉⲥⲧⲏⲏⲃⲉ ⲧⲣⲁⲭⲟⲩⲛ ⲛ̅‐\nⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲫⲓ̅ⲕ̅ⲛ̅ⲁ̅ ⲛ̅ⲛⲉⲥⲧⲏⲏⲃⲉ\nⲙⲓⲁⲙⲁⲓ· ⲛ̅ⲉⲓⲉⲓⲃ ⲛ̅ⲛⲟⲩⲣⲏⲧⲉ ⲗⲁ̅ⲃ̅ⲏ̅ⲣ̅ⲛ̅ⲓ̅ⲟ̅ⲩ̅ⲙ̅\nⲛⲉⲛⲧⲁⲩⲧⲟϣⲟⲩ ⲇⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲛⲁⲓ̈ ⲧⲏⲣⲟⲩ\nⲡⲉ ⲍⲁ̅ⲑ̅ⲱ̅ⲑ̅ ⲁ̅ⲣⲙⲁⲥ̅ ⲕ̅ⲁⲗⲓⲗⲁⲓ̈ⲁⲃⲏⲗ̅ ⲛⲉⲧⲉ‐\nⲛⲉⲣⲅⲉⲓ ⲇⲉ ⲕⲁⲧⲁ ⲙⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ⲙⲉⲗⲟⲥ\nⲧⲁⲡⲉ ⲙⲉⲛ ⲇⲓ̅ⲟ̅ⲗ̅ⲓ̅ⲙ̅ⲟ̅ⲇ̅ⲣ̅ⲁ̅ⲍ̅ⲁ̅ ⲡⲙⲟⲩⲧ ⲓ̅ⲁⲙ̅‐\nⲙ̅ⲉ̅ⲁ̅ⲝ̅ ⲧⲛⲁϩⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲓ̅̈ⲁⲕⲟⲩⲓ̈ⲃ̅ ⲧⲛⲁϩ‐\nⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲟⲩ̅ⲉ̅ⲣ̅ⲧ̅ⲱ̅ⲛ̅ ⲧϭⲓϫ ⲛ̅ⲟⲩⲛⲁⲙ ⲟⲩ‐\nⲇⲓⲇⲓ ⲧϭⲃⲟⲩⲣ ⲁⲣⲃⲁⲟ ⲛ̅ⲧⲏⲃⲉ ⲛ̅ⲧϭⲓϫ ⲛ̅ⲟⲩ‐\nⲛⲁⲙ ⲗⲁ̅ⲙ̅ⲡ̅ⲛ̅ⲱ̅ ⲛ̅ⲧⲏⲃⲉ ⲛ̅→ⲧ←ϭⲓϫ ⲛ̅ϭⲃⲟⲩⲣ\nⲗⲏ̅ⲉ̅ⲕ̅ⲁ̅ⲫ̅ⲁ̅ⲣ̅ ⲧϭⲓⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲃⲁ̅ⲣⲃⲁⲣ̅ ⲧϭⲓ‐\nⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲓⲙ̅ⲁ̅ⲏ̅ ⲧⲙⲉⲥⲧϩⲏⲧ ⲡⲓ̅ⲥⲁⲛⲇⲣⲁ̅‐\nⲡⲧ̅ⲏ̅ⲥ̅ ⲡϫⲱ ⲛ̅ⲟⲩⲛⲁⲙ ⲕⲟ̅ⲁⲇⲏ̅ ⲡϫⲱ ⲛ̅ϭⲃⲟⲩⲣ\nⲟⲇⲉ̅ⲱ̅ⲣ̅ ⲥⲡⲓⲣ ⲛ̅ⲟⲩⲛⲁⲙ ⲁⲥ̅ⲫⲓⲝⲓⲝ̅ ⲡⲥⲡⲓⲣ\nⲛ̅ϭⲃⲟⲩⲣ ⲥⲩⲛⲟ̅ⲅ̅ⲭ̅ⲟ̅ⲩ̅ⲧ̅ⲁ̅ ⲧⲕⲟⲓⲗⲓⲁ ⲁⲣ̅ⲟⲩⲫ̅\nⲡⲉⲕⲟⲩⲛϥ ⲥⲁⲃⲁⲗⲱ ⲡⲙⲏⲣⲟⲥ ⲛ̅ⲟⲩⲛⲁⲙ\nⲭⲁ̅ⲣ̅ⲭ̅ⲁ̅ⲣ̅ⲃ̅ ⲡⲙⲏⲣⲟⲥ ⲛ̅ϭⲃ̅ⲟⲩⲣ̅ ⲭⲑ̅ⲁⲱⲛ̅\nⲛ̅ⲁⲓⲇⲟⲓⲟⲛ ⲧⲏⲣⲟⲩ ⲃⲁ̅ⲑ̅ⲓ̅ⲛ̅ⲱ̅ⲑ̅ ⲡⲡⲉⲧ ⲛ̅‐\nⲟⲩⲛⲁⲙ ⲭⲟⲩⲝ ⲡⲡⲉⲧ ⲛ̅ϭⲃⲟⲩⲣ ⲭⲁ̅ⲣ̅ⲭ̅ⲁ̅\nⲧⲥⲏⲃⲉ ⲛ̅ⲟⲩⲛⲁⲙ ⲁⲣ̅ⲟ̅ⲏ̅ⲣ̅ ⲧⲥⲏⲃⲉ ⲛ̅ϭⲃⲟⲩⲣ\nⲧⲱ̅ⲉ̅ⲭ̅ⲑ̅ⲁ̅ ⲧⲕⲗ̅ⲗⲉ ⲛ̅ⲟⲩⲛⲁⲙ’ ⲁⲱ̅ⲗ̅ ⲧⲕⲗ̅ⲗⲉ\nⲛ̅ϭ̅ⲃⲟⲩⲣ ⲭⲁⲣ̅ⲁⲛⲏⲣ̅ ⲧⲟⲩⲣⲏⲧⲉ ⲛ̅ⲟⲩ ⲛⲁⲙ\nⲃⲁ̅ⲥ̅ⲧ̅ⲁ̅ⲛ̅ ⲛⲉⲥⲧⲏⲏⲃⲉ ⲁⲣⲭ̅ⲉⲛⲧⲉⲭⲑⲁ̅ ⲧⲟⲩ‐\nⲣⲏⲧⲉ ⲛ̅ϭⲃⲟⲩⲣ ⲙⲁⲣ̅ⲉ̅ⲫ̅ⲛ̅̅ⲟ̅ⲩ̅ⲛ̅ⲑ̅ ⲛ̅ⲛⲉⲥⲧⲏ‐\nⲏⲃⲉ ⲁⲃⲣ̅ⲁ̅ⲛ̅ⲁ̅ ⲛⲉⲩ[ϭⲙ̅ϭⲟⲙ’] ⲉϩⲣⲁⲓ̈ ϩⲓϫⲛ̅\nⲛⲁⲓ̈ ⲧⲏⲣⲟⲩ ⲛ̅ϭⲓ ⲥⲁϣ̅ϥ̅ ⲍ ⲙ̅ⲓⲭⲁⲏⲗ̅ ⲟ̅ⲩⲣⲓⲏⲗ̅\nⲁⲥⲙⲉⲛⲉⲇⲁⲥ ⲥⲁⲫⲁⲥ̅ⲁ̅ⲧ̅ⲟ̅ⲏ̅ⲗ̅ ⲁⲁⲣ̅ⲙⲟⲩⲣⲓⲁⲙ̅\nⲣ̅ⲓ̅ⲭ̅ⲣ̅ⲁ̅ⲙ̅’ ⲁ̅ⲙⲓⲱⲣⲯ̅· ⲁⲩⲱ ⲛⲉⲧϩⲓϫⲛ̅ ⲛ̅ⲁⲓⲥⲑⲏ‐\nⲥⲓⲥ ⲁⲣⲭⲉⲛⲇⲉⲕⲁⲧⲁ· ⲁⲩⲱ ⲡⲉϩⲓϫⲛ̅ ⲧⲁⲛⲁⲗⲏⲙ‐\nⲯⲓⲥ ⲇⲉ̅ⲓ̅ⲑ̅ⲁ̅ⲣ̅ⲃ̅ⲁ̅ⲑ̅ⲁ̅ⲥ̅ ⲁⲩⲱ ⲡⲉⲧϩⲓϫⲛ̅ ⲧⲫⲁ̅ⲛ‐\nⲧⲁⲥⲓⲁ ⲟⲩⲙ̅ⲙ̅ⲁ̅ⲁ̅ ⲁⲩⲱ ⲡⲉⲧϩⲓϫ̅ⲛ̅ ⲡϫ[ⲱⲛ]ϥ\nⲁⲁⲭ̅ⲓ̅ⲁ̅ⲣ̅ⲁ̅ⲙ̅ ⲁⲩⲱ ⲡⲉⲧϩⲓϫⲛ̅ ⲧϩⲟⲣⲙⲏ ⲧⲏⲣ̅ⲥ̅\nⲣⲓⲁ̅ⲣ̅ⲁ̅ⲙ̅ⲛ̅ⲁ̅ⲭ̅ⲱ̅ ⲧⲡⲏⲅⲏ ⲇⲉ ⲛ̅ⲛⲓⲇⲁⲓⲙⲱⲛ\nⲛⲁⲓ̈ ⲉⲧϩⲛ̅ ⲡⲥⲱⲙⲁ ⲧⲏⲣϥ ⲥⲉⲧⲏϣ ⲉϥⲧⲟ‐\nⲟⲩ ⲟⲩϩⲙ̅ⲙⲉ ⲟⲩⲁⲣⲟϣ ⲟⲩϩⲟϭⲃⲉⲥ ⲟⲩ‐\nϣⲟⲟⲩⲉ ⲧⲟⲩⲙⲁⲁⲩ ⲇⲉ ⲧⲏⲣⲟⲩ ⲧⲉ ⲧϩⲩ‐\nⲗⲏ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ ⲉϫⲙ̅ ⲡϩⲙⲟⲙ ⲫⲗ̅ⲟ̅‐\nⲝⲟ̅ⲫ̅ⲁ̅ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ ⲉϫⲙ̅ ⲡⲁⲣⲟϣ\nⲟ̅ⲣ̅ⲟ̅ⲟ̅ⲣ̅ⲣ̅ⲟ̅ⲑ̅ⲟ̅ⲥ̅ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ ⲉϫⲙ̅ ⲡⲉ‐\nⲧϣⲟⲩⲱⲟⲩ ⲉⲣ̅ⲓ̅ⲙ̅ⲁ̅ⲭ̅ⲱ̅ ⲡⲉⲧⲟ ⲇⲉ ⲛ̅ϫⲟⲉⲓⲥ\nⲁϫⲙ̅ ⲡⲱϭⲃⲉ ⲁⲑⲩ̅ⲣ̅ⲱ̅ ⲧⲙⲁⲁⲩ ⲇⲉ ⲛ̅ⲛⲁⲓ̈ ⲧⲏ‐\nⲣⲟⲩ ⲥⲁϩⲉ ⲉⲣⲁⲧ̅ⲥ̅ ⲛ̅ⲧⲟⲩⲙⲏⲧⲉ ⲟⲛ̅ⲟⲣⲑⲟⲭⲣⲁ̅\nⲥⲁ̅ⲉ̅ⲓ̅ ⲉⲥϣⲟⲟⲡ’ ⲛ̅ⲁⲧⲧⲟϣ̅ⲥ̅ ⲁⲩⲱ ⲥⲧⲏϩ\nⲛⲙ̅ⲙⲁⲩ ⲧⲏⲣⲟⲩ· ⲁⲩⲱ ⲧⲁⲓ̈ ⲛⲁⲙⲉ ⲧⲉ ⲧϩⲩⲗⲏ\nⲉⲩⲥⲁⲛⲁϣⲧ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅ ⲡϥⲧⲟⲟⲩ\nⲛ̅ⲁⲣⲭⲏⲅⲟⲥ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲉⲫⲉ̅ⲙ̅ⲉ̅ⲙ̅ⲫ̅ⲓ̅ ⲡⲉ\nⲡⲁ ⲧϩⲏⲇⲟⲛⲏ ⲓ̅̈̅ⲱ̅ⲕ̅ⲱ̅ ⲡⲉ ⲡⲁⲧ’ ⲉⲡⲓⲑⲩⲙⲉⲓⲁ\nⲛⲉⲛⲉⲛⲧⲱⲫⲛⲓ ⲡⲉ ⲡⲁⲧⲗⲩⲡⲏ ⲃⲗ̅ⲁ̅ⲟ̅ⲙ̅ⲏ̅ⲛ̅\nⲡⲉ ⲡⲁⲧϩⲛⲱϩⲉ ⲧⲟⲩⲙⲁⲁⲩ ⲇⲉ ⲧⲏⲣⲟⲩ ⲉⲥ̅ⲑ̅ⲏ̅ⲛ̅\nⲥ̅ⲓ̅ⲥ̅ⲟ̅ⲩ̅ⲭ̅ ⲉⲡ̅ⲓⲡⲧⲟⲏ̅ ⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲡⲓϥⲧⲟⲟⲩ\nⲛ̅ⲇⲁⲓⲙⲱⲛ ⲁⲩϣⲱⲡⲉ ⲛ̅ϭⲓ ϩⲛ̅ⲡⲁⲑⲟⲥ ⲉ‐\nⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲧⲗⲩⲡⲏ ⲟⲩⲫⲑⲟⲛⲟⲥ ⲟⲩⲕⲱϩ\nⲟⲩⲙ̅ⲕⲁϩ ⲟⲩⲟⲭⲗⲏⲥⲓⲥ ⲟⲩⲛⲓⲕⲉ ⲟⲩⲙⲛ̅ⲧ̅‐\nⲁⲧⲣ̅ϩⲧⲏϥ ⲟⲩⲣⲟⲟⲩϣ ⲟⲩϩⲏⲃⲉ ⲁⲩⲱ ⲡⲕⲉ‐\nϣⲱϫⲡ ⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲧϩⲏⲇⲟⲛⲏ ϣⲁⲩ‐\nϣⲱⲡⲉ ⲛ̅ϭⲓ ϩⲁϩ ⲛ̅ⲕⲁⲕⲓⲁ ⲁⲩⲱ ⲡϣⲟⲩϣⲟⲩ‐\nⲉⲧϣⲟⲩⲉⲓⲧ ⲁⲩⲱ ⲛⲉⲧ’ⲉⲓⲛⲉ ⲛ̅ⲛⲁⲓ̈ ⲉⲃⲟⲗ\nⲇⲉ ϩⲛ̅ ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲟⲩⲟⲣⲅⲏ ⲟⲩϭⲱⲛⲧ\nⲙⲛ̅ ⲟⲩⲭⲟ[ⲗⲏ] ⲙ[ⲛ̅ ⲟ]ⲩⲉⲣⲱⲥ· ⲉϥⲥⲁϣⲉ\nⲙⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲉⲓ ⲁⲩⲱ ⲛⲉⲧⲉⲓⲛⲉ ⲛ̅ⲛⲁⲓ̈\nⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲧⲛⲱϩⲉ ⲟⲩⲉⲕⲡⲗⲏⲝⲓⲥ ⲟⲩ‐\nⲕⲱⲣϣ ⲟⲩⲁⲅⲱⲛⲓⲁ ⲟⲩϣⲓⲡⲉ ⲛⲁⲓ̈ ⲇⲉ ⲧⲏ‐\nⲣⲟⲩ ⲛ̅ⲑⲉ ⲛ̅ϩⲛ̅ⲡⲉⲧⲣ̅ϣⲁⲩ ⲙⲛ̅ ⲛ̅ⲡⲉⲑⲟ‐\nⲟⲩ ⲧⲉⲛⲛⲟⲓⲁ ⲇⲉ ⲛ̅ⲧⲉ ⲧⲟⲩⲙⲏⲉ ⲧⲉ ⲁⲛⲁ‐\nⲣⲱ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧⲁⲡⲉ ⲛ̅ⲧϩⲩⲗⲓⲕⲏ ⲛ̅ⲯⲩ‐\nⲭⲏ\nⲉⲥϣⲟⲟⲡ ⲅⲁⲣ ⲙⲛ̅ ⲧⲉⲥⲑⲏⲥⲓⲥ ⲍⲟⲩ̅ⲭ̅ⲉ̅ⲡ̅ⲓ̅‐\nⲡⲧ̅ⲟ̅ⲏ̅ ⲧⲁⲓ̈ ⲧⲉ ⲧⲏⲡⲉ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲉⲡⲓ\nⲧⲟ ⲁⲩⲧⲟ ⲉⲩⲉⲓⲣⲉ ⲛ̅ϣⲙ̅ⲧϣⲉⲥⲉⲧⲏⲉ ⲁⲩ‐\nⲣ̅ϩⲱⲃ ⲧⲏⲣⲟⲩ ⲉⲣⲟϥ ϣⲁⲛⲧϥϫⲱⲕ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧⲟⲩ ⲕⲁⲧⲁ ⲙⲉⲗⲟⲥ ⲛ̅ϭⲓ ⲯⲩⲭⲓⲕⲟⲛ\nⲁⲩⲱ ⲡϩⲩⲗⲓⲕⲟⲛ ⲛ̅ⲥⲱⲙⲁ ⲥⲉϣⲟⲟⲡ ⲅⲁⲣ\nⲛ̅ϭⲓ ϩⲉⲛⲕⲟⲟⲩⲉ ϩⲓϫⲛ̅ ⲡⲕⲉϣⲱϫⲡ ⲙ̅ⲡⲁ‐\nⲑⲟⲥ ⲛⲁⲓ̈ ⲉⲧⲉ ⲙ̅ⲡⲓϫⲟⲟⲩ ⲛⲁⲕ ⲉϣⲡⲉ ⲕⲟⲩ‐\nⲱϣⲉ ⲇⲉ ⲁⲙ̅ⲙⲉ ⲉⲣⲟⲟⲩ ϥⲥⲏϩ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡϫⲱⲱⲙⲉ ⲛ̅ⲍⲱⲣⲟⲁⲥⲧⲣⲟⲥ ⲁⲩⲣ̅ ϩⲱⲃ"
+        },
+        {
+          "title": "Adam Receives Spirit and Life",
+          "subtitle": "Adam Receives Spirit and Life",
+          "heading": "Adam Receives Spirit and Life (19, 10-20, 28)",
+          "rangeLabel": "19, 10-20, 28",
+          "range": {
+            "start": {
+              "page": 19,
+              "line": 10
+            },
+            "end": {
+              "page": 20,
+              "line": 28
+            }
+          },
+          "english": "All the angels and demons worked together until they fashioned the psychical\nbody. But for a long time their creation did not stir or move at all.\nWhen the Mother wanted to take back the power she had relinquished to the\nfirst ruler, she prayed to the most merciful Mother-Father of the All. With a\nsacred command the Mother-Father sent five luminaries down upon the place\nof the angels of the first ruler. They advised him so that they might recover the\nmother’s power.\nThey said to Yaldabaoth, “Breathe some of your spirit into the face of Adam,\nand the body will arise.”\nHe breathed his spirit into Adam. The spirit is the power of his mother, but\nhe did not realize this, because he lives in ignorance. The Mother’s power went\nout of Yaldabaoth and into the psychical body that had been made to be like the\none who is from the beginning.\nThe body moved and became powerful. And it was enlightened.\nAt once the rest of the powers became jealous. Although Adam came\ninto being through all of them, and they gave their power to this human, Adam\nwas more intelligent than the creators and the first ruler. When they realized that\nAdam was enlightened and could think more clearly than they and was stripped\nof evil, they took and threw Adam into the lowest part of the whole material\nrealm.\nThe blessed, benevolent, merciful Mother-Father had compassion for the\nMother’s power that had been removed from the first ruler. The archons might\nbe able to overpower the psychical, perceptible body once again. So with its\nbenevolent and most merciful Spirit, the Mother-Father sent a helper to Adam-\nenlightened Insight, who is from the Mother-Father and who was called Life.\nShe helped the whole creature, laboring with it, restoring it to its fullness,\nteaching it about the descent of the seed, teaching it about the way of ascent,\nwhich is the way of descent.\nEnlightened Insight was hidden within Adam so that the archons might not\nrecognize her, but that Insight might be able to restore what the Mother lacked.",
+          "coptic": "ⲡϫⲱⲱⲙⲉ ⲛ̅ⲍⲱⲣⲟⲁⲥⲧⲣⲟⲥ ⲁⲩⲣ̅ ϩⲱⲃ\nⲇⲉ ⲧⲏⲣⲟⲩ ⲛ̅ϭⲓ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲙⲛ̅ ⲛ̅ⲇⲁⲓⲙⲱⲛ\nϣⲁⲛⲧⲟⲩⲧⲥⲉⲛⲟ ⲙ̅ⲯⲩⲭⲓⲕⲟⲛ ⲛ̅ⲥⲱⲙⲁ\nⲁⲩⲱ ⲁϥϣⲱⲡⲉ ⲧⲏⲣϥ ⲛ̅ϭⲓ ⲡⲟⲩϩⲱϥ ⲛ̅‐\nⲁⲣⲅⲟⲛ ⲁⲩⲱ ⲛ̅ⲁⲧⲕⲓⲙ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ⲟⲩ‐\nⲟⲉⲓϣ ⲧⲙⲁⲩ ⲇⲉ ⲛ̅ⲧⲁⲣⲉⲥⲟⲩⲱϣⲉ ⲁϫⲓ\nⲛ̅ⲧϭⲟⲙ ⲉⲛⲧⲁⲥⲧⲁⲁⲥ ⲙ̅ⲡⲓϣⲟⲣⲡ ⲛ̅ⲁⲣ‐\nⲭⲱⲛ’ ⲁⲥⲥⲟⲡⲥ̅ ⲙ̅ⲡⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ ⲙ̅‐\nⲡⲧⲏⲣϥ ⲡⲁⲡⲛⲟϭ ⲛ̅ⲛⲁⲉ ⲁϥⲧⲛ̅ⲛⲟⲟⲩ ⲛ̅‐\nϯⲟⲩ ⲙ̅ⲫⲱⲥⲧⲏⲣ ϩⲙ̅ ⲡϣⲟϫⲛⲉ ⲉⲧⲟⲩⲁⲁⲃ\nⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲧⲟⲡⲟⲥ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲙ̅ⲡⲣⲱ‐\nⲧⲁⲣⲭⲱⲛ ⲁⲩϫⲓ ϣⲟϫⲛⲉ ⲛⲁϥ ϩⲱⲥⲧⲉ ⲁⲧⲟⲩ\nⲉⲓⲛⲉ ⲉⲃⲟⲗ ⲛ̅ⲧϭⲟⲙ ⲛ̅ⲧⲙⲁⲁⲩ ⲁⲩⲱ ⲡⲉϫⲁⲩ\nⲛ̅ⲓⲁⲗⲧⲁⲃⲁⲱⲑ ϫⲉ ⲛⲓϥⲉ ⲉϩⲟⲩⲛ ϩⲙ̅ ⲡⲉϥ‐\nϩⲟ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ϥⲛⲁⲧⲱ‐\nⲱⲛ ⲛ̅ϭⲓ ⲡⲉϥⲥⲱⲙⲁ ⲁⲩⲱ ⲁϥⲛⲓϥⲉ ⲉϩⲟⲩⲛ\nⲉϩⲣⲁϥ ⲙ̅ⲡⲉϥⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧϭⲟⲙ\nⲛ̅ⲧⲉϥⲙⲁⲁⲩ ⲙ̅ⲡⲉϥⲙ̅ⲙⲉ ϫⲉ ϥϣⲟⲟⲡ\nϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲥⲃⲱⲕ ⲉϩⲟⲩⲛ\nⲛ̅ϭⲓ ⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲙⲁⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲁⲗ‐\nⲧⲁⲃⲁⲱⲑ’ ⲉϩⲟⲩⲛ ⲁⲯⲩⲭⲓⲕⲟⲥ ⲛ̅ⲥⲱⲙⲁ\nⲡⲉⲧⲁⲩⲣ̅ϩⲱⲃ ⲉⲣⲟϥ ⲕⲁⲧⲁ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲉⲧ‐\nϣⲟⲟⲡ’ ϫⲛ̅ ⲛ̅ϣⲟⲣⲡ ⲁϥⲕⲓⲙ ⲁⲩⲱ ⲁϥϭⲙ̅‐\nϭⲟⲙ ⲛ̅ϭⲓ ⲡⲥⲱⲙⲁ ⲁⲩⲱ ⲁϥⲣ̅ ⲟⲩⲟⲉⲓⲛ\nⲁⲩⲱ ⲁⲩⲕⲱϩ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ\nⲡⲕⲉⲥⲉⲉⲡⲉ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ϫⲉ ⲛ̅ⲧⲁϥϣⲱⲡⲉ\nⲅⲁⲣ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲁⲩϯ ⲛ̅ⲧⲉⲩ\nϭⲁⲙ ⲙ̅ⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲁⲥⲧⲁϫⲣⲟ ⲛ̅ϭⲓ ⲧⲉϥⲙ̅ⲛ̅ⲧ̅‐\nⲣⲙⲛ̅ϩⲏⲧ ⲛ̅ϩⲟⲩⲟ ⲁⲛⲉⲧⲁϩⲧⲁⲙⲓⲟϥ ⲁⲩⲱ ⲛ̅‐\nϩⲟⲩⲟ ⲁⲡϣⲟⲣⲡ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲙ̅ⲙⲉ ⲇⲉ\nϫⲉ ϥⲟ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ϥⲙⲉⲉⲩⲉ ⲛ̅ϩⲟⲩⲟ\nⲉⲣⲟⲟⲩ ⲁⲩⲱ ϥⲕⲏⲕ ⲁϩⲏⲩ ⲛ̅ⲧⲕⲁⲕⲓⲁ ⲁⲩϥⲓ ⲙ̅‐\nⲙⲟϥ ⲁⲩⲛⲟϫϥ ⲁⲡⲙⲉⲣⲟⲥ ⲉⲧⲙ̅ⲡⲥⲁⲙ’ ⲡⲓⲧⲛ̅\nⲛ̅ⲧϩⲩⲗⲏ ⲧⲏⲣ̅ⲥ̅ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲇⲉ ⲡⲙⲏⲧⲣⲟⲡⲁ‐\nⲧⲱⲣ’ ⲡⲣⲉϥⲣ̅ⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲁⲩⲱ ⲡϣⲁⲛϩⲧⲏϥ\nⲁϥϣⲛ̅ϩⲧⲏϥ ⲉϩⲣⲁⲓ̈ ⲁϫⲛ̅ ⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲙⲁ‐\nⲁⲩ ⲧⲁⲓ̈ ⲉⲧⲁⲩⲛ̅ⲧⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ\nⲁⲩⲱ ⲟⲛ ϫⲉ ⲥⲉⲛⲁϭⲙ̅ϭⲟⲙ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲥⲱ‐\nⲙⲁ ⲙ̅ⲯⲩⲭⲓⲕⲟⲛ ⲁⲩⲱ ⲡⲉⲥⲑⲏⲧⲟⲛ ⲁⲩⲱ ⲁϥ‐\nⲧⲛ̅ⲛⲟⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲉϥⲡ̅ⲛ̅ⲁ̅ ⲛ̅ⲣⲉϥⲣ̅ ⲡ̅ⲉ‐\nⲧⲛⲁⲛⲟⲩϥ ⲁⲩⲱ ⲡⲉⲧⲛⲁϣⲉ ⲡⲉϥⲛⲁ ⲛ̅ⲟⲩ‐\nⲃⲟⲏⲑⲟⲥ ⲛ̅ⲁⲇⲁⲙ ⲟⲩⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ\nⲧⲁⲓ̈ ⲟⲩ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲧⲉ ⲉⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ\nϫⲉ ⲍⲱⲏ ⲧⲁⲓ̈ ⲇⲉ ⲉⲥⲣ̅ϩⲩⲡⲟⲩⲣⲅⲉⲓ ⲛ̅ⲧⲕⲧⲓⲥⲓⲥ\nⲧⲏⲣⲥ ⲉⲥϣⲉⲡ ϩⲓⲥⲉ ⲛⲙ̅ⲙⲁϥ ⲁⲩⲱ ⲉⲥⲥⲱϩⲉ\nⲙ̅ⲙⲁϥ ⲉϩⲟⲩⲛ ⲁⲡⲉϥⲡⲗⲏⲣⲱⲙⲁ ⲁⲩⲱ ⲉⲥ‐\nⲧⲥⲉⲃⲟ ⲙ̅ⲙⲁϥ ⲁⲧⲉϥϭⲓⲛⲉⲓ ⲁⲡⲓⲧⲛ̅ ⲙ̅ⲡⲥ‐\nⲡⲉⲣⲙⲁ ⲉⲥⲧⲥⲁⲃⲟ ⲙ̅ⲙⲟϥ ⲉⲡⲙⲁⲓ̈ⲧ ⲃ̅ⲃⲱⲕ\nⲉϩⲣⲁⲓ̈ ⲡⲙⲁⲓ̈ⲧ’ ⲉⲛⲧⲁϥⲉⲓ ⲉϩⲣⲁⲓ̈ ⲙ̅ⲙⲁⲩ ⲁⲩ‐\nⲱ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲥϩⲏⲡ ϩⲛ̅ ⲁ‐\nⲇⲁⲙ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩⲙ̅ⲙⲉ ⲛ̅ϭⲓ ⲛ̅ⲁⲣⲭⲱⲛ\nⲁⲗⲗⲁ ⲛ̅ⲥϣⲱⲡⲉ ⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲥⲱ‐\nϩⲉ ⲙ̅ⲡϣⲧⲁ ⲛ̅ⲧⲙⲁⲁⲩ ⲁⲩⲱ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "The Imprisonment of Humanity",
+          "subtitle": "The Imprisonment of Humanity",
+          "heading": "The Imprisonment of Humanity (20, 28-22, 28)",
+          "rangeLabel": "20, 28-22, 28",
+          "range": {
+            "start": {
+              "page": 20,
+              "line": 28
+            },
+            "end": {
+              "page": 22,
+              "line": 28
+            }
+          },
+          "english": "The human being Adam was revealed through the bright shadow within. And\nAdam’s ability to think was greater than that of all the creators. When they\nlooked up, they saw that Adam’s ability to think was greater, and they devised a\nplan with the whole throng of archons and angels. They took fire, earth, and\nwater, and combined them with the four fiery winds. They wrought them\ntogether and made a great commotion.\nThe rulers brought Adam into the shadow of death so that they might\nproduce a figure again, from earth, water, fire, and the spirit that comes from\nmatter-that is, from the ignorance of darkness, and desire, and their own\nphony spirit. This figure is the cave for remodeling the body that these criminals\nput on the human, the fetter of forgetfulness. Adam became a mortal person,\nthe first to descend and the first to become estranged.\nEnlightened Insight within Adam, however, was rejuvenating Adam’s mind.\nThe archons took Adam and put Adam in paradise. They said, “Eat,”\nmeaning, Do so in a leisurely manner. But in fact their pleasure is bitter and\ntheir beauty is perverse. Their pleasure is a trap, their trees are a sacrilege, their\nfruit is deadly poison, and their promise is death.\nThey put their tree of life in the middle of paradise.\nI shall teach you what the secret of their life is-the plan they devised\ntogether, the nature of their spirit. The root of their tree is bitter, its branches are\ndeath, its shadow is hatred, a trap is in its leaves, its blossom is bad ointment, its\nfruit is death, desire is its seed, and it blossoms in darkness. The dwelling place\nof those who taste of it is the underworld, and darkness is their resting\nplace.\nBut the archons lingered in front of what they call the tree of the knowledge\nof good and evil, which is enlightened Insight, so that Adam might not behold\nits fullness and recognize his shameful nakedness.\nBut I was the one who induced them to eat.\nI said to the Savior, “Lord, was it not the serpent that instructed Adam to\neat?”\nThe Savior laughed and said, The serpent instructed them to eat of the\nwickedness of sexual desire and destruction so that Adam might be of use to the\nserpent.\nThe first ruler knew Adam was disobedient to him because of enlightened\nInsight within Adam, which made Adam stronger of mind than he. He wanted to\nrecover the power that he himself had passed on to Adam. So he brought deep\nsleep upon Adam.\nI said to the Savior, “What is this deep sleep?”\nThe Savior said, It is not as Moses wrote and you heard. He said in his first\nbook, “He put Adam to sleep.” Rather, this deep sleep was a loss of sense.\nThus the first ruler said through the prophet, “I shall make their minds sluggish,\nthat they may neither understand nor discern.”",
+          "coptic": "ϩⲉ ⲙ̅ⲡϣⲧⲁ ⲛ̅ⲧⲙⲁⲁⲩ ⲁⲩⲱ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ ⲉⲧⲃⲉ ⲧϩⲁⲓ̈ⲃⲉⲥ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ\nⲧⲁⲓ̈ ⲉⲧϣⲟⲟⲡ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁⲡⲉϥⲙⲉ‐\nⲉⲩⲉ ϫⲓⲥⲉ ⲡⲁⲣⲁ ⲛⲉⲧⲁϩⲧⲁⲙⲓⲟϥ ⲧⲏⲣⲟⲩ\nⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲱⲣⲙⲉ ⲁⲧⲡⲉ ⲁⲩⲛⲁⲩ ⲉⲣⲟϥ\nϫⲉ ϥϫⲟⲥⲉ ⲛ̅ϭⲓ ⲡⲉϥⲙⲉⲉⲩⲉ ⲁⲩⲱ ⲁⲩⲉⲓⲣⲉ\nⲛ̅ⲟⲩϣⲟϫⲛⲉ ⲙⲛ̅ ⲧⲁⲣⲭⲟⲛⲧⲓⲕⲏ ⲙⲛ̅ ⲧⲁⲅ‐\nⲅⲉⲗⲓⲕⲏ ⲧⲏⲣⲥ̅ ⲁⲩϥⲓ ⲛ̅ⲟⲩⲥⲁⲧⲉ ⲙⲛ̅ ⲟⲩⲕⲁϩ\nⲙⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲁⲩⲧⲱ→ϩ← ⲙ̅ⲙⲟⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ\nⲙⲛ̅ ⲡⲉϥⲧⲟⲩ ⲧⲏⲩ ⲛ̅ⲥⲁⲧⲉ ⲁⲩⲱ ⲁⲩϣⲱϭⲉ ⲉ‐\nϩⲟⲩⲛ ϩⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ ⲁⲩⲉⲓⲣⲉ ⲛ̅ⲟⲩⲛⲟϭ\nⲛ̅ϣⲧⲟⲣⲧⲣ̅ ⲁⲩⲱ ⲁⲩⲱⲗ ⲙ̅ⲙⲟϥ ⲉϩⲟⲩⲛ ⲁⲧϩⲁⲓ̈‐\nⲃⲉⲥ ⲙ̅ⲡⲙⲟⲩ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲡⲗⲁⲥⲥⲉ ⲛ̅ⲕⲉ‐\nⲥⲟⲡ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲙⲛ̅ ⲧⲕⲱϩⲧ\nⲁⲩⲱ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲡⲉⲃⲟⲗ ϩⲛ̅ ⲧϩⲩⲗⲏ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ ⲧⲉⲡⲓⲑⲩ‐\nⲙⲉⲓⲁ ⲁⲩⲱ ⲡⲉⲩⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲃⲃⲓⲁⲉⲓⲧ ⲉⲧⲉ ⲡⲁⲓ̈\nⲡⲉ ⲡⲥⲡⲏⲗⲁⲓⲟⲛ ⲛ̅ⲧⲁⲛⲁⲡⲗⲁⲥⲓⲥ ⲙ̅ⲡⲥⲱⲙⲁ\nⲡⲁⲓ̈ ⲉⲛⲧⲁⲩⲧⲁⲁϥ ϩⲓ ⲡⲣⲱⲙⲉ ⲛ̅ϭⲓ ⲛ̅ⲗⲏⲥⲧⲏⲥ\nⲧⲙⲣ̅ⲣⲉ ⲛ̅ⲧⲃ̅ϣⲉ ⲁⲩⲱ ⲡⲁⲓ̈ ⲁϥϣⲱⲡⲉ ⲛ̅ⲟⲩ‐\nⲣⲱⲙⲉ ⲉϣⲁϥⲙⲟⲩ ⲡⲁⲓ̈ ⲡⲉⲛⲧⲁϩⲉⲓ ⲉϩⲣⲁⲓ̈\nⲛ̅ϣⲟⲣⲡ ⲁⲩⲱ ⲡϣⲟⲣⲡ ⲙ̅ⲡⲱⲣϫ’ ⲉⲃⲟⲗ ⲧⲉ‐\nⲡⲓⲛⲟⲓⲁ ⲇⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲛⲁⲥⲛ̅ϩⲏⲧϥ ⲛ̅‐\nⲧⲟⲥ ⲡⲉⲧⲛⲁⲥⲧⲟⲩⲛⲟⲩⲥ ⲙ̅ⲡⲉϥⲙⲉⲉⲩⲉ ⲁⲩ‐\nⲱ ⲁⲩⲉⲓⲛⲉ ⲙ̅ⲙⲟϥ ⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲁⲩⲕⲱ ⲙ̅‐\nⲙⲟϥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲁⲩⲱ ⲡⲉϫⲁⲩ ⲛⲁϥ\nϫⲉ ⲟⲩⲱⲙ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ϩⲛ̅ ⲟⲩⲥⲣ̅ϥⲉ ⲕⲁⲓ ⲅⲁⲣ\nⲧⲟⲩⲧⲣⲩⲫⲏ ⲥⲁϣⲉ ⲁⲩⲱ ⲡⲟⲩⲥⲁⲉ ⲟⲩⲁⲛⲟ‐\nⲙⲟⲛ ⲡⲉ ⲧⲟⲩⲧⲣⲩⲫⲏ ⲇⲉ ⲧⲉ ⲧⲁⲡⲁⲧⲏ ⲁⲩⲱ\nⲛⲟⲩϣⲏⲛ ⲧⲉ ⲧⲙⲛ̅ⲧ̅ⲁⲥⲉⲃⲏⲥ ⲁⲩⲱ ⲡⲟⲩⲕⲁⲣ‐\nⲡⲟⲥ ⲟⲩⲙⲁⲧⲟⲩ ⲛ̅ⲁⲧⲧⲁⲗϭⲟ ⲡⲉ ⲁⲩⲱ ⲡⲟⲩ‐\nϣⲡⲱⲡ ⲟⲩⲙⲟⲩ ⲡⲉ ⲡϣⲏⲛ ⲇⲉ ⲛ̅ⲧⲉ ⲡⲟⲩ‐\nⲱⲛϩ ⲉⲛⲧⲁⲩⲕⲱ ⲙ̅ⲙⲟϥ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲁ‐\nⲣⲁⲇⲓⲥⲟⲥ ⲁⲛⲟⲕ ⲇⲉ ϯⲛⲁⲧⲥⲁⲃⲱⲧⲛ̅ ϫⲉ\nⲟⲩ ⲡⲉ ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̅ⲧⲉ ⲡⲟⲩⲱⲛϩ ⲉⲧⲉ\nⲡⲁⲓ̈ ⲡⲉ ⲡϣⲟϫⲛⲉ ⲉⲛⲧⲁⲩⲁⲁϥ ⲙⲛ̅ ⲛⲟⲩⲉ‐\nⲣⲏⲩ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲟⲩⲡⲛ̅ⲁ̅ ⲡⲁⲓ̈\nⲉⲣⲉ ⲧⲉϥⲛⲟⲩⲛⲉ ⲥⲁϣⲉ ⲁⲩⲱ ⲛⲉϥⲕⲗⲁⲇⲟⲥ\nϩⲉⲛⲙⲟⲩ ⲛⲉ ⲧⲉϥϩⲟⲓ̈ⲃⲉⲥ ⲟⲩⲙⲟⲥⲧⲉ ⲡⲉ\nⲁⲩⲱ ⲟⲩⲁⲡⲁⲧⲏ ⲧⲉⲧϣⲟⲟⲡ ϩⲛ̅ ⲛⲉϥϭⲱ‐\nⲱⲃⲉ ⲁⲩⲱ ⲡⲉϥϯⲟⲩⲱ ⲡⲉ ⲡⲧⲱϩ̅ⲥ̅ ⲛ̅ⲧⲡⲟ\nⲛⲏⲣⲓⲁ ⲁⲩⲱ ⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲡⲉ ⲡⲙⲟⲩ ⲁⲩ‐\nⲱ ⲟⲩⲉⲡⲓⲑⲩⲙⲓⲁ ⲡⲉ ⲡⲉϥⲥⲡⲉⲣⲙⲁ ⲁⲩⲱ\nⲉϥϯⲟⲩⲱ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲛⲉⲧϫⲓϯⲡⲉ\nⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲡⲉⲩⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲡⲉ ⲁ‐\nⲙⲛ̅ⲧⲉ ⲁⲩⲱ ⲡⲕⲁⲕⲉ ⲡⲉ ⲡⲟⲩⲙⲁ ⲛⲙ̅ⲧⲟⲛ\nⲡⲉⲛⲧⲁⲩⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲣⲟϥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ\nϫⲉ ⲡϣⲏⲛ ⲛ̅ⲥⲟⲩⲛ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲙ̅ⲛ ⲡⲉⲧ‐\nϩⲟⲟⲩ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉ‐\nⲁⲩϭⲱ ⲙ̅ⲡⲉϥⲙ̅ⲧⲟ ⲉⲃⲟⲗ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉϥ\nϭⲱϣⲧ ⲉϩⲣⲁⲓ̈ ⲁⲡϥⲡⲗⲏⲣⲱⲙⲁ ⲁⲩⲱ ⲁⲧⲣⲉϥ‐\nⲥⲟⲩⲱⲛ ⲡⲕⲱⲛⲕ ⲁϩⲏⲩ ⲛ̅ⲧⲉϥⲁⲥⲭⲏⲙⲟⲥⲩ‐\nⲛⲏ ⲁⲛⲟⲕ ⲇⲉ ⲁⲓ̈ⲥⲉϩⲱⲟⲩ ⲁⲧⲣⲟⲩⲱⲙ ⲁⲩⲱ\nⲡⲉϫⲁⲉⲓ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲏ ⲫⲁϥ ⲁⲛ\nⲡⲉⲛⲧⲁϥⲧⲥⲉⲃⲉ ⲁⲇⲁⲙ ⲁⲧⲣⲉϥⲟⲩⲱⲙ ⲁϥⲥⲱ‐\nⲃⲉ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ⲡⲉϫⲁϥ ϫⲉ ⲫⲟϥ ⲁϥⲧⲥⲉⲃⲟⲟⲩ\nⲁⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲕⲁⲕⲓⲁ ⲛ̅ⲥⲡⲟⲣⲁ ⲛ̅ⲉ‐\nⲡⲓⲑⲩⲙⲉⲓⲁ ⲛ̅ⲧⲉ ⲡⲧⲉⲕⲟ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁϣⲱ‐\nⲡⲉ ⲛⲁϥ ⲛ̅ⲟⲩϣⲁⲩ ⲁⲩⲱ ⲁϥⲙ̅ⲙⲉ ϫⲉ ϥⲟ ⲛ̅ⲁⲧ‐\nⲥⲱⲧⲙ̅ ⲛⲁϥ ⲉⲧⲃⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲉⲡⲓⲛⲟⲓⲁ\nⲉⲧϣⲟⲟⲡ ⲛ̅ϩⲏⲧϥ ⲉⲧⲥⲱϩⲉ ⲙ̅ⲙⲟϥ ϩⲙ̅ ⲡⲉϥ‐\nⲙⲉⲉⲩⲉ ⲛ̅ϩⲟⲩⲟ ⲁⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲁϥ‐\nⲟⲩⲱϣⲉ ⲁⲉⲓⲛⲉ ⲛ̅ⲧϭⲟⲙ ⲉⲃⲟⲗ ⲉⲛⲧⲁϥⲧⲁⲁⲥ\nⲛⲁϥ’ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲁⲩⲱ ⲁϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲃ̅ϣⲉ\nⲁϫⲛ̅ ⲁⲇⲁⲙ ⲁⲩⲱ ⲡⲉϫⲁⲉⲓ ⲙ̅ⲡⲥⲱ̅ⲣ̅ ϫⲉ ⲟⲩ ⲧⲉ\nⲧⲃ̅ϣⲉ ⲛ̅ⲧⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ϫⲉ ⲛ̅ⲑⲉ ⲁⲛ ⲉⲛⲧⲁⲙⲱ‐\nⲩ̈ⲥⲏⲥ ⲥϩⲁⲓ̈ ⲉⲁⲕⲥⲱⲧⲙ̅ ⲁϥϫⲟⲟⲥ ⲅⲁⲣ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡⲉϥϣⲟⲣⲡ ⲛ̅ϫⲱⲙⲉ ϫⲉ ⲁϥϫⲧⲟ ⲙ̅ⲙⲟϥ ⲁⲗⲗⲁ\nϩⲛ̅ ⲛⲉϥⲁⲓⲥⲑⲏⲥⲓⲥ ⲕⲁⲓ ⲅⲁⲣ ⲁϥϫⲟⲟⲥ ϩⲓⲧⲛ̅ ⲡⲉ‐\nⲡⲣⲟⲫⲏⲧⲏⲥ ϫⲉ ϯⲛⲁϩⲣⲟϣ ⲉϩⲣⲁⲓ̈ ⲁϫⲛ̅ ⲛⲟⲩ‐\nϩⲉⲧⲉ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩϯ ϩⲧⲏⲩ ⲟⲩⲧⲉ {ϫ} ⲛ̅ⲛⲟⲩ‐\nⲛⲁⲩ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲁⲥ‐"
+        },
+        {
+          "title": "The Creation of Eve",
+          "subtitle": "The Creation of Eve",
+          "heading": "The Creation of Eve (22, 28-23, 35)",
+          "rangeLabel": "22, 28-23, 35",
+          "range": {
+            "start": {
+              "page": 22,
+              "line": 28
+            },
+            "end": {
+              "page": 23,
+              "line": 35
+            }
+          },
+          "english": "Enlightened Insight hid herself within Adam. The first ruler wanted to take her\nfrom Adam’s side, but enlightened Insight cannot be apprehended. Although\ndarkness pursued her, it did not apprehend her. The first ruler removed part of\nAdam’s power and created another figure in the form of a female, like the image\nof Insight that had appeared to him. He put the part he had taken from the\npower of the human being into the female creature. It did not happen, however,\nthe way Moses said: “Adam’s rib.”\nAdam saw the woman beside him. At once enlightened Insight appeared and\nremoved the veil that covered his mind. He sobered up from the drunkenness of\ndarkness. He recognized his counterpart and said, “This is now bone from my\nbones and flesh from my flesh.”\nFor this reason a man will leave his father and his mother and will join\nhimself to his wife, and the two of them will become one flesh. For his partner\nwill be sent to him, and he will leave his father and his mother.\nOur sister Sophia is the one who descended in an innocent manner to restore\nwhat she lacked. For this reason she was called Life-that is, the Mother of\nthe living-by the Forethought of the sovereignty of heaven and by [the Insight\nthat appeared] to Adam. Through her have the living tasted perfect\nknowledge.\nAs for me, I appeared in the form of an eagle upon the tree of knowledge,\nwhich is the Insight of the pure enlightened Forethought, that I might teach the\nhuman beings and awaken them from the depth of sleep. For the two of them\nwere fallen and realized that they were naked. Insight appeared to them as\nlight and awakened their minds.",
+          "coptic": "ⲛⲁⲩ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲁⲥ‐\nϩⲱⲡ’ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁϥⲟⲩⲱϣⲉ ⲛ̅ϭⲓ ⲡⲣⲱⲧⲁⲣ‐\nⲭⲱⲛ ⲁⲉⲓⲛⲉ ⲙ̅ⲙⲟⲥ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥ ⲥⲡⲓⲣ\nⲧⲉⲡⲓⲛⲟⲓⲁ ⲇⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲟⲩⲁⲧⲧⲉϩⲟⲥ ⲧⲉ\nⲉϥⲡⲏⲧ ⲛ̅ⲥⲱⲥ ⲛ̅ϭⲓ ⲡⲕⲁⲕⲉ ⲙ̅ⲡ̅ϥⲧⲉϩⲟⲥ ⲁⲩⲱ\nⲁϥⲉⲓⲛⲉ ⲉⲃⲟⲗ ⲛ̅ⲟⲩⲙⲉⲣⲟⲥ ⲛ̅ⲧⲉ ⲧⲉϥϭⲟⲙ ⲉ‐\nⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲁⲩⲱ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲕⲉⲡⲗⲁⲥⲓⲥ\nϩⲛ̅ ⲟⲩⲙⲟⲣⲫⲏ ⲛ̅ⲥϩⲓⲙⲉ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲛ̅ⲧⲉⲡⲓ‐\nⲛⲟⲓⲁ ⲉⲧⲁϩⲟⲩⲱⲛϩ ⲛⲁϥ ⲉⲃⲟⲗ ⲁⲩⲱ ⲁϥⲉⲓ‐\nⲛⲉ ⲙ̅ⲡⲙⲉⲣⲟⲥ ⲉⲛⲧⲁϥϫⲓⲧϥ ⲉⲃⲟⲗ ϩⲛ̅ ⲧϭⲟⲙ\nⲙ̅ⲡⲣⲱⲙⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲥϩⲓⲙⲉ\nⲁⲩⲱ ⲕⲁⲧⲁ ⲑⲉ ⲁⲛ ⲉⲛⲧⲁ→ϥ←ϫⲟⲟⲥ ⲛ̅ϭⲓ ⲙⲱⲩ̈ⲥⲏⲥ\nϫⲉ ⲧⲉϥⲃⲉⲧⲥⲡⲓⲣ ⲁⲩⲱ ⲁϥⲛⲁⲩ ⲁⲧⲥϩⲓⲙⲉ ϩⲁ‐\nⲧⲏϥ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲥⲟⲩⲱⲛϩ ⲉ‐\nⲃⲟⲗ’ ⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲁⲥϭⲱⲗⲡ ⲉ‐\nⲃⲟⲗ’ ⲙ̅ⲡⲕⲁⲗⲩⲙⲙⲁ ⲉⲧⲛ̅ϩⲣⲁⲓ̈ ϩⲓϫⲛ̅ ⲡⲉϥϩⲏⲧ\nⲁⲩⲱ ⲁϥⲣ̅ⲛⲏⲫⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϯϩⲉ ⲙ̅ⲡⲕⲁⲕⲉ\nⲁⲩⲱ ⲁϥⲥⲟⲩⲛ̅ ⲧⲉϥⲉⲓⲛⲉ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ\nⲡⲁⲓ̈ ⲧⲉⲛⲟⲩ ⲟⲩⲕⲁⲁⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁⲕⲁⲁⲥ ⲡⲉ\nⲁⲩⲱ ⲟⲩⲥⲁⲣⲝ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲁⲥⲁⲣⲝ ⲧⲉ ⲉⲧⲃⲉ ⲡⲁⲓ̈\nⲡⲣⲱⲙⲉ ⲛⲁⲕⲱ ⲛ̅ⲥⲱϥ ⲙ̅ⲡⲉϥ’ⲉⲓⲱⲧ’ ⲙⲛ̅ ⲧⲉϥ‐\nⲙⲁⲁⲩ ⲁⲩⲱ ⲛ̅ϥⲧⲟϭϥ ⲁⲧⲉϥⲥϩⲓⲙⲉ ⲁⲩⲱ ⲛ̅ⲥⲉ‐\nϣⲱⲡⲉ ⲙ̅ⲡⲉⲥⲛⲁⲩ ⲉⲩⲥⲁⲣⲝ ⲟⲩⲱⲧ ϫⲉ ⲥⲉ‐\nⲛⲁⲧⲛ̅ⲛⲟⲟⲩ ⲅⲁⲣ ⲛⲁϥ ⲙ̅ⲡⲉϥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅\nⲁⲩⲱ ϥⲛⲁⲕⲱ ⲛ̅ⲥⲱϥ ⲙ̅ⲡϥⲉⲓⲱⲧ ⲙⲛ̅ ⲧϥⲙⲁⲁⲩ\n{ⲁⲩⲱ ⲛ̅ϥⲧⲟϭϥ’ ⲁⲧⲉϥⲥϩⲓⲙⲉ ⲁⲩⲱ ⲛ̅ⲥⲉϣⲱⲡⲉ\nⲙ̅ⲡⲉⲥⲛⲁⲩ ⲉⲩⲥⲁⲣⲝ ⲟⲩⲱⲧ ϫⲉ ⲥⲉⲛⲁⲧⲛ̅ⲛⲟ\nⲟⲩ ⲅⲁⲣ ⲛⲁϥ ⲙ̅ⲡⲉϥϣⲃⲣ̅ ⲛ̅ϩⲱⲧⲣ̅ ⲁⲩⲱ ϥⲛⲁⲕⲱ\nⲛ̅ⲥⲱϥ ⲙ̅ⲡϥⲉⲓⲱⲧ ⲙⲛ̅ ⲧϥ̅ⲙⲁⲁⲩ} ⲧⲛ̅ⲥⲱⲛⲉ\nⲇⲉ ⲧⲥⲟⲫⲓⲁ ⲧⲁⲓ̈ ⲉⲧⲁϩⲉⲓ ⲉϩⲣⲁⲓ̈ ϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧ̅‐\nⲁⲕⲁⲕⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲥⲛⲁⲥⲱϩⲉ ⲙ̅ⲡⲉⲥϣⲧⲁ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲍⲱⲏ ⲉⲧⲉ ⲧⲁⲓ̈\nⲧⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲡⲣⲟⲛⲟⲓⲁ\nⲛ̅ⲧⲁⲩⲑⲉⲛⲧⲉⲓⲁ’ ⲛ̅ⲧⲡⲉ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅\nⲁⲩϫⲓ ϯⲡⲉ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲁⲓ̈ⲟⲩⲱⲛϩ\nⲁⲛⲟⲕ ⲉⲃⲟⲗ ⲙ̅ⲡⲥⲙⲁⲧ ⲛ̅ⲟⲩⲁⲉⲧⲟⲥ ϩⲓϫⲛ̅\nⲡϣⲏⲛ ⲙ̅ⲡⲥⲟⲟⲩⲛ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧⲉⲡⲓⲛⲟⲓⲁ\nⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅‐\nⲃⲏⲩ ϫⲉⲕⲁⲁⲥ ⲉⲓ̈ⲛⲁⲧⲥⲉⲃⲁⲩ ⲁⲩⲱ ⲛ̅ⲧⲁⲧⲟⲩ‐\nⲛⲟⲥⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲓⲕ ⲙ̅ⲡϩⲓⲛⲏⲃ ⲛⲉⲩ‐\nϣⲟⲟⲡ ⲅⲁⲣ ⲙ̅ⲡⲥⲛⲁⲩ ϩⲛ̅ ⲟⲩϩⲉ ⲁⲩⲱ ⲁⲩⲙ̅‐\nⲙⲉ ⲁⲡⲟⲩⲕⲱⲕ ⲁϩⲏⲩ ⲁⲥⲟⲩⲱⲛϩ ⲛⲁⲩ ⲉⲃⲟⲗ\nⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲉⲥⲟ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲥⲧⲟⲩⲛⲟⲩⲥ\nⲙ̅ⲡⲟⲩⲙⲉⲉⲩⲉ ⲉϩⲣⲁⲓ̈ ⲛ̅ⲧⲁⲣⲉϥⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ"
+        },
+        {
+          "title": "Yaldabaoth Defiles Eve",
+          "subtitle": "Yaldabaoth Defiles Eve",
+          "heading": "Yaldabaoth Defiles Eve (23, 35-25, 16)",
+          "rangeLabel": "23, 35-25, 16",
+          "range": {
+            "start": {
+              "page": 23,
+              "line": 35
+            },
+            "end": {
+              "page": 25,
+              "line": 16
+            }
+          },
+          "english": "When Yaldabaoth realized that the humans had withdrawn from him, he cursed\nhis earth. He found the woman as she was preparing herself for her\nhusband. He was master over her. And he did not know the mystery that had\ncome into being through the sacred plan. The two of them were afraid to\ndenounce Yaldabaoth. He displayed to his angels the ignorance within him, and\nhe threw the humans out of paradise and cloaked them in thick darkness.\nThe first ruler saw the young woman standing next to Adam and noticed that\nenlightened Insight of Life had appeared in her. Yet Yaldabaoth was full of\nignorance. So when the Forethought of the All realized this, she dispatched\nemissaries, and they stole Life out of Eve.\nThe first ruler defiled Eve and produced in her two sons, a first and a second:\nElohim and Yahweh.\nElohim has the face of a bear,\nYahweh has the face of a cat.\nOne is just, the other is unjust.\nHe placed Yahweh over fire and wind,\nhe placed Elohim over water and earth.\nHe called them by the names Cain and Abel,\nwith a view to deceive.\nTo this day sexual intercourse has persisted because of the first ruler. He\nplanted sexual desire within the woman who belongs to Adam. Through\nintercourse the first ruler produced duplicate bodies, and he blew some of his\nfalse spirit into them.\nHe placed these two rulers over the elements so that they might rule over\nthe cave.\nWhen Adam came to know the counterpart of his own foreknowledge, he\nproduced a son like the child of humanity. He called him Seth, after the\nmanner of the generation in the eternal realms. Similarly, the mother sent\ndown her spirit, which is like her and is a copy of what is in the realm of\nFullness, for she was going to prepare a dwelling place for the eternal realms\nthat would come down.\nThe human beings were made to drink water of forgetfulness by the first\nruler, so that they might not know where they had come from. For a time the\nseed remained and helped so that when the spirit descends from the holy realms,\nit may raise up the seed and heal what it lacks, that the entire realm of Fullness\nmay be holy and lack nothing.",
+          "coptic": "ⲙ̅ⲡⲟⲩⲙⲉⲉⲩⲉ ⲉϩⲣⲁⲓ̈ ⲛ̅ⲧⲁⲣⲉϥⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ\nⲁⲗⲇⲁ̅ⲃⲁ̅ⲱ̅ⲑ̅ ϫⲉ ⲁⲩⲥⲉϩⲱⲟⲩ ⲉⲃⲟⲗ ⲙ̅ⲙⲟϥ\nⲁϥⲥⲟⲩϩⲱⲣ ⲙ̅ⲡⲉϥⲕⲁϩ ⲁϥϭⲛ̅ ⲧⲥϩⲓⲙⲉ ⲉⲥ‐\nⲥⲟⲃⲧⲉ ⲙ̅ⲙⲟⲥ ⲙ̅ⲡⲉⲥϩⲟⲟⲩⲧ’ ⲛⲉϥⲟ ⲛ̅ϫⲟⲉⲓⲥ\nⲉⲣⲟⲥ ⲡⲉ ⲉⲛϥⲥⲟⲟⲩⲛ ⲁⲛ ⲙ̅ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ\nⲉⲛⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲟϫⲛⲉ ⲉⲧⲟⲩ‐\nⲁⲁⲃ· ⲛ̅ⲧⲟⲟⲩ ⲇⲉ ⲁⲩⲣ̅ϩⲛⲱϩⲉ ⲁϫⲡⲓⲟϥ ⲁⲩ‐\nⲱ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲛ̅ⲧⲉϥ‐\nⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲧⲉⲧ’ϣⲟⲟⲡ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ ⲁⲩ‐\nⲱ ⲁϥⲛⲟⲩϫⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲁⲩⲱ\nⲁϥϯ ϩⲓⲱⲟⲩⲉ ⲛ̅ⲟⲩⲕⲙⲏⲙⲉ ⲛ̅ⲕⲁⲕⲉ ⲁⲩⲱ ⲁϥ‐\nⲛⲁⲩ ⲛ̅ϭⲓ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ⲉⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲁ‐\nϩⲉ ⲉⲣⲁⲧⲥ̅ ⲙⲛ̅ ⲁⲇⲁⲙ ⲁⲩⲱ ϫⲉ ⲁⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧⲥ̅ ⲛ̅ϭⲓ ⲧⲉⲡⲓⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲛ̅ⲱⲛϩ\nⲁⲩⲱ ⲁϥⲙⲟⲩϩ ⲛ̅ϭⲓ ⲁⲗⲇ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲛ̅ⲟⲩⲙ̅ⲛⲧ̅‐\nⲁⲧⲥⲟⲟⲩⲛ ⲛ̅ⲧⲁⲣⲉⲥⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲧⲡⲣⲟⲛⲟⲓⲁ\nⲙ̅ⲡⲧⲏⲣϥ ⲁⲥⲧⲛ̅ⲛ̅ⲟⲟⲩ ⲛ̅ⲛϩⲟⲉⲓⲛⲉ ⲁⲩⲱ ⲁⲩⲧⲱⲣⲡ’\nⲛ̅ⲍⲱⲏ ⲉⲃⲟⲗ ϩⲛ̅ ⲉⲩϩⲁ ⲁⲩⲱ ⲁϥϫⲱϩⲙⲉ ⲙ̅ⲙⲟⲥ\nⲛ̅ϭⲓ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲁϥϫⲡⲟ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅\nⲛ̅ϣⲏⲣⲉ ⲥⲛⲁⲩ ⲡϣⲟⲣⲡ’ ⲁⲩⲱ ⲡⲙⲉϩⲥⲛⲁⲩ·\nⲉⲗⲱ̅ⲓ̅ⲙ̅ ⲙⲛ̅ ⲓ̅ⲁⲩⲉ̅ ⲉⲗⲱⲓ̈ ⲙⲉⲛ ⲟⲩϩⲟ ⲛ̅ⲁⲣⲕⲟⲥ\nⲡⲉ ⲓ̈ⲁⲩ̅ⲉ̅ ⲇⲉ ⲟⲩϩⲟ ⲛ̅ⲉⲙⲟⲩ ⲡⲉ ⲡⲟⲩⲁ ⲙⲉⲛ\nⲟⲩⲇⲓⲕⲁⲓⲟⲥ ⲡⲉ ⲡⲟⲩⲁ ⲇⲉ ⲟⲩⲁⲇⲓⲕⲟⲥ ⲡⲉ ⲓ̈ⲁ‐\nⲉⲩⲉ̅ ⲙ̅ⲉ̅ⲛ̅ ⲁϥⲣ̅ⲁⲡⲟⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ ⲉϩⲣⲁⲓ̈\nⲉϫⲙ̅ ⲡⲕⲱϩⲧ ⲙⲛ̅ ⲡⲧⲏⲩ ⲉⲗⲱⲓ̈ⲙ ⲇⲉ ⲁϥⲣ̅ⲁⲡⲟ‐\nⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲙⲟⲟⲩ· ⲙⲛ̅\nⲡⲕⲁϩ ⲛⲁⲓ̈ ⲇⲉ ⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ⲛ̅ⲛⲓⲣⲁⲛ\nϫⲉ ⲕⲁⲓ̈ⲛ ⲁⲩⲱ ⲁⲃⲉⲗ ⲉϥⲛⲁⲩ ⲁⲧⲉϥⲡⲁⲛⲟⲩⲣ‐\nⲅⲓⲁ ϣⲁϩⲟⲩⲛ ϭⲉ ⲁⲡⲟⲟⲩ ⲛ̅ϩⲟⲟⲩ ⲁⲥϭⲱ ⲛ̅‐\nϭⲓ ϯⲥⲩⲛⲟⲩⲥⲓⲁ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ\nⲁⲩⲱ ⲁϥϫⲱ ⲛ̅ⲟⲩⲥⲡⲟⲣⲁ ⲛ̅ⲉⲡⲓⲑⲩⲙⲓⲁ ϩⲣⲁⲓ̈\nϩⲛ̅ ⲧⲁ ⲁⲇⲁⲙ ⲁϥⲧⲟⲩⲛⲟⲩⲥ ⲇⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲧⲥⲩⲛⲟⲩⲥⲓⲁ ⲙ̅ⲡϫⲡⲟ ⲙ̅ⲡⲉⲓⲛⲉ ⲛ̅ⲛ̅ⲥⲱⲙⲁ\nⲁⲩⲱ ⲁϥⲭⲱⲣⲏⲅⲉⲓ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥⲡⲛ̅ⲁ̅\nⲉⲧϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲡⲓⲁⲣⲭⲱⲛ ⲇⲉ ⲥⲛⲁⲩ ⲁϥⲣ̅ⲁⲡⲟ‐\nⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟⲟⲩ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ϩⲛ̅ⲁⲣⲭⲏ ϩⲱⲥ‐\nⲧⲉ ⲁⲧⲟⲩⲁⲣⲭⲉⲓ ⲁϫⲙ̅ ⲡⲉⲥⲡⲏⲗⲁⲓⲟⲛ ⲛ̅ⲧⲁⲣⲉϥ‐\nⲙ̅ⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲁⲇⲁⲙ ⲁⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉϥⲡⲣⲟ‐\nⲅⲛⲱⲥⲓⲥ ⲙ̅ⲙⲓⲛ ⲙ̅ⲙⲟϥ ⲁϥϫⲡⲟ ⲙ̅ⲡⲉⲓⲛⲉ\nⲙ̅ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁϥ’ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲥⲏⲑ\nⲕⲁⲧⲁ ⲑⲉ ⲙ̅ⲡⲉϫⲡⲟ ϩⲣⲁⲓ̈ ϩⲛ̅ 〈ⲛ〉ⲁⲓⲱⲛ ϩⲟⲙⲟⲓ‐\nⲱⲥ ⲧⲕⲉⲙⲁⲁⲩ ⲁⲥⲧⲛ̅ⲛⲁⲩ ⲁⲡⲓⲧⲛ̅ ⲙ̅ⲡⲉⲥⲡ̅ⲛ̅ⲁ̅\nⲙ̅ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲉϯⲛⲉ ⲙ̅ⲙⲟⲥ ⲁⲩⲱ ⲛ̅ⲟⲩⲁⲛ‐\nⲧⲓⲧⲩⲡⲟⲛ ⲛ̅ⲧⲉⲧϩⲛ̅ ⲡⲗⲏⲣⲱⲙⲁ ϫⲉ ⲥⲛⲁ‐\nⲥⲟⲃⲧⲉ ⲛ̅ⲟⲩⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲛ̅ⲁⲓⲱⲛ ⲉⲧⲛ̅ⲛⲏⲩ\nⲁⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲁϥⲧⲥⲟⲟⲩ ⲛ̅ⲟⲩⲙⲟⲟⲩ ⲛ̅ⲃ̅ϣⲉ\nⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲣⲱⲧⲁⲣⲭⲱⲛ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩ\nⲥⲟⲩⲱⲛⲟⲩ ϫⲉ ϩⲛ̅ ⲉⲃⲟⲗ ⲧⲱⲛ ⲛⲉ ⲁⲩⲱ ⲧⲁⲓ̈\nⲧⲉ ⲑⲉ ⲉⲛⲧⲁϥϣⲱⲡⲉ ⲛ̅ϭⲓ ⲡⲉⲥⲡⲉⲣⲙⲁ ⲡⲣⲟⲥ\nⲟⲩⲟⲉⲓϣ ⲉϥⲣ̅ϩⲩⲡⲟⲩⲣⲅⲉⲓ ϫⲉⲕⲁⲁⲥ ϩⲟⲧⲁⲛ\nⲉϥϣⲁⲛⲉⲓ ⲉϩⲣⲁⲓ̈ ⲛ̅ϭⲓ ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲛⲁⲓⲱⲛ ⲉⲧⲟⲩⲁⲁⲃ ⲉϥⲛⲁⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ ⲁⲩ‐\nⲱ ⲛ̅ϥⲧⲗ̅ϭⲁϥ ϩⲙ̅ ⲡϣⲧⲁ ϫⲉⲕⲁⲁⲥ ⲉⲣⲉⲡⲡⲗⲏ‐\nⲣⲱⲙⲁ ⲧⲏⲣϥ ⲛⲁϣⲱⲡⲉ ⲉϥⲟⲩⲁⲁⲃ ⲁⲩⲱ ⲛ̅‐\nⲁⲧϣⲧⲁ ⲁⲩⲱ ⲡⲉϫⲁⲉⲓ ⲁⲛⲟⲕ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ"
+        },
+        {
+          "title": "On Human Destiny",
+          "subtitle": "On Human Destiny",
+          "heading": "On Human Destiny (25, 16-30, 11)",
+          "rangeLabel": "25, 16-30, 11",
+          "range": {
+            "start": {
+              "page": 25,
+              "line": 16
+            },
+            "end": {
+              "page": 30,
+              "line": 11
+            }
+          },
+          "english": "I said to the Savior, “Lord, will all the souls then be led safely into pure light?”\nHe answered and said to me, These are great matters that have arisen in your\nmind, and it is difficult to explain them to anyone except those of the unshakable\ngeneration.\nThose upon whom the spirit of life will descend and whom the spirit will\nempower will be saved, and will become perfect and worthy of greatness, and\nwill be cleansed there of all evil and the anxieties of wickedness, since they are\nno longer anxious for anything except the incorruptible alone, and concerned\nwith that from this moment on, without anger, jealousy, envy, desire, or greed for\nanything.\nThey are affected by nothing but being in the flesh alone, and they wear the\nflesh as they look forward to a time when they will be met by those who\nreceive them. Such people are worthy of the incorruptible, eternal life and\ncalling. They endure everything and bear everything so as to finish the contest\nand receive eternal life.\nI said to him, “Lord, will the souls of people be [rejected] who have not\ndone these things, but upon whom the power and the spirit of life have\ndescended?”\nHe answered and said to me, If the spirit descends upon them, by all means\nthey will be saved and transformed. Power will descend upon every person, for\nwithout it no one could stand. After birth, if the spirit of life grows and power\ncomes and strengthens that soul, no one will be able to lead it astray with evil\nactions. But people upon whom the false spirit descends are misled by it and go\nastray.\nI said, “Lord, where will their souls go when they leave their flesh?”\nHe laughed and said to me, The soul in which there is more power than the\ncontemptible spirit is strong. She escapes from evil, and through the intervention\nof the incorruptible one, she is saved and is taken up to eternal rest.\nI said, “Lord, where will the souls go of people who have not known to\nwhom they belong?”\nHe said to me, The contemptible spirit has grown stronger in such\npeople while they were going astray. This spirit lays a heavy burden on the soul,\nleads her into evil deeds, and hurls her down into forgetfulness. After the soul\nleaves the body, she is handed over to the authorities who have come into being\nthrough the archon. They bind her with chains and throw her into prison. They\ngo around with her until she awakens from forgetfulness and acquires\nknowledge. This is how she attains perfection and is saved.\nI said, “Lord, how can the soul become younger and return into its mother’s\nwomb, or into the human?”\nHe was glad when I asked him about this, and he said to me, You are truly\nblessed, for you have understood. This soul will be made to follow another soul\nin whom the spirit of life dwells, and she is saved through that one. Then she\nwill not be thrust into flesh again.\nI said, “Lord, where will the souls go of people who had knowledge but\nturned away?”\nHe said to me, They will be taken to the place where the angels of misery go,\nwhere there is no repentance. They will be kept there until the day when those\nwho have blasphemed against the spirit will be tortured and punished eternally.\nI said, “Lord, where did the contemptible spirit come from?”\nHe said to me, The Mother-Father is great in mercy, the holy Spirit, who in\nevery way is compassionate, who sympathizes with you, the Insight of\nenlightened Forethought. This one raised up the offspring of the perfect\ngeneration and their thought and the eternal light of the human. When the first\nruler realized that these people were exalted above him and could think better\nthan he, he wanted to grasp their thought. He did not know that they surpassed\nhim in thought and that he would be unable to grasp them.\nHe devised a plan with his authorities, who are his powers. Together they\nfornicated with Sophia, and through them was produced bitter fate, the final,\nfickle bondage. Fate is like this because the powers are fickle. To the present day\nfate is tougher and stronger than what gods, angels, demons, and all the\ngenerations have encountered. For from fate have come all iniquity and injustice\nand blasphemy, the bondage of forgetfulness, and ignorance, and all burdensome\norders, weighty sins, and great fears.\nThus all of creation has been blinded so that none might know the God that\nis over them all. Because of the bondage of forgetfulness, their sins have been\nhidden. They have been bound with dimensions, times, and seasons, and fate is\nmaster of all.\nThe first ruler regretted everything that had happened through him. Once\nagain he made a plan, to bring a flood upon the human creation. The\nenlightened majesty of Forethought, however, warned Noah. Noah announced\nthis to all the offspring, the human children, but those who were strangers to him\ndid not listen to him. It did not happen the way Moses said, “They hid in an\nark.”\nRather, they hid in a particular place, not only Noah, but also many other\npeople from the unshakable generation. They entered that place and hid in a\nbright cloud. Noah knew about his supremacy. With him was the enlightened one\nwho had enlightened them, since the first ruler had brought darkness upon the\nwhole earth.\nThe first ruler plotted with his powers. He sent his angels to the human\ndaughters so they might take some of them and raise offspring for their\npleasure. At first they were unsuccessful. When they had proven unsuccessful,\nthey met again and devised another plan. They created a contemptible spirit\nsimilar to the spirit that had descended, in order to adulterate souls through this\nspirit. The angels changed their appearance to look like the partners of these\nwomen, and filled the women with the spirit of darkness that they had\nconcocted, and with evil.\nThey brought gold, silver, gifts, copper, iron, metal, and all sorts of things.\nThey brought great anxieties to the people who followed them, leading\nthem astray with many deceptions. These people grew old without experiencing\npleasure and died without finding truth or knowing the God of truth. In this way\nall creation was forever enslaved, from the beginning of the world until the\npresent day.\nThe angels took women, and from the darkness they produced children\nsimilar to their spirit. They closed their minds and became stubborn through the\nstubbornness of the contemptible spirit until the present day.",
+          "coptic": "ⲁⲧϣⲧⲁ ⲁⲩⲱ ⲡⲉϫⲁⲉⲓ ⲁⲛⲟⲕ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ\nⲡϫⲟⲉⲓⲥ ⲛ̅ⲯⲩⲭⲟⲟⲩ ϭⲉ ⲧⲏⲣⲟⲩ ⲥⲉⲛⲁⲟⲩϫⲁⲓ\nⲉϩⲟⲩⲛ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲧⲃ̅ⲃⲏⲩ ⲁϥⲟⲩⲱϣⲃⲉ\nⲡⲉϫⲁϥ ⲛⲁⲉⲓ· ϫⲉ ϩⲉⲛⲛⲟϭ ⲛⲉ ⲛⲉⲛϩⲃⲏⲩⲉ\nⲉⲛⲧⲁⲩⲧⲁⲗⲟ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲉⲕⲙⲉⲉⲩ ⲟⲩⲇⲩⲥ‐\nⲕⲟⲗⲟⲛ ⲅⲁⲣ ⲡⲉ ⲉϭⲟⲗⲡⲟⲩ ⲉⲃⲟⲗ ⲛ̅ϩⲛ̅ⲕⲟ‐\nⲟⲩⲉⲓ ⲉⲓⲙⲏⲧⲓ ⲛ̅ⲛⲁⲓ̈ ⲉⲧ’ϣⲟⲟⲡ ⲉⲃⲟⲗ ϩⲛ̅\nⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧⲕⲓⲙ ⲛⲁⲓ̈ ⲉⲧⲉ ⲡⲉⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲱⲛϩ\nⲛⲁⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲁⲩⲱ ⲛ̅ϥϣⲱⲡⲉ ⲙⲛ̅ ⲧϭⲟⲙ\nⲥⲉⲛⲁⲟⲩϫⲁⲉⲓ· ⲁⲩⲱ ⲛ̅ⲥⲉϣⲱⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ\nⲁⲩⲱ ⲥⲉⲛⲁⲣ̅ 〈ⲙ̅ⲡ〉ϣⲁ ⲛ̅ϩⲉⲛⲙ̅ⲛ̅ⲧ̅ⲛⲟϭ ⲁⲩⲱ\nⲥⲉⲛⲁⲧⲃ̅ⲃⲟ ϩⲙ̅ ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲕⲁⲕⲓⲁ ⲛⲓⲙ ⲙⲛ̅ ⲛ̅ⲣⲟⲟⲩϣ ⲛ̅ⲧⲉ ⲧⲡⲟⲛⲏⲣⲓⲁ\nⲉⲛⲥⲉϥⲓ ⲣⲟⲟⲩϣ ϭⲉ ⲉⲗⲁⲁⲩ ⲁⲛ ⲉⲓⲙⲏⲧⲓ ⲁ‐\nϯⲙⲛ̅ⲧ̅’̅ⲁⲧ’ⲧⲉⲕⲟ ⲟⲩⲁⲁⲧⲥ̅ ⲉⲩⲣ̅ⲙⲉⲗⲉⲧⲁ ⲙ̅ⲙⲟⲥ\nϫⲛ̅ ⲙ̅ⲡⲓⲙⲁ ⲭⲱⲣⲓⲥ ⲟⲣⲅⲏ ϩⲓ ⲕⲱϩ 〈ϩ〉ⲓ ⲫⲑⲟ‐\nⲛⲟⲥ ϩⲓ ⲉⲡⲓⲑⲩⲙⲓⲁ ⲁⲩⲱ ⲧⲙⲛ̅ⲧ̅ⲁⲧⲥⲓ ⲛ̅ⲧⲉ\nⲡⲧⲏⲣϥ ⲉⲛⲥⲉⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ ϩⲓⲧⲛ̅\nⲗⲁⲁⲩ ⲉⲓⲙⲏⲧⲓ ⲁⲧϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲟⲩⲁⲁⲧⲥ̅\nⲛ̅ⲧⲥⲁⲣⲝ ⲧⲁⲓ̈ ⲉⲧⲟⲩⲫⲟⲣⲉⲓ ⲙ̅ⲙⲟⲥ ⲉⲩϭⲁϣⲧ\nⲉⲃⲟⲗ ⲛ̅ⲥⲁ ⲡⲟⲩⲟⲉⲓϣ ⲉⲧⲟⲩⲛⲁϭⲙ̅ ⲡⲉⲩ‐\nϣⲓⲛⲉ\nⲛ̅ϩⲏⲧ̅ϥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛⲉⲧϫⲓ ⲛⲁⲓ̈ ϭⲉ ⲛ̅ϯ\nⲙⲉⲓⲛⲉ ⲥⲉⲟ ⲛ̅ⲁⲝⲓⲟⲥ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲁⲧⲧⲉ\nⲕⲟ ⲛ̅ϣⲁ ⲉⲛⲉϩ ⲁⲩⲱ ⲡⲧⲱϩ̅ⲙ̅ ⲉⲩⲣ̅ϩⲩ‐\nⲡⲟⲙⲉⲓⲛⲉ ϩⲁ ⲡⲧⲏⲣϥ ⲉⲩϥⲓ ⲉϩⲣⲁⲓ̈ ϩⲁ\nⲡⲧⲏⲣϥ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϫⲱⲕ ⲉⲃⲟⲗ\nⲙ̅ⲡⲁⲅⲁⲑⲟⲛ’ ⲛ̅ⲥⲉⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛ̅ⲟⲩ‐\nⲱⲛϩ ϣⲁ ⲉⲛⲉϩ ⲡⲉϫⲁⲓ̈ ⲛⲁϥ ϫⲉ ⲡϫⲟ‐\nⲉⲓⲥ ⲛ̅ⲯⲩⲭⲉⲩⲉ ⲉⲧⲉ ⲙ̅ⲡⲟⲩⲉⲓⲣⲉ ⲛ̅ⲛⲓϩ‐\nⲃⲏⲩⲉ ⲛⲁⲓ̈ ⲉⲛⲧⲁⲧϭⲟⲙ ⲙ̅ⲡⲉⲡⲛ̅ⲁ̅\nⲙ̅ⲡⲱⲛϩ ⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲛ̅ϭⲓ ⲡⲉ‐\nⲡⲛ̅ⲁ̅ ⲡⲁⲛⲧⲏ ⲡⲁⲛⲧⲱⲥ ⲥⲉⲛⲁⲟⲩϫⲁⲓ̈\nⲁⲩⲱ ⲛⲁⲓ̈ ⲥⲉⲛⲁⲡⲱⲱⲛⲉ ⲉⲃⲟⲗ ⲧⲇⲩ‐\nⲛⲁⲙⲓⲥ ⲅⲁⲣ ⲛⲁⲉⲓ ⲉϩⲣⲁⲓ̈ ⲁϫⲛ̅ ⲣⲱⲙⲉ ⲛⲓⲙ\nⲁϫⲛⲧ̅ⲥ̅ ⲅⲁⲣ ⲙⲛ̅ ϭⲟⲙ ⲛ̅ⲧⲉⲗⲁⲁⲩ ⲁϩⲉ ⲉ‐\nⲣⲁⲧ̅ϥ̅ ⲙⲛ̅ⲛ̅ⲥⲉ ⲧⲟⲩϫⲡⲟⲟⲩ ⲇⲉ ⲧⲟⲧⲉ ⲉϥ‐\nϣⲁⲛⲁϣⲁⲉⲓ ⲛ̅ϭⲓ ⲡ̅ⲛ̅ⲁ̅ ⲙ̅ⲡⲱⲛϩ ⲁⲩⲱ\nϣⲁⲣⲉ ⲧϭⲟⲙ ⲉⲓ ⲛ̅ⲥϯ ⲧⲁϫⲣⲟ ⲛ̅ⲧⲯⲩⲭⲏ ⲉ‐\nⲧⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲙⲁⲣⲉϣ ⲗⲁⲁⲩ ⲣ̅ⲡⲗⲁⲛⲁ ⲙ̅‐\nⲙⲟⲥ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉϩⲃⲏⲩⲉ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ\nⲛⲁⲓ̈ ⲇⲉ ⲉⲧⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲛⲏⲩ\nⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ϣⲁⲩⲥⲱⲕ ⲙ̅ⲙⲟⲟⲩ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ̅ ⲁⲩⲱ ⲛ̅ⲥⲉⲥⲱⲣⲙ̅ ⲁⲛⲟⲕ ⲇⲉ\nⲡⲉϫⲁⲓ̈ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲛ̅ⲯⲩⲭⲟⲟⲩ ϭⲉ ⲛ̅‐\nⲛⲁⲓ̈ ϩⲟⲧⲁⲛ ⲉⲩϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩ‐\nⲥⲁⲣⲝ ⲉⲩⲛⲁⲃⲱⲕ ⲉⲧⲱⲛ ⲛ̅ⲧⲟϥ ⲇⲉ ⲁϥ ⲥⲱ‐\nⲃⲉ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲧⲯⲩⲭⲏ ⲉⲧⲉ ⲧϭⲟⲙ\nⲛⲁⲁϣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲡⲁⲣⲁ ⲡⲓⲡⲡ̅ⲁ̅ ⲉⲧϣⲏⲥ\nⲧⲁⲓ̈ ⲅⲁⲣ ⲥϫⲟⲟⲣ ⲁⲩⲱ ϣⲁⲥⲡⲱⲧ ⲛ̅ⲥⲁⲛ\nⲃⲟⲗ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅\nⲡϭⲙ̅ ⲡϣⲓⲛⲉ ⲙ̅ⲡⲓⲁⲧ’ⲧⲉⲕⲟ ϣⲁⲥⲟⲩ\nϫⲁⲓ̈ ⲁⲩⲱ ϣⲁⲩϫⲓⲧⲥ̅ ⲉϩⲣⲁⲓ̈ ⲉⲧⲁⲛⲁⲡⲁⲩ‐\nⲥⲓⲥ ⲛ̅ⲁⲓⲱⲛ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉϫⲁⲓ̈ ϫⲉ ⲡϫⲟ‐\nⲉⲓⲥ ⲉⲓⲉ ⲛⲁⲓ̈ ϩⲱⲟⲩ ⲉⲧⲉ ⲙ̅ⲡⲟⲩⲙ̅ⲙⲉ\nϫⲉ ⲛⲁ ⲛⲓⲙ ⲛⲉ ⲛⲟⲩⲯⲩⲭⲟⲟⲩⲉ ⲉⲩ‐\nⲛⲁϣⲱⲡⲉ ⲧⲱⲛ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ\nϩⲛ̅ ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲁⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧϣⲏⲥ ⲁϥⲁ‐\nϣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ϩⲙ̅ ⲡⲧⲣⲟⲩⲥⲱⲣⲙ̅ ⲁⲩⲱ ϣⲁϥ‐\nⲃⲁⲣⲉⲓ ⲛ̅ⲧⲉⲯⲩⲭⲏ ⲁⲩⲱ ϣⲁϥⲥⲱⲕ’ϣ ⲙ̅ⲙⲟⲥ\nⲁⲛⲉϩⲃⲏⲩⲉ ⲛ̅ⲧⲉ ⲧⲡⲟⲛⲏⲣⲓⲁ ⲁⲩⲱ ⲛ̅ϥⲛⲟⲩ‐\nϫⲉ ⲙ̅ⲙⲟⲥ ⲉϩⲣⲁⲓ̈ ⲉⲩⲃ̅ϣⲉ ⲁⲩⲱ ⲙⲛ̅ⲛⲥⲁ ⲧⲣⲉⲥ‐\nⲉⲓ ⲉⲃⲟⲗ’ ϣⲁⲩⲧⲁⲁⲥ ⲉⲧⲟⲟⲧⲟⲩ ⲛ̅ⲛⲉⲝⲟⲩⲥⲓⲁ\nⲛⲁⲓ̈ ⲉⲛⲧⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲁⲣⲭⲱⲛ ⲁⲩ‐\nⲱ ϣⲁⲩⲙⲟⲣⲥ̅ ϩⲛ̅ ϩⲉⲛⲙⲉⲣ̅ⲣⲉ ⲛ̅ⲥⲉⲛⲟⲩϫⲉ ⲙ̅‐\nⲙⲟⲥ ⲁⲡⲉϣⲧⲉⲕⲟ ⲁⲩⲱ ϣⲁⲩⲕⲱⲧⲉ ⲛⲙ̅ⲙⲁⲥ\nϣⲁⲛⲧⲥⲛⲉϩⲥⲉ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲃ̅ϣⲉ ⲁⲩⲱ ⲛ̅ⲥ‐\nϫⲓ ⲉⲣⲟⲥ ⲙ̅ⲡⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲧⲁⲓ̈ ⲧⲉ ⲑⲉ ⲉⲥ‐\nϣⲁⲛϫⲱⲕ ⲉⲃⲟⲗ ϣⲁⲥⲟⲩϫⲁⲓ̈ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉ‐\nϫⲁⲓ̈ ϫⲏⲉ ⲡϫⲟⲉⲓⲥ ⲁⲩⲱ ⲡⲱⲥ ⲁⲥⲣ̅ϣⲏⲙ ϣⲏⲙ\nⲛ̅ϭⲓ ⲧⲯⲩⲭⲏ ⲁⲩⲱ ⲛ̅ⲥⲛⲁⲩϩ̅ⲥ̅ ⲉϩⲟⲩⲛ ⲁⲧⲫⲩ‐\nⲥⲓⲥ ⲛ̅ⲧⲉⲥⲙⲁⲁⲩ ⲏ ⲉϩⲟⲩⲛ ⲉⲡⲣⲱⲙⲉ ⲧⲟⲧⲉ\nⲁϥⲣⲁϣⲉ ⲛ̅ⲧⲁⲣⲓϫⲛⲟⲩϥ ⲉⲡⲁⲓ̈ ⲁⲩⲱ ⲡⲉ‐\nϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲁⲗⲏⲑⲱⲥ ⲛ̅ⲧⲕ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ\nⲉⲡⲓⲇⲏ ⲁⲕⲣ̅ⲛⲟⲉⲓ ⲧⲯⲩⲭⲏ ⲉⲧⲙ̅ⲙⲁⲩ ϣⲁⲩ‐\nⲧⲣⲉⲥⲟⲩⲁϩⲥ ⲛ̅ⲥⲁ ⲕⲉⲟⲩⲉⲓⲉ ⲉⲣⲉⲡⲛⲁ ⲙ̅‐\nⲡⲱⲛϩ ⲛ̅ϩⲏⲧⲥ̅ ⲧⲁⲓ̈ ⲉϣⲁⲥⲟⲩϫⲁⲓ̈ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ ⲙ̅ⲡⲉⲧⲙ̅ⲙⲁⲩ ⲉϣⲁⲩⲛⲟⲩϫⲉ ϭⲉ\nⲁⲛ ⲙ̅ⲙⲟⲥ ⲉϩⲟⲩⲛ ⲉⲕⲉⲥⲁⲣⲝ ⲁⲩⲱ ⲡⲉϫⲁⲓ̈\nϫⲉ ⲡϫⲟⲉⲓⲥ ⲛⲁⲓ̈ ϩⲱⲟⲩ ⲉⲛⲧⲁϩⲥⲟⲟⲩⲛ ⲁⲩ‐\nⲱ ⲁⲩϩⲛ̅ⲧⲟⲩ ⲉⲃⲟⲗ ⲉⲩⲛⲁⲃⲱⲕⲉⲧⲱⲛ ⲛ̅‐\nϭⲓ ⲛⲟⲩⲯⲩⲭⲏ ⲧⲟⲧⲉ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲡⲙⲁ\nⲉⲣⲉ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ϩⲏⲕⲉ ⲛⲁⲃⲱⲕ\nⲉⲙⲁⲩ ⲥⲉⲛⲁϫⲓⲧⲟⲩ ⲉⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲡⲙⲁ\nⲉⲧⲉ ⲙⲛ̅ ⲙⲉⲧⲁⲛⲟⲓⲁ ϣⲟⲟⲡ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ\nⲛ̅ⲥⲉⲁⲣⲉϩ ⲉⲣⲟⲟⲩ ⲉⲡⲉϩⲟⲟⲩ ⲉⲧⲟⲩⲛⲁ‐\nⲃⲁⲥⲁⲛⲓⲍⲉ ⲛ̅ⲛⲉⲧⲁϩϫⲉ ⲟⲩⲁ ⲁⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲛ̅‐\nⲥⲉⲣ̅ⲕⲟⲗⲁⲍⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲕⲟⲗⲁⲥⲓⲥ\nⲛ̅ϣⲁ ⲉⲛⲉϩ ⲁⲛⲟⲕ ⲇⲉ ⲡⲉϫⲁⲉⲓ ϫⲉ ⲡϫⲟ‐\nⲉⲓⲥ ⲛ̅ⲧⲁϥⲉⲓ ⲧⲱⲛ ⲛ̅ⲧⲟϥ ⲛ̅ϭⲓ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧ‐\nϣⲏⲥ ⲧⲟⲧⲉ ⲡⲉϫⲁϥ ⲛⲁⲓ̈ ϫⲉ ⲡⲙⲏⲧⲣⲟⲡⲁ‐\nⲧⲱⲣ ⲡⲉⲧⲛⲁϣⲉ ⲡⲉϥⲛⲁⲉ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ϩⲛ̅ ⲥⲙⲁⲧ ⲛⲓⲙ ⲡϣⲁⲛϩⲧⲏϥ ⲁⲩⲱ\nⲉⲧϣⲡϩⲓⲥⲉ ⲛⲙ̅ⲙⲏⲧⲛ̅ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲧⲉ‐\nⲡⲓⲛⲟⲓⲁ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ\nⲁϥⲧⲟⲩⲛⲟⲩⲥ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛ̅ⲧⲅⲉⲛⲉⲁ ⲛ̅‐\nⲧⲉⲗⲉⲓⲟⲛ ⲙⲛ̅ ⲡⲉϥⲙⲉⲉⲩⲉ ⲁⲩⲱ ⲡⲟⲩⲟ‐\nⲉⲓⲛ’ ⲛ̅ϣⲁ ⲉⲛⲉϩ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲧⲁⲣⲉϥⲙ̅‐\nⲙⲉ ⲛ̅ϭⲓ ⲡϣⲟⲣⲡ ⲛ̅ⲁⲣⲭⲱⲛ ϫⲉ ⲥⲉϫⲟⲥⲉ\nⲡⲁⲣⲁⲣⲟϥ ϩⲙ̅ ⲡϫⲓⲥⲉ ⲁⲩⲱ ⲥⲉⲙⲉⲉⲩⲉ ⲡⲁ‐\nⲣⲁⲣⲟϥ ⲁϥⲟⲩⲱϣⲉ ϭⲉ ⲉⲁⲙⲁϩⲧⲉ ⲙ̅ⲡⲟⲩ‐\nⲙⲟⲕⲙⲉⲕ ⲉϥⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ ϫⲉ ⲥⲉϫⲟⲥⲉ\nⲉⲣⲟϥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲙⲉⲉⲩⲉ ⲁⲩⲱ ϫⲉ ϥⲛⲁϣ\nⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ ⲁϥⲉⲓⲣⲉ ⲛ̅ⲟⲩϣⲟϫⲛⲉ\nⲙⲛ̅ ⲛⲉϥⲉⲝⲟⲩⲥⲓⲁ ⲉⲧⲉ ⲛⲉϥϭⲟⲙ ⲛⲉ ⲁⲩⲱ\nⲁⲩⲣ̅ⲛⲟⲉⲓⲕ ⲁⲧⲥⲟⲫⲓⲁ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ\nⲁⲩϫⲡⲟ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲁⲩⲥⲁϣ ⲛ̅ⲧϣⲓ‐\nⲙⲁⲣⲙⲉⲛⲏ ⲉⲧⲉ ⲧⲁⲓ̈ ⲧⲉ ⲧϩⲁⲏ ⲙ̅ⲙⲣ̅ⲣⲉ ⲉⲧ‐\nϣⲃ̅ⲃⲓⲁⲉⲓⲧ ⲁⲩⲱ ⲉⲥⲟ ⲙ̅ⲙⲓⲛⲉ {ⲙ̅ⲙⲓⲛⲉ} ϫⲉ\nⲥⲉϣⲃⲃⲓⲁⲉⲓⲧ’ ⲁⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ ⲥⲙⲟⲕϩ ⲁⲩ‐\nⲱ ⲥϭⲟⲙ ⲉⲧⲁⲓ̈ ⲉⲛⲧⲁⲩⲙⲟⲩϣϭ ⲙ̅ⲙⲟⲥ ⲛ̅ϭⲓ\nⲛ̅ⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ ⲛ̅ⲇⲁⲓⲙⲱⲛ\nⲁⲩⲱ ⲛ̅ⲅⲉⲛⲉⲁ ⲧⲏⲣⲟⲩ ϣⲁϩⲟⲩⲛ ⲁⲡⲟⲟⲩ ⲛ̅‐\nϩⲟⲟⲩ ⲉⲃⲟⲗ ⲅⲁⲣ ϩⲛ̅ ⲧϩⲓⲙⲁⲣⲙⲉⲛⲏ ⲉⲧⲙ̅ⲙⲟ\nⲁⲩⲟⲩⲱⲛ〈ϩ〉 ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲙⲛ̅ⲧ̅ϣⲁϥⲧⲉ ⲛⲓⲙ ⲁⲩ‐\nⲱ ⲡϫⲓⲛϭⲟⲛⲥ̅ ⲁⲩⲱ ⲡⲟⲩⲁ ⲙⲛ̅ ⲧⲙⲣ̅ⲣⲉ\nⲛ̅ⲧⲃ̅ϣⲉ ⲁⲩⲱ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲡⲁ‐\nⲣⲁⲅⲅⲉⲗⲓⲁ ⲛⲓⲙ ⲉⲑⲟⲣϣ ⲙⲛ̅ ⲛⲓⲛⲟⲃⲉ\nⲉⲧϩⲟⲣϣ ⲙⲛ̅ ⲛⲓⲛⲟϭ ⲛ̅ϩⲣ̅ⲧⲉ ⲁⲩⲱ ⲧⲁⲓ̈\nⲧⲉ ⲑⲉ ⲉⲛⲧⲁⲩⲧ〈ⲣ〉ⲉⲧⲕⲧⲓⲥⲓⲥ ⲧⲏⲣⲥ̅ ⲣ̅ⲃⲗⲗⲏ\nϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩⲥⲟⲩⲛ̅ ⲡⲛⲟⲩⲧⲉ ⲉⲧⲙ̅ⲡⲟⲩ\nⲧⲡⲉ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲉⲧⲃⲉ ⲧⲙⲣ̅ⲣⲉ ⲛ̅ⲧⲃ̅ϣⲉ\nⲁⲩϩⲱⲡ ⲛ̅ϭⲓ ⲛⲟⲩⲛⲟⲃⲉ ⲁⲩⲙⲟⲩⲣ ⲅⲁⲣ ⲛ̅‐\nϩⲛ̅ϣⲓ ⲙⲛ̅ ϩⲛ̅ⲟⲩⲟⲉⲓϣ ⲙⲛ̅ ϩⲛ̅ⲕⲁⲓⲣⲟⲥ\nⲉⲥⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲁϫⲙ̅ ⲡⲧⲏⲣϥ ⲁⲩⲱ ⲁϥⲣ̅‐\nϩⲧⲏϥ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ϩⲱⲃ ⲛⲓⲙ ⲉⲁϥϣⲱⲡⲉ\nⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ̅ ⲡⲁⲗⲓⲛ ⲁϥϣⲟϫⲛⲉ\nⲁⲧⲣⲉϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲕⲁⲧⲁⲕⲗⲩⲥⲙⲟⲥ ⲉϩⲣⲁⲓ̈\nⲉϫⲙ̅ ⲡⲧⲁⲙⲓⲟ ⲙ̅ⲡⲣⲱⲙⲉ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟϭ ⲇⲉ\nⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲁϥⲧⲥⲉⲃⲉ\nⲛⲱϩⲉ ⲁⲩⲱ ⲁϥⲧⲁϣⲉ ⲟⲉⲓϣ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ\nⲧⲏⲣϥ ⲉⲧⲉ ⲛⲁⲓ̈ ⲛⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲛ̅ⲣⲱⲙⲉ ⲁⲩ‐\nⲱ ⲙ̅ⲡⲟⲩⲥⲱⲧⲙ̅ ⲛⲁϥ ⲛ̅ϭⲓ ⲛⲉⲧⲟ ⲛ̅ϣⲙ̅ⲙⲟ\nⲉⲣⲟϥ ⲕⲁⲧⲁ ⲑⲉ ⲁⲛ ⲉⲛⲧⲁⲙⲱⲩ̈ⲥⲏⲥ ϫⲟⲟⲥ\nϫⲉ ⲁⲩϩⲱⲡ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲕⲓⲃⲱⲧⲟⲥ ⲁⲗ‐\nⲗⲁ ⲛ̅ⲧⲁⲩϩⲱⲡ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲧⲟⲡⲟⲥ ⲟⲩ‐\nⲙⲟⲛⲟⲛ ⲛⲱϩⲉ ⲁⲗⲗⲁ ϩⲛ̅ⲕⲉⲣⲱⲙⲉ ⲉⲛⲁ‐\nϣⲱⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧⲕⲓⲙ ⲁⲩⲃⲱⲕ\nⲉϩⲟⲩⲛ ⲁⲩⲧⲟⲡⲟⲥ ⲁⲩϩⲱⲡ’ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩ‐\nⲕⲗⲟⲟⲗⲉ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁϥⲥⲟⲩⲛ̅ ⲧⲉϥⲁⲩ‐\nⲑⲉⲛⲧⲉⲓⲁ ⲁⲩⲱ ⲛⲁⲥⲛ̅ⲙ̅ⲙⲁϥ ⲛ̅ϭⲓ ⲧⲁⲡⲟⲩ‐\nⲟⲉⲓⲛ ⲉⲛⲧⲁⲥⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲉⲣⲟⲟⲩ ⲉⲃⲟⲗ ϫⲉ\nⲁϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲕⲁⲕⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲙ̅ ⲡⲕⲁϩ ⲧⲏⲣϥ\nⲁⲩⲱ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϣⲟϫⲛⲉ ⲙⲛ̅ ⲛⲉϥϭⲟⲙ\nⲁϥϫⲟⲟⲩ ⲛ̅ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ϣⲁ ⲛ̅ϣⲉⲉⲣⲉ\nⲛ̅ⲛ̅ⲣⲱⲙⲉ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϫⲓ ⲛⲁⲩ ⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧⲟⲩ ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲟⲩⲛⲟⲩⲥ ⲛ̅ⲟⲩⲥⲡⲉⲣ‐\nⲙⲁ ⲁⲩⲙ̅ⲧⲟⲛ ⲛⲁⲩ ⲁⲩⲱ ⲉⲧⲉ ⲙ̅ⲡⲟⲩⲙⲁⲧⲉ\nⲙ̅ⲡϣⲟⲣⲡ ⲛ̅ⲧⲁⲣⲟⲩⲧⲙ̅ⲙⲉⲧⲉ ϭⲉ ⲁⲩⲥⲱ‐\nⲟⲩϩ ⲉϩⲟⲩⲛ ⲟⲛ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲉⲓⲣⲉ ⲛ̅‐\nⲟⲩϣⲟϫⲛⲉ ϩⲓ ⲟⲩⲥⲟⲡ ⲁⲩⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩ‐\nⲡⲛ̅ⲁ̅ ⲉϥϣⲏⲥ ⲙ̅ⲡⲉⲓⲛⲉ ⲙ̅ⲡ̅ⲛⲁ̅ ⲉⲧⲁϩⲉⲓ\nⲉϩⲣⲁⲓ̈ ϩⲱⲥⲧⲉ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ ⲁⲥⲱⲱϥ ⲛ̅‐\nⲙ̅ⲯⲩⲭⲏ ⲁⲩⲱ ⲁⲩϣⲃ̅ⲧⲟⲩϩⲙ̅ ⲡⲟⲩⲉⲓⲛⲉ\nⲛ̅ϭⲓ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲕⲁⲧⲁ ⲡⲓⲛⲉ ⲙ̅ⲡⲟⲩⲥⲟ‐\nⲉⲓϣ ⲉⲩⲙⲟⲩϩ ⲙ̅ⲙⲟⲟⲩ ϩⲙ̅ ⲡⲛ̅ⲁ̅ ⲛ̅ⲕⲁⲕⲉ\nⲉⲛⲧⲁⲩⲣ̅ⲕⲉⲣⲁ ⲙ̅ⲙⲟϥ ⲉϫⲱⲟⲩ ⲁⲩⲱ ⲙ̅ⲡⲟ\nⲛⲏⲣⲓⲁ ⲁⲩⲉⲓⲛⲉ ⲛ̅ⲛⲟⲩⲛⲟⲩⲃ ⲙⲛ̅ ⲟⲩϩⲁⲧ\nⲙⲛ̅ ⲟⲩⲇⲱⲣⲟⲛ ⲙⲛ̅ ⲟⲩϩⲟⲙⲧ ⲙⲛ̅ ⲟⲩⲃⲉ‐\nⲛⲓⲡⲉ ⲙⲛ̅ ⲟⲩⲙⲉⲧⲁⲗⲗⲟⲛ ⲙⲛ̅ ⲅⲉⲛⲟⲥ\nⲛⲓⲙ ⲛ̅ⲧⲉ ⲛⲓⲉⲓⲇⲟⲥ ⲁⲩⲱ ⲁⲩⲥⲱⲕ ⲛ̅ⲣ̅ⲣⲱ‐\nⲙⲉ ⲉϩⲣⲁⲓ̈ ⲁϩⲉⲛⲛⲟϭ ⲛ̅ⲣⲟⲟⲩϣ ⲛⲁⲓ̈ ⲉⲛ‐\nⲧⲁⲩⲟⲩⲁϩⲟⲩ ⲛ̅ⲥⲱⲟⲩ ⲉⲩⲥⲱⲣⲙ̅ ⲙ̅ⲙⲟⲟⲩ\nϩⲛ̅ ϩⲁϩ ⲙ̅ⲡⲗⲁⲛⲏ ⲁⲩⲣ̅ϩⲗ̅ⲗⲟ ⲉⲩⲟ ⲛ̅ⲁⲧⲥⲣ̅‐\nϥⲉ ⲁⲩⲙⲟⲩ ⲙ̅ⲡⲟⲩϭⲛ̅ ⲗⲁⲁⲩ ⲙ̅ⲙⲉⲉ ⲁⲩⲱ\nⲙ̅ⲡⲟⲩⲥⲟⲩⲱⲛ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲙⲏⲉ ⲁⲩⲱ ⲧⲁⲓ̈\nⲧⲉ ⲑⲉ ⲉⲛⲧⲁⲩⲣ̅ ⲧⲕⲧⲓⲥⲓⲥ ⲧⲏⲣⲥ̅ ⲛϭⲁⲩⲁⲛ ⲛ̅ϣⲁ\nⲉⲛⲉϩ ϫⲛ̅ ⲛ̅ⲧⲕⲁⲧⲁⲃⲟⲗⲏ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ\nϣⲁϩⲣⲁⲓ̈ ⲉⲧⲉⲛⲟⲩ ⲁⲩⲱ ⲁⲩϫⲓ ⲛ̅ϩⲛ̅ⲥϩⲓⲁⲙⲉ\nⲁⲩϫⲡⲟ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ ⲕⲁⲧⲁ\nⲡⲉⲓⲛⲉ ⲙ̅ⲡⲟⲩⲡⲛ̅ⲁ̅ ⲁⲩⲱ ⲁⲩⲧⲱⲙ ⲛ̅ⲛⲟⲩ ϩⲉⲧⲉ\nⲁⲩⲱ ⲁⲩϯ ⲛ̅ϣⲟⲧ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲛϣⲟⲧ\nⲙ̅ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧϣⲏⲥ ϣⲁϩⲣⲁⲓ̈ ⲉⲧⲉⲛⲟⲩ ⲁⲛⲟⲕ"
+        },
+        {
+          "title": "Hymn of the Savior",
+          "subtitle": "Hymn of the Savior",
+          "heading": "Hymn of the Savior (30, 11-31, 25)",
+          "rangeLabel": "30, 11-31, 25",
+          "range": {
+            "start": {
+              "page": 30,
+              "line": 11
+            },
+            "end": {
+              "page": 31,
+              "line": 25
+            }
+          },
+          "english": "Now I, the perfect Forethought of the All, transformed myself into my offspring.\nI existed first and went down every path.\nI am the abundance of light,\nI am the remembrance of Fullness.\nI traveled in the realm of great darkness, and continued until I entered the\nmidst of the prison. The foundations of chaos shook, and I hid from them\nbecause of their evil, and they did not recognize me.\nAgain I returned, a second time, and went on. I had come from the\ninhabitants of light-I, the remembrance of Forethought.\nI entered the midst of darkness and the bowels of the underworld, turning to\nmy task. The foundations of chaos shook as though to fall upon those who dwell\nin chaos and destroy them. Again I hurried back to the root of my light so they\nmight not be destroyed before their time.\nAgain, a third time, I went forth-\nI am the light dwelling in light,\nI am the remembrance of Forethought-\nso that I might enter the midst of darkness and the bowels of the\nunderworld. I brightened my face with light from the consummation of their\nrealm and entered the midst of their prison, which is the prison of the body.\nI said, Let whoever hears arise from deep sleep.\nA person wept and shed tears. Bitter tears the person wiped away, and said,\n“Who is calling my name? From where has my hope come as I dwell in the\nbondage of prison?”\nI said,\nI am the Forethought of pure light,\nI am the thought of the Virgin Spirit, who raises you to a place of honor.\nArise, remember that you have heard\nand trace your root,\nwhich is I, the compassionate.\nGuard yourself against the angels of misery,\nthe demons of chaos, and all who entrap you,\nand beware of deep sleep\nand the trap in the bowels of the underworld.\nI raised and sealed the person in luminous water with Five Seals, that death\nmight not prevail over the person from that moment on.",
+          "coptic": "ⲙ̅ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧϣⲏⲥ ϣⲁϩⲣⲁⲓ̈ ⲉⲧⲉⲛⲟⲩ ⲁⲛⲟⲕ\nϭⲉ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ ⲛ̅ⲧⲉ ⲡⲧⲏⲣϥ\nⲁⲓ̈ϣⲃⲧ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲁⲥⲡⲉⲣⲙⲁ ⲛⲉⲓ̈ϣⲟⲟⲡ ⲅⲁⲣ\nⲛ̅ϣⲟⲣⲡ ⲉⲓ̈ⲙⲟⲟϣⲉ ϩⲛ̅ ⲙⲁ→ⲓ̈←ⲧ ⲛⲓⲙ ⲙ̅ⲙⲟⲟϣⲉ\nⲁⲛⲟⲕ ⲅⲁⲣ ⲧⲉ ⲧⲙⲛⲧⲣⲙ̅ⲙⲁⲟ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲁ‐\nⲛⲟⲕ ⲡⲉ ⲡⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲉⲡⲗⲏⲣⲱⲙⲁ ⲁⲉⲓ‐\nⲙⲟⲟϣⲉ ⲇⲉ ϩⲛ̅ ⲧⲙⲛ̅ⲧ̅ⲛⲟϭ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ\nⲁⲉⲓⲁⲛⲉⲭⲉ ϣⲁⲛϯⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧⲙⲏⲧⲉ\nⲙ̅ⲡⲉϣⲧⲉⲕⲟ ⲁⲩⲱ ⲛ̅ⲥⲛ̅ⲧⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲩ‐\nⲕⲓⲙ ⲁⲩⲱ ⲁⲛⲟⲕ ⲁⲉⲓϩⲟⲡⲧ ⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ\nⲧⲟⲩⲕⲁⲕⲓⲁ ⲁⲩⲱ ⲙ̅ⲡⲟⲩⲥⲟⲩⲱⲛⲧ ⲡⲁⲗⲓⲛ\nⲁⲉⲓⲛⲁϩⲟⲩⲧ ⲉϩⲟⲩⲛ ⲙ̅ⲡⲙⲉϩⲥⲉⲡ ⲥⲛⲁⲩ\nⲁⲩⲱ ⲁⲉⲓⲙⲟⲟϣⲉ ⲁⲉⲓⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲉⲧⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ\nⲁⲉⲓⲃⲱⲕ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ\nⲡⲥⲁⲛϩⲟⲩⲛ ⲛ̅ⲉⲙⲛ̅ⲧⲉ ⲉⲉⲓⲕⲱⲧⲉ ⲛ̅ⲥⲁ ⲧⲁ‐\nⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲁⲩⲱ ⲛ̅ⲥⲛ̅ⲧ̅ⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲩ‐\nⲕⲓⲙ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϩⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲛⲉⲧ‐\nϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲭⲁⲟⲥ ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲟⲕⲟⲟⲩ\nⲁⲩⲱ ⲟⲛ ⲁⲉⲓⲡⲱⲧ ⲉϩⲣⲁⲓ̈ ⲉⲧⲁⲛⲟⲩⲛⲉ ⲛ̅ⲟⲩ‐\nⲟⲉⲓⲛ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲟⲩⲧⲉⲕⲟ ⲙ̅ⲙⲟⲟⲩ ϩⲁ‐\nⲑⲏ ⲙ̅ⲡⲟⲩⲟⲉⲓϣ ⲉⲧⲓ ϩⲙ̅ ⲡⲙⲁϩϣⲟⲙⲧ\nⲛ̅ⲥⲟⲡ ⲁⲉⲓⲙⲟⲟϣⲉ ⲉⲧⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲉⲧϣⲟⲟⲡ ϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲛⲟⲕ ⲡⲉ\nⲡⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ϫⲉⲕⲁⲁⲥ ⲉⲉⲓⲛⲁ‐\nⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧⲙⲏⲧⲉ ⲙ̅ⲡⲕⲁⲕⲉ ⲁⲩⲱ ⲡⲥⲁⲛ\nϩⲟⲩⲛ ⲛ̅ⲉⲙⲛ̅ⲧⲉ ⲁⲓ̈ⲙⲟⲩϩ ⲙ̅ⲡⲁϩⲟ ϩⲣⲁⲓ̈ ϩⲙ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲟⲩⲁⲓⲱⲛ\nⲁⲩⲱ ⲁⲉⲓⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧⲙⲏⲧⲉ ⲙ̅ⲡⲟⲩϣⲧⲉ‐\nⲕⲟ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲡⲉϣⲧⲉⲕⲟ ⲡⲥⲱⲙⲁ ⲁⲩⲱ ⲡⲉ‐\nϫⲁⲓ̈ ϫⲉ {ϫⲉ} ⲡⲉⲧⲥⲱⲧⲙ̅ ⲧⲱⲟⲩⲛ ⲉⲃⲟⲗ ϩⲙ̅ ⲫⲓ‐\nⲛⲏⲃ ⲉⲧϩⲟⲣϣ ⲁⲩⲱ ⲁϥⲣⲓⲙⲉ ⲁⲩⲱ ⲁϥϣⲟⲩⲉ ⲣⲙ̅ⲉⲓⲏ\nϩⲉⲛⲣⲙ̅ⲉⲓⲏ ⲉⲩϩⲟⲣϣ ⲁϥϥⲱⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲉⲃⲟⲗ\nⲙ̅ⲙⲟϥ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ ⲛⲓⲙ ⲡⲉⲧⲙⲟⲩⲧⲉ ⲙ̅ⲡⲁ‐\nⲣⲁⲛ ⲁⲩⲱ ⲛ̅ⲧⲁⲥⲉⲓ ⲛⲁⲓ̈ ⲧⲱⲛ ⲛ̅ϭⲓ ⲧⲉⲓ̈ϩⲉⲗⲡⲓⲥ\nⲉⲓ̈ϣⲟⲟⲡ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲙ̅ⲙⲣ̅ⲣⲉ ⲙ̅ⲡⲉϣⲧⲉⲕⲟ ⲁⲩⲱ\nⲡⲉϫⲁⲉⲓ ϫⲉ ⲁⲛⲟⲕ ⲧⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲙ̅ⲡⲟⲩⲟⲉⲛ\nⲉⲧⲃ̅ⲃⲏⲩ ⲁⲛⲟⲕ ⲡⲉ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲡⲛ̅ⲁ̅ ⲡⲉⲧⲥⲟϩⲉ ⲙ̅ⲙⲟⲕ ⲉϩⲣⲁⲓ̈ ⲉⲡⲧⲟⲡⲟⲥ\nⲉⲧⲧⲁⲉⲓⲏⲩ ⲧⲱⲟⲩⲛⲕ ⲁⲩⲱ ⲛ̅ⲕⲣ̅ ⲡⲙⲉⲉⲩⲉ\nϫⲉ ⲛ̅ⲧⲟⲕ ⲡⲉⲛⲧⲁϩⲥⲱⲧⲙ̅ ⲁⲩⲱ ⲛ̅ⲕⲟⲩϩⲁⲕ ⲁ‐\nⲧⲉⲕⲛⲟⲩⲛⲉ ⲉⲧⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡϣⲁⲛϩⲧⲏϥ ⲁⲩ‐\nⲱ ⲛ̅ⲕⲣ̅ⲁⲥⲫⲁⲗⲓⲍⲉ ⲙ̅ⲙⲟⲕ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ\nⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛ̅ⲧⲙⲛ̅ⲧϩⲏⲕⲉ ⲙⲛ̅ ⲛ̅ⲇⲁⲓⲙⲱⲛ\nⲛ̅ⲧⲉ ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲛⲉⲧϭⲟⲗϫ ⲙ̅ⲙⲟⲕ ⲧⲏⲣⲟⲩ\nⲁⲩⲱ ⲛ̅ⲕϣⲱⲡⲉ ⲉⲕⲣⲟⲉⲓⲥ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡϩⲓ‐\nⲛⲏⲃ ⲉⲧϩⲟⲣϣ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲧϭⲁⲗⲉⲥ ⲙ̅ⲡⲥⲁⲛ\nϩⲟⲩⲛ ⲛ̅ⲁⲙⲛ̅ⲧⲉ ⲁⲩⲱ ⲁⲉⲓⲧⲟⲩⲛⲟⲩⲥ ⲙ̅ⲙⲟϥ\nⲁⲩⲱ ⲁⲉⲓⲥⲫⲣⲁⲅⲓⲍⲉ ⲙ̅ⲙⲟϥ ϩⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ\nⲙ̅ⲡⲙⲟⲟⲩ ϩⲛ̅ ϯⲉ ⲛ̅ⲥⲫⲣⲁⲅⲓⲥ ϫⲉⲕⲁⲁⲥ ⲛ̅‐\nⲛⲉⲡⲙⲟⲩ ϭⲛ̅ϭⲁⲙ ⲉⲣⲟϥ ϫⲛ̅ ⲙ̅ⲡⲓⲛⲁⲩ ⲁⲩⲱ"
+        },
+        {
+          "title": "Conclusion",
+          "subtitle": "Conclusion",
+          "heading": "Conclusion (31, 25-32, 10)",
+          "rangeLabel": "31, 25-32, 10",
+          "range": {
+            "start": {
+              "page": 31,
+              "line": 25
+            },
+            "end": {
+              "page": 32,
+              "line": 10
+            }
+          },
+          "english": "Look, now I shall ascend to the perfect realm. I have finished everything for you\nin your hearing. I have told you everything for you to record and communicate\nsecretly to your spiritual friends. This is the mystery of the unshakable\ngeneration.\nThe Savior communicated this to John for him to record and safeguard. He\nsaid to him, “Cursed be anyone who will trade these things for a gift, for food,\ndrink, clothes, or anything like this.”\nThese things were communicated to him in a mystery, and at once the\nSavior disappeared. Then John went to the other disciples and reported what\nthe Savior had told him.\nJesus Christ\nAmen\nThe Secret Book According to John",
+          "coptic": "ⲛⲉⲡⲙⲟⲩ ϭⲛ̅ϭⲁⲙ ⲉⲣⲟϥ ϫⲛ̅ ⲙ̅ⲡⲓⲛⲁⲩ ⲁⲩⲱ\nⲉⲓⲥϩⲏⲏⲧⲉ ⲧⲉⲛⲟⲩ ⲉⲓⲛⲁⲃⲱⲕ ⲉϩⲣⲁⲓ̈ ⲁⲡⲧⲉ‐\nⲗⲉⲓⲟⲛ ⲛ̅ⲁⲓⲱⲛ ⲁⲉⲓϫⲱⲕ ⲛⲁⲕ ⲉⲃⲟⲗ ⲛ̅ϩⲱⲃ\nⲛⲓⲙ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉⲕⲙⲁⲁϫⲉ ⲁⲛⲟⲕ ⲇⲉ\nⲁⲓ̈ϫⲉ ϩⲱⲃ ⲛⲓⲙ ⲉⲣⲟⲕ ϫⲉⲕⲁⲁⲥ ⲉⲕⲛⲁⲥϩⲁⲓ̈‐\nⲥⲟⲩ ⲛ̅ⲕⲧⲁⲁⲩ ⲛ̅ⲛⲉⲕϣⲃⲣ̅ ⲡⲛ̅ⲁ̅ ϩⲛ̅ ⲟⲩϩⲱⲡ\nⲡⲁⲓ̈ ⲅⲁⲣ ⲡⲉ ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̅ⲧⲅⲉⲛⲉⲁ ⲛ̅ⲁⲧ‐\nⲕⲓⲙ ⲁⲩⲱ ⲁϥϯ ⲛⲁⲉⲓ ⲛⲁϥ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉⲕⲁ‐\nⲁⲥ ⲉϥⲛⲁⲥⲁϩⲟⲩ ⲁⲩⲱ ⲛ̅ϥⲕⲁⲁⲩ ϩⲛ̅ ⲟⲩ‐\nⲧⲁϫⲣⲟ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ϥⲥϩⲟⲩⲟⲣⲧ\nⲛ̅ϭⲓ ⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧⲛⲁϯ ⲛⲁⲓ̈ ϩⲁ ⲟⲩⲇⲱ‐\nⲣⲟⲛ ⲏ ⲉⲧⲃⲉ ⲟⲩϩⲛⲉⲟⲩⲱⲙ ⲏ ⲉⲧⲃⲉ ⲟⲩ‐\nⲥⲱ ⲏ ⲉⲧⲃⲉ ⲟⲩϣⲧⲏⲛ ⲏ ⲉⲧⲃⲉ ⲕⲉ ϩⲱⲃ\nⲛ̅ⲧⲉⲓⲙⲉⲓⲛⲉ ⲁⲩⲱ ⲛⲁⲓ̈ ⲁⲩⲧⲁⲁⲩ ⲛⲁϥ\nϩⲛ̅ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩ\nⲁϥⲣ̅ ⲁⲧⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉϥⲙ̅ⲧⲟ ⲉⲃⲟⲗ\nⲁⲩⲱ ⲁϥⲉⲓ ϣⲁ ⲛⲉϥϣⲃⲣ̅ ⲙⲁⲑⲏⲧⲏⲥ ⲁϥⲧⲉ\nⲟⲩⲱ ⲉⲣⲟⲟⲩ ⲛ̅ⲛⲉⲛⲧⲁⲡⲥ̅ⲱ̅ⲣ̅ ϫⲟⲟⲩ ⲛⲁϥ\nⲓ̅ⲥ̅ ⲡⲉⲭⲣ̅ⲥ̅ ϩⲁⲙⲏⲛ\nⲕⲁ̅ⲧ̅ⲁ̅ ⲓ̈ⲱϩ̅ⲁⲛ̅ⲛⲏ̅ⲛ̅\nⲛ̅\nⲁ̅ⲡ̅ⲟⲕⲣ̅ⲩ̅ⲫⲟ̅ⲛ̅ \n( codex II ) The Gospel of Thomas\n§ⲛⲁⲉⲓ ⲛⲉ ⲛϣⲁϫⲉ ⲉⲑⲏⲡ’ ⲉⲛⲧⲁⲓ̅ⲥ̅ ⲉⲧⲟⲛϩ"
+        }
+      ]
+    },
+    {
+      "workId": "gospel-of-philip",
+      "chapterName": "Gospel of Philip",
+      "title": "Codex II - Gospel of Philip",
+      "sourceTitle": "THE GOSPEL OF PHILIP",
+      "sections": [
+        {
+          "title": "Converts",
+          "subtitle": "Converts",
+          "heading": "Converts (51, 29-52, 2)",
+          "rangeLabel": "51, 29-52, 2",
+          "range": {
+            "start": {
+              "page": 51,
+              "line": 29
+            },
+            "end": {
+              "page": 52,
+              "line": 2
+            }
+          },
+          "english": "A Hebrew makes a Hebrew, and such a person is called a convert. A convert\ndoes not make a convert. [Some people] are as they [are] and make others [like\nthem], while others simply are.",
+          "coptic": "§ⲟⲩϩⲉⲃⲣⲁⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ [ϣ]ⲁϥⲧⲁⲙⲓⲉ ϩⲉⲃⲣⲁⲓ‐\nⲟⲥ ⲁⲩⲱ ϣⲁⲩⲙⲟⲩⲧⲉ [ⲉⲛⲁ]ⲉⲓ ⲛ̅ⲧⲉⲉⲓⲙⲓⲛⲉ\nϫⲉ ⲡⲣⲟⲥⲏⲗⲩⲧⲟⲥ ⲟⲩⲡ[ⲣⲟⲥⲏ]ⲗⲩⲧⲟⲥ ⲇⲉ ⲙⲁϥ‐\nⲧⲁⲙⲓⲉ ⲡⲣⲟⲥⲏⲗⲩⲧⲟⲥ [......].ⲉ ⲙⲉⲛ\nⲥⲉϣⲟⲟⲡ ⲛ̅ⲑⲉ ⲉⲧⲟⲩϣ[.........]\nⲁⲩⲱ ⲥⲉⲧⲁⲙⲉⲓⲟ ⲛ̅ϩⲛ̅ⲕⲟⲟ[ⲩⲉ .......]\n[ⲇⲉ] ⲙⲟⲛⲟ[ⲛ ⲉⲥ]ⲣⲱϣⲉ ⲉⲣⲟⲟⲩ ϣⲓⲛⲁ ⲉⲩⲛⲁ‐\nϣⲱⲡⲉ’ §ⲡ[ϩⲙ]ϩ̅̅ⲁ̅ⲗ̅ ⲙⲟⲛⲟⲛ ⲉϥϣⲓⲛⲉ ⲁⲣ̅ⲉ‐"
+        },
+        {
+          "title": "Inheriting the Living and the Dead",
+          "subtitle": "Inheriting the Living and the Dead",
+          "heading": "Inheriting the Living and the Dead (52, 2-15)",
+          "rangeLabel": "52, 2-15",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 2
+            },
+            "end": {
+              "page": 52,
+              "line": 15
+            }
+          },
+          "english": "A slave seeks only to be free and does not seek the master’s estate.\nFor a child it is not enough to be a child, but a child claims the father’s\ninheritance.\nHeirs to the dead are dead, and what they inherit is dead. Heirs to the living\nare alive, and they inherit both the living and the dead. The dead inherit nothing,\nfor how could a dead person inherit? If a dead person inherits the living, the\nliving will not die and the dead will come to life.",
+          "coptic": "ϣⲱⲡⲉ’ §ⲡ[ϩⲙ]ϩ̅̅ⲁ̅ⲗ̅ ⲙⲟⲛⲟⲛ ⲉϥϣⲓⲛⲉ ⲁⲣ̅ⲉ‐\nⲗⲉⲩⲑⲉⲣⲟ[ⲥ] ⲙⲁϥϣⲓⲛⲉ ⲇⲉ ⲛ̅ⲥⲁ ⲧⲟⲩⲥⲓⲁ\nⲙ̅ⲡⲉϥϫⲟ[ⲉⲓ]ⲥ ⲡϣⲏⲣⲉ ⲇⲉ ⲟⲩ ⲙⲟⲛⲟⲛ ϫⲉ\nϥⲟ ⲛ̅ϣⲏⲣⲉ ⲁⲗⲗⲁ ⲧⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓⲁ ⲙ̅ⲡⲉⲓ‐\nⲱⲧ’ ϣⲁϥⲥⲁϩⲥ̅ ⲛ̅ⲥⲱϥ’ ⲛⲉⲧⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ\nⲛ̅ⲛⲉⲧ’ⲙⲟⲟⲩⲧ’ ⲛ̅ⲧⲟⲟⲩ ϩⲱⲟⲩ ⲥⲉⲙⲟⲟⲩⲧ’\nⲁⲩⲱ ⲉⲩⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛ̅ⲛⲉⲧ’ⲙⲟⲟⲩⲧ’ ⲛⲉ‐\nⲧⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙ̅ⲡⲉⲧⲟⲛϩ ⲛ̅ⲧⲟⲟⲩ ⲥⲉⲟⲛϩ\nⲁⲩⲱ ⲥⲉⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙ̅ⲡⲉⲧⲟⲛϩ ⲙⲛ̅ ⲛⲉⲧ’‐\nⲙⲟⲟⲩⲧ’ ⲛⲉⲧⲙⲟⲟⲩⲧ’ ⲙⲁⲩⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ\nⲗ̅ⲗⲁⲁⲩ ⲡⲱⲥ ⲅⲁⲣ ⲡⲉⲧⲙⲟⲟⲩⲧ’ ϥⲛⲁⲕⲗⲏⲣⲟⲛⲟ‐\nⲙⲉⲓ ⲡⲉⲧⲙⲟⲟⲩⲧ’ ⲉϥϣⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙ̅‐\nⲡⲉⲧⲟⲛϩ ϥⲛⲁⲙⲟⲩ ⲁⲛ ⲁⲗⲗⲁ ⲡⲉⲧⲙⲟⲟⲩⲧ’\nⲉϥⲛⲁⲱⲛϩ ⲛ̅ϩⲟⲩⲟ §ⲟⲩϩⲉⲑⲛⲓⲕⲟⲥ ⲣ̅ⲣⲱ‐"
+        },
+        {
+          "title": "Jesus, Gentiles, Christians",
+          "subtitle": "Jesus, Gentiles, Christians",
+          "heading": "Jesus, Gentiles, Christians (52, 15-24)",
+          "rangeLabel": "52, 15-24",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 15
+            },
+            "end": {
+              "page": 52,
+              "line": 24
+            }
+          },
+          "english": "A gentile does not die, never having been alive so as to die. One who has\nbelieved in truth is alive, but this person is at risk of dying just by being alive.\nSince Christ came, the world has been created, cities have been beautified,\nand the dead have been buried.\nWhen we were Hebrews we were orphans, with only a mother, but when we\nbecame Christians we had a father and a mother.",
+          "coptic": "ⲉϥⲛⲁⲱⲛϩ ⲛ̅ϩⲟⲩⲟ §ⲟⲩϩⲉⲑⲛⲓⲕⲟⲥ ⲣ̅ⲣⲱ‐\nⲙⲉ ⲙⲁϥⲙⲟⲩ ⲙ̅ⲡⲉϥⲱⲛϩ ⲅⲁⲣ ⲉⲛⲉϩ ϩⲓⲛⲁ\nⲉϥⲛⲁⲙⲟⲩ’ ⲡⲉⲛⲧⲁϩⲡⲓⲥⲧⲉⲩⲉ ⲉⲧⲙⲉ ⲁϥ’‐\nⲱⲛϩ ⲁⲩⲱ ⲡⲁⲓ̈ ϥϭⲛ̅ⲇⲩⲛⲉⲩⲉ ⲉⲙⲟⲩ ϥⲟⲛϩ\nⲅⲁⲣ ϫⲓⲙ̅ ⲡϩⲟⲟⲩ ⲛ̅ⲧⲁ ⲡⲭ̅ⲥ̅ ⲉⲓ ⲥⲉⲥⲱⲛⲧ’ ⲙ̅‐\nⲡⲕⲟⲥⲙⲟⲥ ⲥⲉⲣ̅ⲕⲟⲥⲙⲉⲓ ⲛⲙ̅ⲡⲟⲗⲉⲓⲥ ⲥⲉ‐\nϥⲓ ⲙ̅ⲡⲉⲧⲙⲟⲟⲩⲧ’ ⲉⲃⲟⲗ’ ⲛ̅ϩⲟⲟⲩ ⲛⲉⲛ’ϣⲟ‐\nⲟⲡ’ ⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ’ ⲛⲉⲛⲟ ⲛ̅ⲟⲣⲫⲁⲛⲟⲥ ⲛⲉⲩ‐\nⲛ̅ⲧⲁⲛ ⲛ̅ⲧⲙ̅ⲙⲁⲁⲩ ⲛ̅ⲧⲁⲣⲛ̅ϣⲱⲡⲉ ⲇⲉ ⲛ̅‐\nⲭⲣⲏⲥⲧⲓⲁⲛⲟⲥ ⲁⲉⲓⲱⲧ’ ϩⲓ ⲙⲁⲁⲩ ϣⲱⲡⲉ ⲛⲁⲛ"
+        },
+        {
+          "title": "Sowing and Reaping",
+          "subtitle": "Sowing and Reaping",
+          "heading": "Sowing and Reaping (52, 25-35)",
+          "rangeLabel": "52, 25-35",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 25
+            },
+            "end": {
+              "page": 52,
+              "line": 35
+            }
+          },
+          "english": "Whoever sows in winter reaps in summer. Winter is the world, summer is the\nother aeon, the eternal realm. Let’s sow in the world to reap in summer. And for\nthis reason we should not pray in winter.\nFrom winter comes summer. If someone reaps in winter, the person will not\nreally reap but will pull out the young plants, and such do not produce a crop.\n[That person’s field] is barren not only [now] but also on the Sabbath.",
+          "coptic": "§ⲛⲉⲧⲥⲓⲧⲉ ϩⲛ̅ ⲧⲡⲣⲱ ϣⲁⲩⲱⲥϩ ϩⲙ̅ ⲡϣⲱⲙ’\nⲧⲡⲣⲱ ⲡⲉ ⲡⲕⲟⲥⲙⲟⲥ ⲡϣⲱⲙ’ ⲡⲉ ⲡⲕⲉⲁⲓ‐\nⲱⲛ’ ⲙⲁⲣⲛ̅ⲥⲓⲧⲉ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ϫⲉⲕⲁⲁⲥ\nⲉⲛⲛⲁⲱϩⲥ ϩⲙ̅ ⲡϣⲱⲙ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ϣϣⲉ\nⲉⲣⲟⲛ’ ⲉⲧⲙ̅ⲧⲣⲛ̅ϣⲗⲏⲗ’ ϩⲛ̅ ⲧⲡⲣⲱ ⲡⲓⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲡⲣⲱ’ ⲡⲉ ⲡϣⲱⲙ’ ⲉⲣϣⲁ ⲟⲩⲁ ⲇⲉ ⲱⲥϩ\nϩⲛ̅ ⲧⲉⲡⲣⲱ’ ⲉϥⲛⲁⲱⲥϩ ⲁⲛ ⲁⲗⲗⲁ ⲉϥⲛⲁϩⲱ‐\nⲗⲉ ϩⲱⲥ ⲡⲁⲉ[ⲓ ⲛ̅]ⲧⲉⲉⲓⲙⲉⲓⲛⲉ ⲉϥⲛⲁⲧⲉⲩ‐\nⲉ ⲕⲁⲣⲡⲟⲥ [ⲛⲁϥ’] ⲁⲛ’ ⲟⲩ ⲙⲟⲛⲟⲛ ⲉϥⲛ̅ⲛⲏⲩ\nⲉⲃⲟ[ⲗ ......] ⲁⲗⲗⲁ ϩⲙ̅ ⲡⲕⲉⲥⲁⲃⲃⲁⲧⲟⲛ\n[....... ⲟ]ⲩⲁⲧⲕⲁⲣⲡⲟⲥ ⲧⲉ §ⲁⲡⲉⲭⲣ̅ⲥ̅ ⲉⲓ"
+        },
+        {
+          "title": "Christ Came",
+          "subtitle": "Christ Came",
+          "heading": "Christ Came (52, 35-53, 14)",
+          "rangeLabel": "52, 35-53, 14",
+          "range": {
+            "start": {
+              "page": 52,
+              "line": 35
+            },
+            "end": {
+              "page": 53,
+              "line": 14
+            }
+          },
+          "english": "Christ came to purchase some, to save some, to redeem some. He purchased\nstrangers and made them his own, and he brought back his own whom he had\nlaid down of his own will as a deposit. Not only when he appeared did he lay the\nsoul of his own will as a deposit, but from the beginning of the world he laid\ndown the soul, for the proper moment, according to his will. Then he came forth\nto take it back, since it had been laid down as a deposit. It had fallen into the\nhands of robbers and had been stolen, but he saved it. And he redeemed the good\nin the world and the bad.",
+          "coptic": "[....... ⲟ]ⲩⲁⲧⲕⲁⲣⲡⲟⲥ ⲧⲉ §ⲁⲡⲉⲭⲣ̅ⲥ̅ ⲉⲓ\nϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲉⲧⲣⲉϥⲧⲟⲟⲩⲥ[ⲉ ϩ]ⲛ̅ⲕⲟⲟⲩⲉ\nⲇⲉ ⲉⲧⲣⲉϥ’ⲛⲁϩⲙⲟⲩ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲉⲧⲣⲉϥⲥⲟ‐\nⲧⲟⲩ ⲛⲉⲧⲟ ⲛ̅ϣⲙ̅ⲙⲟ ⲛ̅ⲧⲁϥⲧⲟⲟⲩⲥⲉ ⲁϥⲁ‐\nⲁⲩ ⲛ̅ⲛⲉⲧⲉ ⲛⲟⲩϥ ⲛⲉ ⲁⲩⲱ ⲁϥⲛⲟⲩϩ’\n† ⲛ̅ⲛ̅ⲉⲧⲉ ⲛⲟⲩϥ ⲛⲁⲉⲓ ⲛ̅ⲧⲁϥⲕⲁⲁⲩ ⲛ̅ⲛⲉⲟⲩ‐\nⲱ ϩⲙ̅ ⲡⲉϥ’ⲟⲩⲱϣ’ ⲟⲩ ⲙⲟⲛⲟⲛ ϫⲉ ⲛ̅ⲧⲁⲣⲉϥ’‐\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁϥⲕⲱ ⲛ̅ⲧⲯⲩⲭⲏ ⲛ̅ⲧⲁⲣⲉϥ’‐\nⲟⲩⲱϣ ⲁⲗⲗⲁ ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲡⲕⲟⲥⲙⲟⲥ ϣⲟ‐\nⲟⲡ’ ⲁϥⲕⲱ ⲛ̅ⲧⲯⲩⲭⲏ ⲙ̅ⲡⲥⲟⲡ’ ⲉⲧⲉϥ’ⲟⲩ‐\nⲱϣ’ ⲧⲟⲧⲉ ⲁϥⲉⲓ ⲛ̅ϣⲟⲣⲡ’ ⲉϥⲛⲁϥⲓⲧⲥ̅ ⲉⲡⲉⲓ\nⲛ̅ⲧⲁⲩⲕⲁⲁⲥ ⲛ̅ⲛⲉⲟⲩⲱ’ ⲁⲥϣⲱⲡⲉ ϩⲁ ⲛⲗⲏ‐\nⲥⲧⲏⲥ ⲁⲩⲱ ⲁⲩϥⲓⲧⲥ̅ ⲛ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲟⲥ ⲁϥⲛⲟϩ‐\nⲙⲉⲥ ⲇⲉ ⲁⲩⲱ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ\nⲁϥⲥⲟⲧⲟⲩ ⲁⲩⲱ ⲛⲉⲑⲟⲟⲩ §ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐"
+        },
+        {
+          "title": "Light and Darkness",
+          "subtitle": "Light and Darkness",
+          "heading": "Light and Darkness (53, 14-23)",
+          "rangeLabel": "53, 14-23",
+          "range": {
+            "start": {
+              "page": 53,
+              "line": 14
+            },
+            "end": {
+              "page": 53,
+              "line": 23
+            }
+          },
+          "english": "Light and darkness, life and death, and right and left are siblings of one another,\nand inseparable. For this reason the good are not good, the bad are not bad, life\nis not life, and death is not death. Each will dissolve into its original nature, but\nwhat is superior to the world cannot be dissolved, for it is eternal.",
+          "coptic": "ⲁϥⲥⲟⲧⲟⲩ ⲁⲩⲱ ⲛⲉⲑⲟⲟⲩ §ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐\nⲕⲉ ⲡⲱⲛϩ ⲙⲛ̅ ⲡⲙⲟⲩ ⲛ̅ⲟⲩⲛⲁⲙ’ ⲙⲛ̅ ⲛ̅ϩⲃⲟⲩⲣ\nⲛ̅ⲥⲛⲏⲩ ⲛⲉ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲙⲛ̅ ϭⲟⲙ’ ⲛ̅ⲥⲉⲡⲱⲣϫ\nⲁⲛⲟⲩⲉⲣⲏⲩ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲟⲩⲧⲉ ⲛⲉⲧⲛⲁⲛⲟⲩ‐\nⲟⲩ ⲛⲁⲛⲟⲩⲟⲩ ⲟⲩⲧⲉ ⲛⲉⲑⲟⲟⲩ ⲥⲉϩⲟⲟⲩ\nⲟⲩⲧⲉ ⲡⲱⲛϩ ⲟⲩⲱⲛϩ ⲡⲉ ⲟⲩⲧⲉ ⲡⲙⲟⲩ ⲟⲩ‐\nⲙⲟⲩ ⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲁⲃⲱⲗ\nⲉⲃⲟⲗ’ ⲁⲧⲉϥⲁⲣⲭⲏ ϫⲓⲛ ϣⲟⲣⲡ’ ⲛⲉⲧϫⲟⲥⲉ\nⲇⲉ ⲁⲡⲕⲟⲥⲙⲟⲥ ϩⲛ̅ⲛⲁⲧⲃⲱⲗ ⲉⲃⲟⲗ ⲛⲉ\nϩⲛ̅ϣⲁ ⲉⲛⲉϩ ⲛⲉ §ⲛ̅ⲣⲁⲛ ⲉⲧⲟⲩϯ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ‐"
+        },
+        {
+          "title": "Words and Names",
+          "subtitle": "Words and Names",
+          "heading": "Words and Names (53, 23-54, 5)",
+          "rangeLabel": "53, 23-54, 5",
+          "range": {
+            "start": {
+              "page": 53,
+              "line": 23
+            },
+            "end": {
+              "page": 54,
+              "line": 5
+            }
+          },
+          "english": "The names of worldly things are utterly deceptive, for they turn the heart from\nwhat is real to what is unreal. Whoever hears the word “god” thinks not of what\nis real but rather of what is unreal. So also with the words “father,” “son,” “holy\nspirit,” “life,” “light,” “resurrection,” “church,” and all the rest, people do not\nthink of what is real but of what is unreal, [though] the words refer to what is\nreal. The words [that are] heard belong to this world. [Do not be] deceived.\nIf words belonged to the eternal realm, they would never be pronounced in this\nworld, nor would they designate worldly things. They would refer to what is in\nthe eternal realm.",
+          "coptic": "ϩⲛ̅ϣⲁ ⲉⲛⲉϩ ⲛⲉ §ⲛ̅ⲣⲁⲛ ⲉⲧⲟⲩϯ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ‐\nⲕⲟⲥⲙⲓⲕⲟⲥ ⲟⲩⲛ̅ⲧⲉⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲟⲩⲛⲟϭ ⲙ̅‐\nⲡⲗⲁⲛⲏ ⲥⲉⲡⲱϣⲥ̅ ⲅⲁⲣ ⲙ̅ⲡⲟⲩϩⲏⲧ’ ⲉⲃⲟⲗ\nϩⲛ̅ ⲛⲉⲧⲥⲙⲟⲛⲧ’ ⲉϩⲟⲩⲛ ⲉⲛⲉⲧⲥⲙⲟⲛⲧ’\nⲁⲛ ⲁⲩⲱ ⲡⲉⲧⲥⲱⲧⲙ̅ ⲉⲡⲛⲟⲩⲧⲉ ⲉϥⲛⲟ‐\nⲉⲓ ⲁⲛ ⲙ̅ⲡⲉⲧⲥⲙⲟⲛⲧ’ ⲁⲗⲗⲁ ⲁϥⲣ̅ⲛⲟⲉⲓ ⲙ̅‐\nⲡⲉⲧ’ⲥⲙⲟⲛⲧ ⲁⲛ ⲧⲉⲉⲓϩⲉ ⲟⲛ ⲙ̅ⲡⲉⲓⲱⲧ’\nⲙⲛ̅ ⲡϣⲏⲣⲉ ⲙⲛ̅ ⲡⲡⲛ̅̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲙⲛ̅\nⲡⲱⲛϩ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲧⲁⲛⲁⲥⲧⲁ‐\nⲥⲓⲥ ⲙⲛ̅ ⲧⲉⲕⲕⲗⲏⲥⲓⲁ [ⲙ]ⲛ̅ ⲛ̅ⲕⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ\nⲉⲩⲣ̅ⲛⲟⲉⲓ ⲁⲛ ⲛ̅ⲛⲉⲧ[ⲥⲙⲟ]ⲛⲧ’ ⲁⲗⲗⲁ ⲉⲩⲣ̅‐\nⲛⲟⲉⲓ ⲛ̅ⲛⲉⲧ’ⲥⲙⲟⲛ[ⲧ’ ⲁⲛ ⲡⲗ]ⲏⲛ’ ⲁⲩⲥⲉ‐\nⲃⲟ ⲁⲛⲉⲧⲥⲙⲟⲛⲧ’ ⲣ̅ⲣⲁ[ⲛ ⲛ̅ⲧⲁⲩⲥ]ⲁⲧⲙⲟⲩ\nⲥⲉϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟ[ⲥ .......]\n[ⲁⲡ]ⲁⲧⲁ [ⲉ]ⲛ[ⲉⲩ]ϣ[ⲟ]ⲟⲡ’ ϩⲙ̅ ⲡⲁⲓⲱⲛ ⲛⲉⲩⲛⲁ‐\nⲣ̅ⲟⲛⲟⲙⲁⲍ[ⲉ] ⲁⲛ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲗ̅ⲗⲁⲁⲩ ⲛ̅‐\nϩⲟⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲟⲩⲕⲁⲁⲩ ϩⲛ̅ ⲛ̅ϩⲃⲏⲩⲉ ⲛ̅‐\nⲕⲟⲥⲙⲓⲕⲟⲛ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲟⲩϩⲁⲏ ϩⲙ̅\nⲡⲁⲓⲱⲛ §ⲟⲩⲣⲁⲛ’ ⲟⲩⲱⲧ’ ⲙⲁⲩⲧⲉⲩⲟⲩⲁϥ’"
+        },
+        {
+          "title": "The Name of the Father",
+          "subtitle": "The Name of the Father",
+          "heading": "The Name of the Father (54, 5-13)",
+          "rangeLabel": "54, 5-13",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 5
+            },
+            "end": {
+              "page": 54,
+              "line": 13
+            }
+          },
+          "english": "Only one name is not pronounced in the world, the name the Father gave the\nSon. It is the name above all; it is the Father’s name. For the Son would not have\nbecome Father if he had not put on the Father’s name. Those who have this\nname understand it but do not speak it. Those who do not have it cannot even\nunderstand it.",
+          "coptic": "ⲡⲁⲓⲱⲛ §ⲟⲩⲣⲁⲛ’ ⲟⲩⲱⲧ’ ⲙⲁⲩⲧⲉⲩⲟⲩⲁϥ’\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲡⲣⲁⲛ’ ⲛ̅ⲧⲁ ⲡⲉⲓⲱⲧ’ ⲧⲁⲁϥ’\nⲙ̅ⲡϣⲏⲣⲉ ϥϫⲟⲥⲉ ⲉⲟⲩⲟⲛ ⲛⲓⲙ’ ⲉⲧⲉ ⲡⲁ‐\nⲉⲓ ⲡⲉ ⲡⲣⲁⲛ’ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲛⲉⲣⲉ ⲡϣⲏⲣⲉ ⲅⲁⲣ’\nⲛⲁϣⲱⲡⲉ ⲁⲛ’ ⲉⲓⲱⲧ’ ⲥⲁⲃⲏⲗ ϫⲉ ⲁϥϯ ϩⲓ‐\nⲱⲱϥ’ ⲙ̅ⲡⲣⲁⲛ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲡⲉⲉⲓⲣⲁⲛ ⲛⲉ‐\nⲧⲉⲩⲛ̅ⲧⲁⲩϥ ⲥⲉⲣ̅ⲛⲟⲉⲓ ⲙⲉⲛ’ ⲙ̅ⲙⲟϥ ⲥⲉϣⲁ‐\nϫⲉ ⲇⲉ ⲉⲣⲟϥ ⲁⲛ ⲛⲉⲧⲉ ⲙⲛ̅ⲧⲁⲩϥ ⲇⲉ ⲥⲉ‐\nⲣ̅ⲛⲟⲉⲓ ⲙ̅ⲙⲟϥ ⲁⲛ §ⲁⲗⲗⲁ ⲁⲧⲙⲉ ϫⲡⲉ ϩⲉⲛⲣⲁⲛ"
+        },
+        {
+          "title": "Truth",
+          "subtitle": "Truth",
+          "heading": "Truth (54, 13-18)",
+          "rangeLabel": "54, 13-18",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 13
+            },
+            "end": {
+              "page": 54,
+              "line": 18
+            }
+          },
+          "english": "Truth brought forth names in the world for us, and no one can refer to truth\nwithout names. Truth is one and many, for our sakes, to teach us about the one,\nin love, through the many.",
+          "coptic": "ⲣ̅ⲛⲟⲉⲓ ⲙ̅ⲙⲟϥ ⲁⲛ §ⲁⲗⲗⲁ ⲁⲧⲙⲉ ϫⲡⲉ ϩⲉⲛⲣⲁⲛ\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲉⲧⲃⲏⲧⲛ̅ † ⲛⲁⲉⲓ ⲉⲙⲛ̅ ϭⲟⲙ’\nⲁⲥⲉⲃⲟ ⲉⲣⲟⲥ ⲭⲱⲣⲓⲥ ⲣ̅ⲣⲁⲛ ⲟⲩⲉⲓ ⲟⲩⲱⲧ’\nⲧⲉ ⲧⲙⲉ † ⲥⲟ ⲛ̅ϩⲁϩ ⲁⲩⲱ ⲉⲧⲃⲏⲧⲛ̅ ⲉⲧⲥⲉ‐\nⲃⲟ ⲉⲡⲁⲉⲓ ⲟⲩⲁⲁϥ † ϩⲛ̅ ⲟⲩⲁⲅⲁⲡⲏ ϩⲓⲧⲛ̅\nϩⲁϩ ⲁⲛⲁⲣⲭⲱⲛ ⲟⲩⲱϣ ⲁⲣ̅ⲁⲡⲁⲧⲁ ⲙ̅‐"
+        },
+        {
+          "title": "The Archons",
+          "subtitle": "The Archons",
+          "heading": "The Archons (54, 18-31)",
+          "rangeLabel": "54, 18-31",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 18
+            },
+            "end": {
+              "page": 54,
+              "line": 31
+            }
+          },
+          "english": "The rulers wanted to fool people, since they saw that people have a kinship with\nwhat is truly good. They took the names of the good and assigned them to what\nis not good, to fool people with names and link the names to what is not good.\nSo, as if they are doing people a favor, they take names from what is not good\nand transfer them to the good, in their own way of thinking. For they wished to\ntake free people and enslave them forever.",
+          "coptic": "ϩⲁϩ ⲁⲛⲁⲣⲭⲱⲛ ⲟⲩⲱϣ ⲁⲣ̅ⲁⲡⲁⲧⲁ ⲙ̅‐\nⲡⲣⲱⲙⲉ ⲉⲡⲉⲓⲇⲏ ⲁⲩⲛⲁⲩ ⲉⲣⲟϥ’ ⲉⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲟⲩⲥⲩⲅ’ⲅⲉⲛⲉⲓⲁ ϣⲁ ⲛⲉⲧⲛⲁ‐\nⲛⲟⲩⲟⲩ ⲛⲁⲙⲉ ⲁⲩϥⲓ ⲡⲣⲁⲛ ⲛ̅ⲛⲉⲧⲛⲁ’‐\nⲛⲟⲩⲟⲩ ⲁⲩⲧⲁⲁϥ’ ⲁⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ’\nϫⲉⲕⲁⲁⲥ ϩⲓⲧⲛ̅ ⲣ̅ⲣⲁⲛ ⲉⲩⲛⲁⲣ̅’ⲁⲡⲁⲧⲁ ⲙ̅‐\nⲙⲟϥ’ ⲁⲩⲱ ⲛ̅ⲥⲉⲙⲟⲣⲟⲩ ⲉϩⲟⲩⲛ’ ⲁⲛⲉⲧⲛⲁ‐\nⲛⲟⲩⲟⲩ ⲁⲛ ⲁⲩⲱ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲉϣϫⲉ ⲉⲩ‐\nⲉⲓⲣⲉ ⲛⲁⲩ ⲛ̅ⲟⲩϩⲙⲟⲧ’ ⲛ̅ⲥⲉⲧⲣⲟⲩⲥⲉϩⲱⲟⲩ\nⲉⲃⲟⲗ ⲛ̅ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ ⲁⲩⲱ ⲛ̅ⲥⲉ‐\nⲕⲁⲁⲩ ϩⲛ̅ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲛⲁⲉⲓ ⲛⲉⲩⲥⲟ‐\nⲟⲩⲛ ⲙ̅ⲙⲟⲟⲩ ⲛⲉⲩⲟⲩⲱϣ ⲅⲁⲣ ⲉⲧⲣⲟⲩ‐\nϥⲓ ⲡⲉⲗⲉⲩⲑⲉⲣ[ⲟ]ⲥ ⲛ̅ⲥⲉⲕⲁⲁϥ’ ⲛⲁⲩ ⲛ̅‐\nϩⲙϩ̅ⲁ̅ⲗ̅’̅ ϣⲁ ⲉⲛⲉϩ §ⲟⲩⲛ ϩⲛ̅ⲇⲩⲛⲁⲙⲓⲥ"
+        },
+        {
+          "title": "The Forces",
+          "subtitle": "The Forces",
+          "heading": "The Forces (54, 31-55, 5)",
+          "rangeLabel": "54, 31-55, 5",
+          "range": {
+            "start": {
+              "page": 54,
+              "line": 31
+            },
+            "end": {
+              "page": 55,
+              "line": 5
+            }
+          },
+          "english": "There are forces that do [favors] for people. They do not want people to come to\n[salvation], but they want their own existence to continue. For if people come to\nsalvation, sacrifice will [stop]…and animals will not be offered up to the\nforces. In fact, those to whom sacrifices were made were animals. The animals\nwere offered up alive, and after being offered they died. But a human being\nwas offered up to God dead, and the human being came alive.",
+          "coptic": "ϩⲙϩ̅ⲁ̅ⲗ̅’̅ ϣⲁ ⲉⲛⲉϩ §ⲟⲩⲛ ϩⲛ̅ⲇⲩⲛⲁⲙⲓⲥ\nϣⲟⲟⲡ’ ⲉⲩϯϩ[...] ⲡⲣⲱⲙⲉ ⲉⲥⲉⲟⲩⲱϣ\nⲁⲛ’ ⲁⲧⲣⲉϥ’ⲟⲩ[ϫⲁⲉⲓ] ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϣⲱ‐\nⲡⲉ ⲉⲩⲙ[.....]ⲗ ⲉⲣϣⲁ ⲡⲣⲱⲙⲉ ⲅⲁⲣ\nⲟⲩϫ[ⲁⲉⲓ ⲛ̅ⲛⲟⲩ]ϣⲱⲡⲉ ⲛ̅ϭⲓ ϩⲛ̅ⲑⲩⲥⲓⲁ\n[........]ⲁⲩⲱ ⲛⲉⲩⲧⲁⲗⲉ ⲑⲏⲣⲓⲟⲛ’\nⲉϩⲣⲁⲓ̈ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲛⲉ [ϩ]ⲛ̅[ⲑ]ⲏⲣⲓⲟⲛ ⲅⲁⲣ\nⲛⲉ ⲛⲉⲧⲟⲩⲧⲉⲗⲟ ⲉϩⲣⲁⲓ̈ ⲛⲁ[ⲩ] ⲛⲉⲩⲧⲉⲗⲟ\nⲙⲉⲛ ⲙ̅ⲙⲟⲟⲩ ⲉϩⲣⲁⲓ̈ ⲉⲩⲟⲛϩ ⲛ̅ⲧⲁⲣⲟⲩⲧⲉ‐\nⲗⲟⲟⲩ ⲇⲉ ⲉϩⲣⲁⲓ̈ ⲁⲩⲙⲟⲩ ⲡⲣⲱⲙⲉ ⲁⲩⲧⲉⲗⲟϥ\nⲉϩⲣⲁⲓ̈ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉϥⲙⲟⲟⲩⲧ’ ⲁⲩⲱ ⲁϥⲱⲛϩ"
+        },
+        {
+          "title": "Christ Brought Bread",
+          "subtitle": "Christ Brought Bread",
+          "heading": "Christ Brought Bread (55, 6-14)",
+          "rangeLabel": "55, 6-14",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 6
+            },
+            "end": {
+              "page": 55,
+              "line": 14
+            }
+          },
+          "english": "Before Christ came there was no bread in the world, just as paradise, where\nAdam lived, had many trees for animal food but no wheat for human food, and\npeople ate like animals. But when Christ, the perfect human, came, he brought\nbread from heaven, that humans might be fed with human food.",
+          "coptic": "§ϩⲁ ⲧⲉϩⲏ ⲉⲙ’ⲡⲁⲧⲉ ⲡⲉⲭ̅ⲥ̅ ⲉⲓ ⲛⲉ ⲙⲛ̅ ⲟⲉⲓⲕ’\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲛ̅ⲑⲉ ⲙ̅ⲡⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲡⲙⲁ\nⲛⲉⲣⲉ ⲁⲇⲁⲙ ⲙ̅ⲙⲁⲩ ⲛⲉⲩⲛ̅ⲧⲁϥ ϩⲁϩ ⲛ̅ϣⲏⲛ\nⲛ̅ⲛ̅ⲧⲣⲟⲫⲏ ⲛ̅ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲉ ⲙⲛ̅ⲧⲁϥ ⲥⲟⲩⲟ\nⲛ̅ⲧⲧⲣⲟⲫⲏ ⲙ̅ⲡⲣⲱⲙⲉ ⲛⲉⲣⲉ ⲡⲣⲱⲙⲉ ⲥⲟ‐\nⲉⲓϣ ⲛ̅ⲑⲉ ⲛ̅ⲛ̅ⲑⲏⲣⲓⲟⲛ’ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲣⲉ ⲡⲉⲭⲥ̅\nⲉⲓ’ ⲡⲧⲉⲗⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲁϥⲉⲓⲛⲉ ⲛ̅ⲟⲩⲟⲉⲓⲕ’\nⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲉ ϣⲓⲛⲁ ⲉⲣⲉ ⲡⲣⲱⲙⲉ ⲛⲁⲣ̅ⲧⲣⲉ‐\nⲫⲉⲥⲑⲁⲓ ϩⲛ̅ ⲧⲧⲣⲟⲫⲏ ⲙ̅ⲡⲣⲱⲙⲉ ⲛⲉⲣⲉ ⲛ̅‐"
+        },
+        {
+          "title": "The Archons and the Holy Spirit",
+          "subtitle": "The Archons and the Holy Spirit",
+          "heading": "The Archons and the Holy Spirit (55, 14-19)",
+          "rangeLabel": "55, 14-19",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 14
+            },
+            "end": {
+              "page": 55,
+              "line": 19
+            }
+          },
+          "english": "The rulers thought they did all they did by their own power and will, but the\nHoly Spirit was secretly accomplishing all through them by the Spirit’s will.",
+          "coptic": "ⲫⲉⲥⲑⲁⲓ ϩⲛ̅ ⲧⲧⲣⲟⲫⲏ ⲙ̅ⲡⲣⲱⲙⲉ ⲛⲉⲣⲉ ⲛ̅‐\nⲁⲣⲭⲱⲛ’ ⲙⲉⲉⲩⲉ ϫⲉ ϩⲛ̅ ⲧⲟⲩϭⲟⲙ’ ⲙⲛ̅ ⲡⲟⲩ‐\nⲱϣ ⲉⲩⲉⲓⲣⲉ ⲛ̅ⲛⲉⲧⲟⲩⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛⲉ‐\nⲣⲉ ⲡⲡⲛ̅ⲁ̅ ⲇⲉ ⲉⲧⲟⲩⲁⲁⲃ ϩⲛ̅ ⲟⲩⲡⲉⲑⲏⲡ’\nⲛⲉϥ’ⲉⲛⲉⲣⲅⲉⲓ ⲙ̅ⲡⲧⲏⲣϥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ\nⲛ̅ⲑⲉ ⲉⲧϥ’ⲟⲩⲱϣ’ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲥⲉⲥⲓⲧⲉ ⲙ̅ⲙⲟⲥ"
+        },
+        {
+          "title": "Sowing and Reaping Truth",
+          "subtitle": "Sowing and Reaping Truth",
+          "heading": "Sowing and Reaping Truth (55, 19-22)",
+          "rangeLabel": "55, 19-22",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 19
+            },
+            "end": {
+              "page": 55,
+              "line": 22
+            }
+          },
+          "english": "Truth, which has existed from the beginning, is sown everywhere, and many see\nit being sown, but few see it being reaped.",
+          "coptic": "ⲛ̅ⲑⲉ ⲉⲧϥ’ⲟⲩⲱϣ’ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲥⲉⲥⲓⲧⲉ ⲙ̅ⲙⲟⲥ\nⲙ̅ⲙⲁ ⲛⲓⲙ ⲧⲉⲧϣⲟⲟⲡ’ ϫⲓⲛ ⲛ̅ϣⲟⲣⲡ ⲁⲩ‐\nⲱ ⲟⲩⲛ ϩⲁϩ ⲛⲁⲩ ⲉⲣⲟⲥ ⲉⲩⲥⲓⲧⲉ ⲙ̅ⲙⲟⲥ ϩⲛ̅‐\nⲕⲟⲩⲉⲓ ⲇⲉ † ⲉⲧⲟⲩⲛⲁⲩ ⲉⲣⲟⲥ ⲉⲩⲱⲥϩ ⲙ̅ⲙⲟⲥ"
+        },
+        {
+          "title": "Mary Conceiving",
+          "subtitle": "Mary Conceiving",
+          "heading": "Mary Conceiving (55, 23-33)",
+          "rangeLabel": "55, 23-33",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 23
+            },
+            "end": {
+              "page": 55,
+              "line": 33
+            }
+          },
+          "english": "Some said Mary became pregnant by the Holy Spirit. They are wrong and do\nnot know what they are saying. When did a woman ever get pregnant by a\nwoman?\nMary is the virgin whom none of the powers defiled. This is greatly\nrepugnant to the Hebrews, who are the apostles and apostolic persons. This\nvirgin whom none of the powers defiled [wishes that] the powers would defile\nthemselves.",
+          "coptic": "§ⲡⲉϫⲉ ϩⲟⲉⲓⲛⲉ ϫⲉ ⲁⲙⲁⲣⲓⲁ ⲱ͂ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’ ⲥⲉⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲟⲩ ⲡⲉ‐\nⲧⲟⲩϫⲱ ⲙ̅ⲙⲟϥ ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ ⲁϣ ⲛ̅ϩⲟ‐\nⲟⲩ ⲉⲛⲉϩ ⲡⲉⲛⲧⲁ ⲥϩⲓⲙⲉ ⲱ͂ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲥϩⲓ‐\nⲙⲉ ⲙⲁⲣⲓⲁ ⲧⲉ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲉ ⲙ̅ⲡⲉ\nⲇⲩⲛⲁⲙⲓⲥ ϫⲁϩⲙⲉⲥ ⲉⲥϣⲟⲟⲡ’ ⲛ̅ⲛⲟⲩ‐\nⲛⲟϭ ⲛ̅ⲛⲁⲛⲟϣ ⲛ̅ⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲉⲧⲉ ⲛⲁ‐\nⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲉ ⲁⲩⲱ [ⲛ̅]ⲁⲡⲟⲥⲧⲟⲗⲓⲕⲟⲥ\nⲧⲉⲉⲓⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧ[ⲉ] ⲙ̅ⲡⲉ ⲇⲩⲛⲁⲙⲓⲥ\nϫⲟϩⲙⲉⲥ ⲟⲩ[......ⲁ]ⲛⲇⲩⲛⲁⲙⲓⲥ\nϫⲟϩⲙⲟⲩ ⲁⲩⲱ ⲛ[ⲉϥⲛⲁϫ]ⲟⲟⲥ ⲁⲛ ⲛ̅ϭⲓ"
+        },
+        {
+          "title": "My Father",
+          "subtitle": "My Father",
+          "heading": "My Father (55, 33-36)",
+          "rangeLabel": "55, 33-36",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 33
+            },
+            "end": {
+              "page": 55,
+              "line": 36
+            }
+          },
+          "english": "The master [would] not have said, “My [Father who is] in heaven,” if [he] did\nnot also have another father. He would simply have said, “[My Father].”",
+          "coptic": "ϫⲟϩⲙⲟⲩ ⲁⲩⲱ ⲛ[ⲉϥⲛⲁϫ]ⲟⲟⲥ ⲁⲛ ⲛ̅ϭⲓ\nⲡϫⲟⲉⲓⲥ ϫⲉ ⲡⲁⲉ[ⲓⲱⲧ ⲉⲧϩ]ⲛ̅ ⲙ̅ⲡⲏⲩⲉ\nⲉⲓ ⲙⲏⲧⲓ ϫⲉ ⲛⲉⲩⲛ̅ⲧ̅ⲁ[ϥ ⲙ̅ⲙⲁⲩ] ⲛ̅[ⲕ]ⲉⲉⲓⲱⲧ\nⲁⲗⲗⲁ ϩⲁⲡⲗⲱⲥ ⲁϥϫⲟⲟ[ⲥ ϫⲉ ⲡⲁⲉⲓⲱⲧ]"
+        },
+        {
+          "title": "Take from Every House",
+          "subtitle": "Take from Every House",
+          "heading": "Take from Every House (55, 37-56, 3)",
+          "rangeLabel": "55, 37-56, 3",
+          "range": {
+            "start": {
+              "page": 55,
+              "line": 37
+            },
+            "end": {
+              "page": 56,
+              "line": 3
+            }
+          },
+          "english": "The master said to the disciples, “[Take something] from every house and\nbring it to the Father’s house, but do not steal while in the Father’s house and\ntake something away.”",
+          "coptic": "§ⲡⲉϫⲉ ⲡϫⲟⲉⲓⲥ ⲛⲙ̅ⲙⲁⲑ[ⲏⲧⲏⲥ ϫⲉ....]\n[ⲉⲃ]ⲟⲗ ϩⲛ̅ [ⲏ]ⲉⲓ ⲛⲓⲙ’ ⲉⲛⲓ ⲉϩⲟⲩⲛ’ ⲉⲡⲏⲉⲓ\nⲙ̅ⲡⲉⲓⲱⲧ ⲙ̅ⲡⲣ̅ϫⲓⲟⲩ〈ⲉ〉 ⲇⲉ ⲛ̅ⲧⲟϥ’ ϩⲛ̅ ⲡⲏ‐\nⲉⲓ ⲙ̅ⲡⲉⲓⲱⲧ ⲛ̅ⲧⲉⲧⲛ̅ϥⲓ ⲉⲃⲟⲗ’ §ⲓⲥ̅ ⲟⲩⲣⲁⲛ"
+        },
+        {
+          "title": "Jesus Is a Hidden Name",
+          "subtitle": "Jesus Is a Hidden Name",
+          "heading": "Jesus Is a Hidden Name (56, 3-13)",
+          "rangeLabel": "56, 3-13",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 3
+            },
+            "end": {
+              "page": 56,
+              "line": 13
+            }
+          },
+          "english": "Jesus is a hidden name, Christ is a revealed name. The name Jesus does not\nexist in any other language, but he is called by the name Jesus. The word for\nChrist in Syriac is messias and in Greek is christos, and likewise all other people\nhave a word for it in their own language. Nazarene is the revealed form of the\nhidden name.",
+          "coptic": "ⲉⲓ ⲙ̅ⲡⲉⲓⲱⲧ ⲛ̅ⲧⲉⲧⲛ̅ϥⲓ ⲉⲃⲟⲗ’ §ⲓⲥ̅ ⲟⲩⲣⲁⲛ\nⲡⲉ ⲉϥϩⲏⲡ’ ⲡⲉⲭⲣ̅ⲥ̅ ⲟⲩⲣⲁⲛ ⲡⲉ ⲉϥⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲓ̅ⲥ̅ ⲙⲉⲛ ϥϣⲟⲟⲡ ⲁⲛ\nϩⲛ̅ ⲗⲁⲁⲩ ⲛ̅ⲛⲁⲥⲡⲉ ⲁⲗⲗⲁ ⲡⲉϥⲣⲁⲛ’ ⲡⲉ ⲓ̅ⲏ̅ⲥ\nⲛ̅ⲑⲉ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ⲙ̅ⲙⲟⲥ ⲡⲉⲭⲣ̅ⲥ̅\nⲇⲉ ⲡⲉϥ’ⲣⲁⲛ’ {ⲡⲉ} ⲙ̅ⲙ̅ⲛ̅ⲧ̅ⲥⲩⲣⲟⲥ ⲡⲉ ⲙⲉⲥ‐\nⲥⲓⲁⲥ ⲙ̅ⲙⲛ̅ⲧ̅ⲟⲩⲁⲉⲓⲁⲛⲓⲛ ⲇⲉ ⲡⲉ ⲡⲭ̅ⲥ̅ ⲡⲁⲛ‐\nⲧⲱⲥ ⲛ̅ⲕⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲟⲩⲛ̅ⲧⲁⲩϥ’ ⲙ̅ⲙⲁⲩ\nⲕⲁⲧⲁ ⲧⲁⲥⲡⲉ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ϩⲏⲧⲟⲩ’\nⲡⲛⲁⲍⲁⲣⲏⲛⲟⲥ ⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲡⲉ\nⲙ̅ⲡⲡⲉⲑⲏⲡ’ ⲡⲉⲭ̅ⲥ̅ ⲟⲩⲛ̅ⲧⲁϥ’ ⲟⲩⲟⲛ ⲛⲓⲙ’"
+        },
+        {
+          "title": "Christ Has Everything",
+          "subtitle": "Christ Has Everything",
+          "heading": "Christ Has Everything (56, 13-15)",
+          "rangeLabel": "56, 13-15",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 13
+            },
+            "end": {
+              "page": 56,
+              "line": 15
+            }
+          },
+          "english": "Christ has everything within himself, whether human or angel or mystery, and\nthe Father.",
+          "coptic": "ⲙ̅ⲡⲡⲉⲑⲏⲡ’ ⲡⲉⲭ̅ⲥ̅ ⲟⲩⲛ̅ⲧⲁϥ’ ⲟⲩⲟⲛ ⲛⲓⲙ’\nϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ’ ⲉⲓⲧⲉ ⲣⲱⲙⲉ ⲉⲓⲧⲉ ⲁⲅ’ⲅⲉⲗⲟⲥ\nⲉⲓⲧⲉ ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ⲡⲉⲓⲱⲧ’ §ⲛⲉⲧϫⲱ"
+        },
+        {
+          "title": "Christ Arose, Then Died",
+          "subtitle": "Christ Arose, Then Died",
+          "heading": "Christ Arose, Then Died (56, 15-20)",
+          "rangeLabel": "56, 15-20",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 15
+            },
+            "end": {
+              "page": 56,
+              "line": 20
+            }
+          },
+          "english": "Those who say that the master first died and then arose are wrong, for he first\narose and then died. If someone is not first resurrected, wouldn’t that person die?\nAs God lives, that one would <die>.",
+          "coptic": "ⲉⲓⲧⲉ ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ⲡⲉⲓⲱⲧ’ §ⲛⲉⲧϫⲱ\nⲙ̅ⲙⲟⲥ ϫⲉ ⲁⲡϫⲟⲉⲓⲥ ⲙⲟⲩ’ ⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ\nⲁϥⲧⲱⲟⲩⲛ’ ⲥⲉⲣ̅ⲡⲗⲁⲛⲁ ⲁϥⲧⲱⲟⲩⲛ ⲅⲁⲣ’\nⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ ⲁϥⲙⲟⲩ ⲉⲧⲙ̅ ⲟⲩⲁ ϫⲡⲉ\nⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̅ϣⲟⲣⲡ’ ϥⲛⲁⲙⲟⲩ ⲁⲛ ϥⲟⲛϩ\nⲛ̅ϭⲓ ⲡⲛⲟⲩⲧⲉ ⲛⲉⲣⲉ ⲡⲏ ⲛⲁⲙ〈‐‐‐〉 §ⲙⲗ̅ ⲗⲁ‐"
+        },
+        {
+          "title": "The Precious in the Worthless",
+          "subtitle": "The Precious in the Worthless",
+          "heading": "The Precious in the Worthless (56, 20-26)",
+          "rangeLabel": "56, 20-26",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 20
+            },
+            "end": {
+              "page": 56,
+              "line": 26
+            }
+          },
+          "english": "No one would hide something valuable and precious in a valuable container, but\ncountless sums are commonly kept in a container worth only a cent. So it is\nwith the soul. It is something precious, and it has come to be in a worthless body.",
+          "coptic": "ⲛ̅ϭⲓ ⲡⲛⲟⲩⲧⲉ ⲛⲉⲣⲉ ⲡⲏ ⲛⲁⲙ〈‐‐‐〉 §ⲙⲗ̅ ⲗⲁ‐\nⲁⲩ ⲛⲁϩⲱⲡ’ ⲛ̅ⲛⲟⲩⲛⲟϭ ⲙ̅ⲡⲣⲁⲅⲙⲁ ⲉϥⲧⲁ‐\nⲉⲓⲏⲩ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ϩⲱⲃ ⲁⲗⲗⲁ ϩⲁϩ ⲛ̅ⲥⲟⲡ’\nⲁⲟⲩⲁ ϩⲛ̅ⲧⲃⲁ ⲉⲧⲉ ⲙⲛ̅ⲧⲟⲩ ⲏⲡⲉ ⲁϥⲛⲟϫⲟⲩ\nⲁⲩϩⲱⲃ ϩⲁ ⲟⲩⲁⲥⲥⲁⲣⲓⲟⲛ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅‐\nⲧⲯⲩⲭⲏ ⲟⲩϩⲱⲃ ⲉϥⲧⲁⲉⲓⲏⲩ ⲡⲉ ⲁⲥϣⲱ‐\nⲡⲉ ϩⲛ̅ⲛⲟⲩⲥⲱⲙⲁ ⲉϥϣⲏⲥ §ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ"
+        },
+        {
+          "title": "Naked and Not Naked",
+          "subtitle": "Naked and Not Naked",
+          "heading": "Naked and Not Naked (56, 26-57, 22)",
+          "rangeLabel": "56, 26-57, 22",
+          "range": {
+            "start": {
+              "page": 56,
+              "line": 26
+            },
+            "end": {
+              "page": 57,
+              "line": 22
+            }
+          },
+          "english": "Some people are afraid that they may arise from the dead naked, and so they\nwant to arise in flesh. They do not know that it is those who wear the [flesh] who\nare naked. Those who are [able] to take it off are not naked.\n“Flesh [and blood will] not inherit God’s kingdom.” What is this flesh that\nwill not inherit? It is what we are wearing. And what is this flesh that will\ninherit? It is the flesh and blood of Jesus.\nFor this reason he said, “One who does not eat my flesh and drink my blood\ndoes not have life within.” What does this mean? His flesh is the word and his\nblood is the Holy Spirit. Whoever has received these has food, drink, and\nclothing.\nAnd I also disagree with others who say that the flesh will not arise. Both\nviews are wrong. You say that the flesh will not arise? Then tell me what will\narise, so we may salute you. You say it is the spirit in the flesh, and also the light\nin the flesh? But what is in the flesh is the word, and what you are talking about\nis nothing other than flesh. It is necessary to arise in this sort of flesh, since\neverything exists in it.\nIn this world those who wear clothes are superior to the clothes. In heaven’s\nkingdom the clothes are superior to those who wear them.",
+          "coptic": "ⲡⲉ ϩⲛ̅ⲛⲟⲩⲥⲱⲙⲁ ⲉϥϣⲏⲥ §ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ\nⲣ̅ ϩⲟⲧⲉ ϫⲉ ⲙⲏⲡⲱⲥ ⲛ̅ⲥⲉⲧⲱⲟⲩⲛ ⲉⲩⲕⲁ‐\nⲕⲁϩⲏⲩ ⲉⲧⲃⲉ ⲡ[ⲁ]ⲉⲓ ⲥⲉⲟⲩⲱϣ ⲉⲧⲱⲟⲩⲛ\nϩⲛ̅ ⲧⲥⲁⲣⲝ ⲁⲩⲱ [ⲥ]ⲉⲥⲟⲟⲩⲛ ⲁⲛ ϫⲉ ⲛⲉⲧⲣ̅‐\nⲫⲟⲣⲉⲓ ⲛ̅ⲧⲥ[ⲁⲣⲝ ⲛ̅ⲧⲟ]ⲟⲩ ⲡⲉ ⲉⲧⲕⲏⲕⲁϩⲏⲩ\nⲛⲁⲉⲓ ⲉⲧⲉ[......] ⲙ̅ⲙⲟⲟⲩ ⲉⲕⲁⲕⲟⲩ\nⲉϩⲏ[ⲩ] ⲛ̅[ⲧⲟⲟⲩ ⲉⲧⲕ]ⲁⲕⲁϩⲏⲩ ⲁⲛ ⲙⲛ̅ ⲥⲁⲣⲝ’\n[ϩⲓ ⲥⲛⲟϥ ⲛⲁ]ⲣ̅ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛ̅ⲧⲙⲛ̅ⲧⲉ‐\n[ⲣⲟ ⲙ̅ⲡⲛⲟ]ⲩⲧⲉ ⲛⲓⲙ’ ⲧⲉ ⲧⲁⲉⲓ’ ⲉⲧⲛⲁⲕⲗⲏ‐\nⲣⲟⲛⲟⲙⲉⲓ ⲁⲛ’ ⲧⲁⲉⲓ ⲉⲧϩⲓⲱⲱⲛ ⲛⲓⲙ ⲇⲉ ⲧⲉ\nⲧⲁⲉⲓ ϩⲱⲱⲥ ⲉⲧⲛⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲧⲁ ⲓ̅ⲥ̅\nⲧⲉ ⲙⲛ̅ ⲡⲉϥ’ⲥⲛⲟϥ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲡⲉϫⲁϥ ϫⲉ\nⲡⲉⲧⲁⲟⲩⲱⲙ ⲁⲛ ⲛ̅ⲧⲁⲥⲁⲣⲝ ⲁⲩⲱ ⲛ̅ϥⲥⲱ ⲙ̅‐\nⲡⲁⲥⲛⲟϥ’ ⲙⲛ̅ⲧⲁϥ ⲱⲛϩ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ̅ ⲁϣ\nⲧⲉ’ ⲧⲉϥ’ⲥⲁⲣⲝ ⲡⲉ ⲡⲗⲟⲅⲟⲥ ⲁⲩⲱ ⲡⲉϥ’ⲥⲛⲟϥ’\nⲡⲉ ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲡⲉⲛⲧⲁϩϫⲓ ⲛⲁⲉⲓ ⲟⲩⲛ‐\nⲧⲉϥ’ ⲧⲣⲟⲫⲏ ⲁⲩⲱ ⲟⲩⲛ̅ⲧⲁϥ’ ⲥⲱ ϩⲓ ⲃ̅ⲥⲱ’\nⲁⲛⲟⲕ’ ϯϭⲛ̅ ⲁⲣⲓⲕⲉ ⲁⲛⲕⲟⲟⲩⲉ ⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ\nϫⲉ ⲥⲛⲁⲧⲱⲟⲩⲛ ⲁⲛ ⲉⲓⲧⲉ ⲛ̅ⲧⲟⲟⲩ ⲙ̅ⲡⲉⲥ‐\nⲛⲁⲩ ⲥⲉϣⲟⲟⲡ’ ϩⲛ̅ ⲟⲩϣⲧⲁ’ ⲕϫⲱ ⲙ̅ⲙⲟⲥ\nϫⲉ ⲧⲥⲁⲣⲝ’ ⲛⲁⲧⲱⲟⲩⲛ ⲁⲛ ⲁⲗⲗⲁ ϫⲟⲟⲥ ⲉⲣⲟ‐\nⲉⲓ ϫⲉ ⲁϣ ⲡⲉⲧⲛⲁⲧⲱⲟⲩⲛ ϣⲓⲛⲁ ⲉⲛⲁⲧⲁ‐\nⲉⲓⲟⲕ’ ⲕϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲡⲡⲛ̅ⲁ̅ ϩⲛ̅ ⲧⲥⲁⲣⲝ\nⲁⲩⲱ ⲡⲉⲉⲓⲕⲉⲟⲩⲟⲉⲓⲛ ⲡⲉ ϩⲛ̅ ⲧⲥⲁⲣⲝ ⲟⲩⲗⲟ‐\nⲅⲟⲥ ⲡⲉ ⲡⲉⲉⲓⲕⲉ ⲉϥϩⲛ̅ ⲧⲥⲁⲣⲝ ϫⲉ † ⲡⲉⲧⲕⲛⲁ‐\nϫⲟⲟⲥ ⲉⲕϫⲉ ⲗⲁⲁⲩ ⲁⲛ ⲙ̅ⲡⲃⲟⲗ ⲛ̅ⲧⲥⲁⲣⲝ\nϩⲁⲡⲥ̅ ⲡⲉ ⲉⲧⲱⲟⲩⲛ ϩⲛ̅ ⲧⲉⲉⲓⲥⲁⲣⲝ’ ⲉϩⲱⲃ\nⲛⲓⲙ’ ϣⲟⲟⲡ’ ⲛ̅ϩⲏⲧⲥ̅ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ\nⲛⲉⲧϯ ϩⲓⲱⲟⲩ ⲛ̅ⲛ̅ϩⲃⲥⲱ ⲥⲉⲥⲟⲧⲡ’ ⲁⲛⲛ̅‐\nϩ̅ⲃ̅ⲥⲱ ϩⲛ̅ ⲧⲙⲛ̅ⲧⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ ⲛ̅ϩ̅ⲃ̅ⲥⲱ\nⲥⲉⲥⲟⲧⲡ’ ⲁⲛⲉⲛⲧⲁⲩⲧⲁⲁⲩ ϩⲓⲱⲟⲩ §ϩⲓⲧⲛ̅"
+        },
+        {
+          "title": "Baptism and Anointing",
+          "subtitle": "Baptism and Anointing",
+          "heading": "Baptism and Anointing (57, 22-28)",
+          "rangeLabel": "57, 22-28",
+          "range": {
+            "start": {
+              "page": 57,
+              "line": 22
+            },
+            "end": {
+              "page": 57,
+              "line": 28
+            }
+          },
+          "english": "By water and fire this whole realm is purified, the visible by the visible, the\nhidden by the hidden. Some things are hidden by the visible. There is water\nwithin water, there is fire within the oil of anointing.",
+          "coptic": "ⲥⲉⲥⲟⲧⲡ’ ⲁⲛⲉⲛⲧⲁⲩⲧⲁⲁⲩ ϩⲓⲱⲟⲩ §ϩⲓⲧⲛ̅\nⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⲟⲩⲕⲱϩⲧ’ ⲉⲩⲧⲟⲩⲃⲟ ⲙ̅ⲡⲙⲁ\nⲧⲏⲣϥ’ ⲛⲉⲧⲟⲩⲟⲛϩ ϩⲓⲧⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉ‐\nⲃⲟⲗ ⲛⲉⲑⲏⲡ’ ϩⲓⲧⲛ̅ ⲛⲉⲑⲏⲡ’ ⲟⲩⲛ ϩⲟ‐\nⲉⲓⲛⲉ ⲉⲩϩⲏⲡ’ ϩⲓⲧⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲟⲩⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲟⲩⲛ̅ ⲕⲱϩⲧ’\nϩⲛ̅ⲛⲟⲩⲭⲣⲓⲥⲙⲁ §ⲁⲓⲥ̅ ϥⲓⲧⲟⲩ ⲛ̅ϫⲓⲟⲩⲉ"
+        },
+        {
+          "title": "Jesus Tricked Everyone",
+          "subtitle": "Jesus Tricked Everyone",
+          "heading": "Jesus Tricked Everyone (57, 28-58, 10)",
+          "rangeLabel": "57, 28-58, 10",
+          "range": {
+            "start": {
+              "page": 57,
+              "line": 28
+            },
+            "end": {
+              "page": 58,
+              "line": 10
+            }
+          },
+          "english": "Jesus tricked everyone, for he did not appear as he was, but he appeared so that\nhe could be seen. He appeared to everyone. He [appeared] to the great as great,\nhe [appeared] to the small as small, he [appeared to the] angels as an angel\nand to humans as a human. For this reason his word was hidden from everyone.\nSome looked at him and thought they saw themselves. But when he appeared to\nhis disciples in glory upon the mountain, he was not small. He became great. Or\nrather, he made the disciples great, so they could see him in his greatness.",
+          "coptic": "ϩⲛ̅ⲛⲟⲩⲭⲣⲓⲥⲙⲁ §ⲁⲓⲥ̅ ϥⲓⲧⲟⲩ ⲛ̅ϫⲓⲟⲩⲉ\nⲧⲏⲣⲟⲩ ⲙ̅ⲡⲉϥ’ⲟⲩⲱⲛ[ϩ] ⲅⲁⲣ ⲉⲃⲟⲗ’ ⲛ̅ⲑⲉ\nⲉⲛⲉϥϣⲟⲟⲡ’ [ⲛ̅ϩ]ⲏ[ⲧⲥ ⲁ]ⲗⲗⲁ ⲛ̅ⲧ’ⲁϥⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲛ̅ⲑⲉ ⲉⲧ[ⲟⲩⲛⲁϣ]ϭⲙ̅ ϭⲟⲙ’ ⲛ̅ⲛⲁⲩ\nⲉⲣⲟϥ’ ⲛ̅ϩⲏⲧⲥ̅ ⲛ[ⲁⲉⲓ ⲇⲉ ⲧⲏ]ⲣⲟⲩ ⲁϥⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲩ ⲁϥ[ⲟⲩⲱⲛϩ] ⲉⲃⲟⲗ ⲛ̅[ⲛ̅]‐\nⲛⲟϭ ϩⲱⲥ ⲛⲟϭ ⲁϥⲟⲩⲱ[ⲛϩ ⲉⲃⲟⲗ ⲛ̅]‐\nⲛ̅ⲕⲟⲩⲉⲓ ϩⲱⲥ ⲕⲟⲩⲉⲓ ⲁϥⲟ[ⲩⲱⲛϩ ⲉⲃⲟⲗ]\n[ⲛ̅ⲛ̅]ⲁⲅⲅⲉⲗⲟⲥ ϩⲱⲥ ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ\nⲛ̅ⲣ̅ⲣⲱⲙⲉ ϩⲱⲥ ⲣⲱⲙⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲁⲡⲉϥ’‐\nⲗⲟⲅⲟⲥ ⲁϥϩⲟⲡϥ’ ⲉⲟⲩⲟⲛ ⲛⲓⲙ’ ϩⲟⲉⲓⲛⲉ\nⲙⲉⲛ’ ⲁⲩⲛⲁⲩ ⲉⲣⲟϥ’ ⲉⲩⲙⲉⲉⲩⲉ ϫⲉ ⲛⲁⲩⲛⲁⲩ\nⲉⲣⲟⲟⲩ ⲙ̅ⲙⲓⲛ ⲙ̅ⲙⲟⲟⲩ’ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩ‐\nⲱⲛϩ’ ⲉⲃⲟⲗ’ ⲛ̅ⲛⲉϥ’ⲙⲁⲑⲏⲧⲏⲥ ϩⲛ̅ⲛⲟⲩⲉⲟ‐\nⲟⲩ ϩⲓϫⲙ̅ ⲡⲧⲟⲟⲩ ⲛⲉϥⲟ ⲁⲛ ⲛ̅ⲕⲟⲩⲉⲓ ⲁϥ’‐\nϣⲱⲡⲉ ⲛ̅ⲛⲟϭ ⲁⲗⲗⲁ ⲛ̅ⲧⲁϥⲣ̅ ⲙ̅ⲙⲁⲑⲏⲧⲏⲥ\nⲛ̅ⲛⲟϭ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁϣϭⲙ̅ ϭⲟⲙ ⲛ̅ⲛⲁⲩ\nⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲛⲟϭ §ⲡⲉϫⲁϥ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅‐"
+        },
+        {
+          "title": "Prayer of Thanksgiving",
+          "subtitle": "Prayer of Thanksgiving",
+          "heading": "Prayer of Thanksgiving (58, 10-14)",
+          "rangeLabel": "58, 10-14",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 10
+            },
+            "end": {
+              "page": 58,
+              "line": 14
+            }
+          },
+          "english": "He said on that day in the prayer of thanksgiving,\nYou who have united perfect light with Holy Spirit,\nunite the angels also with us, as images.",
+          "coptic": "ⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲛⲟϭ §ⲡⲉϫⲁϥ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅‐\nⲙⲁⲩ ϩⲛ̅ ⲧⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓⲁ ϫⲉ ⲡⲉⲛⲧⲁϩϩⲱⲧ̅ⲣ̅\nⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲥ † ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ’ ϩⲟⲧⲣ̅ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲣⲟⲛ’ ϩⲱⲱⲛ ⲁ ⲛ‐\nϩⲓⲕⲱⲛ ⲙ̅ⲡⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ’ ⲙ̅ⲡϩⲓⲉⲓⲃ%2 ⲁϫⲛ̅‐"
+        },
+        {
+          "title": "The Lamb",
+          "subtitle": "The Lamb",
+          "heading": "The Lamb (58, 14-15)",
+          "rangeLabel": "58, 14-15",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 14
+            },
+            "end": {
+              "page": 58,
+              "line": 15
+            }
+          },
+          "english": "Do not despise the lamb, for without it no one could see the <king>.",
+          "coptic": "ϩⲓⲕⲱⲛ ⲙ̅ⲡⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ’ ⲙ̅ⲡϩⲓⲉⲓⲃ%2 ⲁϫⲛ̅‐\nⲧϥ’ ⲅⲁⲣ’ ⲙⲛ̅ ϣϭⲟⲙ’ ⲉⲛⲁⲩ ⲉⲡ〈ⲣ̅〉ⲣⲟ’ ⲙⲛ̅ ⲗⲁⲁⲩ"
+        },
+        {
+          "title": "Meeting the King",
+          "subtitle": "Meeting the King",
+          "heading": "Meeting the King (58, 15-17)",
+          "rangeLabel": "58, 15-17",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 15
+            },
+            "end": {
+              "page": 58,
+              "line": 17
+            }
+          },
+          "english": "No one can meet the king while naked.",
+          "coptic": "ⲧϥ’ ⲅⲁⲣ’ ⲙⲛ̅ ϣϭⲟⲙ’ ⲉⲛⲁⲩ ⲉⲡ〈ⲣ̅〉ⲣⲟ’ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛⲁϣϯ ⲡⲉϥ’ⲟⲩⲟⲉⲓ ⲉϩⲟⲩⲛ’ ⲉⲡⲣ̅ⲣⲟ ⲉϥ’‐\nⲕⲏⲕⲁϩⲏⲩ’ §ⲡⲣⲙ̅ⲙ̅ⲡⲉ ⲛⲁϣⲉ ⲛⲉϥ’ϣⲏⲣⲉ"
+        },
+        {
+          "title": "Children of the Perfect Human",
+          "subtitle": "Children of the Perfect Human",
+          "heading": "Children of the Perfect Human (58, 17-59, 6)",
+          "rangeLabel": "58, 17-59, 6",
+          "range": {
+            "start": {
+              "page": 58,
+              "line": 17
+            },
+            "end": {
+              "page": 59,
+              "line": 6
+            }
+          },
+          "english": "The heavenly person has more children than the earthly person. If the children of\nAdam are numerous but die, how much more numerous are the children of the\nperfect human, who do not die but are continually being born.\nA father produces children but a child cannot produce children. One who has\njust been born cannot be a parent. Rather, a child gets brothers and sisters, not\nchildren.\nAll who are born in the world are born of nature, and the others [are\nnourished] from where they are born. People [are] nourished from the promise of\nthe heavenly place. [If they would be]…from the mouth, from which the word\ncomes, they would be nourished from the mouth and would be perfect.\nThe perfect conceive and give birth through a kiss. That is why we also kiss\neach other. We conceive from the grace within each other.",
+          "coptic": "ⲕⲏⲕⲁϩⲏⲩ’ §ⲡⲣⲙ̅ⲙ̅ⲡⲉ ⲛⲁϣⲉ ⲛⲉϥ’ϣⲏⲣⲉ\nⲛ̅ϩⲟⲩⲟ’ ⲁⲡⲣⲙ̅ⲛ̅ⲕⲁϩ ⲉϣϫⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲁ‐\nⲇⲁⲙ’ ⲛⲁϣⲱⲟⲩ ⲕⲁⲓⲧⲟⲓⲅⲉ ϣⲁⲩⲙⲟⲩ ⲡⲟ‐\nⲥⲱ ⲙⲁⲗⲗⲟⲛ ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲥ ⲣ̅ⲣⲱ‐\nⲙⲉ ⲛⲁⲉⲓ ⲉⲙⲁⲩⲙⲟⲩ ⲁⲗⲗⲁ ⲥⲉϫⲡⲟ ⲙ̅ⲙⲟ‐\nⲟⲩ’ ⲟⲩⲟⲉⲓϣ ⲛⲓⲙ’ ⲡⲉⲓⲱⲧ’ ⲧⲁⲙⲉⲓⲟ ϣⲏ‐\nⲣⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ’ ⲙⲛ̅ ϭⲟⲙ ⲙ̅ⲙⲟϥ’ ⲛ̅ϥⲧⲁ‐\nⲙⲓⲉ ϣⲏⲣⲉ ⲡⲉⲛ’ⲧⲁⲩϫⲡⲟϥ ⲅⲁⲣ’ ⲙⲛ̅ ϭⲟⲙ’\nⲙ̅ⲙⲟϥ’ ⲛ̅ϥϫⲡⲟ ⲁⲗⲗⲁ ⲉⲡϣⲏⲣⲉ ϫⲡⲟ’\nⲛⲁϥ’ ⲛ̅ϩⲛ̅ⲥⲛⲏⲩ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ ⲁⲛ ⲛⲉⲧⲟⲩ‐\nϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ\nⲉⲩϫⲡⲟ ⲙ̅ⲙⲟⲟ[ⲩ] ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲫⲩⲥⲓⲥ ⲁⲩ‐\nⲱ ⲛ̅ⲕⲟⲟⲩⲉ ϩⲙ̅ [ⲡⲁⲉ]ⲓ [ⲉⲧ]ⲟⲩϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ’ ⲛ̅ϩⲏⲧϥ [ⲉⲩⲥⲟⲉⲓ]ϣ’ ⲉⲃⲟⲗ’ ⲙ̅ⲙⲁⲩ\nⲉⲡⲣⲱⲙⲉ ϫ[ⲓ ⲙ̅ⲡⲥⲟ]ⲉⲓϣ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲣ̅‐\n[ⲣ]ⲏⲧ’ ⲉϩⲟ[ⲩⲛ ⲉⲡⲧⲟ]ⲡⲟⲥ ⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ\n[........] ⲙ̅ⲙⲟϥ’ ⲉⲃⲟⲗ ϩⲛ ⲧ’ⲧⲁⲡⲣⲟ\n[ⲁⲩⲱ ⲉⲛⲉ] ⲁⲡⲗⲟⲅⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ⲙ̅ⲙⲁⲩ\nⲛⲉϥⲛⲁⲥⲟⲉⲓϣ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲧⲁⲡⲣⲟ ⲁⲩ[ⲱ]\nⲛⲉϥⲛⲁϣⲱⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲅⲁⲣ\nϩⲓⲧⲛ̅ ⲟⲩⲡⲉⲓ ⲉⲩⲱ͂ ⲁⲩⲱ ⲉⲩϫⲡⲟ ⲇⲓⲁ ⲧⲟⲩⲧⲟ\nⲁⲛⲟⲛ’ ϩⲱⲱⲛ ⲧⲛ̅ϯ ⲡⲓ ⲉⲣⲛ̅ ⲛ̅ⲛ̅ⲛⲉⲣⲏⲩ\nⲉⲛϫⲓ ⲙ̅ⲡⲱ͂ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲭⲁⲣⲓⲥ ⲉⲧϩⲛ̅ ⲛ̅‐\nⲛ̅ⲛⲉⲣⲏⲩ §ⲛⲉ ⲟⲩⲛ̅ ϣⲟⲙⲧⲉ ⲙⲟⲟϣⲉ ⲙⲛ̅"
+        },
+        {
+          "title": "Three Women Named Mary",
+          "subtitle": "Three Women Named Mary",
+          "heading": "Three Women Named Mary (59, 6-11)",
+          "rangeLabel": "59, 6-11",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 6
+            },
+            "end": {
+              "page": 59,
+              "line": 11
+            }
+          },
+          "english": "Three women always walked with the master: Mary his mother, <his> sister,\nand Mary of Magdala, who is called his companion. For “Mary” is the name of\nhis sister, his mother, and his companion.",
+          "coptic": "ⲛ̅ⲛⲉⲣⲏⲩ §ⲛⲉ ⲟⲩⲛ̅ ϣⲟⲙⲧⲉ ⲙⲟⲟϣⲉ ⲙⲛ̅\nⲡϫⲟⲉⲓⲥ ⲟⲩⲟⲉⲓϣ ⲛⲓⲙ’ ⲙⲁⲣⲓⲁ ⲧⲉϥⲙⲁⲁⲩ\nⲁⲩⲱ ⲧⲉⲥⲥⲱⲛⲉ ⲁⲩⲱ ⲙⲁⲅⲇⲁⲗⲏⲛⲏ ⲧⲁ‐\nⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲉϥⲕⲟⲓⲛⲱⲛⲟⲥ\nⲙⲁⲣⲓⲁ ⲅⲁⲣ’ ⲧⲉ ⲧⲉϥⲥⲱⲛⲉ ⲁⲩⲱ ⲧⲉϥ’ⲙⲁⲁⲩ\nⲧⲉ ⲁⲩⲱ ⲧⲉϥϩⲱⲧⲣⲉ ⲧⲉ §ⲡⲉⲓⲱⲧ ⲙⲛ̅ ⲡϣⲏ‐"
+        },
+        {
+          "title": "Father, Son, Holy Spirit",
+          "subtitle": "Father, Son, Holy Spirit",
+          "heading": "Father, Son, Holy Spirit (59, 11-18)",
+          "rangeLabel": "59, 11-18",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 11
+            },
+            "end": {
+              "page": 59,
+              "line": 18
+            }
+          },
+          "english": "“Father” and “son” are simple names, “holy spirit” is a double name. They are\neverywhere, above and below, in the hidden and in the visible. The Holy Spirit is\nin the visible, and then it is below, and the Holy Spirit is in the hidden, and then\nit is above.",
+          "coptic": "ⲧⲉ ⲁⲩⲱ ⲧⲉϥϩⲱⲧⲣⲉ ⲧⲉ §ⲡⲉⲓⲱⲧ ⲙⲛ̅ ⲡϣⲏ‐\nⲣⲉ ⲛ̅ϩⲁⲡⲗⲟⲩⲛ ⲛⲉ ⲣ̅ⲣⲁⲛ ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲟⲩⲣⲁⲛ’ ⲡⲉ ⲛ̅ⲇⲓⲡⲗⲟⲩⲛ ⲥⲉϣⲟⲟⲡ ⲅⲁⲣ’ ⲙ̅‐\nⲙⲁ ⲛⲓⲙ’ ⲥⲉⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ⲥⲉⲙ̅ⲡⲥⲁ ⲙⲡⲓ‐\nⲧⲛ̅ ⲥⲉϩⲛ̅ ⲡⲉⲑⲏⲡ’ ⲥⲉϩⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’ ϥϩⲙ̅ ⲡⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ’ ϥϩⲙ̅ ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ϥϩⲙ̅ ⲡⲉⲑⲏⲡ’\nϥϩⲙ̅ ⲡⲥⲁ ⲛⲧⲡⲉ §ⲥⲉϣⲙ̅ϣⲉ ⲛ̅ⲛⲉⲧⲟⲩ‐"
+        },
+        {
+          "title": "Holy Spirit and Evil Forces",
+          "subtitle": "Holy Spirit and Evil Forces",
+          "heading": "Holy Spirit and Evil Forces (59, 18-27)",
+          "rangeLabel": "59, 18-27",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 18
+            },
+            "end": {
+              "page": 59,
+              "line": 27
+            }
+          },
+          "english": "Evil forces serve the saints, for they have been blinded by the Holy Spirit into\nthinking they are helping their own people when they really are helping the\nsaints.\nSo a disciple once asked the master for something from the world and he\nsaid, “Ask your mother, and she will give you something from another realm.”",
+          "coptic": "ϥϩⲙ̅ ⲡⲥⲁ ⲛⲧⲡⲉ §ⲥⲉϣⲙ̅ϣⲉ ⲛ̅ⲛⲉⲧⲟⲩ‐\nⲁⲁⲃ’ ϩⲓⲧⲛ̅ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲟⲛⲏⲣⲟⲛ’\nⲥⲉⲟ ⲅⲁⲣ ⲛ̅ⲃⲗ̅ⲗⲉ ϩⲓⲧⲙ̅ ⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’\nϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲙⲉⲉⲩⲉ ϫⲉ ⲉⲩⲣ̅ϩⲩⲡⲏⲣⲉ‐\nⲧⲉⲓ ⲛ̅ⲛⲟⲩⲣⲱⲙⲉ ϩⲟⲡⲟⲧⲉ ⲉⲩⲉⲓⲣⲉ ⲛ̅ⲛⲉ‐\nⲧⲟⲩⲁⲁⲃ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲁⲩ⟦ⲙ̅⟧ⲙⲁⲑⲏⲧⲏⲥ ⲣ̅‐\nⲁⲓⲧⲉⲓ ⲙ̅ⲡϫⲟⲉⲓⲥ ⲛ̅ⲛⲟⲩϩⲟⲟⲩ ⲉⲧⲃⲉ ⲟⲩ‐\nϩⲱⲃ ⲛ̅ⲧⲉ ⲡⲕⲟⲥⲙⲟⲥ ⲡⲉϫⲁϥ ⲛⲁϥ’ ϫⲉ\nⲉⲣⲓⲁⲓⲧⲉⲓ ⲛ̅ⲧⲉⲕⲙⲁⲁⲩ ⲁⲩⲱ ⲥⲛⲁϯ ⲛⲁⲕ\nⲉⲃⲟⲗ ϩⲛ̅ ⲁⲗⲗⲟⲧⲣⲓⲟⲛ §ⲡⲉϫⲉ ⲛⲁⲡⲟⲥⲧⲟ‐"
+        },
+        {
+          "title": "Wisdom and Salt",
+          "subtitle": "Wisdom and Salt",
+          "heading": "Wisdom and Salt (59, 27-60, 1)",
+          "rangeLabel": "59, 27-60, 1",
+          "range": {
+            "start": {
+              "page": 59,
+              "line": 27
+            },
+            "end": {
+              "page": 60,
+              "line": 1
+            }
+          },
+          "english": "The apostles said to the disciples, “May our entire offering be provided with\nsalt.” For they called [Wisdom] salt. Without it an offering is unacceptable.\nWisdom is barren, [with no] children, and so she is called [the pillar] of salt.\nWhenever…the Holy Spirit…, and she has many children.",
+          "coptic": "ⲉⲃⲟⲗ ϩⲛ̅ ⲁⲗⲗⲟⲧⲣⲓⲟⲛ §ⲡⲉϫⲉ ⲛⲁⲡⲟⲥⲧⲟ‐\nⲗⲟⲥ ⲛ̅ⲛ̅ⲙⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ⲧⲙ̅ⲡⲣⲟⲥⲫⲟ‐\nⲣⲁ ⲧⲏⲣⲥ̅ ⲙⲁⲣⲉⲥϫⲡⲟ [ⲛ]ⲁⲥ ⲛ̅ⲟⲩϩⲙⲟⲩ’\nⲛⲉⲩⲙⲟⲩⲧⲉ [ⲉⲧⲥⲟⲫⲓ]ⲁ ϫⲉ ϩⲙⲟⲩ ⲁϫⲛⲧ̅ⲥ̅\nⲙⲁⲣⲉ ⲡⲣⲟⲥⲫ[ⲟⲣⲁ ϣⲱ]ⲡⲉ ⲉϥϣⲏⲡ’ ⲧⲥⲟ‐\nⲫⲓⲁ ⲇⲉ ⲟⲩⲥⲧⲉⲓⲣ[ⲁ ⲧⲉ ⲁϫⲛ̅] ϣⲏⲣⲉ ⲇⲓⲁ ⲧⲟⲩ‐\nⲧⲟ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟ[ⲥ ϫⲉ ⲡⲕⲉ]ⲥⲉⲡⲉⲓ ⲛ̅‐\nϩⲙⲟⲩ ⲡⲙⲁ ⲉⲧⲟⲩⲛⲁϣ[....]ⲛ̅ϣ\nⲛ̅ⲧⲟⲩϩⲉ ⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ [......]\n[ⲁⲩ]ⲱ ⲛⲁϣ[ⲉ] ⲛⲉⲥϣⲏⲣⲉ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥϥ’"
+        },
+        {
+          "title": "Father and Child",
+          "subtitle": "Father and Child",
+          "heading": "Father and Child (60, 1-6)",
+          "rangeLabel": "60, 1-6",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 1
+            },
+            "end": {
+              "page": 60,
+              "line": 6
+            }
+          },
+          "english": "A father’s possessions belong to his child. As long as the child is young, the\nchild will not have what belongs to it. When the child grows up, the father will\nturn over all the possessions.",
+          "coptic": "[ⲁⲩ]ⲱ ⲛⲁϣ[ⲉ] ⲛⲉⲥϣⲏⲣⲉ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥϥ’\nⲛ̅ϭⲓ ⲡⲉⲓⲱⲧ’ ⲛⲁ ⲡϣⲏⲣⲉ ⲛⲉ ⲁⲩⲱ ⲛ̅ⲧⲟϥ ϩⲱ‐\nⲱϥ’ ⲡϣⲏⲣⲉ ⲉⲛ ϩⲟⲥⲟⲛ ϥⲟ ⲛ̅ⲕⲟⲩⲉⲓ’ ⲙⲁⲩ‐\nⲡⲓⲥⲧⲉⲩⲉ ⲛⲁϥ’ ⲁⲛⲉⲧⲉ ⲛⲟⲩϥ’ ϩⲟⲧⲁⲛ ⲉϥ\nϣⲁϣⲱⲡⲉ ⲣ̅ⲣⲱⲙⲉ ϣⲁⲣⲉ ⲡⲉϥⲉⲓⲱⲧ’ ϯ ⲛⲁϥ\nⲛⲉⲧⲉⲩⲛ̅ⲧⲁⲃⲥⲉ ⲧⲏⲣⲟⲩ §ⲛⲉⲧⲥⲟⲣⲙ’ ⲛⲉⲧⲉ ⲡ’‐"
+        },
+        {
+          "title": "The Lost",
+          "subtitle": "The Lost",
+          "heading": "The Lost (60, 6-9)",
+          "rangeLabel": "60, 6-9",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 6
+            },
+            "end": {
+              "page": 60,
+              "line": 9
+            }
+          },
+          "english": "Those who have gone astray, who are offspring of the Spirit, go astray also\nbecause of the Spirit. Thus from one Spirit the fire blazes and the fire is\nextinguished.",
+          "coptic": "ⲛⲉⲧⲉⲩⲛ̅ⲧⲁⲃⲥⲉ ⲧⲏⲣⲟⲩ §ⲛⲉⲧⲥⲟⲣⲙ’ ⲛⲉⲧⲉ ⲡ’‐\nⲡⲛ̅ⲁ̅ ϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ ϣⲁⲩⲥⲱⲣⲙ’ ⲟⲛ’ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲉⲃⲟⲗ’ ϩⲓⲧⲙ̅ ⲡⲓⲡⲛ̅ⲁ̅\nⲟⲩⲱⲧ’ ϥϫⲉⲣⲟ ⲛ̅ϭⲓ ⲡⲕⲱϩⲧ’ ⲁⲩⲱ ϥⲱϣⲙ̅"
+        },
+        {
+          "title": "Wisdom and Wisdom of Death",
+          "subtitle": "Wisdom and Wisdom of Death",
+          "heading": "Wisdom and Wisdom of Death (60, 10-15)",
+          "rangeLabel": "60, 10-15",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 10
+            },
+            "end": {
+              "page": 60,
+              "line": 15
+            }
+          },
+          "english": "There is Echamoth and there is Echmoth. Echamoth is simply Wisdom, but\nEchmoth is the Wisdom of death-that is, the Wisdom that knows death, that is\ncalled little Wisdom.",
+          "coptic": "§ⲕⲉⲟⲩⲁ ⲡⲉ ⲉⲭ̅ⲁ̅ⲙ̅ⲱ̅ⲑ̅ ⲁⲩⲱ ⲕⲉⲟⲩⲁ ⲡⲉ’\nⲉⲭ̅ⲙ̅ⲱ̅ⲑ̅ ⲉⲭ̅ⲁⲙⲱⲑ̅ ⲧⲉ ⲧⲥⲟⲫⲓⲁ ϩⲁⲡⲗⲱⲥ\nⲉⲭⲙⲱⲑ ⲇⲉ ⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲙ̅ⲡⲙⲟⲩ ⲉⲧⲉ ⲧⲁ‐\nⲉⲓ ⲧⲉ {ⲧⲥⲟⲫⲓⲁ ⲙ̅ⲡⲙⲟⲩ ⲉⲧⲉ ⲧⲁⲉⲓ ⲧⲉ} ⲉⲧⲥⲟ‐\nⲟⲩⲛ ⲙ̅ⲡⲙⲟⲩ ⲧⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ\nⲧⲕⲟⲩⲉⲓ ⲛ̅ⲥⲟⲫⲓⲁ §ⲟⲩⲛ̅ ϩⲛ̅ⲑⲏⲣⲓⲟⲛ ϣⲟⲟⲡ’"
+        },
+        {
+          "title": "Tame and Wild Animals",
+          "subtitle": "Tame and Wild Animals",
+          "heading": "Tame and Wild Animals (60, 15-34)",
+          "rangeLabel": "60, 15-34",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 15
+            },
+            "end": {
+              "page": 60,
+              "line": 34
+            }
+          },
+          "english": "Some animals are tame, such as the bull, the donkey, and the like, while others\nare wild and live off in the wild. People plow fields with tame animals, and as a\nresult people are nourished, together with animals, whether tame or wild.\nSo also the perfect human plows with powers that are tame and prepares\neverything to come into being. Thus the whole place has stability, good and evil,\nright and left. The Holy Spirit tends everything and rules over [all] the powers,\nwhether tame or wild and running loose. For the Spirit is [resolved] to corral\nthem, so that they cannot escape even if [they] wish.",
+          "coptic": "ⲧⲕⲟⲩⲉⲓ ⲛ̅ⲥⲟⲫⲓⲁ §ⲟⲩⲛ̅ ϩⲛ̅ⲑⲏⲣⲓⲟⲛ ϣⲟⲟⲡ’\nⲉⲩϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡⲙⲁⲥⲉ\nⲙⲛ̅ ⲡⲉⲓⲱ ⲙⲛ̅ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲛ̅ⲧⲉⲉⲓⲙⲓⲛⲉ ⲟⲩ‐\nⲛ̅ ϩⲛ̅ⲕⲟⲟⲩⲉ ϣⲟⲟⲡ’ ⲉⲩϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲁⲛ’\nⲉⲩⲟⲩⲁⲧ’ ϩⲛ̅ ⲛⲉⲣⲏⲙⲓⲁ’ ⲡⲣⲱⲙⲉ ⲥⲕⲁⲉⲓ ⲛ̅‐\nⲧⲥⲱϣⲉ ϩⲓⲧⲛ̅ ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲉⲧϩⲩⲡⲟⲧⲁⲥⲥⲉ\nⲁⲩⲱ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲁⲉⲓ ϥⲥⲟⲉⲓϣ’ ⲛ̅ⲧⲟϥ’ ⲙⲛ̅ ⲛ̅‐\nⲑⲏⲣⲓⲟⲛ ⲉⲓⲧⲉ ⲛⲉⲧ’ϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲉⲓⲧⲉ ⲛⲉⲧ’‐\nϩⲩⲡⲟⲧⲁⲥⲥⲉ ⲁⲛ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲙ̅ⲡⲧⲉⲗⲓⲟⲥ\nⲣ̅ⲣⲱⲙⲉ ϩⲓⲧⲛ̅ ϩⲛ̅ⲇⲩⲛⲁⲙⲓⲥ † ⲉⲧϩⲩⲡⲟⲧⲁⲥ’‐\nⲥⲉ ⲉϥⲥⲕⲁⲉⲓ ⲟⲩⲟⲛ’ ⲛⲓⲙ’ ⲉϥⲥⲟⲃⲧⲉ ⲉⲧⲣⲟⲩ‐\nϣⲱⲡⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲅⲁⲣ’ ⲉⲡⲙⲁ ⲧⲏⲣϥ’ ⲁϩⲉ‐\nⲣⲁⲧϥ’ ⲉⲓⲧⲉ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ’ ⲉⲓⲧⲉ ⲛⲉⲑⲟⲟⲩ\nⲁⲩⲱ ⲛⲟⲩⲛⲁⲙ’ ⲙⲛ̅ ⲛ̅ϭⲃⲟⲩⲣ ⲡⲉⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ϥⲙⲟⲟⲛⲉ ⲟ[ⲩⲟ]ⲛ ⲛⲓⲙ’ ⲁⲩⲱ ϥⲣ̅ⲁⲣⲭⲉⲓ\nⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲧ[ⲏⲣⲟ]ⲩ [ⲛ]ⲉⲧ’ϩⲩⲡⲟⲧⲁⲥⲥⲉ\nⲁⲩⲱ ⲛⲉⲧ’ϩⲩⲡ[ⲟⲧⲁⲥⲥⲉ ⲁ]ⲛ ⲙⲛ̅ ⲛⲉⲧ’ⲟⲩⲁⲧ’\nⲕⲁⲓ ⲅⲁⲣ ϥϭⲱⲉ[....]ϣ ⲱⲧⲡ’ ⲙ̅ⲙⲟⲟⲩ ⲉ‐\nϩⲟⲩⲛ’ ϫⲉ[ⲕⲁⲁⲥ ..]ϣⲁⲛ’ⲟⲩⲱϣ ⲛⲟⲩϣ‐\n[ⲃ]ⲱⲕ [ⲉⲃⲟⲗ] §[ⲡⲉⲛⲧ]ⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ ⲛⲉ‐"
+        },
+        {
+          "title": "Adam and Cain",
+          "subtitle": "Adam and Cain",
+          "heading": "Adam and Cain (60, 34-61, 12)",
+          "rangeLabel": "60, 34-61, 12",
+          "range": {
+            "start": {
+              "page": 60,
+              "line": 34
+            },
+            "end": {
+              "page": 61,
+              "line": 12
+            }
+          },
+          "english": "[The one] created was [noble, and you would] expect his children to be\nnoble. If he had not been created but rather had been conceived, you would\nexpect his offspring to be noble. But in fact he was created, and then he\nproduced offspring.\nAnd what nobility this is! First came adultery, then murder. One was born\nof adultery, for he was the son of the serpent. He became a murderer, like his\nfather, and he killed his brother. Every act of sexual intercourse between those\nunlike each other is adultery.",
+          "coptic": "[ⲃ]ⲱⲕ [ⲉⲃⲟⲗ] §[ⲡⲉⲛⲧ]ⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ ⲛⲉ‐\n[ⲥⲱϥ ⲁⲩⲱ ⲛ]ⲉⲕⲛⲁϩⲉ ⲁⲛⲉϥϣⲏⲣⲉ ⲉⲩⲟ’\nⲙ̅ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲉⲩⲅⲉⲛⲏⲥ ⲉϣϫⲉ ⲙ̅ⲡⲟⲩⲣ̅‐\nⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁⲗⲗⲁ ⲁⲩϫⲡⲟϥ’ ⲛⲉⲕ’ⲛⲁ‐\nϩⲉ ⲁⲡⲉϥ’ⲥⲡⲉⲣⲙⲁ ⲉϥⲟ ⲛ̅ⲉⲩⲅⲉⲛⲏⲥ ⲧⲉ‐\nⲛⲟⲩ ⲇⲉ ⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁϥ’ϫⲡⲟ ⲁϣ\nⲛ̅ⲉⲩⲅⲉⲛⲉⲓⲁ ⲡⲉ ⲡⲁⲉⲓ’ ϣⲟⲣⲡ’ ⲁⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟ‐\nⲉⲓⲕ’ ϣⲱⲡⲉ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲫⲱⲧⲃⲉ ⲁⲩⲱ ⲁⲩ‐\nϫⲡⲟϥ’ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟⲉⲓⲕ’ ⲛⲉ ⲡϣⲏ‐\nⲣⲉ ⲅⲁⲣ’ ⲙ̅ⲫⲟϥ’ ⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲁϥϣⲱⲡⲉ\nⲛ̅ϩⲁⲧⲃ̅ⲣⲱⲙⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡⲉϥⲕⲉⲉⲓⲱⲧ’ ⲁⲩ‐\nⲱ ⲁϥⲙⲟⲩⲟⲩⲧ’ ⲙ̅ⲡⲉϥ’ⲥⲟⲛ ⲕⲟⲓⲛⲱⲛⲓⲁ ⲇⲉ\nⲛⲓⲙ’ ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉϯⲛⲉ ⲁⲛ’ ⲛ̅‐\nⲛⲟⲩⲉⲣⲏⲩ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲛⲟⲉⲓⲕ’ ⲧⲉ’ §ⲡⲛⲟⲩⲧⲉ"
+        },
+        {
+          "title": "God the Dyer",
+          "subtitle": "God the Dyer",
+          "heading": "God the Dyer (61, 12-20)",
+          "rangeLabel": "61, 12-20",
+          "range": {
+            "start": {
+              "page": 61,
+              "line": 12
+            },
+            "end": {
+              "page": 61,
+              "line": 20
+            }
+          },
+          "english": "God is a dyer. Just as the good dyes, said to be genuine dyes, dissolve into what\nis dyed in them, so also those whom God dyes become immortal through his\ncolors, for his dyes are immortal. And God dips those to be dipped in water.",
+          "coptic": "ⲛⲟⲩⲉⲣⲏⲩ ⲟⲩⲙ̅ⲛ̅ⲧ̅ⲛⲟⲉⲓⲕ’ ⲧⲉ’ §ⲡⲛⲟⲩⲧⲉ\nⲟⲩϫϭⲓⲧ ⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛ̅ϫⲱϭⲉ ⲉⲧⲛⲁⲛⲟⲩⲟⲩ\nϣⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ’ ϫⲉ ⲛⲁⲗⲏⲑⲓⲛⲟⲛ ϣⲁⲩ‐\nⲙⲟⲩ ⲙⲛ̅ ⲛⲉⲛ’ⲧⲁⲩϫⲱϭⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ⲧⲁ’‐\nⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛⲉⲛ’ⲧⲁ ⲡⲛⲟⲩⲧⲉ ϫⲟϭⲟⲩ’ ⲉ‐\nⲡⲉⲓⲇⲏ ϩⲛ̅ⲛⲁⲧ’ⲙⲟⲩ ⲛⲉ ⲛⲉϥϫⲱϭⲉ ϣⲁⲩ‐\nⲣ̅ ⲁⲧⲙⲟⲩ ⲉⲃⲟⲗ’ † ϩⲓⲧⲟⲟⲧϥ’ ⲛ̅ⲛⲉϥ’ⲡⲁϩⲣⲉ’\nⲡⲛⲟⲩⲧⲉ ⲇⲉ ⲣ̅ⲃⲁⲡⲧⲓⲍⲉ ⲛ̅ⲛⲉⲧϥⲣ̅ⲃⲁⲡⲧⲓ‐\nⲍⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⟦ⲟⲩ⟧ ϭⲟⲙ’"
+        },
+        {
+          "title": "Seeing",
+          "subtitle": "Seeing",
+          "heading": "Seeing (61, 20-35)",
+          "rangeLabel": "61, 20-35",
+          "range": {
+            "start": {
+              "page": 61,
+              "line": 20
+            },
+            "end": {
+              "page": 61,
+              "line": 35
+            }
+          },
+          "english": "People cannot see anything that really is without becoming like it. It is not so\nwith people in the world, who see the sun without becoming the sun and see the\nsky and earth and everything else without becoming them.\nRather, in the realm of truth,\nyou have seen things there and have become those things,\nyou have seen the Spirit and have become Spirit,\nyou have seen Christ and have become Christ,\nyou have seen the [Father] and will become Father.\n[Here] in the world you see everything but do not [see] yourself, but there in\nthat realm you see yourself, and you will [become] what you see.",
+          "coptic": "ⲍⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⟦ⲟⲩ⟧ ϭⲟⲙ’\nⲛ̅ⲧⲉ ⲗⲁⲁⲩ ⲛⲁⲩ’ ⲁⲗⲁⲁⲩ ϩⲛ̅ ⲛⲉⲧ’ⲥⲙⲟⲛⲧ’\nⲉⲓ ⲙⲏⲧⲓ ⲛ̅ⲧⲉ ⲡⲉⲧⲙ̅ⲙⲁⲩ ϣⲱⲡⲉ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ⲑⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁⲛ ⲉϥ‐\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ϥⲛⲁⲩ ⲉⲡⲣⲏ ⲉϥⲟ ⲣ̅ⲣⲏ\nⲁⲛ ⲁⲩⲱ ϥⲛⲁⲩ ⲉⲧⲡⲉ ⲙⲛ̅ ⲡⲕⲁϩ ⲙ̅ⲛ̅ ⲛ̅‐\nⲕⲉϩⲃⲏⲩⲉ ⲧⲏⲣⲟⲩ ⲉⲛ’ⲧⲟϥ’ ⲁⲛ ⲡⲉ ⲛⲉⲧⲙ̅‐\nⲙⲁⲩ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲙⲉ ⲁⲗⲗⲁ ⲁⲕ’‐\nⲛⲁⲩ ⲉⲗⲁⲁⲩ’ ⲛ̅ⲧⲉ ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲉⲕ’ϣⲱ‐\nⲡⲉ ⲛ̅ⲛⲉⲧⲙ̅ⲙⲁⲩ’ ⲁⲕⲛⲁⲩ ⲁⲡⲡ̅ⲛ̅ⲁ̅ ⲁⲕ’‐\nϣⲱⲡⲉ ⲙ̅ⲡⲛ̅ⲁ̅ ⲁⲕⲛⲁ[ⲩ ⲁ]ⲡⲭ̅ⲥ̅ ⲁⲕϣⲱⲡⲉ\nⲛ̅ⲭⲥ̅ ⲁⲕⲛⲁⲩ ⲁⲡ[ⲉⲓⲱⲧ ⲕ]ⲛⲁϣⲱⲡⲉ ⲛ̅ⲉⲓ‐\nⲱⲧ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ [ⲛ̅ⲛⲉⲉⲓⲙⲁ] ⲙⲉⲛ ⲕⲛⲁⲩ\nⲁϩⲱⲃ ⲛⲓⲙ’ ⲁⲩⲱ ⲕ[ⲛⲁⲩ ⲉⲣⲟ]ⲕ’ ⲁⲛ ⲟⲩⲁⲁⲕ’\nⲕⲛⲁⲩ ⲇⲉ ⲉⲣⲟⲕ’ ⲙ̅ⲡ[ⲙⲁ ⲉⲧⲙ̅]ⲙⲁⲩ ⲡⲉⲧ‐\nⲕⲛⲁⲩ ⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲉⲕⲛⲁϣ[ⲱⲡⲉ ⲙ̅ⲙ]ⲟϥ"
+        },
+        {
+          "title": "Faith and Love",
+          "subtitle": "Faith and Love",
+          "heading": "Faith and Love (61, 36-62, 6)",
+          "rangeLabel": "61, 36-62, 6",
+          "range": {
+            "start": {
+              "page": 61,
+              "line": 36
+            },
+            "end": {
+              "page": 62,
+              "line": 6
+            }
+          },
+          "english": "Faith receives, love gives. [No one can receive] without faith, and no one\ncan give without love. So to receive we have faith and to love we give. If\nsomeone gives without love, that person gets no benefit from what was given.\nAnyone who receives something but does not receive the Lord is still a\nHebrew.",
+          "coptic": "§ⲧⲡⲓⲥⲧⲓⲥ ϫⲓ ⲧⲁⲅⲁⲡⲏ’ ⲥϯ ⲙ[ⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣ]‐\n[ϫⲓ] ⲁϫⲛ̅ ⲧⲡⲓⲥⲧⲓⲥ [ⲙ]ⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣϯ ⲁϫⲛ̅\nⲁⲅⲁⲡⲏ ⲉⲧⲃⲉ ⲡⲁⲉⲓ’ ϫⲉⲕⲁⲁⲥ ⲙⲉⲛ’ ⲉⲛⲁϫⲓ\nⲧⲛ̅ⲣ̅ⲡⲓⲥⲧⲉⲩⲉ ϣⲓⲛⲁ ⲇ〈ⲉ〉 ⲉⲛⲁⲙⲉ ⲛ̅ⲧⲛ̅ϯ ⲉⲡⲉⲓ\nⲉⲣϣⲁ ⲟⲩⲁ ϯ ϩⲛ̅ ⲟⲩⲁⲅⲁⲡⲏ ⲁⲛ ⲙⲛ̅ⲧⲉϥ ⲱ‐\nⲫⲉⲗⲉⲓⲁ ϩⲙ̅ ⲡⲉⲛⲧⲁϥⲧⲁⲁϥ’ ⲡⲉⲛⲧⲁϩϫⲓ\nⲡϫⲟⲉⲓⲥ ⲁⲛ ⲟ ⲛⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲉⲧⲓ §ⲛ̅ⲁⲡⲟ‐"
+        },
+        {
+          "title": "Jesus’s Names",
+          "subtitle": "Jesus’s Names",
+          "heading": "Jesus’s Names (62, 6-17)",
+          "rangeLabel": "62, 6-17",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 6
+            },
+            "end": {
+              "page": 62,
+              "line": 17
+            }
+          },
+          "english": "The apostles who came before us used the names I sous naz raios messias,\nwhich means “Jesus the Nazorean, the Christ.” The last name is “Christ,” the\nfirst name is “Jesus,” the middle name is “the Nazarene.” Messias has two\nmeanings, “Christ” and “measured.” In Hebrew “Jesus” means\n“redemption.” Nazara means “truth,” and so “the Nazarene” means “truth.”\n“Christ” has been “measured,” thus “the Nazarene” and “Jesus” have been\nmeasured out.",
+          "coptic": "ⲡϫⲟⲉⲓⲥ ⲁⲛ ⲟ ⲛⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲉⲧⲓ §ⲛ̅ⲁⲡⲟ‐\nⲥⲧⲟⲗⲟⲥ ⲉⲧϩⲓ ⲧⲛ̅ⲛⲉϩⲏ ⲧⲉⲉⲓϩⲉ ⲛⲉⲩⲙⲟⲩⲧ‐\nⲧⲉ ϫⲉ ⲓⲏ̅ⲥ̅ ⲡⲛⲁⲍⲱⲣⲁⲓⲟⲥ ⲙⲉⲥⲥⲓⲁⲥ ⲉⲧⲉ\nⲡⲁⲉⲓ ⲡⲉ ⲓ̅ⲏ̅ⲥ̅ ⲡⲛⲁⲍⲱⲣⲁⲓⲟⲥ ⲡⲉⲭ̅ⲥ̅’ ⲡϩⲁⲉ\nⲣ̅ⲣⲁⲛ’ ⲡⲉ ⲡⲉⲭⲥ̅ ⲡϣⲟⲣⲡ’ ⲡⲉ ⲓ̅ⲥ̅ ⲡⲉⲧϩⲛ̅\nⲧⲙⲏⲧⲉ ⲡⲉ ⲡⲛⲁⲍⲁⲣⲏⲛⲟⲥ ⲙⲉⲥⲥⲓⲁⲥ’\nⲟⲩⲛ̅ⲧⲁϥ’ ⲥⲏⲙⲁⲥⲓⲁ ⲥⲛ̅ⲧⲉ ⲁⲩⲱ ⲡⲉⲭⲣ̅ⲥ̅\nⲁⲩⲱ ⲡⲉⲧϣⲏⲩ ⲓ̅ⲥ̅ ⲙ̅ⲙ̅ⲛⲧ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲡⲉ\nⲡⲥⲱⲧⲉ ⲛⲁⲍⲁⲣⲁ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲡⲛⲁ‐\nⲍⲁⲣⲏⲛⲟⲥ ⟦ⲛⲉ⟧ ϭⲉ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ † ⲡⲉ ⲡⲭ̅ⲥ̅ †\nⲛ̅ⲧⲁⲩϣⲓⲧϥ’ ⲡⲛⲁⲍⲁⲣⲏⲛⲟⲥ ⲙⲛ̅ ⲓ̅ⲥ̅\nⲛⲉⲛⲧⲁⲩϣⲓⲧⲟⲩ §ⲡⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ ⲉⲩϣⲁⲛ‐"
+        },
+        {
+          "title": "A Pearl in Mud",
+          "subtitle": "A Pearl in Mud",
+          "heading": "A Pearl in Mud (62, 17-26)",
+          "rangeLabel": "62, 17-26",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 17
+            },
+            "end": {
+              "page": 62,
+              "line": 26
+            }
+          },
+          "english": "If a pearl is thrown into mud, it will not lose its value, and if it is anointed with\nbalsam, it will not increase its value. It is always precious in its owner’s eyes.\nLikewise, the children of God are precious in the eyes of the Father, whatever\ntheir circumstances of life.",
+          "coptic": "ⲛⲉⲛⲧⲁⲩϣⲓⲧⲟⲩ §ⲡⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ ⲉⲩϣⲁⲛ‐\nⲛⲟϫϥ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲃⲟⲣⲃⲟⲣⲟⲛ ϣⲁϥϣⲱ‐\nⲡⲉ {ϣⲁϥϣⲱⲡⲉ ⲁⲛ’} ⲉϥϣⲏⲥ ⲛ̅ϩⲟⲩⲟ\nⲟⲩⲧⲉ ⲉⲩϣⲁⲧⲁϩⲥϥ’ ⲛ̅ⲛⲁⲡⲟⲃⲁⲣⲥⲓⲙⲟⲛ\nⲉϥⲛⲁϣⲱⲡⲉ 〈ⲁⲛ〉 ⲉϥⲧⲁⲉⲓⲏⲩ’ ⲁⲗⲗⲁ ⲟⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲧⲁⲉⲓⲟ ϩⲁϩⲧⲛ̅ ⲡⲉϥ’ϫⲟⲉⲓⲥ’\nⲟⲩⲟⲉⲓϣ ⲛⲓⲙ’ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲙ̅‐\nⲡⲛⲟⲩⲧⲉ ϩⲛ̅ ⲛⲉⲧⲟⲩⲛⲁϣⲱⲡⲉ ⲛ̅ϩⲏⲧⲟⲩ\nⲉⲧⲓ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲧⲁⲉⲓⲟ ϩⲁϩⲧⲙ̅ ⲡⲟⲩ‐\nⲉⲓⲱⲧ’ §ⲉⲕ’ϣⲁϫⲟⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲓ̈ⲟⲩⲇⲁⲓ̈"
+        },
+        {
+          "title": "The Name Christian",
+          "subtitle": "The Name Christian",
+          "heading": "The Name Christian (62, 26-35)",
+          "rangeLabel": "62, 26-35",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 26
+            },
+            "end": {
+              "page": 62,
+              "line": 35
+            }
+          },
+          "english": "If you say, “I am a Jew,” no one will be moved. If you say, “I am a Roman,” no\none will be disturbed. If you say, “I am a Greek, barbarian, slave, free,” no one\nwill be troubled. If you say, “I am a Christian,” the [world] will be shaken. May I\n[receive the one] whose name the [world] cannot bear to hear.",
+          "coptic": "ⲉⲓⲱⲧ’ §ⲉⲕ’ϣⲁϫⲟⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲓ̈ⲟⲩⲇⲁⲓ̈\nⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁⲕⲓⲙ’ ⲉⲕϣⲁϫⲟⲟⲥ’ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩ‐\nϩⲣⲱⲙⲁⲓⲟⲥ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁⲣ̅ⲧⲁⲣⲁⲥⲥⲉ ⲉⲕϣⲁ‐\nϫⲟⲟⲥ ϫⲉ ⲁⲛⲟ[ⲕ ⲟ]ⲩϩⲉⲗⲗⲏⲛ ⲟⲩⲃⲁⲣⲃⲁ‐\nⲣⲟⲥ ⲟⲩϩⲙϩ̅ⲁ̅ⲗ̅ [ⲟⲩⲉⲗⲉⲩ]ⲑⲉⲣⲟⲥ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛⲁϣⲧⲟⲣⲧⲣ̅ ⲉⲕ[ϣⲁϫⲟⲟⲥ] ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲭⲣⲏ‐\nⲥⲧⲓⲁⲛⲟⲥ ⲡ[.....] ⲛⲁⲛⲟⲉⲓⲛ ⲛ̅ⲅⲉⲛⲟⲓ‐\nⲧⲟ ⲛ̅ⲧⲁϣ[... ⲛ̅ⲧ]ⲉⲉⲓⲙⲉⲓⲛⲉ ⲡⲁⲉⲓ’ ⲉ‐\n[ⲧ]ⲉ .[.....] ⲛⲁϣϩⲩⲡⲟⲙⲉⲓⲛⲉ ⲁⲛ’ ⲉ‐\n[ⲥⲱⲧⲙ̅ ⲉⲡ]ⲉϥⲣⲁⲛ’ §ⲡⲛⲟⲩⲧⲉ ⲟⲩⲁⲙⲣⲱ’"
+        },
+        {
+          "title": "God Is a Man-Eater",
+          "subtitle": "God Is a Man-Eater",
+          "heading": "God Is a Man-Eater (62, 35-63, 4)",
+          "rangeLabel": "62, 35-63, 4",
+          "range": {
+            "start": {
+              "page": 62,
+              "line": 35
+            },
+            "end": {
+              "page": 63,
+              "line": 4
+            }
+          },
+          "english": "God is a man-eater, and so humans are [sacrificed] to him. Before humans\nwere sacrificed, animals were sacrificed, because those to whom they were\nsacrificed were not gods.",
+          "coptic": "[ⲥⲱⲧⲙ̅ ⲉⲡ]ⲉϥⲣⲁⲛ’ §ⲡⲛⲟⲩⲧⲉ ⲟⲩⲁⲙⲣⲱ’\nⲙⲉ ⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲥⲉ[ϣⲱ]ⲱⲧ ⲙ̅ⲡⲣⲱⲙ[ⲉ]\nⲛⲁϥ ϩⲁ ⲧⲉϩⲏ ⲉⲙⲡⲁⲧⲟⲩϣⲱⲱⲧ’ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ⲛⲉⲩϣⲱⲱⲧ’ ⲛ̅ϩⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲉ ϩⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲅⲁⲣ ⲁⲛ ⲛⲉ ⲛⲁⲉⲓ ⲉⲧⲟⲩϣⲱⲱⲧ’ ⲛⲁⲩ"
+        },
+        {
+          "title": "Glass and Ceramic Vessels",
+          "subtitle": "Glass and Ceramic Vessels",
+          "heading": "Glass and Ceramic Vessels (63, 5-11)",
+          "rangeLabel": "63, 5-11",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 5
+            },
+            "end": {
+              "page": 63,
+              "line": 11
+            }
+          },
+          "english": "Glass and ceramic vessels are both made with fire. If glass vessels break, they\nare redone, since they have been made through breath. But if ceramic vessels\nbreak, they are destroyed, since they have been made without breath.",
+          "coptic": "§ⲛ̅ⲥⲕⲉⲩⲟⲥ ⲛ̅ⲛⲁⲃⲁϭⲏⲉⲓⲛ ⲙⲛ̅ ⲛ̅ⲥⲕⲉⲩⲟⲥ\nⲃ̅ⲃⲗϫⲉ ϣⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲕⲱϩⲧ\nⲁⲗⲗⲁ ⲛ̅ⲥⲕⲉⲩⲟⲥ ⲛ̅ⲛⲁⲃⲁϭⲏⲉⲓⲛ ⲉⲩϣⲁ‐\nⲟⲩⲱϭⲡ’ ⲡⲁⲗⲓⲛ’ ϣⲁⲩⲧⲁⲙⲓⲟⲟⲩ ⲛ̅ⲧⲁⲩ‐\nϣⲱⲡⲉ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲡ̅ⲛ̅ⲁ̅ ⲛ̅ⲥⲕⲉⲩⲟⲥ\nⲇⲉ ⲃ̅ⲃⲗ̅ϫⲉ ⲉⲩϣⲁⲟⲩⲱϭⲡ’ ϣⲁⲩⲧⲁⲕⲟ\nⲛ̅ⲧⲁⲩϣⲱⲡⲉ ⲅⲁⲣ ⲭⲱⲣⲓⲥ ⲛⲓϥⲉ §ⲟⲩⲉⲓⲱ"
+        },
+        {
+          "title": "A Donkey Turning a Millstone",
+          "subtitle": "A Donkey Turning a Millstone",
+          "heading": "A Donkey Turning a Millstone (63, 11-21)",
+          "rangeLabel": "63, 11-21",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 11
+            },
+            "end": {
+              "page": 63,
+              "line": 21
+            }
+          },
+          "english": "A donkey turning a millstone walked a hundred miles. When it was set loose, it\nfound itself in the same place. Some people travel long distances but get\nnowhere. By nightfall they have seen no cities or villages, nothing man-made or\nnatural, no powers or angels. These miserable people have labored in vain.",
+          "coptic": "ⲛ̅ⲧⲁⲩϣⲱⲡⲉ ⲅⲁⲣ ⲭⲱⲣⲓⲥ ⲛⲓϥⲉ §ⲟⲩⲉⲓⲱ\nⲉϥⲕⲱⲧⲉ ϩⲁ ⲟⲩⲱⲛⲉ ⲛ̅ⲛⲟⲩⲧ ⲁϥⲛ̅ ϣⲉ ⲙ̅ⲙⲓⲗⲟⲥ\nⲉⲃⲟⲗ ⲉϥ’ⲙⲟⲟϣⲉ ⲛ̅ⲧⲁⲣⲟⲩⲕⲁⲁϥ’ ⲉⲃⲟⲗ\nⲁϥϩⲉ ⲉⲣⲟϥ ⲟⲛ ⲉϥϩⲙ̅ ⲡⲓⲙⲁ ⲡⲓⲙⲁ\nⲟⲩⲛ ϩⲣ̅ⲣⲱⲙⲉ ϣⲟⲟⲡ’ ϣⲁⲩⲛ̅ ϩⲁϩ ⲙ̅ⲙⲟ‐\nⲟϣⲉ’ ⲉⲃⲟⲗ’ ⲁⲩⲱ ⲙⲁⲩⲡⲣⲟⲕⲟⲡⲧⲉ ⲉ‐\nⲗⲁⲁⲩ ⲙ̅ⲙⲁ ⲛ̅ⲧⲁⲣⲉ ⲣⲟⲩϩⲉ ϣⲱⲡⲉ ⲉⲣⲟ‐\nⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲟⲩⲛⲁⲩ ⲉⲡⲟⲗⲓⲥ ⲟⲩⲧⲉ\nⲕⲱⲙⲏ ⲟⲩⲧⲉ ⲕⲧⲓⲥⲓⲥ ⲟⲩⲧⲉ ⲫⲩⲥⲓⲥ ⲙⲛ̅\nⲇⲩⲛⲁⲙⲓⲥ’ ⲙⲛ̅ ⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲓⲕⲏ ⲁⲛⲧⲁⲗⲁⲓ‐\nⲡⲱⲣⲟⲥ ϩⲓⲥⲉ §ⲧⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓⲁ ⲡⲉ ⲓ̅ⲥ̅ ⲉⲩ‐"
+        },
+        {
+          "title": "The Eucharist and Jesus",
+          "subtitle": "The Eucharist and Jesus",
+          "heading": "The Eucharist and Jesus (63, 21-24)",
+          "rangeLabel": "63, 21-24",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 21
+            },
+            "end": {
+              "page": 63,
+              "line": 24
+            }
+          },
+          "english": "The eucharist is Jesus. In Syriac it is called pharisatha, which means “that which\nis spread out.” For Jesus came to crucify the world.",
+          "coptic": "ⲡⲱⲣⲟⲥ ϩⲓⲥⲉ §ⲧⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓⲁ ⲡⲉ ⲓ̅ⲥ̅ ⲉⲩ‐\nⲙⲟⲩⲧⲉ ⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲙ̅ⲙⲛⲧⲥⲩⲣⲟⲥ ϫⲉ ⲫⲁ‐\nⲣⲓⲥⲁⲑⲁ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲧⲡⲟⲣϣ’ ⲉⲃⲟⲗ\nⲁⲓⲥ̅ ⲅⲁⲣ ⲉⲓ ⲉϥ’ⲥⲧⲁⲩⲣⲟⲩ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ"
+        },
+        {
+          "title": "The Dye Works of Levi",
+          "subtitle": "The Dye Works of Levi",
+          "heading": "The Dye Works of Levi (63, 25-30)",
+          "rangeLabel": "63, 25-30",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 25
+            },
+            "end": {
+              "page": 63,
+              "line": 30
+            }
+          },
+          "english": "The master went into the dye works of Levi, took seventy-two colored cloths,\nand threw them into a vat. He drew them out and they all were white. He said,\n“So the son of humanity has come as a dyer.”",
+          "coptic": "§ⲁⲡϫⲟⲉⲓⲥ ⲃⲱⲕ’ ⲉϩⲟⲩ[ⲛ] ⲉⲡⲙⲁ ⲛ̅ϫⲱϭⲉ\nⲛ̅ⲗⲉⲩⲉⲓ ⲁϥϥⲓ ϣⲃⲉⲥⲛⲟⲟⲩⲥ ⲛ̅ⲭⲣⲱⲙⲁ\nⲁϥⲛⲟϫⲟⲩ ⲁⲧⲣⲟϩⲧⲉ ⲁϥⲛ̅ⲧⲟⲩ ⲉϩⲣⲁⲓ̈\nⲉⲩⲟⲃϣ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ ⲧⲁⲉⲓ\nⲧⲉ ⲑⲉ ⲛ̅ⲧⲁϥⲉⲓ ⲙ̅ⲙⲟⲥ ⲛ̅ϭⲓ ⲡϣⲏⲣ⟦ⲉ ⲙ̅‐\nⲡϣⲏⲣ⟧ⲉ ⲙ̅ⲡⲣⲱⲙ[ⲉ ⲉ]ϥ[ⲟ] ⲛ̅ϫϭⲓⲧ’ §ⲧⲥⲟ‐"
+        },
+        {
+          "title": "Wisdom and Mary of Magdala",
+          "subtitle": "Wisdom and Mary of Magdala",
+          "heading": "Wisdom and Mary of Magdala (63, 30-64, 9)",
+          "rangeLabel": "63, 30-64, 9",
+          "range": {
+            "start": {
+              "page": 63,
+              "line": 30
+            },
+            "end": {
+              "page": 64,
+              "line": 9
+            }
+          },
+          "english": "Wisdom, who is called barren, is the Mother of the angels.\nThe companion of the [Savior] is Mary of Magdala. The [Savior loved] her\nmore than [all] the disciples, [and he] kissed her often on her [mouth].\nThe other [disciples] …said to him, “Why do you love her more than all\nof us?”\nThe Savior answered and said to them, “Why don’t I love you like her? If a\nblind person and one who can see are both in darkness, they are the same. When\nthe light comes, one who can see will see the light, and the blind person will stay\nin darkness.”",
+          "coptic": "ⲡϣⲏⲣ⟧ⲉ ⲙ̅ⲡⲣⲱⲙ[ⲉ ⲉ]ϥ[ⲟ] ⲛ̅ϫϭⲓⲧ’ §ⲧⲥⲟ‐\nⲫⲓⲁ ⲉⲧⲟⲩⲙⲟⲩⲧ[ⲉ ⲉⲣⲟ]ⲥ ϫⲉ ⲧⲥⲧⲓⲣⲁ ⲛ̅‐\nⲧⲟⲥ ⲧⲉ ⲧⲙⲁⲁ[ⲩ ⲛ̅ⲛ̅ⲁⲅ]ⲅⲉⲗⲟⲥ ⲁⲩⲱ [ⲧ]ⲕⲟⲓ‐\nⲛⲱⲛⲟⲥ ⲙ̅ⲡⲥ[... ⲙⲁ]ⲣⲓⲁ ⲧⲙⲁⲅ[ⲇⲁ]‐\nⲗⲏⲛⲏ ⲛⲉⲣⲉ ⲡ.[..... ⲙⲉ] ⲙ̅ⲙⲟ[ⲥ ⲛ̅]‐\nϩⲟⲩⲟ ⲁⲙ̅ⲙⲁⲑⲏⲧ[ⲏⲥ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛⲉϥ]‐\nⲁⲥⲡⲁⲍⲉ ⲙ̅ⲙⲟⲥ ⲁⲧⲉⲥ[...... ⲛ̅ϩⲁϩ]\nⲛ̅ⲥⲟⲡ’ ⲁⲡⲕⲉⲥⲉⲉⲡⲉ ⲙ̅[ⲙⲁⲑⲏⲧⲏⲥ\n..].ⲉⲣⲟ.[.].[..]ⲙⲁ ⲡⲉϫⲁⲩ ⲛⲁϥ’ ϫⲉ\nⲉⲧⲃⲉ ⲟⲩ ⲕⲙⲉ ⲙ̅ⲙⲟⲥ ⲡⲁⲣⲁⲣⲟⲛ’ ⲧⲏⲣⲛ̅ ⲁϥ’‐\nⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱⲧⲏⲣ’ ⲡⲉϫⲁϥ ⲛⲁⲩ {ⲡⲉ‐\nϫⲁϥ ⲛⲁⲩ} ϫⲉ ⲉⲧⲃⲉ ⲟⲩ ϯⲙⲉ ⲙ̅ⲙⲱⲧⲛ̅ ⲁⲛ’\nⲛ̅ⲧⲉⲥϩⲉ ⲟⲩⲃ̅ⲗⲗⲉ ⲙⲛ̅ ⲟⲩⲁ ⲉϥⲛⲁⲩ ⲉⲃⲟⲗ\nⲉⲩϩⲙ̅ ⲡⲕⲁⲕⲉ ⲙ̅ⲡⲉⲥⲛⲁⲩ ⲥⲉϣⲟⲃⲉ ⲉⲛⲟⲩ‐\nⲉⲣⲏⲩ ⲁⲛ ϩⲟⲧⲁⲛ’ ⲉⲣϣⲁ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲓ’ ⲧⲟⲧⲉ\nⲡⲉⲧⲛⲁⲃⲟⲗ’ ϥⲛⲁⲛⲁⲩ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ\nⲡⲉⲧⲟ ⲃ̅ⲃⲗ̅ⲗⲉ ⲉϥⲛⲁϭⲱ ϩⲙ̅ ⲡⲕⲁⲕⲉ §ⲡⲉ’‐"
+        },
+        {
+          "title": "One Who Is",
+          "subtitle": "One Who Is",
+          "heading": "One Who Is (64, 9-12)",
+          "rangeLabel": "64, 9-12",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 9
+            },
+            "end": {
+              "page": 64,
+              "line": 12
+            }
+          },
+          "english": "The master said, “Blessed is one who is before coming into being. For whoever\nis, was and will be.”",
+          "coptic": "ⲡⲉⲧⲟ ⲃ̅ⲃⲗ̅ⲗⲉ ⲉϥⲛⲁϭⲱ ϩⲙ̅ ⲡⲕⲁⲕⲉ §ⲡⲉ’‐\nϫⲉ ⲡϫⲟⲉⲓⲥ ϫⲉ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉ ⲡⲉⲧ’ϣⲟ‐\nⲟⲡ’ ϩⲁ ⲧⲉϩⲏ ⲉⲙ’ⲡⲁⲧⲉϥ’ϣⲱⲡⲉ’ ⲡⲉⲧϣⲟ‐\nⲟⲡ’ ⲅⲁⲣ ⲁϥϣⲱⲡⲉ ⲁⲩⲱ ϥⲛⲁϣⲱⲡⲉ §ⲡϫⲓ‐"
+        },
+        {
+          "title": "Human Beings and Animals",
+          "subtitle": "Human Beings and Animals",
+          "heading": "Human Beings and Animals (64, 12-22)",
+          "rangeLabel": "64, 12-22",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 12
+            },
+            "end": {
+              "page": 64,
+              "line": 22
+            }
+          },
+          "english": "The superiority of human beings is not apparent to the eye, but lies in what is\nhidden. Consequently, they are dominant over animals that are stronger than they\nare and greater in ways apparent and hidden. So animals survive. But when\nhuman beings leave them, animals kill and devour each other. Animals have\neaten each other because they have found no other food. Now, however, they\nhave food, because humans till the ground.",
+          "coptic": "ⲟⲡ’ ⲅⲁⲣ ⲁϥϣⲱⲡⲉ ⲁⲩⲱ ϥⲛⲁϣⲱⲡⲉ §ⲡϫⲓ‐\nⲥⲉ ⲙ̅ⲡⲣⲱⲙⲉ ϥⲟⲩⲟⲛϩ ⲁⲛ’ ⲉⲃⲟⲗ’ ⲁⲗⲗⲁ\nϥϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲑⲏⲡ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ϥⲟ ⲛ̅‐\nϫⲟⲉⲓⲥ ⲁⲛ’ⲑⲏⲣⲓⲟⲛ ⲉⲧϫⲟⲟⲡ’ ⲉⲣⲟϥ’ ⲉⲧⲛⲉ‐\nⲁⲩ ⲕ’ⲁⲧⲁ ⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ’ ⲙⲛ̅ ⲡⲉⲑⲏⲡ’\nⲁⲩⲱ ⲡⲁⲉⲓ ϯ ⲛⲁⲩ ⲙ̅ⲡⲙⲟⲩⲛ’ ⲉⲃⲟⲗ ⲉⲣϣⲁ’\nⲡⲣⲱⲙⲉ ⲇⲉ ⲡⲱⲣϫ’ ⲉⲣⲟⲟⲩ ϣⲁⲩⲙⲟⲩⲟⲩⲧ’\nⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲛ̅ⲥⲉⲡⲱϩⲥ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ\nⲁⲩⲱ ⲁⲩⲟⲩⲱⲙ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ϫⲉ ⲙ̅ⲡⲟⲩϩⲉ\nⲉⲧⲣⲟⲫⲏ ⲧⲉⲛⲟⲩ ⲇⲉ ⲁⲩϩⲉ ⲉⲧⲣⲟⲫⲏ ⲉⲃⲟⲗ\nϫⲉ ⲁⲡⲣⲱⲙⲉ ⲣ̅ ϩⲱⲃ ⲉⲡⲕⲁϩ §ⲉⲣϣⲁ ⲟⲩⲁ’"
+        },
+        {
+          "title": "Going Down into the Water",
+          "subtitle": "Going Down into the Water",
+          "heading": "Going Down into the Water (64, 22-31)",
+          "rangeLabel": "64, 22-31",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 22
+            },
+            "end": {
+              "page": 64,
+              "line": 31
+            }
+          },
+          "english": "Anyone who goes down into the water and comes up without receiving\nanything and says, “I am a Christian,” has borrowed the name. But one who\nreceives the Holy Spirit has the name as a gift. A gift does not have to be paid\nback, but what is borrowed must be paid. This is how it is with us, when one of\nus experiences a mystery.",
+          "coptic": "ϫⲉ ⲁⲡⲣⲱⲙⲉ ⲣ̅ ϩⲱⲃ ⲉⲡⲕⲁϩ §ⲉⲣϣⲁ ⲟⲩⲁ’\nⲃⲱⲕ’ ⲉⲡⲉⲥⲏⲧ’ ⲉⲡⲙⲟⲟⲩ ⲛ̅ϥⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲙ’‐\nⲡⲉϥϫⲓ ⲗⲁⲁⲩ ⲛ̅ϥϫⲟⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲟⲩⲭⲣⲏ‐\nⲥⲧⲓⲁⲛⲟⲥ ⲛ̅ⲧⲁϥϫⲓ ⲙ̅ⲡⲣⲁⲛ’ ⲉⲧⲙⲏⲥⲉ ⲉϥ’‐\nϣⲁϫⲓ ⲇⲉ ⲙ̅ⲡⲡ̅ⲛ̅̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲟⲩⲛ̅ⲧⲁϥ ⲙ̅‐\nⲙⲁⲩ ⲛ̅ⲧⲇⲱⲣⲉⲁ ⲙ̅ⲡⲣⲁⲛ ⲡⲉⲛ̅ⲧⲁϩϫⲓ ⲛ̅ⲟⲩ‐\nⲇⲱⲣⲉⲁ ⲙⲁⲩϥⲓⲧⲥ̅ ⲛ̅ⲧⲟⲟⲧϥ’ ⲡⲉⲛⲧⲁϩϫⲓ ⲇⲉ\nⲉϫⲱϥ’ ⲉⲧⲙⲏⲥⲉ ϣⲁⲩϣⲁⲧϥ’ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ\nⲉⲧϣⲟ[ⲟ]ⲡ ⲛⲁⲛ ⲉⲣϣⲁ ⲟⲩⲁ ϣⲱⲡⲉ ϩⲛ̅\nⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟ[ⲛ’] §[ⲡⲙ]ⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲅⲁ‐"
+        },
+        {
+          "title": "Marriage",
+          "subtitle": "Marriage",
+          "heading": "Marriage (64, 31-65, 1)",
+          "rangeLabel": "64, 31-65, 1",
+          "range": {
+            "start": {
+              "page": 64,
+              "line": 31
+            },
+            "end": {
+              "page": 65,
+              "line": 1
+            }
+          },
+          "english": "The mystery of marriage is great. [Without] it, the world would [not] exist. The\nexistence of [the world depends on] people, and the existence [of people depends\non] marriage. Then think of the power of [pure] intercourse, though its image\nis defiled.",
+          "coptic": "ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟ[ⲛ’] §[ⲡⲙ]ⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲅⲁ‐\nⲙ[ⲟⲥ]’ ⲟⲩⲛⲟϭ [ⲡⲉ ⲁϫⲛ̅]ⲧϥ̅ ⲅⲁⲣ ⲛⲉ ⲡⲕⲟⲥ‐\n[ⲙⲟ]ⲥ ⲛⲁϣⲱ[ⲡⲉ ⲁⲛ ⲧⲥ]ⲩⲥⲧⲁⲥⲓⲥ ⲅⲁⲣ’ ⲙ̅‐\n[ⲡⲕⲟ]ⲥⲙⲟ[ⲥ.....]ⲙⲉ ⲧⲥⲩⲥⲧⲁⲥⲓⲥ ⲇⲉ\n[........ ⲡⲅ]ⲁⲙⲟⲥ ⲉⲣⲓⲛⲟⲉⲓ ⲛ̅ⲧⲕⲟⲓ‐\n[ⲛⲱⲛⲓⲁ .. ϫ]ⲱϩⲙ̅ ϫⲉ ⲟⲩⲛ̅ⲧ̅ⲁⲥ ⲙ̅ⲙⲁⲩ\n[.......]ⲇⲩⲛⲁⲙⲓⲥ ⲧⲉⲥϩⲓⲕⲱⲛ\nⲉⲥϣⲟⲟⲡ ϩⲛ̅ ⲟⲩϫⲱ[ϩⲙ̅] §[ⲛ̅]ⲥⲭ[ⲏⲙ]ⲁ ⲙⲡⲛ̅[ⲁ̅]"
+        },
+        {
+          "title": "Unclean Spirits",
+          "subtitle": "Unclean Spirits",
+          "heading": "Unclean Spirits (65, 1-26)",
+          "rangeLabel": "65, 1-26",
+          "range": {
+            "start": {
+              "page": 65,
+              "line": 1
+            },
+            "end": {
+              "page": 65,
+              "line": 26
+            }
+          },
+          "english": "Unclean spirits are male and female in form. Males have sex with souls that are\nfemale in form, and females cavort promiscuously with souls that are male in\nform. Souls cannot escape them if the spirits seize them, unless they receive the\nmale or female power of the bridegroom and the bride. These are received from\nthe mirrored bridal chamber.\nWhen foolish females see a man by himself, they jump on him, fondle him,\nand pollute him. Likewise, when foolish males see a beautiful woman by herself,\nthey seduce and violate her in order to pollute her. But when they see a husband\nand wife together, the females cannot make advances on the man and the males\ncannot make advances on the woman. So also if the image and the angel are\njoined, none can dare to make advances on the male or the female.",
+          "coptic": "ⲉⲥϣⲟⲟⲡ ϩⲛ̅ ⲟⲩϫⲱ[ϩⲙ̅] §[ⲛ̅]ⲥⲭ[ⲏⲙ]ⲁ ⲙⲡⲛ̅[ⲁ̅]\nⲛ̅ⲁⲕⲁⲑⲁⲣⲧⲟⲛ ⲟⲩⲛ̅ ϩⲟⲟⲩⲧ ⲛ̅ϩⲏⲧⲟⲩ ⲟⲩ‐\nⲛ̅ ϩⲛ̅ⲥϩⲓⲟⲙⲉ ⲛ̅ϩⲟⲟⲩⲧ ⲙⲉⲛ ⲛⲉ ⲉⲧⲣ̅ⲕⲟⲓ‐\nⲛⲱⲛⲉⲓ ⲁⲙⲯⲩⲭⲏ ⲉⲧⲣ̅ⲡⲟⲗⲓⲧⲉⲩⲉⲥⲑⲉ\nϩⲛ̅ⲛⲟⲩⲥⲭⲏⲙⲁ ⲛ̅ⲥϩⲓⲙⲉ ⲛ̅ⲥϩⲓⲟⲙⲉ ⲇⲉ\nⲛⲉ ⲛⲉⲧ̅ⲧⲏϩ ⲙⲛ̅ ⲛⲉⲧϩⲛ̅ ⲟⲩⲥⲭⲏⲙⲁ ⲛ̅‐\nϩⲟⲟⲩⲧ’ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲟⲩⲁⲧ’ⲧⲱⲧ’ ⲁⲩⲱ ⲙⲛ̅\nⲗⲁⲁⲩ ⲛⲁϣⲣ̅ ⲃⲟⲗ ⲉⲛⲁⲉⲓ ⲉⲩⲉⲙⲁϩⲧⲉ ⲙ̅‐\nⲙⲟϥ’ ⲉϥⲧⲙ̅ϫⲓ ⲛ̅ⲟⲩϭⲟⲙ ⲛ̅ϩⲟⲟⲩⲧ’ ⲙⲛ̅‐\nⲛⲟⲩⲥϩⲓⲙⲉ ⲉⲧⲉ ⲡⲛⲩⲙⲫⲓⲟⲥ ⲡⲉ ⲙⲛ\nⲧⲛⲩⲙⲫⲏ ⲟⲩⲁ ⲇⲉ ϫⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲛⲩⲙ’‐\nⲫⲱⲛ ⲛ̅ϩⲓⲕⲟⲛⲓⲕⲟⲥ ⲗ ϩⲟⲧⲁⲛ ⲉⲣϣⲁ ⲛ̅ⲥϩⲓ‐\nⲙⲉ ⲛ̅ⲁⲧⲥⲃⲱ ⲛⲁⲩ ⲁⲩϩⲟⲟⲩⲧ’ ⲉϥϩⲙⲟⲟⲥ\nⲟⲩⲁⲁϥ’ ϣⲁⲩϥⲱϭⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲱϥ ⲛ̅ⲥⲉ‐\nⲥⲱⲃⲉ ⲛⲙ̅ⲙⲁϥ’ ⲛ̅ⲥⲉϫⲟϩⲙⲉϥ’ ⲧⲉⲉⲓϩⲉ\nⲟⲛ ϩⲣ̅ⲣⲱⲙⲉ ⲛ̅ⲁⲧ’ⲥⲃⲱ ⲉⲩϣⲁⲛⲛⲁⲩ ⲉⲩ‐\nⲥϩⲓⲙⲉ ⲉⲥϩⲙⲟⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ ⲉⲛⲉⲥⲱⲥ\nϣⲁⲩⲡⲓⲑⲉ ⲙ̅ⲙⲟⲥ ⲛ̅ⲥⲉⲣ̅ⲃⲓⲁⲍⲉ ⲙ̅ⲙⲟⲥ\nⲉⲩⲟⲩⲱϣ ⲉϫⲟϩⲙⲉⲥ ⲉⲩϣⲁⲛⲛⲁⲩ ⲇⲉ\nⲁⲡϩⲟⲟⲩⲧ’ ⲙⲛ̅ ⲧⲉϥϩⲓⲙⲉ ⲉⲩϩⲙⲟⲟⲥ ϩⲁ‐\nⲧⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲙⲁⲣⲉ ⲛ̅ϩⲓⲟⲙⲉ ϣⲃⲱⲕ’ ⲉ‐\nϩⲟⲩⲛ ϣⲁ ⲡϩⲟⲟⲩⲧ ⲟⲩⲧⲉ ⲙⲁⲣⲉ ⲛ̅ϩⲟⲟⲩⲧ\nϣⲃⲱⲕ’ ⲉϩⲟⲩⲛ̅ ϣⲁ ⲧⲥϩⲓⲙⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ\nⲉⲣϣⲁ ⲑⲓⲕⲱⲛ’ ⲙⲛ̅ ⲡ[ⲁ]ⲅ’ⲅⲉⲗⲟⲥ ϩⲱⲧⲣ̅ ⲉ‐\nⲛⲟⲩⲉⲣⲏⲩ ⲟⲩⲧⲉ ⲙⲛ̅ [ⲗⲁ]ⲁⲩ ⲛⲁϣⲣ̅ⲧⲟⲗⲙⲁ\nⲁⲃⲱⲕ’ ⲉϩⲟⲩⲛ ϣⲁ ⲫ[ϩⲟ]ⲟⲩⲧ’ ⲏ ⲧⲥϩⲓⲙⲉ"
+        },
+        {
+          "title": "Whoever Leaves the World",
+          "subtitle": "Whoever Leaves the World",
+          "heading": "Whoever Leaves the World (65, 27-66, 6)",
+          "rangeLabel": "65, 27-66, 6",
+          "range": {
+            "start": {
+              "page": 65,
+              "line": 27
+            },
+            "end": {
+              "page": 66,
+              "line": 6
+            }
+          },
+          "english": "Whoever leaves the world can no longer be held back as if still in the world.\nSuch a person clearly is beyond desire…and fear, is dominant…, and is above\nenvy.\nIf…, that person is grasped and choked. How can that person escape the\n[great grasping powers]? How can that person [hide from them]?\nSome [say], “We are faithful,” in order that they [may escape unclean]\nspirits and demons. For if they had the Holy Spirit, no unclean spirit could grab\nthem.\nDo not fear the flesh and do not love it. If you fear the flesh, it will dominate\nyou. If you love the flesh, it will swallow you up and strangle you.",
+          "coptic": "§ⲡⲉⲧⲛ̅ⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲛ̅ⲥⲉ‐\nⲧⲙ̅ϣⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟϥ’ ⲉⲧⲓ ϫⲉ ⲛⲉϥϩⲙ̅\nⲡⲕⲟⲥⲙⲟⲥ ϥⲟⲩⲟⲛ[ϩ] ⲉⲃⲟⲗ ϫⲉ ϥϫⲟⲥⲉ\nⲁⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲙ̅ⲡ[..]ϥ’[..]ⲉ [ⲙ]ⲛ̅ ⲑⲣ̅ⲧⲉ\nϥⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲁ..[..]ⲥ[.]ⲥ ϥⲥⲟⲧⲡ’ ⲉ‐\nⲡⲕⲱϩ ⲉϣϫⲉ [....]ⲩ ⲉⲓ ⲥⲉⲁⲙ[ⲁ]ϩⲧⲉ\nⲙ̅ⲙⲟϥ’ ⲥⲉⲱϭ[ⲧ ⲙ̅ⲙⲟϥ] ⲁⲩⲱ ⲡⲱ[ⲥ ⲉϥ’]‐\nⲛⲁϣⲣ̅ ⲃⲟⲗ ⲁⲛⲛ[ⲟϭ ⲛ̅ⲇⲩⲛ]ⲁⲙⲓ[ⲥ ....]\nⲧⲉ ⲡⲱⲥ ϥⲛⲁϣϩ[..........]\nⲕⲓⲥ ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ ⲉⲩ[ϫⲱ ⲙ̅ⲙⲟⲥ’ ϫⲉ]\nⲁⲛⲟⲛ ϩⲙ̅ⲡⲓⲥⲧⲟⲥ ϩⲟⲡⲱ[ⲥ......]\n[.ⲡ]ⲛ̅̅ⲁ̅̅ ⲛ̅ⲁ[ⲕⲁⲑⲁⲣⲧⲟ]ⲛ ϩⲓ ⲇⲁⲓⲙⲟⲛⲓⲟⲛ\nⲛⲉⲩⲛ̅ⲧⲁⲩ ⲅⲁⲣ ⲙ̅ⲙⲁ[ⲩ] ⲙ̅ⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲛⲉ ⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲛ̅ⲁⲕⲁⲑⲁⲣⲧⲟⲛ ⲛⲁⲣ̅ⲕⲟⲗⲗⲁ\nⲉⲣⲟⲟⲩ ⲙⲛ̅ⲣ̅ ϩⲟⲧⲉ ϩⲏⲧⲥ̅ ⲛ̅ⲧⲥⲁⲣⲝ ⲟⲩⲇⲉ\nⲙⲛ̅ⲙⲉⲣⲓⲧⲥ̅ ⲉⲕϣⲁⲣ̅ ϩⲟⲧⲉ ϩⲏⲧⲥ̅ ⲥⲛⲁⲣ̅ ϫⲟ‐\nⲉⲓⲥ ⲉⲣⲟⲕ’ ⲉⲕϣⲁⲛⲙⲉⲣⲓⲧⲥ̅ ⲥⲛⲁⲟⲙ〈ⲕ〉ⲕ’ ⲛ̅ⲥⲟϭ〈ⲧ〉ⲕ’"
+        },
+        {
+          "title": "This World, the Resurrection, and the Middle",
+          "subtitle": "This World, the Resurrection, and the Middle",
+          "heading": "This World, the Resurrection, and the Middle (66, 7-21)",
+          "rangeLabel": "66, 7-21",
+          "range": {
+            "start": {
+              "page": 66,
+              "line": 7
+            },
+            "end": {
+              "page": 66,
+              "line": 21
+            }
+          },
+          "english": "A person is either in this world or in the resurrection-or in the middle place.\nMay I not be found there! In this world there is good and evil, but the good of\nthe world is not really good and the evil of the world is not really evil. After this\nworld there is evil that is really evil: this is called the middle. The middle is\ndeath. As long as we are in this world, we should acquire resurrection, so that\nwhen we take off the flesh we may be found in rest and not wander in the\nmiddle. For many go astray on the way.",
+          "coptic": "§ⲏ ⲛ̅ϥϣⲱⲡⲉ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲏ ϩⲛ̅ ⲧⲁⲛⲁ‐\nⲥⲧⲁⲥⲓⲥ ⲏ ϩⲛ̅ ⲛ̅ⲧⲟⲡⲟⲥ ⲉⲧϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲙⲏ ⲅⲉⲛⲟⲓⲧⲟ ⲛ̅ⲥⲉϩⲉ ⲉⲣⲟⲉⲓ ⲛ̅ϩⲏⲧⲟⲩ ⲡⲉ‐\nⲉⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲙ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲛ̅ϩⲏⲧϥ’\nⲟⲩⲙ̅ ⲡⲉⲑⲟⲟⲩ ⲛⲉϥⲡⲉⲧⲛⲁⲛⲟⲩⲟⲩ ⲙ̅ⲡⲉ‐\nⲧⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ ⲛⲉ ⲁⲩⲱ ⲛⲉϥⲡⲉⲑⲟⲟⲩ ϩⲙ̅‐\nⲡⲉⲑⲟⲟⲩ ⲁⲛ ⲛⲉ ⲟⲩⲛ̅ ⲡⲉⲑⲟⲟⲩ ⲇⲉ ⲙⲛ̅ⲛ̅‐\nⲥⲁ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲉϩⲙ̅ⲡⲉⲑⲟⲟⲩ ⲛⲁⲙⲉ ⲛⲉ\nⲧⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲙⲉⲥⲟⲧⲏⲥ ⲛ̅ⲧⲟϥ’\nⲡⲉ ⲡⲙⲟⲩ ϩⲱⲥ ⲉⲛϣⲟⲟⲡ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥ‐\nⲙⲟⲥ ϣϣⲉ ⲉⲣⲟⲛ ⲉϫⲡⲟ ⲛⲁⲛ ⲛ̅ⲧⲁⲛⲁⲥⲧⲁ‐\nⲥⲓⲥ ϫⲉⲕⲁⲁⲥ ⲉⲛϣⲁⲕⲁⲁⲕⲛ ⲁϩⲏⲩ ⲛ̅ⲧⲥⲁⲣⲝ\nⲉⲩⲛⲁϩⲉ ⲉⲣⲟⲛ ϩⲛ̅ ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲛ̅ⲧⲛ̅ⲧⲙ̅‐\nⲙⲟⲟϣⲉ ϩⲛ̅ ⲧⲙⲉⲥⲟⲧⲏⲥ ϩⲁϩ ⲅⲁⲣ’ ⲥⲉⲣ̅ⲡⲗⲁ‐\nⲛⲉⲥⲑⲉ ϩⲛ̅ ⲧϩⲓⲏ ⲛⲁⲛⲟⲩⲥ ⲅⲁⲣ ⲉⲉⲓ ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "Will and Action",
+          "subtitle": "Will and Action",
+          "heading": "Will and Action (66, 21-29)",
+          "rangeLabel": "66, 21-29",
+          "range": {
+            "start": {
+              "page": 66,
+              "line": 21
+            },
+            "end": {
+              "page": 66,
+              "line": 29
+            }
+          },
+          "english": "It is good to leave the world before one sins. Some have neither the will nor the\nstrength to act. Others, even if they have the will, do themselves no good, for\nthey have not acted. And if they do not have the will…. Righteousness is beyond\ntheir grasp, in either case. It always comes down to the will, not the action.",
+          "coptic": "ⲛⲉⲥⲑⲉ ϩⲛ̅ ⲧϩⲓⲏ ⲛⲁⲛⲟⲩⲥ ⲅⲁⲣ ⲉⲉⲓ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ϩⲁ ⲧⲉϩⲏ ⲉⲙⲡⲁⲧⲉ ⲡⲣⲱⲙⲉ\nⲣ̅ ⲛⲟⲃⲉ §ⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲟⲩⲧⲉ ⲥⲉⲟⲩⲱϣ\nⲁⲛ’ ⲟⲩⲧⲉ ⲙⲛ̅ ϭⲟⲙ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ\nⲉⲩϣⲁⲛ’ⲟⲩⲱϣ’ ⲙⲛ̅ ϩⲏⲩ ϣⲟⲟⲡ’ ⲛⲁⲩ ϫⲉ\nⲙ̅ⲡⲟⲩⲉⲓⲣⲉ ⲉⲡ[...]ⲩⲱϣ ⲅⲁⲣ’ ϥⲉⲓⲣⲉ ⲙ̅ⲙⲟ‐\nⲟⲩ ⲛ̅ⲣⲉϥⲣ̅ ⲛⲟⲃⲉ [ⲉ]ⲩⲧⲙ̅ⲟⲩⲱϣ ⲇⲉ ⲧⲇⲓ‐\nⲕⲁⲓⲟⲥⲩⲛⲏ ⲛⲁϩⲱⲡ’ ⲉⲣⲟⲟⲩ ⲙ̅ⲡⲉⲥⲛⲁⲩ\nⲁⲩⲱ ⲡⲟⲩⲱϣ ⲁⲛ [ⲡⲉ] ⲛ̅ⲡⲉⲓⲣⲉ ⲁⲛ’ §ⲟⲩⲁⲡⲟ‐"
+        },
+        {
+          "title": "Vision of Hell",
+          "subtitle": "Vision of Hell",
+          "heading": "Vision of Hell (66, 29-67, 1)",
+          "rangeLabel": "66, 29-67, 1",
+          "range": {
+            "start": {
+              "page": 66,
+              "line": 29
+            },
+            "end": {
+              "page": 67,
+              "line": 1
+            }
+          },
+          "english": "In a vision an apostolic person saw people who were locked up in a house of\nfire, bound with [chains] of fire, and thrown [into]…fire [on account of…false]\nfaith. It was said, “[They might have] saved [their souls], but they did not want\nto, so they got [this place of] punishment called the [outer] darkness….”",
+          "coptic": "ⲁⲩⲱ ⲡⲟⲩⲱϣ ⲁⲛ [ⲡⲉ] ⲛ̅ⲡⲉⲓⲣⲉ ⲁⲛ’ §ⲟⲩⲁⲡⲟ‐\nⲥⲧⲟⲗⲓⲕⲟⲥ [ϩ]ⲛ̅ ⲟ[ⲩ]ⲟⲡⲧⲁⲥⲓⲁ ⲁϥⲛⲁⲩ ⲁϩⲟ‐\nⲉⲓⲛⲉ ⲉⲩⲟⲧⲡ [ⲉϩⲟⲩ]ⲛ ⲉⲩⲏⲉⲓ ⲛ̅ⲕⲱϩⲧ’ ⲁⲩ‐\nⲱ ⲉ[ⲩ]ⲙⲏⲣ ϩⲛ̅ [.....] ⲛ̅ⲕⲱϩⲧ ⲉⲩⲛⲏϫ\n[...]ⲛ̅ⲛ̅ⲕⲱϩⲧ [.....]ⲧⲟⲩ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅\n[...ⲡⲓ]ⲥⲧⲓ[ⲥ]’ ⲛ̅[....] ⲁⲩⲱ ⲡⲉϫⲁⲩ ⲛⲁⲩ\n[ϫⲉ......... ϭ]ⲟⲙ’ ⲙ̅ⲙⲟⲟⲩ ⲁⲛⲟⲩϩ̅ⲙ̅\n[...........] ⲙ̅ⲡⲟⲩⲟⲩⲱϣ’ ⲁⲩϫⲓ\n[........]ⲕⲟⲗⲁⲥⲓⲥ ⲡⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟϥ ϫⲉ ⲡⲕⲁⲕⲉ ⲉⲧ[......]ⲗ ϫⲉ ϥ.[....]"
+        },
+        {
+          "title": "Water and Fire",
+          "subtitle": "Water and Fire",
+          "heading": "Water and Fire (67, 2-9)",
+          "rangeLabel": "67, 2-9",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 2
+            },
+            "end": {
+              "page": 67,
+              "line": 9
+            }
+          },
+          "english": "Soul and spirit have come into being from water and fire. The attendant of the\nbridal chamber has come into being from water, fire, and light. Fire is chrism.\nLight is fire. I do not mean ordinary fire, which has no form, but other fire,\nwhich is pure white in appearance, beautifully bright and imparting beauty.",
+          "coptic": "§ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅ ⲟⲩⲕⲱϩⲧ ⲛ̅ⲧⲁ ⲧⲯⲩⲭ[ⲏ]\nⲙⲛ̅ ⲡⲡ̅ⲛ̅ⲁ̅ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲙⲟⲟⲩ ⲙⲛ̅\nⲟⲩⲕⲱϩⲧ’ ⲙⲛ̅ⲛⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲁ ⲡϣⲏⲣⲉ’ ⲙ̅‐\nⲡⲛⲩⲙⲫⲱⲛ ⲡⲕⲱϩⲧ’ ⲡⲉ ⲡⲭⲣⲓⲥⲙⲁ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲡⲉ ⲡⲕⲱϩⲧ’ ⲉⲉⲓϣⲁϫⲉ ⲁⲛ ⲁⲡⲉⲉⲓⲕⲱϩⲧ\nⲉⲧⲉ ⲙⲛ̅ⲧⲁϥ’ ⲙⲟⲣⲫⲏ ⲁⲗⲗⲁ ⲡⲕⲉⲟⲩⲁ ⲉⲧⲉ 〈ⲧⲉ〉ϥ’‐\nⲙⲟⲣϥⲏ ⲟⲩⲁⲃϣ ⲉⲧⲟ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲉⲛⲉⲥⲱϥ’\nⲁⲩⲱ ⲉⲧϯ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲥⲁ §ⲧⲁⲗⲏⲑⲉⲓⲁ ⲙ̅ⲡⲉⲥⲉⲓ"
+        },
+        {
+          "title": "Truth and Nakedness",
+          "subtitle": "Truth and Nakedness",
+          "heading": "Truth and Nakedness (67, 9-27)",
+          "rangeLabel": "67, 9-27",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 9
+            },
+            "end": {
+              "page": 67,
+              "line": 27
+            }
+          },
+          "english": "Truth did not come into the world naked, but in symbols and images. The world\ncannot receive truth in any other way. There is rebirth and an image of rebirth,\nand it is by means of this image that one must be reborn. What image is this? It\nis resurrection. Image must arise through image. By means of this image the\nbridal chamber and the image must approach the truth. This is restoration.\nThose who receive the name of the Father, Son, and Holy Spirit and have\naccepted them must do this. If someone does not accept them, the name will\nalso be taken from that person. A person receives them in the chrism with the oil\nof the power of the cross. The apostles called this power the right and the left.\nThis person is no longer a Christian but is Christ.",
+          "coptic": "ⲁⲩⲱ ⲉⲧϯ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲥⲁ §ⲧⲁⲗⲏⲑⲉⲓⲁ ⲙ̅ⲡⲉⲥⲉⲓ\nⲉⲡⲕⲟⲥⲙⲟⲥ ⲉⲥⲕⲁⲕⲁϩⲏⲩ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲥⲉⲓ ϩⲛ̅\nⲛ̅ⲧⲩⲡⲟⲥ ⲙⲛ̅ ⲛ̅ϩⲓⲕⲱⲛ ϥⲛⲁϫⲓⲧⲥ̅ ⲁⲛ’ ⲛ̅ⲕⲉⲣⲏ‐\nⲧⲉ ⲟⲩⲛ̅ ⲟⲩϫⲡⲟ ⲛ̅ⲕⲉⲥⲟⲡ’ ϣⲟⲟⲡ ⲙⲛ̅ⲛⲟⲩ‐\nϩⲓⲕⲱⲛ ⲛ̅ϫⲡⲟ ⲛ̅ⲕⲉⲥⲟⲡ’ ϣϣⲉ ⲁⲗⲏⲑⲱⲥ\nⲁⲧⲣⲟⲩϫⲡⲟⲟⲩ ⲛ̅ⲕⲉⲥⲟⲡ’ ϩⲓⲧⲛ̅ ⲧϩⲓⲕⲱⲛ ⲁϣ\nⲧⲉ ⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲁⲩⲱ ⲑⲓⲕⲱⲛ ϩⲓⲧⲛ̅ ⲑⲓⲕⲱⲛ\nϣϣⲉ ⲉⲧⲣⲉⲥⲧⲱⲟⲩⲛ ⲡⲛⲩⲙⲫⲱⲛ ⲙⲛ̅ ⲑⲓ‐\nⲕⲱⲛ ϩⲓⲧⲛ̅ ⲑⲓⲕⲱⲛ ϣϣⲉ ⲉⲧⲣⲟⲩⲉⲓ ⲉϩⲟⲩⲛ\nⲉⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲧⲉ ⲧⲁⲉⲓ ⲧⲉ ⲧ’ⲁⲡⲟⲕⲁⲧⲁⲥⲧⲁⲥⲓⲥ\nϣϣⲉ ⲁⲛⲉⲧϫⲡⲟ ⲁⲛ ⲙ̅ⲙⲁⲧⲉ ⲙ̅ⲡⲣⲁⲛ’ ⲙ̅‐\nⲡⲉⲓⲱⲧ’ ⲙⲛ̅ ⲡϣⲏⲣⲉ ⲙⲛ̅ ⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ\nⲁⲗⲗⲁ ⲁ〈ⲛⲉⲛⲧⲁ〉ⲩϫⲡⲟⲟⲩ † ⲛⲁⲕ ϩⲱⲟⲩ ⲉⲧⲙ̅ ⲟⲩⲁ ϫⲡⲟ‐\nⲟⲩ ⲛⲁϥ’ ⲡⲕⲉⲣⲁⲛ’ ⲥⲉⲛⲁϥⲓⲧϥ’ ⲛ̅ⲧⲟⲟⲧϥ’\nⲟⲩⲁ ⲇⲉ ϫⲓ ⲙ̅ⲙⲟⲟⲩ ϩⲙ̅ ⲡⲭⲣⲓⲥⲙⲁ ⲙ̅ⲡⲥⲟ.[.]\nⲛ̅ⲧⲇⲩⲛⲁⲙⲓⲥ’ ⲙ̅ⲡⲥx[ⲟ]ⲥ ⲧⲁ[ⲉ]ⲓ ⲛⲉ ⲛⲁⲡⲟⲥⲧⲟ‐\nⲗⲟⲥ ⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ [ⲧⲟ]ⲩⲛⲁⲙ ⲙⲛ̅ ⲧⲉϩⲃⲟⲩⲣ\nⲡⲁⲉⲓ ⲅⲁⲣ’ ⲟⲩⲕⲉⲧⲓ ⲟⲩ[ⲭⲣⲏ]ⲥⲧ[ⲓ]ⲁⲛⲟⲥ ⲡⲉ ⲁⲗⲗⲁ\nⲟⲩⲭⲣ̅ⲥ̅ ⲡⲉ §ⲁⲡϫⲟⲉⲓ[ⲥ ⲣ̅] ϩⲱⲃ’ ⲛⲓⲙ’ ϩⲛ̅ⲛⲟⲩ‐"
+        },
+        {
+          "title": "Sacraments",
+          "subtitle": "Sacraments",
+          "heading": "Sacraments (67, 27-30)",
+          "rangeLabel": "67, 27-30",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 27
+            },
+            "end": {
+              "page": 67,
+              "line": 30
+            }
+          },
+          "english": "The master [did] everything in a mystery: baptism, chrism, eucharist,\nredemption, and bridal chamber.",
+          "coptic": "ⲟⲩⲭⲣ̅ⲥ̅ ⲡⲉ §ⲁⲡϫⲟⲉⲓ[ⲥ ⲣ̅] ϩⲱⲃ’ ⲛⲓⲙ’ ϩⲛ̅ⲛⲟⲩ‐\nⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲟⲩⲃⲁ[ⲡ]ⲧⲓⲥⲙⲁ ⲙⲛ̅ ⲟⲩⲭⲣⲓⲥ‐\nⲙⲁ ⲙⲛ̅ⲛⲟⲩⲉⲩⲭⲁⲣ[ⲓⲥⲧ]ⲓⲁ ⲙⲛ̅ⲛⲟⲩⲥⲱⲧⲉ\nⲙⲛ̅ⲛⲟⲩⲛⲩⲙ’ⲫⲱⲛ §[.....]ⲉⲓ ⲡ[ⲉϫ]ⲁϥ’"
+        },
+        {
+          "title": "The Inner and the Outer",
+          "subtitle": "The Inner and the Outer",
+          "heading": "The Inner and the Outer (67, 30-68, 17))",
+          "rangeLabel": "67, 30-68, 17",
+          "range": {
+            "start": {
+              "page": 67,
+              "line": 30
+            },
+            "end": {
+              "page": 68,
+              "line": 17
+            }
+          },
+          "english": ")\n[For this reason] he said, “I have come to make [the lower] like the [upper and\nthe] outer like the [inner, and to unite] them in that place.” [He spoke] here in\nsymbols [and images].\nThose who say [there is a heavenly person and] one that is higher are\nwrong, for they call the visible heavenly person “lower” and the one to\nwhom the hidden realm belongs “higher.” It would be better for them to speak of\nthe inner, the outer, and the outermost. For the master called corruption “the\noutermost darkness,” and there is nothing outside it. He said, “My Father who\nis in secret.” He said, “Go into your room, shut the door behind you, and pray to\nyour Father who is in secret,” that is, the one who is innermost. What is\ninnermost is the Fullness, and there is nothing further within. And this is what\nthey call uppermost.",
+          "coptic": "ⲙⲛ̅ⲛⲟⲩⲛⲩⲙ’ⲫⲱⲛ §[.....]ⲉⲓ ⲡ[ⲉϫ]ⲁϥ’\nϫⲉ ⲁⲉⲓ ⲉⲧⲣⲁⲉⲓⲣⲉ [ⲛ̅ⲛⲁ ⲡⲥⲁ ⲙⲡⲓ]ⲧⲛ̅ ⲛ̅‐\nⲑⲉ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛ[ⲧⲡⲉ ⲁⲩⲱ ⲛⲁ ⲡⲥⲁ ⲛ]ⲃⲟⲗ\nⲛ̅ⲑⲉ ⲛ̅ⲛⲁ ⲡⲥ[ⲁ ⲛϩⲟⲩⲛ ⲁⲩⲱ ⲉⲧⲣⲁϩⲟⲧ]‐\nⲣⲟⲩ ⲙ̅ⲡⲙⲁ ⲉⲧⲙ̅[............ ⲛⲉ]‐\nⲉⲓⲙⲁ ϩⲓⲧⲛ̅ ϩⲛ̅ⲧⲩ[ⲡⲟⲥ ..........]\nⲛⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ [ⲟⲩⲛ̅ ⲟⲩⲣⲙ̅ⲙ̅ⲡⲉ ⲁⲩⲱ]\nⲟⲩⲛ̅ ⲟⲩⲉⲓ ⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ [ⲙ̅ⲙⲟϥ ⲥⲉⲣ̅ⲡⲗⲁ]‐\nⲛⲁⲥⲑⲉ ⲡⲉⲧⲟⲩⲟⲛⲉϩ ⲅ[ⲁⲣ ⲉⲃⲟⲗ ⲡⲣⲙ̅ⲙ̅]‐\nⲡⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲡ[ⲉ]ⲧⲟ[ⲩ]ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ\nⲡⲉⲧⲙ̅ⲡⲥⲁ ⲛⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲡⲉⲧⲉ ⲡⲉⲑⲏⲡ’\nϣⲟⲟⲡ’ ⲛⲁϥ ⲡⲉⲧⲙ̅ⲙⲁⲩ ⲡⲉ ⲉⲧⲛ̅ⲧⲡⲉ ⲙ̅‐\nⲙⲟϥ’ ⲛⲁⲛⲟⲩⲥ ⲅⲁⲣ ⲛ̅ⲥⲉϫⲟⲟⲥ ϫⲉ ⲡⲥⲁ ⲛ‐\nϩⲟⲩⲛ ⲁⲩⲱ ⲡⲉⲧⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ’ ⲙⲛ̅ ⲡⲉⲧⲛ̅‐\nⲡⲥⲁ ⲛⲃⲟⲗ ⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ’ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁⲡϫⲟ‐\nⲉⲓⲥ ⲙⲟⲩⲧⲉ ⲁⲡⲧⲁⲕⲟ ϫⲉ ⲡⲕⲁⲕⲉ ⲉⲧϩⲓ ⲡⲥⲁ ⲛ‐\nⲃⲟⲗ’ ⲙⲛ̅ ϭⲉ ϣⲟⲟⲡ’ ⲙ̅ⲡⲉϥⲃⲁⲗ’ ⲡⲉϫⲁϥ’\nϫⲉ ⲡⲁⲉⲓⲱⲧ’ ⲉⲧϩⲙ̅ ⲡⲉⲑⲏⲡ’ ⲡⲉϫⲁϥ ϫⲉ\nⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲉⲡⲉⲕ’ⲧⲁⲙⲉⲓⲟⲛ ⲛ̅ⲅϣⲧⲁⲙ’\nⲙ̅ⲡⲉⲕ’ⲣⲟ ⲉⲣⲱⲕ’ ⲛ̅ⲅϣⲗⲏⲗ’ ⲁⲡⲉⲕ’ⲉⲓⲱⲧ’\nⲉⲧϩⲙ̅ ⲡⲉⲑⲏⲡ’ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲧϩⲓ ⲥⲁ ⲛ‐\nϩⲟⲩⲛ’ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲡⲉⲧϩⲓ ⲥⲁ ⲛϩⲟⲩⲛ’\nⲇⲉ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲡⲉ ⲡⲡⲗⲏⲣⲱⲙⲁ ⲙ̅‐\nⲙⲛ̅ⲛ̅ⲥⲱϥ’ ⲙⲛ̅ ϭⲉ ⲙ̅ⲡⲉϥ’ⲥⲁ ⲛϩⲟⲩⲛ ⲡⲁ‐\nⲉⲓ ⲡⲉ ⲉⲧⲟⲩϣⲁϫⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲉⲧⲙ̅ⲡⲥⲁ ⲛ‐\nⲧⲡⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲉⲭ̅ⲥ̅ ⲁϩⲟⲉⲓⲛⲉ"
+        },
+        {
+          "title": "Fall and Return to Fullness",
+          "subtitle": "Fall and Return to Fullness",
+          "heading": "Fall and Return to Fullness (68, 17-22)",
+          "rangeLabel": "68, 17-22",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 17
+            },
+            "end": {
+              "page": 68,
+              "line": 22
+            }
+          },
+          "english": "Before Christ some came from a realm they could not reenter, and they went to a\nplace they could not yet leave. Then Christ came. Those who went in he brought\nout, and those who went out he brought in.",
+          "coptic": "ⲧⲡⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲉⲭ̅ⲥ̅ ⲁϩⲟⲉⲓⲛⲉ\nⲉⲓ ⲉⲃⲟⲗ’ ⲉⲃⲟⲗ ⲧⲱⲛ’ ⲟⲩⲕⲉⲧⲓ ⲙ̅ⲡⲟⲩϣ’‐\nⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲁⲩⲱ ⲁⲩⲃⲱⲕ’ ⲉⲧⲱⲛ ⲟⲩⲕⲉⲧⲓ\nⲙ̅ⲡⲟⲩϣⲓ ⲉⲃⲟⲗ ⲁϥⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ⲡⲉⲭⲥ̅ ⲛⲉⲛ‐\nⲧⲁϩⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲁϥⲛ̅ⲧⲟⲩ ⲉⲃⲟⲗ ⲁⲩⲱ ⲛⲉⲛ‐\nⲧⲁϩⲃⲱⲕ’ ⲉⲃⲟⲗ’ ⲁϥⲛ̅ⲧⲟⲩ ⲉϩⲟⲩⲛ§ ⲛ̅ϩⲟⲟⲩ’"
+        },
+        {
+          "title": "When Eve Was in Adam",
+          "subtitle": "When Eve Was in Adam",
+          "heading": "When Eve Was in Adam (68, 22-26)",
+          "rangeLabel": "68, 22-26",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 22
+            },
+            "end": {
+              "page": 68,
+              "line": 26
+            }
+          },
+          "english": "When Eve was in Adam, there was no death. When she was separated from him,\ndeath came. If <she> enters into him again and he embraces <her>, death will\ncease to be.",
+          "coptic": "ⲧⲁϩⲃⲱⲕ’ ⲉⲃⲟⲗ’ ⲁϥⲛ̅ⲧⲟⲩ ⲉϩⲟⲩⲛ§ ⲛ̅ϩⲟⲟⲩ’\nⲛⲉⲣⲉ ⲉⲩϩⲁ [ϩ]ⲛ̅ ⲁ[ⲇ]ⲁⲙ’ ⲛⲉ ⲙⲛ̅ ⲙⲟⲩ ϣⲟⲟⲡ’\nⲛ̅ⲧⲁⲣⲉⲥⲡⲱⲣϫ [ⲉⲣ]ⲟϥ’ ⲁⲡⲙⲟⲩ ϣⲱⲡⲉ ⲡⲁ‐\nⲗⲓⲛ ⲉϥϣⲁⲃⲱ[ⲕ ⲉϩ]ⲟⲩⲛ ⲛ̅ϥϫⲓⲧϥ’ ⲉⲣⲟϥ ⲙⲛ̅\nⲙⲟⲩ ⲛⲁϣⲱⲡⲉ §[ⲡ]ⲁⲛⲟⲩⲧⲉ ⲡⲁⲛⲟⲩⲧⲉ ⲉ‐"
+        },
+        {
+          "title": "Why Have You Forsaken Me?",
+          "subtitle": "Why Have You Forsaken Me?",
+          "heading": "Why Have You Forsaken Me? (68, 26-29)",
+          "rangeLabel": "68, 26-29",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 26
+            },
+            "end": {
+              "page": 68,
+              "line": 29
+            }
+          },
+          "english": "“My God, my God, why, Lord, have you forsaken me?” He spoke these words\non the cross, for he had left that place.",
+          "coptic": "ⲙⲟⲩ ⲛⲁϣⲱⲡⲉ §[ⲡ]ⲁⲛⲟⲩⲧⲉ ⲡⲁⲛⲟⲩⲧⲉ ⲉ‐\nⲧⲃⲉ ⲟⲩ ⲡϫⲟⲉⲓⲥ [ⲁ]ⲕ’ⲕⲁⲁⲧ’ ⲛ̅ⲥⲱⲕ’ ⲛ̅ⲧⲁϥϫⲉ\nⲛⲁⲉⲓ ϩⲓ ⲡⲥxⲟⲥ [ⲛⲉ] ⲁϥⲡⲱⲣϫ’ ⲅⲁⲣ’ ⲙ̅ⲡⲙⲁ\nⲉⲧ[ⲙ‐]ⲙⲁⲩ §[.]..[..] ⲛ̅ⲧⲁⲩϫⲡⲟϥ’ ⲉⲃⲟⲗ ϩⲙ̅"
+        },
+        {
+          "title": "True Flesh",
+          "subtitle": "True Flesh",
+          "heading": "True Flesh (68, 29-37)",
+          "rangeLabel": "68, 29-37",
+          "range": {
+            "start": {
+              "page": 68,
+              "line": 29
+            },
+            "end": {
+              "page": 68,
+              "line": 37
+            }
+          },
+          "english": "[The master] was conceived from what [is imperishable], through God. The\n[master rose] from the dead, but [he did not come into being as he] was. Rather,\nhis [body] was [completely] perfect. [It was] of flesh, and this [flesh] was true\nflesh. [Our flesh] is not true flesh, but only an image of the true.",
+          "coptic": "ⲉⲧ[ⲙ‐]ⲙⲁⲩ §[.]..[..] ⲛ̅ⲧⲁⲩϫⲡⲟϥ’ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲉⲧⲧ[.......ⲉ]ⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡⲛⲟⲩⲧⲉ\n§ⲁⲡ[..........ⲉⲃ]ⲟⲗ ϩⲛ̅ ⲛⲉⲧⲙⲟⲟⲩⲧ’\n[..............ϣ]ⲟⲟⲡ’ ⲁⲗⲗⲁ ⲛⲉ‐\n[..............] ⲉϥⲟ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ\n[.............] ⲛ̅ⲥⲁⲣⲝ ⲁⲗⲗⲁ ⲧⲉⲉⲓ\n[.........ⲟⲩⲥ]ⲁⲣⲝ ⲧⲉ ⲛ̅ⲁⲗⲏⲑⲉⲓⲛⲏ\n[........]ⲉ ⲟⲩⲁⲗⲏⲑⲉⲓⲛⲏ ⲁⲛ ⲧⲉ ⲁⲗ‐\n[ⲗⲁ.......] ⲛ̅ϩⲓⲕⲱⲛ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲛⲏ"
+        },
+        {
+          "title": "The Wedding Chamber",
+          "subtitle": "The Wedding Chamber",
+          "heading": "The Wedding Chamber (69, 1-4)",
+          "rangeLabel": "69, 1-4",
+          "range": {
+            "start": {
+              "page": 69,
+              "line": 1
+            },
+            "end": {
+              "page": 69,
+              "line": 4
+            }
+          },
+          "english": "Animals do not have a wedding chamber, nor do slaves or defiled women. The\nwedding chamber is for free men and virgins.",
+          "coptic": "§ⲙⲁⲣⲉ ⲡⲁⲥⲧⲟⲥ ϣⲱⲡⲉ ⲛ̅ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲟⲩ‐\nⲧⲉ ⲙⲁϥϣⲱⲡⲉ ⲛ̅ⲛ̅ϩⲙ̅ϩ̅̅ⲁ̅̅ⲗ̅̅ ⲟⲩⲧⲉ ⲛ̅ⲥϩⲓⲙⲉ\nⲉϥϫⲟϩⲙ ⲁⲗⲗⲁ ϣⲁϥϣⲱⲡⲉ ⲛ̅ϩⲛ̅ⲣⲱⲙⲉ\nⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲡⲁⲣⲑⲉⲛⲟⲥ §ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "Baptism",
+          "subtitle": "Baptism",
+          "heading": "Baptism (69, 4-14)",
+          "rangeLabel": "69, 4-14",
+          "range": {
+            "start": {
+              "page": 69,
+              "line": 4
+            },
+            "end": {
+              "page": 69,
+              "line": 14
+            }
+          },
+          "english": "We are born again through the Holy Spirit, and we are conceived through Christ\nin baptism with two elements. We are anointed through the Spirit, and when we\nwere conceived, we were united.\nNo one can see oneself in the water or in a mirror without light, nor can you\nsee yourself in the light without water or a mirror. So it is necessary to baptize\nwith two elements, light and water, and light is chrism.",
+          "coptic": "ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲡⲁⲣⲑⲉⲛⲟⲥ §ⲉⲃⲟⲗ\nϩⲓⲧⲙ̅ ⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲥⲉϫⲡⲟ ⲙⲉⲛ ⲙ̅ⲙⲟⲛ\nⲛ̅ⲕⲉⲥⲟⲡ’ ⲥⲉϫⲡⲟ ⲇⲉ ⲙ̅ⲙⲟⲛ ϩⲓⲧⲛ̅ ⲡⲉ‐\nⲭⲥ̅ ϩⲙ̅ ⲡⲥⲛⲁⲩ ⲥⲉⲧⲱϩⲥ ⲙ̅ⲙⲟⲛ ϩⲓⲧⲙ̅ ⲡ’‐\nⲡⲛ̅ⲁ̅ ⲛ̅ⲧⲁⲣⲟⲩϫⲡⲟⲛ ⲁⲩϩⲟⲧⲣⲛ̅ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛⲁϣⲛⲁⲩ ⲉⲣⲟϥ’ ⲟⲩⲧⲉ ϩⲙ̅ ⲙⲟⲟⲩ ⲟⲩⲧⲉ ϩⲛ̅\nⲉⲓⲁⲗ’ ⲭⲱⲣⲓⲥ ⲟⲩⲟⲉⲓⲛ ⲟⲩⲧⲉ ⲡⲁⲗⲓⲛ ⲕⲛⲁϣ‐\nⲛⲁⲩ ⲁⲛ ϩⲛ̅ ⲟⲩⲟⲉⲓⲛ ⲭⲱⲣⲓⲥ ⲙⲟⲟⲩ ϩⲓⲁⲗ\nⲇⲓⲁ ⲧⲟⲩⲧⲟ ϣϣⲉ ⲁⲣ̅ⲃⲁⲡⲧⲓⲍⲉ ϩⲙ̅ ⲡⲥⲛⲁⲩ\nϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ’ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲡⲟⲩⲟⲉⲓⲛ ⲇⲉ\nⲡⲉ ⲡⲭⲣⲓⲥⲙⲁ §ⲛⲉⲩⲛ̅ ϣⲟⲙⲧ’ ⲛ̅ⲏⲉⲓ ⲙ̅ⲙⲁ"
+        },
+        {
+          "title": "The Temple in Jerusalem",
+          "subtitle": "The Temple in Jerusalem",
+          "heading": "The Temple in Jerusalem (69, 14-70, 4)",
+          "rangeLabel": "69, 14-70, 4",
+          "range": {
+            "start": {
+              "page": 69,
+              "line": 14
+            },
+            "end": {
+              "page": 70,
+              "line": 4
+            }
+          },
+          "english": "There were three structures for sacrifice in Jerusalem. One opened to the west\nand was called the holy place; a second opened to the south and was called the\nholy of the holy; the third opened to the east and was called the holy of holies,\nwhere only the high priest could enter. The holy place is baptism; the holy of the\nholy is redemption; the holy of holies is the bridal chamber. Baptism entails\nresurrection and redemption, and redemption is in the bridal chamber. The bridal\nchamber is within a realm superior to [what we belong to], and you cannot find\nanything [like it…. These] are the ones who worship [in spirit and in truth, for\nthey do not worship] in Jerusalem. There are people in Jerusalem who [do\nworship] in Jerusalem, and they await [the mysteries] called [the holy] of holies,\nthe curtain [of which] was torn. [Our] bridal chamber is the image [of the bridal\nchamber] above. That is why its curtain was torn from top to bottom, for\nsome people from below had to go up.",
+          "coptic": "ⲡⲉ ⲡⲭⲣⲓⲥⲙⲁ §ⲛⲉⲩⲛ̅ ϣⲟⲙⲧ’ ⲛ̅ⲏⲉⲓ ⲙ̅ⲙⲁ\nⲛ̅ϯⲡⲣⲟⲥⲫⲟⲣⲁ ϩⲛ̅ ⲑⲓⲉⲣⲟⲥⲟⲗⲩⲙⲁ ⲡⲟⲩ‐\nⲁ’ ⲉϥⲟⲩⲉⲛ ⲉⲡⲁⲙⲛⲧⲉ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲕⲉⲟⲩⲁ ⲉϥⲟⲩⲏⲛ’ ⲉⲡⲥⲁ‐\nⲣⲏⲥ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ ⲙ̅‐\nⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲙⲁϩϣⲟⲙⲧ’ ⲉϥ’ⲟⲩⲏⲛ ⲁ‐\nⲡⲁⲉⲓⲃⲧⲉ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ\nⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ ⲡⲙⲁ ⲉϣⲁⲣⲉ ⲡⲁⲣⲭⲓⲉⲣⲉⲩ[ⲥ]\nⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲉⲙⲁⲩ’ ⲟⲩⲁ[ⲁ]ϥ ⲡⲃⲁⲡⲧⲓⲥⲙⲁ\nⲡⲉ ⲡⲏⲉⲓ ⲉⲧⲟⲩⲁⲁⲃ [ⲡ]ⲥⲱ[ⲧ]ⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ\nⲙ̅ⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲉⲧ[ⲟⲩⲁ]ⲁⲃ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ’\nⲡⲉ ⲡⲛⲩⲙⲫⲱⲛ ⲡ[ⲃⲁⲡⲧⲓ]ⲥⲙⲁ ⲟⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲁⲛⲁⲥⲧⲁⲥ[ⲓⲥ ⲙⲛ̅ ⲡ]ⲥⲱⲧⲉ ⲉⲡⲥⲱ‐\nⲧⲉ ϩⲙ̅ ⲡⲛⲩⲙ’ⲫⲱⲛ [ⲉⲡⲛ]ⲩⲙ’ⲫⲱⲛ ⲇⲉ\nϩⲙ̅ ⲡⲉⲧϫⲟⲥⲉ ⲉⲣⲟ[....]ⲛ̅[..]ⲟⲟ..\nⲕⲛⲁϩⲉ ⲁⲛ’ ⲉⲧⲉϥ[.....]ⲧⲱⲡ [....]\nⲛⲉ ⲛⲉⲧϣⲗⲏⲗ [..............]\nⲑⲓⲉⲣⲟⲥⲟⲗⲩⲙⲁ [..........ⲑⲓⲉⲣⲟ]‐\nⲥⲟⲗⲩⲙⲁ ⲉⲩϣ[........ⲑⲓⲉⲣⲟⲥⲟ]‐\nⲗⲩⲙⲁ ⲉⲩϭⲱϣ[ⲧ .............]\nⲛⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩ[ⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲡⲉⲧⲟⲩ]‐\nⲁⲁⲃ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ [..........ⲡⲕⲁ]‐\nⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲡⲱϩ ⲕⲉ[.........]\nⲡⲁⲥⲧⲟⲥ ⲉⲓ ⲙⲏ ⲑⲓⲕⲱⲛ [........ ⲉⲧ]‐\n[ⲙ̅ⲡ]ⲥⲁ ⲛⲧⲡ’ⲉ] ⲉⲧ[ⲃ]ⲉ [ⲡ]ⲁⲉⲓ’ ⲁⲡⲉϥⲕⲁⲧⲁ‐\nⲡⲉⲧⲁⲥⲙⲁ ⲡⲱ[ϩ] ϫⲓⲙ ⲡⲥⲁ ⲛⲧⲡⲉ ϣⲁ\nⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲛⲉ ϣϣⲉ ⲅⲁⲣ ⲉϩⲟⲉⲓⲛⲉ\nϫⲓⲙ ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲛ̅ⲥⲉⲃⲱⲕ’ ⲉⲡⲥⲁ ⲛ’ⲧⲡⲉ"
+        },
+        {
+          "title": "Wearing the Light",
+          "subtitle": "Wearing the Light",
+          "heading": "Wearing the Light (70, 5-9)",
+          "rangeLabel": "70, 5-9",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 5
+            },
+            "end": {
+              "page": 70,
+              "line": 9
+            }
+          },
+          "english": "The powers cannot see those who have put on the perfect light, and they cannot\nseize them. One puts on the light in the mystery of union.",
+          "coptic": "§ⲛⲉⲛⲧⲁϩϯ ϩⲓⲱⲟⲩ ⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲛ ⲛ̅ⲟⲩ‐\nⲟⲉⲓⲛ ⲙⲁⲣⲟⲩⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲛ̅ϭⲓ ⲛ̅ⲇⲩⲛⲁ‐\nⲙⲓⲥ ⲁⲩⲱ ⲙⲁⲩϣⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲟⲩ ⲟⲩ‐\nⲁ ⲇⲉ ⲛⲁϯ ϩⲓⲱⲱϥ’ ⲙ̅ⲡⲓⲟⲩⲟⲉⲓⲛ ϩⲙ̅\nⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲙ̅ ⲡϩⲱⲧⲣ̅ §ⲛⲉ ⲙ’ⲡⲉⲧ’‐"
+        },
+        {
+          "title": "Union in the Bridal Chamber",
+          "subtitle": "Union in the Bridal Chamber",
+          "heading": "Union in the Bridal Chamber (70, 9-22)",
+          "rangeLabel": "70, 9-22",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 9
+            },
+            "end": {
+              "page": 70,
+              "line": 22
+            }
+          },
+          "english": "If the female had not separated from the male, the female and the male would\nnot have died. The separation of male and female was the beginning of death.\nChrist came to heal the separation that was from the beginning and reunite the\ntwo, in order to give life to those who died through separation and unite them.\nA woman is united with her husband in the bridal chamber, and those united\nin the bridal chamber will not be separated again. That is why Eve became\nseparated from Adam, because she had not united with him in the bridal\nchamber.",
+          "coptic": "ⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲙ̅ ⲡϩⲱⲧⲣ̅ §ⲛⲉ ⲙ’ⲡⲉⲧ’‐\nⲥϩⲓⲙⲉ ⲡⲱⲣϫ ⲉⲫⲟⲟⲩⲧ ⲛⲉⲥⲛⲁⲙⲟⲩ\nⲁⲛ ⲡⲉ ⲙⲛ̅ ⲫⲟⲟⲩⲧ’ ⲡⲉϥⲡⲱⲣϫ ⲛ̅ⲧⲁϥ’‐\nϣⲱⲡⲉ ⲛ̅ⲁⲣⲭⲏ ⲙ̅ⲡⲙⲟⲩ ⲇⲓⲁ ⲧⲟⲩⲧⲟ\nⲁⲡⲉⲭⲣ̅ⲥ̅ ⲉⲓ ϫⲉⲕⲁⲁⲥ ⲡⲡⲱⲣϫ ⲛ̅ⲧⲁϩ‐\nϣⲱⲡⲉ ϫⲓⲛ’ ϣⲟⲣⲡ’ ⲉϥⲛⲁⲥⲉϩⲱϥ ⲉⲣⲁⲧϥ’\nⲡⲁⲗⲓⲛ’ ⲛ̅ϥϩⲟⲧⲣⲟⲩ ⲙ̅ⲡⲥⲛⲁⲩ ⲁⲩⲱ ⲛⲉⲛ‐\nⲧⲁϩⲙⲟⲩ ϩⲙ̅ ⲡⲡⲱⲣϫ’ ⲉϥⲛⲁϯ ⲛⲁⲩ ⲛ̅ⲛⲟⲩ‐\nⲱⲛϩ ⲛ̅ϥϩⲟⲧⲣⲟⲩ ϣⲁⲣⲉ ⲧⲥϩⲓⲙⲉ ⲇⲉ\nϩⲱⲧⲣ̅ ⲁⲡⲉⲥϩⲁⲉⲓ ϩⲣⲁⲓ̈ ϩⲙ ⲡⲡⲁⲥⲧⲟⲥ\nⲛⲉⲛⲧⲁϩⲱⲧⲣ̅ ⲇⲉ ϩⲙ̅ ⲡⲡⲁⲥⲧⲟⲥ ⲟⲩⲕⲉ‐\nⲧⲓ ⲥⲉⲛⲁⲡⲱⲣϫ’ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲁⲉⲩϩⲁ\nⲡⲱⲣϫ’ ⲁⲁⲇⲁⲙ ϫⲉ ⲛ̅ⲧⲁⲥϩⲱⲧⲣ̅ ⲉⲣⲟϥ’\nⲁⲛ ϩⲙ̅ ⲡⲡⲁⲥ[ⲧⲟ]ⲥ §ⲧⲯⲩⲭⲏ ⲛ̅ⲁⲇⲁⲙ’ ⲛ̅‐"
+        },
+        {
+          "title": "Adam’s Soul",
+          "subtitle": "Adam’s Soul",
+          "heading": "Adam’s Soul (70, 22-34)",
+          "rangeLabel": "70, 22-34",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 22
+            },
+            "end": {
+              "page": 70,
+              "line": 34
+            }
+          },
+          "english": "Adam’s soul came from a breath. The soul’s companion is spirit, and the spirit\ngiven to him is his mother. His soul was [taken] from him and replaced with\n[spirit]. When he was united with spirit, [he] uttered words superior to the\npowers, and the powers envied him. They [separated him from his] spiritual\ncompanion…hidden…bridal chamber….",
+          "coptic": "ⲁⲛ ϩⲙ̅ ⲡⲡⲁⲥ[ⲧⲟ]ⲥ §ⲧⲯⲩⲭⲏ ⲛ̅ⲁⲇⲁⲙ’ ⲛ̅‐\nⲧⲁⲥϣⲱⲡⲉ ⲉ[ⲃ]ⲟⲗ ϩⲛ̅ⲛⲟⲩⲛⲓϥⲉ ⲡⲉⲥ‐\nϩⲱⲧⲣ̅ ⲡⲉ ⲡⲡ[ⲛ̅]ⲁ̅ ⲡ[ⲉ]ⲛ’ⲧⲁⲩⲧⲁⲁϥ ⲛⲁϥ’\nⲧⲉ ⲧⲉϥⲙⲁⲁⲩ ⲁⲩ[ϥⲓ] ⲛ̅ⲧⲉϥⲯⲩⲭⲏ ⲁⲩϯ\nⲛⲁϥ’ ⲛ̅ⲛⲟⲩ[ⲡⲛ̅ⲁ̅ ⲉ]ⲡⲉⲥⲙⲁ ⲉⲡⲉⲓ ⲛ̅‐\nⲧⲁⲣⲉϥ’ⲡϩⲱⲧⲣ̅ [ⲁϥϫ]ⲱ ⲛ̅ϩⲛ̅ϣⲁϫⲉ ⲉⲩϫⲟ‐\nⲥⲉ’ ⲁⲛⲇⲩⲛⲁ[ⲙⲓⲥ] ⲁⲩⲣ̅ⲃⲁⲥⲕⲁⲛⲉ ⲉⲣⲟϥ\n[....]ⲣϫ [....ϩ]ⲱⲧⲣ̅ ⲙ̅ⲡⲛⲉⲩⲙⲁ‐\n[ⲧⲓⲕ..]ⲩ[.]ⲁ[.....]ⲕⲏ ⲧⲉⲑⲏⲡ’ ⲁⲩ‐\n[...........]ⲁⲉⲓϭⲉ ⲛ̅ϭⲓ ⲡⲉ‐\n[............]ⲟ ⲛⲁⲩ ⲟⲩⲁⲁⲩ\n[........... ⲡ]ⲁⲥⲧⲟⲥ ϣⲓⲛⲁ\n[...........].ⲟⲩ §ⲁⲓⲥ̅ ϭⲱⲗⲡ’"
+        },
+        {
+          "title": "Jesus at the Jordan",
+          "subtitle": "Jesus at the Jordan",
+          "heading": "Jesus at the Jordan (70, 34-71, 3)",
+          "rangeLabel": "70, 34-71, 3",
+          "range": {
+            "start": {
+              "page": 70,
+              "line": 34
+            },
+            "end": {
+              "page": 71,
+              "line": 3
+            }
+          },
+          "english": "Jesus revealed himself [at the] Jordan River as the fullness of heaven’s kingdom.\nThe one [conceived] before all was conceived again; the one anointed\nbefore was anointed again; the one redeemed redeemed others.",
+          "coptic": "[...........].ⲟⲩ §ⲁⲓⲥ̅ ϭⲱⲗⲡ’\n[ⲉⲃⲟⲗ.....ⲡⲉⲓⲟ]ⲣⲇⲁⲛⲏⲥ ⲡⲡⲗⲏ‐\n[ⲣⲱⲙⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲉ]ⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ ⲡⲉⲛ‐\n[ⲧⲁⲩϫⲡⲟϥ ϩ]ⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲧⲏⲣϥ ⲡⲁ’‐\nⲗⲓⲛ ⲁⲩϫⲡⲟϥ’ ⲡ[ⲉⲛⲧⲁ]ⲩⲧ[ⲟ]ϩⲥϥ̅ ⲛ̅ϣⲟⲣ[ⲡ]\nⲡⲁⲗⲓⲛ ⲁⲩⲧⲟϩⲥϥ̅ ⲡ[ⲉⲛ]’ⲧⲁⲩⲥⲟⲧϥ̅ ⲡⲁ‐\nⲗⲓⲛ ⲁϥⲥⲱⲧⲉ §ⲉϣϫⲉ ϣϣⲉ ⲉϫⲱ ⲛ̅ⲟⲩ‐"
+        },
+        {
+          "title": "The Mystery of the Virgin Birth",
+          "subtitle": "The Mystery of the Virgin Birth",
+          "heading": "The Mystery of the Virgin Birth (71, 3-15)",
+          "rangeLabel": "71, 3-15",
+          "range": {
+            "start": {
+              "page": 71,
+              "line": 3
+            },
+            "end": {
+              "page": 71,
+              "line": 15
+            }
+          },
+          "english": "It is necessary to utter a mystery. The Father of the All united with the virgin\nwho came down, and fire shone on him.\nOn that day that one revealed the great bridal chamber, and in this way his\nbody came into being.\nOn that day he came forth from the bridal chamber as one born of a\nbridegroom and a bride.\nSo Jesus established all within it, and it is fitting for each of the disciples to\nenter into his rest.",
+          "coptic": "ⲗⲓⲛ ⲁϥⲥⲱⲧⲉ §ⲉϣϫⲉ ϣϣⲉ ⲉϫⲱ ⲛ̅ⲟⲩ‐\nⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲡⲉⲓⲱⲧ’ ⲙ̅ⲡⲧⲏⲣϥ’ ϩⲱⲧⲣ̅\nⲁⲧ’ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̅ⲧⲁϩⲉⲓ ⲁⲡⲓⲧⲛ̅ ⲁⲩⲱ\nⲁⲩⲕⲱⲧ’ ⲣ̅ ⲟⲩⲟⲉⲓⲛ’ ⲉⲣⲟϥ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅‐\nⲙⲁⲩ ⲁϥϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲙ̅ⲡⲛⲟϭ ⲙ̅ⲡⲁⲥⲧⲟⲥ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲡⲉϥⲥⲱⲙⲁ ⲛ̅ⲧⲁϥϣⲱⲡⲉ\nⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲙ ⲡⲡⲁ‐\nⲥⲧⲟⲥ ⲛ̅ⲑⲉ ⲙ̅ⲡⲉⲛ’ⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲛⲩⲙⲫⲓⲟⲥ ⲙⲛ̅ ⲧⲛⲩⲙⲫⲏ ⲧⲁ’‐\nⲉⲓ ⲧⲉ ⲑⲉ ⲁⲓ̅ⲥ̅ ⲧⲉϩⲟ ⲙ̅ⲡⲧⲏⲣϥ’ ⲉⲣⲁⲧϥ’\nϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ’ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛⲁⲉⲓ ⲁⲩⲱ’\nϣϣⲉ ⲉⲧⲣⲉ ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲙ̅ⲙⲁⲑⲏⲧⲏⲥ\nⲙⲟⲟϣⲉ ⲉϩⲟⲩⲛ’ ⲉⲧⲉϥ’ⲁⲛⲁⲡⲁⲩⲥⲓⲥ"
+        },
+        {
+          "title": "The Births of Adam and Christ",
+          "subtitle": "The Births of Adam and Christ",
+          "heading": "The Births of Adam and Christ (71, 16-21)",
+          "rangeLabel": "71, 16-21",
+          "range": {
+            "start": {
+              "page": 71,
+              "line": 16
+            },
+            "end": {
+              "page": 71,
+              "line": 21
+            }
+          },
+          "english": "Adam came from two virgins, the Spirit and the virgin earth. Christ was born of\na virgin to correct the fall that occurred in the beginning.",
+          "coptic": "§ⲁⲁⲇⲁⲙ’ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲡⲁⲣⲑⲉⲛⲟⲥ\nⲥⲛ̅ⲧⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡ̅ⲛ̅ⲁ̅ ⲁⲩⲱ ⲉⲃⲟⲗ’\nϩⲙ̅ ⲡⲕⲁϩ ⲙ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲃⲉ ⲡⲁⲉⲓ\nⲁⲩϫⲡⲉ ⲡⲉⲭ̅ⲥ̅ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲡⲁⲣⲑⲉⲛⲟⲥ\nϫⲉⲕⲁⲁⲥ ⲡⲉⲥⲗⲟⲟⲧⲉ ⲛ̅ⲧⲁϩϣⲱⲡⲉ\nϩⲛ̅ ⲧⲉϩⲟⲩⲉⲓⲧⲉ ⲉϥⲛⲁ[ⲥ]ⲉϩⲱϥ ⲉⲣⲁⲧϥ’"
+        },
+        {
+          "title": "Two Trees in Paradise",
+          "subtitle": "Two Trees in Paradise",
+          "heading": "Two Trees in Paradise (71, 22-72, 4)",
+          "rangeLabel": "71, 22-72, 4",
+          "range": {
+            "start": {
+              "page": 71,
+              "line": 22
+            },
+            "end": {
+              "page": 72,
+              "line": 4
+            }
+          },
+          "english": "There are two trees growing in paradise. One produces [animals] and the other\nproduces people. Adam [ate] of the tree that produces animals, and [he] became\nan animal and brought forth animals. As a result Adam’s children worship\nanimals. The tree [whose] fruit [he ate] is the [tree of knowledge, and because\nof this, sins] increased. [If he had] eaten the [fruit of the other tree], the fruit of\n[the tree of life, which] produces people, [gods would] worship people. As [in\nparadise] God created people [that people] might create God, so also in\nthis world people make gods and worship what they have created. It would be\nmore fitting for gods to worship people.",
+          "coptic": "§ⲟⲩⲛ̅ ϣⲏⲛ’ ⲥⲛⲁⲩ ⲣⲏⲧ [ϩ]ⲙ̅ ⲡⲡⲁⲣⲁⲇⲓ‐\nⲥⲟⲥ ⲡⲟⲩⲁ ϫⲡⲉ ⲑ[ⲏⲣⲓⲟⲛ] ⲡⲟⲩⲁ ϫⲡⲉ\nⲣⲱⲙⲉ ⲁⲁⲇⲁⲙ’ ⲟ[ⲩⲱⲙ] ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲛ̅ⲧⲁϩϫⲡⲉ ⲑⲏⲣ’ⲓ[ⲟⲛ ⲁϥϣ]ⲱⲡⲉ ⲛ̅ⲑⲏ‐\nⲣⲓⲟⲛ ⲁϥϫⲡⲉ ⲑⲏ[ⲣⲓⲟⲛ ⲉ]ⲧⲃⲉ ⲡⲁⲓ̈ ⲥⲉ‐\nⲣ̅ⲥⲉⲃⲉⲥⲑⲉ ⲁⲛⲑ[ⲏⲣⲓⲟⲛ ⲛ̅ϭ]ⲓ ⲛ̅ϣⲏⲣⲉ\nⲛ̅ⲁⲇⲁⲙ ⲡϣⲏ[ⲛ ...........]\nⲕⲁⲣⲡⲟⲥ ⲡⲉ ⲡ[............]\nⲡⲁⲉⲓ ⲁⲩⲁϣ[ⲁⲉⲓ............]\nⲟⲩⲱⲙ’ ⲙ̅ⲡ[..............]\nⲕⲁⲣⲡⲟⲥ ⲙ̅ⲡ[..............]\nϫⲡⲟ ⲛ̅ⲣ̅ⲣⲱⲙⲉ [............]\nⲱⲧ’ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅[...........]\nⲡⲛⲟⲩⲧⲉ ⲧⲁⲙⲉⲓⲉ ⲡⲣⲱ[ⲙⲉ...ⲣ̅ⲣⲱ]\nⲙⲉ ⲧⲁⲙⲉⲓⲉ ⲡ[ⲛ]ⲟⲩ[ⲧ]ⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲉⲛⲣⲱ[ⲙ]ⲉ ⲧⲁⲙⲓⲉ ⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲥⲉⲟⲩ‐\nⲱϣⲧ’ ⲛ̅ⲛⲟⲩⲧⲁⲙⲓⲟ ⲛⲉ ϣϣⲉ ⲉⲧⲣⲉ ⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲟⲩⲱϣⲧ’ ⲛ̅ⲣ̅ⲣⲱⲙⲉ §ⲛ̅ⲑⲉ ⲉⲥϣⲟⲟⲡ’ ⲙ̅‐"
+        },
+        {
+          "title": "Accomplishments",
+          "subtitle": "Accomplishments",
+          "heading": "Accomplishments (72, 4-17)",
+          "rangeLabel": "72, 4-17",
+          "range": {
+            "start": {
+              "page": 72,
+              "line": 4
+            },
+            "end": {
+              "page": 72,
+              "line": 17
+            }
+          },
+          "english": "The truth is, a person’s accomplishments depend on that person’s abilities, and\nfor this reason we refer to accomplishments as abilities. Among such\naccomplishments are a person’s children, and they come into being from a time\nof rest. Now, one’s abilities come to expression in what one accomplishes, and\nrest is clearly found in children. You will find this also applies to the image.\nThese are the people made after the image, who accomplish things through\ntheir strength and bring forth children through rest.",
+          "coptic": "ⲧⲉ ⲟⲩⲱϣⲧ’ ⲛ̅ⲣ̅ⲣⲱⲙⲉ §ⲛ̅ⲑⲉ ⲉⲥϣⲟⲟⲡ’ ⲙ̅‐\nⲙⲟⲥ ⲛ̅ϭⲓ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲛ̅ⲛ̅ϩⲃⲏⲩⲉ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ϣⲁⲩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉϥ’ⲇⲩⲛⲁⲙⲓⲥ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲥⲉⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲛ̅ⲇⲩ‐\nⲛⲁⲙⲓⲥ ⲛⲉϥϩⲃⲏⲩⲉ ⲛⲉ ⲛⲉϥ’ϣⲏⲣⲉ ⲛ̅ⲧⲁⲩ‐\nϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉⲧⲃⲉ\nⲡⲁⲉⲓ ⲧⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲣ̅ⲡⲟⲗⲓⲧⲉⲩⲉⲥⲑⲉ\nϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉϥϩⲃⲏⲩⲉ ⲉⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲇⲉ\nⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ϣⲏⲣⲉ ⲁⲩⲱ’\nⲕⲛⲁϩⲉ ⲉⲡⲁⲉⲓ’ ⲉϥϫⲱⲧⲉ ϣⲁ ϩⲁⲓ̈ ⲉⲑⲓⲕⲱⲛ\nⲁⲩⲱ ⲡⲁⲉⲓ ⲡⲉ ⲡⲣⲱⲙⲉ ⲛ̅ϩⲓⲕⲟⲛⲓⲕⲟⲥ\nⲉϥⲉⲓⲣⲉ ⲛ̅ⲛⲉϥϩⲃⲏⲩⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉϥϭⲟⲙ’\nⲉⲃⲟⲗ ⲇⲉ ϩⲛ̅ ⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉϥϫⲡⲟ ⲛ̅ⲛⲉϥ’‐\nϣⲏⲣⲉ §ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲣ̅‐"
+        },
+        {
+          "title": "Slaves and the Free",
+          "subtitle": "Slaves and the Free",
+          "heading": "Slaves and the Free (72, 17-29)",
+          "rangeLabel": "72, 17-29",
+          "range": {
+            "start": {
+              "page": 72,
+              "line": 17
+            },
+            "end": {
+              "page": 72,
+              "line": 29
+            }
+          },
+          "english": "In this world slaves serve the free. In heaven’s kingdom the free will serve the\nslaves and the attendants of the bridal chamber will serve the wedding guests.\nThe attendants of the bridal chamber have only one name, and that is rest.\nWhen they are together, they need no other form, [for they are in]\ncontemplation…perception. They are superior…among those in…the glories of\nglories….",
+          "coptic": "ϣⲏⲣⲉ §ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲣ̅‐\nϩⲩⲡⲏⲣⲉⲧⲉⲓ ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ϩⲛ̅ ⲧⲙⲛ̅‐\nⲧⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ ⲛⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲛⲁⲣ̅‐\nⲇⲓⲁⲕⲟⲛ[ⲉⲓ] ⲛ̅ⲛ̅ϩⲙ̅ϩ̅ⲁ̅ⲗ̅ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲙ̅‐\nⲡⲛⲩⲙⲫ[ⲱ]ⲛ ⲛ[ⲁ]ⲣ̅ⲇⲓⲁⲕⲟⲛⲉⲓ ⲛ̅ⲛ̅ϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲅⲁ[ⲙⲟⲥ ⲛ̅]ϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ’ⲫⲱⲛ\nⲟⲩⲣⲁⲛ ⲟⲩ[ⲱⲧ ⲡⲉ]ⲧⲉ ⲟⲩⲛⲧⲁⲩϥ’ ⲧⲁⲛⲁ‐\nⲡⲁⲩⲥⲓⲥ’ ⲉ[ⲩϩⲓ ⲛ]ⲟⲩⲉⲣⲏⲩ ⲥⲉⲣ̅ⲭⲣⲉⲓⲁ ⲁⲛ\nⲛ̅ϫⲓ ϩⲣ̅ⲃ[’ ⲉⲩⲛ̅ⲧⲁⲩ] ⲧⲉⲑⲉⲱⲣⲉⲓⲁ ⲙ̅ⲙⲁⲩ\n[....]ⲫ[.....]ⲑⲏⲥⲓⲥ ϩⲛ̅ϩⲟⲩⲟ ⲛⲉ\n[............]ⲥⲓⲁ ϩⲛ̅ ⲛⲉⲧϩⲛ̅ ⲡ’‐\n[...........]ⲛ̅ ⲛⲉⲟⲟⲩ ⲛ̅ⲛⲉ‐\n[...........]ⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ §ⲛⲉ‐"
+        },
+        {
+          "title": "Jesus Going Down into the Water",
+          "subtitle": "Jesus Going Down into the Water",
+          "heading": "Jesus Going Down into the Water (72, 29-73, 1)",
+          "rangeLabel": "72, 29-73, 1",
+          "range": {
+            "start": {
+              "page": 72,
+              "line": 29
+            },
+            "end": {
+              "page": 73,
+              "line": 1
+            }
+          },
+          "english": "[It] was [necessary for Jesus] to go down into the water [in order to perfect] and\npurify it. [So also] those who are [baptized] in his name [are perfected]. For he\nsaid, “[Thus] shall we perfect all righteousness.”",
+          "coptic": "[...........]ⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ §ⲛⲉ‐\n[..........ⲃ]ⲱⲕ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟ‐\n[ⲟⲩ ........] ⲉⲃⲟⲗ’ ⲉϥⲛⲁⲥⲟⲧϥ’\n[.........]ⲕ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲛⲉⲛ’ⲧⲁϩ‐\n[......] ϩⲙ̅ ⲡⲉϥⲣⲁⲛ ⲡⲉϫⲁϥ ⲅⲁⲣ\n[ϫⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑ]ⲉ ⲉⲛⲁϫⲱⲕ’ ⲉⲃⲟⲗ ⲛ̅ⲇⲓⲕ(ⲁⲓ)‐\nⲟⲥⲩⲛⲏ ⲛⲓⲙ’ §ⲛⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲥⲉⲛⲁ‐"
+        },
+        {
+          "title": "Resurrection and Baptism",
+          "subtitle": "Resurrection and Baptism",
+          "heading": "Resurrection and Baptism (73, 1-8)",
+          "rangeLabel": "73, 1-8",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 1
+            },
+            "end": {
+              "page": 73,
+              "line": 8
+            }
+          },
+          "english": "People who say they will first die and then arise are wrong. If they do not\nreceive the resurrection first, while they are alive, they will receive nothing when\nthey die. So it is said of baptism, “Great is baptism,” for if people receive it, they\nwill live.",
+          "coptic": "ⲟⲥⲩⲛⲏ ⲛⲓⲙ’ §ⲛⲉⲧϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲥⲉⲛⲁ‐\nⲙⲟⲩ ⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ ⲥⲉⲛⲁⲧⲱⲟⲩⲛ ⟦ⲛ̅⟧ ⲥⲉ‐\nⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲉⲩⲧⲙ̅ϫⲓ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ⲧⲁⲛⲁ‐\nⲥⲧⲁⲥⲓⲥ ⲉⲩⲟⲛϩ ⲉⲩϣⲁⲙⲟⲩ ⲥⲉⲛⲁϫⲓ ⲗⲁ‐\nⲁⲩ ⲁⲛ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲟⲛ ⲉⲩϫⲱ ⲙ̅ⲙⲟⲥ ⲉ‐\nⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲉⲩϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲟⲩⲛⲟϭ\nⲡⲉ ⲡⲃⲁⲡⲧⲓⲥⲙⲁ ϫⲉ ⲉⲩϣⲁϫⲓⲧϥ’ ⲥⲉⲛⲁ‐\nⲱⲛϩ §ⲫⲓⲗⲓⲡⲡⲟⲥ ⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲡⲉ‐"
+        },
+        {
+          "title": "Joseph the Carpenter",
+          "subtitle": "Joseph the Carpenter",
+          "heading": "Joseph the Carpenter (73, 8-19)",
+          "rangeLabel": "73, 8-19",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 8
+            },
+            "end": {
+              "page": 73,
+              "line": 19
+            }
+          },
+          "english": "Philip the apostle said, “Joseph the carpenter planted a garden, for he needed\nwood for his trade. He is the one who made the cross from the trees he planted,\nand his own offspring hung on what he planted. His offspring was Jesus and\nwhat he planted was the cross.”\nThe tree of life, however, is in the middle of the garden. It is an olive tree,\nand from it comes chrism, and from chrism comes resurrection.",
+          "coptic": "ⲱⲛϩ §ⲫⲓⲗⲓⲡⲡⲟⲥ ⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲡⲉ‐\nϫⲁϥ ϫⲉ ⲓ̈ⲱⲥⲏⲫ’ ⲡϩⲁⲙ’ϣⲉ’ ⲁϥⲧⲱϭⲉ ⲛ̅‐\nⲛⲟⲩⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ϫⲉ ⲛⲉϥⲣ̅ⲭⲣⲉⲓⲁ ⲛ̅ϩⲛ̅‐\nϣⲉ ⲉϩⲟⲩⲛ’ ⲉⲧⲉϥ’ⲧⲉⲭⲛⲏ ⲛ̅ⲧⲟϥ ⲡⲉⲛ‐\nⲧⲁϩⲧⲁⲙⲓⲟ ⲙ̅ⲡⲥⲧⲁⲩⲣⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅‐\nϣⲏⲛ ⲛ̅ⲧⲁϥ’ⲧⲟϭⲟⲩ ⲁⲩⲱ ⲡⲉϥϭⲣⲟϭ ⲛⲉϥ’‐\nⲟϣⲉ ⲁⲡⲉⲛⲧⲁϥⲧⲟϭϥ’ ⲛⲉ ⲡⲉϥϭⲣⲟϭ ⲡⲉ\nⲓⲏ̅ⲥ̅ ⲡⲧⲱϭⲉ ⲇⲉ ⲡⲉ ⲡⲉⲥxⲟⲥ ⲁⲗⲗⲁ ⲡϣⲏⲛ\nⲙ̅ⲡⲱⲛϩ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ\nⲁⲩⲱ ⲧⲃⲉⲛ̅ϫⲟⲉⲓⲧ’ ⲛ̅ⲧⲁ ⲡⲉⲭⲣⲉⲓⲥⲙⲁ ϣⲱ‐\nⲡⲉ ⲉⲃⲟⲗ’ ⲛ̅ϩⲏⲧⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ’ ⲁⲧⲁ‐\nⲛⲁⲥⲧⲁⲥⲓⲥ §ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲁⲙⲕⲱ‐"
+        },
+        {
+          "title": "This World Eats Corpses",
+          "subtitle": "This World Eats Corpses",
+          "heading": "This World Eats Corpses (73, 19-27)",
+          "rangeLabel": "73, 19-27",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 19
+            },
+            "end": {
+              "page": 73,
+              "line": 27
+            }
+          },
+          "english": "This world eats corpses, and everything eaten in this world also dies. Truth eats\nlife, and no one nourished by [truth] will die. Jesus came from that realm and\nbrought food from there, and he gave [life] to all who wanted it, that they might\nnot die.",
+          "coptic": "ⲛⲁⲥⲧⲁⲥⲓⲥ §ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲁⲙⲕⲱ‐\nⲱⲥ ⲡⲉ ⲛ̅ⲕⲉ ⲛⲓⲙ’ ⲉⲧⲟⲩⲱⲙ’ ⲙ̅ⲙⲟⲟⲩ\nϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ’ ⲥⲉⲙⲟ[ⲩ] ϩⲱⲟⲩ ⲟⲛ’ ⲧⲁⲗⲏⲑⲉⲓ‐\nⲁ ⲟⲩⲁⲙⲱⲛϩ ⲧⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲙⲛ̅ ⲗⲁⲁⲩ\nϩⲛ̅ ⲛⲉⲧ’ⲥⲟⲛϣ ϩⲛ̅ ⲧ[ⲙⲉ] ⲛⲁⲙⲟⲩ ⲛ̅ⲧⲁ ⲓ̅ⲥ̅\nⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲙⲁ ⲉ[ⲧⲙ̅]ⲙⲁⲩ ⲁⲩⲱ ⲁϥⲉⲓ‐\nⲛⲉ ⲛ̅ϩⲛ̅ⲧⲣⲟⲫⲏ ⲉⲃⲟⲗ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲛⲉ‐\nⲧⲟⲩⲱϣ ⲁϥϯ ⲛⲁⲩ [ⲛ̅ⲟⲩ]ⲱ[ⲛϩ] ϫⲉ[ⲕⲁⲁⲥ]\nⲛ̅ⲛⲟⲩⲙⲟⲩ §ⲁⲡⲛ[ⲟⲩⲧⲉ .]..ⲉ ⲛ̅ⲟ[ⲩⲡⲁⲣⲁ]‐"
+        },
+        {
+          "title": "God Plants Paradise",
+          "subtitle": "God Plants Paradise",
+          "heading": "God Plants Paradise (73, 27-74, 12)",
+          "rangeLabel": "73, 27-74, 12",
+          "range": {
+            "start": {
+              "page": 73,
+              "line": 27
+            },
+            "end": {
+              "page": 74,
+              "line": 12
+            }
+          },
+          "english": "[God planted] a garden, and humans [lived in the] garden. There are some [who\ndwell] with…God….\nThis garden [is where] it will be said to me, “…[eat] this and do not eat that,\n[as you] wish.” This is where I shall eat everything, where the tree of\nknowledge is.\nThat tree killed Adam, but here the tree of knowledge has brought people\nback to life. That tree was the law. It can give knowledge of good and evil, but it\nneither freed Adam from evil nor made him good, and it brought death to those\nwho ate of it. For when it was said, “Eat this and do not eat that,” death began.",
+          "coptic": "ⲛ̅ⲛⲟⲩⲙⲟⲩ §ⲁⲡⲛ[ⲟⲩⲧⲉ .]..ⲉ ⲛ̅ⲟ[ⲩⲡⲁⲣⲁ]‐\nⲇⲉⲓⲥⲟⲥ ⲁⲡⲣⲱ[ⲙⲉ........ⲡⲁⲣⲁ]‐\nⲇⲉⲓⲥⲟⲥ ⲟⲩⲛ̅ ϩ[.......... ϣⲟ]‐\nⲟⲡ’ ⲙⲛ̅ ϩⲙ̅ⲡ[............]\nⲙ̅ⲡⲛⲟⲩⲧⲉ ϩⲙ̅ [............]\nⲙⲉ ⲛⲉⲧⲛ̅ϩⲏⲧ[ϥ...........ⲉ]‐\nϯ ⲟⲩⲱϣ ⲡⲓⲡⲁⲣⲁⲇ[ⲉⲓⲥⲟⲥ ⲡⲉ ⲡⲙⲁ ⲉ]‐\nⲧⲟⲩⲛⲁϫⲟⲟⲥ ⲛⲁⲉⲓ ϫⲉ [....ⲟⲩⲱⲙ]\nⲙ̅ⲡⲁⲉⲓ ⲏ ⲙⲛ̅ⲟⲩⲱⲙ’ ⲙ̅[ⲡⲁⲉⲓ ⲛ̅ⲑⲉ ⲉⲧⲕ]‐\nⲟⲩⲱϣ ⲡⲁⲉⲓ ⲡⲙⲁ [ⲉ]ϯⲛⲁⲟⲩⲱⲙ’ ⲛ̅ⲕⲉ ⲛⲓⲙ’\nⲙ̅ⲙⲁⲩ ⲉϥϣⲟ[ⲟ]ⲡ’ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲡϣⲏⲛ ⲛ̅ⲧ’‐\nⲅⲛⲱⲥⲓⲥ ⲡⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲙⲟⲩⲧ’ ⲁⲇⲁⲙ ⲡⲉ‐\nⲉⲓⲙⲁ ⲇⲉ ⲡϣⲏⲛ’ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲁϥⲧⲛ̅ϩⲉ ⲡⲣⲱ‐\nⲙⲉ ⲡⲛⲟⲙⲟⲥ ⲛⲉ ⲡϣⲏⲛ ⲡⲉ ⲟⲩⲛ̅ ϭⲟⲙ’\nⲙ̅ⲙⲟϥ ⲛ̅ϥϯ ⲧⲅⲛⲱⲥⲓⲥ ⲙ̅ⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ’\nⲙⲛ̅ ⲡⲉⲑⲟⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲉϥⲗⲁϭⲉ ⲉⲣⲟϥ ϩⲙ̅\nⲡⲡⲉⲑⲟⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡⲉϥ’ⲕⲁⲁϥ ϩⲙ̅ ⲡⲡⲉⲧⲛⲁ‐\nⲛⲟⲩϥ ⲁⲗⲗⲁ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲙⲟⲩ ⲛ̅ⲛⲉⲛⲧⲁϩ‐\nⲟⲩⲱⲙ’ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ϩⲙ̅ ⲡⲧⲣⲉϥϫⲟⲟⲥ ⲅⲁⲣ\nϫⲉ ⲟⲩⲱⲙ’ ⲡⲁⲉⲓ’ ⲙⲛ̅ⲟⲩⲱⲙ’ ⲡⲁⲉⲓ ⲁϥϣⲱ‐\nⲡⲉ ⲛ̅ⲁⲣⲭⲏ’ ⲙ̅ⲡⲙⲟⲩ §ⲡⲭⲣⲉⲓⲥⲙⲁ ϥⲟ ⲛ̅ϫⲟ‐"
+        },
+        {
+          "title": "Chrism Is Superior to Baptism",
+          "subtitle": "Chrism Is Superior to Baptism",
+          "heading": "Chrism Is Superior to Baptism (74, 12-24)",
+          "rangeLabel": "74, 12-24",
+          "range": {
+            "start": {
+              "page": 74,
+              "line": 12
+            },
+            "end": {
+              "page": 74,
+              "line": 24
+            }
+          },
+          "english": "Chrism is superior to baptism. We are called Christians from the word “chrism,”\nnot from the word “baptism.” Christ also has his name from chrism, for the\nFather anointed the Son, the Son anointed the apostles, and the apostles anointed\nus. Whoever is anointed has everything: resurrection, light, cross, Holy Spirit.\nThe Father gave all this to the person in the bridal chamber, and the person\naccepted it. The Father was in the Son and the Son was in the Father. This is\nheaven’s kingdom.",
+          "coptic": "ⲡⲉ ⲛ̅ⲁⲣⲭⲏ’ ⲙ̅ⲡⲙⲟⲩ §ⲡⲭⲣⲉⲓⲥⲙⲁ ϥⲟ ⲛ̅ϫⲟ‐\nⲉⲓⲥ ⲉⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲉⲃⲟⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲭⲣⲓⲥⲙⲁ\nⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲛ’ ϫⲉ ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲉⲧⲃⲉ\nⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲁⲛ’ ⲁⲩⲱ ⲛ̅ⲧⲁⲩⲙⲟⲩⲧⲉ ⲉⲡⲉ‐\nⲭ̅ⲥ̅ ⲉⲧⲃⲉ ⲡⲭⲣⲓⲥⲙⲁ ⲁⲡⲉⲓⲱⲧ’ ⲅⲁⲣ’ ⲧⲱϩⲥ\nⲙ̅ⲡϣⲏⲣⲉ ⲁⲡϣⲏⲣⲉ ⲇⲉ ⲧⲱϩⲥ ⲛ̅ⲁⲡⲟⲥⲧⲟ‐\nⲗⲟⲥ ⲁⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲇⲉ ⲧⲁϩⲥⲛ̅ ⲡⲉⲛ‐\nⲧⲁⲩⲧⲟϩⲥϥ’ ⲟⲩⲛ̅ⲧⲉϥ’ ⲡⲧⲏⲣϥ’ ⲙ̅ⲙⲁⲩ ⲟⲩⲛ̅‐\nⲧⲁϥ ⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲡⲟⲩⲟⲉⲓⲛ ⲡⲉⲥxⲟⲥ’\nⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’ ⲁⲡⲉⲓⲱⲧ’ ϯ ⲛⲁϥ ⲙ̅ⲡⲁ‐\nⲉⲓ ϩⲙ̅ ⲡⲛⲩ[ⲙ]ⲫⲱⲛ ⲁϥϫⲓ ⲁϥϣⲱⲡⲉ ⲛ̅ϭⲓ\nⲡⲉⲓⲱⲧ’ ϩⲙ̅ ⲡϣ[ⲏ]ⲣⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ ϩⲙ̅ ⲡⲉⲓ‐\nⲱⲧ’ ⲧⲁⲉⲓ ⲧ[ⲉ ⲧⲙⲛ̅ⲧ]ⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ §ⲕⲁⲗⲱⲥ"
+        },
+        {
+          "title": "Laughing",
+          "subtitle": "Laughing",
+          "heading": "Laughing (74, 24-75, 2)",
+          "rangeLabel": "74, 24-75, 2",
+          "range": {
+            "start": {
+              "page": 74,
+              "line": 24
+            },
+            "end": {
+              "page": 75,
+              "line": 2
+            }
+          },
+          "english": "The master put it very well: “Some have gone into heaven’s kingdom laughing,\nand they have come out [laughing].”\nSomeone said, “[That is] a Christian.”\nThe person said [again, “That is the one who went] down into the water and\ncame [up as lord] of all. [Redemption is no] laughing matter, but [a person goes\nlaughing into] heaven’s kingdom out of contempt for these rags. If the person\ndespises [the body] and considers it a laughing matter, [the person will come out]\nlaughing.”\nSo it is also with bread, the cup, and oil, though there are mysteries\nhigher than these.",
+          "coptic": "ⲱⲧ’ ⲧⲁⲉⲓ ⲧ[ⲉ ⲧⲙⲛ̅ⲧ]ⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩⲉ §ⲕⲁⲗⲱⲥ\nⲁⲡϫⲟⲉⲓⲥ ϫⲟⲟ[ⲥ ϫ]ⲉ ⲁϩⲟⲉⲓⲛⲉ ⲃⲱⲕ’ ⲉⲧⲙⲛ̅‐\nⲧⲉⲣⲟ ⲛⲙ̅ⲡⲏⲩ[ⲉ] ⲉⲩⲥⲱⲃⲉ ⲁⲩⲱ ⲁⲩⲉⲓ ⲉⲃⲟⲗ\n[...]ⲱ[.]ⲉⲁⲩ[...]ⲟⲩⲁ ϫⲉ ⲟⲩⲭⲣⲏⲥⲧⲓⲁⲛⲟⲥ\n[...]ⲡⲉⲭ[..]’ [....] ⲟⲛ ⲁⲩⲱ ⲛ̅ⲧⲉⲩⲛⲟⲩ’\n[........ⲃⲱⲕ ⲉⲡ]ⲓⲧⲛ̅ ⲉⲡⲙⲟⲟⲩ ⲁϥⲉⲓ\n[............]ⲥ ⲁⲡⲧⲙⲣϥ’ ⲉⲧⲃⲉ\n[..........ⲟⲩⲡ]ⲁⲓⲅⲛⲓⲟⲛ ⲡⲉ ⲁⲗ‐\n[ⲗⲁ ........ⲣ̅ⲕⲁⲧⲁⲫ]ⲣⲟⲛⲉⲓ ⲙ̅ⲡⲉⲉⲓⲡⲉ‐\n[..........]ⲛ’ ⲉⲧⲙⲛ̅ⲧⲉⲣⲟ ⲛⲙ̅‐\n[ⲡⲏⲩⲉ ......] ⲉϥϣⲁⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉ\n[......ⲁ]ⲩⲱ ⲛ̅ϥϣⲟⲥϥ’ ϩⲱⲥ ⲡⲁⲓⲅⲛⲓ‐\n[ⲟⲛ....ⲉⲃ]ⲟⲗ ⲉϥⲥⲱⲃⲉ ⲧⲉⲉⲓϩⲉ ⲟⲛ ⲧⲉ\nϩⲓ ⲡⲟⲉⲓⲕ’ ⲙⲛ̅ ⲡⲡⲟ[ⲧ]ⲏⲣⲓⲟⲛ ⲙⲛ̅ ⲡⲛⲏϩ\nⲕⲁⲛ ⲟⲩⲛ̅ ⲕⲉⲟⲩⲁ ⲉϥϫⲟⲥⲉ ⲉⲛⲁⲉⲓ §ⲁⲡ’‐"
+        },
+        {
+          "title": "Creation Through a Mistake",
+          "subtitle": "Creation Through a Mistake",
+          "heading": "Creation Through a Mistake (75, 2-14)",
+          "rangeLabel": "75, 2-14",
+          "range": {
+            "start": {
+              "page": 75,
+              "line": 2
+            },
+            "end": {
+              "page": 75,
+              "line": 14
+            }
+          },
+          "english": "The world came into being through a mistake. The creator wanted to make it\nincorruptible and immortal, but he failed and did not get what he hoped for. For\nthe world is not incorruptible and the creator of the world is not incorruptible.\nThings are not incorruptible, but offspring are. Nothing can receive\nincorruptibility unless it is an offspring. And whatever cannot receive certainly\ncannot give.",
+          "coptic": "ⲕⲁⲛ ⲟⲩⲛ̅ ⲕⲉⲟⲩⲁ ⲉϥϫⲟⲥⲉ ⲉⲛⲁⲉⲓ §ⲁⲡ’‐\nⲕⲟⲥⲙⲟⲥ ϣⲱⲡⲉ ϩⲛ̅ ⲟⲩⲡⲁⲣⲁⲡⲧⲱⲙⲁ\nⲡⲉⲛⲧⲁϩⲧⲁⲙⲓⲟϥ ⲅⲁⲣ’ ⲛⲉϥ’ⲟⲩⲱϣ’ ⲁⲧⲁ‐\nⲙⲓⲟϥ’ ⲉϥⲟ ⲛ̅ⲁⲧ’ⲧⲁⲕⲟ ⲁⲩⲱ ⲛⲁⲑⲁⲛⲁⲧⲟⲥ\nⲁϥϩⲉ ⲉⲃⲟⲗ ⲁⲩⲱ ⲙ̅ⲡⲉϥ’ⲙⲉⲧⲉ ⲁⲑⲉⲗⲡⲓⲥ\nⲛⲉⲥϣⲟⲟⲡ’ ⲅⲁⲣ ⲁⲛ ⲛ̅ϭⲓ ⲧⲙⲛ̅ⲧⲁⲧⲧⲉⲕⲟ\nⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲁⲩⲱ † ⲛⲉϥϣⲟⲟⲡ’ ⲁⲛ ⲛ̅ϭⲓ\nⲧⲙ̅ⲛ̅ⲧⲁⲧ’ⲧⲁⲕⲟ ⲙ̅ⲡⲉⲛⲧⲁϩⲧⲁⲙⲓⲉ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲥϣⲟⲟⲡ ⲅⲁⲣ ⲁⲛ ⲛ̅ϭⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧ’ⲧⲁ‐\nⲕⲟ ⲛ̅ⲛ̅ϩⲃⲏⲩⲉ ⲁⲗⲗⲁ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲁⲩⲱ ⲙⲛ̅\nⲟⲩϩⲱⲃ’ ⲛⲁϣϫⲓ ⲛ̅ⲟⲩⲙ̅ⲛ̅ⲧⲁⲧⲧⲁⲕⲟ ⲉϥⲧⲙ̅‐\nϣⲱⲡⲉ ⲛ̅ϣⲏⲣⲉ ⲡⲉⲧⲉ ⲙⲛ̅ ϭⲟⲙ ⲇⲉ ⲙ̅ⲙⲟϥ’\nⲉϫⲓ ⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ϥⲛⲁϣϯ ⲁⲛ §ⲡⲡⲟⲧⲏ‐"
+        },
+        {
+          "title": "Eucharist and Baptism",
+          "subtitle": "Eucharist and Baptism",
+          "heading": "Eucharist and Baptism (75, 14-25)",
+          "rangeLabel": "75, 14-25",
+          "range": {
+            "start": {
+              "page": 75,
+              "line": 14
+            },
+            "end": {
+              "page": 75,
+              "line": 25
+            }
+          },
+          "english": "The cup of prayer contains wine and water, for it represents the blood for\nwhich thanksgiving is offered. It is full of the Holy Spirit, and it belongs to the\ncompletely perfect human. When we drink it, we take to ourselves the perfect\nhuman.\nThe living water is a body, and we must put on the living human. Thus, when\none is about to go down into the water, one strips in order to put on the living\nhuman.",
+          "coptic": "ⲉϫⲓ ⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ϥⲛⲁϣϯ ⲁⲛ §ⲡⲡⲟⲧⲏ‐\nⲣⲓⲟⲛ’ ⲙ̅ⲡϣⲗⲏⲗ ⲟⲩⲛ̅ⲧⲁϥ ⲏⲣⲡ’ ⲙ̅ⲙⲁⲩ ⲟⲩ‐\nⲛ̅ⲧⲁϥ’ ⲙⲟⲟⲩ ⲉϥ’ⲕⲏ ⲉϩⲣⲁⲓ̈ ⲉⲡⲧⲩⲡⲟⲥ’ ⲙ̅‐\nⲡⲉⲥⲛⲟϥ’ ⲉⲧⲟⲩⲣ̅ⲉⲩⲭⲁⲣⲓⲥⲧⲉⲓ ⲉϫⲱϥ ⲁⲩ‐\nⲱ ϥⲙⲟⲩϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲁⲩ‐\nⲱ ⲡⲁ ⲡⲧⲉⲗⲉⲓⲟⲥ ⲧⲏⲣϥ ⲣ̅ⲣⲱⲙⲉ ⲡⲉ ϩⲟⲧⲁⲛ\nⲉⲛ’ϣⲁⲛⲥⲱ ⲙ̅ⲡⲁⲉⲓ ⲧⲛⲁϫⲓ ⲛⲁⲛ ⲙ̅ⲡⲧⲉ‐\nⲗⲉⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲡⲙⲟⲟⲩ ⲉⲧⲟⲛϩ ⲟⲩⲥⲱⲙⲁ\nⲡⲉ ϣϣⲉ ⲉⲧⲣⲛ̅ϯ ϩⲓⲱⲱⲛ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲧⲟⲛϩ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲉϥⲉⲓ ⲉϥⲃⲏⲕ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟ‐\nⲟⲩ ϣⲁϥⲕⲁⲕϥ ⲁϩⲏⲩ ϣⲓⲛⲁ ⲉϥⲛⲁϯ ⲡⲏ\nϩⲓⲱⲱϥ’ §ϣⲁⲣⲉ ⲟⲩϩⲧⲟ ϫⲡⲉ ⲟⲩϩⲧⲟ ⲟⲩ‐"
+        },
+        {
+          "title": "Like Bring Forth Like",
+          "subtitle": "Like Bring Forth Like",
+          "heading": "Like Bring Forth Like (75, 25-76, 6)",
+          "rangeLabel": "75, 25-76, 6",
+          "range": {
+            "start": {
+              "page": 75,
+              "line": 25
+            },
+            "end": {
+              "page": 76,
+              "line": 6
+            }
+          },
+          "english": "A horse brings forth a horse, a human brings forth humans, a deity brings forth\ndeities. So also bridegrooms and brides come from the [bridegroom and bride].\nNo Jews…from Greeks…from Jews…to Christians. [There was another\ngeneration of people], and these [blessed people] were called the chosen spiritual\nones, true humanity, the child of humanity, and the offspring of the child of\nhumanity. This true generation is renowned in the world, and this is where the\nattendants of the bridal chamber are.",
+          "coptic": "ϩⲓⲱⲱϥ’ §ϣⲁⲣⲉ ⲟⲩϩⲧⲟ ϫⲡⲉ ⲟⲩϩⲧⲟ ⲟⲩ‐\nⲣⲱⲙⲉ ϣⲁⲣⲉϥ’ϫⲡⲉ ⲣⲱⲙⲉ ⲟⲩⲛⲟⲩⲧⲉ\nϣⲁⲣⲉϥϫⲡⲉ ⲛⲟⲩⲧⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲙ̅[ⲡⲁ ⲧ]‐\nϣⲉⲗⲉⲉⲧ’ ⲙⲛ̅ ϩⲛ̅[ⲕⲉϣⲉ]ⲗⲉⲉⲧ’ ⲁⲩ[ϣⲱ]‐\nⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲛ[......] ⲛ̅[....]\nⲛⲉ ⲙⲛ̅ ⲓⲟⲩⲇⲁⲓ ⲟ[............]\nⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϩⲉ[............]\nϣⲟⲟⲡ’ ⲁⲩⲱ ⲁⲛ[............]\nⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ ⲓⲟⲩⲇ[ⲁⲓ ........]\nⲛ̅ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲁⲕ[...........]\nⲱ ⲁⲩⲙⲟⲩⲧⲉ ⲁⲛⲉⲉⲓⲙⲁ[.....]\nⲡⲅⲉⲛⲟⲥ ⲉⲧⲥⲟⲧⲡ’ ⲙ̅ⲡⲛ[.....]\nⲁⲩⲱ ⲡⲁⲗⲏⲑⲉⲓⲛⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ\nⲙ̅ⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲡⲥⲡⲉⲣⲙⲁ ⲙ̅ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ⲡⲉⲉⲓⲅⲉⲛⲟⲥ ⲛ̅ⲁⲗⲏⲑⲉⲓⲛⲟⲛ ⲥⲉⲣ̅ⲟⲛⲟ‐\nⲙⲁⲍⲉ ⲙ̅ⲙⲟϥ’ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ † ⲛⲁⲉⲓ ⲛⲉ ⲡⲙⲁ †\nⲉⲧⲟⲩϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ‐\nⲫⲱⲛ §ⲉⲡϩⲱⲧⲣ̅ ϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ"
+        },
+        {
+          "title": "Strength and Weakness",
+          "subtitle": "Strength and Weakness",
+          "heading": "Strength and Weakness (76, 6-17)",
+          "rangeLabel": "76, 6-17",
+          "range": {
+            "start": {
+              "page": 76,
+              "line": 6
+            },
+            "end": {
+              "page": 76,
+              "line": 17
+            }
+          },
+          "english": "In this world, where strength and weakness are to be found, there is union of\nmale and female, but in the eternal realm there is a different kind of union.\nAlthough we refer to these things with the same words, there are also other\nwords that are superior to every word that is pronounced.\nThese are above strength. For there is strength and there are those superior to\nstrength, and they are not different but the same. This is incomprehensible to\nhearts of flesh.",
+          "coptic": "ⲫⲱⲛ §ⲉⲡϩⲱⲧⲣ̅ ϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲉⲓⲕⲟⲥⲙⲟⲥ\nϩⲟⲟⲩⲧ ϩⲓ ⲥϩⲓⲙⲉ † ⲡⲙⲁ ⲉⲧϭⲟⲙ ⲙⲛ̅ ⲧⲙⲛⲧ’‐\nϭⲱⲃ † ϩⲙ̅ ⲡⲁⲓⲱⲛ ⲕⲉⲟⲩⲁ ⲡⲉ ⲡⲉⲓⲛⲉ ⲙ̅ⲡϩⲱ‐\nⲧⲣ̅ ⲉⲙ’ⲙⲟⲩⲧⲉ ⲇⲉ ⲉⲣⲟⲟⲩ ⲛ̅ⲛⲉⲉⲓⲣⲁⲛ ⲟⲩⲛ ϩⲛ̅‐\nⲕⲟⲟⲩⲉ ⲇⲉ ϣⲟⲟⲡ’ ⲥⲉϫⲟⲥⲉ ⲡⲁⲣⲁ ⲣⲁⲛ’\nⲛⲓⲙ ⲉⲧⲟⲩⲣ̅ⲟⲛⲟⲙⲁⲍⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ ⲥⲉ‐\nϫⲟⲟⲥⲉ ⲉⲡϫⲱⲱⲣⲉ ⲡⲙⲁ ⲅⲁⲣ ⲉⲧⲉ ⲟⲩⲛ̅ ⲃⲓⲁ\nⲙ̅ⲙⲁⲩ ⲉⲩϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲛⲉⲧ’ⲥⲟⲧⲡ’\nⲉⲧϭⲟⲙ ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲕⲉⲟⲩⲁ ⲁⲛ ⲡⲉ ⲁⲩⲱ ⲕⲉ‐\nⲟⲩⲁ ⲡⲉ ⲁⲗⲗⲁ ⲛ̅ⲧⲟⲟⲩ ⲙ̅ⲡⲉⲥⲛⲁⲩ ⲡⲓⲟⲩⲁ\nⲟⲩⲱⲧ’ ⲡⲉ ⲡⲁⲉⲓ ⲡⲉ ⲉⲧϥⲛⲁϣⲓ ⲁⲛ ⲉϩⲣⲁⲓ̈\nⲉϫⲛ̅ ⲫⲏⲧ’ ⲛ̅ⲥⲁⲣⲝ §ⲟⲩⲟⲛ’ ⲛⲓⲙ ⲉⲧⲟⲩⲛ̅ⲧⲟⲩ"
+        },
+        {
+          "title": "Know Yourself",
+          "subtitle": "Know Yourself",
+          "heading": "Know Yourself (76, 17-22)",
+          "rangeLabel": "76, 17-22",
+          "range": {
+            "start": {
+              "page": 76,
+              "line": 17
+            },
+            "end": {
+              "page": 76,
+              "line": 22
+            }
+          },
+          "english": "All those who have everything should know themselves, shouldn’t they? If\nsome do not know themselves, they will not enjoy what they have, but those who\nknow themselves will enjoy their possessions.",
+          "coptic": "ⲉϫⲛ̅ ⲫⲏⲧ’ ⲛ̅ⲥⲁⲣⲝ §ⲟⲩⲟⲛ’ ⲛⲓⲙ ⲉⲧⲟⲩⲛ̅ⲧⲟⲩ\nⲡⲧⲏⲣϥ’ ⲙ̅ⲙⲁⲩ ϣϣⲉ ⲁⲛ ⲉⲧⲣⲟⲩⲉⲓⲙⲉ ⲙ̅‐\nⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲉⲩⲧⲙ̅ⲉⲓⲙⲉ\nⲙ̅ⲙⲟⲟⲩ ⲥⲉⲛⲁⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ⲁⲛ ⲛ̅ⲛⲉⲧⲉ\nⲟⲩⲛ̅ⲧⲁⲩⲥⲉ ⲛⲉⲧⲁϩⲥⲉⲃⲟ ⲇⲉ ⲉⲣⲟⲟⲩ ⲥⲉⲛⲁ‐\nⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ⲙ̅ⲙⲟⲟⲩ §ⲟⲩ ⲙⲟⲛⲟⲛ ⲡⲣⲱⲙⲉ"
+        },
+        {
+          "title": "Putting on Light",
+          "subtitle": "Putting on Light",
+          "heading": "Putting on Light (76, 22-77, 1)",
+          "rangeLabel": "76, 22-77, 1",
+          "range": {
+            "start": {
+              "page": 76,
+              "line": 22
+            },
+            "end": {
+              "page": 77,
+              "line": 1
+            }
+          },
+          "english": "The perfect human can neither be grasped nor seen. What is seen can be grasped.\nNo one can obtain this grace without putting on perfect light and becoming\nperfect light. Whoever puts on light will enter [the place of rest]. This is perfect\n[light, and] we [must] become [perfect humans] before we leave [the world].\nWhoever obtains everything [but does not separate] from this world will [not] be\nable [to attain] that realm but will [go to the] middle place, for that one is not\nperfect. Only Jesus knows the fate of that person.",
+          "coptic": "ⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ⲙ̅ⲙⲟⲟⲩ §ⲟⲩ ⲙⲟⲛⲟⲛ ⲡⲣⲱⲙⲉ\nⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲥⲉⲛⲁϣⲉⲙⲁϩⲧⲉ ⲁⲛ ⲙ̅ⲙⲟϥ’\nⲁⲗⲗⲁ ⲥⲉⲛⲁϣⲛⲁⲩ ⲉⲣⲟϥ ⲁⲛ ⲉⲩϣⲁⲛⲛⲁⲩ\nⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲥⲉⲛⲁⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟϥ’ ⲛ̅ⲕⲉⲣⲏⲧⲉ\nⲙⲛ̅ ⲟⲩⲁ ⲛⲁϣϫⲡⲟ ⲛⲁϥ’ ⲛ̅ⲧⲉⲉⲓⲭⲁⲣⲓⲥ ⲉⲓ\n[ⲙⲏ ⲛ̅]ϥϯ ϩ[ⲓ]ⲱⲱϥ ⲙ̅ⲡⲧⲉⲗⲉⲓⲟⲛ’ ⲛ̅ⲟⲩⲟⲉⲓⲛ\n[ⲁⲩⲱ] ⲛ̅ϥϣⲱ[ⲡⲉ ϩ]ⲱⲱϥ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ ⲟⲩⲟ‐\n[ⲉⲓⲛ ⲡⲉ]ⲛⲧⲁ[ϩ’ⲧⲁⲁϥ’] ϩⲓⲱⲱϥ’ ϥⲛⲁⲃⲱⲕ’\n[...........] ⲡⲁⲉⲓ ⲡⲉ ⲡⲧⲉⲗⲉⲓⲟⲛ\n[............] ⲉⲧⲣⲛ̅ϣⲱⲡⲉ ⲛ̅‐\n[............]ⲱⲥ ⲉⲙ’ⲡⲁⲧⲛ̅ⲉⲓ ⲉ‐\n[...........] ⲡⲉⲧⲁ⟦ϩ⟧ϫⲓ ⲡⲧⲏⲣϥ’\n[..........] ⲁⲛⲉⲉⲓⲙⲁ ϥⲛⲁϣ ⲣ̅‐\n[........]ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲗⲗⲁ ϥⲛⲁ‐\n[....ⲧⲙⲉ]ⲥⲟⲧⲏⲥ ϩⲱⲥ ⲁⲧϫⲱⲕ’ ⲉⲃⲟⲗ\nⲙⲟⲛⲟⲛ ⲓ̅ⲥ̅ ⲥⲟⲟⲩⲛ ⲙ̅ⲡⲧⲉⲗⲟⲥ ⲙ̅ⲡⲁⲉⲓ"
+        },
+        {
+          "title": "The Priest",
+          "subtitle": "The Priest",
+          "heading": "The Priest (77, 2-7)",
+          "rangeLabel": "77, 2-7",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 2
+            },
+            "end": {
+              "page": 77,
+              "line": 7
+            }
+          },
+          "english": "The holy person is completely holy, including the person’s body. The holy\nperson who takes up bread consecrates it, and does the same with the cup or\nanything else the person takes up and consecrates. So how wouldn’t the person\nconsecrate the body also?",
+          "coptic": "§ⲡⲣⲱⲙⲉ ⲉⲧⲟⲩⲁⲁⲃ ϥⲟⲩⲁⲁⲃ ⲧⲏⲣϥ’ ϣⲁϩ‐\nⲣⲁⲓ̈ ⲉⲡⲉϥ’ⲥⲱⲙⲁ ⲉϣϫⲉ ⲁϥϫⲓ ⲅⲁⲣ’ ⲙ̅ⲡⲟ‐\nⲉⲓⲕ’ ϥⲛⲁⲁϥ’ ⲉϥ’ⲟⲩⲁⲁⲃ’ ⲏ ⲡⲡⲟⲧⲏⲣⲓⲟⲛ\nⲏ ⲡⲕⲉⲥⲉⲉⲡⲉ ⲧⲏⲣϥ’ ⲉⲧϥϫⲓ ⲙ̅ⲙⲟⲟⲩ ⲉϥ’‐\nⲧⲟⲩⲃⲟ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ ⲡⲱⲥ ϥⲛⲁⲧⲟⲩⲃⲟ\nⲁⲛ ⲙ̅ⲡⲕⲉⲥⲱⲙⲁ §ⲛ̅ⲑⲉ ⲛ̅ⲧⲁ ⲓ̅ⲥ̅ ϫⲱⲕ’ ⲉⲃⲟⲗ"
+        },
+        {
+          "title": "The Water of Baptism and Death",
+          "subtitle": "The Water of Baptism and Death",
+          "heading": "The Water of Baptism and Death (77, 7-15)",
+          "rangeLabel": "77, 7-15",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 7
+            },
+            "end": {
+              "page": 77,
+              "line": 15
+            }
+          },
+          "english": "As Jesus perfected the water of baptism, he poured death out. For this reason\nwe go down into the water but not into death, that we may not be poured out into\nthe spirit of the world. When it blows, winter comes. When the Holy Spirit\nblows, summer comes.",
+          "coptic": "ⲁⲛ ⲙ̅ⲡⲕⲉⲥⲱⲙⲁ §ⲛ̅ⲑⲉ ⲛ̅ⲧⲁ ⲓ̅ⲥ̅ ϫⲱⲕ’ ⲉⲃⲟⲗ\nⲙ̅ⲡⲙⲟⲟⲩ ⲙ̅ⲡⲃⲁⲡⲧⲓⲥⲙⲁ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲁϥ’‐\nⲡⲱϩⲧ’ ⲉⲃⲟⲗ’ ⲙ̅ⲡⲙⲟⲩ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲧⲛ̅ⲃⲏⲕ’\nⲙⲉⲛ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟⲟⲩ ⲧⲛ̅ⲃⲏⲕ ⲇⲉ ⲁⲛ\nⲉⲡⲓⲧⲛ̅ ⲉⲡⲙⲟⲩ ϣⲓⲛⲁ ϫⲉ ⲛⲟⲩⲡⲁϩⲧⲛ̅\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ϩⲟⲧⲁⲛ\nⲉϥϣⲁⲛⲛⲓϥⲉ ϣⲁⲣⲉϥ’ⲧⲉ ⲧⲡⲣⲱ ϣⲱⲡⲉ\nⲡⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ϩⲟⲧⲁⲛ’ ⲉϥ’ϣⲁⲛⲛⲓϥⲉ\nϣⲁⲣⲉ ⲧϣⲁⲙⲏ ϣⲱⲡⲉ’ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥ’ ⲙ̅‐"
+        },
+        {
+          "title": "Knowledge and Love",
+          "subtitle": "Knowledge and Love",
+          "heading": "Knowledge and Love (77, 15-35)",
+          "rangeLabel": "77, 15-35",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 15
+            },
+            "end": {
+              "page": 77,
+              "line": 35
+            }
+          },
+          "english": "Whoever knows the truth is free, and a free person does not sin, for “one\nwho sins is a slave of sin.” Truth is the Mother, knowledge is the Father. Those\nwho do not allow themselves to sin the world calls free. They do not allow\nthemselves to sin, and knowledge of the truth lifts them up118-that is, it makes\nthem free and superior to all. But “love builds up.” Whoever is free through\nknowledge is a slave because of love for those who do not yet have freedom of\nknowledge. Knowledge enables them to be free.\nLove [never says] it owns something, [though] it owns [everything]. Love\ndoes not [say, “This is mine]” or “That is mine,” but rather, “[All that is mine] is\nyours.”",
+          "coptic": "ϣⲁⲣⲉ ⲧϣⲁⲙⲏ ϣⲱⲡⲉ’ §ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥ’ ⲙ̅‐\nⲙⲁⲩ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲙⲉ ⲟⲩⲉⲗⲉⲩⲑⲉⲣⲟⲥ\nⲡⲉ ⲡⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲇⲉ ⲙⲁϥⲣ̅ ⲛⲟⲃⲉ ⲡⲉ‐\nϯⲣⲉ ⲅⲁⲣ ⲙ̅ⲡⲛⲟⲃⲉ ⲡϩⲙ̅ϩ̅ⲁ̅ⲗ̅ ⲙ̅ⲡⲛⲟⲃⲉ\nⲡⲉ ⲧⲙⲁⲁⲩ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲧⲅⲛⲱⲥⲓⲥ ⲇⲉ\nⲡⲉ ⲡⲧⲱⲧ’ ⲛⲉⲧⲉⲥⲧⲟ ⲛⲁⲩ ⲁⲛ ⲁⲣ̅ ⲛⲟⲃⲉ\nⲉⲡⲕⲟⲥⲙⲟⲥ ⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲉⲗⲉⲩ‐\nⲑⲉⲣⲟⲥ ⲛⲁⲉⲓ ⲉⲧⲥⲧⲟ ⲛⲁⲩ ⲁⲛ ⲁⲣ̅ ⲛⲟⲃⲉ\nⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϫⲓⲥⲉ ⲛ̅ϩⲏⲧ’ ⲉⲧⲉ\nⲡⲁⲉⲓ ⲡⲉ ⲥⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ\nⲁⲩⲱ ⲥⲧⲣⲟⲩϫⲓⲥⲉ ⲉⲡⲙⲁ ⲧⲏⲣϥ’ ⲧⲁⲅⲁⲡⲏ\nⲇⲉ ⲕⲱⲧ’ ⲡⲉⲧⲁϩⲣ̅ ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲇⲉ ϩⲓ‐\nⲧⲛ̅ ⲧⲅⲛⲱⲥⲓⲥ ϥⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲉⲧⲃⲉ ⲧⲁⲅⲁ‐\nⲡⲏ ⲛ̅ⲛⲁⲉⲓ ⲉⲙ’ⲡⲁⲧⲟⲩϣϥⲓ ⲉϩⲣⲁⲓ̈ [ⲛ̅ⲧⲉ]‐\nⲗⲉⲩⲑⲉⲣⲓⲁ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲧⲅⲛⲱ[ⲥⲓⲥ ⲇⲉ]\nⲥⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ϣⲓⲕⲁⲛⲟⲥ ⲉⲥ[ⲧⲣⲟⲩ]‐\nϣⲱⲡⲉ ⲛ̅ⲉⲗⲉⲩ[ⲑ]ⲉⲣ[ⲟⲥ] ⲧⲁⲅⲁⲡⲏ [ⲙⲁⲥϫⲉ]\nⲗⲁⲁⲩ ϫⲉ ⲡⲱⲥ [ⲡⲉ ...]ⲟⲓ[......]\nⲡⲱⲥ ⲡⲉ ⲙⲁⲥϫ[ⲟⲟⲥ ϫⲉ ⲡⲁⲉⲓ ⲡⲱⲉⲓ ⲡⲉ]\nⲏ ⲡⲁⲉⲓ ⲡⲱⲉⲓ ⲡⲉ ⲁ[ⲗⲗⲁ ⲛ]ⲟⲩ[ⲉⲓ ⲧⲏⲣⲟⲩ]\nⲛⲟⲩⲕ’ ⲛⲉ ⲧⲁⲅⲁⲡⲏ ⲙ̅ⲡⲛⲉⲩⲙ[ⲁⲧⲓⲕⲏ]"
+        },
+        {
+          "title": "Spiritual Love",
+          "subtitle": "Spiritual Love",
+          "heading": "Spiritual Love (77, 35-78, 12)",
+          "rangeLabel": "77, 35-78, 12",
+          "range": {
+            "start": {
+              "page": 77,
+              "line": 35
+            },
+            "end": {
+              "page": 78,
+              "line": 12
+            }
+          },
+          "english": "Spiritual love is wine and perfume. People who anoint themselves with it\nenjoy it, and while these people are present, others who are around also enjoy it.\nIf the people who are anointed leave them and go away, the others who are not\nanointed but are only standing around are stuck with their own bad odor.\nThe Samaritan gave nothing to the wounded person except wine and oil-\nthat is, only ointment. The ointment healed the wound, for “love covers a\nmultitude of sins.”",
+          "coptic": "ⲛⲟⲩⲕ’ ⲛⲉ ⲧⲁⲅⲁⲡⲏ ⲙ̅ⲡⲛⲉⲩⲙ[ⲁⲧⲓⲕⲏ]\nⲟⲩⲏⲣⲡ’ ⲧⲉ ϩⲓ ⲥⲧⲟⲉⲓ ⲥⲉⲣ̅ⲁⲡⲟ[ⲗⲁⲩⲉ ⲙ̅]‐\nⲙⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̅ϭⲓ ⲛⲉⲧⲛⲁⲧⲟϩⲥⲟⲩ ⲙ̅ⲙⲟⲥ\nⲥⲉⲣ̅ⲁⲡⲟⲗⲁⲩⲉ ϩⲱⲟⲩ ⲛ̅ϭⲓ ⲛⲉⲧ’ⲁϩⲉⲣⲁⲧⲟⲩ\nⲙ̅ⲡⲟⲩⲃⲟⲗ ϩⲱⲥ ⲉⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲛ̅ϭⲓ ⲛⲉⲧ’‐\nⲧⲟϩⲥ ⲛⲉⲧ’ⲧⲁϩⲥ̅ ⲛ̅ⲥⲟϭⲛ ⲉⲩϣⲁⲗⲟ ⲉⲧⲟⲩ‐\nⲱⲟⲩ ⲛ̅ⲥⲉⲃⲱⲕ’ ϣⲁⲣⲉ ⲛⲏ ⲉⲥⲉⲧⲟϩⲥ ⲁⲛ\nⲙⲟⲛⲟⲛ ⲉⲩⲁϩⲉ ⲉⲣⲁⲧⲟⲩ ⲙ̅ⲡⲟⲩⲃⲁⲗ ϣⲁⲩ‐\nϭⲱ ⲟⲛ ϩⲙ̅ ⲡⲟⲩⲥϯⲃⲱⲱⲛ ⲡⲥⲁⲙⲁⲣⲓⲧⲏⲥ\nⲛ̅ⲧⲁϥ’ϯ ⲗⲁⲁⲩ ⲁⲛ’ ⲁⲡⲉⲧϣⲟⲟϭⲉ ⲉⲓ ⲙⲏ’\nⲏⲣⲡ’ ϩⲓ ⲛⲉϩ ⲕⲉⲗⲁⲁⲩ ⲁⲛ ⲡⲉ ⲉⲓ ⲙⲏⲧⲓ’ ⲁ’\nⲡⲥⲟϭⲛ̅ ⲁⲩⲱ ⲁϥⲑⲉⲣⲁⲡⲉⲩⲉ ⲛⲙ̅ⲡⲗⲏⲅⲏ\nⲧⲁⲅⲁⲡⲏ ⲅⲁⲣ ϩⲱⲃⲥ̅ ⲛ̅ⲟⲩⲙⲏⲏϣⲉ ⲛ̅ⲛⲟ‐\nⲃⲉ §ⲡⲉⲧⲉ ⲧⲥϩⲓⲙⲉ ⲙⲉ ⲙ̅ⲙⲟϥ’ ⲛⲉⲧ’ⲥⲛⲁ’‐"
+        },
+        {
+          "title": "Children and Love",
+          "subtitle": "Children and Love",
+          "heading": "Children and Love (78, 12-25)",
+          "rangeLabel": "78, 12-25",
+          "range": {
+            "start": {
+              "page": 78,
+              "line": 12
+            },
+            "end": {
+              "page": 78,
+              "line": 25
+            }
+          },
+          "english": "The children a woman brings forth resemble the man she loves. If it is her\nhusband, they resemble her husband. If it is a lover, they resemble the lover.\nOften, if a woman must sleep with her husband but her heart is with the lover\nwith whom she usually has sex, the child she bears will resemble the lover.\nSo, you who live with the Son of God, do not love the world but love the\nmaster, that what you bring forth may not resemble the world, but may\nresemble the master.",
+          "coptic": "ⲃⲉ §ⲡⲉⲧⲉ ⲧⲥϩⲓⲙⲉ ⲙⲉ ⲙ̅ⲙⲟϥ’ ⲛⲉⲧ’ⲥⲛⲁ’‐\nϫⲡⲟⲟⲩ’ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲙⲟϥ’ ⲉϣⲱⲡⲉ ⲡⲉⲥ‐\nϩⲁⲉⲓ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡⲉⲥϩⲁⲓ̈ ⲉϣⲱⲡⲉ ⲟⲩⲛⲟ‐\nⲉⲓⲕ’ ⲡⲉ’ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡⲛⲟⲉⲓⲕ’ ⲡⲟⲗⲗⲁⲕⲓⲥ\nⲉϣⲱⲡⲉ ⲟⲩⲛ̅ ⲥϩⲓⲙⲉ ⲉⲥⲛ̅ⲕⲟⲧⲕ’ ⲙⲛ̅ ⲡⲉⲥ‐\nϩⲁⲓ̈ ⲕⲁⲧⲁ ⲟⲩϩⲧⲟⲣ’ ⲉⲡⲉⲥϩⲏⲧ ⲇⲉ ϩⲓ ⲡⲛⲟ‐\nⲉⲓⲕ ⲉϣⲁⲥⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁϥ’ ⲡⲉⲧ’‐\nⲥⲁⲙⲁⲥⲧϥ’ ϣⲁⲥⲙⲁⲥⲧϥ’ ⲉϥⲓⲛⲉ ⲙ̅ⲡⲛⲟ‐\nⲉⲓⲕ’ ⲛ̅ⲧⲱⲧⲛ̅ ⲇⲉ ⲛⲉⲧϣⲟⲟⲡ’ ⲙⲛ̅ ⲡϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲙⲛ̅ⲙⲣ̅ⲣⲉ ⲡⲕⲟⲥⲙⲟⲥ’\nⲁⲗⲗⲁ ⲙⲣ̅ⲣⲉ ⲡϫⲟⲉⲓⲥ ϣⲓⲛⲁ ⲛⲉⲧⲉⲧⲛⲁ‐\nϫⲡⲟⲟⲩ ⲛⲟⲩϣⲱⲡⲉ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲁⲗⲗⲁ ⲉⲩⲛⲁϣⲱⲡⲉ ⲉⲩⲉⲓⲛⲉ ⲙ̅ⲡ‐\nϫⲟⲉⲓⲥ §ϣⲁⲣⲉ ⲡⲣⲱⲙⲉ ⲧⲱϩ ⲙⲛ̅ ⲡⲣⲱⲙⲉ"
+        },
+        {
+          "title": "Sex and Spirit",
+          "subtitle": "Sex and Spirit",
+          "heading": "Sex and Spirit (78, 25-79, 13)",
+          "rangeLabel": "78, 25-79, 13",
+          "range": {
+            "start": {
+              "page": 78,
+              "line": 25
+            },
+            "end": {
+              "page": 79,
+              "line": 13
+            }
+          },
+          "english": "Humans have sex with humans, horses have sex with horses, donkeys have sex\nwith donkeys. Members of a species have sex with members of the same species.\nSo also spirit has intercourse with spirit, word mingles with word, light\nmingles [with light].\nIf [you] become human,\n[a human] will love you.\nIf you become [spirit],\nspirit will unite with you.\nIf you become word,\nword will have intercourse with you.\nIf you become light,\nlight will mingle with you.\nIf you become one of those above,\nthose above will rest on you.\nIf you become a horse or donkey or bull\nor dog or sheep or some other animal,\nwild or tame,\nthen neither human nor spirit\nnor word nor light can love you.\nThose above and those within cannot rest in you,\nand you have no part in them.",
+          "coptic": "ϫⲟⲉⲓⲥ §ϣⲁⲣⲉ ⲡⲣⲱⲙⲉ ⲧⲱϩ ⲙⲛ̅ ⲡⲣⲱⲙⲉ\nϣⲁⲣⲉ ⲡϩⲧⲟ ⲧⲱϩ ⲙⲛ̅ ⲡϩⲧⲟ ϣⲁⲣⲉ ⲡⲉⲓ‐\n[ⲱ ⲧ]ⲱϩ ⲙⲛ̅ ⲡⲉⲓⲱ ⲛ̅ⲅⲉⲛⲟⲥ ⲛⲉϣⲁⲩⲧⲱϩ\n[ⲙⲛ̅] ⲛⲟⲩϣⲃⲣ̅ⲅⲉⲛⲟⲥ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲉϣⲁ’‐\n[ⲣⲉ] ⲡⲡⲛ̅ⲁ̅ ⲧⲱϩ ⲙⲛ̅ ⲡⲡ̅ⲛⲁ̅ ⲁⲩⲱ ⲡⲗⲟ‐\n[ⲅⲟⲥ] ϣⲁϥⲣ̅ⲕ[ⲟ]ⲓⲛⲱ[ⲛ]ⲉⲓ ⲙⲛ̅ ⲡⲗⲟⲅⲟⲥ\n[ⲁⲩⲱ ⲡⲟ]ⲩⲟ[ⲉⲓⲛ ϣⲁ]ϥⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ\n[ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲕ]ϣⲁϣⲱⲡⲉ ⲣ̅ⲣⲱⲙⲉ\n[ⲡⲣⲱⲙ]ⲉ ⲡⲉ[ⲧⲛⲁ]ⲙⲉⲣⲓⲧⲕ’ ⲉⲕϣⲁϣⲱⲡⲉ\n[ⲙ̅ⲡ̅ⲛ̅ⲁ̅] ⲡⲡ̅ⲛⲁ̅ ⲡⲉⲧⲛⲁϩⲱⲧⲣ̅ ⲉⲣⲟⲕ’ ⲉⲕ’‐\n[ϣⲁⲛϣ]ⲱⲡⲉ ⲛ̅ⲗⲟⲅⲟⲥ ⲡⲗⲟⲅⲟⲥ ⲡⲉⲧ’‐\nⲛⲁⲧⲱϩ ⲛⲙ̅ⲙⲁⲕ’ ⲉ[ⲕ]ϣⲁⲛϣⲱⲡⲉ ⲛ̅ⲟⲩ‐\nⲟⲉⲓⲛ ⲡⲟⲩⲟⲉⲓⲛ ⲡⲉⲧⲛⲁⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ\nⲛⲙ̅ⲙⲁⲕ’ ⲉⲕ’ϣⲁⲛϣⲱⲡⲉ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛ‐\nϩⲣⲉ ⲛⲁ ⲡⲥⲁ ⲛϩⲣⲉ ⲛⲁⲙ̅ⲧⲟⲛ’ ⲙ̅ⲙⲟⲟⲩ’\nⲉϩⲣⲁⲓ̈ ⲉϫⲱⲕ’ ⲉⲕϣⲁⲛϣⲱⲡⲉ ⲛ̅ϩⲧⲟ\nⲏ ⲛ̅ⲉⲓⲱ ⲏ ⲙ̅ⲙⲁⲥⲉ ⲏ ⲛ̅ⲟⲩϩⲟⲟⲣ’ ⲏ ⲛⲉ‐\nⲥⲟⲟⲩ ⲏ ϭⲉ ϩⲛ̅ ⲛⲉⲑⲏⲣⲓⲟⲛ ⲉⲧⲛ̅ⲡⲥⲁ ⲛ‐\nⲃⲟⲗ ⲙⲛ̅ ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ϥⲛⲁϣⲙⲉ‐\nⲣⲓⲧⲕ’ ⲁⲛ ⲟⲩⲧⲉ ⲡⲣⲱⲙⲉ ⲟⲩⲧⲉ ⲡⲡⲛ̅ⲁ̅ ⲟⲩ‐\nⲧⲉ ⲡⲗⲟⲅⲟⲥ ⲟⲩⲧⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲟⲩⲧⲉ ⲛⲁ‐\nⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲧⲉ ⲛⲁ ⲡⲥⲁ ⲛϩⲟⲩⲛ ⲥⲉ‐\nⲛⲁϣⲙ̅ⲧⲟⲛ’ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ’ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲕ’\nⲁⲩⲱ ⲙⲛ̅ⲧⲁⲕ’ ⲙⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ §ⲡⲉ‐"
+        },
+        {
+          "title": "Slave and Free",
+          "subtitle": "Slave and Free",
+          "heading": "Slave and Free (79, 13-18)",
+          "rangeLabel": "79, 13-18",
+          "range": {
+            "start": {
+              "page": 79,
+              "line": 13
+            },
+            "end": {
+              "page": 79,
+              "line": 18
+            }
+          },
+          "english": "People who are slaves against their will can be free. People who are freed by\nfavor of their master and then sell themselves back into slavery cannot be free\nagain.",
+          "coptic": "ⲁⲩⲱ ⲙⲛ̅ⲧⲁⲕ’ ⲙⲉⲣⲟⲥ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ §ⲡⲉ‐\nⲧⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲉϩⲛⲁϥ’ ⲁⲛ ϥⲛⲁϣⲣ̅ⲉⲗⲉⲩ‐\nⲑⲉⲣⲟⲥ ⲡⲉⲛⲧⲁϩⲣ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲙ̅ⲡⲉϩ‐\nⲙⲟⲧ’ ⲙ̅ⲡⲉϥϫⲟⲉⲓⲥ ⲁⲩⲱ ⲁϥⲧⲁϥϥ’ ⲉⲃⲟⲗ\nⲟⲩⲁⲁϥ’ ⲁⲩⲙⲛ̅ⲧϩⲙ̅ϩ̅ⲁ̅ⲗ̅ ⲟⲩⲕⲉⲧⲓ ϥⲛⲁϣ‐\nⲣ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ §ⲧⲙ̅ⲛ̅ⲧⲟⲩⲟⲉⲓⲉ ⲙ̅ⲡⲕⲟⲥ‐"
+        },
+        {
+          "title": "Farming",
+          "subtitle": "Farming",
+          "heading": "Farming (79, 18-32)",
+          "rangeLabel": "79, 18-32",
+          "range": {
+            "start": {
+              "page": 79,
+              "line": 18
+            },
+            "end": {
+              "page": 79,
+              "line": 32
+            }
+          },
+          "english": "Farming in this world depends on four things, and a harvest is gathered and\ntaken into the barn as a result of water, earth, air, and light.\nGod’s farming also depends on four things: faith, hope, love, and\nknowledge. Faith is the earth in which we take root. Hope is the water with\nwhich we are nourished. Love is the air through which we grow. Knowledge is\nthe light by which we [ripen].\nGrace exists [in four ways. It is] earthly; it is [heavenly]…the highest\nheaven….",
+          "coptic": "ⲣ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ §ⲧⲙ̅ⲛ̅ⲧⲟⲩⲟⲉⲓⲉ ⲙ̅ⲡⲕⲟⲥ‐\nⲙⲟⲥ ϩⲓⲧⲛ̅ ϥⲧⲟⲟⲩ ⲛ̅ⲉⲓⲇⲟⲥ ϣⲁⲩⲟⲗⲟⲩ\nⲉϩⲟⲩⲛ ⲁⲧⲁⲡⲟⲑⲏⲕⲏ ϩⲓⲧⲛ̅ ⲟⲩⲙⲟⲟⲩ\nⲙⲛ̅ⲛⲟⲩⲕⲁϩ ⲙⲛ̅ⲛⲟⲩⲡⲛ̅ⲁ̅ ⲙⲛ̅ⲛⲟⲩⲟⲉⲓⲛ\nⲁⲩⲱ ⲧⲙ̅ⲛ̅ⲧ̅ⲟⲩⲉⲓⲉ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲧⲉⲉⲓϩⲉ\nⲟⲛ ϩⲓⲧⲛ̅ ϥⲧⲟⲟⲩ ϩⲓⲧⲛ̅ ⲟⲩⲡⲓⲥⲧⲓⲥ ⲙⲛ̅‐\nⲛⲟⲩϩⲉⲗⲡⲓⲥ ⲙⲛ̅ⲛⲟⲩⲁⲅⲁⲡⲏ ⲙⲛ̅ ⲟⲩ‐\nⲅⲛⲱⲥⲓⲥ ⲡⲛ̅ⲕⲁϩ ⲧⲉ ⲧ’ⲡⲓⲥⲧⲓⲥ ⲧⲁⲓ̈ ⲉⲛ’‐\nϫⲉ ⲛⲟⲩⲛⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲡⲙⲟ[ⲟ]ⲩ [ⲇⲉ]\nⲧⲉ ⲑⲉⲗⲡⲓⲥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅ ⲉ[ⲛⲥⲟ]‐\nⲉⲓϣ ⲡⲡⲛ̅ⲁ̅ ⲧⲉ ⲧⲁⲅⲁⲡⲏ ⲉⲃⲟⲗ [ϩⲓⲧⲟ]‐\nⲧⲟϥ’ ⲉⲛⲁⲩⲝⲁⲛⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲇ[ⲉ ⲧⲉ]\nⲧⲅⲛⲱⲥⲓⲥ ⲉⲃⲟ[ⲗ ϩ]ⲓⲧ[ⲟⲟ]ⲧⲥ̅ ⲧⲛ̅ⲡ[ⲱϩ’]\nⲧⲭⲁⲣⲓⲥ ⲥⲟ ⲛ̅ϥ[ⲧⲟⲟⲩ ⲙ̅]ⲙ[ⲉⲓⲛⲉ ⲥⲟ ⲣ̅]‐\nⲣⲙⲛ̅ⲕⲁϩ ⲥⲟ ⲣ̅ⲣ[ⲙ̅ⲙ̅ⲡⲉ ......]"
+        },
+        {
+          "title": "Blessed Is One Who Never Grieves Anyone",
+          "subtitle": "Blessed Is One Who Never Grieves Anyone",
+          "heading": "Blessed Is One Who Never Grieves Anyone (79, 32-80, 23)",
+          "rangeLabel": "79, 32-80, 23",
+          "range": {
+            "start": {
+              "page": 79,
+              "line": 32
+            },
+            "end": {
+              "page": 80,
+              "line": 23
+            }
+          },
+          "english": "[Blessed] is one who has never grieved a soul. This is Jesus Christ. He came\nto the whole earth and never laid a burden upon anyone. Blessed is one like this,\nfor this is a perfect human.\nThe word tells us how difficult it is to bring this about. How can we\naccomplish such a feat? How can we give help to everyone?\nTo begin with, one must not cause grief to anyone, whether great or small,\nunbeliever or believer, and one must not give help to those who are well off.\nThere are some who profit by helping the rich. The person who does good deeds\nwill not help the rich, for this person will not take just anything that may be\ndesirable. Nor can such a person cause them grief, since this person does not\ngive them trouble. The new rich sometimes cause others grief, but the person\nwho does good deeds does not do this. It is the wickedness of these people that\ncauses their grief. The person with the nature of a perfect human gives joy to the\ngood, but some people are deeply distressed by all this.",
+          "coptic": "ⲣⲙⲛ̅ⲕⲁϩ ⲥⲟ ⲣ̅ⲣ[ⲙ̅ⲙ̅ⲡⲉ ......]\nⲧⲡⲉ ⲛ̅ⲧⲉ ⲧⲡⲉ ⲁⲩ[..]ϩⲛ̅ [..] §[ⲟⲩⲙⲁⲕⲁ]‐\nⲣⲓⲟⲥ ⲡⲉ ⲡⲁⲉⲓ ⲉⲙ’ⲡⲉϥⲗ̅ⲗ[.... ⲛ̅]\nⲛⲟⲩⲯⲩⲭⲏ ⲡⲁⲉⲓ ⲡⲉ ⲓⲥ̅ ⲡⲭ̅ⲥ̅ ⲁϥⲣ̅ⲁⲡⲁⲛ‐\nⲧⲁ ⲙ̅ⲡⲙⲁ ⲧⲏⲣϥ’ ⲁⲩⲱ ⲙ̅ⲡⲉϥⲣ̅ⲃⲁⲣⲉⲓ ⲗ̅ⲗⲁⲁⲩ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ’ ⲟⲩⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉ ⲡⲁⲉⲓ ⲛ̅ⲧⲉⲉⲓ‐\nⲙⲓⲛⲉ ϫⲉ ⲟⲩⲧⲉⲗⲉⲓⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲡⲉ ⲡⲁⲉⲓ ⲅⲁⲣ’\nⲡⲗⲟⲅⲟⲥ ϫⲛⲟⲩⲛ’ ⲙ̅ⲙⲟⲛ ⲉⲣⲟϥ’ ϩⲱⲥ 〈ⲥ〉ⲙⲟⲕϩ\nⲁⲥⲉϩⲉ ⲡⲁⲉⲓ ⲉⲣⲁⲧϥ’ ⲡⲱⲥ ⲧⲛ̅ⲛⲁϣⲣ̅ⲕⲁⲧⲟⲣ‐\nⲑⲟⲩ ⲙ̅ⲡⲉⲉⲓⲛⲟϭ ⲡⲱⲥ ⲉϥⲛⲁϯ ⲁⲛⲁⲡⲁⲩ‐\nⲥⲓⲥ ⲛ̅ⲟⲩⲟⲛ’ ⲛⲓⲙ ϩⲁ ⲧⲉϩⲏ ⲛ̅ϩⲱⲃ ⲛⲓⲙ’ ϣϣⲉ\nⲁⲛ ⲉⲗ̅ⲗⲩⲡⲉⲓ ⲗ̅ⲗⲁⲁⲩ ⲉⲓⲧⲉ ⲛⲟϭ ⲉⲓⲧⲉ ⲕⲟⲩⲉⲓ\nⲏ ⲁⲡⲓⲥⲧⲟⲥ ⲏ ⲡⲓⲥⲧⲟⲥ ⲉⲓⲧⲁ ⲁϯ ⲁⲛⲁⲡⲁⲩⲥⲓⲥ\nⲛ̅ⲛⲉⲧⲙ̅ⲧⲟⲛ’ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲛⲉⲧⲛⲁⲛⲟⲩⲟⲩ\nⲟⲩⲛ̅ ϩⲟⲉⲓⲛⲉ ⲉⲧⲟⲩⲛⲟϥⲣⲉ ⲧⲉ ⲉϯ ⲁⲛⲁ‐\nⲡⲁⲩⲥⲓⲥ ⲙ̅ⲡⲉⲧ’ϣⲟⲟⲡ’ ⲕⲁⲗⲱⲥ ⲡⲉϯⲣⲉ\nⲙ̅ⲡⲉⲧⲛⲁⲛⲟⲩϥ’ ⲙⲛ̅ ϭⲟⲙ’ ⲙ̅ⲙⲟϥ ⲛ̅ϥϯ\nⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲛ̅ⲛⲁⲉⲓ 〈ϥ〉ϥⲓ ⲅⲁⲣ ⲁⲛ’ ⲙ̅ⲡⲉⲧⲉϩ‐\nⲛⲁϥ’ ⲙⲛ̅ ϭⲟⲙ ⲇⲉ ⲙ̅ⲙⲟϥ ⲁⲗⲗⲩⲡⲉⲓ’ ⲉϥ’‐\nⲧⲙ̅ⲧⲣⲟⲩⲣ̅ⲑⲗⲓⲃⲉ ⲙ̅ⲙⲟⲟⲩ ⲁⲗⲗⲁ ⲡⲉⲧϣⲱ‐\nⲡⲉ ⲕⲁⲗⲱⲥ ϩⲛ̅ⲥⲟⲡ’ ϣⲁϥ’ⲗ̅ⲗⲩⲡⲉⲓ ⲙ̅ⲙⲟ‐\nⲟⲩ ϥϣⲟⲟⲡ’ ⲁⲛ’ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲗⲗⲁ ⲧⲟⲩⲕⲁ‐\nⲕⲓⲁ ⲧⲉ ⲉⲧⲣ̅ⲗⲩⲡⲉⲓ ⲙ̅ⲙⲟⲟⲩ ⲡⲉⲧⲉⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲫⲩⲥⲓⲥ ϥϯ ⲟⲩⲛⲟϥ ⲙ̅ⲡⲉⲧⲛⲁ‐\nⲛⲟⲩϥ’ ϩⲟⲉⲓⲛⲉ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲡⲁⲉⲓ ⲥⲉⲗ̅‐\nⲗⲩⲡⲉⲓ ⲕⲁⲕⲱⲥ §ⲟⲩϫⲉⲥϩⲛ̅ⲛⲏⲉⲓ’ ⲁϥϫⲡⲉ"
+        },
+        {
+          "title": "A Householder and Food",
+          "subtitle": "A Householder and Food",
+          "heading": "A Householder and Food (80, 23-81, 14)",
+          "rangeLabel": "80, 23-81, 14",
+          "range": {
+            "start": {
+              "page": 80,
+              "line": 23
+            },
+            "end": {
+              "page": 81,
+              "line": 14
+            }
+          },
+          "english": "There was a householder who had everything: children, slaves, cattle, dogs, pigs,\nwheat, barley, chaff, fodder, [oil], meat, and acorns. The householder was wise\nand knew the food of each. He fed the children [baked] bread [and meat]. He fed\nthe slaves [oil and] grain. [He fed] the cattle barley, chaff, and fodder. He threw\nthe dogs some bones. He fed the pigs acorns and gruel.\nSo it is with the disciples of God. If they are wise, they understand discipleship. Bodily forms will not deceive them, but they will examine the condition of\neach person’s soul and speak appropriately with the person. In the world many\nanimals have human form. If the disciples of God identify them as pigs, they\nfeed them acorns. If cattle, they feed them barley, chaff, and fodder. If dogs, they\nthrow them some bones. If slaves, they feed them what is preliminary. If\nchildren, they feed them what is complete.",
+          "coptic": "ⲗⲩⲡⲉⲓ ⲕⲁⲕⲱⲥ §ⲟⲩϫⲉⲥϩⲛ̅ⲛⲏⲉⲓ’ ⲁϥϫⲡⲉ\nⲛ̅ⲕⲁ ⲛⲓⲙ ⲉⲓⲧⲉ ϣⲏⲣⲉ ⲉⲓⲧⲉ ϩⲙϩ̅ⲁ̅ⲗ̅ ⲉⲓⲧⲉ\nⲧⲃⲛⲏ ⲉⲓⲧⲉ ⲟⲩϩⲟⲣ’ ⲉⲓⲧⲉ ⲣⲓⲣ’ ⲉⲓⲧⲉ ⲥⲟⲩⲟ’\n[ⲉⲓⲧⲉ] ⲉⲓⲱⲧ’ ⲉⲓⲧⲉ ⲧⲱϩ ⲉⲓⲧⲉ ⲭⲟⲣⲧⲟⲥ ⲉⲓⲧⲉ\n[...]. ⲉⲓⲧⲉ ⲁϥ ⲁⲩⲱ ⲃⲁⲗⲁⲛⲟⲥ ⲟⲩⲥⲁⲃⲉ\n[ⲇⲉ ⲡ]ⲉ ⲁⲩⲱ ⲁϥⲉⲓⲙⲉ ⲛ̅ⲧ’ⲧⲣⲟⲫⲏ ⲙ̅ⲡⲟⲩⲁ\n[ⲡⲟⲩⲁ] ⲛ̅ϣⲏⲣ[ⲉ] ⲙⲉⲛ’ ⲁϥⲕⲉ ⲁⲣⲧⲟⲥ ϩⲁⲣⲱ‐\n[ⲟⲩ ....]ⲁⲁ[.... ⲛ̅]ϩⲙϩ̅ⲁ̅ⲗ̅ ⲇⲉ ⲁϥⲕⲉ ⲕⲓ‐\n[.....ϩⲁⲣⲱⲟⲩ ϩⲓ ⲉ]ⲃⲣⲉ ⲁⲩⲱ ⲛ̅ⲧⲃⲛⲟⲟⲩ\n[ⲁϥ’ⲛⲉϫ’ ⲉⲓ]ⲱ[ⲧ ϩ]ⲁⲣⲱⲟⲩ ϩⲓ ⲧⲱϩ ϩⲓ ⲭⲟⲣ’‐\n[ⲧⲟⲥ’ ⲛ̅ⲟⲩ]ϩⲟⲟⲣ̅ ⲁϥⲛⲉϫ ⲕⲉⲉⲥ ϩⲁⲣⲱⲟⲩ\n[ⲁⲩⲱ ⲣ̅ⲣⲓⲣ ⲁ]ϥⲛⲉϫ’ ⲃⲁⲗⲁⲛⲟⲥ ϩⲁⲣⲱⲟⲩ’\nϩⲓ̈ ⲙⲁⲙⲟⲩ ⲛ̅ⲟⲉⲓⲕ’ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲙ̅ⲡⲙⲁⲑⲏ’‐\nⲧⲏⲥ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉϣⲱⲡⲉ ⲟⲩⲥⲁⲃⲉ ⲡⲉ ⲉϥ’‐\nⲁⲓⲥⲑⲁⲛⲉ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲙⲁⲑⲏⲧⲏⲥ ⲙ̅ⲙⲟⲣ’‐\nⲫⲏ ⲛ̅ⲥⲱⲙⲁⲧⲓⲕⲏ ⲥⲉⲛⲁⲣ̅ⲁⲡⲁⲧⲁ ⲁⲛ’ ⲙ̅‐\nⲙⲟϥ’ ⲁⲗⲗⲁ’ ⲉϥⲛⲁϭⲱϣⲧ’ ⲛ̅ⲥⲁ ⲧⲇⲓⲁⲑⲉ‐\nⲥⲓⲥ ⲛ̅ⲧⲉϥ’ⲯⲩⲭⲏ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ϥϣⲁ‐\nϫⲉ ⲛⲙ̅ⲙⲁϥ’ ⲟⲩⲛ̅ ϩⲁϩ ⲛ̅ⲑⲏⲣⲓⲟⲛ ϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲉⲩⲟ ⲙ̅ⲙⲟⲣⲫⲏ ⲣ̅ⲣⲱⲙⲉ ⲛⲁⲉⲓ ⲉϥ’‐\nϣⲁⲥⲟⲩⲱⲛⲟⲩ ⲣ̅ⲣⲓⲣ ⲙⲉⲛ’ ϥⲛⲁⲛⲉϫ’ ⲃⲁ‐\nⲗⲁⲛⲟⲥ ⲉⲣⲟⲟⲩ ⲛ̅ⲧⲃⲛⲟⲟⲩ ⲇⲉ ϥⲛⲁⲛⲉϫ’\nⲉⲓⲱⲧ’ ⲉⲣⲟⲟⲩ ϩⲓ ⲧⲱϩ ϩⲓ ⲭⲟⲣⲧⲟⲥ ⲛ̅ⲟⲩ‐\nϩⲟⲟⲣ’ ϥⲛⲁⲛⲉϫ ⲕⲁⲁⲥ ⲉⲣⲟⲟⲩ ⲛ̅ϩⲙ̅ϩ̅ⲁ̅ⲗ̅\nϥⲛⲁϯ ⲛⲁⲩ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ϣⲏⲣⲉ ϥⲛⲁϯ ⲛⲁⲩ\nⲛ̅ⲧⲉⲗⲉⲓⲟⲛ §ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱ‐"
+        },
+        {
+          "title": "Creating and Procreating",
+          "subtitle": "Creating and Procreating",
+          "heading": "Creating and Procreating (81, 14-34)",
+          "rangeLabel": "81, 14-34",
+          "range": {
+            "start": {
+              "page": 81,
+              "line": 14
+            },
+            "end": {
+              "page": 81,
+              "line": 34
+            }
+          },
+          "english": "There is the Child of Humanity, and there is the child of the Child of Humanity.\nThe Child of Humanity is the Lord, and the child of the Child of Humanity is the\none who creates through the Child of Humanity. The Child of Humanity received\nfrom God the ability to create. He can also procreate. One who has received the\nability to create is a creature, and one who has received the ability to procreate is\nan offspring. One who creates cannot procreate, but one who procreates can\ncreate. One who creates is said to procreate, but the “offspring” are really\ncreatures, because these “offspring” are not children of procreation but [works of\ncreation].\nOne who creates works openly and is visible. One who procreates does so\n[secretly] and is hidden, for one who procreates [is beyond every] image. So,\nthen, one who creates does so openly, and one who procreates [produces]\noffspring secretly.",
+          "coptic": "ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ §ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱ‐\nⲙⲉ ⲁⲩⲱ ϥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲡϣⲏⲣⲉ ⲙ̅ⲡϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲡϫⲟⲉⲓⲥ ⲡⲉ ⲡϣⲏⲣⲉ ⲙ̅‐\nⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲡϣⲏⲣⲉ ⲙ̅ⲡϣⲏⲣⲉ’ ⲙ̅‐\nⲡⲣⲱⲙⲉ ⲡⲉ ⲡⲉⲧ’ⲥⲱⲛⲧ’ ϩⲓⲧⲙ̅ ⲡϣⲏ‐\nⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲁⲡϣⲏⲣⲉ ⲙ̅ⲡⲣⲱⲙⲉ ϫⲓ\nⲛ̅ⲧⲟⲟⲧϥ’ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉⲧⲣⲉϥⲥⲱⲛⲧ’ ⲟⲩⲛ‐\nⲧⲁϥ’ ⲙ̅ⲙⲁⲩ ⲉⲧⲣⲉϥϫⲡⲟ ⲡⲉⲛⲧⲁϩϫⲓ ⲉ‐\nⲧⲣⲉϥ’ⲥⲱⲛ’ⲧ’ ⲟⲩⲥⲱⲛⲧ’ ⲡⲉ ⲡⲉⲛⲧⲁϩϫⲓ\nⲉϫⲡⲟ ⲟⲩϫⲡⲟ ⲡⲉ ⲡⲉⲧⲥⲱⲛⲧ ⲙⲛ̅ ϭⲟⲙ\nⲛ̅ϥϫⲡⲟ ⲡⲉⲧ’ϫⲡⲟ ⲟⲩⲛ̅ ϭⲟⲙ ⲛ̅ϥⲥⲱⲛⲧ\nⲥⲉϫⲱ ⲇⲉ ⲙ̅ⲙⲟⲥ ϫⲉ ⲡⲉⲧ’ⲥⲱⲛⲧ’ ϫⲡⲟ\nⲁⲗⲗⲁ ⲡⲉϥϫⲡⲟ ⲟⲩⲥⲱⲛⲧ’ ⲡⲉ ⲉⲧ[ⲃⲉ ...]\nⲛ̅ϫⲡⲟ ⲛⲉϥ’ϣⲏⲣⲉ ⲁⲛ ⲛⲉ ⲁⲗⲗⲁ ⲛ[.....]\nⲛⲉ ⲡⲉⲧⲥⲱⲛⲧ’ ⲉϥⲣ̅ ϩⲱⲃ ϩⲛ̅ ⲟⲩ[ⲱⲛϩ]\nⲉⲃⲟⲗ ⲁⲩⲱ ⲛ̅ⲧⲟϥ ϩⲱⲱϥ ϥⲟⲩⲟ[ⲛϩ ⲉ]‐\nⲃⲟⲗ’ ⲡⲉⲧϫⲡⲟ’ ⲉϥϫⲡⲟ ϩⲛ̅ ⲟⲩ[ⲡⲉⲑⲏⲡ]\nⲁⲩⲱ ⲛ̅ⲧⲟϥ ϥϩⲏⲡ’ [ⲉ]ϥ[ⲟ]ⲩⲁ[......]\nⲑⲓⲕⲱⲛ ⲡⲉⲧ’ⲥⲱ[ⲛⲧ ⲟ]ⲛ ⲉϥⲥ[ⲱⲛⲧ ϩⲛ̅]\nⲟⲩⲫⲁⲛⲉⲣⲟⲛ ⲡⲉⲧϫⲡⲟ ⲇ[ⲉ ⲉϥϫⲡⲉ]\nϣⲏⲣⲉ ϩⲛ̅ ⲟⲩⲡⲉⲑⲏⲡ’ ⲙⲛ̅ [ⲗⲁⲁⲩ ⲛⲁϣ]‐"
+        },
+        {
+          "title": "Pure Marriage",
+          "subtitle": "Pure Marriage",
+          "heading": "Pure Marriage (81, 34-82, 26)",
+          "rangeLabel": "81, 34-82, 26",
+          "range": {
+            "start": {
+              "page": 81,
+              "line": 34
+            },
+            "end": {
+              "page": 82,
+              "line": 26
+            }
+          },
+          "english": "No [one can] know when [a husband] and wife have sex except those two,\nfor marriage in this world is a mystery for those married. If defiled marriage is\nhidden, how much more is undefiled marriage a true mystery! It is not fleshly\nbut pure. It belongs not to desire but to will. It belongs not to darkness or night\nbut to the day and the light.\nIf marriage is exposed, it has become prostitution, and the bride plays the\nharlot not only if she is impregnated by another man, but even if she slips out of\nher bedchamber and is seen. Let her show herself only to her father and her\nmother, the friend of the bridegroom, and the attendants of the bridegroom. They\nare allowed to enter the bridal chamber every day. But let the others yearn just to\nhear her voice and enjoy the fragrance of her ointment, and let them feed on the\ncrumbs that fall from the table, like dogs.\nBridegrooms and brides belong to the bridal chamber. No one can see a\nbridegroom or a bride except by becoming one.",
+          "coptic": "ϣⲏⲣⲉ ϩⲛ̅ ⲟⲩⲡⲉⲑⲏⲡ’ ⲙⲛ̅ [ⲗⲁⲁⲩ ⲛⲁϣ]‐\nⲥⲟⲟⲩⲛ ϫⲉ ⲁϣ ⲡⲉ ⲫⲟ[ⲟⲩ ⲉⲧⲉ ⲫⲟⲟⲩⲧ]\nⲙⲛ̅ ⲧⲥϩⲓⲙⲉ ⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ\nⲉⲓ ⲙⲏ ⲛ̅ⲧⲟⲟⲩ ⲟⲩⲁⲁⲩ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲅⲁⲣ’\nⲡⲉ ⲡⲅⲁⲙⲟⲥ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲛ̅ⲛⲉⲛⲧⲁϩϫⲓ\nϩⲓⲙⲉ ⲉϣϫⲉ ⲡⲅⲁⲙⲟⲥ ⲙ̅ⲡϫⲱϩⲙ’ ϥϩⲏⲡ’\nⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ⲡⲅⲁⲙⲟⲥ ⲛ̅ⲁⲧϫⲱϩⲙ’ ⲟⲩ‐\nⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲡⲉ ⲛ̅ⲁⲗⲏⲑⲉⲓⲛⲟⲛ ⲟⲩⲥⲁⲣⲕⲓ‐\nⲕⲟⲛ’ ⲁⲛ ⲡⲉ ⲁⲗⲗⲁ ⲉϥ’ⲧⲃ̅ⲃⲏⲩ ⲉϥⲏⲡ’ ⲁⲛ ⲁⲧⲉ‐\nⲡⲓⲑⲩⲙⲓⲁ ⲁⲗⲗⲁ ⲉⲡⲟⲩⲱϣ ⲉϥⲏⲡ’ ⲁⲛ’ ⲉⲡⲕⲁ‐\nⲕⲉ ⲏ ⲧⲟⲩϣⲏ ⲁⲗⲗⲁ ⲉϥⲏⲡ’ ⲉⲡⲉϩⲟⲟⲩ ⲙⲛ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲟⲩⲅⲁⲙⲟⲥ ⲉϥϣⲁⲕⲱⲕⲁϩⲏⲩ\nⲁϥϣⲱⲡⲉ ⲙ̅ⲡⲟⲣⲛⲉⲓⲁ ⲁⲩⲱ ⲧϣⲉⲗⲉⲉⲧ’\nⲟⲩ ⲙⲟⲛⲟⲛ ⲉⲥϣⲁϫⲓ ⲡⲥⲡⲉⲣⲙⲁ ⲛ̅ⲕⲉϩⲟ‐\nⲟⲩⲧ’ ⲁⲗⲗⲁ ⲕⲁⲛ ⲉⲥϣⲁⲛⲣ̅ ⲡⲃⲟⲗ’ ⲙ̅ⲡⲉⲥⲕⲟⲓ‐\nⲧⲱⲛ ⲛ̅ⲥⲉⲛⲁⲩ ⲉⲣⲟⲥ ⲁⲥⲡⲟⲣⲛⲉⲩⲉ ⲙⲟⲛⲟⲛ\nⲙⲁⲣⲉⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̅ⲡⲉⲥⲉⲓⲱⲧ’ ⲙⲛ̅ ⲧⲉⲥ‐\nⲙⲁⲁⲩ ⲙⲛ̅ ⲡϣⲃⲏⲣ’ ⲙ̅ⲡⲛⲩⲙ̅ⲫⲓⲟⲥ ⲙⲛ̅ ⲛ̅‐\nⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ’ⲫⲓⲟⲥ ⲛⲁⲉⲓ ⲉⲥⲧⲟⲉⲓ ⲛⲁⲩ\nⲉⲧⲣⲟⲩⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲙ̅ⲙⲏⲛⲉ ⲉⲡⲛⲩⲙⲫⲱⲛ\nⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ ⲙⲁⲣⲟⲩⲣ̅ⲉⲡⲓⲑⲩⲙⲉⲓ ⲕⲁⲛ’\nⲉⲥⲱⲧⲙ̅ ⲉⲧⲉⲥⲥⲙⲏ ⲛ̅ⲥⲉⲣ̅ⲁⲡⲟⲗⲁⲩⲉ’ ⲙ̅‐\nⲡⲉⲥⲥⲟϭⲛ̅ ⲁⲩⲱ ⲙⲁⲣⲟⲩⲥⲟⲛϣ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲛ̅‐\nⲗⲉϥⲗⲓϥⲉ ⲉⲧϩⲉ ⲉⲃⲟⲗ ϩⲓ ⲧⲣⲁⲡⲉⲍⲁ ⲛ̅ⲑⲉ ⲛ̅‐\nⲛⲟⲩϩⲟⲟⲣ’ ⲟⲩⲛ ϩⲛ̅ⲛⲩⲙ’ⲫⲓⲟⲥ ⲙⲛ̅ ϩⲛ̅‐\nⲛⲩⲙⲫⲏ ⲏⲡ’ ⲉⲡⲛⲩⲙⲫⲱⲛ ⲙⲛ̅ ⲟⲩⲁ ⲛⲁϣ‐\nⲛⲁⲩ ⲁⲡⲛⲩⲙ’ⲫⲓⲟⲥ ⲙⲛ̅ ⲧⲛⲩⲙⲫⲏ ⲉⲓ ⲙⲏ\n[ⲛ̅ϥϣ]ⲱⲡⲉ ⲙ̅ⲡⲁⲉⲓ §ⲛ̅ⲧⲉⲣⲉ ⲁⲃⲣⲁϩⲁⲙ’"
+        },
+        {
+          "title": "Abraham’s Circumcision",
+          "subtitle": "Abraham’s Circumcision",
+          "heading": "Abraham’s Circumcision (82, 26-29)",
+          "rangeLabel": "82, 26-29",
+          "range": {
+            "start": {
+              "page": 82,
+              "line": 26
+            },
+            "end": {
+              "page": 82,
+              "line": 29
+            }
+          },
+          "english": "When Abraham [was able] to see what he was to see, [he] circumcised the\nflesh of the foreskin, thus teaching us that it is necessary to destroy the flesh.",
+          "coptic": "[ⲛ̅ϥϣ]ⲱⲡⲉ ⲙ̅ⲡⲁⲉⲓ §ⲛ̅ⲧⲉⲣⲉ ⲁⲃⲣⲁϩⲁⲙ’\n[....] ⲉⲧⲣⲉϥⲛⲁⲩ ⲁⲡⲉⲧ’ϥⲛⲁⲛⲁⲩ ⲉⲣⲟϥ’\n[ⲁϥⲥ]ⲃ̅ⲃⲉ ⲛ̅ⲧⲥⲁⲣⲝ’ ⲛ̅ⲧⲁⲕⲣⲟⲃⲩⲥⲧⲓⲁ ⲉϥⲧⲁ‐\n[ⲙⲟ] ⲙ̅ⲙⲟⲛ ϫⲉ ϣϣⲉ ⲉⲧⲁⲕⲟ ⲛ̅ⲧⲥⲁⲣⲝ’"
+        },
+        {
+          "title": "Hidden Parts",
+          "subtitle": "Hidden Parts",
+          "heading": "Hidden Parts (82, 30-83, 18)",
+          "rangeLabel": "82, 30-83, 18",
+          "range": {
+            "start": {
+              "page": 82,
+              "line": 30
+            },
+            "end": {
+              "page": 83,
+              "line": 18
+            }
+          },
+          "english": "As long as their [insides] are hidden, [most] beings in the world are alive and\nwell. [If their insides] are exposed, they die, as is clear by the example of the\nvisible part of a person. [As long as] a person’s intestines are hidden, the person\nis alive. If the intestines are exposed and come out, the person dies.\nLikewise, while its root is hidden, a tree sprouts and grows. If its root is exposed,\nthe tree withers.\nSo it is with all things produced in the world, not only the visible but also the\nhidden. As long as the root of evil is hidden, it is strong. When it is recognized,\nit is undone, and if it is brought to light, it dies. For this reason the word says,\n“Already the ax is laid at the root of the trees.” It will not merely cut them\ndown, for what is cut down sprouts up again. Rather, the ax will dig down until it\ncuts out the root. Jesus pulled out the root of the whole place, but others did so\nonly in part.",
+          "coptic": "§[ⲡⲉϩⲟ]ⲩⲟ ⲛ̅ⲧⲉ [ⲡ]ⲕⲟⲥⲙⲟⲥ ⲉⲛ ϩⲟⲥⲟⲛ’ ⲛⲟⲩ‐\n[ⲥⲁ ⲛϩⲟⲩ]ⲛ’ ϩⲏ[ⲡ]’ [ⲥⲉ]ⲁϩⲉⲣⲁⲧⲟⲩ’ ⲁⲩⲱ ⲥⲉⲟⲛϩ\n[ⲉⲩϣⲁⲛ]ⲟⲩⲱⲛ[ϩ ⲉⲃ]ⲟⲗ ⲁⲩⲙⲟⲩ ⲕⲁⲧⲁ ⲡⲡⲁ‐\n[ⲣⲁⲇⲓⲅⲙ]ⲁ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲧⲟⲩⲟⲛⲉϩ ⲉⲃⲟⲗ\n[ⲉⲛ ϩⲟⲥⲟ]ⲛ ⲙ̅ⲙⲁϩⲧ’ ⲙ̅ⲡⲣⲱⲙⲉ ϩⲏⲡ’ ϥⲟⲛϩ\nⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ ⲉⲩϣⲁϭⲱⲗⲡ’ ⲛ̅ϭⲓ ⲛⲉϥⲙⲁϩⲧ’\nⲥⲉⲣ̅ ⲡⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ϥⲛⲁⲙⲟⲩ ⲛ̅ϭⲓ ⲡⲣⲱⲙⲉ\nⲧⲉⲉⲓϩⲉ ⲟⲛ ⲙ̅ⲡϣⲏⲛ ϩⲱⲥ ⲉⲧⲉϥⲛⲟⲩⲛⲉ\nϩⲏⲡ’ ϣⲁϥϯ ⲟⲩⲱ ⲛ̅ϥⲗⲉϩⲏⲧ%2 ⲉⲣϣⲁ ⲧⲉϥ’‐\nⲛⲟⲩⲛⲉ ϭⲱⲗⲡ’ ⲉⲃⲟⲗ ϣⲁⲣⲉ ⲡϣⲏⲛ ϣⲟ‐\nⲟⲩⲉ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲓ ϫⲡⲟ ⲛⲓⲙ’ ⲉⲧϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲟⲩ ⲙⲟⲛⲟⲛ ϩⲓ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ’\nⲁⲗⲗⲁ ϩⲓ ⲛⲉⲑⲏⲡ’ ⲉⲫ ϩⲟⲥⲟⲛ ⲅⲁⲣ ⲧⲛⲟⲩⲛⲉ\nⲛ̅ⲧⲕⲁⲕⲓⲁ ϩⲏⲡ ⲥϫⲟⲟⲣ ⲉⲩϣⲁⲛⲥⲟⲩⲱⲛⲥ̅\nⲇⲉ ⲁⲥⲃⲱⲗ ⲉⲃⲟⲗ ⲉⲥϣⲁⲛⲟⲩⲱⲛϩ ⲇⲉ ⲉ‐\nⲃⲟⲗ ⲁⲥⲱϫⲛ̅ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲡⲗⲟⲅⲟⲥ ϫⲱ ⲙ̅‐\nⲙⲟⲥ ϫⲉ ⲏⲇⲏ ⲧⲁⲝⲉⲓⲛⲏ ⲥⲙ̅ⲙⲟⲛⲧ’ ⲁⲧⲛⲟⲩ‐\nⲛⲉ ⲛ̅ⲛ̅ϣⲏⲛ ⲉⲥⲛⲁϣⲱⲱⲧ’ ⲁⲛ ⲡⲉⲧⲟⲩ‐\nⲛⲁϣⲁⲁⲧϥ’ ⲡⲁⲗⲓⲛ ϣⲁϥϯ ⲟⲩⲱ ⲁⲗⲗⲁ ⲉϣⲁ‐\nⲣⲉ ⲧⲁⲝⲉⲓⲛⲏ ⲃⲁⲗⲃⲗ̅ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲉⲥⲏⲧ’ ϣⲁⲛ‐\nⲧⲉⲥⲛ̅ ⲧⲛⲟⲩⲛⲉ ⲉϩⲣⲁⲉⲓ ⲁⲓ̅ⲥ̅ ⲇⲉ ⲡⲱⲣⲕ’ ⲛ̅‐\nⲧⲛⲟⲩⲛⲉ ⲙ̅ⲡⲙⲁ ⲧⲏⲣϥ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ ⲕⲁ‐\nⲧⲁ ⲙⲉⲣⲟⲥ ⲁⲛⲟⲛ ϩⲱⲱⲛ ⲙⲁⲣⲉ ⲡⲟⲩⲁ"
+        },
+        {
+          "title": "The Root of Evil",
+          "subtitle": "The Root of Evil",
+          "heading": "The Root of Evil (83, 18-30)",
+          "rangeLabel": "83, 18-30",
+          "range": {
+            "start": {
+              "page": 83,
+              "line": 18
+            },
+            "end": {
+              "page": 83,
+              "line": 30
+            }
+          },
+          "english": "Let each of us also dig down after the root of evil within us and pull it out of our\nhearts from the root. It will be uprooted if we recognize it. But if we are ignorant\nof it, it takes root in us and produces fruit in our hearts. It dominates us. We are\nits slaves, and it takes us captive so that we do what we do [not] want and do\n[not] do what we want. It is powerful because we do not recognize it. As long as\n[it] exists, it stays active.",
+          "coptic": "ⲧⲁ ⲙⲉⲣⲟⲥ ⲁⲛⲟⲛ ϩⲱⲱⲛ ⲙⲁⲣⲉ ⲡⲟⲩⲁ\nⲡⲟⲩⲁ ⲛ̅ϩⲏⲧⲛ̅ ⲙⲁⲣⲉϥⲃⲁⲗⲃⲗⲉ ⲛ̅ⲥⲁ ⲧⲛⲟⲩ‐\nⲛⲉ ⲛ̅ⲧⲕⲁⲕⲓⲁ’ ⲉⲧⲛ̅ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥ̅ ⲛ̅ϥⲡⲟⲣⲕ̅ⲥ̅̅\nϩⲁ ⲧⲉⲥⲛⲟⲩⲛⲉ ϩⲙ̅ ⲡⲉϥϩⲏⲧ’ ⲉⲥⲛⲁⲡⲱⲣⲕ\nⲇⲉ ⲉⲛ’ϣⲁⲥⲟⲩⲱⲛ̅ⲥ̅ ⲉϣⲱⲡⲉ ⲇⲉ ⲧⲛ̅‐\nⲛⲟ ⲛ̅ⲁⲧ’ⲥⲟⲟⲩⲛ ⲉⲣⲟⲥ ⲥϫⲉ ⲛⲟⲩⲛⲉ ϩⲣ[ⲁ]ⲓ̈\nⲛ̅ϩⲏⲧⲛ̅ ⲁⲩⲱ ⲥⲧⲉⲩⲟ ⲉⲃⲟⲗ ⲛ̅ⲛⲉⲥⲕⲁⲣ‐\nⲡⲟⲥ ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲛ̅ϩⲏⲧ’ ⲥⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲉⲣⲟⲛ\nⲧⲛ̅ⲛⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛⲁⲥ ⲥⲣ̅ⲁⲓⲭⲙⲁⲗⲱ[ⲧ]ⲓⲍⲉ\nⲙ̅ⲙⲟⲛ ⲉⲧⲣⲛ̅ⲉⲓⲣⲉ ⲛ̅ⲛⲉⲧⲛ̅ⲟⲩⲟϣ[ⲟⲩ ⲁⲛ]\nⲛⲉⲧⲛ̅ⲟⲩⲟϣⲟⲩ ⲧⲛ̅ⲉⲓⲣⲉ ⲙ̅ⲙⲟⲟⲩ [ⲁⲛ ⲥ]‐\nϭⲙ̅ ϭⲟⲙ’ ϫⲉ ⲙ̅ⲡⲛ̅ⲥⲟⲩⲱⲛ̅ⲥ̅ ϩⲱⲥ [ⲉⲥϣⲟ]‐\nⲟⲡ’ ⲙⲉⲛ ⲥⲣ̅ⲉⲛⲉⲣⲅⲉⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧⲥ[ⲟⲟⲩⲛ]"
+        },
+        {
+          "title": "Ignorance Is the Mother of Evil",
+          "subtitle": "Ignorance Is the Mother of Evil",
+          "heading": "Ignorance Is the Mother of Evil (83, 30-84, 14)",
+          "rangeLabel": "83, 30-84, 14",
+          "range": {
+            "start": {
+              "page": 83,
+              "line": 30
+            },
+            "end": {
+              "page": 84,
+              "line": 14
+            }
+          },
+          "english": "Ignorance is the mother of [all evil]. Ignorance leads to [death, because] those\nwho come from [ignorance] neither were nor [are] nor will be. [But those in the\ntruth] will be perfect when all truth is revealed. For truth is like ignorance.\nWhile hidden, truth rests in itself, but when revealed and recognized, truth is\npraised in that it is stronger than ignorance and error. It gives freedom.\nThe word says, “If you know the truth, the truth will make you free.”\nIgnorance is a slave, knowledge is freedom. If we know the truth, we shall\nfind the fruit of truth within us. If we join with it, it will bring us fulfillment.",
+          "coptic": "ⲟⲡ’ ⲙⲉⲛ ⲥⲣ̅ⲉⲛⲉⲣⲅⲉⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧⲥ[ⲟⲟⲩⲛ]\nⲉⲥϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲁⲩ ⲛ̅ⲛ̅ⲡⲉ[ⲑⲟⲟⲩ ⲧⲏⲣⲟⲩ]\nⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ’ⲥⲟⲟⲩⲛ [ⲉⲥ]ⲛⲁϣⲉ ⲁⲡ[ⲙⲟⲩ ϫⲉ]\nⲛⲉⲧ’ϣⲟⲟⲡ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅̅[ⲁⲧⲥⲟⲟⲩⲛ]\nⲟⲩⲧⲉ ⲛⲉⲩϣⲟⲟⲡ’ ⲁⲛ’ ⲟⲩⲧⲉ [ⲥⲉϣⲟⲟⲡ ⲁⲛ]\nⲟⲩⲧⲉ ⲥⲉⲛⲁϣⲱⲡⲉ ⲁⲛ [......]\nⲥⲉⲛⲁϫⲱⲕ’ ⲉⲃⲟⲗ’ ϩⲟⲧⲁⲛ ⲉⲣϣⲁ ⲧⲁⲗⲏⲑⲉⲓⲁ\nⲧⲏⲣⲥ’ ⲟⲩⲱⲛϩ’ ⲉⲃⲟⲗ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲅⲁⲣ’ ⲕⲁⲧⲁ ⲑⲉ\nⲛ̅ⲧⲙ̅ⲛ̅ⲧⲁⲧ’ⲥⲟⲟⲩⲛ’ ⲉⲥϩⲏⲡ’ ⲙⲉⲛ ⲥⲣ̅ⲁⲛⲁ‐\nⲡⲁⲩⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲉⲥϣⲁⲟⲩⲱⲛϩ ⲇⲉ ⲉⲃⲟⲗ\nⲛ̅ⲥⲉⲥⲟⲩⲱⲛⲥ̅ ϣⲁⲩⲧⲛⲁⲥ ⲉⲟⲟⲩ ϩⲟⲥⲟⲛ\nⲥϭⲛ̅ ϭⲟⲙ’ ⲉⲧⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲁⲧ’ⲡⲗⲁ‐\nⲛⲏ ⲥϯ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲉⲗⲉⲩⲑⲉⲣⲟⲥ ⲡⲉϫⲁϥ’ ⲛ̅ϭⲓ\nⲡⲗⲟⲅⲟⲥ ϫⲉ ⲉⲧⲉⲧⲛ̅ϣⲁⲛ’ⲥⲟⲩⲱⲛ ⲧⲁⲗⲏ‐\nⲑⲉⲓⲁ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲛⲁⲣ̅ ⲧⲏⲛⲉ ⲛ̅ⲉⲗⲉⲩⲑⲉⲣⲟⲥ\nⲧⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ’ ⲥⲟ ⲛ̅ϩⲙϩ̅ⲁⲗ̅ ⲧⲅⲛⲱⲥⲓⲥ ⲟⲩ‐\nⲉⲗⲉⲩⲑⲉⲣⲓⲁ ⲧⲉ’ ⲉⲛϣⲁⲥⲟⲩⲱⲛ’ ⲧⲁⲗⲏⲑⲉⲓⲁ\nⲧⲛ̅ⲛⲁϩⲉ’ ⲁⲛⲕⲁⲣⲡⲟⲥ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲣⲁⲓ̈ ⲛ̅‐\nϩⲏⲧⲛ̅ ⲉⲛ’ϣⲁϩⲱⲧⲣ̅ ⲉⲣⲟⲥ ⲥⲛⲁϫⲓ ⲙ̅ⲡⲛ̅ⲡⲗⲏ‐\nⲣⲱⲙⲁ §ⲧⲉⲛⲟⲩ ⲟⲩⲛ’ⲧⲁⲛ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲉⲧⲟⲩ‐"
+        },
+        {
+          "title": "Things Visible and Hidden",
+          "subtitle": "Things Visible and Hidden",
+          "heading": "Things Visible and Hidden (84, 14-20)",
+          "rangeLabel": "84, 14-20",
+          "range": {
+            "start": {
+              "page": 84,
+              "line": 14
+            },
+            "end": {
+              "page": 84,
+              "line": 20
+            }
+          },
+          "english": "At present we encounter the visible things of creation, and we say that they are\nmighty and worthy and the hidden things are weak and insignificant. It is\n<not> so with the visible things of truth. They are weak and insignificant, but\nthe hidden things are mighty and worthy.",
+          "coptic": "ⲣⲱⲙⲁ §ⲧⲉⲛⲟⲩ ⲟⲩⲛ’ⲧⲁⲛ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲛⲉⲧⲟⲩ‐\nⲟⲛⲉϩ ⲉⲃⲟⲗ’ ⲛ̅ⲧⲉ ⲡⲥⲱⲛⲧ’ ϣⲁⲛ’ϫⲟⲟⲥ ϫⲉ\nⲛ̅ⲧⲟⲟⲩ ⲛⲉ ⲛ’ϫⲱⲱⲣⲉ ⲉⲧ’ⲧⲁⲉⲓⲏⲩ ⲛⲉⲑⲏⲡ’\nⲇⲉ ⲛⲉ ⲛϭⲱⲃ’ ⲉⲧϣⲏⲥ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛⲉⲧⲟⲩ‐\nⲟⲛϩ ⲉⲃⲟⲗ’ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲛ̅ϭⲱⲃ’ ⲛⲉ ⲁⲩⲱ\nⲥⲉϣⲏⲥ ⲛⲉⲑⲏⲡ’ ⲇⲉ ⲛ̅ϫⲱⲣⲉ ⲛⲉ ⲁⲩⲱ ⲥⲉⲧⲁ‐\nⲉⲓⲏⲩ ⲥⲉⲟⲩⲟⲛϩ ⲇⲉ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲙ̅ⲙⲩⲥⲧⲏⲣⲓⲟⲛ"
+        },
+        {
+          "title": "Temple, Cross, Ark",
+          "subtitle": "Temple, Cross, Ark",
+          "heading": "Temple, Cross, Ark (84, 20-85, 21)",
+          "rangeLabel": "84, 20-85, 21",
+          "range": {
+            "start": {
+              "page": 84,
+              "line": 20
+            },
+            "end": {
+              "page": 85,
+              "line": 21
+            }
+          },
+          "english": "The mysteries of truth are made known in symbols and images. The bedchamber\nis hidden, and it is the holy of the holy. At first the curtain concealed how God\nmanages creation, but when the curtain is torn and what is inside appears, this\nbuilding will be left deserted, or rather will be destroyed. And the whole\ngodhead will flee from here but not into the holy of holies, for it cannot mingle\nwith pure [light] and [perfect] fullness. Instead, it will remain under the wings of\nthe cross [and under] its arms. This ark will be salvation [for people] when\nfloodwaters surge over them.\nWhoever belongs to the priestly order can go inside the curtain along with\nthe high priest. For this reason the curtain was not torn only at the top, for then\nonly the upper realm would have been opened. It was not torn only at the\nbottom, for then it would have revealed only the lower realm. No, it was torn\nfrom top to bottom. The upper realm was opened for us in the lower realm,\nthat we might enter the hidden realm of truth. This is what is truly worthy and\nmighty, and we shall enter through symbols that are weak and insignificant.\nThey are weak compared to perfect glory. There is glory that surpasses glory,\nthere is power that surpasses power. Perfect things have opened to us, and\nhidden things of truth. The holy of holies was revealed, and the bedchamber\ninvited us in.",
+          "coptic": "ⲉⲓⲏⲩ ⲥⲉⲟⲩⲟⲛϩ ⲇⲉ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲙ̅ⲙⲩⲥⲧⲏⲣⲓⲟⲛ\nⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲩⲟ ⲛ̅ⲧⲩⲡⲟⲥ ϩⲓ ϩⲓⲕⲱⲛ ⲡⲕⲟⲓ‐\nⲧⲱⲛ ⲇⲉ ϥϩⲏⲡ’ ⲛ̅ⲧⲟϥ ⲡⲉ ⲡⲉⲧⲟⲩⲁⲁⲃ’ ϩⲙ̅\nⲡⲉⲧⲟⲩⲁⲁⲃ’ ⲛⲉⲣⲉ ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲙⲉⲛ’\nϩⲟⲃⲥ̅ ⲛ̅ϣⲟⲣⲡ’ ⲡⲱⲥ ⲉⲣⲉ ⲡⲛⲟⲩⲧⲉ ⲣ̅ⲇⲓⲟⲓⲕⲉⲓ\nⲛ̅ⲧⲕⲧⲓⲥⲓⲥ ⲉϥϣⲁⲡⲱϩ ⲇⲉ ⲛ̅ϭⲓ ⲡⲕⲁⲧⲁⲡⲉ‐\nⲧⲁⲥ[ⲙ]ⲁ ⲁⲩⲱ ⲛ̅ⲧⲉ ⲛⲁ ⲡⲥⲁ ⲛϩⲟⲩⲛ’ ⲟⲩⲱⲛϩ\n[ⲉⲃⲟⲗ] ⲥⲉⲛⲁⲕⲱ ⲇⲉ ⲙ̅ⲡⲉⲉⲓⲏⲉⲓ ⲛ̅ⲥⲱⲟⲩ\n[ⲉϥⲟ] ⲛ̅ⲉⲣⲏⲙⲟⲥ ⲙⲁⲗⲗⲟⲛ ⲇⲉ ⲥⲉⲛⲁⲣ̅ⲕⲁⲧⲁ‐\n[ⲗⲩⲉ] ⲙ̅ⲙⲟϥ’ ⲧⲙ̅ⲛ̅ⲧ̅ⲛⲟⲩⲧⲉ ⲇⲉ ⲧⲏⲣ̅ⲥ̅ ⲥⲁⲡⲱⲧ’\n[ⲉⲃⲟⲗ]’ ⲛ̅ⲛⲉⲉⲓⲙⲁ ⲉϩⲟⲩⲛ ⲁⲛ ⲉⲛⲉⲧⲟⲩⲁⲁⲃ’\n[ⲛ̅ⲧⲉ ⲛ]ⲉⲧ[ⲟ]ⲩⲁⲁⲃ ⲥⲛⲁϣⲧⲱϩ ⲅⲁⲣ ⲁⲛ ⲙⲛ̅ ⲡⲟⲩ‐\n[ⲟⲉⲓⲛ ⲛ̅]ⲁⲧ’ⲧⲱϩ ⲙⲛ̅ ⲡⲡⲗⲏⲣⲱⲙⲁ ⲛ̅ⲁⲧ’‐\n[ϣⲧⲁ ⲁⲗ]ⲗⲁ ⲥⲛⲁϣⲱⲡⲉ ϩⲁ ⲛ̅ⲧⲛϩ ⲙ̅ⲡⲥxⲟⲥ\n[ⲁⲩⲱ ϩⲁ ⲛ]ⲉϥϭⲃⲟⲉⲓ ⲧⲉⲉⲓϭⲓⲃⲱⲧⲟⲥ ⲛⲁϣⲱ‐\n[ⲡⲉ ⲙ̅ⲡⲟ]ⲩⲟⲩϫⲁⲉⲓ ⲛ̅ⲧⲁⲣⲉ ⲡⲕⲁⲧⲁⲕⲗⲩⲥ’‐\nⲙⲟⲥ ⲙ̅ⲙⲟⲟⲩ ⲉⲙⲁϩⲧⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲟⲩ ⲉⲣϣⲁ\nϩⲛ̅ϩⲟⲉⲓⲛⲉ ϣⲱⲡⲉ ϩⲛ̅ ⲧⲫⲩⲗⲏ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲟⲩ‐\nⲏⲏⲃ ⲛⲁⲉⲓ ⲛⲁϣϭⲛ̅ ϭⲟⲙ’ ⲛ̅ⲃⲱⲕ’ ⲉϩⲟⲩⲛ ⲉ‐\nⲡⲥⲁ ⲛϩⲟⲩⲛ ⲙ̅ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲙⲛ̅ ⲡⲁⲣ‐\nⲭⲓⲉⲣⲉⲩⲥ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲙ̅ⲡⲉ ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥ‐\nⲙⲁ ⲡⲱϩ ⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲁⲁⲧϥ ⲉⲡⲉⲓ ⲛⲉⲩ‐\nⲛⲁⲟⲩⲉⲛ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲁⲁⲧⲟⲩ’ ⲟⲩⲧⲉ\nⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲟⲩⲁⲁⲧϥ’ ⲁⲛ ⲛ̅ⲧⲁϥⲡⲱϩ ⲉⲡⲉⲓ\nⲛⲁϥⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲙⲡⲓⲧⲛ ⲟⲩ‐\nⲁⲁⲩ ⲁⲗⲗⲁ ⲛ̅ⲧⲁϥⲡⲱϩ ⲛ̅ⲧⲡⲉ ⲉⲡⲓⲧⲛ̅ ⲁⲛⲁ\nⲡⲥⲁ ⲛⲧⲡⲉ ⲟⲩⲱⲛ’ ⲛⲁⲛ ⲛ̅ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓ‐\nⲧⲛ̅ ϫⲉⲕⲁⲁⲥ ⲉⲛⲛⲁⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲁⲡⲡⲉⲑⲏⲡ’\nⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲡⲁⲉⲓ ⲁⲗⲏⲑⲱⲥ ⲡⲉ ⲡⲉⲧ’ⲧⲁⲉⲓ‐\nⲏⲩ ⲉⲧⲟ ⲛ̅ϫⲱⲱⲣⲉ ⲉⲛⲁⲃⲱⲕ’ ⲇⲉ ⲉϩⲟⲩⲛ ⲉⲙⲁⲩ\nϩⲓⲧⲛ̅ ϩⲛ̅ⲧⲩⲡⲟⲥ ⲉⲩϣⲏⲥ ⲙⲛ̅ ϩⲛ̅ⲙ̅ⲛ̅ⲧ̅ϭⲱⲃ’\nⲥⲉϣⲏⲥ ⲙⲉⲛ’ ⲛ̅ⲛⲁϩⲣⲛ̅ ⲡⲉⲟⲟⲩ ⲉⲧϫⲏⲕ’ ⲉⲃⲟ[ⲗ]\nⲟⲩⲛ̅ ⲉⲟⲟⲩ ⲉϥϫⲟⲥⲉⲉⲟⲟⲩ ⲟⲩⲛ’ ϭⲟⲙ’ ⲉϥϫⲟ‐\nⲥⲉ ⲉϭⲟⲙ’ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲁⲛ’ⲧⲉⲗⲉⲓⲟⲛ’ ⲟⲩⲉⲛ\nⲛⲁⲛ ⲙⲛ̅ ⲛⲉⲑⲏⲡ’ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲁⲩⲱ ⲛⲉⲧⲟⲩ‐\nⲁⲁⲃ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ ⲁⲩϭⲱⲗⲡ’ ⲉⲃⲟⲗ’ ⲁⲩⲱ ⲁ‐\nⲡⲕⲟⲓⲧⲱⲛ ⲧⲱϩⲙ’ ⲙ̅ⲙⲟⲛ ⲉϩⲟⲩⲛ’ §ⲉⲛ ϩⲟⲥⲟⲛ"
+        },
+        {
+          "title": "Revelation of the Seed",
+          "subtitle": "Revelation of the Seed",
+          "heading": "Revelation of the Seed (85, 21-32)",
+          "rangeLabel": "85, 21-32",
+          "range": {
+            "start": {
+              "page": 85,
+              "line": 21
+            },
+            "end": {
+              "page": 85,
+              "line": 32
+            }
+          },
+          "english": "As long as the seed of the Holy Spirit is hidden, wickedness is ineffective,\nthough it is not yet removed from the midst of the seed, and they are still\nenslaved to evil. But when the seed is revealed, then perfect light will shine on\neveryone, and all who are in the light will [receive the] chrism. Then slaves\nwill be freed and captives ransomed. “Every plant that my Father in heaven has\nnot planted [will be] pulled out.” What is separated will be united, [what is\nempty] will be filled.",
+          "coptic": "ⲡⲕⲟⲓⲧⲱⲛ ⲧⲱϩⲙ’ ⲙ̅ⲙⲟⲛ ⲉϩⲟⲩⲛ’ §ⲉⲛ ϩⲟⲥⲟⲛ\nⲙⲉⲛ’ ϥϩⲏⲡ’ ⲧⲕⲁⲕⲓⲁ ⲟⲩⲟⲥϥ’ ⲙⲉⲛ ⲙ̅ⲡⲟⲩ‐\nϥⲓⲧⲥ̅ ⲇⲉ ⲛ̅ⲧⲙⲏⲧⲉ ⲙ̅ⲡⲥⲡⲉⲣⲙⲁ ⲙ̅ⲡⲡⲛ̅ⲁ̅̅\nⲉⲧⲟⲩⲁⲁⲃ’ ⲥⲉⲟ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ ϩⲟ‐\nⲧⲁⲛ ⲇⲉ ⲉϥϣⲁϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ’ ⲛⲁϩⲁⲧⲉ ⲉⲃⲟⲗ’ ⲉϫⲛ̅ [ⲟ]ⲩⲟⲛ\nⲛⲓⲙ’ ⲁⲩⲱ ⲛⲉⲧⲛ̅ϩⲏⲧϥ’ ⲧⲏⲣⲟⲩ ⲥⲉⲛ[ⲁϫⲓ ⲭⲣⲓ]‐\nⲥⲙⲁ ⲧⲟⲧⲉ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛ̅ⲁⲣ̅ⲉⲗⲉⲩⲑⲉ[ⲣⲟⲥ ⲁⲩⲱ]\nⲛ̅ⲥⲉⲥⲱⲧⲉ ⲛ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲟⲥ ⲧⲱϭⲉ ⲛ[ⲓⲙ ⲉⲙ]‐\nⲡⲉ ⲡⲁⲉⲓⲱⲧ’ ⲉⲧϩⲛ̅ ⲙ̅ⲡⲏⲩⲉ ⲧⲟϭϥ[’ ⲥⲉⲛⲁ]‐\nⲡⲟⲣⲕϥ’ ⲛⲉⲧⲡⲟⲣϫ’ ⲥⲉⲛⲁϩⲱⲧⲣ̅ ⲛ[......]\nⲥⲉⲛⲁⲙⲟⲩϩ ⲟⲩⲟⲛ’ ⲛⲓⲙ’ ⲉⲧⲛⲁⲃ[ⲱⲕ ⲉϩⲟⲩⲛ]"
+        },
+        {
+          "title": "Eternal Light",
+          "subtitle": "Eternal Light",
+          "heading": "Eternal Light (85, 32-86, 19)",
+          "rangeLabel": "85, 32-86, 19",
+          "range": {
+            "start": {
+              "page": 85,
+              "line": 32
+            },
+            "end": {
+              "page": 86,
+              "line": 19
+            }
+          },
+          "english": "Everyone who [enters] the bedchamber will kindle the [light. This is] like\nmarriages that occur [in secret and] take place at night. The light of the fire\n[shines] during the night and then goes out. The mysteries of that marriage,\nhowever, are performed in the day and the light, and neither that day nor its light\never sets.\nIf someone becomes an attendant of the bridal chamber, that person will\nreceive the light. If one does not receive it while here in this place, one cannot\nreceive it in the other place.\nThose who receive the light cannot be seen or grasped. Nothing can trouble\nsuch people even while they are living in this world. And when they leave this\nworld, they have already received truth through images, and the world has\nbecome the eternal realm. To these people the eternal realm is Fullness.\nThis is the way it is. It is revealed to such a person alone, hidden not in\ndarkness and night but hidden in perfect day and holy light.\nThe Gospel According to Philip",
+          "coptic": "ⲥⲉⲛⲁⲙⲟⲩϩ ⲟⲩⲟⲛ’ ⲛⲓⲙ’ ⲉⲧⲛⲁⲃ[ⲱⲕ ⲉϩⲟⲩⲛ]\nⲉⲡⲕⲟⲓⲧⲱⲛ ⲥⲉⲛⲁϫⲉⲣⲟ ⲙ̅ⲡⲟⲩ[ⲟⲉⲓⲛ ...]\nⲟ ⲅⲁⲣ ⲛ̅ⲑⲉ ⲛ̅ⲛ̅ⲅⲁⲙⲟⲥ ⲉⲧⲛ̅ⲛⲉ[......]\nϣⲱⲡⲉ ⲛ̅ⲧⲟⲩϣⲏ ⲡⲕⲱϩⲧ’ ϣ[ⲁϥ......]\nⲛ̅ⲧⲟⲩϣⲏ ϣⲁϥϫⲉⲛⲉ ⲙ̅ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲇⲉ\nⲙ̅ⲡⲓⲅⲁⲙⲟⲥ ⲛ̅ⲧⲟϥ ϣⲁⲩϫⲱⲕ’ ⲉⲃⲟⲗ’ ϩⲙ̅ ⲡⲉ‐\nϩⲟⲟⲩ’ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲙⲁⲣⲉ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ\nⲏ ⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ϩⲱⲧⲡ’ ⲉⲣϣⲁ ⲟⲩⲁ ϣⲱⲡⲉ ⲛ̅‐\nϣⲏⲣⲉ ⲙ̅ⲡⲛⲩⲙ’ⲫⲱⲛ’ ϥⲛⲁϫⲓ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ\nⲉⲧⲙ̅ ⲟⲩⲁ ϫⲓⲧϥ’ ⲉϥⲛ̅ⲛⲉⲉⲓⲙⲁ ϥⲛⲁϣϫⲓⲧϥ’\nⲁⲛ ⲙ̅ⲡⲕⲉⲙⲁ ⲡⲉⲧⲁϫⲓ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲙ̅ⲙⲁⲩ\nⲥⲉⲛⲁⲛⲁⲩ ⲁⲛ’ ⲉⲣⲟϥ’ ⲟⲩⲧⲉ ⲥⲉⲛⲁϣⲉⲙⲁϩⲧⲉ\nⲁⲛ’ ⲙ̅ⲙⲟϥ’ ⲁⲩⲱ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣⲣ̅ⲥⲕⲩⲗⲗⲉ ⲙ̅‐\nⲡⲁⲉⲓ ⲛ̅ⲧⲉⲉⲓⲙⲉⲓⲛⲉ ⲕⲁⲛ’ ⲉϥⲣ̅ⲡⲟⲗⲓⲧⲉⲩⲉⲥ‐\nⲑⲁⲓ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲁⲩⲱ ⲟⲛ ⲉϥϣⲁⲉⲓ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲏⲇⲏ ⲁϥϫⲓ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲛ̅\nⲛ̅ϩⲓⲕⲱⲛ ⲡⲕⲟⲥⲙⲟⲥ ⲁϥϣⲱⲡⲉ ⲛ̅ⲛⲁⲓⲱⲛ\nⲡⲁⲓⲱⲛ ⲅⲁⲣ ⲉϥϣⲟⲟⲡ’ ⲛⲁϥ’ ⲙ̅ⲡⲗⲏⲣⲱ‐\nⲙⲁ ⲁⲩⲱ ⲉϥϣⲟⲟⲡ’ ⲛ̅ⲧⲉⲉⲓϩⲉ ϥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲛⲁϥ ⲟⲩⲁⲁϥ ⲉϥϩⲏⲡ’ ⲁⲛ ϩⲙ̅ ⲡⲕⲁⲕⲉ ⲙⲛ̅ ⲧⲟⲩ‐\nϣⲏ ⲁⲗⲗⲁ ⲉϥϩⲏⲡ’ ϩⲛ̅ⲛⲟⲩϩⲟⲟⲩ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ\nⲙⲛ̅ ⲟⲩⲟⲉⲓⲛ ⲉϥⲟⲩⲁⲁⲃ\n0ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ"
+        }
+      ]
+    },
+    {
+      "workId": "hypostasis-of-the-archons",
+      "chapterName": "Hypostasis of the Archons",
+      "title": "Codex II - Hypostasis of the Archons",
+      "sourceTitle": "THE NATURE OF THE RULERS",
+      "sections": [
+        {
+          "title": "The Real Nature of the Authorities",
+          "subtitle": "The Real Nature of the Authorities",
+          "heading": "The Real Nature of the Authorities (86, 20-27)",
+          "rangeLabel": "86, 20-27",
+          "range": {
+            "start": {
+              "page": 86,
+              "line": 20
+            },
+            "end": {
+              "page": 86,
+              "line": 27
+            }
+          },
+          "english": "Concerning the reality of the authorities the great apostle through the spirit of\nthe Father of truth, referred to the authorities of darkness and told us “our\nstruggle is not against flesh and [blood] but against the authorities of the world\nand the spirits of wickedness.” I have sent you this writing because you have\nasked about the real nature of the authorities.",
+          "coptic": "0ⲡⲕⲁⲧⲁ ⲫⲓⲗⲓⲡⲡⲟⲥ \n( codex II ) The Hypostasis of the Archons\n§ⲉⲧⲃⲉ ⲑⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ϩⲙ̅ ⲡⲡ̅ⲛ̅ⲁ\nⲙ̅ⲡⲉⲓⲱⲧ’ ⲛ̅ⲧⲙⲉ ⲁϥϫⲟⲟⲥ ⲛⲁⲛ ⲛ̅ϭⲓ ⲡⲛⲟϭ\nⲛ̅ⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲧⲃⲉ ⲛⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲕⲁⲕⲉ\nϫⲉ ⲡⲛ̅ϣⲱϫⲉ ϣⲟⲟⲡ’ ⲁⲛ ⲟⲩⲃⲉ ⲥⲁⲣⲝ ϩⲓ\n[ⲥⲛⲟ]ϥ ⲁⲗⲗⲁ ⲉϥ’ⲟⲩⲃⲉ ⲛⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲕⲟⲥ‐\n[ⲙⲟⲥ] ⲙⲛ̅ ⲙ̅ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲛ̅ⲧⲡⲟⲛⲏⲣⲓⲁ\n[ⲁⲉⲓ]ϫⲉⲛⲉ ⲛⲁⲉⲓ ⲉⲕϣⲓⲛⲉ ⲉⲧⲃⲉ ⲑⲩⲡⲟⲥⲧⲁ‐\n[ⲥⲓⲥ ⲛ̅]ⲉⲝⲟⲩⲥⲓⲁ §ⲡⲟⲩⲛⲟϭ ⲇⲉ ⲟⲩⲃⲗ̅ⲗⲉ ⲡⲉ"
+        },
+        {
+          "title": "The Blind Demiurge",
+          "subtitle": "The Blind Demiurge",
+          "heading": "The Blind Demiurge (86, 27-87, 23)",
+          "rangeLabel": "86, 27-87, 23",
+          "range": {
+            "start": {
+              "page": 86,
+              "line": 27
+            },
+            "end": {
+              "page": 87,
+              "line": 23
+            }
+          },
+          "english": "The leader of the authorities is blind. [Because of his] power, ignorance, and\narrogance he said, with [power], “I am God; there is no other [but me].”\nWhen he said this, he sinned against [the realm of the All]. This boast rose\nup to Incorruptibility and a voice answered from Incorruptibility and said,\n“You are wrong, Samael”-which means “blind god.”\nHis thoughts were blind. He expressed his power-that is, the blasphemy he\nhad uttered-and pursued it down to chaos and his mother the abyss, at the\ninstigation of Pistis Sophia She established each of his offspring according to\nits power, after the pattern of the eternal realms above. For the visible\noriginated from the invisible.\nIncorruptibility looked down into the region of the waters. Her image\nappeared as a reflection in the waters, and the authorities of darkness fell in love\nwith her. But they could not grasp the image that appeared to them in the waters,\nfor they were weak, and what is only of soul cannot grasp what is of spirit. For\nthe authorities were from below, but the image of Incorruptibility was from\nabove.\nThis is why Incorruptibility looked down into that region, so that, by the\nFather’s will, she might bring all into union with the light.",
+          "coptic": "[ⲥⲓⲥ ⲛ̅]ⲉⲝⲟⲩⲥⲓⲁ §ⲡⲟⲩⲛⲟϭ ⲇⲉ ⲟⲩⲃⲗ̅ⲗⲉ ⲡⲉ\n[ⲉⲧⲃⲉ] ⲧⲉ[ϥ]ϭⲟⲙ ⲙⲛ̅ ⲧⲉϥⲙ̅ⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ\n[ⲙⲛ̅ ⲧⲉϥⲙ]ⲛ̅ⲧϫⲁⲥⲓϩⲙⲧ’ ⲁϥϫⲟⲟⲥ ϩⲛ̅ ⲧⲉϥ’‐\n[ϭⲟⲙ ϫⲉ] ⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲗⲁⲁⲩ\n[ⲁϫⲛ̅ⲧ] §[ⲛ̅ⲧ]ⲁⲣⲉϥϫⲉ ⲡⲁⲉⲓ ⲁϥⲣ̅ ⲛⲟⲃⲉ ⲉϩⲣⲁⲓ̈\n[ⲉⲡⲧⲏⲣϥ] ⲁⲩⲱ ⲁⲡⲉⲉⲓϣⲁϫⲉ ⲡⲱϩ ϣⲁϩ‐\nⲣⲁⲓ̈ ⲉⲧⲙ̅ⲛ̅ⲧ̅’̅ⲁⲧⲧⲁⲕⲟ ⲉⲓⲥ ⲟⲩⲥⲙⲏ ⲇⲉ ⲁⲥⲉⲓ ⲉ‐\nⲃⲟⲗ’ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧⲧⲁⲕⲟ ⲉⲥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ\nⲕⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲥⲁⲙⲁⲏⲗ ⲉⲧⲉ ⲡⲛⲟⲩⲧⲉ ⲡ[ⲉ]\nⲛ̅ⲃ̅ⲃⲗⲗⲉ §ⲁⲛⲉϥⲙⲉⲉⲩⲉ ⲣ̅ ⲃⲗ̅ⲗⲉ ⲁϥⲛⲟⲩϫⲉ\nⲉⲃⲟⲗ ⲛ̅ⲧⲉϥϭⲟⲙ ⲉⲧⲉ ⲡⲟⲩⲁ ⲛ̅ⲧⲁϥϫⲟⲟϥ’\nⲁϥⲇⲓⲱⲕⲉ ⲙ̅ⲙⲟϥ’ ϣⲁ ⲡⲓⲧⲛ̅ ⲁⲡⲭⲁⲟⲥ ⲙⲛ̅\nⲡⲛⲟⲩⲛ ⲧⲉϥ’ⲙⲁⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲡⲓⲥⲧⲓⲥ\nⲧⲥⲟⲫⲓⲁ ⲁⲩⲱ ⲁⲥⲕⲁⲑⲓⲥⲧⲁ ⲛ̅ⲛⲉϥ’ϣⲏⲣⲉ\nⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲕⲁⲧⲁ ⲧⲉϥϭⲟⲙ’ ⲕⲁⲧⲁ ⲡⲧⲩⲡⲟⲥ\nⲛ̅ⲁⲓⲱⲛ’ ⲉⲧⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ϫⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉ‐\nⲑⲏⲡ’ ⲁⲩϩⲉ ⲁⲛⲉⲧⲟⲩⲟⲛϩ’ ⲉⲃⲟⲗ’ §ⲁⲧⲙ̅ⲛ̅ⲧ̅‐\nⲁⲧⲧⲉⲕⲟ ϭⲱϣ’ⲧ ⲁⲡⲓⲧⲛ̅ ⲁⲙⲙⲉⲣⲟⲥ ⲛⲙ̅‐\nⲙⲟⲟⲩ ⲁⲡⲉⲥⲓⲛⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅‐\nⲙⲟⲟⲩ ⲁⲩⲱ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲕⲁⲕⲉ ⲙⲉⲣⲓⲧⲥ̅\nⲙ̅ⲡⲟⲩϣϭⲛ̅ ϭⲟⲙ ⲇⲉ ⲛ̅ⲧⲉϩⲉ ⲡⲓⲛⲉ ⲉⲧⲙ̅ⲙⲁⲩ\nⲡⲉⲛⲧⲁϩⲟⲩⲱⲛ ⲉⲃⲟⲗ ⲛⲁⲩ ϩⲛ̅ⲛⲙ̅ⲙⲟⲟⲩ\nⲉⲧⲃⲉ ⲧⲟⲩⲙⲛ̅ⲧϭⲱⲃ ϫⲉ ⲙ̅ⲯⲩⲭⲓⲕⲟⲥ ⲛⲁϣ‐\nⲧⲉϩⲉ ⲙ̅ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ ⲁⲛ ϫⲉ ϩⲛ̅ⲛⲁ‐\nⲃⲟⲗ ⲛⲉ ⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ ⲛ̅ⲧⲟϥ ⲇⲉ ⲟⲩⲉⲃⲟⲗ\nⲡⲉ ⲙ̅ⲡⲥⲁ ’ⲛⲧⲡⲉ §ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲁⲧⲙ̅ⲛ̅ⲧ̅ⲁⲧ‐\nⲧⲁⲕⲟ ϭⲱϣ’ⲧ ⲉⲃⲟⲗ ⲉⲡⲓⲧⲛ̅ ⲁⲙⲙⲉⲣⲟⲥ\nϣⲓⲛⲁ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱ’ⲧ ⲉⲥⲛⲁϩⲁ‐\nⲧⲣ̅ ⲡⲧⲏ’ⲣϥ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲛⲁⲣⲭⲱⲛ ϫⲓ ⲛ̅‐"
+        },
+        {
+          "title": "The Creation of Adam and Eve",
+          "subtitle": "The Creation of Adam and Eve",
+          "heading": "The Creation of Adam and Eve (87, 23-89, 17)",
+          "rangeLabel": "87, 23-89, 17",
+          "range": {
+            "start": {
+              "page": 87,
+              "line": 23
+            },
+            "end": {
+              "page": 89,
+              "line": 17
+            }
+          },
+          "english": "The rulers made plans and said, “Come, let’s create a human of soil from the\nearth.” They formed their creature as a being entirely of the earth\nThese archons have bodies that are both female [and male], and faces that are\nthe faces of beasts They took [soil] from the earth and formed [their human],\nafter their own bodies and [after the image] of God that had appeared [to them]\nin the water\nThey said, “[Come], let’s grasp the image by means of the form we have\nshaped, [so that] the image may see its male partner [and fall in love with it],\nand we may seize it with the form we have shaped.” They did not\nunderstand the power of God, because they are powerless.\nSamael blew into his face, and the human acquired a soul and stayed upon\nthe ground for many days. The rulers could not make him arise, because they are\npowerless. Like storm winds they kept on blowing, that they might try to capture\nthe image that appeared to them in the waters. And they did not know what its\npower was\nAll these things came to be by the will of the Father of the All.\nLater the Spirit saw the person of soul upon the ground. The Spirit came\nforth from the adamantine land It descended and made its home within him,\nand that person became a living soul And the Spirit called his name Adam,\nsince he was found moving around upon the ground\nA voice came from Incorruptibility to help Adam. The rulers gathered all the\nanimals of the earth and all the birds of the sky and brought them to Adam to see\nwhat Adam would call them, that he might give a name to each of the birds and\nall the animals\nThe rulers took Adam and put him in the garden, that he might cultivate it\nand watch over it. They commanded him and said, “You may eat from [every]\ntree in the garden, but do not eat from the tree of knowledge of good and evil.\nDo not [touch] it, for the day you eat from it, you will surely die.”\nThey [said this to him], but they did not understand what [they said] to him.\nRather, by the Father’s will, they said this in such a way that Adam might\neat, and Adam might <not>26 perceive them as would a completely material\nperson.\nThe rulers plotted together and said, “Come, let’s make a deep sleep fall\nupon Adam.” So Adam slept. The deep sleep they made to fall upon him, and\nhe slept, is ignorance. They cut open his side…like a living woman Then they\nrepaired his side with flesh in place of her, and Adam had only a soul.\nThe woman of spirit came to him and spoke with him, saying, “Arise,\nAdam.”\nWhen he saw her, he said, “You have given me life. You will be called the\nMother of the living.\nFor she is my mother.\nShe is physician\nwoman,\none who has given birth.”",
+          "coptic": "ⲧⲣ̅ ⲡⲧⲏ’ⲣϥ ⲙⲛ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲁⲛⲁⲣⲭⲱⲛ ϫⲓ ⲛ̅‐\nⲟⲩⲥⲩⲙⲃⲟⲩⲗⲓⲟⲛ ⲡⲉϫⲁⲩ ϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅\nⲛ̅ⲧⲛ̅ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲛ̅ⲛⲟⲩⲭⲟⲩⲥ ⲉ‐\nⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲁⲩⲣ̅ⲡⲗⲁⲥⲥⲉ ⲙ̅ⲡⲟⲩⲧⲁ[ⲙⲓⲟ]\nⲉⲩⲣⲙⲛ̅ⲕⲁϩ ⲧⲏⲣ〈ϥ〉 ⲡⲉ §ⲛⲓⲁⲣⲭⲱⲛ ⲇ[ⲉ..ⲥⲱ]‐\nⲙⲁ ⲡⲉⲧⲉⲩⲛ̅ⲧⲁ’ⲩϥ ⲛ̅ⲥϩⲓⲙⲉ ⲟⲩϩ[.....]\nⲡⲉ ⲛ̅ϩⲟ ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲉ ⲁⲩϥⲓ ⲛ̅ⲛⲟ[ⲩⲭⲟⲩⲥ]\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲁⲩⲣ̅ⲡⲗⲁⲥⲥⲉ ⲙ̅ⲡ[ⲟⲩⲣⲱ]‐\nⲙⲉ ⲕⲁⲧⲁ ⲡⲟⲩⲥⲱⲙⲁ ⲁⲩⲱ ⲕ[ⲁⲧ]ⲁ [ⲡⲓⲛⲉ]\nⲙ̅ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉ[ⲃⲟⲗ ⲛⲁⲩ]\nϩⲛ̅ⲛⲙⲙⲟⲟⲩ §ⲡⲉϫⲁⲩ ϫⲉ ⲁ[ⲙⲏⲉⲓⲧⲛ̅ ⲙⲁ]‐\nⲣⲛ̅ⲧⲉϩ’ⲟϥ ϩⲙ̅ ⲡⲛ̅ⲡⲗⲁⲥⲙⲁ ϫ[ⲉⲕⲁⲁⲥ]\nⲉϥⲛⲁⲛⲁⲩ ⲁⲡⲉϥϣⲃⲣ̅ⲉⲓ[ⲛⲉ.......]\n[ⲛ̅]ⲧⲛ̅ⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟϥ ϩⲙ̅ ⲡⲙ̅ⲡⲗⲁⲥⲙⲁ ⲉⲩⲣ̅ⲛⲟ‐\n[ⲉ]ⲓ ⲁⲛ ⲛ̅ⲧⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲛⲟⲩⲧⲉ ⲉⲃⲟⲗ ϩⲛ̅\nⲧⲟⲩⲙⲛ̅ⲧ̅ⲁ’ⲧϭⲟⲙ ⲁⲩⲱ ⲁϥⲛⲓϥⲉ ⲉϩⲟⲩⲛ ϩⲙ̅\nⲡⲉϥϩⲟ ⲁⲩⲱ ⲁⲡⲣⲱⲙⲉ ϣⲱⲡⲉ ⲙ̅ⲯⲩⲭⲓⲕⲟⲥ\nϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲛ̅ϩⲁϩ ⲛ̅ϩⲟⲟⲩ ⲙ̅ⲡⲟⲩϣϭⲛ̅ ϭⲟ’ⲙ\nϭⲉ ⲛ̅ⲧⲟⲩⲛⲟ’ⲥϥ ⲉⲧⲃⲉ ⲧⲟⲩⲙ̅ⲛ̅ⲧ̅ⲁ’ⲧϭⲟⲙ ⲁⲩ‐\nⲡⲣⲟⲥ’ⲕⲁⲣⲧⲉⲣⲉⲓ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲁⲧⲏⲟⲩ ϫⲉ ⲉⲩⲛⲁ‐\nϭⲱⲣϭ ⲁⲡⲉⲓⲛⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲡⲁⲉⲓ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲛⲁⲩ ϩⲛ̅ⲛⲙ̅ⲙⲟⲟⲩ ⲛⲉⲩⲥⲟⲟⲩ’ⲛ ⲇⲉ ⲁ’ⲛ\nⲛ̅ⲧⲉϥϭⲟⲙ ϫⲉ ⲛⲓⲙ ⲡⲉ §ⲛⲁⲉⲓ ⲇⲉ ⲧⲏⲣⲟⲩ ⲁⲩϣⲱ‐\nⲡⲉ ϩⲙ̅ ⲡⲟⲩⲱ’ϣ ⲙ̅ⲡⲉⲓⲱ’ⲧ ⲙ̅ⲡⲧⲏ’ⲣϥ ⲙ̅ⲙⲛ̅‐\nⲛ̅ⲥⲁ ⲛⲁⲉ’ⲓ ⲁⲡ̅ⲛ̅ⲁ̅ ⲛⲁⲩ ⲁⲡⲓⲣⲱⲙⲉ ⲛ̅ⲯⲩⲭⲓⲕⲟⲥ\nϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲁⲩⲱ ⲁⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ\nⲛ̅ⲁⲇⲁⲙⲁ’ⲛⲧⲓⲛ’ⲏ ⲁϥⲉⲓ ⲉⲡⲓⲧⲛ̅ ⲁϥⲟⲩⲱϩ ⲛ̅‐\nϩⲏ’ⲧϥ ⲁⲡⲣⲱⲙⲉ ⲉⲧⲙ̅ⲙⲁⲩ ϣⲱⲡⲉ ⲁⲩⲯⲩⲭ’ⲏ\nⲉⲥⲟⲛϩ §ⲁϥⲙⲟⲩⲧⲉ ⲉⲡ’ⲉϥⲣⲁⲛ ϫⲉ ⲁⲇⲁ’ⲙ ϫⲉ\nⲁⲩϩⲉ ⲅⲁ’ⲣ ⲉⲣ’ⲟϥ ⲉϥⲕⲉⲓ’ⲙ ϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲁⲩⲥⲙⲏ\nⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲛ̅ⲧ̅ⲁⲧⲧⲁⲕⲟ ⲉⲧⲃⲉ ⲧⲃⲟⲏⲑⲓⲁ\nⲛ̅ⲁ’ⲇⲁ’ⲙ ⲁⲩⲱ ⲁⲛⲁⲣⲭⲱ’ⲛ ⲥⲱⲟⲩϩ ⲉϩⲟⲩ’ⲛ\nⲛ̅ⲛ̅ⲑ’ⲏⲣⲓⲟ’ⲛ ⲧⲏⲣⲟϥ ⲙ̅ⲡⲕⲁϩ ⲙⲛ̅ ⲛ̅ϩⲁⲗⲁⲧⲉ\nⲧ’ⲏⲣⲟⲩ ⲛ̅ⲧⲡⲉ ⲁⲩⲛ̅ⲧⲟⲩ ⲉϩⲟⲩ’ⲛ ϣⲁ ⲁⲇⲁ’ⲙ\nⲉⲛⲁⲩ ϫⲉⲁⲇⲁ’ⲙ ⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲛⲓ’ⲙ\nⲉⲧⲣⲉϥϯ ⲣⲁⲛ ⲉⲡⲟⲩⲁ ⲡⲟⲩⲁ ϩⲛ̅ ⲛ̅ϩⲁⲗⲁⲧⲉ\nⲙⲛ̅ ⲛ̅ⲧⲃ̅ⲏⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ §ⲁⲩϥⲉⲓ ⲛ̅ⲁⲇⲁ’ⲙ\n[ⲁ]ⲩⲕⲁ’ⲁϥ ϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲉⲧⲣⲉϥⲣ̅ ϩⲱ’ⲃ\n[ⲉⲣⲟϥ]’ ⲛ̅ϥⲁⲣⲉϩ ⲉⲣⲟϥ’ ⲁⲩⲱ ⲁⲛⲁⲣⲭⲱⲛ ϩⲱⲛ’\n[ⲉⲧⲟ]ⲟⲧϥ’ ⲉⲩϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲉⲃⲟⲗ ϩⲛ̅ ϣⲏⲛ\n[ⲛⲓⲙ] ⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲉⲕⲛⲁⲟⲩⲱⲙ’\n[ⲉⲃⲟⲗ] ⲇⲉ ϩⲙ̅ ⲡϣⲏⲛ ⲛ̅ⲥⲟⲩⲱⲛ ⲡⲉⲧⲛⲁ’‐\n[ⲛⲟⲩϥ] ⲙⲛ̅ ⲡⲉⲑⲟⲟⲩ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ’ ⲟⲩⲇⲉ\n[ⲙ̅ⲡⲣ̅ϫⲱϩ ⲉ]ⲣⲟϥ’ ϫⲉ ⲫⲟⲟⲩ ⲉⲧⲉⲧⲛⲁⲟⲩⲱⲙ’\n[ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧ]ϥ’ ϩⲛ̅ ⲟⲩⲙⲟⲩ ⲧⲉⲧⲛⲁⲙⲟⲩ §ⲥⲉ‐\n[.....] ⲡⲁⲓ̈ ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ’ ϫⲉ ⲟⲩ ⲡⲉⲛ‐\n[ⲧⲁⲩϫⲟⲟ]ϥ ⲛⲁϥ’ ⲁⲗⲗⲁ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓ‐\nⲱⲧ’ ⲛ̅ⲧⲁⲩϫⲉ ⲡⲁⲉⲓ ⲛ̅ⲧⲉⲉⲓϩⲉ ϫⲉⲕⲁⲁⲥ ⲉϥ‐\nⲛⲁⲟⲩⲱⲙ’ ⲛ̅ⲧⲉ ⲁⲇⲁⲙ’ 〈ⲧⲙ̅〉 ⟦ⲱⲡ⟧ ⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲉϥⲟ ⲧⲏⲣ[ϥ]\nⲛ̅ϩⲩⲗⲓⲕⲟⲥ §ⲁⲛⲁⲣⲭⲱⲛ ϣⲟϫⲛⲉ ⲙⲛ̅ ⲛⲟⲩ‐\nⲉⲣⲏⲩ ⲡⲉϫⲁⲩ ϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲛ̅ⲧⲛ̅ⲉⲓⲛⲉ ⲛ̅‐\nⲟⲩⲃϣⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲁⲇⲁⲙ ⲁⲩⲱ ⲁϥϩⲱⲣⲡ’\nⲧⲃ̅ϣⲉ ⲇⲉ ⲧⲉ ⲧ’ⲙⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ’ ⲧⲁⲉⲓ ⲛ̅ⲧⲁⲩ‐\nⲛ̅ⲧⲥ̅ ⲉϩⲣⲁⲓ̈ ⲉϫⲱϥ’ ⲁⲩⲱ ⲁϥϩⲱⲣⲡ’ ⲁⲩⲟⲩⲉⲛ\nⲙ̅ⲡⲉϥⲥⲡⲓⲣ’ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩⲥϩⲓⲙⲉ ⲉⲥⲟⲛϩ\nⲁⲩⲱ ⲁⲩⲕⲱⲧ’ ⲙ̅ⲡⲉϥ’ⲥⲡⲓⲣ’ ⲛ̅ⲛⲟⲩⲥⲁⲣⲝ\nⲉⲡⲉⲥⲙⲁ ⲁⲩⲱ ⲁⲁⲇⲁⲙ’ ϣⲱⲡⲉ ⲙ̅ⲯⲩⲭⲓ‐\nⲕⲟⲥ ⲧⲏⲣϥ §ⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲙ̅ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲏ\nⲁⲥⲓ ϣⲁⲣⲟϥ’ ⲁⲥϣⲁϫⲉ ⲛⲙ̅ⲙⲁϥ’ ⲡⲉϫⲁⲥ\nϫⲉ ⲧⲱⲟⲩⲛ ⲁⲇⲁⲙ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲉⲣⲟⲥ\nⲡⲉϫⲁϥ ϫⲉ ⲛ̅ⲧⲟ ⲡⲉⲛ’ⲧⲁϩϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲱⲛϩ\nⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟ ϫⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ\nϫⲉ ⲛ̅ⲧⲟⲥ ⲡⲉ ⲧⲁⲙⲁⲁⲩ ⲛ̅ⲧⲟⲥ ⲧⲉ ⲧⲥⲟⲉⲓⲛ’\nⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲁⲩⲱ ⲧⲉⲛⲧⲁⲥⲙⲓⲥⲉ §ⲁⲛⲉ‐"
+        },
+        {
+          "title": "Adam and Eve in the Garden",
+          "subtitle": "Adam and Eve in the Garden",
+          "heading": "Adam and Eve in the Garden (89, 17-90, 12)",
+          "rangeLabel": "89, 17-90, 12",
+          "range": {
+            "start": {
+              "page": 89,
+              "line": 17
+            },
+            "end": {
+              "page": 90,
+              "line": 12
+            }
+          },
+          "english": "The authorities approached their Adam. When they saw his female partner\nspeaking with him, they became aroused and lusted after her. They said to each\nother, “Come, let’s ejaculate our semen in her,” and they chased her. But she\nlaughed at them because of their foolishness and blindness. In their grasp she\nturned into a tree and when she left for them a shadow of herself that looked\nlike her, they defiled it sexually. They defiled the seal of her voice, and so they\nconvicted themselves through the form they had shaped in their own image\nThen the female spiritual presence came in the shape of the serpent, the\ninstructor. The serpent taught Adam and Eve and said, “What did Samael [say\nto] you? Did he say, ‘You may eat from every tree in the garden, but do not eat\nfrom [the tree] of knowledge of good and evil’?”\nThe woman of flesh said, “Not only did he say ‘Do not eat,’ but also ‘Do\nnot touch it. For the day you eat from it, you will surely die.’”\nThe serpent, the instructor, said, “You will not surely die, for he said this to\nyou out of jealousy. Rather, your eyes will open and you will be like gods,\nknowing good and evil.” And the female instructor was taken away from the\nserpent, and she abandoned it as something of the earth.",
+          "coptic": "ⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲁⲩⲱ ⲧⲉⲛⲧⲁⲥⲙⲓⲥⲉ §ⲁⲛⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲇⲉ ⲉⲓ ⲉϩⲟⲩⲛ ϣⲁ ⲡⲟⲩⲁⲇⲁⲙ’ ⲛ̅ⲧⲁ\nⲣⲟⲩⲛⲁⲩ ⲇⲉ ⲁⲧⲉϥ’ϣⲃⲣ̅ⲉⲓⲛⲉ ⲉⲥϣⲁϫⲉ ⲛⲙ̅‐\nⲙⲁϥ’ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ϣⲧⲟⲣⲧⲣ̅\nⲁⲩⲱ ⲁⲩⲙⲉⲣⲉⲓⲧⲥ̅ ⲡⲉϫⲁⲩ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ\nϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲛ̅ⲧⲛ̅ⲛⲟⲩϫⲉ ⲙ̅ⲡⲛ̅ⲥⲡⲉⲣ’‐\nⲙⲁ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲥ’ ⲁⲩⲣ̅ⲇⲓⲱⲕⲉ ⲙ̅ⲙⲟⲥ ⲁⲩⲱ\nⲁⲥⲥⲱⲃⲉ ⲛ̅ⲥⲱⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲙ̅ⲛ̅ⲁⲧ’‐\nⲑⲏⲧ’ ⲙⲛ̅ ⲧⲟⲩⲙⲛ̅ⲧ̅ⲃⲗ̅ⲗⲉ ⲁⲩⲱ ⲁⲥⲣ̅ ⲟⲩϣⲏⲛ\nⲛ̅ⲧⲟⲟⲧⲟⲩ ⲁⲥⲕⲱ ⲛ̅ⲧⲉⲥϩⲁⲓ̈ⲃⲉⲥ ⲉ[ⲥ]ⲉⲓⲛⲉ\nⲙ̅ⲙⲟⲥ ϩⲁⲧⲟⲟⲧⲟⲩ ⲁⲩⲱ ⲁⲩϫⲟϩⲙ[ⲉⲥ] ϩⲛ̅\nⲟⲩⲥⲱϥ’ ⲁⲩⲱ ⲁⲩϫⲱϩⲙ̅ ⲛ̅ⲧⲥⲫⲣⲁⲅⲓ[ⲥ] ⲛ̅‐\nⲧⲉⲥⲥⲙⲏ ϣⲓⲛⲁ ⲉⲩⲛⲁⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛ[ⲉ] ⲙ̅‐\nⲙⲟⲟⲩ ⲟⲩⲁⲁⲩ ϩⲙ̅ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲙ[ⲛ̅ ⲡⲟⲩ]‐\nⲉⲓⲛⲉ §ⲁⲥⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ϯⲡⲛⲉⲩⲙⲁⲧⲓⲕ[ⲏ ϩⲙ̅]\nⲫⲁϥ’ ⲡⲣⲉϥⲧⲁⲙⲟ’ ⲁⲩⲱ ⲁϥⲧⲁ[ⲙⲟⲟⲩ ⲉϥ]‐\nϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲟⲩ ⲡⲉⲛ̅ⲧⲁϥ[ϫⲟⲟϥ ⲛⲏ]‐\nⲧⲛ̅ ϫⲉ ⲉⲃⲟⲗ ϩⲛ̅ ϣⲏⲛ ⲛⲓⲙ ϩ[ⲙ̅ ⲡⲡⲁⲣⲁ]‐\nϫⲉⲓⲥⲟⲥ ⲉⲕⲛⲁⲟⲩⲱⲙ’ ⲉⲃⲟⲗ ⲇ[ⲉ ϩⲙ̅ ⲡϣⲏⲛ’]\nⲛ̅ⲥⲟⲩⲱⲛ ⲡⲉⲑⲟⲟⲩ ⲙⲛ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ’\nⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ §ⲡⲉϫⲉ ⲧⲥϩⲓⲙⲉ ⲛ̅ⲥⲁⲣⲕⲓⲕⲏ ϫⲉ\nⲟⲩ ⲙⲟⲛⲟⲛ’ ⲡⲉϫⲁϥ ϫⲉ ⲙⲛ̅ⲟⲩⲱⲙ ⲁⲗⲗⲁ\nⲙ̅ⲡⲣ̅ϫⲱϩ ⲉⲣⲟϥ ϫⲉ ϩⲙ̅ ⲡϩⲟⲟⲩ ⲉⲧⲉⲧⲛⲁⲟⲩ‐\nⲱⲙ’ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ϩⲛ̅ⲛⲟⲩⲙⲟⲩ ⲧⲉⲧⲛⲁⲙⲟⲩ\n§ⲁⲩⲱ ⲡⲉϫⲉ ⲫⲁϥ’ ⲡⲣⲉϥⲧⲁⲙⲟ ϫⲉ ϩⲛ̅ ⲟⲩⲙⲟⲩ\nⲉⲧⲉⲧⲛⲁⲙⲟⲩ ⲁⲛ ⲛ̅ⲧⲁϥϫⲉ ⲡⲁⲉⲓ ⲅⲁⲣ ⲛⲏⲧⲛ̅\nⲉϥⲣ̅ⲫⲑⲟⲛⲉⲓ ⲙⲁⲗⲗⲟⲛ ⲉⲛⲉⲧⲛ̅ⲃⲁⲗ ⲛⲁⲟⲩ‐\nⲉⲛ ⲛ̅ⲧⲉⲧⲛ̅ϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲛⲟⲩⲧⲉ ⲉⲧⲉ‐\nⲧⲛ̅ⲥⲟⲟⲩⲛ ⲙ̅ⲡ’ⲡⲉⲑⲟⲟⲩ ⲙⲛ̅ ⲡⲉⲧⲛⲁⲛⲟⲩϥ’\nⲁⲩⲱ ⲧⲣⲉϥⲧⲁⲙⲟ ⲁⲩϥⲓⲧⲥ̅ ⲛ̅ⲧⲟⲟⲧϥ’ ⲙ̅ⲫⲁϥ’\nⲁⲩⲱ ⲁⲥⲕⲱ ⲙ̅ⲙⲟϥ’ ⲟⲩⲁⲁϥ’ ⲉϥⲟ ⲛ̅ⲣⲙⲛ̅ⲕⲁϩ"
+        },
+        {
+          "title": "They Eat from the Tree",
+          "subtitle": "They Eat from the Tree",
+          "heading": "They Eat from the Tree (90, 13-91, 11)",
+          "rangeLabel": "90, 13-91, 11",
+          "range": {
+            "start": {
+              "page": 90,
+              "line": 13
+            },
+            "end": {
+              "page": 91,
+              "line": 11
+            }
+          },
+          "english": "The woman of flesh took from the tree and ate, and she gave to her husband as\nwell, and thus these beings, who had only a soul, ate. Their imperfection became\napparent in their ignorance. They recognized that they were stripped of the\nspiritual, and they took fig leaves and tied them around their naked bodies\nThe leader of the archons came and said, “Where are you, Adam?” For he\ndid not know what had happened.\nAdam said, “I heard your voice and was afraid because I was naked, and so I\nhid.”\nThe ruler said, “Why did you hide, unless it is because you ate from the only\ntree from which I commanded you not to eat? You did eat!”\nAdam said, “The woman you gave me [offered] me the fruit, and I ate.” And\nthe arrogant [ruler] cursed the woman.\nThe woman said, “The serpent deceived me, and I ate.” [The rulers turned] to\nthe serpent and cursed its shadow, [so that it was] powerless, and they did not\nknow it was a form they themselves had shaped From then on, the serpent was\nunder the curse of the authorities. The curse was on the serpent until the\nperfect human was to come.\nThe rulers turned to their Adam. They took him and cast him and his wife\nout of the garden. They have no blessing, for they are also under the curse.\nThe rulers threw humanity into great confusion and a life of toil, so that their\npeople might be preoccupied with things of the world and not have time to be\noccupied with the holy Spirit",
+          "coptic": "§ⲁⲩⲱ ⲧⲥϩⲓⲙⲉ ⲛ̅ⲥⲁⲣⲕⲓⲕⲏ ⲁⲥϫⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲁⲥⲟⲩⲱⲙ ⲁⲩⲱ ⲁⲥϯ ⲙ̅ⲡⲉⲥϩⲁⲓ̈ ⲛⲙ̅ⲙⲁⲥ ⲁⲩ‐\nⲱ ⲁⲙⲯⲩⲭⲓⲕⲟⲥ ⲟⲩⲱⲙ ⲁⲩⲱ ⲁⲧⲟⲩⲕⲁⲕⲓⲁ\nⲟⲩⲉⲛ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲙⲛ̅ⲧ̅ⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲱ’\nⲁⲩⲉⲓⲙⲉ ϫⲉ ⲛⲉⲩⲕⲏⲕⲁϩⲏⲩ ⲁⲡⲡⲛⲉⲩⲙⲁ’‐\nⲧⲓⲕⲟⲛ ⲁⲩϥⲓ ϩⲛ̅ϭⲱⲃⲉ ⲛ̅ⲕⲛ̅ⲧⲉ ⲁⲩⲙⲟⲣⲟϥ\nⲉϫⲛ̅ ⲧⲟⲩϯⲡⲉ §ⲧⲟⲧⲉ ⲁϥⲉⲓ ⲛ̅ϭⲓ ⲡⲛⲟϭ ⲛ̅ⲁⲣ‐\nⲭⲱⲛ ⲁⲩⲱ ⲡⲉϫⲁϥ ϫⲉ ⲁⲇⲁⲙ’ ⲉⲕⲧⲱⲛ ⲛⲉϥ‐\nⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲁⲛ ϫⲉ ⲛ̅ⲧⲁ ⲟⲩ ϣⲱⲡⲉ §ⲁⲩⲱ ⲡⲉ‐\nϫⲉ ⲁⲇⲁⲙ ϫⲉ ⲁⲉⲓⲥⲱⲧⲙ̅ ⲁⲧⲉⲕ’ⲥⲙⲏ ⲁⲉⲓⲣ̅\nϩⲟⲧⲉ ϫⲉ ⲛⲉⲉⲓⲕⲏⲕⲁϩⲏⲩ ⲁⲩⲱ ⲁⲉⲓⲕⲱⲡ’\n§ⲡⲉϫⲉ ⲡⲁⲣⲭⲱⲛ ϫⲉ ⲉⲧⲃⲉ ⲟⲩ’ ⲁⲕⲕⲱⲡ ⲉⲓ\nⲙⲏⲧⲓ ϫⲉ ⲁⲕ’ⲟⲩⲱⲙ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲛ̅ⲧ[ⲁ]ⲉⲓϩⲟⲛϥ ⲉⲧⲟⲟⲧⲕ ϫⲉ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ’ ⲉ‐\nⲃⲟ[ⲗ] ⲛ̅ϩⲏⲧϥ’ ⲟⲩⲁⲁⲧϥ ⲁⲩⲱ ⲁⲕⲟⲩⲱⲙ §ⲡⲉ‐\nϫ[ⲉ ⲁ]ⲇⲁⲙ ϫⲉ ⲧⲥϩⲓⲙⲉ ⲛ̅ⲧⲁⲕⲧⲁⲁⲥ ⲛⲁⲉⲓ\n[ⲁⲥϯ] ⲛⲁⲉⲓ ⲁⲉⲓⲟⲩⲱⲙ’ ⲁⲩⲱ ⲁⲡⲁⲩⲑⲁⲇⲏⲥ\n[ⲛ̅ⲁⲣ]ⲭⲱⲛ ⲥϩⲟⲩⲟⲣ ⲧⲥϩⲓⲙⲉ §ⲡⲉϫⲉ ⲧⲥϩⲓⲙⲉ\n[ϫⲉ ⲫ]ⲟϥ ⲡⲉⲧⲁⲣ’ⲁⲡⲁⲧⲁ ⲙ̅ⲙⲟⲉⲓ ⲁⲉⲓⲟⲩⲱⲙ’\n[ⲁⲩⲕⲟⲧⲟ]ⲩ ⲁⲫⲟϥ ⲁⲩⲥⲟⲩϩⲱⲣ’ ⲧⲉϥϩⲁⲓ̈ⲃⲉⲥ\n[.....ⲟ]ⲩⲁⲧϭⲟⲙ ⲡⲉ ⲉⲩⲥⲟⲟⲩⲛ ⲁⲛ\n[ϫⲉ ⲡⲟ]ⲩⲡⲗⲁⲥⲙⲁ ⲡⲉ ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅‐\nⲙⲁⲩ ⲁⲫⲟϥ’ ϣⲱⲡⲉ ϩⲁ ⲡⲥⲁϩⲟⲩⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓ[ⲁ]\nϣⲁⲛⲧⲉϥ’ⲉⲓ ⲛ̅ϭⲓ ⲡⲧⲉⲗⲉⲓⲟⲥ ⲛ̅ⲣⲱⲙⲉ ⲡⲥ[ⲁ]‐\nϩⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲉⲓ ⲉϫⲛ̅ ⲫⲁϥ’ §ⲁⲩⲕⲟⲧⲟⲩ ⲁ‐\nⲡⲟⲩⲁⲇⲁⲙ’ ⲁⲩϥⲓⲧϥ’ ⲁⲩⲛⲟϫϥ’ ⲉⲃⲟⲗ ϩⲙ ⲡⲡⲁ‐\nⲣⲁⲇⲉⲓⲥⲟⲥ ⲙⲛ̅ ⲧⲉϥϩⲓⲙⲉ ϫⲉ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛ̅ⲥ‐\nⲙⲟⲩ ⲛ̅ⲧⲟⲟⲧⲟⲩ ϫⲉ ⲛ̅ⲧⲟⲟⲩ ϩⲱⲟⲩ ⲥⲉϣⲟⲟⲡ’\nϩⲁ ⲡⲥⲁϩⲟⲩⲉ §ⲁⲩⲛⲟⲩϫ’ ⲣ̅ⲣⲱⲙⲉ ⲇⲉ ⲉϩⲣⲁⲓ̈\nⲁϩⲛ̅ⲛⲟϭ ⲙ̅ⲡⲡⲉⲣⲓⲥⲡⲁⲥⲙⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲙ̅ⲕⲁϩ\nⲛ̅ⲧⲉ ⲡⲃⲓⲟⲥ ϣⲓⲛⲁ ⲉⲛⲟⲩⲣⲱⲙⲉ ⲛⲁϣⲱⲡⲉ\nⲛ̅ⲃⲓⲱⲧⲓⲕⲟⲥ ⲛ̅ⲥⲉⲧⲙ̅ⲣ̅ⲥⲭⲟⲗⲁⲍⲉ ⲁⲣ̅ⲡⲣⲟⲥ‐\nⲕⲁⲣⲧⲉⲣⲉⲓ ⲉⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ §ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲓ̈"
+        },
+        {
+          "title": "Cain, Abel, Seth, Norea",
+          "subtitle": "Cain, Abel, Seth, Norea",
+          "heading": "Cain, Abel, Seth, Norea (91, 11-92, 4)",
+          "rangeLabel": "91, 11-92, 4",
+          "range": {
+            "start": {
+              "page": 91,
+              "line": 11
+            },
+            "end": {
+              "page": 92,
+              "line": 4
+            }
+          },
+          "english": "After this Eve gave birth to Cain, their son, and Cain farmed the land. Then\nAdam had sex with his wife. She became pregnant again and gave birth to Abel,\nand Abel was a shepherd. Cain brought in produce from his field, and Abel\nbrought in an offering from his lambs. God looked with favor upon the offering\nof Abel, but he did not accept the offerings of Cain. Cain, man of flesh, pursued\nAbel his brother.\nGod said to Cain, “Where is your brother Abel?”\nCain answered and said, “Am I my brother’s keeper?”\nGod said to Cain, “Listen. The voice of your brother’s blood is calling to me.\nYou have sinned with your mouth, and it will come back to you. Whoever kills\nCain will release seven vendettas, and you will live groaning and shaking upon\nthe earth.”\nAdam [had sex] with his partner Eve again. She became pregnant and bore\n[Seth] for Adam. She said, “I have given birth to [another] person through God,\nin place [of Abel].”\nEve became pregnant again and gave birth to [Norea] Eve said, “He has\nproduced for me a virgin to help many human generations.” Norea is the\nvirgin whom the forces did not defile.\nAnd humanity began to multiply and develop.",
+          "coptic": "ⲕⲁⲣⲧⲉⲣⲉⲓ ⲉⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ §ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲓ̈\nⲇⲉ ⲁⲥϫⲡⲟ ⲛ̅ⲕⲁⲓ̈ⲛ ⲡⲟⲩϣⲏⲣⲉ ⲕⲁⲓ̈ⲛ ⲇⲉ\nⲛⲉϥⲣ̅ ϩⲱⲃ’ ⲉⲡⲕⲁϩ ⲡⲁⲗⲓⲛ’ ⲁϥⲥⲟⲩⲱⲛ ⲧⲉϥ’‐\nϩⲓⲙⲉ ⲉⲧⲓ ⲁⲥⲱ ⲁⲥϫⲡⲟ ⲛ̅ⲁⲃⲉⲗ ⲁⲃⲉⲗ ⲇⲉ\nⲛⲉⲩϣⲱⲥ ⲡⲉ ⲙ̅ⲙⲁⲛⲉⲥⲟⲟⲩ ⲕⲁⲓ̈ⲛ ⲇⲉ ⲁϥⲉⲓ‐\nⲛⲉ ⲉϩⲟⲩⲛ ϩⲛ̅ ⲛ̅ⲕⲁⲣⲡⲟⲥ ⲛ̅ⲧⲉϥⲥⲱϣⲉ’ ⲁ‐\nⲃⲉⲗ ⲇⲉ’ ⲁϥⲉⲓⲛⲉ ⲉϩⲟⲩⲛ ⲛ̅ⲛⲟⲩⲑⲩⲥⲓⲁ ϩⲛ̅\nⲛⲉϥϩⲓⲉⲓⲃ’ ⲁⲡⲛⲟⲩⲧⲉ ϭⲱϣⲧ’ ⲉϫⲛ̅ ⲛ̅‐\nⲇⲱⲣⲟⲛ ⲛ̅ⲛⲁⲃⲉⲗ ⲙ̅ⲡⲉϥϫⲓ ⲇⲉ ⲛ̅ⲛ̅ⲇⲱ‐\nⲣⲟⲛ ⲛ̅ⲛⲕⲁⲓ̈ⲛ ⲁⲩⲱ ⲕⲁⲓ̈ⲛ ⲛ̅ⲥⲁⲣⲕⲓⲕⲟⲥ ⲁϥ‐\nⲇⲓⲱⲕⲉ ⲛ̅ⲁⲃⲉⲗ’ ⲡⲉϥⲥⲟⲛ §ⲁⲩⲱ ⲡⲉϫⲉ ⲡⲛⲟ[ⲩ]‐\nⲧⲉ ⲛ̅ⲕⲁⲓ̈ⲛ ϫⲉ ⲉϥⲧⲱⲛ’ ⲁⲃⲉⲗ’ ⲡⲉⲕⲥⲟⲛ\n§ⲁϥⲟⲩⲱϣⲃ̅ ⲡⲉϫⲁϥ ϫⲉ ⲙⲏ ⲉⲉⲓϣⲟⲟⲡ’\nⲙⲫⲩⲗⲁⲝ ⲙ̅ⲡⲁⲥⲟⲛ §ⲡⲉϫⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅‐\nⲕⲁⲓ̈ⲛ ϫⲉ ⲉⲓⲥ ⲧⲉⲥⲙⲏ ⲙ̅ⲡⲉⲥⲛⲟϥ ⲙ̅ⲡⲉⲕ‐\nⲥⲟⲛ ϥ〈ⲁ〉ϣⲕⲁⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲉⲓ ⲁⲕⲣ̅ ⲛ[ⲟ]ⲃⲉ ⲛ̅‐\nⲣⲱⲕ’ ϥⲛⲁⲕⲟⲧϥ’ ⲉⲣⲟⲕ ⲟⲩⲟⲛ ⲛⲓⲙ [ⲉⲧ]ⲛⲁ‐\nⲙⲟⲩⲟⲩⲧ’ ⲛ̅ⲕⲁⲉⲓⲛ ϥⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ [ⲛ̅]ⲥⲟϣ[ϥ]\nⲛ̅ϫⲓ ⲕⲃⲁ ⲕⲛⲁϣⲱⲡⲉ ⲇⲉ ⲉⲕⲉϣ ⲉϩ[ⲟⲙ] ⲁⲩ‐\nⲱ ⲉⲕⲥⲧⲱⲧ’ ϩⲓϫⲛ̅ ⲡⲕⲁϩ §〈ⲁ〉ⲁⲇⲁⲙ ⲇⲉ [ⲥⲟⲟⲩⲛ]\nⲛ̅ⲧⲉϥϣⲃⲣ̅ⲉⲓⲛⲉ ⲉⲩϩⲁ ⲁⲥⲱ ⲁⲥϫⲡⲉ [ⲥⲏⲑ]\nⲛ̅ⲁⲇⲁⲙ ⲁⲩⲱ ⲡⲉϫⲁⲥ ϫⲉ ⲁⲓ̈ϫⲡⲟ ⲛ̅[ⲕⲉ]‐\nⲣⲱⲙⲉ ϩⲙ̅ ⲡⲛⲟⲩⲧⲉ ⲉⲡⲙⲁ [ⲛ̅ⲛⲁⲃⲉⲗ]\n§ⲡⲁⲗⲓⲛ ⲁⲥⲱ ⲛ̅ϭⲓ ⲉⲩϩⲁ ⲁⲥϫⲡ[ⲉ ⲛⲱⲣⲉⲁ]\nⲁⲩⲱ ⲡⲉϫⲁⲥ ϫⲉ ⲁϥϫⲡⲟ ⲛⲁ[ⲉⲓ ⲛ̅ⲟⲩⲡⲁⲣ‐\nⲑⲉ]ⲛⲟⲥ ⲛ̅ⲃⲟⲏⲑⲉⲓⲁ [ϩⲛ̅] ⲛ̅ⲅⲉⲛⲉⲁ ⲛ̅ⲅⲉⲛⲉⲁ’\nⲛ̅ⲣ̅ⲣⲱⲙⲉ ⲧⲁⲉⲓ ⲧⲉ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲉ ⲙ̅ⲡⲉ ⲛ̅‐\nⲇⲩⲛⲁⲙⲓⲥ ϫⲁϩⲙⲉⲥ §ⲧⲟⲧⲉ ⲁⲛⲣⲱⲙⲉ ⲣ̅ⲁⲣⲭⲉⲓ\nⲛ̅ⲛⲣ̅ⲁⲩⲝⲁⲛⲉ ⲁⲩⲱ ⲛ̅ⲥⲉⲁⲛⲁⲉⲓ §ⲁⲛⲁⲣⲭⲱⲛ ϣⲟ‐"
+        },
+        {
+          "title": "Noah and the Flood",
+          "subtitle": "Noah and the Flood",
+          "heading": "Noah and the Flood (92, 4-18)",
+          "rangeLabel": "92, 4-18",
+          "range": {
+            "start": {
+              "page": 92,
+              "line": 4
+            },
+            "end": {
+              "page": 92,
+              "line": 18
+            }
+          },
+          "english": "The rulers plotted together and said, “Come, let’s cause a flood with our own\nhands and destroy all flesh, animal and human.”\nWhen the ruler of the forces learned of their plan, he said to Noah, “Make\nan ark of wood that will not rot and hide in it, you and your children and the\nanimals and the birds of the sky, large and small. Put it on Mount Sir.”\nOrea came to Noah and wanted to board the ark. When he would not let\nher, she blew on the ark and made it burn up. So he rebuilt the ark.",
+          "coptic": "ⲛ̅ⲛⲣ̅ⲁⲩⲝⲁⲛⲉ ⲁⲩⲱ ⲛ̅ⲥⲉⲁⲛⲁⲉⲓ §ⲁⲛⲁⲣⲭⲱⲛ ϣⲟ‐\nϫⲛⲉ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲡⲉϫⲁⲩ ϫⲉ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲛ̅‐\nⲧⲛ̅ⲧⲁⲙⲓⲟ ⲛ̅ⲛⲟⲩⲕⲁⲧⲁⲕⲗⲩⲥⲙⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ⲛ̅‐\nϭⲓϫ ⲛ̅ⲧⲛ̅ϥⲱⲧⲉ ⲉⲃⲟⲗ’ ⲛ̅ⲥⲁⲣⲝ’ ⲛⲓⲙ ϫⲓⲛ ⲣⲱⲙⲉ\nϣⲁ ⲧⲃ̅ⲛⲏ §ⲡⲁⲣⲭⲱⲛ ⲇⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲁ‐\nⲣⲉϥ’ⲉⲓⲙⲉ ⲛ̅ⲟⲩϣⲟϫⲛⲉ ⲡⲉϫⲁϥ ⲛ̅ⲛⲱϩⲉ ϫⲉ\nⲧⲁⲙⲓⲟ ⲛⲁⲕ’ ⲛ̅ⲛⲟⲩⲕⲓⲃⲱⲧⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲟⲩϣⲉ\nⲉⲙⲁϥ’ⲣ̅ ϫⲟⲗⲉⲥ ⲛ̅ⲅϩⲱⲡ’ ⲛ̅ϩⲟⲩⲛ ⲛ̅ϩⲏⲧⲥ̅ ⲛ̅‐\nⲧⲟⲕ’ ⲙⲛ̅ ⲛⲉⲕ’ϣⲏⲣⲉ ⲙⲛ̅ ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ ⲙⲛ̅ ⲛ̅‐\nϩⲁⲗⲁⲧⲉ ⲛ̅ⲧⲡⲉ ϫⲓⲛ’ ⲕⲟⲩⲉⲓ ϣⲁ ⲛⲟϭ ⲛ̅ⲅⲥⲉϩⲱⲥ\nⲉⲣⲁⲧⲥ̅ ϩⲓϫⲙ̅ ⲡⲧⲟⲟⲩ ⲛ̅ⲥⲓⲣ’ §ⲁⲥⲉⲓ ⲇⲉ ⲛ̅ϭⲓ ⲱⲣⲉⲁ\nϣⲁⲣⲟϥ ⲉⲥⲟⲩⲱϣ ⲉⲧⲉⲗⲟ ⲉϩⲣⲁⲓ̈ ⲉⲧⲕⲓⲃⲱⲧⲟⲥ\nⲁⲩⲱ ⲙ̅ⲡⲉϥⲕⲁⲁⲥ ⲁⲥⲛⲓϥⲉ ⲉϩⲟⲩⲛ ⲉϩⲣⲉ ⲧⲕⲓ‐\nⲃⲱⲧⲟⲥ ⲁⲥⲣⲟⲕϩⲥ̅ ⲡⲁⲗⲓⲛ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲧⲕⲓ‐\nⲃⲱⲧⲟⲥ ⲙ̅ⲡⲙⲁϩⲥⲉⲡ’ ⲥⲛⲁⲩ §ⲁⲩⲧⲱⲙⲧ’ ⲉⲣⲟⲥ"
+        },
+        {
+          "title": "Norea Opposes the Rulers",
+          "subtitle": "Norea Opposes the Rulers",
+          "heading": "Norea Opposes the Rulers (92, 18-93, 13)",
+          "rangeLabel": "92, 18-93, 13",
+          "range": {
+            "start": {
+              "page": 92,
+              "line": 18
+            },
+            "end": {
+              "page": 93,
+              "line": 13
+            }
+          },
+          "english": "The rulers went to meet Norea, for they planned to seduce her. Their leader said\nto her, “Your mother Eve came to us.”\nBut Norea turned to them and said, “You are the rulers of the darkness.\nDamn you! You did not have sex with my mother but with one of your own ilk.\nFor I am not from you. I am from the world above.”\nThe arrogant ruler turned, with his might, and his expression was like a\nblazing [fire] He was bold toward her and [said], “You must serve us sexually,\nas your mother Eve did, for I have been given….”\nBut Norea turned with the power of [God] and called in a loud voice to the\nholy one, the God of the All, “Help me with these unrighteous rulers and\nrescue me from their hands-now!”\nAn angel came down from heaven and said to her, “Why are you calling to\nGod? Why are you so bold toward the holy Spirit?”\nNorea said, “Who are you?”\nThe unrighteous rulers had left her. The angel said, “I am Eleleth,\nUnderstanding, the great angel who stands before the holy Spirit. I have been\nsent to speak with you and rescue you from the hand of the lawless ones. And I\nshall teach you about your root.”",
+          "coptic": "ⲃⲱⲧⲟⲥ ⲙ̅ⲡⲙⲁϩⲥⲉⲡ’ ⲥⲛⲁⲩ §ⲁⲩⲧⲱⲙⲧ’ ⲉⲣⲟⲥ\nⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲉⲩⲟⲩⲱϣ ⲁⲣ̅ⲁⲡⲁⲧⲁ ⲙ̅ⲙⲟⲥ ⲡⲉ‐\nϫⲉ ⲡⲟⲩⲛⲟϭ ⲉⲧⲛ̅ϩⲏⲧⲟⲩ ⲛⲁⲥ ϫⲉ ⲧⲉⲙⲁⲁⲩ\nⲉⲩϩⲁ ⲁⲥⲉⲓ ϣⲁⲣⲟⲛ §ⲁⲛⲱⲣⲉⲁ ⲇⲉ ⲕⲟⲧⲥ̅ ⲉⲣⲟ‐\nⲟⲩ ⲡⲉϫⲁⲥ ⲛⲁⲩ ϫⲉ ⲛ̅ⲧⲱⲧⲛ̅ ⲛⲉ ⲛⲁⲣⲭⲱⲛ ⲙ̅‐\nⲡⲕⲁⲕⲉ ⲧⲉⲧⲛ̅ⲥϩⲟⲩⲟⲣⲧ’ ⲟⲩⲧⲉ ⲙ̅ⲡⲉⲧⲛ̅ⲥⲟⲩ‐\nⲱⲛ ⲧⲁⲙⲁⲁⲩ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲧⲉⲧⲛ̅ⲥⲟⲩⲱⲛ ⲧⲉⲧⲛ̅‐\nϣⲃⲣ̅ⲉⲓⲛⲉ ⲁⲛⲟⲕ’ ⲟⲩⲉⲃⲟⲗ ⲅⲁⲣ ⲁⲛ’ ϩⲛ̅ ⲧⲏ‐\nⲛⲉ ⲁ[ⲗ]ⲗⲁ ⲛ̅ⲧⲁⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁ ⲡⲥⲁ ⲛⲧⲡⲉ\n§ⲁⲡ[ⲁⲩ]ⲑⲁⲇⲏⲥ ⲛ̅ⲁⲣⲭⲱⲛ ⲕⲟⲧϥ’ ϩⲛ̅ ⲧⲉϥϭⲟⲙ’\nⲁⲩⲱ [ⲁ]ⲡⲉϥ’ⲡⲣⲟⲥⲱⲡⲟⲛ ϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅‐\n[ⲟⲩ..]ϩⲧ’ ⲉϥⲕⲏⲙ’ ⲁϥⲧⲟⲗⲙⲁ ⲉϩⲟⲩⲛ’ ⲉⲣⲟⲥ\n[ⲡⲉϫ]ⲁϥ ⲛⲁⲥ ϫⲉ ϩⲁⲡⲥ ⲡⲉ ⲉⲧⲣⲉⲣ̅ ⲃⲱⲕ’ ⲛⲁⲛ\n[ⲛ̅ⲑⲉ] ⲛ̅ⲧⲉⲕⲉⲙⲁⲁⲩ ⲉⲩϩⲁ ⲁⲩϯⲛⲁⲉⲓ ⲅⲁⲣ’ ⲙ̅‐\n[.......]’ §[ⲁ]ⲛⲱⲣⲉⲁ ⲇⲉ ⲕⲟⲧⲥ̅ ϩⲛ̅ ⲧϭⲟⲙ ⲙ̅ⲡ’‐\n[....ⲁⲥⲁ]ϣⲕⲁⲕ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅ⲥⲙⲏ\n[ⲉϩⲣⲁⲓ̈ ⲉ]ⲡⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲛⲟⲩⲧⲉ ⲙ̅ⲡⲧⲏⲣϥ’\nϫⲉ ⲉⲣⲓⲃⲟⲏⲑⲉⲓ ⲛⲁⲉⲓ ⲁⲛⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲇⲓⲕⲉⲓ‐\nⲁ ⲛ̅ⲅⲛⲁϩⲙⲉⲧ’ ⲁⲛⲟⲩϭⲓϫ ⲛ̅ⲧⲉⲩⲛⲟⲩ §ⲁⲡ〈ⲛⲟϭ ⲛ̅〉ⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅ⲡⲏⲩⲉ ⲉⲡⲉⲥⲏⲧ’\nⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲉⲧⲃⲉ ⲟⲩ ⲧⲉⲱϣ ⲉϩⲣⲁⲓ̈\nⲉⲡⲛⲟⲩⲧⲉ ⲉⲧⲃⲉ ⲟⲩ ⲧⲉⲣ̅ⲧⲟⲗⲙⲁ ⲉϩⲣⲁⲓ̈ ⲉⲡ’‐\nⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ §ⲡⲉϫⲉ ⲛⲱⲣⲉⲁ ϫⲉ ⲛⲧⲕ ⲛⲓⲙ\n§ⲛⲉ ⲁⲛⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲇⲓⲕⲓⲁ ⲥⲉϩⲱⲟⲩ ⲉⲃⲟⲗ\nⲙ̅ⲙⲟⲥ ⲡⲉϫⲁϥ ϫⲉ ⲁⲛⲟⲕ’ ⲡⲉ ⲉⲗⲉ̅ⲗ̅ⲏ̅ⲑ̅\nⲧⲙ̅ⲛ̅ⲧⲥⲁⲃⲉ ⲡⲛⲟϭ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲡⲉⲧⲁϩⲉ‐\nⲣⲁⲧϥ’ ⲙ̅ⲡⲉⲙⲧⲟ ⲉⲃⲟⲗ ⲙ̅ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ’\nⲛ̅ⲧⲁⲩⲧⲛ̅ⲛⲟⲟⲩⲧ’ ⲉⲧⲣⲁϣⲁϫⲉ ⲛⲙ̅ⲙⲉ ⲛ̅ⲧⲁ‐\nⲛⲁϩⲙⲉ ⲉⲧϭⲓϫ’ ⲛ̅ⲛⲓⲁⲛⲟⲙⲟⲥ ⲁⲩⲱ ϯⲛⲁⲧⲁ‐\nⲙⲟ ⲉⲧⲉⲛⲟⲩⲛⲉ §ⲡⲁⲅ’ⲅⲉⲗⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ"
+        },
+        {
+          "title": "The Dialogue of Norea and Eleleth",
+          "subtitle": "The Dialogue of Norea and Eleleth",
+          "heading": "The Dialogue of Norea and Eleleth (93, 13-32)",
+          "rangeLabel": "93, 13-32",
+          "range": {
+            "start": {
+              "page": 93,
+              "line": 13
+            },
+            "end": {
+              "page": 93,
+              "line": 32
+            }
+          },
+          "english": "I cannot describe the power of that angel. Its appearance is like fine gold and\nits garment is like snow. My mouth simply cannot bear to speak of its power and\nthe appearance of its face.\nThe great angel Eleleth spoke to me and said, “I am Understanding; I am one\nof the Four Luminaries who stand before the great invisible Spirit Do you\nthink these rulers have power over you? None of them can overpower the root of\ntruth, for on behalf of the root of truth a figure has appeared in the last days,\nand these authorities will be restrained. These authorities cannot defile you or\nthat generation for your home is with Incorruptibility, where the virgin Spirit\ndwells, who is superior to the authorities of chaos and their world.”",
+          "coptic": "ⲙⲟ ⲉⲧⲉⲛⲟⲩⲛⲉ §ⲡⲁⲅ’ⲅⲉⲗⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ\nϯⲛⲁϣϫⲱ ⲁⲛ ⲛ̅ⲧⲉϥϭⲟⲙ ⲡⲉϥⲉⲓⲛⲉ ⲛ̅ⲑⲉ\nⲙ̅ⲡⲛⲟⲩⲃ ⲉⲧ’ⲥⲟⲧⲡ’ ⲁⲩⲱ ⲧⲉϥϩⲃ̅ⲥⲱ ⲛ̅ⲑⲉ\nⲙ̅ⲡⲭⲓⲱⲛ ⲧⲁⲧⲁⲡⲣⲟ ⲅⲁⲣ ⲛⲁϣϣⲟⲡϥ’ ⲁⲛ\nⲉⲧⲣⲁϫⲱ ⲛ̅ⲧⲉϥϭⲟⲙ ⲙⲛ̅ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲉϥϩⲟ\n§ⲡⲉϫⲁϥ ⲛⲁⲉⲓ ⲛ̅ϭⲓ ⲉ̅ⲗ̅ⲉ̅ⲗ̅ⲏ̅ⲑ̅ ⲡⲛⲟϭ ⲛ̅ⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲁⲛⲟⲕ’ ⲡⲉϫⲁϥ’ ⲧⲉ ⲧ’ⲙⲛⲧⲣⲙⲛ̅ϩⲏⲧ’\nⲁⲛⲟⲕ’ ⲟⲩⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥⲧⲟⲟⲩ ⲙ̅ⲫⲱⲥⲧⲏⲣ’\nⲛⲁⲉⲓ ⲉⲧⲁϩⲉⲣⲁⲧⲟⲩ ⲙ̅ⲡⲙ̅ⲧⲟ ⲉⲃⲟⲗ ⲙ̅ⲡⲛⲟϭ\nⲙ̅ⲡⲛ̅ⲁ̅ ⲛ̅ⲁϩⲟⲣⲁⲧⲟⲛ ⲉⲣⲉⲙⲉⲉⲩⲉ ϫⲉ ⲟⲩⲛ\nϭⲟⲙ’ ⲛ̅ⲛⲉⲉⲓⲁⲣⲭⲱⲛ ⲉϩⲟⲩⲛ ⲉⲣⲟ ⲙⲛ̅ ⲗⲁⲁⲩ\nⲛ̅ϩⲏⲧⲟⲩ ⲛⲁϣϭⲙ̅ ϭⲟⲙ ⲉϩⲟⲩⲛ ⲉⲧⲛⲟⲩ‐\nⲛⲉ ⲛ̅ⲧⲙⲉ ⲉⲧⲃⲏⲧⲥ ⲅⲁⲣ † ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nϩⲛ̅ ⲛ̅ϩⲁⲉⲉⲩ ⲛ̅ⲕⲁⲓⲣⲟⲥ ⲁⲩⲱ ⲥⲉⲛⲁⲣ̅ ⲣ̅ⲣⲟ ⲉ‐\nϫⲛ̅ ⲛⲉⲉⲓⲉⲝⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲛⲉⲉⲓⲉⲝⲟⲩⲥⲓⲁ\nⲛⲁϣϫⲁϩⲙⲉ ⲁⲛ ⲙⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲉⲧⲙ̅ⲙⲁⲩ\nⲧⲉⲧⲙ̅ⲙⲟⲛⲏ ⲅⲁⲣ’ ⲉⲥϣⲟⲟⲡ’ ϩⲛ̅ ⲧⲙ̅ⲛ̅ⲧⲁⲧ’‐\nⲧⲁⲕⲟ ⲡⲙⲁ ⲉⲧⲉ ⲡⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ\nⲙ̅ⲙⲁⲩ ⲡⲉⲧϩⲓϫⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲭⲁⲟⲥ\nⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ϩⲱ ⲡⲉϫⲁⲉⲓ"
+        },
+        {
+          "title": "Eleleth’s Story of Creation",
+          "subtitle": "Eleleth’s Story of Creation",
+          "heading": "Eleleth’s Story of Creation (93, 32-95, 13)",
+          "rangeLabel": "93, 32-95, 13",
+          "range": {
+            "start": {
+              "page": 93,
+              "line": 32
+            },
+            "end": {
+              "page": 95,
+              "line": 13
+            }
+          },
+          "english": "I said, “My lord, teach me about the [power of] these authorities. [How] did\nthey come into being? With what kind of nature?57 Of what material? Who\ncreated them and their power?”\nThe great angel Eleleth, who is understanding, said to me, “Incorruptibility\ndwells within infinite realms. Sophia, who is called Pistis wanted to create\nsomething by herself, without her partner, and what she produced was from\nabove.\n“There is a curtain between the realms above and the aeons below. A shadow\nformed beneath the curtain and the shadow became matter, and the shadow\nwas cast into a region.\n“What she produced came to be something material like an aborted fetus. It\ntook shape from the shadow, and it became an arrogant beast resembling a lion.\nIt was androgynous, as I already said, because it came from matter\n“The beast opened his eyes and saw a vast amount of matter without limit,\nand he became arrogant and said, ‘I am God, and there is none but me.’\n“When he said this, he sinned against the realm of the All. A voice came\nfrom above the tyrannical realm and said, ‘You are wrong, Samael’-which\nmeans ‘blind god.’\n“He said, ‘If anything exists before me, let me see it.’\n“At once Sophia pointed her finger and brought light into matter, and she\npursued it down to the region of chaos. When she returned up to her light,\ndarkness once again [came upon] matter.\n“This ruler was androgynous and made himself a huge realm, an expanse\nwithout limit. He considered creating for himself offspring, and he created\nfor himself seven offspring, androgynous like their parent.\n“He said to his children, ‘I am God of all.’\n“Zoe daughter of Pistis Sophia called out and said to him, ‘You are wrong,\nSakla,’ whose name is understood as Yaldabaoth Zoe breathed into his face,\nand her breath became for her a fiery angel, and that angel bound Yaldabaoth\nand cast him down into Tartaros, at the bottom of the abyss",
+          "coptic": "ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ϩⲱ ⲡⲉϫⲁⲉⲓ\nϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲁⲧⲥⲉⲃⲉⲉⲓ ⲁⲧϭ[ⲟⲙ ⲛ̅ⲛ]ⲉ‐\nⲉⲓⲉⲝⲟⲩⲥⲓⲁ ϫⲉ ⲛ̅ⲧⲁⲩϣⲱⲡⲉ [ⲛ̅ⲁϣ ⲛ̅ϩⲉ]\nⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲁϣ ⲛ̅ϩⲩⲡⲟⲥⲧ[ⲁⲥⲓⲥ ⲁⲩⲱ ⲉ]‐\nⲃⲟⲗ ϩⲛ̅ ⲁϣ ⲛ̅ϩⲩⲗⲏ ⲁⲩⲱ ⲛⲓⲙ ⲡⲉⲛⲧⲁϥⲧⲁ‐\nⲙⲓⲟⲟⲩ ⲙⲛ̅ ⲧⲟⲩⲇⲩⲛⲁⲙⲓⲥ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁⲉⲓ\nⲛ̅ϭⲓ ⲡⲛⲟϭ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲗⲉⲗⲏⲑ ⲧⲙⲛⲧⲣⲙ̅‐\nⲛ̅ϩⲏⲧ’ ϩⲣⲁⲓ̈ ϩⲛ̅ⲛⲁⲓⲱⲛ ⲉⲙⲛ̅ⲧⲁⲩ ⲁⲣⲏϫϥ̅\nⲉⲥϣⲟⲟⲡ’ ⲛ̅ϭⲓ ⲧⲙ̅ⲛ̅ⲧⲁⲧⲧⲁⲕⲟ ⲧⲥⲟⲫⲓⲁ ⲧⲁⲉⲓ\nⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲡⲓⲥⲧⲓⲥ ⲁⲥⲟⲩⲱϣ’\nⲉⲧⲉⲛⲉ ⲟⲩϩⲱⲃ’ ⲟⲩⲁⲁⲥ ⲁϫⲛ̅ ⲡⲉⲥϩⲱⲧⲣ̅ ⲁⲩ‐\nⲱ ⲡⲉⲥⲉⲣⲅⲟⲛ ⲁϥϣⲱⲡⲉ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲡⲉ ⲟⲩⲛ̅\nⲟⲩⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ϣⲟⲟⲡ’ ⲟⲩⲧⲉ ⲛⲁ ⲡⲥⲁ ⲛ‐\nⲧⲡⲉ ⲙⲛ̅ ⲛⲁⲓⲱⲛ ⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲁⲩ‐\nϩⲁⲓ̈ⲃⲉⲥ ϣⲱⲡⲉ ϩⲁ ⲡⲉⲥⲏⲧ ⲙ̅ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥ‐\nⲙⲁ ⲁⲩⲱ ⲁⲑⲁⲉⲓⲃⲉⲥ ⲉⲧⲙ̅ⲙⲁⲩ ϣⲱⲡⲉ ⲛ̅ϩⲩ‐\nⲗⲏ ⲁⲩⲱ ⲑⲁⲉⲓⲃⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲛⲟϫⲥ̅ ⲁⲩⲥⲁ\nⲛ̅ⲟⲩⲙⲉⲣⲟⲥ ⲁⲩⲱ ⲡⲉⲥⲙⲟⲩⲟⲩⲅ’ ⲁϥϣⲱⲡⲉ\nⲛ̅ⲛⲟⲩⲉⲣⲅⲟⲛ ϩⲛ̅ ⲑⲩⲗⲏ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩϩⲟⲩϩⲉ\nⲁϥϫⲓ ⲧⲩⲡⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲁⲉⲓⲃⲉⲥ ⲁϥϣⲱⲡⲉ\nⲛ̅ⲟⲩⲑⲏⲣⲓⲟⲛ ⲛ̅ⲁⲩⲑⲁⲇⲏⲥ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲙⲟⲩⲉⲓ\nⲟⲩϩⲟⲩⲧ’ⲥϩⲓⲙⲉ ⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲧⲁϩⲓϣⲣ̅ⲡ̅ⲛ̅ϫⲟⲟⲥ\nϫⲉ ⲛ̅ⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩⲗⲏ §ⲁϥⲟⲩⲉⲛ ⲁⲛⲉϥ’‐\nⲃⲁⲗ ⲁϥⲛⲁⲩ ⲁⲩⲛⲟϭ ⲛ̅ϩⲩⲗⲏ ⲉⲙⲛⲧⲉⲥ ⲁⲣⲏϫϥ̅\nⲁⲩⲱ ⲁϥⲣ̅ ϫⲁⲥⲓϩⲏⲧ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲁⲛⲟⲕ’\nⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲙⲛ̅ ϭⲉ ⲁϫⲛ̅ⲧ §ⲛ̅ⲧⲁⲣⲉϥ’\nϫⲉ ⲡⲁⲉⲓ ⲁϥⲣ̅ ⲛⲟⲃⲉ ⲉϩⲣⲁⲓ̈ ⲉⲡⲧⲏⲣϥ’ ⲟⲩⲥⲙⲏ\nⲇⲉ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ ⲛ̅ⲧⲁⲩⲑⲉⲛⲧⲉⲓⲁ\nⲉⲥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲕⲣ̅ⲡⲗⲁⲛⲁⲥⲑⲉ ⲥⲁⲙⲁ‐\nⲏⲗ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲃ̅ⲃⲗ̅ⲗⲉ §ⲁⲩ‐\nⲱ ⲡⲉϫⲁϥ ϫⲉ ⲉϣϫⲉ ⲟⲩⲛ̅ ϭⲉ ϣⲟⲟⲡ ϩⲓ ⲧⲁ‐\nⲉϩⲏ ⲙⲁⲣⲉϥ’ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲉⲓ ⲁⲩⲱ ⲛ̅‐\nⲧⲉⲩⲛⲟⲩ ⲁⲧⲥⲟⲫⲓⲁ ⲥⲱⲧ’ ⲉⲃⲟⲗ ⲙ̅ⲡⲉⲥⲧⲏ‐\nⲏⲃⲉ ⲁⲥⲓⲛⲉ ⲉϩⲟⲩⲛ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲉϩⲟⲩⲛ\nⲉⲑⲩⲗⲏ ⲁⲩⲱ ⲁⲥⲡⲱⲧ’ ⲛ̅ⲥⲱϥ’ ϣⲁ ⲡⲉⲥⲏⲧ’\nⲁⲙⲙⲉⲣⲟⲥ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲩⲱ ⲁⲥⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ\nⲉϩⲣ[ⲁⲓ̈ ⲉⲡⲉ]ⲥⲟⲩⲟⲉⲓⲛ’ ⲡⲁⲗⲓⲛ ⲁⲡⲕⲁⲕⲉ\n[......]ⲛ̅ⲑⲩⲗⲏ §ⲡⲓⲁⲣⲭⲱⲛ ⲉϥⲟ ⲛ̅ϩⲟⲟⲩⲧ’‐\n[ⲥϩⲓⲙⲉ ⲁϥ]ⲧⲁⲙⲓⲟ ⲛⲁϥ’ ⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ⲁⲓⲱⲛ\nⲟⲩⲙⲉⲅⲉⲑⲟⲥ ⲉⲙ[ⲛ̅ⲧ]ⲉϥ ⲁⲣⲏϫϥ̅ ⲁϥⲙⲉⲉⲩ‐\nⲉ ⲇⲉ ⲁⲧⲁⲙⲓⲟ ⲛⲁϥ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ ⲁϥⲧⲁⲙⲓⲟ\nⲛⲁϥ ⲛ̅ⲥⲁϣϥ̅ ⲛ̅ϣⲏⲣⲉ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ ⲙⲛ̅\nⲡⲟⲩⲉⲓⲱⲧ’ §ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛ̅ⲛⲉϥ’ϣⲏⲣⲉ ϫⲉ\nⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲙ̅ⲡⲧⲏⲣϥ̅ §ⲁⲩⲱ ⲍⲱⲏ’\nⲧϣⲉⲉⲣⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲧⲥⲟⲫⲓⲁ ⲁⲥⲁϣⲕⲁⲕ’ ⲉ‐\nⲃⲟⲗ ⲡⲉϫⲁⲥ ⲛⲁϥ’ ϫⲉ ⲕⲣ̅ⲡⲗⲁⲛⲁ ⲥⲁⲕⲗⲁ ⲉ‐\nⲧⲉ ⲡⲉϥ’ⲟⲩϩⲱⲙ ⲡⲉ ⲓ̈ⲁⲗⲧⲁⲃⲁⲱⲑ’ ⲁⲥⲛⲓ‐\nϥⲉ ⲉϩⲟⲩⲛ ϩⲙ̅ ⲡⲉϥϩⲟ ⲁⲩⲱ ⲁⲡⲉⲥⲛⲓϥⲉ ϣⲱ‐\nⲡⲉ ⲛⲁⲥ ⲛ̅ⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲉϥⲟ ⲛ̅ⲕⲱϩⲧ’ ⲁⲩⲱ\nⲁⲡⲁⲅ’ⲅⲉⲗⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ ⲙⲟⲩⲣ’ ⲛ̅ⲓⲁⲗⲇⲁⲃⲁ‐\nⲱⲑ’ ⲁϥⲛⲟϫϥ̅ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲧⲁⲣⲧⲁⲣⲟⲛ ⲙ̅ⲡ’‐\nⲥⲁ ⲙⲓⲧⲛ̅ ⲙ̅ⲡⲛⲟⲩⲛ §ⲡⲉϥϣⲏⲣⲉ ⲇⲉ ⲥⲁ‐"
+        },
+        {
+          "title": "The Story of Sabaoth",
+          "subtitle": "The Story of Sabaoth",
+          "heading": "The Story of Sabaoth (95, 13-96, 17)",
+          "rangeLabel": "95, 13-96, 17",
+          "range": {
+            "start": {
+              "page": 95,
+              "line": 13
+            },
+            "end": {
+              "page": 96,
+              "line": 17
+            }
+          },
+          "english": "“When Sabaoth son of Yaldabaoth saw the strength of that angel, he repented\nand condemned his father and his mother, matter.\n“Sabaoth loathed his mother but he sent songs of praise up to Sophia and\nher daughter Zoe. Sophia and Zoe took him up and established him over the\nseventh heaven, below the curtain between what is above and what is below. He\nis called ‘god of the powers, Sabaoth,’ because he is above the powers of chaos,\nfor Sophia established him.\n“When these things happened, Sabaoth made himself a huge four-faced\nchariot of cherubim, and an infinity of angels as ministers, and harps and lyres\n“Sophia took her daughter Zoe and made her sit at his right to teach him\nabout the things that are in the eighth heaven and she put the angel of wrath at\nhis left. [Since] that day, [his right] had been called ‘life,’ and the left has\nrepresented the unrighteousness of the tyrannical realm above. These things\nhappened before your time.\n“When Yaldabaoth saw Sabaoth exalted in such great glory on high, he\nenvied him, and his envy became something androgynous. This was the\nbeginning of envy. Envy produced death, death produced children, and death put\neach in charge of a heaven. All the heavens of chaos were full of their masses.\n“But all these things came to be by the will of the Father of the All, after the\npattern of all that is above, so that the sum total of chaos might be reached\n“Look, I have taught you about the form of the rulers, the matter in which the\nform was produced, their parent, and their world.”",
+          "coptic": "ⲥⲁ ⲙⲓⲧⲛ̅ ⲙ̅ⲡⲛⲟⲩⲛ §ⲡⲉϥϣⲏⲣⲉ ⲇⲉ ⲥⲁ‐\nⲃⲁⲱⲑ’ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲁⲧⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲙⲉⲧⲁⲛⲟⲉⲓ ⲁϥⲣ̅ⲕⲁ‐\nⲧⲁⲅⲉⲓⲛⲱⲥⲕⲉ ⲙ̅ⲡⲉϥⲉⲓⲱⲧ’ ⲙⲛ̅ ⲧⲉϥⲙⲁⲁⲩ\nⲑⲩⲗⲏ §ⲁϥⲥⲓⲭⲁⲛⲉ ⲉⲣⲟⲥ ⲁϥⲣ̅ϩⲩⲙⲛⲉⲓ ⲇⲉ\nⲉϩⲣⲁⲓ̈ ⲉⲧⲥⲟⲫⲓⲁ ⲁⲩⲱ ⲧⲉⲥϣⲉⲉⲣⲉ ⲛ̅ⲍⲱⲏ\nⲁⲩⲱ ⲁⲧⲥⲟⲫⲓⲁ ⲙⲛ̅ ⲍⲱⲏ ⲧⲟⲣⲡϥ’ ⲉϩⲣⲁⲓ̈ ⲁⲩ‐\nⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ’ ⲉϫⲛ̅ ⲧⲙⲉϩⲥⲁϣϥⲉ ⲙ̅ⲡⲉ\nⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲙ̅ⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲟⲩⲧⲉ\nⲡⲥⲁ ⲛⲧⲡⲉ ⲙⲛ̅ ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲁⲩⲱ ⲁⲩⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲥⲁ‐\nⲃⲁⲱⲑ ϫⲉ ⲉϥⲙ̅ⲡⲥⲁ ⲛ’ⲧⲡⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ\nⲙ̅ⲡⲭⲁⲟⲥ ϫⲉ ⲁⲧⲥⲟⲫⲓⲁ ⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ\n§ϩⲟⲧⲓ ⲇⲉ ⲁⲛⲁⲉⲓ ϣⲱⲡⲉ ⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ’\nⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ϩⲁⲣⲙⲁ ⲛ̅ⲭⲉⲣⲟⲩⲃⲓⲛ ⲉϥⲟ ⲛ̅‐\nϥⲧⲟⲟⲩ ⲙ̅ⲡⲣⲟⲥⲱⲡⲟⲛ ⲙⲛ̅ ϩⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲉⲛⲁϣⲱⲟⲩ ⲉⲙⲛ̅ⲧⲟⲩ ⲏⲡⲉ ⲉⲧⲣⲟⲩⲣ̅ϩⲩ‐\nⲡⲏⲣⲉⲧⲉⲓ’ ⲁⲩⲱ ϩⲙ̅ⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲙⲛ̅ ϩⲛ̅‐\nⲕⲓⲑⲁⲣⲁ §ⲁⲩⲱ ⲁⲧⲥⲟⲫⲓⲁ ϥⲓ ⲧⲉⲥϣⲉⲉⲣⲉ ⲛ̅‐\nⲍⲱⲏ ⲁⲥⲧⲣⲉⲥϩⲙⲟⲟⲥ ϩⲓ ⲟⲩⲛⲁⲙ’ ⲙ̅ⲙⲟϥ’\nⲉⲧⲣⲉⲥⲧⲁⲙⲟϥ’ ⲁⲛⲉⲧ’ϣⲟⲟⲡ [ϩ]ⲛ̅ ⲧⲙⲁϩ‐\nϣⲙⲟⲩⲛⲉ ⲁⲩⲱ ⲡⲓⲁⲅⲅⲉⲗⲟ[ⲥ ⲛ̅ⲧⲉ ⲧⲟ]ⲣ‐\nⲅⲏ ⲁⲥⲕⲁⲁϥ ϩⲓ ϩⲃⲟⲩⲣ ⲙ̅ⲙⲟϥ [ϫⲓⲙ ⲫⲟ]‐\nⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲁⲧ[ⲉϥⲟⲩⲛⲁⲙ]\nϫⲉ ⲍⲱⲏ ⲁⲩⲱ ⲧϩⲃⲟ[ⲩ]ⲣ ⲁⲥϣⲱⲡⲉ ⲛ̅ⲧⲩⲡⲟⲥ\nⲛ̅ⲧⲁⲇⲓⲕⲓⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲁⲩⲑⲉⲛⲧⲏⲥ ⲙ̅ⲡⲥⲁ ⲛ’‐\nⲧⲡⲉ ⲛ̅ⲧⲁⲩϣⲱⲡⲉ ϩⲁ ⲧⲟⲩⲉϩⲏ §ⲛ̅ⲧⲁⲣⲉ ⲓ̈ⲁⲗ’‐\nⲇⲁⲃⲁⲱⲑ ⲇⲉ’ ⲛⲁⲩ ⲉⲣⲟϥ ⲉϥϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲓ̈‐\nⲛⲟϭ ⲛ̅ⲉⲟⲟⲩ ⲙⲛ̅ ⲡⲉⲉⲓϫⲓⲥⲉ ⲁϥⲕⲱϩ ⲉⲣⲟϥ’\nⲁⲩⲱ ⲁⲡⲕⲱϩ ϣⲱⲡⲉ ⲛ̅ⲟⲩⲉⲣⲅⲟⲛ ⲉϥⲟ ⲛ̅ϩⲟ‐\nⲟⲩⲧⲥϩⲓⲙⲉ ⲁⲩⲱ ⲁⲡⲁⲉⲓ ϣⲱⲡⲉ ⲛ̅ⲁⲣⲭⲏ ⲙ̅‐\nⲡⲕⲱϩ ⲁⲩⲱ ⲁⲡⲕⲱϩ ϫⲡⲉ ⲡⲙⲟⲩ ⲁⲡⲙⲟⲩ\nⲇⲉ ϫⲡⲟ ⲛ̅ⲛⲉϥϣⲏⲣⲉ ⲁϥⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲡⲟⲩⲁ\nⲡⲟⲩⲁ ⲙ̅ⲙⲟⲟⲩ ⲉϫⲛ̅ ⲧⲉϥⲡⲉ ⲁⲛⲡⲏⲩⲉ ⲧⲏⲣⲟⲩ\nⲙ̅ⲡⲭⲁⲟⲥ ⲙⲟⲩϩ ⲛ̅ⲛⲟⲩⲏⲡⲉ §ⲛⲁⲉⲓ ⲇⲉ ⲧⲏⲣⲟⲩ\nⲛ̅ⲧⲁⲩϣⲱⲡⲉ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲙ̅ⲡⲧⲏⲣϥ’\nⲕⲁⲧⲁ ⲡⲧⲩⲡⲟⲥ ⲛ̅ⲛⲁ ⲡⲥⲁ ⲛ’ⲧⲡⲉ’ ⲧⲏⲣⲟⲩ ϣⲓ‐\nⲛⲁ ⲉϥⲛⲁϫⲱⲕ’ ⲉⲃⲟⲗ’ ⲛ̅ϭⲓ ⲡⲁⲣⲓⲑⲙⲟⲥ ⲙ̅ⲡⲭⲁ‐\nⲟⲥ §ⲉⲓⲥϩⲏⲏⲧⲉ ⲁϩⲓⲧⲥⲉⲃⲟ ⲁⲡⲧⲩⲡⲟⲥ ⲛ̅ⲛ̅‐\nⲁⲣⲭⲱⲛ’ ⲙⲛ̅ ⲑⲩⲗⲏ ⲛ̅ⲧⲁⲩϫⲡⲟϥ ⲛ̅ϩⲏⲧⲥ̅ ⲙⲛ̅\nⲡⲟⲩⲉⲓⲱⲧ’ ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ⲇⲉ ⲁ‐"
+        },
+        {
+          "title": "Conclusion",
+          "subtitle": "Conclusion",
+          "heading": "Conclusion (96, 17-97, 23)",
+          "rangeLabel": "96, 17-97, 23",
+          "range": {
+            "start": {
+              "page": 96,
+              "line": 17
+            },
+            "end": {
+              "page": 97,
+              "line": 23
+            }
+          },
+          "english": "I said, “My lord, am I also from their matter?”\n“You and your offspring are from the Father, who was from the beginning.\nThe souls come from above, from incorruptible light So the authorities cannot\napproach them because of the spirit of truth within them, and all who know this\nway of truth are deathless among dying humanity.\n“But that offspring will not appear now. It will appear after three ages and\nfree them from the bondage of the authorities’ error.”\nI said, “My lord, how long will it be?”\nHe said to me, “Until the time when the true human in human form reveals\n[the spirit of] truth that the Father has sent.\n“Then he will teach them about everything and anoint them with the oil of\neternal life, given from the generation without a king.\n“Then they will be freed of blind thought. They will trample death, which is\nof the authorities. And they will ascend into the infinite light where this\noffspring is.\n“Then the authorities will surrender their years and ages. Their angels will\nweep over their destruction, and their demons will mourn over their death.\n“Then all the children of the light will know the truth, and their root, and the\nFather of the All, and the holy Spirit. They will all say with one voice:\nThe Father’s truth is just,\nthe child is over all\nand with everyone,\nforever and ever.\nHoly, holy, holy!81\nAmen.”",
+          "coptic": "ⲡⲟⲩⲉⲓⲱⲧ’ ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ §ⲁⲛⲟⲕ’ ⲇⲉ ⲁ‐\nⲉⲓϫⲟⲟⲥ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲏⲧⲓ ⲁⲛⲟⲕ’ ϩⲱ ϯ‐\nⲏⲡ’ ⲁⲧⲟⲩϩⲩⲗⲏ §ⲛ̅ⲧⲟ ⲙⲛ̅ ⲛⲟⲩϣⲏⲣⲉ ⲉⲣⲉⲏⲡ’\nⲁⲡⲉⲓⲱⲧ’ ⲉⲧϣⲟⲟⲡ ϫⲓⲛ ⲛ̅ϣⲟⲣⲡ ⲛ̅ⲧⲁ\nⲛⲟⲩⲯⲩⲭⲏ ⲉⲓ 〈ⲉ〉ⲃⲟⲗ ϩⲙ̅ ⲡⲥⲁ ⲛ’ⲧⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲛⲁⲧ’ⲧⲉⲕⲟ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲛ̅ⲉⲝⲟⲩ‐\nⲥⲓⲁ ⲛⲁϣⲧϩⲛⲟ ⲁⲛ ⲉϩⲟⲩⲛ ⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ\nⲡⲛ̅ⲁ̅ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲧⲟⲩⲏϩ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ\nⲟⲩⲟⲛ ⲇⲉ ⲛⲓⲙ’ ⲛ̅ⲧⲁϩⲥⲟⲩⲱⲛ ⲧⲉⲓ̈ϩⲟⲇⲟⲥ\nⲛⲁⲉⲓ ⲥⲉϣⲟⲟⲡ’ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲛ̅ⲣ̅ⲣⲱⲙⲉ ⲉϣⲁⲩⲙⲟⲩ ⲁⲗⲗⲁ ⲡⲉⲥⲡⲉⲣⲙⲁ\nⲉⲧⲙ̅ⲙⲁⲩ ⲛⲁⲟⲩⲱⲛϩ ⲁⲛ’ ⲉⲃⲟⲗ ⲧⲉⲛⲟⲩ §ⲁⲗ‐\nⲗⲁ ⲙⲛ̅ⲛ̅ⲥⲁ ϣⲟⲙⲧⲉ ⲛ̅ⲅⲉⲛⲉⲁ ⲁϥⲛⲁⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ’ † ⲁϥⲛⲟⲩϫⲉ ⲉⲃⲟⲗ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲧⲙⲣ̅ⲣⲉ\nⲛ̅ⲧⲡⲗⲁⲛⲏ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ §ⲁⲛⲟⲕ’ ⲇⲉ ⲡⲉϫⲁⲉⲓ\nϫⲉ ⲡϫⲟⲉⲓⲥ ϣⲁ ⲟⲩⲏⲣ’ ⲛ̅ⲭⲣⲟⲛⲟⲥ §ⲡⲉϫⲁϥ’\nⲛⲁⲉⲓ ϫ[ⲉ ϩⲟ]ⲧⲁⲛ ⲉⲣϣⲁ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲓ‐\n[ⲛⲟⲥ ⲟⲩⲱ]ⲛϩ ⲉⲃⲟⲗ’ ϩⲛ̅ⲛⲟⲩⲡⲗⲁⲥⲙⲁ\n[......]ⲁⲗⲏⲑⲉⲓⲁ ⲡⲉⲛⲧⲁ ⲡⲉⲓⲱⲧ ⲧⲛ̅‐\nⲛⲟⲟⲩϥ §ⲧ[ⲟⲧⲉ] ⲡⲉⲧ[ⲙ̅]ⲙⲁⲩ ⲛⲁⲧⲁⲙⲟⲟⲩ ⲉ‐\nⲧⲃⲉ ϩⲱⲃ ⲛ[ⲓⲙ] ⲁⲩⲱ ϥⲛⲁⲧⲁϩⲥⲟⲩ ϩⲙ̅ ⲡⲭⲣⲉⲓ‐\nⲥⲙⲁ ⲙ̅ⲡⲱⲛϩ ϣⲁ ⲉⲛⲉϩ ⲡⲁⲉⲓ ⲛ̅ⲧⲁⲩⲧⲁ‐\nⲁϥ ⲛⲁϥ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲅⲉⲛⲉⲁ ⲧⲉⲧⲙ̅ⲙⲛ̅ⲧⲉⲥ\nⲣ̅ⲣⲟ §ⲧⲟⲧⲉ ⲥⲉⲛⲁⲛⲟⲩϫⲉ ⲉⲃⲟⲗ’ ⲙⲙⲟⲟⲩ\nⲙ̅ⲡⲙⲉⲉⲩⲉ ⲃ̅ⲃⲗ̅ⲗⲉ ⲁⲩⲱ ⲥⲉⲛⲁⲣ̅ⲕⲁⲧⲁⲡⲁ‐\nⲧⲉⲓ ⲙ̅ⲡⲙⲟⲩ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲥⲉⲛⲁⲃⲱⲕ’\nⲉϩⲣⲁⲓ̈ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲙⲛ̅ⲧⲁϥ ⲁⲣⲏϫϥ’\nⲡⲁⲉⲓ ⲉⲧⲉ ⲡⲉⲉⲓⲥⲡⲉⲣⲙⲁ ϣⲟⲟⲡ’ ⲙ̅ⲙⲁⲩ\n§ⲧⲟⲧⲉ ⲛⲉⲝⲟⲩⲥⲓⲁ ⲥⲉⲛⲁⲕⲱ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲛⲟⲩ‐\nⲕⲁⲓⲣⲟⲥ ⲁⲩⲱ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲥⲉⲛⲁⲣⲓⲙⲉ\nⲉϫⲛ̅ ⲡⲟⲩⲧⲁⲕⲟ ⲁⲩⲱ ⲛⲟⲩⲇⲁⲓⲙⲱⲛ ⲥⲉⲛⲁ‐\nⲣ̅ϩⲏⲃⲉ ⲉϫⲛ̅ ⲡⲟⲩⲙⲟⲩ §ⲧⲟⲧⲉ ⲛ̅ϣⲏⲣⲉ ⲧⲏ‐\nⲣⲟⲩ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲥⲉⲛⲁⲥⲟⲩⲱⲛ ⲧⲁⲗⲏⲑⲉⲓ‐\nⲁ ⲙⲛ̅ ⲧⲟⲩⲛⲟⲩⲛⲉ ϩⲛ̅ ⲟⲩⲙⲉ ⲁⲩⲱ ⲡⲉⲓⲱⲧ’\nⲙ̅ⲡⲧⲏⲣϥ’ ⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲥⲉⲛⲁϫⲟⲟⲥ\nⲧⲏⲣⲟⲩ ϩⲛ̅ⲛⲟⲩⲥⲙⲏ ⲟⲩⲱⲧ’ ϫⲉ ⲟⲩⲇⲓⲕⲁⲓ‐\nⲟⲥ ⲧⲉ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲁⲩⲱ ⲡϣⲏⲣⲉ\nϩⲓϫⲛ̅ ⲡⲧⲏⲣϥ’ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲟⲩⲟⲛ ⲛⲓⲙ\nϣⲁ ⲛⲓⲉⲛⲉϩ ⲛ̅ⲉⲛⲉϩ ϩⲁⲅⲓⲟⲥ ϩⲁⲅⲓⲟⲥ ϩⲁ‐\nⲅⲓⲟⲥ ϩⲁⲙⲏⲛ\n0ⲧⲑⲩⲡⲟⲥⲧⲁⲥⲓⲥ\n0ⲛ̅ⲛ̅ⲁⲣⲭⲱⲛ \n( codex II ) On the Origin of the World"
+        }
+      ]
+    },
+    {
+      "workId": "origin-of-the-world",
+      "chapterName": "Origin of the World",
+      "title": "Codex II - Origin of the World",
+      "sourceTitle": "ON THE ORIGIN OF THE WORLD",
+      "sections": [
+        {
+          "title": "Prologue: In the Beginning",
+          "subtitle": "Prologue: In the Beginning",
+          "heading": "Prologue: In the Beginning (97, 24-98, 11)",
+          "rangeLabel": "97, 24-98, 11",
+          "range": {
+            "start": {
+              "page": 97,
+              "line": 24
+            },
+            "end": {
+              "page": 98,
+              "line": 11
+            }
+          },
+          "english": "Since everyone, both the gods of the world and people, says that nothing existed\nbefore chaos, I shall prove they all are wrong, because they do not know the\n[origin] of chaos or its root. Here [is the] proof.\nAlthough certainly people in general are [inclined] to say that chaos is\ndarkness, in actuality chaos comes from a shadow, and it is the shadow that has\nbeen called darkness. The shadow comes from something that has existed from\nthe beginning, and so it is obvious that something in the beginning existed before\nchaos came into being, and chaos came after what was in the beginning.\nLet us consider the facts of the matter, and particularly what was in the\nbeginning, from which chaos came. In this way will the truth be clearly\ndemonstrated.\nNarration: Origin of Sophia and the Powers of the World",
+          "coptic": "§ⲉⲡⲉⲓⲇⲏ ⲟⲩⲟⲛ ⲛⲓⲙ’ ⲛ̅ⲛⲟⲩⲧⲉ ⲙ̅ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲁⲩⲱ ⲣ̅ⲣⲱⲙⲉ ⲥⲉϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲙⲛ̅\nⲗⲁⲁⲩⲉ ϣⲟⲟⲡ’ ϩⲁ ⲧⲉϩⲏ ⲙ̅ⲡⲭⲁⲟⲥ ⲁⲛⲟⲕ’\nⲇⲉ ϯⲛⲁⲣ̅ⲁⲡⲟⲇⲓⲕⲛⲩⲉ ϫⲉ ⲁ[ⲩ]ⲣ̅ⲡⲗⲁⲛⲁ\nⲧⲏⲣⲟⲩ ⲉⲛ’ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ ⲛ̅ⲧ[ⲥⲩⲥⲧⲁⲥ]ⲓⲥ\nⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲧⲉϥⲛⲟⲩⲛⲉ ⲧⲁ[ⲉⲓ ⲇⲉ ⲧⲉ ⲧⲁ]‐\nⲡⲟⲇⲓⲝⲉⲓⲥ §ⲉϣϫⲉ ⲥⲣ̅ⲥⲩⲙ’[ⲫⲱⲛⲉⲓ ⲙⲛ̅]\n[ⲣ̅]ⲣⲱⲙⲉ ⲧⲏⲣⲟⲩ ⲉⲧⲃⲉ ⲡⲭⲁ[ⲟⲥ] ϫⲉ ⲟⲩⲕⲁ‐\nⲕⲉ ⲡⲉ’ ⲟⲩⲉⲃⲟⲗ ⲇⲉ ⲡⲉ ϩⲛ̅ ⲟⲩϩⲁⲓ̈ⲃⲉⲥ\nⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲕⲁⲕⲉ’ ⲑϩⲣⲁⲓ̈ⲃⲉⲥ ⲇⲉ\nⲟⲩⲉⲓ ⲉⲃⲟⲗ ⲡⲉ ϩⲛ̅ⲛⲟⲩⲉⲣⲅⲟⲛ ⲉϥϣⲟⲟⲡ’\nϫⲓⲛ ⲧⲉϩⲟⲩⲉⲓⲧⲉ ϥⲟⲩⲟⲛϩ ⲇⲉ ⲉⲃⲟⲗ ϫⲉ ⲛⲉϥ’‐\nϣⲟⲟⲡ’ ⲉⲙ’ⲡⲁⲧⲉ ⲡⲭⲁⲟⲥ ϣⲱⲡⲉ ⲛ̅ⲧⲁϥⲟⲩ‐\nⲱϩ ⲇⲉ ⲛ̅ⲥⲁ ⲡϣⲟⲣⲡ’ ⲛ̅ⲉⲣⲅⲟⲛ’ §ⲙⲁⲣⲛ̅ⲉⲓ ⲇⲉ\nⲉϩⲟⲩⲛ’ ⲉⲧⲙⲉ’ ⲉϩⲟⲩⲛ ⲇⲉ’ ⲁⲛ’ ⲉⲡϣⲟⲣⲡ’\nⲛ̅ⲉⲣⲅⲟⲛ ⲡⲁⲉⲓ ⲛ̅ⲧⲁ ⲡⲭⲁⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’\nⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲥⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲁ‐\nⲡⲟⲇⲓⲝⲉⲓⲥ ⲛ̅ⲧⲙⲉ §ⲧⲫⲩⲥⲉⲓⲥ ⲇⲉ ⲛ̅ⲛⲓⲁⲧ’‐"
+        },
+        {
+          "title": "98, 11-99, 22",
+          "subtitle": "98, 11-99, 22",
+          "heading": "(98, 11-99, 22)",
+          "rangeLabel": "98, 11-99, 22",
+          "range": {
+            "start": {
+              "page": 98,
+              "line": 11
+            },
+            "end": {
+              "page": 99,
+              "line": 22
+            }
+          },
+          "english": "After the world of the immortals was brought to completion out of the infinite, a\nbeing with this likeness, called Sophia, flowed from Pistis. This being expressed\nits wish that it come to resemble the first light, and at once its wish appeared as a\nheavenly likeness with an incomprehensible greatness. This being came to be\nbetween the immortals and what came after them, like what is above, and Sophia\nserved as a veil separating humanity from the things above.\nThe aeon of truth has no shadow <within> it because infinite light shines\neverywhere within it. There is a shadow, however, outside it, and the shadow has\nbeen called darkness. From the shadow appeared a power set over the darkness,\nand the powers that came afterward called the shadow limitless chaos. From it\n[every] sort of deity emerged, [one after] another, along with the whole world.\nSo [the shadow] came after something that existed in the beginning, and\nthen it became visible. The abyss also came from Pistis, whom we have\nmentioned.\nThe shadow sensed that there was one stronger than it. It was jealous, and\nwhen it became pregnant by itself, all of a sudden it gave birth to envy. Since\nthen the principle of envy has appeared in all the aeons and their worlds. But\nenvy turned out to be an aborted fetus, without any spirit in it, and it came into\nbeing as a shadow in an expanse of watery substance. Bitter wrath came into\nbeing from the shadow and was cast into a region of chaos.\nSince that day watery substance has been visible. What lurked in the shadow\nflowed out and appeared in chaos. Just as all the afterbirth of a woman who\ngives birth to a baby flows out, so also the matter that came into being from the\nshadow was cast out. Matter did not come out of chaos; it was in chaos, in a\nregion of chaos.",
+          "coptic": "ⲡⲟⲇⲓⲝⲉⲓⲥ ⲛ̅ⲧⲙⲉ §ⲧⲫⲩⲥⲉⲓⲥ ⲇⲉ ⲛ̅ⲛⲓⲁⲧ’‐\nⲙⲟⲩ ⲛ̅ⲧⲁⲣⲉⲥϫⲱⲕ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲧⲉ ⲙⲛ̅ⲧⲉϥ’\nⲁⲣⲏϫϥ ⲧⲟⲧⲉ ⲟⲩⲉⲓⲛⲉ ⲁϥϩϯⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲡⲓ‐\nⲥⲧⲓⲥ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲧⲥⲟⲫⲓⲁ ⲁϥ’ⲟⲩ‐\nⲱϣ ⲁϥϣⲱⲡⲉ ⲛ̅ⲛⲟⲩⲉⲣⲅⲛ ⲉϥⲉ〈ⲓ〉ⲛⲉ\nⲙ̅ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲧϣⲟⲟⲡ’ ⲛ̅ϣⲟⲣⲡ’ ⲁⲩⲱ\nⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲉⲥⲟⲩ‐\nⲱϣ’ ⲉϥⲟ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲡⲉ ⲉⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ\nⲛ̅ⲛⲟⲩⲙⲉⲅⲉⲑⲟⲥ ⲉⲛⲥⲉⲁϣⲙⲉⲉⲩ ⲁⲛ’ ⲉⲣⲟϥ’\nⲉϥϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ⲛⲓⲁⲧ’ⲙⲟⲩ ⲙⲛ̅ ⲛⲉⲛⲧⲁϩ’‐\nϣⲱⲡⲉ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲑⲉ ⲉⲧⲙ̅ⲡⲉ’ ⲉ‐\nⲥⲟ ⲙ̅ⲡⲁⲣⲁⲡⲉⲧⲁⲥⲙⲁ ⲉϥⲡⲱⲣϫ’ ⲟⲩⲧⲉ\nⲣ̅ⲣⲱⲙⲉ ⲙⲛ̅ ⲛⲁ ⲡⲥⲁ ⲛⲧⲡⲉ §ⲡⲓⲁⲓⲱⲛ’ ⲇⲉ\nⲛ̅ⲧⲉ ⲧⲙⲉ ⲙⲛ̅ⲧⲉϥ ϩⲁⲓ̈ⲃⲉⲥ ⲙ̅ⲙⲁⲩ † ⲙ̅ⲡⲉϥ’‐\nⲃⲟⲗ ϫⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲙⲛ̅ⲧⲉϥ ϣⲓ ϩⲙ̅\nⲙⲁ ⲛⲓⲙ’ ⲛ̅ϩⲏⲧϥ̅ ⲡⲉϥⲥⲁ ⲛⲃⲟⲗ ⲇⲉ ⲟⲩϩⲁ‐\nⲉⲓⲃⲉ ⲡⲉ’ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲕⲁⲕⲉ ⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧϥ’ ⲁⲩⲇⲩⲛⲁⲙⲓⲥ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲓ‐\nϫⲙ̅ ⲡⲕⲁⲕⲉ ϯϩⲁⲉⲓⲃⲉ ⲇⲉ ⲁⲛⲇⲩⲛⲁⲙⲓⲥ\nⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲙⲛ̅ⲛ̅ⲥⲱⲟⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲡⲭⲁⲟⲥ 〈ⲉⲧ〉ⲉⲙⲛ̅ⲧⲉϥ’ ⲁⲣⲏϫϥ’ † ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ †\nⲁⲅⲉⲛ[ⲟⲥ ⲛⲓ]ⲙ’ ⲛ̅ⲛⲟⲩⲧⲉ ϯ ⲟⲩⲱ ⲉϩⲣⲁⲓ̈ ⲁⲩ‐\n[.......]ⲱⲡⲟⲩⲁ’ ⲙⲛ̅ ⲡⲙⲁ ⲧⲏⲣϥ’ ϩⲱⲥ‐\n[ⲧⲉ ⲁⲑϩⲁⲉⲓⲃ]ⲉ ⲁⲛ ⲟⲩϩⲁⲥ ⲛ̅ⲥⲁ ⲡϣⲟⲣⲡ’\nⲛ̅ⲉⲣⲅⲟⲛ ⲛ̅[ⲧⲁⲥ]ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ 〈ⲙ̅〉ⲡⲛⲟⲩⲛ’ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ ⲧⲡⲓⲥⲧⲓⲥ’ ⲛ̅ⲧⲁⲛϣⲁϫⲉ ⲉⲣⲟⲥ §ⲧⲟ‐\nⲧⲉ ⲁⲑϩⲁⲓ̈ⲃⲉⲥ’ ⲣ̅ⲁⲓⲥⲑⲁⲛⲉ ϫⲉ ⲟⲩⲛ̅ ⲡⲉⲧ’‐\nϫⲟⲟⲣ’ ⲉⲣⲟⲥ’ ⲁⲥⲕⲱϩ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉⲥⲩⲟ’ⲩ←\nⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ̅ ⲟⲩⲁⲁⲧⲥ̅ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁⲥ‐\nϫⲡⲟ ⲙ̅ⲡⲕⲱϩ ϫⲓⲛ’ ⲙ̅ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ\nⲁⲥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲁⲣⲭⲏ ⲙ̅ⲡⲕⲱϩ ϩⲛ̅\nⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ’ ⲙⲛ̅ ⲛⲉⲩⲕⲟⲥⲙⲟⲥ’ ⲡⲕⲱϩ\nⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩϩⲉ ⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲟⲩϩⲉ ⲉ‐\nⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲛ̅ϩⲏⲧϥ’ ⲁϥϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲁ‐\nⲉⲓⲃⲉⲥ ϩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲟⲩⲥⲓⲁ ⲙ̅ⲙⲟⲟⲩ ⲧⲟ‐\nⲧⲉ ϯⲭⲟⲗⲏ ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲁ‐\nⲉⲓⲃⲉⲥ ⲁⲩⲛⲟϫⲥ̅ ⲁⲩⲙⲉⲣⲟⲥ ⲛ̅ⲧⲉ ⲡⲭⲁⲟⲥ\nϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲟⲩⲥⲓⲁ ⲙ̅ⲙⲟⲟⲩ\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲱ ⲡⲉⲛⲧⲁϩⲱⲧⲉ ϩⲣⲁⲓ̈\nⲛ̅ϩⲏⲧⲥ̅ ⲁϥϩϯⲉ ⲉⲃⲟⲗ ⲉϥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲭⲁⲟⲥ ⲛ̅ⲑⲉ ⲛ̅ⲧⲉⲧⲙⲓⲥⲉ ⲛ̅ⲛⲟⲩⲕⲟⲩ‐\nⲉⲓ ⲛⲉⲥⲡⲉⲣⲓⲥⲥⲟⲛ’ ⲧⲏⲣⲟⲩ ϣⲁⲩϩⲁⲉⲓⲉ\nⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲑⲩⲗⲏ ⲛ̅ⲧⲁⲥϣⲱⲡⲉ ⲉⲃⲟⲗ\nϩⲛ̅ ⲑⲁⲉⲓⲃⲉⲥ ⲁⲩⲛⲟϫⲥ̅ ⲉⲩⲥⲁ ⲁⲩⲱ ⲙ̅ⲡⲉⲥ‐\nⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲭⲁⲟⲥ ⲁⲗⲗⲁ ⲛⲉⲥϩⲙ̅ ⲡⲭⲁ‐\nⲟⲥ ⲛ̅ϭⲓ ⲑⲩⲗⲏ ⲉⲥϩⲛ̅ ⲟⲩⲙⲉⲣⲟⲥ ⲙ̅ⲙⲟϥ"
+        },
+        {
+          "title": "The Appearance of Yaldabaoth",
+          "subtitle": "The Appearance of Yaldabaoth",
+          "heading": "The Appearance of Yaldabaoth (99, 23-100, 29)",
+          "rangeLabel": "99, 23-100, 29",
+          "range": {
+            "start": {
+              "page": 99,
+              "line": 23
+            },
+            "end": {
+              "page": 100,
+              "line": 29
+            }
+          },
+          "english": "After these things happened, Pistis came and appeared over chaotic matter,\nwhich had been expelled like an aborted fetus, without any spirit in it. For chaos\nis all limitless darkness and unfathomable water. When Pistis saw what came\ninto being from her deficiency, she was disturbed. And her disturbance appeared\nas something frightful, and it fled to her in the chaos. She turned to it and [blew]\ninto its face in the abyss, below all of the heavens.\nWhen Pistis Sophia wanted to cause this thing with no spirit to be made into\na likeness of the divine and rule over matter and all its powers, for the first time\nan archon appeared, out of the waters, lionlike in appearance, androgynous, with\ngreat authority in himself but ignorant of where he came from.\nWhen Pistis Sophia saw him moving in the depth of the waters, she said to\nhim, “Young man, move over here,” which is the meaning of Yaldabaoth.\nSince then the faculty of speech has come to expression, and the faculty of\nspeech pertains to the gods, angels, and people. The gods, angels, and people\nhave brought to completion what has come into being by means of the word.\nThe ruler Yaldabaoth is ignorant of the power of Pistis. He did not see her\nface, but in the water he saw the likeness that spoke to him, and from that voice\nhe called himself Yaldabaoth. Those who are perfect call him Ariael, because he\nis like a lion.\nAfter Yaldabaoth assumed authority over matter, Pistis Sophia withdrew up\nto her light.\nYaldabaoth Creates Heaven and Earth and Produces Sons",
+          "coptic": "§ⲛ̅ⲧⲁⲣⲉ ⲛⲁⲉⲓ ⲇⲉ ϣⲱⲡⲉ ⲧⲟⲧⲉ ⲁⲥⲉⲓ ⲛ̅ϭⲓ\nⲧⲡⲓⲥⲧⲓⲥ ⲁⲥⲟⲩⲱⲛ’ ⲉⲃⲟⲗ ϩⲓϫⲛ̅ ⲑⲩⲗⲏ ⲙ̅‐\nⲡⲭⲁⲟⲥ ⲧⲁⲉⲓ ⲉⲛⲧⲁⲩⲛⲟϫⲥ̅ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩ‐\nϩⲟⲩⲉ ⲛⲉ ⲙⲛ̅ ⲡⲛ̅ⲁ̅ ⲅⲁⲣ ⲛ̅ϩⲏⲧϥ̅ ϫⲉ ⲡⲏ ⲅⲁⲣ\nⲧⲏⲣϥ ⲟⲩⲕⲁⲕⲉ ⲡⲉ ⲉⲙⲛ̅ⲧⲁϥ’ ⲁⲣⲏϫϥ’\nⲁⲩⲱ ⲟⲩⲙⲟⲟⲩ ⲉⲙⲛ̅ⲧⲁϥ’ ϣⲓⲕ’ ⲙ̅ⲙⲁⲩ’\n§ⲛ̅ⲧⲁⲣⲉ ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲛⲁⲩ ⲁⲡⲉⲛⲧⲁϩϣⲱ‐\nⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥϣⲧⲁ ⲁⲥϣⲧⲟⲣⲧⲣ̅\nⲡϣⲧⲟⲣⲧⲣ̅ ⲇⲉ ⲁϥ’ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲛⲟⲩ‐\nⲉⲣⲅⲟⲛ ⲛ̅ϩⲣ̅ⲧⲉ ⲁϥⲡⲱⲧ ⲇⲉ [ⲉⲣⲁⲧ]ⲥ ϩⲙ̅\nⲡⲭⲁⲟⲥ ⲁⲥⲕⲟⲧⲥ̅ ⲇⲉ ⲉⲣⲟϥ’ ⲁ[ⲥⲛⲓϥⲉ ⲉ]‐\nϩⲟⲩⲛ ϩⲙ̅ ⲡⲉϥϩⲟ ϩⲙ̅ ⲡⲛⲟⲩ[ⲛ ⲡⲉⲧⲙ̅]‐\nⲡⲓⲧⲛ̅ ⲛⲙ̅ⲡⲏⲩⲉ ⲧⲏ[ⲣⲟ]ⲩ §ⲧ[ⲡⲓ]ⲥⲧⲓⲥ ⲇⲉ\nⲧⲥⲟⲫⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥⲟⲩⲱϣ [ⲁ]ⲧⲣⲉ ⲡⲏ ⲉⲧⲉ\nⲙⲛ̅ⲧⲉϥ’ ⲡⲛ̅ⲁ̅ ϫⲓ ⲧⲩⲡⲟⲥ ⲛ̅ⲛⲟⲩⲉⲓⲛⲉ\nⲛ̅ϥⲣ̅ⲁⲣⲭⲉⲓ ⲉϫⲛ̅ ⲑⲩⲗⲏ’ ⲁⲩⲱ ⲉϫⲛ̅ ⲛⲉⲥ‐\nⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲛ̅‐\nϣⲟⲣⲡ’ ⲛ̅ϭⲓ ⲟⲩⲁⲣⲭⲱⲛ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲙⲟ‐\nⲟⲩ ⲉϥⲟ ⲛ̅ⲛⲓⲛⲉ ⲙ̅ⲙⲟⲩⲉⲓ ⲉⲩϩⲟⲩⲧⲥϩⲓⲙⲉ\nⲡⲉ ⲉⲩⲛ̅ⲧⲁϥ’ ⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ϩⲣⲁⲓ̈\nⲛ̅ϩⲏⲧϥ̅ ⲉϥⲥⲟⲟⲩⲛ ⲇⲉ ⲁⲛ ϫⲉ ⲛ̅ⲧⲁϥϣⲱ‐\nⲡⲉ ⲉⲃⲟⲗ ⲧⲱⲛ ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲧⲥⲟⲫⲓⲁ ⲛ̅‐\nⲧⲁⲣⲉⲥⲛⲁⲩ ⲉⲣⲟϥ’ ϩⲙ̅ ⲡϣⲓⲕ’ ⲛ̅ⲙ̅ⲙⲟⲟⲩ ⲉϥ‐\nⲕⲓⲙ’ ⲡⲉϫⲁⲥ ⲛⲁϥ’ ϫⲉ ⲡⲛⲉⲁⲛⲓⲥⲕⲟⲥ ⲉ‐\nⲣⲓⲇⲓⲁⲡⲉⲣⲁ ϣⲁ ⲛⲓⲙⲁ’ ⲉⲧⲉ ⲡⲉϥⲃⲱⲗ ⲡⲉ\nⲓ̅̈̅ⲁ̅ⲗ̅ⲇ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅ §ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲁⲣ‐\nⲭⲏ ⲙ̅ⲡϣⲁϫⲉ ⲟⲩⲱⲛϩ ⲡⲁⲉⲓ ⲛ̅ⲧⲁϩⲡⲱϩ\nϣⲁ ⲛ̅ⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲛ̅ⲁⲅ’ⲅⲉⲗⲟⲥ ⲙⲛ̅ ⲛ̅ⲣⲱⲙⲉ\nⲁⲩⲱ ⲡⲉⲛ’ⲧⲁϩϣⲱⲡⲉ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲁⲩ‐\nϫⲟⲕϥ’ ⲉⲃⲟⲗ’ ⲛ̅ϭⲓ ⲛ̅ⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲛ̅ⲁⲅⲅⲉ‐\nⲗⲟⲥ ⲙⲛ̅ ⲛ̅ⲣⲱⲙⲉ §ⲡⲁⲣⲭⲱⲛ ϭⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲧ̅ⲁ̅ⲃ̅ⲁ̅ⲱ̅ⲑ̅\nϥⲟ ⲛ̅ⲁⲧⲥⲟⲟⲩⲛ’ ⲁⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ\nⲙ̅ⲡⲉϥⲛⲁⲩ ⲁⲡⲉⲥϩⲟ ⲁⲗⲗⲁ ⲁϥⲛⲁⲩ ⲁⲡⲉⲓ‐\nⲛⲉ ⲛ̅ⲧⲁϩϣⲁϫⲉ ⲛⲙ̅ⲙⲁϥ’ ϩⲙ̅ ⲡⲙⲟⲟⲩ\nⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉⲥⲙⲏ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲓ̈ⲁⲗⲇⲁⲱⲑ ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲇⲉ\nⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲁⲣⲓⲁⲏⲗ ϫⲉ ⲛⲉⲩⲉⲓ‐\nⲛⲉ ⲙ̅ⲙⲟⲩⲉⲓ ⲡⲉ §ⲛ̅ⲧⲁⲣⲉ ⲡⲁⲉⲓ ⲇⲉ ϣⲱⲡⲉ\nⲉⲩⲛ̅ⲧⲁϥ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲉⲝⲟⲩⲥⲓⲁ’ ⲛ̅ⲑⲩⲗⲏ\nⲁⲧⲡⲓⲥⲧⲓⲥ ⲧⲥⲟⲫⲓⲁ ⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈\nⲉⲡⲉⲥⲟⲩⲟⲉⲓⲛ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲓⲁⲣⲭⲱⲛ ⲛⲁⲩ’"
+        },
+        {
+          "title": "100, 29-101, 23",
+          "subtitle": "100, 29-101, 23",
+          "heading": "(100, 29-101, 23)",
+          "rangeLabel": "100, 29-101, 23",
+          "range": {
+            "start": {
+              "page": 100,
+              "line": 29
+            },
+            "end": {
+              "page": 101,
+              "line": 23
+            }
+          },
+          "english": "When the ruler saw his greatness, he saw only himself and nothing else except\nwater and darkness. He thought that only he existed. His [thought] was\ncompleted by means of the word, and it appeared as a Spirit moving to and\nfro over the waters. When the Spirit appeared, the ruler separated the watery\nsubstance to one region and the dry substance to another region. From matter the\nruler created for himself a dwelling place and called it heaven, and from matter\nhe created a footstool and called it earth.\nAfter this the ruler had a thought in accordance with his nature, and he\ncreated an androgynous being by means of the word. He opened his mouth and\ncooed to him. The child opened his eyes and saw his father, and he said to him,\n“EE,” so his father called him Yao.\nThe ruler created a second son and cooed to him. The child opened his eyes\nand said to his father, “EH,” so his father called him Eloai.\nThe ruler created a third son and cooed to him. The child opened his eyes\nand said to his father, “AS,” so his father called him Astaphaios.\nThese are the three sons of their father.",
+          "coptic": "ⲉⲡⲉⲥⲟⲩⲟⲉⲓⲛ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲓⲁⲣⲭⲱⲛ ⲛⲁⲩ’\nⲉⲡⲉϥⲙⲉⲅⲉⲑⲟⲥ ⲁⲩⲱ ⲛ̅ⲧⲁϥ’ ⲟⲩⲁⲁⲧϥ’\nⲡⲉⲛⲧⲁϥⲛⲁⲩ ⲉⲣⲟϥ ⲙ̅ⲡⲉϥⲛⲁⲩ ⲉⲕⲉⲟⲩⲁ\nⲉⲓ ⲙⲏⲧⲓ ⲁⲙⲟⲟⲩ ϩⲓ ⲕⲁⲕⲉ ⲧⲟⲧⲉ ⲁϥⲙⲉⲉⲩⲉ\nϫⲉ ⲛ̅[ⲧⲟϥ ⲟ]ⲩⲁⲁⲧϥ’ ⲡⲉⲧϣⲟⲟⲡ’ ⲡⲉϥⲙⲉ‐\n[..... ⲁϥ]ϫⲱⲕ’ ⲉⲃⲟⲗ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲁϥ’\nⲟⲩⲱⲛϩ ⲉⲃ[ⲟⲗ] ⲛ̅ⲟⲩⲡⲛ̅ⲁ̅ ⲉϥⲛ̅ⲛⲁ ⲉϥⲛ̅ⲛⲏⲩ\nϩⲓϫⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲧⲁⲣⲉ ⲡⲡⲛ̅ⲁ̅ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲁⲡⲁⲣⲭⲱⲛ ⲡⲱⲣϫ’ ⲛ̅ⲧⲟⲩⲥⲓⲁ\nⲙ̅ⲙⲟⲟⲩ ⲁⲩⲙⲉⲣⲟⲥ ⲁⲩⲱ ⲡⲉⲧϣⲟⲩⲱⲟⲩ\nⲁⲩⲡⲟⲣϫϥ’ ⲁⲕⲉⲙⲉⲣⲟⲥ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩ‐\nⲗⲏ ⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ’ ⲛ̅ⲟⲩⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲁϥⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲧⲡⲉ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩⲗⲏ ⲁ’‐\nⲡⲁⲣⲭⲱⲛ ⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩϩⲩⲡⲟⲡⲟⲇⲓⲟⲛ\nⲁϥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲕⲁϩ §ⲙ̅⟦ⲛ⟧ⲙⲛ̅ⲛ̅ⲥⲱⲥ\nⲁⲡⲁⲣⲭⲱⲛ’ ⲙⲉⲉⲩⲉ ϩⲛ̅ ⲧⲉϥ’ⲫⲩⲥⲓⲥ ⲁϥⲧⲁ‐\nⲙⲓⲟ ⲉⲃⲟⲗ’ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲛ̅ⲛⲟⲩϩⲟⲩⲧⲥϩⲓ‐\nⲙⲉ ⲁϥⲟⲩⲱⲛ ⲛ̅ⲧⲉϥⲧⲁⲡⲣⲟ ⲁϥϫⲟⲩϫⲟⲩ ⲉ‐\nⲣⲟϥ’ ⲛ̅ⲧⲁⲣⲟⲩⲟⲩⲱⲛ ⲛ̅ⲛⲉϥⲃⲁⲗ ⲁϥⲛⲁⲩ\nⲁⲡⲉϥ’ⲉⲓⲱⲧ’ ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲓ̈ ⲁⲡⲉϥ’‐\nⲉⲓⲱⲧ ⲇⲉ ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲓ̅̈̅ⲁ̅̅ⲱ̅ ⲡⲁⲗⲓⲛ ⲁϥ’‐\nⲧⲁⲙⲓⲟ ⲡⲙⲁϩⲥⲛⲁⲩ ⲛ̅ϣⲏⲣⲉ ⲁϥϫⲟⲩϫⲟⲩ\nⲉⲣⲟϥ ⲁϥⲟⲩⲱⲛ ⲛ̅ⲛⲉϥⲃⲁⲗ ⲁϥϫⲟⲟⲥ ⲙ̅‐\nⲡⲉϥⲉⲓⲱⲧ ϫⲉ ⟦ⲁ⟧ ⲉ’ ⲁⲡⲉϥⲉⲓⲱⲧ ⲙⲟⲩⲧⲉ\nⲉⲣⲟϥ’ ϫⲉ ⲉⲗ̅ⲱ̅ⲁ̅ⲓ̅ ⲡⲁⲗⲓⲛ ⲁϥⲧⲁⲙⲓⲟ ⲙ̅‐\nⲡⲙⲁϩϣⲟⲙⲧ’ ⲛ̅ϣⲏⲣⲉ ⲁϥϫⲟⲩϫⲟⲩ ⲉⲣⲟϥ ⲁϥⲟⲩⲱⲛ ⲛ̅ⲛⲉϥ‐\nⲃⲁⲗ’ ⲁϥϫⲟⲟⲥ ⲙ̅ⲡⲉϥⲉⲓⲱⲧ ϫⲉ ⲁⲥ ⲁⲡⲉϥ‐\nⲉⲓⲱⲧ’ ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ⲁⲥⲧⲁⲫⲁⲓⲟⲥ ⲛⲁ‐\nⲉⲓ ⲛⲉ ⲡϣⲟⲙⲧ ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲟⲩⲉⲓⲱⲧ’ §ⲁ‐"
+        },
+        {
+          "title": "The Seven Heavens of Chaos",
+          "subtitle": "The Seven Heavens of Chaos",
+          "heading": "The Seven Heavens of Chaos (101, 24-103, 2)",
+          "rangeLabel": "101, 24-103, 2",
+          "range": {
+            "start": {
+              "page": 101,
+              "line": 24
+            },
+            "end": {
+              "page": 103,
+              "line": 2
+            }
+          },
+          "english": "Seven androgynous beings appeared in chaos, and they have masculine names\nand feminine names.\nYaldabaoth’s feminine name is forethought Sambathas, which\ndesignates the week.\nHis son is called Yao, and his feminine name is mastery.\nSabaoth’s feminine name is divinity.\nAdonaios’s feminine name is kingship.\nEloaios’s feminine name is envy.\nOraios’s feminine name is wealth.\nAstaphaios’s feminine name is Sophia.\nThese are the [seven] powers of the seven heavens of [chaos].\nThe powers were androgynous in accordance with the immortal pattern that\nexisted before them and the will of Pistis, so that the likeness of what was from\nthe beginning might have power to the end.\nYou will find the function of the masculine names and powers in the\nArchangelic Book of Moses the Prophet. The feminine names are in the First\nBook of Noraia.\nSince the chief creator Yaldabaoth had great authorities at his disposal, he\ncreated beautiful heavens, by means of the word, as dwelling places for each of\nhis sons, and in each heaven he created great glories, seven times glorious. Each\nson has within his heaven thrones, mansions, temples, chariots, virgin spirits,\nand their glories, extending up to an invisible realm, as well as armies of\ndivine, lordly, angelic, and archangelic powers, myriads without number, so they\nmight serve.\nYou will find a precise account of this in the First Discourse of Oraia.\nEverything was completed in this <way> up to the sixth heaven, the heaven\nof Sophia.\nThis heaven and earth were disrupted by the troublemaker who was beneath\nthem all. The six heavens shook, for the powers of chaos did not know who\nhad disturbed the heaven beneath them. When Pistis found out about the harm\ncaused by the troublemaker, she blew her breath, and she [bound him] and cast\nhim down to Tartaros.\n[Since then] heaven and earth have established themselves through\nSophia, who is the daughter of Yaldabaoth and is beneath them all.",
+          "coptic": "ⲥⲟϣϥ’ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲭⲁⲟⲥ ⲛ̅ϩⲟⲩⲧ’‐\nⲥϩⲓⲙⲉ ⲟⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲟⲩⲣⲁⲛ ⲛ̅ϩⲟ‐\nⲟⲩⲧ’ ⲙⲛ̅ ⲡⲟⲩⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ † ⲡⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ †\nⲡⲉ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲥⲁⲙⲃⲁⲑⲁⲥ ⲉⲧⲉ ⲑⲉⲃⲇⲟ‐\nⲙⲁⲥ ⲧⲉ ⲡⲉϥ’ϣⲏⲣⲉ ⲇⲉ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲓ̅̈̅ⲁ̅ⲱ̅ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧϫⲁⲉⲓⲥ\nⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ ⲧⲙⲛⲧⲛⲟⲩ‐\nⲧⲉ ⲁⲇⲱⲛⲁⲓⲟⲥ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ ⲧⲙ̅ⲛ̅ⲧ̅‐\nⲣ̅ⲣⲟ ⲉⲗⲱⲁⲓⲟⲥ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩ[ⲓ]ⲙⲉ ⲡⲉ ⲡⲕⲱϩ\nⲱⲣⲁⲓⲟⲥ ⲡⲉϥⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ ⲧⲉ [ⲧⲙⲛ̅ⲧ]ⲣⲙ̅‐\nⲙⲁⲟ ⲁⲥⲧⲁⲫⲁⲓⲟⲥ ⲇⲉ ⲡⲉϥⲣⲁ[ⲛ ⲛ̅ⲥϩⲓⲙⲉ]\nⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲛⲁⲉ[ⲓ ⲛⲉ ⲧ]ⲥⲟ[ϣϥⲉ] ⲛ̅ⲇⲩⲛⲁ‐\nⲙⲓⲥ ⲛ̅ⲧⲥⲟϣϥⲉ ⲙ̅ⲡⲉ ⲙ̅ⲡ[ⲭⲁ]ⲟⲥ §ⲁⲩϣⲱ‐\nⲡⲉ ⲇⲉ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ ⲁⲡⲧⲩⲡⲟⲥ ⲛ̅ⲁⲑⲁ‐\nⲛⲁⲧⲟⲥ ⲉⲧϣⲟⲟⲡ’ ϩⲓ ⲧⲟⲩⲉϩⲏ ⲕⲁⲧⲁ ⲡⲟⲩ‐\nⲱϣ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ϫⲉⲕⲁⲁⲥ ⲡⲉⲓⲛⲉ ⲙ̅ⲡⲉⲧ’‐\nϣⲟⲟⲡ ϫⲓⲛ’ ⲛ̅ϣⲟⲣⲡ’ ⲉϥⲛⲁⲁⲣⲭⲉⲓ ϣⲁ\nⲛⲁⲣⲏϫϥ̅’ §ⲕⲛⲁϩⲉ ⲁⲧⲉⲛⲉⲣⲅⲓⲁ ⲛ̅ⲛⲉⲉⲓⲣⲁⲛ\nⲙⲛ̅ ⲧⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲛ̅ϩⲟⲟⲩⲧ’ ϩⲛ̅ ⲧⲁⲣⲭⲁⲅ’‐\nⲅⲉⲗⲓⲕⲏ ⲙ̅ⲙⲱⲩ̈ⲥⲏⲥ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲛ̅‐\nⲣⲁⲛ ⲇⲉ ⲛ̅ⲛⲉϩⲓⲟⲙⲉ ϩⲛ̅ ⲧϣⲟⲣⲡ’ ⲛ̅ⲃⲓⲃⲗⲟⲥ\nⲛ̅ⲛⲱⲣⲁⲓⲁⲥ’ §ⲡⲁⲣⲭⲓⲅⲉⲛⲏⲧⲱⲣ’ ⲇⲉ ⲓ̅̈̅ⲁ̅ⲗ̅ⲇ̅ⲁ̅‐\nⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲉⲩⲛ̅ⲧⲁϥ ϩⲛ̅ⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁϥ’‐\nⲧⲁⲙⲓⲟ ⲛ̅ϩⲙ̅ⲡⲏⲩⲉ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ⲛⲉϥ’‐\nϣⲏⲣⲉ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲉⲛⲉⲥⲱⲟⲩ ⲙ̅ⲙⲁⲛ̅‐\nϣⲱⲡⲉ ⲁⲩⲱ ⲕⲁⲧⲁ ⲡⲉ ϩⲛ̅ⲛⲟϭ ⲛ̅ⲉⲟⲟⲩ ⲉⲩ‐\nⲥⲟⲧⲡ’ ⲛ̅ⲥⲟϣϥ’ ⲛ̅ⲕⲱⲃ ϩⲛ̅ⲑⲣⲟⲛⲟⲥ ⲙⲛ̅\nϩⲙ̅ⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲙⲛ̅ ϩⲛ̅ⲣ̅ⲡⲏⲩⲉ ⲁⲩⲱ ϩⲛ̅‐\nϩⲁⲣⲙⲁ ⲁⲩⲱ ϩⲙ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲙ̅ⲡⲛ̅ⲁ̅ † ⲉϩⲣⲁⲓ̈\nⲁⲩⲁϩⲟⲣⲁⲧⲟⲛ’ † ⲙⲛ̅ ⲛⲟⲩⲉⲟⲟⲩ ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nⲟⲩⲛ̅ⲧⲁϥⲥⲉ ϩⲛ̅ ⲧⲉϥⲡⲉ ϩⲛ̅ⲥⲧⲣⲁⲧⲉⲩⲙⲁ ⲛ̅‐\nⲇⲩⲛⲁⲙⲓⲥ ⲛ̅ⲛⲟⲩⲧⲉ ϩⲓ ϫⲟⲉⲓⲥ ϩⲓ ⲁⲅ’ⲅⲉⲗⲟⲥ\nϩⲓ ⲁⲣⲭⲁⲅ’ⲅⲉⲗⲟⲥ ϩⲛ̅ⲧⲃⲁ ⲉⲙⲛ̅ⲧⲁⲩ ⲏⲡⲉ ⲁ’‐\nⲧⲣⲟⲩⲣ̅ϩⲩⲡⲏⲣⲉⲧⲉⲓ §ϫⲓⲥⲧⲟⲣⲓⲁ ⲛ̅ⲛⲁⲉⲓ ⲕⲛⲁ‐\nϩⲉ ⲉⲣⲟⲥ ⲁⲕⲣⲓⲃⲱⲥ ϩⲙ̅ ⲡϣⲟⲣⲡ’ ⲛ̅ⲗⲟⲅⲟⲥ\nⲛ̅ⲱⲣⲁⲓⲁⲥ §ⲁⲩϫⲟⲕⲟⲩ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅ ϯⲡⲉ ϣⲁ‐\nϩⲣⲁⲓ̈ ⲉⲧⲙⲉϩⲥⲟⲉ ⲙ̅ⲡⲉ ⲧⲁ ⲧⲥⲟⲫⲓⲁ §ⲁⲩ‐\nϣⲟⲣϣⲣ̅ ⲛ̅ⲧⲡⲉ ⲙⲛ̅ ⲡⲉϥⲕⲁϩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅\nⲡⲉⲧϣⲧⲟⲣⲧⲣ̅ ⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲁⲩ ⲧⲏⲣⲟⲩ\nⲁⲩⲱ ⲁⲧⲥⲟⲉ ⲙ̅ⲡⲉ ⲛⲟⲉⲓⲛ ⲛⲉⲥⲉⲥⲟⲟⲩⲛ\nⲅⲁⲣ’ ⲛ̅ϭⲓ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲙ̅ⲡⲭⲁⲟⲥ ϫⲉ ⲛⲓⲙ ⲡⲉⲛ‐\nⲧⲁϩⲧⲁⲕⲟ ⲛ̅ⲧⲡⲉ ⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲛ̅‐\nⲧⲁⲣⲉⲥⲉⲓⲙⲉ ⲇⲉ ⲛ̅ϭⲓ ⲧⲡⲓⲥⲧⲓⲥ ⲁⲡϣⲱϣϥ\nⲙ̅ⲡⲉϣⲧⲟⲣⲧⲣ̅ ⲁⲥϫⲟⲟⲩ ⲙ̅ⲡⲉⲥⲛⲓϥⲉ ⲁⲥ‐\nⲙ[ⲟⲣϥ’ ⲁⲥ]ⲛⲟϫϥ’ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲧⲁⲣⲧⲁⲣⲟⲛ\n[ϫⲓⲙ’ ⲫⲟⲟ]ⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲡⲉ ⲥⲙⲛⲧⲥ̅ ⲙⲛ̅\nⲡⲉⲥⲕⲁϩ ⲉⲃ[ⲟⲗ] ϩⲓⲧⲛ̅ ⲧⲥⲟⲫⲓⲁ ⲛ̅ⲓⲁ̅ⲗ̅ⲇ̅ⲁ̅ⲃ̅ⲁ̅‐\nⲱ̅ⲑ̅’̅ ⲧⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲛ̅ⲧⲁ‐"
+        },
+        {
+          "title": "Yaldabaoth Boasts That He Is God",
+          "subtitle": "Yaldabaoth Boasts That He Is God",
+          "heading": "Yaldabaoth Boasts That He Is God (103, 2-32)",
+          "rangeLabel": "103, 2-32",
+          "range": {
+            "start": {
+              "page": 103,
+              "line": 2
+            },
+            "end": {
+              "page": 103,
+              "line": 32
+            }
+          },
+          "english": "After the heavens, their powers, and their entire government were established,\nthe chief creator exalted himself, and he was glorified by the whole army of\nangels. All the gods and their angels praised and glorified him.\nHe was delighted. He boasted over and over again and said to them, “I don’t\nneed anything.”\nHe said, “I am God, and there is no other but me.”\nWhen he said this, he sinned against all the immortals who speak forth, and\nthey watched him carefully.\nWhen Pistis saw the impiety of the supreme ruler, she became angry.\nWithout being seen, she said, “You are wrong, Samael”-which means “blind\ngod.” “An enlightened, immortal human exists before you and will appear within\nthe forms you have shaped. The human will trample upon you as potter’s clay is\ntrampled, and you will descend with those who are yours to your mother the\nabyss. And when your work comes to an end, all the deficiency that appeared\nfrom truth will be dissolved. It will cease to be, and it will be like what never\nwas.”\nAfter Pistis said this, she revealed the likeness of her greatness in the waters,\nand then she withdrew up to her light.",
+          "coptic": "ⲱ̅ⲑ̅’̅ ⲧⲉⲧⲙ̅ⲡⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲛ̅ⲧⲁ‐\nⲣⲉ ⲙ̅ⲡⲏⲩⲉ ⲇⲉ ⲥⲙⲛ̅ⲧⲟⲩ ⲙⲛ̅ ⲛⲟⲩϭⲟⲙ’\nⲙⲛ̅ ⲧⲟⲩⲇⲓⲟⲓⲕⲏⲥⲓⲥ ⲧⲏⲣⲥ̅ ⲁⲡⲁⲣⲭⲓⲅⲉⲛⲉ‐\nⲧⲱⲣ ϫⲓⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁⲩⲱ ⲁϥϫⲓ ⲉⲟⲟⲩ ϩⲓⲧⲛ̅\n〈ⲧ〉ⲥⲧⲣⲁⲧⲉⲓⲁ ⲧⲏⲣⲥ̅ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲁⲩⲱ † ⲛ̅ⲛⲟⲩ‐\nⲛⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲁⲅ’ⲅⲉⲗⲟⲥ ⲟⲩⲥⲙⲟⲩ\nⲙⲛ̅ⲛⲟⲩⲉⲟⲟⲩ ⲁⲩⲧⲁⲁϥ ⲛⲁϥ’ ⲛ̅ⲧⲟϥ ⲇⲉ ⲁϥ‐\nⲟⲩⲛⲟϥ’ ϩⲙ̅ ⲡⲉϥϩⲏⲧ’ ⲁⲩⲱ ⲁϥϣⲟⲩϣⲟⲩ\nⲙ̅ⲙⲟϥ ⲛ̅ⲛⲁⲩ ⲛⲓⲙ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲁⲩ’\nϫⲉ ϯⲣ̅ ⲭⲣⲉⲓⲁ ⲁⲛ ⲗ̅ⲗⲁⲁⲩ ⲡⲉϫⲁϥ ϫⲉ ⲁ‐\nⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲙⲛ̅ ⲕⲉⲟⲩⲁ ϣⲟⲟⲡ’\nⲁϫⲛⲧ’ §ⲛ̅ⲧⲁⲣⲉϥϫⲉ ⲛⲁⲉⲓ ⲇⲉ ⲁϥⲣ̅ ⲛⲟⲃⲉ ⲁ‐\nⲛⲁⲧⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲧϫⲉ ⲟⲩⲱ ⲁⲩⲱ ⲁⲩⲁ‐\nⲣⲏϩ ⲛⲁϥ’ ⲛ̅ⲧⲁⲣⲉ ⲧⲡⲓⲥⲧⲓⲥ ϭⲉ ⲛⲁⲩ ⲁⲧⲙⲛⲧ̅‐\nⲁⲥⲉⲃⲏⲥ ⲙ̅ⲡⲛⲟϭ ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲥⲃⲱⲗⲕ’\nⲛⲉⲩⲛⲁⲩ ⲁⲛ’ ⲉⲣⲟⲥ ⲡⲉϫⲁⲥ ϫⲉ ⲕⲣ̅ⲡⲗⲁⲛⲁ\nⲥⲁⲙⲁⲏⲗ’ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲃ̅ⲃ̅ⲗⲗⲉ\nⲟⲩⲛ̅ ⲟⲩⲣⲱⲙⲉ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ⲣ̅ⲣⲙ̅ⲟⲩⲟⲉⲓⲛ\nϣⲟⲟⲡ’ ϩⲓ ⲧⲉⲕϩⲏ ⲡⲁⲉⲓ ⲉⲧⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nϩⲛ̅ ⲛⲉⲧⲙ̅ⲡⲗⲁⲥⲙⲁ ϥⲛⲁⲣ̅ⲕⲁⲧⲁⲡⲁⲧⲉⲓ ⲙ̅‐\nⲙⲟⲕ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲟⲙⲉ ⲛ̅ⲕⲉⲣⲁⲙⲉⲩⲥ ϣⲁⲩ‐\nⲥⲟⲙⲟⲩ ⲁⲩⲱ ⲕⲛⲁⲃⲱⲕ’ ⲙⲛ̅ ⲛⲉⲧⲉ ⲛⲟⲩⲕ’\nⲛⲉ ⲁⲡⲓⲧⲛ̅ ϣⲁ ⲧⲉⲕ’ⲙⲁⲁⲩ ⲡⲛⲟⲩⲛ ϩⲛ̅\nⲧⲥⲩⲛ’ⲧⲉⲗⲉⲓⲁ ⲅⲁⲣ ⲛ̅ⲛⲉⲧⲛ̅ϩⲃⲏⲩⲉ ⲥⲉ‐\nⲛⲁⲣ̅ⲕⲁⲧⲁⲗⲩⲉ ⲙ̅ⲡϣⲧⲁ ⲧⲏⲣϥ’ ⲛ̅ⲧⲁϥ’ⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲉ ⲁⲩⲱ ϥⲛⲁⲱϫⲛ̅ ⲛ̅ϥⲣ̅\nⲑⲉ ⲙ̅ⲡⲉⲧⲉ ⲙ̅ⲡⲉϥ’ϣⲱⲡⲉ §ⲛ̅ⲧⲁⲣⲉ ⲧⲡⲓ‐\nⲥⲧⲓⲥ ϫⲉ ⲛⲁⲉⲓ ⲁⲥϭⲱⲗⲡ’ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅‐\nⲙⲟⲟⲩ ⲙ̅ⲡⲉⲥⲉⲓⲛⲉ ⲛ̅ⲧⲉⲥⲙⲛⲧⲛⲟϭ ⲁⲩ‐\nⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲥⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉ‐\nⲡⲉⲥⲟⲩⲟⲉⲓⲛ §ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲇⲉ ⲡϣⲏⲣⲉ"
+        },
+        {
+          "title": "Sabaoth Praises Pistis",
+          "subtitle": "Sabaoth Praises Pistis",
+          "heading": "Sabaoth Praises Pistis (103, 32-105, 20)",
+          "rangeLabel": "103, 32-105, 20",
+          "range": {
+            "start": {
+              "page": 103,
+              "line": 32
+            },
+            "end": {
+              "page": 105,
+              "line": 20
+            }
+          },
+          "english": "When Sabaoth son of Yaldabaoth heard the voice of Pistis, he sang songs of\npraise to her, but he condemned his father [and mother] on account of the\nword of Pistis. He glorified her because she told them about the immortal human\nand the light of the human. Pistis Sophia pointed her finger and poured over him\nlight from her light, as condemnation of his father. When Sabaoth was\nenlightened, he received great authority over all of the powers of chaos, and\nsince then he has been called “lord of the powers.”\nHe hated his father, who is darkness, and his mother, who is the abyss. He\nloathed his sister, who is the thought of the chief creator and who moves to and\nfro over the waters.\nAll of the authorities of chaos were jealous of Sabaoth because of his light.\nThey were upset, and they waged a great war in the seven heavens.\nWhen Pistis Sophia saw the war, she sent seven archangels to Sabaoth from\nher light. The archangels carried him up to the seventh heaven and stood in his\npresence as his attendants. Then she sent three more archangels to him and\nestablished his kingdom above everyone, so that he might dwell above the\ntwelve gods of chaos.\nWhen Sabaoth occupied the place of rest because of his repentance, Pistis\nalso gave him her daughter Zoe, with great authority, so that she might tell him\nabout everything in the eighth heaven. And since he had authority, he first made\nhimself a mansion. It is immense, magnificent, seven times as great as all the\nmansions in the seven heavens.\nIn front of his mansion he created a large throne on a chariot with four\nfaces, called cherubim. The cherubim throne has eight figures on each side of the\nfour corners, figures of lions, bulls, humans, and eagles, and there are a total of\nsixty-four figures. Seven archangels stand before the throne. Sabaoth is the\neighth, and he has authority, and so there are seventy-two figures in all. From\nthis chariot the seventy-two gods took shape, so that they might rule over the\nlanguages of the seventy-two nations. Beside that throne he created other,\nserpentlike angels called seraphim, who glorify him unceasingly.\nSabaoth Creates a Congregation of Angels, Israel, and Jesus",
+          "coptic": "ⲡⲉⲥⲟⲩⲟⲉⲓⲛ §ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲇⲉ ⲡϣⲏⲣⲉ\nⲛ̅ⲓⲁⲗⲇⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲛ̅ⲧⲁⲣⲉϥ’ⲥⲱⲧⲙ̅ ⲁⲧ’‐\nⲥⲙⲏ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲁϥϩⲩⲙⲛⲉⲓ ⲉⲣⲟ[ⲥ ⲁϥⲣ̅]‐\nⲕⲁⲧⲁⲅⲉⲓⲛⲱⲥⲕⲉ ⲙ̅ⲡⲉⲓⲱⲧ [......]\nⲉϫⲛ̅ ⲡϣⲁϫⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ [ⲁϥ]ϯ ⲉⲟⲟⲩ ⲛⲁⲥ\nϫⲉ ⲁⲥⲧⲁⲙⲟⲟⲩ ⲁⲡⲣⲱⲙⲉ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ’\nⲙⲛ̅ ⲡⲉϥⲟⲩⲟⲉⲓⲛ ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲧⲥⲟⲫⲓⲁ ⲁⲥ‐\nⲥⲱⲧ’ ⲙ̅ⲡⲉⲥⲧⲏⲏⲃⲉ † ⲉⲃⲟⲥ ⲁⲥⲡⲱϩⲧ ⲁϫⲱϥ’\nⲛ̅ⲟⲩⲟⲉⲓⲛ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥⲟⲩⲟⲉⲓⲛ ⲁⲩⲕⲁ‐\nⲧⲁⲕⲣⲓⲙⲁ ⲙ̅ⲡⲉϥ’ⲉⲓⲱⲧ’ ⲥⲁⲃⲁⲱⲑ’ ϭⲉ ⲛ̅ⲧⲁ’‐\nⲣⲉϥϫⲓ ⲟⲩⲟⲉⲓⲛ ⲁϥϫⲓ ⲟⲩⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ’\nⲉϩⲟⲩⲛ ⲉⲛⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ\nϫⲓⲙ ⲡϩⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ\nⲡϫⲟⲉⲓⲥ ⲛ̅ⲛ̅ϭⲟⲙ’ §ⲁϥⲙⲉⲥⲧⲉ ⲡⲉϥ’ⲉⲓⲱⲧ’ ⲡⲕⲁ‐\nⲕⲉ ⲁⲩⲱ ⲧⲉϥⲙⲁⲁⲩ ⲡⲛⲟⲩⲛ ⲁϥⲥⲓⲭⲁⲛⲉ ⲁ’‐\nⲧⲉϥ’ⲥⲱⲛⲉ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡⲁⲣⲭⲓⲅⲉⲛⲏⲧⲱⲣ’\nⲡⲉⲧⲛ̅ⲛⲁ ⲉⲧⲛ̅ⲛⲏⲩ ϩⲓϫⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲉⲧⲃⲉ\nⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲇⲉ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲕⲱϩ\nⲉⲣⲟϥ’ ⲛ̅ⲧⲉ ⲡⲭⲁⲟⲥ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲟⲩϣⲧⲟⲣⲧⲣ̅\nⲁⲩⲉⲓⲣⲉ ⲛ̅ⲟⲩⲛⲟϭ ⲙ̅ⲡⲟⲗⲉⲙⲟⲥ ϩⲛ̅ ⲧⲥⲁϣ‐\nϥⲉ ⲙ̅ⲡⲉ §ⲧⲟⲧⲉ ⲧⲡⲓⲥⲧⲓⲥ ⲧⲥⲟⲫⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥ‐\nⲛⲁⲩ ⲁⲡⲡⲟⲗⲉⲙⲟⲥ ⲁⲥϫⲟⲟⲩ ⲛ̅ⲥⲁⲃⲁⲱⲑ’\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥⲟⲩⲟⲉⲓⲛ ⲛ̅ⲥⲁϣϥ ⲛ̅ⲁⲣⲭⲁⲅ’‐\nⲅⲉⲗⲟⲥ ⲁⲩⲧⲟⲣⲡϥ’ ⲉϩⲣⲁⲓ̈ ⲉⲧⲙⲁϩⲥⲁϣϥⲉ ⲙ̅‐\nⲡⲉ ⲁⲩⲱⲉϩⲣⲁⲧⲟⲩ ϩⲓ ⲧⲉϥϩⲏ’ ϩⲱⲥ ⲇⲓⲁⲕⲟ‐\nⲛⲟⲥ ⲡⲁⲗⲓⲛ ⲁⲥϫⲟⲟⲩ ⲛⲁϥ’ ⲛ̅ⲕⲉϣⲟⲙⲧ’\nⲛ̅ⲁⲣⲭⲁⲅ’ⲅⲉⲗⲟⲥ ⲁⲥⲥⲙⲛ̅ ⲧⲙⲛ̅ⲧⲉⲣⲟ ⲛⲁϥ’\nⲛ̅ⲧⲡⲉ ⲟⲩⲟⲛ ⲛⲓⲙ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁϣⲱⲡⲉ\nⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ ⲙ̅ⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛ̅ⲛⲟⲩⲧⲉ\nⲙ̅ⲡⲭⲁⲟⲥ §ⲛ̅ⲧⲁⲣⲉ ⲥⲁⲃⲁⲱⲑ ⲇⲉ ϫⲓ ⲡⲧⲟⲡⲟⲥ\nⲛ̅ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉⲡⲙⲁ ⲛ̅ⲧⲉϥⲙⲉⲧⲁⲛⲟⲓⲁ\nⲉⲧⲓ ⲁⲧⲡⲓⲥⲧⲓⲥ ϯ ⲛⲁϥ’ ⲛ̅ⲧⲉⲥϣⲉⲉⲣⲉ ⲛ̅ⲍⲱⲏ\nⲙⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ϫⲉⲕⲁⲁⲥ ⲉⲥⲛⲁ‐\nⲧⲁⲙⲟϥ’ ⲁⲛⲉⲧϣⲟⲟⲡ’ ⲧⲏⲣⲟⲩ ϩⲛ̅ ⲧⲙⲁϩ\nϣⲙⲟⲩⲛⲉ §ϩⲱⲥ ⲉⲩⲛ̅ⲧⲁϥ ⲇⲉ ⲛ̅ⲟⲩⲉⲝⲟⲩⲥⲓⲁ\nⲁϥⲧⲁⲙⲓⲟ ⲛⲁϥ’ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ⲟⲩⲙⲁ ⲛ̅ϣⲱ‐\nⲡⲉ ⲟⲩⲛⲟϭ ⲡⲉ ⲉϥⲧⲁⲉⲓⲏⲩ ⲉⲙⲁⲧⲉ ⲉϥⲟ ⲛ̅\nⲥⲁ[ϣ]ϥ ⲛ̅ⲕⲱⲃ ⲡⲁⲣⲁ ⲛⲉⲧϣⲟⲟⲡ ⲧⲏⲣⲟⲩ\n[ϩⲛ̅ ⲧⲥ]ⲁϣϥⲉ ⲙ̅ⲡⲉ §ⲙ̅ⲡⲙ̅ⲧⲟ ⲇⲉ ⲉⲃⲟⲗ’\nⲙ̅ⲡⲉϥⲙⲁ ⲛ̅ϣⲱⲡⲉ ⲁϥⲧⲁⲙⲉⲓⲟ ⲛ̅ⲟⲩⲑⲣⲟ‐\nⲛⲟⲥ ⲉⲩⲛⲟϭ ⲡⲉ ⲉϥϩⲓϫⲛ̅ ⲟⲩϩⲁⲣⲙⲁ ⲉϥⲟ\nⲛ̅ϥⲧⲟⲟⲩ ⲙ̅ⲡⲣⲟⲥⲱⲡⲟⲛ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’\nϫⲉ ⲭⲉⲣⲟⲩⲃⲓⲛ ⲡⲭⲉⲣⲟⲩⲃⲓⲛ ⲇⲉ ⲟⲩⲛ̅ⲧⲁϥ’\nⲙ̅ⲙⲁⲩ ⲛ̅ϣⲙⲟⲩⲛⲉ ⲙ̅ⲙⲟⲣⲫⲏ ⲕⲁⲧⲁ ⲡϥ’‐\nⲧⲟⲩⲕⲟⲟϩ ϩⲙ̅ⲙⲟⲣⲫⲏ ⲙ̅ⲙⲟⲩⲉⲓ ⲁⲩⲱ ϩⲙ̅‐\nⲙⲟⲣⲫⲏ ⲙ̅ⲙⲁⲥⲉ ⲁⲩⲱ ϩⲙ̅ⲙⲟⲣⲫⲏ ⲣⲣⲱ‐\nⲙⲉ ⲙⲛ ϩⲙ̅ⲙⲟⲣⲫⲏ ⲛ̅ⲁⲉⲧⲟⲥ ϩⲱⲥⲧⲉ ⲙ̅ⲙⲟⲣ‐\nⲫⲏ ⲧⲏⲣⲟⲩ ⲥⲉⲉⲓⲣⲉ ⲛ̅ⲥⲉⲧⲁϥⲧⲉ ⲙ̅ⲙⲟⲣⲫⲏ\nⲁⲩⲱ ⲥⲁϣϥ̅ ⲛ̅ⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ ⲉⲩⲁϩⲉⲣⲁⲧⲟⲩ\nϩⲓ ⲧⲉϥϩⲏ ⲛ̅ⲧⲟϥ ⲡⲉ ⲡⲙⲁϩϣⲙⲟⲩⲛ ⲉⲩⲛ̅‐\nⲧⲁϥ’ ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲙⲟⲣⲫⲏ ⲧⲏⲣⲟⲩ ⲥⲉⲉⲓⲣⲉ\nⲛ̅ϣⲃⲉⲥⲛⲟⲟⲩⲥ ⲉⲃⲟⲗ ⲅⲁⲣ ϩⲙ̅ ⲡⲉⲉⲓϩⲁⲣⲙⲁ\nⲁⲩϫⲓ ⲧⲩⲡⲟⲥ ⲛ̅ϭⲓ ⲡϣⲃⲉⲥⲛⲟⲟⲩⲥ ⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲁⲩϫⲓ ⲧⲩⲡⲟⲥ ⲁⲧⲣⲟⲩⲣ̅ⲁⲣⲭⲉⲓ ⲉϫⲛ̅ ⲧϫⲃⲉ‐\nⲥⲛⲟⲟⲩⲥ ⲛ̅ⲁⲥⲡⲉ ⲛ̅ⲛ̅ϩⲉⲑⲛⲟⲥ ϩⲓϫⲛ̅ ⲡⲑⲣⲟ‐\nⲛⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲧⲁⲙⲓⲉ ϩⲛ̅ⲕⲉⲁⲅ’ⲅⲉ‐\nⲗⲟⲥ ⲙ̅ⲙⲟⲣⲫⲏ ⲛ̅ⲇⲣⲁⲕⲱⲛ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟ‐\nⲟⲩ ϫⲉ ⲥⲁⲣⲁⲫⲓⲛ ⲉⲩϯ ⲉⲟⲟⲩ ⲛⲁϥ’ ⲛ̅ⲛⲁⲩ\nⲛⲓⲙ’ §ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲉⲕⲕⲗⲏⲥⲓⲁ"
+        },
+        {
+          "title": "105, 20-106, 19",
+          "subtitle": "105, 20-106, 19",
+          "heading": "(105, 20-106, 19)",
+          "rangeLabel": "105, 20-106, 19",
+          "range": {
+            "start": {
+              "page": 105,
+              "line": 20
+            },
+            "end": {
+              "page": 106,
+              "line": 19
+            }
+          },
+          "english": "Then he created a congregation of angels, thousands, myriads without number,\nwhich was like the congregation in the eighth heaven. He also created a firstborn\ncalled Israel-that is, “the person who sees God”-and he created another being\ncalled Jesus Christ, who is like the Savior above in the eighth heaven and who\nsits at the right of Sabaoth on a remarkable throne. At his left the virgin of the\nholy Spirit sits upon a throne and glorifies him. Seven virgins stand before her,\nwith thirty harps and lyres and trumpets in their hands, and they glorify\nhim. All the armies of angels glorify and praise him.\nSabaoth sits on a throne covered by a great light cloud. No one was with\nhim in the cloud except Sophia daughter of Pistis, and she taught him about all\nthe things in the eighth heaven, so that what resembles these things might be\ncreated and his reign might last until the end of the heavens of chaos and their\npowers.\nPistis Sophia moved him away from the darkness and summoned him to her\nright, and she put the chief creator at her left. Since then right has been called\njustice and left has been called injustice. They all received a realm in the\ncongregation of justice, and injustice is set over all their creations.",
+          "coptic": "ⲛⲓⲙ’ §ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟⲩⲉⲕⲕⲗⲏⲥⲓⲁ\nⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ϩⲛ̅ϣⲟ ⲙⲛ̅ ϩⲛ̅ⲧⲃⲁ ⲉⲙⲛ̅ⲧⲟⲩ\nⲏⲡⲉ ⲉⲥⲧⲛ̅ⲧⲟⲛⲧ’ ⲉⲧⲉⲕ’ⲕⲗⲏⲥⲓⲁ ⲉⲧϩⲛ̅\nⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲁⲩⲱ ⲟⲩϣⲣⲡ’ⲙ̅ⲙⲓⲥⲉ\nⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲓⲥⲣⲁⲏⲗ ⲉⲧⲉ ⲡⲁⲉⲓ\nⲡⲉ ⲡⲣⲱⲙⲉ ⲉⲧⲛⲁⲩ ⲉⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲕⲉ‐\nⲟⲩⲁ ϫⲉ ⲓⲏ̅ⲥ̅ ⲡⲉⲭⲥ̅ ⲉϥⲧⲛ̅ⲧⲱⲛ ⲉⲡⲥⲱⲧⲏⲣ’\nⲉⲧϩⲓ ⲡⲥⲁ ⲛⲧⲡⲉ ⲛ̅ⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲉϥ‐\nϩⲙⲟⲟⲥ ϩⲓ ⲟⲩⲛⲁⲙ’ ⲙ̅ⲙⲟϥ ϩⲓϫⲛ̅ ⲟⲩⲑⲣⲟ‐\nⲛⲟⲥ ⲉϥⲧⲁⲉⲓⲏⲩ ϩⲓ ϭⲃⲟⲩⲣ ⲇⲉ ⲙ̅ⲙⲟϥ ⲉⲥ‐\nϩⲙⲟⲟⲥ ⲛ̅ϭⲓ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙ̅ⲡⲡ̅ⲛ̅ⲁ̅ ⲉⲧⲟⲩ‐\nⲁⲁⲃ ϩⲓϫⲛ̅ ⲟⲩⲑⲣⲟⲛⲟⲥ ⲉⲥϯ ⲉⲟⲟⲩ ⲛⲁϥ\nⲁⲩⲱ ⲥⲉⲁϩⲉⲣⲁⲧⲟⲩ ϩⲓ ⲧⲉⲥⲉϩⲏ ⲛ̅ϭⲓ ⲧⲥⲁ‐\nϣ〈ϥ〉ⲉ ⲙ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲩⲙ̅ ⲙⲁⲁⲃⲉ ⲛ̅ϭⲓⲑⲁ‐\nⲣⲁ ⲛ̅ⲧⲟⲟⲧⲟⲩ ⲙⲛ̅ ϩⲙⲯⲁⲗⲧⲏⲣⲓⲟⲛ [ⲙ]ⲛ̅\nϩⲛⲥⲁⲗⲡⲓⲅⲝ’ ⲉⲩϯ ⲉⲟⲟⲩ ⲛⲁϥ’ ⲁⲩⲱ ⲛ̅ⲥⲧⲣⲁ‐\nⲧⲉⲩⲙⲁ ⲧⲏⲣⲟⲩ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲥⲉϯ ⲉⲟⲟⲩ ⲛⲁϥ’\nⲁⲩⲱ ⲥⲉⲥⲙⲟⲩ ⲉⲣⲟϥ’ §ⲉϥϩⲙⲟⲟⲥ ⲇⲉ ϩⲓϫⲛ̅ ⲟⲩ‐\nⲑⲣⲟⲛⲟⲥ ⲟⲩⲟⲉⲓⲛ ⲛ̅〈ⲟⲩ〉ⲛⲟϭ ⲛ̅ⲕⲗⲟⲟⲗⲉ ⲉⲥⲥⲕⲉ‐\nⲡⲁⲥⲉ ⲙ̅ⲙⲟϥ’ ⲁⲩⲱ ⲛⲉ ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲙ̅ⲙⲁϥ’\nϩⲛ̅ ⲧⲉⲕⲗⲟⲟⲗⲉ ⲉⲓ ⲙⲏⲧⲓ ⲁⲧⲥⲟⲫⲓⲁ 〈ⲛ̅〉ⲧⲡⲓⲥⲡⲥ\nⲉⲥⲧⲥⲉⲃⲟ ⲙ̅ⲙⲟϥ’ ⲁⲛⲉⲧϣⲟⲟⲡ’ ⲧⲏⲣⲟⲩ ϩⲛ̅ ⲧⲙⲁϩ‐\nϣⲙⲟⲩⲛⲉ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲁⲙⲉⲓⲟ ⲛ̅ⲛ̅ⲧⲟⲛ‐\nⲧⲛ̅ ⲛ̅ⲛⲏ ϣⲓⲛⲁ ⲧⲙⲛ̅ⲧⲉⲣⲟ ⲉⲥⲛⲁⲙⲟⲩⲛ’ ⲉⲃⲟⲗ’\nⲛⲁϥ ϣⲁ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲛⲙ̅ⲡⲏⲩⲉ ⲙ̅ⲡⲭⲁⲟⲥ\nⲙⲛ̅ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲧⲡⲓⲥⲧⲓⲥ ⲇⲉ ⲧⲥⲟⲫⲓⲁⲥ‐\nⲡⲟⲣϫϥ̅ ⲉⲡⲕⲁⲕⲉ ⟦ⲥ⟧ ⲁⲥⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲉⲟⲩⲛⲁⲙ\nⲙ̅ⲙⲟⲥ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ ⲇⲉ ⲁⲥⲕⲁⲁϥ ϩⲓ ϭⲃⲟⲩⲣ’\nⲙ̅ⲙⲟⲥ ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲟⲩ‐\nⲛⲁⲙ ϫⲉ ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ϭⲃⲟⲩⲣ ⲇⲉ ⲁⲩⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲧⲁⲇⲓⲕⲓⲁ ⲉⲧⲃⲉ ⲡⲁⲉⲓ ϭⲉ ⲁⲩϫⲓ\nⲧⲏⲣⲟⲩ † ⲛ̅ⲟⲩⲕⲟⲥⲙⲟⲥ ⲛ̅ⲧⲉⲕ’ⲕⲗⲏⲥⲓⲁ ⲛ̅ⲧⲇⲓⲕⲁⲓ‐\nⲟⲥⲩⲛⲏ ⲙⲛ̅ ⲧⲁⲇⲓⲕⲓⲁ ⲁϩⲉ ⲉⲣⲁⲓ̈ ⲉϫⲛ̅ ⲟⲩⲥⲱⲛⲧ’\nⲧⲏⲣⲟⲩ † §ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ ϭⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲛ̅ⲧⲁ‐"
+        },
+        {
+          "title": "Yaldabaoth Produces Death",
+          "subtitle": "Yaldabaoth Produces Death",
+          "heading": "Yaldabaoth Produces Death (106, 19-107, 17)",
+          "rangeLabel": "106, 19-107, 17",
+          "range": {
+            "start": {
+              "page": 106,
+              "line": 19
+            },
+            "end": {
+              "page": 107,
+              "line": 17
+            }
+          },
+          "english": "When the chief creator of chaos saw his son Sabaoth and the glory in which he\ndwells, and recognized that he was the greatest of all the authorities of chaos, he\nwas jealous of him. He was angry, and he engendered death from his own death.\nDeath was established over the sixth heaven, for Sabaoth had been carried away\nfrom there. So the complete number of the six authorities of chaos was realized.\nSince death was androgynous, he had sex with himself and produced seven\nandrogynous children. These are the names of the males: envy, wrath, tears,\nsighs, grief, lament, tearful groans. These are the names of the females: anger,\npain, lust, sighs, curses, bitterness, strife. They had sex with each other, and each\none conceived seven children, so that the children total forty-nine\nandrogynous demons.\nYou will find their names and functions in the Book of Solomon.\nIn the presence of these, Zoe, who dwells with Sabaoth, created seven good\nandrogynous powers. These are the names of the males: the one not jealous, the\nblessed, the joyful, the true, the one not envious, the beloved, the faithful. These\nare the names of the females: peace, gladness, joyfulness, blessedness, truth,\nlove, faith. Many good and pure spirits come from these powers.\nYou will find their accomplishments and functions in the Configurations of\nthe Fate of Heaven Beneath the Twelve.\nYaldabaoth Is Distressed About His Mistake",
+          "coptic": "ⲧⲏⲣⲟⲩ † §ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ ϭⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲛ̅ⲧⲁ‐\nⲣⲉϥⲛⲁⲩ ⲉⲡⲉϥ’ϣⲏⲣⲉ ⲥⲁⲃⲁⲱⲑ ⲁⲩⲱ ⲡⲉ‐\nⲟⲟⲩ ⲉⲧϥⲛ̅ϩⲏⲧϥ’ ϫⲉ ϥ’ⲥⲟⲧⲡ’ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ\nⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ ⲁϥⲕⲱϩ ⲉⲣⲟϥ’ ⲁⲩⲱ ⲛ̅ⲧⲁ‐\nⲣⲉϥϭⲱⲛⲧ’ ⲁϥϫⲡⲟ ⲙ̅ⲡⲙⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉϥ’‐\nⲙⲟⲩ ⲁⲩⲕⲁⲑⲓⲥⲧⲁ ⲙ̅ⲙⲟϥ’ ⲉϫⲛ̅ ⲧⲙⲁϩⲥⲟⲉ\nⲙ̅ⲡⲉⲁⲩⲧⲁⲣⲡ’ ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ⲙ̅ⲡⲙⲁ ⲉⲧⲙ̅ⲙⲁⲩ’\nⲁⲩⲱ ⲧⲉⲉⲓϩⲉ ⲁϥϫⲱⲕ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲁⲣⲓⲑⲙⲟⲥ\nⲛ̅ⲧⲥⲟⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲭⲁⲟⲥ ⲧⲟⲧⲉ ⲡⲙⲟⲩ\nⲉϥⲟ ⲛ̅ϩⲟⲩⲧ’ⲥϩⲓⲙⲉ ⲁϥⲧⲱϩ ⲙⲛ̅ ⲧⲉϥⲫⲩⲥⲓⲥ\nⲁϥϫⲡⲟ ⲛ̅ⲥⲁϣϥ ⲛ̅ϣⲏⲣⲉ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\n§ⲛⲁⲉⲓ ⲛⲉ ⲣ̅ⲣⲁⲛ ⲛ̅ⲛ̅ϩⲟⲟⲩⲧ’ ⲡⲕⲱϩ ⲡϭⲱⲛⲧ’\nⲡⲣⲓⲙⲉ ⲡⲁϣ ⲉϩⲟⲙ ⲡⲡⲉⲛⲑⲟⲥ ⲡⲱϣ ⲗⲟⲩ‐\nⲗⲁⲉⲓ ⲡⲣⲓⲙⲉ ⲛ̅ϣⲧⲃⲟ ⲛⲁⲉⲓ ⲇⲉ ⲛⲉ ⲛ̅ⲣⲁⲛ\nⲛ̅ⲛⲥϩⲓⲟⲙⲉ ⲧⲟⲣⲅⲏ’ ⲧⲗⲩⲡⲏ ⲑⲏⲇⲟⲛⲏ\nⲡⲁϣ ⲉϩⲟⲙ’ ⲡⲥⲁϩⲟⲩⲉ ⲧⲡⲓⲕⲣⲓⲁ ⲧⲙ̅ⲛ̅〈ⲧ〉ϯ ⲧⲱⲛ\nⲁⲩⲣ̅ⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ ⲁⲡⲟⲩⲁ\nⲇ[ⲉ ⲡⲟ]ⲩⲁ ϫⲡⲉ ⲥⲁϣϥ̅ ϩⲱⲥⲧⲉ ⲥⲉⲉⲓⲣⲉ ⲛ̅\nϩⲙⲉⲯⲓ⟦ⲧ⟧’ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\n§ⲛⲟⲩⲣⲁⲛ ⲙⲛ̅ ⲛⲟⲩⲉⲛⲉⲣⲅⲉⲓⲁ ⲕⲛⲁϩⲉ\nⲉⲣⲟⲟⲩ ϩⲙ̅ ⲡϫⲱⲱⲙⲉ ⲛ̅ⲥⲟⲗⲟⲙⲱⲛ’\n§ⲁⲩⲱ ⲙ̅ⲡⲙ̅ⲧⲟ ⲉⲃⲟⲗ’ ⲛ̅ⲛⲁⲉⲓ ⲍⲱⲏ’ ⲉⲧ’‐\nϣⲟⲟⲡ’ ⲙⲛ̅ ⲥⲁⲃⲁⲱⲑ ⲁⲥⲧⲁⲙⲓⲟ ⲥⲁϣϥ̅\nⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲉⲛⲁⲛⲟⲩⲟⲩ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\nⲛ̅ⲣⲁⲛ ⲛ̅ⲛ̅ϩⲟⲟⲩⲧ ⲛⲉ ⲛⲁⲉⲓ’ ⲡⲉⲧⲉ ⲙⲁϥ‐\nⲕⲱϩ’ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲡ〈ⲉⲧ〉ⲟⲩⲛⲟϥ’ ⲡⲁⲗⲏⲑⲓ‐\nⲛⲟⲥ ⲡⲉⲧⲉ ⲙⲁϥⲫⲑⲟⲛⲉⲓ’ ⲡⲁⲅⲁⲡⲏⲧⲟⲥ\nⲡⲉⲧⲛ̅ϩⲟⲧ’ ⲛ̅ϩⲓⲟⲙⲉ ϩⲱⲟⲩ † ⲛⲉ ⲛⲁⲉⲓ ⲛⲟⲩ‐\nⲣⲁⲛ † ϯⲣⲏⲛⲏ’ ⲡⲟⲩⲣⲁⲧ’ ⲡⲧⲉⲗⲏⲗ ⲧ〈ⲙⲛ̅ⲧ〉ⲙⲁⲕⲁ‐\nⲣⲓⲟⲥ ⲧⲁⲗⲏⲑⲉⲓⲁ ⲧⲁⲅⲁⲡⲏ ⲧⲡⲓⲥⲧⲓⲥ ⲁⲩ‐\nⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁⲉⲓ ⲟⲩⲛ̅ ϩⲁϩ ⲙ̅ⲡⲛ̅ⲁ̅ ⲛ̅ⲁⲅⲁ‐\nⲑⲟⲛ ⲁⲩⲱ ⲃ̅ⲃⲁⲗϩⲏⲧ’ §ⲛⲟⲩⲁⲡⲟⲧⲉⲗⲉⲥ‐\nⲙⲁ ⲙⲛ̅ ⲛⲟⲩⲉⲛⲉⲣⲅⲉⲓⲁ ⲕⲛⲁϩⲉ ⲉⲣⲟⲟⲩ ϩⲛ̅\nⲛ̅ⲥⲭⲏⲙⲁ ⲛ̅ϫⲓⲙⲁⲣⲙⲉⲛⲏ’ ⲛ̅ⲧⲡⲉ ⲉⲧⲙ̅‐\nⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲙ̅ⲡⲓⲙ̅ⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ §ⲡⲁⲣⲭⲓ‐"
+        },
+        {
+          "title": "107, 17-108, 5",
+          "subtitle": "107, 17-108, 5",
+          "heading": "(107, 17-108, 5)",
+          "rangeLabel": "107, 17-108, 5",
+          "range": {
+            "start": {
+              "page": 107,
+              "line": 17
+            },
+            "end": {
+              "page": 108,
+              "line": 5
+            }
+          },
+          "english": "When the chief creator saw the reflection of Pistis in the waters, he was deeply\ndistressed, especially when he heard her voice, which was like the first voice that\ncalled to him out of the waters. When he knew that she was the one who gave\nhim his name, he groaned. He was ashamed because of his transgression. And\nwhen he knew for certain that an enlightened, immortal human existed before\nhim, he was greatly disturbed, because earlier he had said to all the gods and\ntheir angels, “I am God; there is no other but me.” For he feared that they\nmight know another existed before him and condemn him.\nBut the chief creator was a fool. He had contempt for condemnation and\nacted rashly, and he said, “If anything existed before me, let it appear so\nthat we may see its light.”\nAnd at once, look, light shone out of the eighth heaven above and passed\nthrough all the heavens of the earth.",
+          "coptic": "ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ⲙ̅ⲡⲓⲙ̅ⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ §ⲡⲁⲣⲭⲓ‐\nⲅⲉⲛⲉⲧⲱⲣ ⲇⲉ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲁⲡⲓⲛⲉ ⲛ̅‐\nⲧⲡⲓⲥⲧⲓⲥ ϩⲛ̅ ⲛ̅ⲙ̅ⲙⲟⲟⲩ ⲁϥⲗⲩⲡⲉⲓ ⲉⲙⲁ‐\nⲧⲉ ⲙⲁⲗⲓⲥⲧⲁ ⲛ̅ⲧⲁⲣⲉϥ’ⲥⲱⲧⲙ̅ ⲁⲧⲉⲥⲥⲙⲏ\nⲉⲥⲉⲓⲛⲉ ⲛ̅ⲧϣⲟⲣⲡ’ ⲛ̅ⲥⲙⲏ ⲧⲁⲉⲓ ⲉⲛⲧⲁϩ‐\nⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ\nⲛ̅ⲧⲁⲣⲉϥⲉⲓⲙⲉ ϫⲉ ⲧⲁⲉⲓ ⲧⲉ ⲛ̅ⲧⲁϩϯ ⲣⲁⲛ\nⲉⲣⲟϥ’ ⲁϥⲉϣ ⲉϩⲟⲙ ⲁϥϣⲓⲡⲉ ⲉϫⲛ̅ ⲧⲉϥ’‐\nⲡⲁⲣⲁⲃⲁⲥⲓⲥ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥ’ⲉⲓⲙⲉ ⲛⲁ‐\nⲙⲉ ϫⲉ ⲟⲩⲛ̅ ⲟⲩⲣⲱⲙⲉ ⲛ̅ⲁⲧⲙⲟⲩ ⲣ̅ⲣⲙ̅‐\nⲟⲩⲟⲉⲓⲛ ϣⲟⲟⲡ’ ϩⲓ ⲧⲉϥⲉϩⲏ ⲁϥϣⲧⲟⲣ’‐\nⲧⲣ ⲉⲙⲁⲧⲉ ϫⲉ ⲛⲉ ⲁϥϣⲣ̅ⲡⲛ̅ϫⲟⲟⲥ’\nⲛ̅ⲛ̅ⲛⲟⲩⲧⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ\nϫⲉ ⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲙⲛ̅ ⲕⲉⲟⲩⲁ\nϣⲟⲟⲡ’ ⲁϫⲛ̅ⲧ ⲛⲉ ⲁϥⲣ̅ ϩⲟⲧⲉ ⲅⲁⲣ ⲙⲏ‐\nⲡⲱⲥ ⲛ̅ⲥⲉⲉⲓⲙⲉ ϫⲉ ⲟⲩⲛ̅ ⲕⲉⲟⲩⲁ\nϣⲟⲟⲡ’ ϩⲓ ⲧⲉϥⲉϩⲏ ⲛ̅ⲥⲉⲣ̅ⲕⲁⲧⲁⲅⲓ‐\nⲛⲱⲥⲕⲉ ⲙ̅ⲙⲟϥ’ §ⲛ̅ⲧⲟϥ ⲇⲉ ϩⲱⲥ ⲁⲛⲟ‐\nⲏⲧⲟⲥ ⲁϥⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲛ̅ⲧⲕⲁⲧⲁⲅⲛⲱ‐\nⲥⲓⲥ ⲁⲩⲱ ⲁϥⲧⲟⲗⲙⲁ ⲡⲉϫⲁϥ ϫⲉ ⲉϣ’\nϫⲉ ⲟⲩⲁ ϣⲟⲟⲡ’ ϩⲓ ⲧⲁⲉϩⲏ ⲙⲁⲣⲉϥⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲕⲁⲥ’ ⲉⲛⲁⲛⲁⲩ ⲉⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ §ⲁⲩⲱ\nⲛ̅ⲧⲉⲩⲛⲟⲩ ⲉⲓⲥ ⲟⲩⲟⲉⲓⲛ ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲁϩ‐\nϣⲙⲟⲩⲛⲉ ⲉⲧⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ ⲁϥϫⲱⲃⲉ ⲛⲙ̅ⲡⲏⲩ‐\nⲉ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲕⲁϩ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’"
+        },
+        {
+          "title": "Adam of Light Shines Forth",
+          "subtitle": "Adam of Light Shines Forth",
+          "heading": "Adam of Light Shines Forth (108, 5-109, 1)",
+          "rangeLabel": "108, 5-109, 1",
+          "range": {
+            "start": {
+              "page": 108,
+              "line": 5
+            },
+            "end": {
+              "page": 109,
+              "line": 1
+            }
+          },
+          "english": "When the chief creator saw that the light was beautiful as it shone forth, he was\namazed and very much ashamed. The light appeared and a human likeness was\nvisible within it, and it was marvelous. No one saw it except the chief creator\nand Forethought, who was with him. But its light was visible to all the powers\nof the heavens, and so they all were disturbed by it.\nWhen Forethought saw this messenger of light, she fell in love with him,\nbut he hated her because she was in darkness. She desired to mate with him, but\nshe was not able. When she was unable to satisfy her desire, she poured out her\nlight upon the earth.\nSince then this messenger has been called Adam of light, which means “the\nenlightened person of blood.” The earth upon <which the light of\nForethought> spread was called holy Adamas, which means “the holy\nadamantine earth.”\nFrom that time on all the authorities have honored the blood of the virgin,\nand the earth was purified because of the blood of the virgin.\nFurther, the water was purified by the reflection of Pistis Sophia, who had\nappeared to the chief creator in the waters. Rightly has it been said, “through the\nwaters.” Since the holy water gives life to all, it purifies all.",
+          "coptic": "ⲉ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲕⲁϩ’ §ⲛ̅ⲧⲁⲣⲉ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’\nⲛⲁⲩ ⲉⲡⲟⲩⲟⲉⲓⲛ ϫⲉ ⲛⲉⲥⲱϥ’ ⲉϥⲡⲣ̅ⲣⲓⲱⲟⲩ’\nⲁϥⲣ̅ ϣⲡⲏⲣⲉ ⲁⲩⲱ ⲁϥϣⲓⲡⲉ ⲉⲙⲁⲧⲉ ⲛⲧⲁⲣⲉ\nⲡⲓⲟⲩⲟⲉⲓⲛ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲉⲓⲛⲉ ⲣ̅ⲣⲱⲙⲉ\nϭⲱⲗⲡ’ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ⲉϥⲟ ⲛ̅ϣⲡⲏⲣⲉ ⲉⲙⲁ‐\nⲧⲉ ⲁⲩⲱ ⲙ̅ⲡⲉ ⲗⲁⲁⲩ ⲛⲁⲩ ⲉⲣⲟϥ’ ⲉⲓ ⲙⲏⲧⲓ’ ⲁ‐\nⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’ ⲟⲩⲁⲁϥ’ ⲙⲛ̅ ⲧⲉⲡⲣⲟⲛⲟⲓⲁ\nⲉⲧⲛ̅ⲙ̅ⲙⲁϥ’ ⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲇⲉ ⲁϥ’ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’\nⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲛⲙ̅ⲡⲏⲩⲉ ⲉⲧⲃⲉ ⲡⲁⲉⲓ\nⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲧⲏⲣⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ̅’ §ⲧⲟⲧⲉ ⲧⲡⲣⲟ‐\nⲛⲟⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥⲛⲁⲩ ⲁⲡⲓⲁⲅⲅⲉⲗⲟⲥ ⲁⲥⲙⲉⲣⲓⲧϥ’\nⲛ̅ⲧⲟϥ’ ⲇⲉ ⲛⲉϥ’ⲙⲟⲥⲧⲉ ⲙ̅ⲙⲟⲥ’ ϫⲉ ⲛⲉⲥϩⲓ ⲡⲕⲁ‐\nⲕⲉ ⲛⲉⲥⲟⲩⲱϣ ⲇⲉ ⲁϭⲟⲗϫⲥ̅ ⲙ̅ⲙⲟϥ’ ⲙ̅ⲡⲉⲥ‐\nϭⲙ̅ϭⲟⲙ ⲛ̅ⲧⲁⲣⲉⲥⲧⲙ̅ϣⲧⲗ̅ϭⲟ ⲙ̅ⲡⲉⲥⲙⲉⲉⲓⲉ\nⲁⲥⲡⲱϩⲧ’ ⲙ̅ⲡⲉⲥⲟⲩⲟⲉⲓⲛ’ ⲉϫⲙ̅ ⲡⲕⲁϩ §ϫⲓⲙ’\nⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲁⲡⲁⲅⲅⲉⲗⲟⲥ ⲉ‐\nⲧⲙ̅ⲙⲁⲩ ϫⲉ ⲁⲇⲁⲙ’ ⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲡⲉϥⲟⲩⲱϩⲙ̅\nⲡⲉ ⲡⲣⲙ̅ⲛ̅ⲥⲛⲟϥ’ ⲛ̅ⲟⲩⲟⲉⲓⲛ † ⲁⲩⲱ ⲁⲡⲕⲁϩ\nⲡⲱⲣϣ’ ⲉⲃⲟⲗ’ ⲉϫⲱϥ’ ⲁⲇⲁⲙⲁⲛ ⲉⲧ’ⲟⲩⲁⲁⲃ’ †\nⲉⲧⲉ ⲡⲉϥ’ⲟⲩⲱϩⲙ’ ⲡⲉ ⲡⲕⲁϩ ⲛ̅ⲁⲇⲁⲙⲁⲛⲧⲓ‐\nⲛⲏ ⲉⲧⲟⲩⲁⲁⲃ §ϫⲓⲙ ⲫⲟⲟⲩ’ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲣ̅‐\nⲧⲓⲙⲁ ⲙ̅ⲡⲥⲛⲟϥ’ ⲛ̅ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̅ϭⲓ ⲛⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲡⲕⲁϩ ⲇⲉ ⲁϥⲧⲟⲩⲃⲟ ⲉⲧⲃⲉ\n† ⲡⲥⲛⲟϭ ⲛ̅ⲧⲡⲁⲣⲑⲉⲛⲟⲥ §ⲛ̅ϩⲟⲩⲟ ⲇⲉ ⲛ̅ϩⲟⲩⲟ\nⲁⲡⲙⲟⲟⲩ ⲧⲟⲩⲃⲟ ϩⲓⲧⲙ̅ ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ\nⲧⲥⲟⲫⲓⲁ ⲧⲁⲉⲓ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲙ̅‐\nⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’ ϩⲛⲛ̅ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ⲛⲟⲩ‐\nⲉⲩⲗⲟⲅⲟⲛ ϭⲉ ⲁⲩϫⲟⲟⲥ ϫⲉ ϩⲓⲧⲛ̅ ⲙ̅ⲙⲟⲟⲩ\nⲡⲙⲟⲟⲩ ⲉⲧⲟⲩⲁⲁⲃ ⲉⲡⲉⲓ ϥⲧⲛ̅ϩⲟ ⲙ̅ⲡⲧⲏⲣϥ’\nϥⲧⲟⲩⲃⲟ ⲙ̅ⲙⲟϥ §ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲥⲛⲟϥ’ ⲛ̅ϣⲟⲣⲡ’"
+        },
+        {
+          "title": "Eros",
+          "subtitle": "Eros",
+          "heading": "Eros (109, 1-110, 1)",
+          "rangeLabel": "109, 1-110, 1",
+          "range": {
+            "start": {
+              "page": 109,
+              "line": 1
+            },
+            "end": {
+              "page": 110,
+              "line": 1
+            }
+          },
+          "english": "Out of this first blood Eros appeared. Eros is androgynous. His masculine side\nis Himeros, because he is fire from the light, and his feminine side is a soul of\nblood from the substance of Forethought. He is extremely handsome in\nappearance, and more attractive than all the creatures of chaos.\nWhen all the gods and their angels saw Eros, they fell in love with him. He\nappeared within them all and made them burn with desire. Just as many lamps\nare lit from a single lamp and all the light is the same but the light of the single\nlamp is not diminished, so also Eros was dispersed in all the creatures of chaos\nbut was not diminished. Just as Eros appeared in the middle of light and\ndarkness, and the sexual intercourse of Eros was accomplished in the middle of\nangels and people, so too the first sexual desire sprouted on the earth.\nWoman followed the earth,\nmarriage followed woman,\nbirth followed marriage,\ndecay followed birth.\nAfter Eros, a grapevine sprouted up from the blood that was shed upon the\nearth, and so those who drink of the fruit of the vine are filled with sexual desire.\nAfter the grapevine, a fig tree and a pomegranate tree sprouted up from the\nearth, along with the rest of the trees, of every kind, and the seed of the trees\ncame from the semen of the authorities and their angels.",
+          "coptic": "ϥⲧⲟⲩⲃⲟ ⲙ̅ⲙⲟϥ §ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲥⲛⲟϥ’ ⲛ̅ϣⲟⲣⲡ’\nⲁⲡⲉⲣⲱⲥ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉϥⲟ ⲛ̅ϩⲟⲩⲧⲥϩⲓⲙⲉ\nⲧⲉϥⲙⲛ̅ⲧϩⲟⲟⲩⲧ’ ⲡⲉ ϩⲓⲙ̅ⲓ̅ⲣ̅ⲏ̅ⲣ̅ⲓ̅ⲥ ⲉϥⲟ ⲛ̅‐\nⲕⲱϩⲧ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲧⲉϥⲙⲛ̅ⲧⲥϩⲓ‐\nⲙⲉ ⲉⲧⲛ̅ⲙ̅ⲙⲁϥ’ ⲟⲩⲯⲩⲭⲏ ⲛ̅ⲥⲛⲟϥ’ ⲟⲩⲉ‐\nⲃⲟⲗ ⲧⲉ ϩⲛ̅ ⲧⲟⲩⲥⲓⲁ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ⲛⲉⲥⲱϥ’\nⲉⲙⲁⲧⲉ ϩⲙ̅ ⲡⲉϥⲥⲁ ⲉⲩⲛ̅ⲧⲉϥ’ ⲭⲁⲣⲓⲥ ⲡⲁⲣⲁ\nⲛ̅ⲥⲱⲛⲧ’ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ §ⲧⲟⲧⲉ ⲁⲛⲛⲟⲩ‐\nⲧⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩⲁⲅ’ⲅⲉⲗⲟⲥ ⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ\nⲁⲡⲉⲣⲱⲥ ⲁⲩⲙⲉⲣⲓⲧϥ’ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩⲱⲛϩ ⲇⲉ\nⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲟⲩ ⲧⲏⲣⲟⲩ ⲁϥⲣⲁⲕϩⲟⲩ ⲛ̅ⲑⲉ\nⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩϩⲏⲃⲥ̅ ⲟⲩⲱⲧ ϣⲁⲣⲉ ϩⲁϩ ⲛ̅ϩⲏⲃ̅ⲥ̅\nϫⲉⲣⲟ ⲁⲩⲱ ⲡⲓⲟⲩⲟⲉⲓⲛ ⲟⲩⲱⲧ’ ⲙ̅ⲙⲁⲩ ⲡϩⲏ̅ⲃ̅ⲥ̅\nⲇⲉ ⲙⲁϥϭⲱϫⲃ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲡⲓⲉⲣⲱⲥ\nϫⲱⲱⲣⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲥⲱⲛⲧ’ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁ‐\nⲟⲥ ⲁⲩⲱ ⲙ̅ⲡⲉϥϭⲱϫⲃ̅ §ⲕⲁⲧⲁ ⲑⲉ ⲉⲃⲟⲗ ϩⲛ̅\nⲧⲙⲉⲥⲟⲧⲏⲥ ⲉⲧⲟⲩⲧⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐\nⲕⲉ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲉⲣⲱⲥ ϩⲛ̅ ⲧⲙⲉ‐\nⲥⲟⲧⲏⲥ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲙⲛ̅ ⲣ̅ⲣⲱⲙⲉ ⲁⲥϫⲱⲕ\nⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲧⲥⲩⲛⲟⲩⲥⲓⲁ ⲙ̅ⲡⲉⲣⲱⲥ ⲧⲉⲓ̈ϩⲉ\nⲉϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲁⲥϯ ⲟⲩⲱ ⲛ̅ϭⲓ ⲧϣⲟⲣⲡ ⲛ̅‐\nϩⲏⲇⲟⲛⲏ §ⲁⲧⲥϩⲓⲙⲉ ⲟⲩⲁϩⲥ̅ ⲛ̅ⲥⲁ ⲡⲕⲁϩ\nⲁⲩⲱ ⲁⲡⲅⲁⲙⲟⲥ ⲟⲩⲏϩ ⲛ̅ⲥⲁ ⲧⲥϩⲓⲙⲉ ⲁⲡ’‐\nϫⲡⲟ ⲟⲩⲏϩ ⲛ̅ⲥⲁ ⲡⲅⲁⲙⲟⲥ ⲁⲡⲃⲱⲗ ⲉⲃⲟⲗ\n† ⲑⲩⲁϩϥ ⲛ̅ⲥⲁ ⲡⲉϫⲡⲟ §ⲙ̅ⲙⲛ̅ⲛⲥⲁ ⲡⲉⲣⲱⲥ\nⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲃⲉⲛⲉⲗⲁⲁⲗⲉ ϯ ⲟⲩⲱ ⲉϩⲣⲁⲓ̈\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲓⲥⲛⲟϥ ⲛ̅ⲧⲁⲩⲡⲁϩⲧϥ̅ ⲉϫⲙ̅\nⲡⲕⲁϩ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲛⲉⲧ’ⲥⲱ ⲙ̅ⲙⲟϥ’ ϣⲁⲩ‐\nϫⲡⲟ ⲛⲁⲩ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲛ̅ⲧⲥⲩⲛⲟⲩⲥⲓⲁ\nⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ ⲧⲃⲉⲛⲉⲗⲟⲟⲗⲉ ⲁⲩⲃⲉⲛ̅ⲕⲛ̅‐\nⲧⲉ ⲙⲛ̅ⲛⲟⲩⲃⲉⲛ̅ⲗⲁϩⲙⲉⲛ ϯ ⲟⲩⲱ ⲉϩ‐\nⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲙⲛ̅ ⲡⲕⲉⲥⲉⲉⲡⲉ ⲛ̅ϣⲏⲛ\nⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲟⲩ‐\nⲥⲡⲉⲣⲙⲁ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ⲉⲃⲟⲗ ϩⲙ ⲡ’\nⲥⲡⲉⲣⲙⲁ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ"
+        },
+        {
+          "title": "The Creation of Paradise",
+          "subtitle": "The Creation of Paradise",
+          "heading": "The Creation of Paradise (110, 2-111, 8)",
+          "rangeLabel": "110, 2-111, 8",
+          "range": {
+            "start": {
+              "page": 110,
+              "line": 2
+            },
+            "end": {
+              "page": 111,
+              "line": 8
+            }
+          },
+          "english": "Then justice created paradise. Paradise is beautiful, and is outside the circuit of\nthe moon and the circuit of the sun in the land of pleasure, which is in the east in\nthe rocky region. Desire dwells in the middle of the beautiful, stately trees. The\ntree of life eternal, as it appeared by the will of God, is in the north of paradise to\ngive immortality to the souls of holy people, who will leave their poor modeled\nbodies at the end of the age. The tree of life looks like the sun, and its branches\nare lovely. Its leaves are like the leaves of the cypress, its fruit is like a cluster of\nwhite grapes, and its height reaches the sky.\nNext to it is the tree of knowledge, which is endowed with the power of\nGod. It is glorious as the moon shining brightly, and its branches are lovely. Its\nleaves are like fig leaves and its fruit is like a bunch of good, delicious dates.\nThe tree of knowledge is in the north of paradise to arouse the souls from\ndemonic stupor, so that they might come to the tree of life, eat its fruit, and\ncondemn the authorities and their angels.\nThe impact of this tree is described in the Holy Book:\nYou are the tree of knowledge,\nwhich is in paradise,\nfrom which the first man ate.\nYou opened his mind,\nand he loved his female partner\nand condemned other strange figures,\nand he loathed them.\nAfter this the olive tree sprouted, and it was to purify kings and high priests\nof justice who were to come in the last days. The olive tree appeared through the\nlight of the first Adam for the sake of the oil of anointing that kings and high\npriests would receive.",
+          "coptic": "§ⲧⲟⲧⲉ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲁⲥⲧⲁⲙⲉⲓⲟ ⲡⲡⲁ‐\nⲣⲁⲇⲉⲓⲥⲟⲥ ⲉⲛⲉⲥⲱϥ ⲉϥⲙ̅ⲡⲃⲟⲗ’ ⲙ̅ⲡⲕⲩ‐\nⲕⲗⲟⲥ ⲙ̅ⲡⲟⲟϩ ⲙⲛ̅ ⲡⲕⲩⲕⲗⲟⲥ ⲙ̅ⲡⲣⲏ ϩⲙ̅\nⲡⲕⲁϩ ⲛ̅ⲧⲣⲩⲫⲏ’ ⲉⲧ〈ⲛ̅〉ⲙ̅ⲙⲁ ⲛ̅ϣⲁ ϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲛ̅ⲛ̅ⲱⲛⲉ ⲁⲩⲱ ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ϩⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅‐\nⲛ̅ϣⲏⲛ ⲉⲛⲉⲥⲱⲟⲩ ⲉⲩⲟ ⲛ̅ⲗⲁϩⲗϩ ⲁⲩⲱ\nⲡϣⲏⲛ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲛⲁⲧⲙⲟⲩ ⲛ̅ⲑⲉ ⲛ̅ⲧⲁϥ’‐\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲛⲟⲩⲧⲉ\nϩⲙ̅ ⲡⲥⲁ ⲙϩⲓⲧ’ ⲙ̅ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲁⲧⲣⲉϥⲣ̅\nⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲛⲉⲧⲟⲩⲁⲁⲃ’ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ⲛⲁⲉⲓ\nⲉⲧⲛ̅ⲛⲏⲩ ⲉⲃⲟⲗ’ ϩⲛ̅ ⲛ̅ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲧⲙⲛ̅ⲧ‐\nϩⲏⲕⲉ ⲛ̅ⲧⲥⲩⲛ’ⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ ⲡⲉⲩⲁⲛ\nⲇⲉ ⲙ̅ⲡϣⲏⲛ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲑⲉ ⲙ̅ⲡⲣⲏ ⲁⲩⲱ\nⲛⲉϥⲕⲗⲁⲇⲟⲥ ⲛⲉⲥⲱⲟⲩ ⲛⲉϥϭⲱⲃⲉ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲁ ⲡⲕⲩⲡⲁⲣⲓⲥⲥⲟⲥ ⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲓⲥⲙⲁϩ ⲛ̅ⲉⲗⲟⲟⲗⲉ ⲉϥⲟⲩⲟⲃϣ̅ ⲡⲉϥϫⲓ‐\nⲥⲉ ⲃⲏⲕ ϣⲁϩⲣⲁⲓ̈ ⲉⲧⲡⲉ §ⲁⲩⲱ ⲁⲧⲟⲩⲱϥ ⲡϣⲏⲛ\nⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲉⲩⲛ̅ⲧⲁϥ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲇⲩⲛⲁⲙⲓⲥ\nⲙ̅ⲡⲛⲟⲩⲧⲉ ⲡⲉϥ’ⲉⲟⲟⲩ ⲟ ⲛ̅ⲑⲉ ⲙ̅ⲡⲟⲟϩ ⲉϥ’‐\nⲡⲣ̅ⲣⲓⲱⲟⲩ ⲉⲙⲁⲧⲉ ⲁⲩⲱ ⲛⲉϥⲧⲁⲣ’ ⲛⲉⲥⲱⲟⲩ\nⲛⲉϥϭⲱⲱⲃⲉ ⲟ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϭⲱⲱⲃⲉ ⲛ̅ⲕⲛ̅ⲧⲉ\nⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲟ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲃⲛ̅ⲛⲉ’ ⲉⲧⲛⲁⲛⲟⲩ‐\nⲟⲩ ⲛ̅ⲗⲉϩⲗϩ̅ ⲡⲁⲉⲓ ⲇⲉ ⲉϥϩⲓ ⲡⲥⲁ ⲙϩⲓⲧ’ ⲙ̅ⲡⲁ‐\nⲣⲁⲇⲓⲥⲟⲥ ⲁⲧⲣⲉϥ’ⲧⲱⲟⲩⲛ ⲛⲙ̅ⲯⲩⲭⲏ ⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲃ̅ϣⲉ’ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱⲛ ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲏⲩ\nⲉϩⲟⲩⲛ’ ⲉⲡϣⲏⲛ’ ⲙ̅ⲡⲱⲛϩ ⲛ̅ⲥⲉⲟⲩⲱⲙ’ ⲙ̅‐\nⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲁⲩⲱ ⲛ̅ⲥⲉⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲛ̅ⲛ̅‐\nⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛⲟⲩⲁⲅ’ⲅⲉⲗⲟⲥ §ⲡⲁⲡⲟⲧⲉⲗⲉⲥ‐\nⲙⲁ ⲙ̅ⲡⲉⲉⲓϣⲏⲛ ϥⲥⲏϩ ϩⲛ̅ ϫⲓⲉⲣⲁ ⲃⲓⲃⲗⲟⲥ\nϫⲉ ⲛ̅ⲧⲟⲕ ⲡⲉ ⲡϣⲏⲛ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲡⲁⲉⲓ\nⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲡⲁⲉⲓ ⲛ̅ⲧⲁ ⲡϣⲟⲣⲡ’\nⲣ̅ⲣⲱⲙⲉ ⲟⲩⲟⲙϥ’ ⲁϥⲟⲩⲏⲛ’ ⲁⲡⲉϥⲛⲟⲩⲥ\nⲁϥⲙⲣ̅ⲣⲉ ⲧⲉϥ’ϣⲃⲣ̅ⲉⲓⲛⲉ ⲁϥⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ\n〈ⲛ̅〉ⲛ̅ⲕⲉⲉⲓⲛⲉ ⲛ̅ⲁⲗⲗⲟⲧⲣⲓⲟⲛ ⲁϥⲥⲓⲭⲁⲛⲉ ⲉⲣⲟ‐\nⲟⲩ’ §ⲙⲛ̅ⲛ̅ⲥⲁ ⲡⲁⲉⲓ ⲇⲉ ⲁⲧⲃⲉⲛϫⲟⲉⲓⲧ’ ϯ ⲟⲩⲱ\nⲉϩⲣⲁⲓ̈ ⲧⲁⲉⲓ ⲉⲧⲛⲁⲧⲟⲩⲃⲟ ⲛ̅ⲣ̅ⲣⲱⲟⲩ ⲙⲛ̅ ⲛ̅‐\nⲁⲣⲭⲓⲉⲣⲉⲩⲥ ⲛ̅ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲛⲁⲉⲓ ⲉⲧⲛⲁ‐\nⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϩⲁⲉⲩ ⲛ̅ⲛⲉϩⲟⲟⲩ’ ⲉⲁ‐\nⲧⲃⲉⲛϫⲟⲉⲓⲧ ⲇⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲟ‐\nⲉⲓⲛ ⲙ̅ⲡϣⲟⲣⲡ’ ⲛ̅ⲁⲇⲁⲙ ⲉⲧⲃⲉ ⲡⲭⲣⲓⲥⲙⲁ\nⲉⲧⲟⲩ〈ⲛⲁ〉ϫⲓⲧϥ’ §ⲧϣⲟⲣⲡ’ ⲇⲉ ⲙ̅ⲯⲩⲭⲏ ⲁⲥⲙⲣ̅ⲣⲉ"
+        },
+        {
+          "title": "The Creation of Plants, Animals, and Heavenly Bodies",
+          "subtitle": "The Creation of Plants, Animals, and Heavenly Bodies",
+          "heading": "The Creation of Plants, Animals, and Heavenly Bodies (111, 8-112, 25)",
+          "rangeLabel": "111, 8-112, 25",
+          "range": {
+            "start": {
+              "page": 111,
+              "line": 8
+            },
+            "end": {
+              "page": 112,
+              "line": 25
+            }
+          },
+          "english": "The first soul, Psyche, loved Eros, who was with her, and she poured her blood\nupon him and upon the earth. From that blood the first rose sprouted upon the\nearth, out of a thorn bush, to give joy to the light that would appear in the\nbramble.\nNext beautiful, fragrant flowers of every kind sprouted upon the earth from\nthe blood of each of the virgin daughters of Forethought. They fell in love with\nEros and poured their blood upon him and upon the earth.\nNext, plants of every kind sprouted upon the earth, and they had the seed of\nthe authorities and their angels within them.\nThen the authorities created animals, reptiles, and birds of every kind from\nthe waters, and they had the seed of the authorities and their angels within\nthem.\nBut before all this, when Adam of light appeared on the first day, he\nremained upon the earth about two days. He left the lower Forethought in heaven\nand ascended toward his light, and at once darkness covered the whole world.\nWhen she wished, Sophia, who is in the lower heaven, received authority\nfrom Pistis and created great heavenly lights and all the stars, and she placed\nthem in the sky to shine upon the earth and designate chronological signs,\nseasons, years, months, days, nights, moments, and so on. Thus the whole region\nof the sky was organized.\nWhen Adam of light wished to enter his light, which is the eighth heaven, he\ncould not do so because of the poverty mingled with his light. So he created a\ngreat aeon for himself, and in that eternal realm he created six more realms and\ntheir worlds, which are six in number and seven times better than the heavens of\nchaos and their worlds.\nAll these realms and their worlds are within the boundless region between\nthe eighth heaven and chaos below it, and they are considered part of the world\nof poverty.\nIf you want to understand the organization of all these, you will find it\ndescribed in the Seventh Cosmos of Hieralias the Prophet.",
+          "coptic": "ⲉⲧⲟⲩ〈ⲛⲁ〉ϫⲓⲧϥ’ §ⲧϣⲟⲣⲡ’ ⲇⲉ ⲙ̅ⲯⲩⲭⲏ ⲁⲥⲙⲣ̅ⲣⲉ\nⲡⲉⲣⲱⲥ ⲉⲧⲛ̅ⲛⲙ̅ⲙⲁⲥ ⲁⲥⲡⲱϩⲧ’ ⲙ̅ⲡⲉⲥ‐\n〈ⲥ〉ⲛⲟϥ’ ⲉϩⲣⲁⲓ̈ ⲉϫⲱϥ’ ⲁⲩⲱ ⲉϫⲙ̅ ⲡⲕⲁϩ ⲉⲃⲟⲗ\nⲇⲉ ϩⲙ̅ ⲡⲥⲛⲟϥ’ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲧⲟⲩⲣⲧ’ ϯ ⲟⲩ‐\nⲱ ⲉϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲛ̅ϣⲟⲣⲡ’ ⲉⲃⲟⲗ ϩⲙ̅\nⲡϣⲟⲛⲧⲉ ⲉⲩⲣⲁϣⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲡⲁⲓ̈ ⲉⲧ’‐\nⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲃⲁⲧⲟⲥ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ\nⲡⲁⲉⲓ ⲁⲛ’ ⲛ̅ϩⲣⲏⲣⲉ ⲉⲛⲉⲥⲱⲟⲩ ⲉⲧⲟ ⲛ̅ⲥⲧⲟⲉⲓ\nⲉⲛⲁⲛⲟⲩϥ’ ⲁⲩϯ ⲟⲩⲱ ⲉϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲕⲁ‐\nⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲉⲓ ⲧⲟⲩⲉⲓ ⲙ̅ⲡⲁⲣ‐\nⲑⲉⲛⲟⲥ ⲛ̅ⲧⲉ ⲛ̅ϣⲉⲉⲣⲉ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ’\nⲛⲁⲉⲓ ⲛ̅ⲧⲁⲣⲟⲩⲙⲉⲣⲉ ⲡⲉⲣⲱⲥ ⲁⲩⲡⲱϩⲧ’\nⲙ̅ⲡⲟⲩⲥⲛⲟϥ’ ⲉϫⲱϥ’ ⲁⲩⲱ ⲉϫⲙ̅ ⲡⲕⲁϩ’ §ⲙ̅‐\nⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲉⲓ’ ⲁⲃⲟⲧⲁⲛⲏ ⲛⲓⲙ’ ϯ ⲟⲩⲱ ⲉϩ‐\nⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲁϩ ⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅‐\nⲙⲁⲩ ⲙ̅ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛⲟⲩ‐\nⲁⲅ’ⲅⲉⲗⲟⲥ ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲉⲓ’ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ\nⲥⲱⲛⲧ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲑⲏⲣⲓⲟⲛ ⲛⲓⲙ\nⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲁⲩⲱ ⲛ̅ϫⲁⲧⲃⲉ ⲙⲛ̅ ⲛϩⲁ’‐\nⲗⲁⲧⲉ ⲕⲁⲧⲁ ⲅⲉⲛⲟⲥ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲙ̅‐\nⲡⲥⲡⲉⲣⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ\n§ϩⲁ ⲧⲉϩⲏ ⲇⲉ ⲛ̅ⲛⲁⲉⲓ ⲧⲏⲣⲟⲩ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ’ ⲙ̅ⲡϣⲟⲣⲡ’ ⲛ̅ϩⲟⲟⲩ ⲥⲛⲁⲩ ⲁϥϭⲱ\nϩⲓϫⲙ̅ ⲡⲕⲁ[ϩ] ⲙ̅ⲡⲣⲏⲧⲉ ⲛ̅ϩⲟⲟⲩ ⲥⲛⲁⲩ ⲁϥ‐\nⲕⲱ ⲛ̅ⲧⲡⲣⲟⲛⲟⲓⲁ ⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅ ϩⲛ̅\nⲧⲡⲉ ⲁϥⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ\nⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁⲡⲕⲁⲕⲉ ϣⲱⲡⲉ ⲁϫⲙ̅ ⲡⲕⲟⲥⲙⲟ[ⲥ]\nⲧⲏⲣϥ’ §ⲧⲥⲟⲫⲓⲁ ⲇⲉ ⲉⲧϩⲛ̅ ⲧⲡⲉ ⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅\nⲛ̅ⲧⲁⲣⲉⲥⲟⲩⲱϣ ⲁⲥϫⲓ ⲟⲩⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ⲧⲟⲟⲧⲥ̅\nⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲁⲥⲧⲁⲙⲓⲟ ⲛ̅ϩⲛ̅ⲛⲟϭ ⲛ̅ⲣⲉϥ’ⲣ̅ ⲟⲩⲟ‐\nⲉⲓⲛ ⲙⲛ̅ ⲛ̅ⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲥⲕⲁⲁⲩ ϩⲛ̅ ⲧⲡⲉ ⲁⲧⲣⲟⲩ‐\nⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲉϫⲙ̅ ⲡⲕⲁϩ ⲁⲩⲱ ⲥⲉϫⲱⲕ’ ⲉⲃⲟⲗ ⲛ̅‐\nϩⲛ̅ⲥⲏⲙⲉⲓⲟⲛ ⲛ̅ⲭⲣⲟⲛⲟⲥ ⲙⲛ̅ ϩⲛ̅ⲕⲁⲓⲣⲟⲥ ⲙⲛ̅\nϩⲛ̅ⲣⲙ̅ⲡⲟⲟⲩⲉ ⲁⲩⲱ ϩⲛ̅ⲛⲉⲃⲁⲧⲉ ⲙⲛ̅ ϩⲛ̅ϩⲟⲟⲩ\nⲙⲛ̅ ϩⲛ̅ⲟⲩϣⲏ ⲙⲛ̅ ϩⲛ̅ⲥⲟⲩⲥⲟⲩ ⲙⲛ̅ ⲡⲕⲉⲥⲉⲉⲡⲉ\nⲧⲏⲣϥ’ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲡⲙⲁ ⲧⲏⲣϥ’ ⲣ̅ⲕⲟⲥⲙⲉⲓ\nϩⲓϫⲛ̅ ⲧⲡⲉ §ⲁⲇⲁⲙ’ ⲇⲉ ⲟⲩⲟⲉⲓⲛ’ ⲛ̅ⲧⲁⲣⲉϥ’ⲟⲩⲱϣ\nⲁⲃⲱⲕ’ ⲉϩⲟⲩⲛ’ ⲉⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ\nⲉⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲙ̅ⲡⲉϥϣϭⲙ̅ϭⲟⲙ’ ⲉⲧⲃⲉ\nⲧⲙⲛ̅ⲧϩⲏⲕⲉ ⲛ̅ⲧⲁⲧⲱϩ ⲙⲛ̅ ⲡⲉϥ’ⲟⲩⲟⲉⲓⲛ ⲧⲟⲧⲉ\nⲁϥⲧⲁⲙⲉⲓⲟ ⲛⲁϥ’ ⲛ̅ⲟⲩⲛⲟϭ ⲛ̅ⲁⲓⲱⲛ ⲁⲩⲱ ϩⲙ̅\nⲡⲁⲓⲱⲛ’ ⲉⲧⲙ̅ⲙⲁⲩ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲥⲟⲟⲩ ⲛ̅ⲁⲓⲱⲛ\nⲙⲛ̅ ⲛⲟⲩⲕⲟⲥⲙⲟⲥ ⲉⲩⲉⲓⲣⲉ ⲛ̅ⲥⲟⲟⲩ ⲉⲩⲥⲟⲧⲡ’\nⲁⲛⲙ̅ⲡⲏⲩⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲛⲟⲩⲕⲟⲥⲙⲟⲥ ⲛ̅‐\nⲥⲁϣϥ’ ⲛ̅ⲕⲱⲃ §ⲛⲉⲉⲓⲁⲓⲱⲛ ⲇⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛⲟⲩ‐\nⲕⲟⲥⲙⲟⲥ ⲉⲩϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲉⲧⲉ ⲙⲛ̅ⲧⲉϥ ⲁⲣⲏϫϥ’\nⲉϥⲟⲩⲧⲉ ⲧⲙⲁϩϣⲙⲟⲩⲛⲉ ⲙⲛ̅ ⲡⲭⲁⲟⲥ ⲉⲧⲙ̅ⲡⲓ‐\nⲧⲛ̅ ⲙ̅ⲙⲟⲥ ⲉⲩⲏⲡ’ ⲙⲛ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲉⲧⲉ ⲡⲁ ⲧ’‐\nⲙⲛ̅ⲧϩⲏⲕⲉ ⲡⲉ §ⲉϣϫⲉ ⲕⲟⲩⲱϣ ⲉⲉⲓⲙⲉ ⲛ̅ⲧⲇⲓⲁ‐\nⲑⲉⲥⲓⲥ ⲛ̅ⲛⲁⲉⲓ ⲕⲛⲁϩⲉ ⲉⲣⲟⲥ ⲉⲥⲥⲏϩ ϩⲙ̅ ⲡⲙⲁϩ‐\nⲥⲁϣϥ ⲛ̅ⲕⲟⲥⲙⲟⲥ ⲛ̅ϣⲓⲉⲣⲁⲗⲓⲁⲥ ⲡⲉⲡⲣⲟⲫⲏ‐\nⲧⲏⲥ §ϩⲁ ⲧⲉϩⲏ ⲇⲉ ⲙ̅ⲡⲁⲧⲉ ⲁⲇⲁⲙ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲣ̅‐"
+        },
+        {
+          "title": "The Creation of Humankind",
+          "subtitle": "The Creation of Humankind",
+          "heading": "The Creation of Humankind (112, 25-114, 4)",
+          "rangeLabel": "112, 25-114, 4",
+          "range": {
+            "start": {
+              "page": 112,
+              "line": 25
+            },
+            "end": {
+              "page": 114,
+              "line": 4
+            }
+          },
+          "english": "Before Adam of light made his return, the authorities saw him in chaos. They\nlaughed at the chief creator because he lied when he said, “I am God; no one\nexists before me.”\nWhen they came to the chief creator, they said, “Is this being not the God\nwho ruined our work?”\nHe answered and said, “Yes. If you do not want him to be able to ruin our\nwork, come, let’s create a human being out of earth in the image of our body and\nwith a likeness to this being, to serve us, so that when this being sees his\nlikeness, he may fall in love with it. Then he will no longer ruin our work, and\nwe shall make the children of the light our slaves for this entire age.”\nAll this happened in accordance with Pistis’s forethought, so that humanity\nmight appear in this likeness and condemn the authorities because of their\nmodeled bodies. For their modeled bodies contained the light.\nThe authorities received knowledge they needed to create humanity. Sophia\nZoe, who is with Sabaoth, anticipated them. She laughed at their decision,\nbecause they are blind, and they created humanity in ignorance and against their\nown interests. They did not know what they were doing.\nSo she anticipated them. She created her own human being first, so that he\nmight tell the modeled bodies of the authorities how to despise them and how to\nescape them.\nThe birth of the instructor happened like this. When Sophia let a drop of light\nfall, it landed on the water, and at once there appeared an androgynous human\nbeing. Sophia first made the drop into the form of a female body, and then she\ntook the body and gave it a shape like the Mother who had appeared. She\nfinished it in twelve months.\nAn androgynous human being was born, whom the Greeks call\nHermaphrodite. The Hebrews call the child’s mother Eve of life, which means\nthe female instructor of life, and the child born to her is lord. Later the\nauthorities called the child the beast so that it might lead their modeled\nbodies astray. The meaning of the beast is the instructor, for it turned out to be\nthe wisest of all creatures.",
+          "coptic": "ⲧⲏⲥ §ϩⲁ ⲧⲉϩⲏ ⲇⲉ ⲙ̅ⲡⲁⲧⲉ ⲁⲇⲁⲙ ⲛ̅ⲟⲩⲟⲉⲓⲛ ⲣ̅‐\nⲁⲛⲁⲭⲱⲣⲉⲓ ϩⲙ̅ ⲡⲭⲟⲁⲥ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲛⲁⲩ ⲉ‐\nⲣⲟϥ’ ⲁⲩⲥⲱⲃⲉ ⲛ̅ⲥⲁ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ’ ϫⲉ ⲁϥ’‐\nϫⲉ ϭⲟⲗ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲁⲛⲟⲕ’ ⲡⲉ ⲡⲛⲟⲩ‐\nⲧⲉ ⲙⲗ̅ ⲗⲁⲁⲩ ϣⲟⲟⲡ’ ϩⲓ ⲧⲁⲉϩⲏ §ⲛ̅ⲧⲁⲣⲟⲩⲉⲓ ϣⲁ‐\nⲣⲟϥ’ ⲡⲉϫⲁⲩ ϫⲉ ⲙⲏ ⲡⲁⲉⲓ ⲡⲉ ⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲁϩ‐\nⲧⲁⲕⲟ ⲙ̅ⲡⲛ̅ⲉⲣⲅⲟⲛ ⲁϥ’ⲟⲩⲱϣⲃ̅ ⲡⲉϫⲁϥ ϫⲉ\nⲉϩⲉ’ ⲉϣϫⲉ ⲧⲉⲧⲛ̅ⲟⲩⲱϣ ϫⲉⲕⲁⲥ ⲛⲉϥ’ϣϭⲛ̅\nϭⲟⲙ ⲛ̅ⲧⲁⲕⲟ ⲙ̅ⲡⲛ̅ⲉⲣⲅⲟⲛ ⲁⲙⲏⲉⲓⲧⲛ̅ ⲙⲁⲣⲛ̅‐\nⲧⲁⲙⲉⲓⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲕⲁⲧⲁ\nⲧϩⲓⲕⲱⲛ’ ⲙ̅ⲡⲛ̅ⲥⲱⲙⲁ’ ⲁⲩⲱ ⲕⲁⲧⲁ ⲡⲉⲓⲛⲉ\nⲙ̅ⲡⲏ ⲛϥ̅ϣⲙ̅ϣⲉ ⲛⲁⲛ ϫⲉⲕⲁⲁⲥⲉ ⲡⲏ ⲉϥϣⲁⲛ‐\nⲛⲁⲩ ⲉⲡⲉϥ’ⲉⲓⲛⲉ ⲛ̅ϥⲙⲉⲣⲉⲓⲧϥ̅’ ⲟⲩⲕⲉⲧⲓ ϥⲛⲁ‐\nⲧⲁⲕⲟ ⲙ̅ⲡⲛ̅ⲉⲣⲅⲟⲛ ⲁⲗⲗⲁ ⲛⲉⲧⲟⲩⲛⲁϫⲡⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲧⲛ̅ⲁⲁⲩ ⲛ̅ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛⲁⲛ\nϩⲙ̅ ⲡⲭⲣⲟⲛⲟⲥ ⲧⲏⲣϥ̅ ⲙ̅ⲡⲉⲉⲓⲁⲓⲱⲛ §ⲡⲁⲉⲓ ⲇⲉ\nⲧⲏⲣϥ’ ⲛ̅ⲧⲁϥ’ϣⲱⲡⲉ ⲕⲁⲧⲁ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲛ̅ⲧⲡⲓ‐\nⲥⲧⲓⲥ ϣⲓⲛⲁ ⲉⲡⲣⲱⲙⲉ ⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ’ ⲛ̅‐\nⲛⲁϩⲣⲙ̅ ⲡⲉϥ’ⲉⲓⲛⲉ ⲛ̅ϥⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲁⲩⲱ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ\nⲁϥϣⲱⲡⲉ ⲛ̅ϫⲟⲗϫⲗ̅ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ §ⲧⲟⲧⲉ ⲛ̅ⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲁⲩϫⲓ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲁⲧⲣⲟⲩⲧⲁⲙⲓⲉ\nⲡⲣⲱⲙⲉ ⲁⲥⲣ̅ ϣⲟⲣⲡ’ ⲉⲣⲟⲟⲩ ⲛ̅ϭⲓ ⲧⲥⲟⲫⲓⲁ\nⲍⲱⲏ ⟦ⲉ⟧ ⲧⲁⲉⲓ ⲉⲧ’ϩⲁⲧⲛ̅ ⲥⲁⲃⲁⲱⲑ’ ⲁⲩⲱ ⲁⲥⲥⲱ‐\nⲃⲉ ⲛ̅ⲥⲁ ⲧⲟⲩⲅⲛⲱⲙⲏ ϫⲉ ϩⲛ̅ⲃⲗ̅ⲗⲉⲉⲩⲉ ⲛⲉ ϩⲛ̅\nⲟⲩⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲁⲩⲧⲁⲙⲓⲟϥ’ ⲉⲣⲟⲟⲩ ⲟⲩⲁ‐\nⲁⲩ ⲁⲩⲱ ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ ϫⲉ ⲟⲩ ⲡⲉ ⲉⲧⲟⲩⲛⲁ‐\nⲁϥ’ §ⲇⲓⲁ ⲧⲟⲩⲧⲟ’ ⲁⲥⲣ̅ ϣⲟⲣⲡ’ ⲉⲣⲟⲟⲩ ⲁⲥⲧⲁⲙⲓⲟ\nⲛ̅ϣⲟⲣⲡ’ ⲙ̅ⲡⲉⲥⲣⲱⲙⲉ ϣⲓⲛⲁ ⲉϥⲛⲁⲧⲁⲙⲉ\nⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲛ̅ⲑⲉ ⲉϥⲛⲁⲣ̅ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲙ̅‐\nⲙⲟⲟⲩ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ϥⲛⲁⲛⲟⲩϩⲙ’ ⲉⲣⲟⲟⲩ\n§ⲡϫⲡⲟ ⲇⲉ ⲙ̅ⲡⲣⲉϥⲧⲁⲙⲟ ⲛ̅ⲧⲁϥϣⲱⲡⲉ ⲛ̅‐\nⲧⲉⲉⲓϩⲉ ⲧⲥⲟⲫⲓⲁ ⲛ̅ⲧⲁⲣⲉⲥⲛⲟⲩϫⲉ ⲛ̅ⲟⲩⲧⲗ̅‐\nϯⲗⲉ ⲟⲩⲟⲉⲓⲛ ⲁⲥϩⲁϯⲉ ⲉϫⲙ̅ ⲡⲙⲟⲟⲩ ⲛ̅ⲧⲉⲩ‐\nⲛⲟⲩ ⲁⲡⲣⲱⲙⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲉϥⲟ ⲛ̅ϩⲟⲩⲧ’‐\nⲥϩⲓⲙⲉ §ⲧⲗ̅ϯⲗⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲥⲣ̅ⲧⲩⲡⲟⲩ ⲙ̅‐\nⲙⲟⲥ ϣⲟⲣⲡ’ ⲛ̅ⲛⲟⲩⲥⲱⲙⲁ ⲛ̅ⲥϩⲓⲙⲉ ⲙ̅‐\nⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁⲥⲣ̅ⲧⲩⲡⲟⲩ ⲙ̅ⲙⲟⲥ ϩⲙ̅ ⲡⲥⲱ‐\nⲙⲁ ⲙ̅ⲡⲉⲓⲛⲉ ⲛ̅ⲧⲙⲁⲁⲩ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲁⲥϫⲟⲕⲥ̅ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲙⲛ̅ⲧⲥⲛⲟⲟⲩⲥ ⲛ̅ⲉⲃⲟⲧ’\nⲁⲩϫⲡⲟ ⲛ̅ⲟⲩⲣⲱⲙⲉ ⲛ̅ϩⲟⲩⲧ’ⲥϩⲓⲙⲉ ⲡⲁⲉⲓ\nⲉⲛϩⲉⲗⲗⲏⲛ ⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉ ϩⲉⲣⲙⲁⲫⲣⲟ‐\nⲇⲓⲧⲏⲥ ⲧⲉϥⲙⲁⲁⲩ ⲛ̅ⲇⲉ ⲛ̅ϩⲉⲃⲣⲁⲓⲟⲥ ⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟⲥ ϫⲉ ⲉⲩϩⲁ ⲛ̅ⲍⲱⲏ ⲉⲧⲉ ⲧⲣⲉϥⲧⲁⲙⲟ\nⲧⲉ ⲙ̅ⲡⲱⲛϩ §ⲡⲉⲥϣⲏⲣⲉ ⲇⲉ ⲡⲉ ⲡϫⲡⲟ\nⲉⲧⲟ ⲛ̅ϫⲟⲉⲓⲥ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ’ ⲁⲛ[ⲉ]ⲝⲟⲩⲥⲓⲁ\nⲙⲟⲩⲧⲉ ⲉⲣⲟϥ’ ϫⲉ ⲡⲑⲏⲣⲓⲟⲛ ⲁⲧⲣⲉϥⲣ̅ⲡⲗⲁⲛⲁ\nⲛ̅ⲛⲟⲩⲡⲗⲁⲥⲙⲁ ⲑⲉⲣⲙⲏⲛⲉⲓⲁ ⲙ̅ⲡⲑⲏⲣⲓⲟⲛ’\nⲡⲉ ⲡⲣⲉϥ’ⲧⲁⲙⲟ ⲁⲩϩⲉ ⲅⲁⲣ’ ⲉⲣⲟϥ’ ⲉϥⲟ ⲛ̅ⲥⲁⲃⲉ\nⲡⲁⲣⲁⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲉⲩϩⲁ ϭⲉ ⲧⲉ ⲧϣⲟⲣⲡ’ ⲙ̅‐"
+        },
+        {
+          "title": "Song of Eve",
+          "subtitle": "Song of Eve",
+          "heading": "Song of Eve (114, 4-24)",
+          "rangeLabel": "114, 4-24",
+          "range": {
+            "start": {
+              "page": 114,
+              "line": 4
+            },
+            "end": {
+              "page": 114,
+              "line": 24
+            }
+          },
+          "english": "Eve is the first virgin, and she gave birth to her first child without a man. She\nwas her own physician. For this reason she is said to have declared:\nI am part of my mother, and I am the mother.\nI am the wife, I am the virgin.\nI am pregnant, I am the physician,\nI am the comforter of birth pains.\nMy husband produced me, and I am his mother,\nand he is my father and lord.\nHe is my strength,\nhe speaks of what he wants reasonably.\nI am becoming,\nbut I have given birth to a lordly person.\nThis was revealed by the will of Sabaoth and his Christ to the souls who\nwere going to enter the modeled bodies of the authorities, about whom the holy\nvoice said, “Flourish and multiply, rule over all creatures.” These souls were\ntaken captive, in accordance with their destinies, by the chief creator, and they\nwere locked up in the prisons of the modeled bodies <…until> the end of the\nage.",
+          "coptic": "ⲡⲁⲣⲁⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ §ⲉⲩϩⲁ ϭⲉ ⲧⲉ ⲧϣⲟⲣⲡ’ ⲙ̅‐\nⲡⲁⲣⲑⲉⲛⲟⲥ ⲧⲁⲉⲓ ⲁϫⲛ̅ ϩⲟⲟⲩⲧ’ ⲁⲥϣⲁⲙⲓⲥⲉ\nⲛ̅ⲧⲟⲥ ⲡⲉ ⲛ̅ⲧⲁϩⲣ̅ ⲥⲟⲉⲓⲛ ⲉⲣⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ §ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ⲥⲉϫⲱ ⲙ̅ⲙⲟⲥ ⲉⲣⲟⲥ ϫⲉ ⲁⲥϫⲟⲟⲥ ϫⲉ ⲁ‐\nⲛⲟⲕ ⲡⲉ ⲡⲙⲉⲣⲟⲥ ⲛ̅ⲧⲁⲙⲁⲁⲩ ⲁⲩⲱ ⲁⲛⲟⲕ’ ⲧⲉ\nⲧⲙⲁⲁⲩ’ ⲁⲛⲟⲕ’ ⲧⲉ ⲧϩⲓⲙⲉ ⲁⲛⲟⲕ’ ⲧⲉ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ\nⲁⲛⲟⲕ’ ⲧⲉⲧⲉⲉⲧ’ ⲁⲛⲟⲕ’ ⲧⲉ ⲧ’ⲥⲟⲉⲓⲛ ⲁⲛⲟⲕ’ ⲧⲉ ⲧⲣⲉϥ’‐\nⲥⲟⲗⲥⲗ̅ ⲛ̅ⲛ̅ⲛⲁⲕⲉ ⲡⲁϩⲁⲉⲓ ⲡⲉⲛⲧⲁϩϫⲡⲟⲉⲓ ⲁⲩ‐\nⲱ ⲁⲛⲟⲕ’ ⲧⲉ ⲧⲉϥ’ⲙⲁⲁⲩ ⲁⲩⲱ ⲛ̅ⲧⲟϥ’ ⲡⲉ ⲡⲁⲉⲓⲱⲧ’\nⲁⲩⲱ ⲡⲁϫⲟⲉⲓⲥ ⲛ̅ⲧⲟϥ’ ⲡⲉ ⲧⲁϭⲟⲙ’ ⲡⲉⲧϥ’ⲟⲩ‐\nⲁϣϥ̅ ϥϫⲱ ⲙ̅ⲙⲟϥ’ ⲉⲩⲗⲟⲅⲱⲥ ϯϣⲱⲡⲉ ⲁⲗ‐\nⲗⲁϩⲓϫⲡⲉ ⲟⲩⲣⲱⲙⲉ ⲛ̅ϫⲟⲉⲓⲥ §ⲛⲁⲉⲓ ⲇⲉ ϩⲙ̅ ⲡⲟⲩ‐\nⲱϣ 〈 ʹ26 〉 ⲁⲩϭⲱⲗⲡ’ ⲉⲃⲟⲗ’ ⲛⲙ̅ⲯⲩⲭⲏ ⲛ̅ⲥⲁⲃⲁⲱⲑ’\nⲙⲛ̅ ⲡⲉϥⲭ̅ⲥ̅ ⟦.⟧ ⲛⲁⲉⲓ ⲉⲧⲛ̅ⲛⲏⲩ ⲁ’ⲙⲡⲗⲁⲥⲙⲁ\nⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲉⲧⲃⲉ ⲛⲁⲉ’ⲓ ⲁⲧⲉⲥⲙⲏ ⲉⲧⲟⲩⲁⲁ’ⲃ\nϫⲟⲟⲥ ϫⲉ ⲁϣⲁⲉⲓ ⲁⲩⲱ ⲛ̅ⲧⲉⲧⲛ̅ⲁⲛⲁⲉ’ⲓ ⲉⲣⲓ ϫⲟ‐\nⲉⲓⲥ ⲉϫⲛ̅ ⲛ̅ⲥⲱⲛ’ⲧ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛⲁⲉⲓ ⲛⲉ ⲛ̅ⲧⲁⲩ‐\nⲣ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲓⲍⲉ ⲙ̅ⲙⲟⲟⲩ ⲕⲁⲧⲁ ⲕⲗⲏⲣⲟⲥ ⲉ‐\nⲃⲟⲗ ϩⲓⲧⲛ̅ ⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱ’ⲣ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ\nⲁⲩⲟ’ⲧⲡⲟⲩ ⲉϩⲟⲩⲛ ⲉⲛϣⲧⲉⲕⲱⲟⲩ ⲛ̅ⲛ̅ⲡⲗⲁⲥ‐\nⲙⲁ † ⲏ ϩⲛ̅ ⲧⲥⲩ’ⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ † §ϩⲙ̅ ⲡⲕⲁⲓ‐"
+        },
+        {
+          "title": "The Rulers of the World Mold Adam",
+          "subtitle": "The Rulers of the World Mold Adam",
+          "heading": "The Rulers of the World Mold Adam (114, 24-115, 30)",
+          "rangeLabel": "114, 24-115, 30",
+          "range": {
+            "start": {
+              "page": 114,
+              "line": 24
+            },
+            "end": {
+              "page": 115,
+              "line": 30
+            }
+          },
+          "english": "Then the chief creator voiced his opinion about humankind to those who were\nwith him. Then each of them ejaculated his semen into the middle of the navel of\nthe earth.\nSince then the seven archons have formed humanity with a body resembling\ntheir own body, but the likeness of humankind reflects the human being who\nappeared to them. The modeled body came into being, part by part, from each of\nthe rulers, and the leader of the rulers created the brain and marrow.\nAfterward the person appeared like the one before him. He became a\nperson with soul, and he was called Adam, which means father, after the name of\nthe one who was before him.\nAfter Adam was made, the chief creator abandoned him as a lifeless vessel,\nsince Adam was formed like an aborted fetus, with no spirit. When the chief\nruler recalled the word of Pistis, he was afraid that the true human might enter\nhis modeled body and rule over it. So he left his modeled body forty days\nwithout soul, and he withdrew and left him.\nOn the fortieth day Sophia Zoe blew her breath into Adam, in whom there\nwas no soul. He began to crawl on the ground, but he could not stand up.\nWhen the seven rulers came and saw him, they were greatly troubled. They\napproached him and grabbed him, and the chief ruler said to the breath within\nhim, “Who are you? Where have you come from?”\nHe answered and said, “I have come through the power of the human to\ndestroy your work….”\nWhen they heard this, they glorified him, because he gave them rest from\ntheir fear and concern. They called that day the Day of Rest, because they\nrested themselves from their troubles.\nWhen they saw that Adam could not stand up, they were glad. They took him\nand put him in paradise, and withdrew up to their heavens.",
+          "coptic": "ⲙⲁ † ⲏ ϩⲛ̅ ⲧⲥⲩ’ⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ † §ϩⲙ̅ ⲡⲕⲁⲓ‐\nⲣⲟⲥ ⲇⲉ ⲉⲧⲙ̅ⲙⲁⲩ ⲧⲟⲧⲉ ⲁⲡⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱⲣ\nⲁϥϯ ⲟⲩⲅⲛⲱⲙⲏ ⲛ̅ⲛⲉⲧⲛ̅ⲙ̅ⲙ’ⲁϥ ⲉⲧⲃⲉ ⲡⲣⲱ‐\nⲙⲉ ⲧⲟⲧⲉ ⲁⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛ̅ϩⲏⲧⲟⲩ ⲛⲟⲩϫⲉ\nⲙ̅ⲡ’ⲉϥⲥⲡⲉⲣⲙⲁ ⲉϫⲛ̅ ⲧⲙⲏⲧⲉ ⲛ̅ⲑϩⲗ̅ⲡⲉ ⲙ̅‐\nⲡⲕⲁϩ §ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲡⲥⲁϣϥ ⲛ̅ⲁ’ⲣ‐\nⲭⲱⲛ ⲣ̅ⲡⲗⲁⲥⲥⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲡⲉϥⲥⲱⲙⲁ\nⲙⲉⲛ ⲉⲓⲛⲉ ⲙ̅ⲡⲟⲩⲥⲱⲙⲁ ⲡ’ⲉϥⲉⲓⲛⲉ ⲇⲉ ’ⲉϥ‐\nⲉⲓⲛⲉ ⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲩ\nⲡⲉϥⲡⲗⲁⲥⲙⲁ ⲁϥϣⲱⲡⲉ ⲕ[ⲁ]ⲧⲁ ⲙⲉⲣⲟⲥ ⲙ̅‐\nⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲡⲟⲩⲛⲟϭ ⲇⲉ ⲁϥⲧⲁⲙⲉⲓⲉ\nⲡⲉⲅⲕⲉⲫⲁⲗⲛ ⲙⲛ̅ ⲡⲁⲧⲕⲁⲥ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ\n† ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲱⲥ ⲁⲧ’ⲉϥⲉϩⲏ † ⲁϥϣⲱⲡⲉ\nⲛ̅ⲟⲩⲣⲱⲙⲉ ⲙ̅ⲯⲩⲭⲓⲕⲟⲥ ⲁⲩⲱ ⲁⲩⲙⲟⲩⲧⲉ ⲉ‐\nⲣ’ⲟϥ ϫⲉ ⲁⲇⲁ’ⲙ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲓⲱ’ⲧ ⲕⲁⲧⲁ\nⲡⲣⲁⲛ ⲙ̅ⲡⲉ’ⲧϩⲓ ⲧ’ⲉϥⲉϩⲏ §ⲛ̅ⲧⲁⲣⲟⲩϫⲱⲕ ⲇⲉ ⲛ̅‐\nⲁⲇⲁ’ⲙ ⲁϥⲕⲁⲁϥ ⲛ̅ⲛⲟⲩⲥⲕⲉⲩⲟⲥ ⲉⲁϥϫⲓ ⲙⲟⲣ‐\nⲫⲏ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲟⲩϩⲉ ⲉⲙⲛ̅ ⲡⲛⲉⲩⲙⲁ ⲛ̅ϩⲏ’ⲧϥ\nⲉⲧⲃⲉ ⲡⲉⲉⲓϩⲱⲃ ⲛ̅ⲧⲁⲣⲉ ⲡⲛⲟϭ ⲛ̅ⲁⲣⲭⲱⲛ\nⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲙ̅ⲡϣⲁϫⲉ ⲛ̅ⲧⲡⲓⲥⲧⲓⲥ ⲁϥⲣ̅ ϩⲟⲧⲉ\nⲙⲏⲡⲱⲥ ⲛ̅ϥⲓ ⲛ̅ϭⲓ ⲡⲣⲙ̅ⲙ̅ⲙⲉ ⲉϩⲟⲩ’ⲛ ⲉⲡ’ⲉϥ‐\nⲡⲗⲁⲥⲙⲁ ⲛ̅ϥⲣ̅ ϫⲟⲉⲓⲥ ⲉϫⲱϥ%2 §ⲉⲧⲃⲉ ⲡⲁⲉⲓ ’ⲁϥ‐\nⲕⲱ ⲙ̅ⲡⲉϥⲡⲗⲁⲥⲙⲁ ⲛ̅ϩⲙⲉ ⲛ̅ϩⲟⲟⲩ ⲭⲱⲣⲓⲥ\nⲯⲩⲭⲏ ⲁⲩⲱ ’ⲁϥⲁⲛⲁⲭⲱⲣⲉⲓ ⲁϥⲕⲁ’ⲁϥ ϩⲙ̅ ⲡⲙ[ⲁϩ]‐\nϩⲙⲉ ⲇⲉ ⲛ̅ϩⲟⲟⲩ ⲁⲧⲥⲟⲫⲓⲁ ⲛ̅ⲍⲱⲏ ⲧⲛ̅ⲛⲟⲟⲩ\nⲙ̅ⲡⲉⲥⲛⲓϥⲉ ⲉϩⲟⲩⲛ ⲁⲁⲇⲁⲙ ⲡⲁⲉⲓ ⲉⲧⲉ ⲙⲛ̅\nⲯⲩⲭⲏ ⲙ̅ⲙ’ⲟϥ ⲁϥⲁⲣⲭⲉⲓ ⲛ̅ⲕⲓⲙ ϩⲓϫⲙ̅ ⲡⲕⲁϩ\nⲁⲩⲱ ⲙ̅ⲡⲉϥϣϭⲙ̅ ϭⲟ’ⲙ ⲉⲧⲱⲟⲩⲛ §ⲡⲥⲁϣϥ̅\nⲇⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓ ⲁⲩⲛⲁⲩ ⲉⲣ’ⲟϥ ⲁⲩ‐\nϣⲧⲟⲣⲧⲣ̅ ⲉⲙⲁⲧⲉ ⲁⲩϯ ⲡⲉⲩⲟⲩⲟⲉⲓ ⲉϩⲟⲩⲛ ⲉ‐\nⲣ’ⲟϥ ⲁⲩⲉⲙⲁϩⲧⲉ ⲙ̅ⲙ’ⲟϥ ⲁⲩⲱ ⲡⲉϫ’ⲁϥ ⲙ̅‐\nⲡⲛⲓϥⲉ ⲉⲧⲛ̅ϩⲏⲧϥ̅ ϫⲉ ⲛ̅ⲧⲟ’ⲕ ⲛⲓ’ⲙ ⲁⲩⲱ ⲛ̅‐\nⲧⲟ’ⲕⲉⲓ ⲉⲃⲟⲗ ⲧⲱⲛ ⲉⲛⲓⲙⲁ ’ⲁϥⲟⲩⲱϣⲃ̅\nⲡⲉϫ’ⲁϥ ϫⲉ ⲛ̅ⲧⲁⲉⲓⲉⲓ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲇⲩⲛⲁ‐\nⲙⲓⲥ ⲙ̅ⲡⲣⲱⲙⲉ ⲉⲧⲃⲉ ⲡⲧⲁⲕⲟ ⲙ̅ⲡⲉⲧⲛ̅ⲉⲣ‐\nⲅⲟⲛ §〈 ʹ26 〉 ⲛ̅ⲧⲁⲣⲟⲩⲥⲱⲧⲙ̅ ⲁⲩϯ ⲉⲟⲟⲩ ⲛ’ⲁϥ ϫⲉ ⲁϥ‐\nϯ ⲛⲁⲩ ⲙ̅ⲧⲟⲛ ⲉⲑⲣ̅ⲧⲉ ⲙⲛ̅ ⲡⲣⲟⲟⲩϣ ⲉⲧⲟⲩⲛ̅‐\nϩⲏ’ⲧϥ ⲧⲟⲧⲉ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ\nϫⲉ ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ϫⲉ ⲁⲩⲙ̅ⲧⲟⲛ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲛ̅ ⲟⲩϩⲓⲥⲉ §ⲛ̅ⲧⲉⲣⲟⲩⲛⲁⲩ ⲇⲉ ⲉⲁⲇⲁ’ⲙ\nϫⲉ ⲙ̅ⲡⲉϥϣⲧⲱⲟⲩⲛ ⲁⲩⲣⲁϣⲉ ⲁⲩϥⲓ’ⲧϥ\nⲁⲩⲕⲁⲁϥ ϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲁⲩⲱ ⲁⲩⲣ̅ⲁ‐\nⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲛⲟⲩⲙ̅ⲡⲏⲩⲉ §ⲙⲛ̅ⲛ̅‐"
+        },
+        {
+          "title": "Eve Gives Adam Life",
+          "subtitle": "Eve Gives Adam Life",
+          "heading": "Eve Gives Adam Life (115, 30-116, 8)",
+          "rangeLabel": "115, 30-116, 8",
+          "range": {
+            "start": {
+              "page": 115,
+              "line": 30
+            },
+            "end": {
+              "page": 116,
+              "line": 8
+            }
+          },
+          "english": "After the day of rest, Sophia sent her daughter Zoe, called Eve, as an instructor\nto raise Adam, in whom there was no soul, so that the children he would\nengender might be vessels of light.\n[When] Eve saw her male partner on the ground, she felt sorry for him\nand said, “Adam, live! Get up from the ground!”\nAt once her word became an accomplished deed. When Adam got up, at\nonce he opened his eyes, and he saw her and said, “You will be called the\nMother of the living, because you have given me life.”",
+          "coptic": "ⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲛⲟⲩⲙ̅ⲡⲏⲩⲉ §ⲙⲛ̅ⲛ̅‐\nⲥⲁ ⲡϩⲟⲟⲩ ⲛ̅ⲧⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲁⲧⲥⲟⲫⲓⲁ\nϫⲟⲟⲩ ⲛ̅ⲍⲱⲏ ⲧⲉⲥϣⲉⲉⲣⲉ ⲉⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟⲥ ϫⲉ ⲉⲩϩⲁ ϩⲱⲥ ⲣ’ⲉϥⲧⲁⲙⲟ ⲁⲧⲣⲉⲥ‐\nⲧⲟⲩⲛⲟⲥ ⲁⲇⲁ’ⲙ ⲡⲁⲉⲓ ⲉⲙⲛ̅ ⲯⲩⲭⲏ ⲛ̅ϩⲏⲧϥ̅\nϫⲉⲕⲁⲁⲥ ⲛⲉⲧⲉϥⲛⲁϫⲡⲟⲟⲩ [ⲉ]ⲩⲛⲁϣⲱ‐\nⲡⲉ ⲛ̅ⲁⲅⲅⲉⲓⲟⲛ ⲙ̅ⲡⲟⲩⲟ[ⲉⲓ’ⲛ §ⲛ̅ⲧ]ⲁ[ⲣ]ⲉ\nⲉⲩϩⲁ ⲛⲁⲩ ⲉⲡⲉⲥϣⲃⲣ̅ⲉⲓⲛⲉ ⲉϥⲛ’ⲏϫ ⲁⲥϣⲛ̅\nϩⲧⲏⲥ ϩⲁⲣ’ⲟϥ ⲁⲩⲱ ⲡⲉϫⲁⲥ ϫⲉ ⲁⲇⲁ’ⲙ ⲱⲛϩ\nⲧⲱⲟⲩⲛ ϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁⲡⲉⲥϣⲁ‐\nϫⲉ ϣⲱⲡⲉ ⲛ̅ⲟⲩⲉⲣⲅⲟⲛ ⲛ̅ⲧⲁⲣⲉ ⲁⲇⲁⲙ ⲅⲁ’ⲣ\nⲧⲱⲟⲩⲛ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲁϥⲟⲩⲉ’ⲛ ⲛ̅ⲛⲉϥⲃⲁ’ⲗ\nⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲉⲣⲟⲥ ⲡⲉϫⲁϥ ϫⲉ ⲛ̅ⲧⲟ ⲉⲩⲛⲁⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟ ϫⲉ ⲧⲙⲁⲁⲩ ⲛ̅ⲛⲉⲧⲟⲛϩ ϫⲉ ⲛ̅ⲧⲟ ⲡⲉⲧⲁϩ‐\nϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲱⲛϩ §ⲧⲟⲧⲉ ⲁⲩⲧⲁⲙⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓ’ⲁ"
+        },
+        {
+          "title": "The Powers Rape Earthly Eve",
+          "subtitle": "The Powers Rape Earthly Eve",
+          "heading": "The Powers Rape Earthly Eve (116, 8-117, 15)",
+          "rangeLabel": "116, 8-117, 15",
+          "range": {
+            "start": {
+              "page": 116,
+              "line": 8
+            },
+            "end": {
+              "page": 117,
+              "line": 15
+            }
+          },
+          "english": "The authorities were told that their modeled body was alive and had gotten up,\nand they were greatly troubled. They sent seven archangels to see what had\nhappened.\nThey came to Adam, and when they saw Eve speaking with him, they said to\neach other, “Who is this enlightened woman? She looks like what appeared to us\nin the light. Come, let’s seize her and ejaculate our semen into her, so that she\nmay be unclean and unable to ascend to her light, and her children will serve us.\nBut let’s not tell Adam, because he is not one of us. Instead, let’s put him to\nsleep and suggest to him in his sleep that Eve came from his rib, so that the\nwoman may serve and he may rule over her.”\nSince Eve was a heavenly power, she laughed at what they had in mind. She\nblinded their eyes and secretly left something that resembled her with Adam.\nShe entered the tree of knowledge and stayed there. The rulers chased her,\nand she revealed to them that she had entered the tree and had become a tree.\nThe blind powers fell into great fear and ran away.\nLater, when they recovered their sight, they came to [Adam]. They saw a\nfemale like that woman with him, and they were troubled and thought this\nwas the true Eve. They acted rashly. They came to her, seized her, and ejaculated\ntheir semen upon her.\nThe powers acted wickedly. They defiled her in ways natural and obscene.\nFirst they defiled the seal of her voice, which had said to them, “What exists\nbefore you?” In this way they meant also to defile those who say that they were\nborn at the end of the age through the word, through the true human.\nThe authorities and their angels erred. They did not know they defiled their\nown body and likeness in all these ways.",
+          "coptic": "ϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲱⲛϩ §ⲧⲟⲧⲉ ⲁⲩⲧⲁⲙⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓ’ⲁ\nϫⲉ ⲡⲟⲩⲡⲗⲁⲥⲙⲁ ⲟⲛ’ϩ ⲁⲩⲱ ⲁϥⲧⲱⲟⲩⲛ ⲁⲩ‐\nϣⲧⲟⲣⲧⲣ̅ ⲉⲙⲁⲧ’ⲉ ⲁⲩϫⲟⲟⲩ ⲥⲁ’ϣϥ ⲛ̅ⲁⲣⲭⲁ’ⲅ‐\nⲅⲉⲗⲟⲥ ⲁⲧⲣⲟⲩⲛⲁⲩ ⲉⲡⲉⲛⲧⲁϩϣⲱⲡⲉ §ⲁⲩⲉⲓ\nϣⲁ ⲁⲇⲁⲙ ⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ ⲉⲉⲩϩⲁ ⲉⲥϣⲁϫⲉ ⲛⲙ̅‐\nⲙ’ⲁϥ ⲡⲉϫⲁⲩ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ϫⲉ ⲟⲩⲟⲩ ⲧⲉ ⲧⲉⲉⲓⲣⲙ̅‐\nⲟⲩⲟⲉⲓⲛ ⲕⲁⲓ ⲅⲁⲣ ⲉⲥⲓⲛⲉ ⲙ̅ⲡⲓⲉⲛⲉ ⲛ̅ⲧⲁϩⲟⲩ‐\nⲱⲛϩ ⲉⲃⲟⲗ ⲛⲁⲛ ϩⲙ̅ ⲡⲓⲟⲩⲟⲉⲓⲛ ⲧⲉⲛⲟⲩ ⲁⲙⲏ‐\nⲉⲓⲧⲛ̅ ⲙⲁⲣⲛ̅ⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲥ ⲛ̅ⲧⲛ̅ⲛⲟⲩϫⲉ\nⲙ̅ⲡⲛ̅ⲥⲡⲉⲣⲙⲁ ⲉⲣⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲥϣⲁϫⲱϩⲙ̅\nⲛ̅ⲛⲉⲥϣϭⲙ̅ ϭⲟ’ⲙ ⲛ̅ⲃⲱ’ⲕ ⲉϩⲣⲁⲓ̈ ⲉⲡⲉⲥⲟⲩⲟⲉⲓⲛ\nⲁⲗⲗⲁ ⲛⲉ’ⲧⲥⲛⲁϫⲡⲟⲟⲩ ⲥⲉⲛⲁⲣ̅ϩⲩⲡⲟⲧⲁⲥⲥⲉ\nⲛⲁⲛ §ⲙ̅ⲡⲣ̅ⲧⲣⲛ̅ϫⲟⲟⲥ ⲇⲉ ⲛ̅ⲁⲇⲁⲙ ϫⲉ ⲟⲩⲉⲃⲟⲗ\nⲛ̅ϩⲏⲧⲛ̅ ⲁⲛ ⲡⲉ ⲁⲗⲗⲁ ⲙⲁⲣⲛ̅ⲉⲓⲛⲉ ⲛ̅ⲟⲩⲃ̅ϣⲉ\nⲉϩⲣⲁⲓ̈ ⲉϫ’ⲱϥ ⲁⲩⲱ ⲙⲁⲣⲛ̅ⲧⲥⲉⲃ’ⲟϥ ϩⲙ̅ ⲡ’ⲉϥ‐\nϩⲓⲛⲏⲃ ϩⲱⲥ ⲉϣϫⲉ ⲛ̅ⲧⲁⲥϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲙ̅\nⲡ’ⲉϥⲥⲡⲓⲣ ϫⲉⲕⲁⲁⲥ ⲉⲧⲉⲥϩⲓⲙⲉ ⲛⲁⲣ̅ϩⲩⲡⲟ‐\nⲧⲁⲥⲥ’ⲉ ⲛ̅ϥⲣ̅ ϫⲟⲉⲓⲥ ⲉⲣⲟⲥ §ⲧⲟⲧⲉ ⲉⲩϩⲁ ⲉⲥ‐\nϣⲟⲟ’ⲡ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲁⲥⲥⲱⲃⲉ ⲛ̅ⲥⲁ ⲧⲟⲩⲅⲛⲱ‐\nⲙ’ⲏ ⲁⲥϯ ⲑⲗⲁⲥⲧⲛ̅ ⲉⲛⲟⲩⲃⲁⲗ ⲁⲥⲕⲱ ⲙ̅ⲙⲁⲩ\nⲙ̅ⲡⲉⲥⲉⲓⲛⲉ ⲛ̅ϫⲓⲟⲩⲉ ⲁⲧⲟⲩⲛ̅ ⲁⲇⲁ’ⲙ §ⲁⲥⲃⲱ’ⲕ\nⲉϩⲟⲩⲛ ⲉⲡϣⲏⲛ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲁⲥϭⲱ ⲙ̅ⲙⲁⲩ\nⲛ̅ⲧⲟⲟⲩ ⲇⲉ ⲁⲩⲟⲩⲱϩ ⲛ̅ⲥⲱⲥ ⲁⲥⲟⲩⲱⲛϩ ⲉ‐\nⲃⲟⲗ ⲛⲁⲩ ϫⲉ ⲁⲥⲃⲱ’ⲕ ⲉϩⲟⲩⲛ ⲉⲡϣⲏ’ⲛ ⲁⲥⲣ̅\nϣⲏⲛ ⲛ̅ⲧⲁⲣⲟⲩϣⲱⲡⲉ ⲇⲉ [ϩ]ⲛ̅ ⲟⲩⲛⲟϭ ⲛ̅‐\nϩⲣ̅ⲧⲉ ⲁⲩⲡⲱ’ⲧ ⲉⲃⲟⲗ ⲛ̅ϭⲓ † ⲃⲣ̅ⲣⲉ §ⲙ̅ⲙⲛⲛ̅‐\nⲥⲱⲥ ⲛ̅ⲧ[ⲁⲣ]ⲟⲩⲛⲏⲫⲉ ϩⲛ̅ ⲧⲃ̅ϣⲉ ⲁⲩⲉⲓ ⲉϩⲟⲩⲛ\nϣ[ⲁ] ⲁ[ⲇⲁ’ⲙ ⲁ]ⲩⲱ ⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ ⲁⲡⲓⲛⲉ ⲛ̅ⲧ’ⲏ\nϩⲁⲧⲟⲟⲧϥ̅ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲉⲩⲙⲉⲉⲩⲉ ϫⲉ ⲧⲁⲉⲓ\nⲧⲉ ⲉⲩϩⲁ ⲛ̅ⲁⲗⲏⲑⲓⲛⲏ ⲁⲩⲱ ⲁⲩⲣ̅ⲧⲟⲗⲙⲁ ⲁⲩⲉⲓ\nⲉϩⲟⲩ’ⲛ ϣⲁⲣⲟⲥ ⲁⲩⲉⲙⲁϩⲧⲉ ⲙ̅ⲙⲟⲥ ⲁⲩⲛⲟⲩ‐\nϫⲉ ⲙ̅ⲡⲟⲩⲥⲡⲉⲣⲙⲁ ⲉϩⲣⲁⲓ̈ ⲉϫⲱⲥ §ⲁⲩⲁⲁⲥ ϩⲛ̅\nⲟⲩⲙⲛ̅ⲧⲡⲁⲛⲟⲩⲣⲅⲟⲥ ⲉⲩϫⲱϩⲙ̅ ⲟⲩ ⲙⲟ‐\nⲛⲟⲛ ⲫⲩⲥⲓⲕⲱⲥ ⲁⲗⲗⲁ ϩⲛ̅ ⲟⲩⲥⲱ’ⲱϥ ⲉⲩ‐\nϫⲱϩⲙ̅ ⲛ̅ⲧⲥⲫⲣⲁⲅⲓⲥ ⲙ̅ⲡⲉⲥϩⲣⲟⲟⲩ ⲛ̅ϣⲟⲣ’ⲡ\nⲛ̅ⲧⲁϩϣⲁϫⲉ ⲛⲙ̅ⲙⲁⲩ ϫⲉ ⲟⲩ ⲡⲉⲧϣⲟⲟ’ⲡ\nϩⲓ ⲧⲉⲧⲛ̅ⲉϩⲏ ⲁⲧⲣⲟⲩϫⲱϩ’ⲙ ⲛ̅ⲛⲉⲧϫⲱ ⲙ̅‐\nⲙⲟⲥ ϫⲉ ϩⲓⲧⲙ̅ ⲡϣⲁϫⲉ ⲉⲩϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ\nϩⲛ̅ ⲧⲥⲩ’ⲛⲧⲉⲗⲉⲓⲁ ϩⲓⲧⲛ̅ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲉⲓ‐\nⲛⲟⲥ §ⲁⲩⲱ ⲁⲩⲣ̅ⲡⲗⲁⲛⲁ ⲉⲛⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ\nϫⲉ ⲛ̅ⲧⲁⲩϫⲁϩⲙ̅ ⲡⲟⲩⲥⲱⲙⲁ ⲡⲓⲛⲉ ⲡⲉ ⲛ̅‐\nⲧⲁⲩϫⲁϩⲙϥ̅ ⲛ̅ϭⲓ ⲛⲉⲝⲟⲩⲥⲓⲁ ϩⲛ̅ⲥⲙⲟ’ⲧ ⲛⲓⲙ\nⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ §ⲁⲥⲱ ⲛ̅ϣⲟⲣ’ⲡ ⲛ̅ⲁⲃⲉⲗ"
+        },
+        {
+          "title": "Eve Bears the Children of the Powers",
+          "subtitle": "Eve Bears the Children of the Powers",
+          "heading": "Eve Bears the Children of the Powers (117, 15-118, 6)",
+          "rangeLabel": "117, 15-118, 6",
+          "range": {
+            "start": {
+              "page": 117,
+              "line": 15
+            },
+            "end": {
+              "page": 118,
+              "line": 6
+            }
+          },
+          "english": "She first became pregnant with Abel from the first ruler, and then she gave birth\nto her other children from the seven authorities and their angels.\nAll this happened in accordance with the chief creator’s forethought, so that\nthe first mother might bear within herself every seed, every one mixed and\njoined with the fate of the world and its configurations, and justice.\nA plan for Eve emerged, that the modeled bodies of the authorities might\ncontain the light. Then the light would condemn the authorities through their\nown modeled bodies.\nThe first Adam of light is spiritual and appeared on the first day. The second\nAdam is psychical and appeared on the sixth day, called Aphrodite. The third\nAdam is earthly, a person of law, who appeared on the eighth day, called Sunday,\n[after] the poor Day of Rest.\nThe offspring of earthly Adam multiplied and filled the earth, and they\nacquired all the technical skills psychical Adam had. But they all were in\nignorance.",
+          "coptic": "ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ §ⲁⲥⲱ ⲛ̅ϣⲟⲣ’ⲡ ⲛ̅ⲁⲃⲉⲗ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲟⲣ’ⲡ ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲡⲕⲉⲥⲉⲉ‐\nⲡⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲧⲁⲥϫⲡⲟⲟⲩ ϩⲓⲧⲛ̅ ⲧⲥⲁϣϥⲉ\nⲛ̅ⲉⲝⲟⲩⲥⲓ’ⲁ ⲙⲛ̅ ⲛⲟⲩⲁⲅⲅⲉⲗⲟⲥ §ⲡⲁⲉⲓ ⲇⲉ\nⲧⲏ’ⲣϥ ⲁϥϣⲱⲡⲉ ⲕⲁⲧⲁ ⲧⲡⲣⲟⲛⲟⲓⲁ ⲙ̅ⲡⲁⲣ‐\nⲭⲓⲅⲉⲛⲉⲧⲱⲣ ϫⲉⲕⲁⲁⲥ ⲧϣⲟⲣ’ⲡ ⲙ̅ⲙⲁⲁⲩ\nⲉⲥⲁϫⲡⲟ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲥ̅ ⲛ̅ⲥⲡⲉⲣⲙⲁ ⲛⲓⲙ\nⲉϥⲧⲏϩ ⲉϥⲣ̅ϩⲁⲣⲙⲟⲥⲉ ⲉϩⲟⲩ’ⲛ ⲉϫⲓⲙⲁⲣ‐\nⲙⲉⲛⲏ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲙⲛ̅ ⲛⲉⲥⲥⲭⲏⲙⲁ ⲁⲩ‐\nⲱ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛ’ⲏ §ⲁⲩⲟⲓⲕⲟⲛⲟⲙⲓⲁ ϣⲱⲡⲉ\nⲉⲧⲃⲉ ⲉⲩϩⲁ ϫⲉⲕⲁⲁⲥ ⲙ̅ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ\nⲉⲩⲛⲁϣⲱⲡⲉ ⲛ̅ϫⲟⲗϫⲗ̅ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲧⲟ‐\nⲧⲉ ϥⲛⲁⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲓⲧⲛ̅ ⲛⲟⲩ‐\nⲡⲗⲁⲥⲙⲁ §ⲡϣⲟⲣⲡ ϭⲉ ⲛ̅ⲁⲇⲁ’ⲙ ⲛ̅ⲧⲉ ⲡⲟⲩ‐\nⲟⲉⲓⲛ ⲟⲩⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ ⲡⲉ ⲁϥⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ⲙ̅ⲡϣⲟⲣ’ⲡ ⲛ̅ϩⲟⲟⲩ ⲡⲙⲁϩⲥⲛⲁⲩ\nⲛ̅ⲁⲇⲁ’ⲙ ⲟⲩⲯⲩⲭⲓⲕⲟⲥ ⲡⲉ ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ\nⲙ̅ⲡⲙⲁϩ[ⲥⲟ]ⲟⲩ ⲛ̅ϩⲟⲟⲩ ⲡⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩ‐\nⲧⲉ ⲉⲣⲟϥ ϫ[ⲉ ⲁ]ⲫⲣⲟⲇⲉⲓⲧⲏ ⲡⲙⲁϩϣⲟⲙⲧ\nⲛ̅ⲁⲇⲁⲙ ⲟⲩⲭⲟⲓ̈ⲕⲟⲥ ⲡⲉ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ\nⲡⲣⲙ̅ⲛ̅ⲛⲟⲙⲟⲥ ⲛ̅ⲧⲁϩⲟⲩ[ⲱⲛϩ] ⲉⲃⲟ[ⲗ] ϩⲙ̅\nⲡⲙⲁϩϣⲙⲟⲩⲛ ⲛ̅ϩⲟⲟⲩ [ ʹ26 ⲧⲁⲛⲁ]\nⲡⲁⲩⲥⲓⲥ ⲛ̅ⲧⲙⲛ̅ⲧϩⲏⲕⲉ ⲧⲁⲉⲓ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ\nⲉⲣⲟⲥ ϫⲉ ϩⲏⲙⲉⲣⲁ ⲏⲗⲓⲟⲩ §ⲡϫⲡⲟ ⲇⲉ ⲙ̅’ⲡ‐\nⲭⲟⲓ̈ⲕⲟⲥ ⲛ̅ⲁⲇⲁⲙ ⲁϥⲁϣⲉⲉⲓ ⲁϥϫⲱ’ⲕ ⲉⲃⲟ’ⲗ\nⲁϥϫⲡⲟ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏ’ⲧϥ ⲛ̅ϣⲓⲥⲧⲟⲣⲓⲁ ⲛⲓ’ⲙ ⲙ̅‐\nⲯⲩⲭⲓⲕⲟⲥ ⲛ̅ⲁⲇⲁ’ⲙ ⲡⲧⲏ’ⲣϥ ⲇⲉ ⲛ’ⲉϥϩⲛ̅ ⲟⲩ‐\nⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩ’ⲛ §ⲙⲙⲛ̅ⲛ̅ⲥⲱⲥ ϯⲛⲁϫⲟⲟⲥ"
+        },
+        {
+          "title": "The Trees of Paradise and the Beast",
+          "subtitle": "The Trees of Paradise and the Beast",
+          "heading": "The Trees of Paradise and the Beast (118, 6-119, 19)",
+          "rangeLabel": "118, 6-119, 19",
+          "range": {
+            "start": {
+              "page": 118,
+              "line": 6
+            },
+            "end": {
+              "page": 119,
+              "line": 19
+            }
+          },
+          "english": "Let me continue.\nWhen the rulers saw him and the woman with him in error and ignorance,\nlike animals, they were very pleased.\nThen they found out that the immortal human was not going to pass them by\nand they would even have to fear the woman who turned into a tree. They were\ntroubled and said, “Could this be the one who blinded us and taught us about the\ndefiled woman who resembles the true human, in order to overpower us?”\nThe seven hatched a plot. They approached Adam and Eve carefully and said\nto him, “You may eat the fruit of every tree created for you in paradise, but be\ncareful not to eat from the tree of knowledge. If you eat, you will die.” They\ngave them a great fright and withdrew up to their authorities.\nThe beast, the wisest of all creatures, came by. When it saw the likeness of\ntheir mother, Eve, it said to her, “What did God say to you? ‘Do not eat from the\ntree of knowledge’?”\nShe said, “He not only said, ‘Do not eat from it,’ but ‘Do not touch it, or you\nwill die.’”\nThe beast said to her, “Don’t be afraid. You certainly will [not die. He\nknows] that when you eat from it your minds will become sober and you\nwill be like gods, knowing the difference between evil and good people. He said\nthis to you because he is jealous, so that you would not eat from it.”\nEve believed the words of the instructor. She looked at the tree and saw it\nwas beautiful and appealing, and she liked it. She took some of its fruit and ate,\nand she gave it to her husband too, and he also ate. Their minds opened.\nWhen they had eaten,\nthe light of knowledge shone on them.\nWhen they clothed themselves with shame,\nthey knew they were stripped of knowledge.\nWhen they became sober,\nthey saw they were naked\nand they fell in love.\nWhen they saw their makers looked like beasts,\nthey loathed them.\nThey understood a great deal.\nThe Rulers Confront Adam and Eve",
+          "coptic": "ⲙⲛ̅ⲧⲁⲧⲥⲟⲟⲩ’ⲛ §ⲙⲙⲛ̅ⲛ̅ⲥⲱⲥ ϯⲛⲁϫⲟⲟⲥ\nⲛ̅ⲧⲁⲣⲟⲩⲛⲁⲩ ⲇⲉ ⲉⲣ’ⲟϥ ⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ ⲙⲛ̅\nⲧⲉⲧⲛ̅ⲛⲙ̅ⲙ’ⲁϥ ⲉⲩⲣ̅ⲡⲗⲁⲛⲁ ϩⲛ̅ ⲟⲩⲙⲛ̅ⲧⲁ’ⲧ‐\nⲥⲟⲟⲩ’ⲛ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲧⲃ̅ⲛⲏ ⲁⲩⲣⲁϣⲉ ⲙ̅ⲡϣ’ⲁ\n§〈 ʹ26 〉 ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲙⲉ ϫⲉ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲧⲙⲟⲩ ϥⲛⲁⲣ̅‐\nⲡⲁⲣⲁⲃⲁ ⲁ’ⲛ ⲉⲣⲟⲟⲩ ⲁⲗⲗⲁ ⲉⲩⲛⲁⲣ̅ⲡⲕⲉⲣ̅ ϩⲟ‐\nⲧⲉ ϩⲏⲧⲥ̅ ⲛ̅ⲧⲉⲛⲧⲁϩⲣ̅ ϣⲏⲛ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲡⲉ‐\nϫⲁⲩ ϫⲉ ⲙⲏⲡⲱⲥ ⲡⲁⲉⲓ ⲡⲉ ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗ’ⲏ‐\nⲑⲉⲓⲛⲟⲥ ⲡⲁⲉⲓ ⲉⲛⲧⲁϩϯ ⲗⲟⲥⲧⲛ̅ ⲛⲁⲛ ⲁⲩⲱ\nⲁϥⲧⲥⲉⲃⲟⲛ ⲉⲧⲁⲉⲓ ⲉⲛⲧⲁⲩϫⲁϩⲙⲉⲥ ⲉⲥⲓⲛⲉ\nⲙ̅ⲙ’ⲟϥ ϣⲓⲛⲁ ⲉⲩⲛⲁϫⲣⲟ ⲉⲣⲟⲛ §ⲧⲟⲧⲉ ⲁⲩϫⲓ\nⲥⲩⲙⲃⲟⲩⲗⲓⲟⲛ ⲙ̅ⲡⲥⲁ’ϣϥ ⲁⲩⲉⲓ ⲉϩⲟⲩ’ⲛ ϣⲁ ⲁ‐\nⲇⲁ’ⲙ ⲙⲛ̅ ⲉⲩϩⲁ ϩⲛ̅ⲛⲟⲩⲫⲟⲃⲟⲥ ⲡⲉϫⲁⲩ ⲛ’ⲁϥ\nϫⲉ ϣⲏⲛ ⲛⲓ’ⲙ ⲉⲧϩⲛ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲛ̅ⲧⲁⲩⲥⲟⲛ‐\nⲧⲟⲩ ⲛⲏⲧⲛ̅ ⲉⲩ〈ⲛⲁ〉ⲟⲩⲱⲙ ⲡⲟⲩⲕⲁⲣⲡⲟⲥ ⲡϣⲏⲛ\nⲇⲉ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲉⲣⲏϩ ⲉⲣⲱⲧⲛ̅ ⲙ̅ⲡⲣ̅ⲟⲩⲱ’ⲙ\nⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ ⲉϣⲱⲡⲉ ⲧⲉⲧⲛⲁⲟⲩⲱ’ⲙ ⲧⲉ\nⲧⲛⲁⲙⲟⲩ ⲛ̅ⲧⲁⲣⲟⲩϯ ⲛⲁⲩ ⲟⲩⲛⲟϭ ⲙ̅ⲫⲟⲃⲟⲥ\nⲁⲩⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲛⲟⲩⲉⲝⲟⲩⲥⲓⲁ §ⲧⲟ\nⲧⲉ ⲁϥⲉⲓ ⲛ̅ϭⲓ ⲡⲥⲁⲃⲉ ⲡⲁⲣⲁⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ\nⲡⲁⲉⲓ ⲛ̅ⲧⲁⲩⲙⲟⲩⲧⲉ ⲉⲣ’ⲟϥ ϫⲉ ⲡⲑⲏⲣⲓⲟⲛ\nⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲉⲡⲓⲛⲉ ⲛ̅ⲧⲟⲩⲙⲁⲁⲩ\nⲉⲩϩ’ⲁ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲟⲩ ⲡⲉⲛⲧⲁ ⲡⲛⲟⲩⲧⲉ\nϫⲟ’ⲟϥ ⲛⲏⲧⲛ̅ ϫⲉ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲙ̅ ⲡϣⲏⲛ\nⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲡⲉϫⲁⲥ ϫⲉ ⲁϥϫⲟⲟⲥ ϫⲉ ⲟⲩ ⲙⲟ‐\nⲛⲟⲛ ϫⲉ ⲙ̅ⲡⲣ̅ⲟⲩⲱⲙ ⲉⲃⲟ[ⲗ ⲛ̅]ϩⲏ’ⲧϥ ⲁⲗⲗⲁ\nⲙ̅ⲡⲣ̅ϫⲱϩ ⲉⲣ’ⲟϥ ϣⲓⲛⲁ ϫ[ⲉ ⲛⲉ]ⲙⲟⲩ ⲡⲉϫⲁϥ\nⲛⲁⲥ ϫⲉ ⲙⲡⲣ̅ⲣ̅ ϩⲟⲧⲉ ϩⲛ̅ⲛⲟⲩⲙⲟⲩ ⲉⲧⲉⲧⲛⲁ‐\nⲙ[ⲟⲩ ⲁ’ⲛ ϥⲥⲟⲟ]ⲩⲛ ⲅⲁⲣ ϫⲉ ⲉⲧⲉⲧⲛ̅ⲟⲩⲱ’ⲙ\nⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ ⲡⲉⲧⲛ̅ⲛⲟⲩⲥ ⲛⲁⲣ̅ⲛⲏⲫⲉ ⲁⲩⲱ\nⲧⲉⲧⲛ̅ⲛⲁϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲛⲟⲩⲧⲉ ⲉⲧⲉⲧⲛ̅‐\nⲥⲟⲟⲩⲛ ⲛ̅ⲧⲇⲓⲁⲫⲟⲣ’ⲁ ⲉⲧϣⲟⲟ’ⲡ ⲟⲩⲧⲉ ⲙ̅‐\nⲡⲟⲛⲏⲣⲟⲥ ⲣ̅ⲣⲱⲙⲉ ⲙⲛ̅ ⲛ̅ⲁⲅⲁⲑⲟⲥ ⲛ̅ⲧⲁϥ‐\nϫⲉ ⲡⲁⲉⲓ ⲅⲁⲣ ⲛⲏⲧⲛ̅ ⲉϥⲣ̅ⲫⲑⲟⲛⲉⲓ ϫⲉ ⲛⲉⲧⲛ̅‐\nⲟⲩⲱⲙ ⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ §ⲉⲩϩⲁ ⲇⲉ ⲁⲥⲑⲁⲣⲣⲉⲓ\nⲁⲛϣⲁϫⲉ ⲙ̅ⲡⲣⲉϥⲧⲁⲙⲟ ⲁⲥϭⲱϣ’ⲧ ⲉϩⲟⲩⲛ\nϩⲙ̅ ⲡϣⲏⲛ ⲁⲥⲛⲁⲩ ⲉⲣⲟϥ ϫⲉ ⲛⲉⲥⲱϥ ⲁⲩⲱ\nⲟⲩⲗⲉϩⲗϩ ⲡⲉ ⲁⲥⲙⲉⲣⲓ’ⲧϥ ⲁⲥϫⲓ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲉϥⲕⲁⲣⲡⲟⲥ ⲁⲥⲟⲩⲱ’ⲙ ⲁⲥϯ ⲙ̅ⲡⲉⲥⲕ[ⲉ]‐\nϩⲁⲓ̈ ’ⲁϥⲟⲩⲱ’ⲙ ϩⲱ’ⲱϥ ⲧⲟⲧⲉ ⲁⲡⲟⲩⲛⲟⲩⲥ\nⲟⲩⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲟⲩⲱ’ⲙ ⲅⲁⲣ ⲁⲡⲟⲩⲟⲉⲓⲛ\nⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲛⲁⲩ ⲛ̅ⲧⲁⲣⲟⲩϯ ϩⲓⲱ‐\nⲟⲩ ⲙ̅ⲡϣⲓⲡⲉ ⲁⲩⲉⲓⲙⲉ ϫⲉ ⲛⲉⲩⲕⲁⲕⲁϩⲏⲩ\nⲁⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲁⲣⲟⲩⲣ̅ⲛⲏⲫⲉ ⲁⲩⲛⲁⲩ ⲉⲣⲟⲟⲩ\nϫⲉ ⲥⲉⲕⲁⲕⲁϩⲏⲩ ⲁⲩⲙⲣ̅ⲣⲉ ⲛⲟⲩⲉⲣⲏⲩ ⲛ̅ⲧⲁ‐\nⲣⲟⲩⲛⲁⲩ ⲁⲛⲟⲩⲡⲗⲁⲥⲧⲏⲥ ⲉⲩⲟ ⲙ̅ⲙⲟⲣⲫⲏ\nⲛ̅ⲑⲏⲣⲓⲟⲛ ⲁⲩⲥⲓⲭⲁⲛⲉ ⲉⲣⲟⲟⲩ ⲁⲩⲉⲓⲙⲉ ⲉⲙⲁ‐\nⲧⲉ §ⲧⲟⲧⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲙⲉ ϫⲉ ⲁⲩⲡⲁ‐"
+        },
+        {
+          "title": "119, 19-121, 27",
+          "subtitle": "119, 19-121, 27",
+          "heading": "(119, 19-121, 27)",
+          "rangeLabel": "119, 19-121, 27",
+          "range": {
+            "start": {
+              "page": 119,
+              "line": 19
+            },
+            "end": {
+              "page": 121,
+              "line": 27
+            }
+          },
+          "english": "When the rulers realized that Adam and Eve had broken their commandment,\nthey entered paradise and came to Adam and Eve with an earthquake and a great\nthreat, in order to see what happened as a result of the help that was given. Adam\nand Eve were very much disturbed, and they hid in the trees in paradise. The\nrulers did not know where they were, and they said, “Adam, where are you?”\nHe said, “I’m here. I was ashamed and hid because I was afraid of you.”\nThey said to him, ignorantly, “Who told you about the shame with which you\nclothed yourselves? Unless you ate from the tree!”\nHe said, “The woman you gave me gave it to me, and I ate.”\nThey [said] to the woman, “What have you done?”\nShe answered and said, “The instructor urged me to eat, and I ate.”\nThe rulers approached the instructor. Their eyes were blinded by it, and they\ncould not do anything to it. They were powerless, and they cursed it. Then they\ncame to the woman, and they cursed her and her children. After the woman they\ncursed Adam and the earth and the fruit because of him. Everything they created\nthey cursed. There is no blessing from them. Good cannot come from evil.\nSince then the authorities have known for certain that there is something\nstronger than they. They simply recognized that their commandment was broken.\nGreat envy came into the world just because of the immortal human.\nWhen the rulers saw that their Adam had acquired different knowledge, they\nwanted to test him. They gathered all the domestic animals, wild beasts of the\nearth, and the birds of the sky, and brought them to Adam to see what he would\ncall them. When he saw them, he gave names to the creatures of the rulers.\nThe rulers were troubled that Adam had recovered from all his anguish.\nThey gathered together and made a plan, and said, “Look, Adam has become\nlike one of us, and he knows the difference between light and darkness. Now\nperhaps he will go astray as he did with the tree of knowledge and will come to\nthe tree of life, eat from it, and become immortal and [rule] and despise us and\nconsider [us] and all our glory to be foolish. And he will denounce [us and our]\nworld. Come, let’s throw him out of paradise down to the earth, where he\ncame from, so that he no longer can know anything better than we can.”\nSo they threw Adam and his wife out of paradise.\nWhat they had done did not satisfy them. They were still afraid. So they went\nto the tree of life and set great dreadful things around it, fiery living creatures\ncalled cherubim, and among them they put a flaming sword, constantly turning\nin a terrifying way, so that no one from the earth might ever enter that place.\nAfter this, since the rulers were jealous of Adam, they wanted to shorten the\nhuman life span, but they could not do so because of fate, which was established\nfrom the beginning. To each human being there was assigned a life span of one\nthousand years according to the circuit of the heavenly luminaries. Though the\nrulers were not able to do this, each one of the evildoers subtracted ten years, so\nthe remaining time comes to nine hundred thirty years, and these are spent in\ngrief and weakness and evil distractions. This is how life has gone, from that day\nuntil the end of the age.",
+          "coptic": "ⲧⲉ §ⲧⲟⲧⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅ⲧⲁⲣⲟⲩⲉⲓⲙⲉ ϫⲉ ⲁⲩⲡⲁ‐\nⲣⲁⲃⲁ ⲛ̅ⲧⲟⲩⲉⲛⲧⲟⲗⲏ ⲁⲩⲉⲓ ϩⲛ̅ ⲟⲩⲕⲙ̅ⲧⲟ\nⲙⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲁⲡⲉⲓⲗⲏ ⲉϩⲟⲩ’ⲛ ⲉⲡⲡⲁ‐\nⲣⲁⲇⲉⲓⲥⲟⲥ ϣⲁ ⲁⲇⲁ’ⲙ ⲙⲛ̅ⲛⲉⲩϩⲁ ⲉⲧⲣⲟⲩⲛⲁⲩ\nⲉⲡⲁⲡⲟⲧⲉⲗⲉⲥⲙⲁ ⲛ̅ⲧⲃⲟⲏⲑⲉⲓⲁ ⲧⲟⲧⲉ\nⲁⲁⲇⲁⲙ ⲙⲛ̅ⲛⲉⲩϩⲁ ⲁⲩϣⲧⲟⲣⲧⲣ̅ ⲉⲙⲁⲧⲉ\nⲁⲩⲕⲱ’ⲡ ϩⲁ ⲛϣⲏⲛ ⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ\nⲧⲟⲧⲉ ⲛ̅ⲁⲣⲭⲱⲛ ⲙ̅ⲡⲟⲩⲉⲓⲙⲉ ϫⲉ ⲉⲩⲧⲱⲛ\nⲡⲉϫⲁⲩ ϫⲉ ⲁⲇⲁ’ⲙ ⲉⲕⲧⲱ’ⲛ ⲡⲉϫⲁϥ ϫⲉ ϯⲛ̅‐\nⲛⲉⲉⲓⲙⲁ ⲉⲧⲃⲉ ⲧⲉⲧⲛ̅ϩⲣ̅ⲧⲉ ⲇⲉ ⲁϩⲓⲕⲱ’ⲡ\nⲛ̅ⲧⲁⲣⲓϣⲓⲡ’ⲉ ⲡⲉϫⲁⲩ ⲇⲉ ⲛ’ⲁϥ ϩⲛ̅ ⲟⲩⲙⲛ̅ⲧ‐\nⲁⲧⲥⲟⲟⲩⲛ ϫⲉ ⲛⲓⲙ ⲡⲉⲛⲧⲁϩϫⲱ ⲛⲁ’ⲕ ⲙ̅‐\nⲡϣⲓⲡⲉ ⲛ̅ⲧⲁ’ⲕⲧⲁⲁϥ ϩⲓⲱⲱ’ⲕ ⲉⲓ ⲙⲏⲧⲓ ϫⲉ\nⲁ’ⲕⲟⲩⲱ[ⲙ ⲉⲃⲟ]ⲗ ϩⲙ̅ ⲡⲓϣⲏ’ⲛ ⲡⲉϫⲁϥ\nϫⲉ ⲧⲥϩⲓⲙ[ⲉ] ⲛ̅ⲧⲁ’ⲕⲧⲁⲁⲥ ⲛⲁⲉⲓ ⲛ̅ⲧⲟⲥ ⲡⲉⲛ‐\nⲧⲁⲥϯ ⲛⲁⲉⲓ ⲁⲉⲓⲟⲩⲱ’ⲙ ⲧⲟⲧ[ⲉ ⲡⲉϫⲁ]ⲩ ⲛ̅[ⲧ]ⲏ\nϫⲉ ⲟⲩ ⲡⲉ ⲡⲁⲉⲓ ⲛ̅ⲧⲁⲁ’ⲁϥ ⲁⲥⲟⲩⲱϣ’ⲃ ⲡⲉ‐\nϫⲁⲥ ϫⲉ ⲡⲣ’ⲉϥⲧⲁⲙⲟ ⲡⲉⲛⲧⲁϩⲧⲟⲃⲥ’ⲧ ⲁϩⲓ‐\nⲟⲩⲱ’ⲙ §ⲧⲟⲧⲉ ⲁⲛⲁⲣⲭⲱⲛ ⲉⲓ ϣⲁ ⲡⲣⲉϥⲧⲁ‐\nⲙⲟ ⲁⲛⲟⲩⲃⲁ’ⲗ ⲣ̅ ϩⲗⲟⲥⲧⲛ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟ’ⲧϥ\nⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟⲙ ⲛ̅ⲣ̅ ⲗⲁⲁⲩ ⲛ’ⲁϥ ⲁⲩⲥⲟⲩϩⲱ’ⲣϥ\nϩⲱⲥ ⲉⲩⲟ ⲛ̅ⲁⲧϭⲟⲙ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲱⲥ ⲁⲩⲉⲓ ϣⲁ ⲧⲥϩⲓ‐\nⲙⲉ ⲁⲩⲥⲟⲩϩⲱⲣⲥ̅ ⲙⲛ̅ ⲛⲉⲥϣⲏⲣⲉ ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ\nⲧⲥϩⲓⲙ’ⲉ ⲁⲩⲥϩⲟⲩⲱ’ⲣ ⲁⲇⲁ’ⲙ ⲙⲛ̅ ⲡⲕⲁϩ ⲉⲧⲃⲏ’ⲧϥ\nⲙⲛ̅ ⲛ̅ⲕⲁⲣⲡⲟⲥ ⲁⲩⲱ ϩⲱⲃ ⲛⲓⲙ ⲛ̅ⲧⲁⲩⲧⲁⲙⲓⲟ‐\nⲟⲩ ⲁⲩⲥϩⲟⲩⲱⲣⲟⲩ §ⲙⲛ̅ ⲗⲁⲁⲩ ⲛ̅ⲥⲙⲟⲩ ⲛ̅ⲧⲟⲟ‐\nⲧⲟⲩ ⲙⲛ̅ ϭⲟⲙ ⲛ̅ⲥⲉϫⲡⲉ ⲁⲅⲁⲑⲟⲛ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲡⲟⲛⲏⲣⲟⲛ §ϫⲓⲙ ⲫⲟⲟⲩ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲛⲉⲝⲟⲩ‐\nⲥⲓⲁ ⲉⲓⲙⲉ ϫⲉ ⲁⲗⲏⲑⲱⲥ ⲟⲩⲙ̅ ⲡⲉⲧϫⲟⲟ’ⲣ ϩⲓ\nⲧⲟⲩⲉϩⲏ ⲛⲉⲩⲥⲟⲟⲩ’ⲛ ⲁⲛ ⲡⲉ ⲉⲓ ⲙⲏⲧⲓ ϫⲉ\nⲙ̅ⲡⲟⲩⲣ̅ⲧⲏⲣⲉⲓ ⲛ̅ⲧⲟⲩⲉⲛⲧⲟⲗⲏ ⲁⲩⲛ̅ ⲟⲩⲛⲟϭ\nⲛ̅ⲕⲱϩ ⲉϩⲟⲩⲛ ⲉⲡⲕⲟⲥⲙⲟⲥ ⲙⲟⲛⲟ’ⲛ ⲉⲧⲃⲉ\nⲡⲣⲱⲙⲉ ⲛ̅ⲁⲧⲙⲟⲩ §ⲛ̅ⲧⲁⲣⲉ ⲛⲁⲣⲭⲱⲛ ⲇⲉ ⲛⲁⲩ\nⲉⲡⲟⲩⲁⲇⲁ’ⲙ 〈ⲉ〉ⲁϥϣⲱⲡⲉ ϩⲛ̅ ⲕⲉⲅⲛⲱⲥⲓⲥ ⲁⲩ‐\nⲟⲩⲱϣ ⲁⲣ̅ⲡⲉⲓⲣⲁⲥⲉ ⲙ̅ⲙ’ⲟϥ ⲁⲩⲥⲱⲟⲩ’ϩ ⲉ‐\nϩⲟⲩ’ⲛ ⲛ̅ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲛ̅ ⲛ̅ⲑⲏⲣⲓⲟⲛ\nⲙ̅ⲡⲕⲁϩ ⲙⲛ̅ ⲛ̅ϩⲁⲗⲁⲧⲉ ⲛ̅ⲧⲡⲉ ⲁⲩⲛ̅ⲧⲟⲩ ϣⲁ ’ⲁ‐\nⲇⲁⲙ ϫⲉ ⲉⲩⲉⲛⲁⲩ ϫⲉ ϥⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ\nⲛⲓ’ⲙ ⲛ̅ⲧⲁⲣ’ⲉϥⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲁϥϯ ⲣⲁ’ⲛ ⲉⲛⲟⲩ‐\nⲕⲧⲓⲥⲙ’ⲁ §ⲁⲩϣⲧⲟⲣⲧⲣ̅ ϫⲉ ⲁϥⲣ̅ⲛⲏⲫⲉ ⲉⲃⲟⲗ\nϩⲛ̅ ⲁⲅⲱⲛⲓⲁ ⲛⲓ’ⲙ ⲛ̅ϭⲓ ⲁⲇⲁ’ⲙ ⲁⲩⲥⲱⲟⲩϩ ⲁⲩ‐\nϫⲓ ⲥⲩⲙⲃⲟⲩⲗⲓⲟⲛ ⲡⲉϫⲁⲩ ϫⲉ ⲉⲓⲥ ⲁⲇⲁ’ⲙ\nⲁϥϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲟⲩⲁ ⲉⲃⲟ’ⲗ ⲙ̅ⲙⲟⲛ ⲁⲧⲣ’ⲉϥ‐\nⲉⲓⲙⲉ ⲛ̅ⲧⲇⲓⲁⲫⲟⲣⲁ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲙⲛ̅ ⲡⲕⲁ‐\nⲕⲉ ⲧⲉⲛⲟⲩ ⲙⲏⲡⲱⲥ ⲛ̅ⲥⲉⲣ̅ ϩⲁ̅ⲗ̅ ⲙ̅ⲙ’ⲟϥ ⲛ̅ⲑⲉ\nⲙ̅ⲡϣⲏⲛ ⲛ̅ⲧⲅⲛⲱⲥⲓⲥ ⲛ̅ϥⲓ ⲟⲛ ⲉϩⲟⲩⲛ\nⲉⲡϣⲏ’ⲛ ⲙ̅ⲡⲱⲛϩ ⲛ̅ϥⲟⲩⲱ’ⲙ ⲉⲃⲟⲗ ⲛ̅ϩⲏ’ⲧϥ\nⲛ̅ϥϣⲱⲡⲉ ⲛ̅ⲁⲧⲙⲟ’ⲩ ⲛ̅ϥⲣ̅ ϫⲟ[ⲉⲓⲥ] ⲛ̅ϥⲕⲁⲧⲁ‐\nⲫⲣⲟⲛⲉⲓ ⲙ̅ⲙⲟⲛ ⲛ̅ϥⲃⲁⲃ[ⲱⲱⲛ ⲙ]ⲛ̅ ⲡⲛ̅ⲛⲉ‐\nⲟⲟⲩ ⲧⲏⲣ[ϥ] ⲙⲛ̅ⲛ̅ⲥⲱⲥ ϥⲛⲁⲣ̅[ⲕ]ⲁⲧⲁⲕⲣⲓⲛⲉ ⲙ̅‐\nⲙ[ⲟⲛ ⲙⲛ̅ ⲡⲛ̅ⲕⲟ]ⲥⲙⲟⲥ ⲁⲙⲏⲓ̈ⲧⲛ̅ ⲙⲁⲣⲛ̅ⲛ’ⲟϫϥ\nⲉⲃⲟⲗ ϩⲙ̅ ⲡⲡⲁⲣⲁϫⲉⲓⲥⲟⲥ ⲉⲡⲓⲧⲛ̅ ⲉϫⲙ̅ ⲡⲕⲁϩ\nⲡⲙⲁ ⲉⲛⲧⲁⲩⲛ̅ⲧϥ̅ ⲉⲃⲗ ⲛ̅ϩⲏ’ⲧϥ ϫⲉⲕⲁⲁⲥ ⲛ̅ⲛⲉϥ‐\nϣϭⲙ̅ ϭⲟ’ⲙ ϫⲓⲛ ⲧⲉⲛⲟⲩ ⲁⲥⲟⲩⲱ’ⲛ ⲗⲁⲁⲩ ⲛ̅ϩⲟⲩ‐\nⲟ ⲉⲣⲟⲛ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲁⲩⲛⲟ’ⲩϫ ⲁⲇⲁⲙ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲙⲛ̅ ⲧⲉϥϩⲓⲙⲉ §ⲁⲩⲱ ⲙ̅ⲡⲉ ⲡⲁ‐\nⲉⲓ ⲣⲱϣⲉ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲧⲁⲩⲁⲁϥ ⲁⲗⲗⲁ ⲛ̅ⲧⲁⲩⲣ̅ ϩⲟ‐\nⲧⲉ ⲁⲩⲉⲓ ⲉϩⲟⲩⲛ ⲉⲡϩϣⲏⲛ ⲙ̅ⲡⲱⲛϩ ⲁⲩⲧⲕⲧⲟ\nⲛ̅ϩⲛ̅ⲛⲟϭ ⲛ̅ϩⲣ̅ⲧⲉ ⲉⲣ’ⲟϥ ϩⲛ̅ⲍⲱⲟ’ⲛ ⲛ̅ⲕⲱϩ’ⲧ\nⲉⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲭⲉⲣⲟⲩⲃⲓⲛ ⲁⲩⲱ ⲁⲩⲕⲱ\nⲛ̅ⲟⲩⲥⲏϥⲉ ⲛ̅ⲥⲁⲧⲉ ϩⲛ̅ ⲧⲟⲩⲙⲏⲧⲉ ⲉⲥⲕ[ⲱ]ⲧⲉ\nⲛ̅ⲛⲁⲩ ⲛⲓⲙ ϩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ϩⲣ̅ⲧⲉ ϣⲓⲛⲁ [ϫ]ⲉ\nⲛⲉ ⲗⲁⲁⲩ ⲉⲛⲉϩ ϩⲛ̅ 〈ⲣ̅〉ⲣⲙⲛ̅ⲕⲁϩ ⲃⲱⲕ ⲉϩⲟⲩ’ⲛ ⲉ‐\nⲡⲧⲟⲡⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ §ⲙ̅ⲙⲛ̅ⲛ̅ⲥⲁ ⲛⲁⲉ’ⲓ ⲛ̅ⲧⲁ‐\nⲣⲉ ⲛⲁⲣⲭⲱ’ⲛ ⲕⲱϩ ⲁⲁⲇⲁⲙ ⲁⲩⲟⲩⲱ’ϣ ⲁϭⲱϫⲃ̅\nⲛ̅ⲛⲟⲩⲭⲣⲟⲛⲟⲥ ⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟⲙ ⲉⲧⲃⲉ ϫⲓ‐\nⲙⲁⲣⲙⲉⲛⲏ ⲉⲧⲕⲏ ⲉϩⲣⲁⲓ̈ ϫⲓⲛ ⲛ̅ϣⲟⲣ’ⲡ ⲁⲩⲣ̅‐\nϩⲟⲣⲓⲥⲉ ⲅⲁ’ⲣ ⲛ̅ⲛⲟⲩⲭⲣⲟⲛⲟⲥ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nϣⲟ ⲣ̅ⲣⲟⲙⲡⲉ ⲕⲁⲧⲁ ⲡⲇⲣⲟⲙⲟⲥ ⲛ̅ⲛ̅ⲣⲉϥⲣ̅ ⲟⲩ‐\nⲟⲉⲓⲛ ⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟⲙ ⲇⲉ ⲛ̅ϭⲓ ⲛⲁⲣⲭⲱⲛ\nⲁⲉⲓⲣⲉ ⲙ̅ⲡⲁⲉ’ⲓ ⲁⲡⲟⲩⲁ ⲡⲟⲩⲁ ϩⲛ̅ ⲛⲉϯⲣⲉ ⲙ̅‐\nⲡⲡⲉⲑⲟⲟⲩ ⲁⲩϭⲱϫⲃ̅ ⲙ̅ⲙⲏⲧⲉ ⲣ̅ⲣⲟⲙⲡⲉ\nⲁⲩⲱ ⲡⲉⲓ̈ⲭⲣⲟⲛⲟⲥ ⲧⲏ’ⲣϥ ⲁϥⲣ̅ ⲯⲓ’ⲧ ⲛ̅ϣⲉ ⲙⲁ‐\nⲁⲃⲉ ⲛ̅ⲣⲟⲙⲡⲉ ⲁⲩⲱ ⲛⲁⲉⲓ ϩⲛ̅ ⲟⲩⲗⲩⲡⲏ ⲙⲛ̅\nⲟⲩⲙⲛ̅ⲧϭⲱⲃ ⲁⲩⲱ ϩⲛ̅ ϩⲙ̅ⲡⲉⲣⲓⲥⲡⲁⲥⲙⲟⲥ\nⲙ̅ⲡⲟⲛⲏⲣⲟⲛ ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ϫⲓⲙ ⲡϩⲟⲟⲩ\nⲉⲧⲙ̅ⲙⲁⲩ ⲁⲡⲃⲓⲟⲥ ⲣ̅ⲕⲁⲧⲁⲛⲧⲁ ϣⲁ ⲧⲥⲩ’ⲛⲧⲉ‐\nⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ §ⲧⲟⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲍⲱⲏ ⲛ̅ⲧⲁ‐"
+        },
+        {
+          "title": "Phoenixes, Water Serpents, and Bulls of Egypt",
+          "subtitle": "Phoenixes, Water Serpents, and Bulls of Egypt",
+          "heading": "Phoenixes, Water Serpents, and Bulls of Egypt (121, 27-123, 2)",
+          "rangeLabel": "121, 27-123, 2",
+          "range": {
+            "start": {
+              "page": 121,
+              "line": 27
+            },
+            "end": {
+              "page": 123,
+              "line": 2
+            }
+          },
+          "english": "When Sophia Zoe saw that the archons of darkness cursed her friends who were\nlike her, she was angry. She came from the first heaven with all her power and\nchased the rulers from [their] heavens, and she cast them down into the sinful\nworld so that they might dwell there as evil demons upon the earth.\n[She sent a bird] that was in paradise so that, until the end of the age, it\nmight spend a thousand years in the rulers’ world. The bird, a living creature\nendowed with soul, is called the phoenix, and it kills itself and revives itself as\nan image of the judgment against the rulers, because they dealt unjustly with\nAdam and his generation, until the end of the age.\nThere are three human beings and their descendants in the world until the\nend of the age: the spiritual, the psychical, and the earthly. This circumstance is\nlike the three kinds of phoenixes of paradise: the first is immortal, the second\nlives a thousand years, and the third is consumed, according to what is written in\nthe Holy Book. Likewise, there are three baptisms: the first is spiritual, the\nsecond is by fire, the third is by water.\nAs the image of the phoenix appears with reference to the angels, so the\nwater serpents in Egypt indicate those who go down for the baptism of a true\nhuman being.\nThe two bulls in Egypt indicate a mystery, the sun and the moon, which\nrepresent Sabaoth, because Sophia of the world has been exalted above the sun\nand the moon from the time when she created them and sealed her heaven until\nthe end of the age.\nThe worm that is born from the phoenix also represents humanity. It is\nwritten of it, “The just will sprout like a phoenix.” The phoenix first appears\nalive, then dies, and then rises again, as an image of what appears at the end of\nthe age.\nThese great images have [appeared] only in Egypt, not in other lands,\nindicating that Egypt is like God’s paradise.",
+          "coptic": "ⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ §ⲧⲟⲧⲉ ⲧⲥⲟⲫⲓⲁ ⲍⲱⲏ ⲛ̅ⲧⲁ‐\nⲣⲉⲥⲛⲁⲩ ϫⲉ ⲁⲛⲁⲣⲭⲱⲛ ⲙ̅ⲡⲕⲁⲕⲉ ϫⲉ ⲁⲩ‐\nⲥϩⲟⲩⲱⲣ ⲛⲉⲥϣⲃⲣ̅ⲉⲓⲛⲉ ⲁⲥⲣ̅ⲁⲅⲁⲛⲁⲕⲧⲉⲓ\nⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧϣⲟⲣ’ⲡ ⲙ̅ⲡⲉ ⲙⲛ̅\nⲇⲩⲛⲁⲙⲓⲥ ⲛⲓ’ⲙ ⲁⲥⲣ̅ⲇⲓⲱⲕⲉ ⲛ̅ⲛⲓⲁⲣⲭⲱⲛ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ [ⲛⲟⲩⲙ̅]ⲡⲏⲩⲉ ⲁⲩⲱ ⲁⲥⲛⲟϫⲟⲩ ⲉⲡⲓ‐\nⲧⲛ̅ ⲉⲡⲕⲟ[ⲥⲙⲟ]ⲥ ⲛ̅ⲣⲉϥⲣ̅ ⲛⲟⲃⲉ ϣⲓⲛⲁ ⲉⲩ‐\nⲛⲁϣⲱⲡⲉ ⲙ̅ⲙⲁⲩ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓ[ⲇ]ⲁⲓⲙⲱⲛ\nⲙ̅ⲡⲟⲛⲏⲣⲟⲥ ϩⲓϫⲙ̅ ⲡⲕⲁϩ §[........]\nϫⲉⲕⲁⲁⲥ ⲧϣⲟ ⲣ̅ⲣⲟⲙⲡⲉ ⲉⲧϩⲙ̅ ⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ\nⲉϥⲛⲁⲁⲩ ⲙ̅ⲡⲟⲩⲕⲟⲥⲙⲟⲥ ⲟⲩⲍⲱⲟⲛ ⲛ̅ⲉ’ⲙ‐\nⲯⲩⲭⲟⲛ ⲉⲩⲙⲟⲩⲧⲉ ⲉⲣ’ⲟϥ ϫⲉ ⲫⲟⲓⲛⲓⲝ ϣ’ⲁϥ‐\nⲙⲟⲟⲩ’ⲧϥ ⲟⲩⲁⲁ’ⲧϥ ⲛ̅ϥⲧⲛ̅ϩ’ⲟϥ ⲁⲩⲙⲛ̅ⲧⲣⲉ\nⲙ̅ⲡⲟⲩϩⲁⲡ ϫⲉ ⲁⲩⲣ̅ⲁⲇⲓⲕⲉⲓ ⲛ̅ⲁⲇⲁ’ⲙ ⲙⲛ̅ ⲧⲉϥ̅‐\nⲅⲉⲛⲉⲁ ϣⲁ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲙ̅ⲡⲁⲓⲱⲛ §〈....〉 ϣⲟⲙ’ⲧ\nⲣ̅ⲣⲱⲙⲉ ⲛ’ⲉ ⲁⲩⲱ ⲛⲉϥⲅⲉⲛⲉⲁ ϣⲁ ⲧⲥⲩ’ⲛⲧⲉ‐\nⲗⲉⲓⲁ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ ⲙ̅ⲡⲁⲓⲱⲛ\nⲙⲛ̅ ⲡⲯⲩⲓ̈ⲕⲟⲥ ⲙⲛ̅ ⲡⲭⲟⲓ̈ⲕⲟⲥ §ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲙ̅‐\nⲡϣⲟⲙ’ⲧ ⲙ̅ⲫⲟⲓⲛⲓ’ⲝ 〈ⲙ̅〉ⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲡϣⲟⲣ’ⲡ\n[ⲟ ⲛ̅]ⲁⲑⲁⲛⲁⲧⲟⲥ ⲡⲙⲁϩⲥⲛⲁⲩ ϣⲁϥⲣ̅ ϣⲟ ⲣ̅‐\nⲣⲟⲙⲡⲉ ⲡⲙⲁϩϣⲟ’ⲙ’ⲧ ϥⲥⲏϩ ϩⲛ̅ ϫⲓⲉⲣⲁ ⲃⲓ‐\nⲃⲗⲟⲥ ϫⲉ ϣⲁⲩⲟⲩⲟⲙϥ̅ §ⲧⲉⲉⲓϩⲉ ⲟⲛ ⲟⲩⲛ̅\nϣⲟⲙ’ⲧ ⲛ̅ϫⲱⲕⲙ̅ ϣⲟⲟ’ⲡ ⲡϣⲟⲣ’ⲡ ⲡⲉ ⲡⲛⲉⲩ‐\nⲙⲁⲧⲓⲕⲟⲛ ⲡⲙⲁϩⲥⲛⲁⲩ ⲟⲩⲕⲱϩⲧ ⲡⲉ ⲡⲙⲁϩ‐\nϣⲟⲙ’ⲧ ⲟⲩⲙⲟⲟⲩ §ⲡⲉ ⲛ̅ⲑⲉ ⲙ̅ⲫⲟⲓⲛⲓ’ⲝ ’ⲉϥ‐\nⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲱⲥ ⲙⲛ̅ⲧⲣⲉ ⲛ̅ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛ̅ϩⲩⲇⲣⲓⲁ ⲙ̅ⲙⲟⲟⲩ ⲉⲧϩⲛ̅ ⲕⲏ‐\nⲙⲉ ⲁⲥϣⲱⲡⲉ ⲁⲩⲙⲛ̅ⲧⲣⲉ ⲛ̅ⲛⲉⲧⲃⲏ’ⲕ ⲁⲡⲓ‐\nⲧⲛ̅ ⲁⲡϫⲱⲕⲙ̅ ⲛ̅ⲛⲟⲩⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲓⲛⲟⲥ\n§ⲡⲙⲁⲥⲉ ⲥⲛⲁⲩ ⲉⲧϩⲛ̅ ⲕⲏⲙⲉ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ\nⲛ̅ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲡⲣⲏ ⲙⲛ̅ ⲡⲟⲟϩ ⲉⲩϣⲟ‐\nⲟ’ⲡ ⲁⲩⲙⲛ̅ⲧⲣⲉ ⲛ̅ⲥⲁⲃ̅ⲁ̅ⲱ̅ⲑ̅ ϫⲉ ⲉϩⲣⲁⲓ̈ ⲉϫⲱ‐\nⲟⲩ ⲁⲥϫⲓ ⲛ̅ϭⲓ ⲧⲥⲟⲫⲓⲁ ⲙ̅ⲡⲕⲟⲥⲙⲟⲥ ϫⲓⲙ\nⲫⲟⲟⲩ ⲛ̅ⲧⲁⲥⲧⲁⲙⲓⲟ ⲙ̅ⲡⲣⲏ ⲙⲛ̅ ⲡⲟⲟϩ ⲁⲥⲣ̅‐\nⲥⲫⲣⲁⲅⲓⲍⲉ ⲛ̅ⲧⲉⲥⲡⲉ ϣⲁ ϩⲟⲩ’ⲛ ⲁⲡⲁⲓⲱⲛ\n§ⲡϥⲛ̅ⲧ ⲇⲉ ⲛ̅ⲧⲁⲩϫⲡ’ⲟϥ ⲉⲃⲟⲗ ϩⲙ̅ ⲫⲟⲓⲛⲓ’ⲝ\nⲟⲩⲣⲱⲙⲉ ⲁⲛ ⲡⲉ ϥⲥⲏϩ ⲉⲧⲃⲏ’ⲧϥ ϫⲉ ⲡⲇⲓ‐\nⲕⲁⲓⲟⲥ ⲛⲁϯ ⲟⲩⲱ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩⲫⲟⲓⲛⲓⲝ ⲁⲩⲱ\nⲫⲟⲓⲛⲓ’ⲝ ϣ’ⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ϣⲟⲣ’ⲡ ⲉϥ‐\nⲟⲛϩ ⲁⲩⲱ ϣⲁϥⲙⲟⲩ ⲡⲁⲗⲓⲛ ⲛ̅ϥⲧⲱⲟⲩⲛ\nⲉϥϣⲟⲟ’ⲡ ⲛ̅ⲥⲏⲙⲉⲓⲟⲛ ⲙ̅ⲡⲉⲛⲧⲁϩⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ϩⲛ̅ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲙ̅[ⲡⲁⲓⲱⲛ] §ⲛⲉⲉⲓ‐\nⲛⲟϭ ⲛ̅ⲥⲏⲙⲉⲓⲟⲛ ⲛ̅ⲧⲁ[ⲩⲟⲩⲱ]ⲛϩ ⲉⲃⲟⲗ\nϩⲛ̅ ⲕⲏⲙ[ⲉ] ⲟⲩⲁ’ⲁϥ ϩⲛ̅ ⲕⲉⲭⲱⲣⲁ ⲁⲛ ⲉϥⲥ’ⲏ‐\nⲙⲁⲛⲉ ϫⲉ ⲉⲥⲧⲛ̅ⲧⲱⲛ ⲉⲡⲡⲁⲣⲁⲇⲉⲓⲥⲟⲥ ⲙ̅ⲡⲛⲟⲩ‐\nⲧⲉ §ⲡⲁⲗⲓⲛ ⲙⲁⲣⲛ̅ⲉⲓ ⲉϩⲟⲩⲛ ⲉⲛⲁⲣⲭⲱⲛ ⲛ̅‐"
+        },
+        {
+          "title": "Proof: The World Is in Error and Ignorance",
+          "subtitle": "Proof: The World Is in Error and Ignorance",
+          "heading": "Proof: The World Is in Error and Ignorance (123, 2-31)",
+          "rangeLabel": "123, 2-31",
+          "range": {
+            "start": {
+              "page": 123,
+              "line": 2
+            },
+            "end": {
+              "page": 123,
+              "line": 31
+            }
+          },
+          "english": "Let us return to the rulers of whom we spoke, so that we may offer an\nexplanation of them.\nWhen the seven rulers were cast from their heavens down to the earth, they\ncreated for themselves angels, numerous and demonic, to serve them. These\nangels taught people much about error, magic, potions, idolatry, bloodshed,\naltars, temples, sacrifices, and libations to all the demons of the earth. The angels\nwork with fate, which came into being by agreement of the gods of injustice\nand justice.\nSo when the world came into being, it went about in error and confusion all\nthe time. All people on earth served the demons from the creation until the end\nof the age-both the angels of justice and the people of injustice. Thus the world\nwas in confusion, ignorance, and stupor. All erred, until the appearance of the\ntrue human.\nEnough on this. Next we shall consider our world so that we may present an\naccurate description of its structure and administration.\nThen it will be clear how the proof of hidden things, which have been\napparent from the foundation of the world to the end of the age, came about.\nEpilogue: The Blessed Little Innocent Spirits and the Church",
+          "coptic": "ⲧⲉ §ⲡⲁⲗⲓⲛ ⲙⲁⲣⲛ̅ⲉⲓ ⲉϩⲟⲩⲛ ⲉⲛⲁⲣⲭⲱⲛ ⲛ̅‐\nⲧⲁⲛϣⲁϫⲉ ⲉⲣⲟⲟⲩ ϫⲉⲕⲁⲁⲥ ⲉⲛⲁⲣ̅ⲡⲁⲣϩⲓⲥⲧⲁ\nⲛ̅ⲧⲟⲩⲁⲡⲟⲇⲓⲝⲉⲓⲥ §ⲡⲓⲥⲟϣϥ ⲅⲁⲣ ⲛ̅ⲁⲣⲭⲱⲛ ⲛ̅‐\nⲧⲁⲣⲟⲩⲛⲟϫⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲟⲩⲙ̅ⲡⲏⲩⲉ ⲉⲡⲓ‐\nⲧⲛ̅ ⲉϫⲙ̅ ⲡⲕⲁ’ϩ ⲁⲩⲥⲱⲛⲧ ⲛⲁⲩ ⲛ̅ϩⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲉⲧⲉ ϩⲁϩ ⲛⲉ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲁⲧⲣⲟⲩⲣ̅ϩⲩⲡⲏⲣⲉⲧⲉⲓ\nⲛⲁⲩ ⲛⲁⲉⲓ ⲇⲉ ⲁⲩⲧⲥⲉⲃⲉ ⲣ̅ⲣⲱⲙⲉ ⲁϩⲁϩ ⲙ̅ⲡⲗⲁ‐\nⲛⲏ ϩⲓ ⲙⲁⲅⲉⲓⲁ ϩⲓ ⲫⲁⲣⲙⲁⲕⲓⲁ ϩⲓ ⲙ̅ⲛ̅ⲧϣⲙ̅ϣⲉ\nⲉⲓⲇⲱⲗⲟ’ⲛ ϩⲓ ⲡⲉⲧϩ ⲥⲛ’ⲟϥ ⲉⲃⲟⲗ ϩⲓ ϣⲏⲩⲉ ϩⲓ\nⲣ̅ⲡⲉ ϩⲓ ⲑⲩⲥⲓⲁ ϩⲓ ⲥⲡⲟⲛⲇⲏ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱⲛ\nⲧⲏⲣⲟⲩ ⲙ̅ⲡⲕⲁϩ ⲉⲩⲛ̅ⲧⲁⲩ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲟⲩϣⲃⲣ̅‐\nⲣ̅ ϩⲱⲃ ⲇⲓⲙⲁⲣⲙⲉⲛⲏ ⲧⲁⲉⲓ ⲛ̅ⲧⲁϩϣⲱⲡⲉ ⲕⲁ‐\nⲧⲁ ⲧⲥⲩ’ⲙⲫⲱⲛⲓⲁ ϩⲓⲧⲛ̅ ⲛ̅ⲛⲟⲩⲧⲉ ⲛ̅ⲧⲁⲇⲓⲕⲉⲓⲁ\nⲙⲛ̅ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ §ⲁⲩⲱ ⲛ̅ⲧⲉⲉⲓϩⲉ ⲛ̅ⲧⲁⲣⲉ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ϣⲱⲡⲉ ϩⲛ̅ ⲛⲟⲩϫⲓ ϩⲣ’ⲁϥ ⲁϥⲣ̅ⲡⲗⲁⲛⲁⲥ‐\nⲑⲉ ϩⲙ̅ ⲡⲭⲣⲟⲛⲟⲥ ⲧⲏ’ⲣϥ ⲁⲛⲣⲱⲙⲉ ⲅⲁⲣ ⲧⲏⲣⲟⲩ\nⲉⲧϩⲓϫⲙ̅ ⲡⲕⲁϩ ⲁⲩϣⲙ̅ϣⲉ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱⲛ ϫⲓⲛ\nⲧⲕⲁⲧⲁⲃⲟⲗⲏ ϣⲁ ⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ\nⲙⲉⲛ ⲛ̅ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲙⲛ̅ ⲛ̅ⲣⲱⲙⲉ ⲛ̅ⲧⲁⲇⲓ‐\nⲕⲓⲁ ⲧⲉⲉⲓϩⲉ ⲁⲡⲕⲟⲥⲙⲟⲥ ϣⲱⲡⲉ ϩⲛ̅ⲛⲟⲩ‐\nϫⲓ ϩⲣ’ⲁϥ ϩⲛ̅ⲛⲟⲩⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ ⲙⲛ̅ⲛⲟⲩⲃ̅‐\nϣⲉ ⲁⲩⲡⲗⲁⲛⲁ ⲧⲏⲣⲟⲩ ϣⲁ ϩⲟⲩⲛ ⲁⲧⲡⲁⲣⲟⲩⲥⲓⲁ\nⲙ̅ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲗⲏⲑⲓⲛⲟⲥ §ⲟⲩⲁϣⲣⲉ ⲉⲣⲱⲧⲛ̅\nϣⲁ ⲛⲉⲉⲓⲙⲁ ⲉⲓⲧⲁ ⲧⲛ̅ⲛⲏⲩ ⲉϩⲟⲩⲛ ⲉⲡⲛ̅ⲕⲟⲥ‐\nⲙⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲛⲁϫⲱ’ⲕ ⲉⲃⲟ’ⲗ ⲛ̅ⲧ’ⲉϥⲥⲩⲥⲧⲁ‐\nⲥⲓⲥ ⲙⲛ̅ ⲧ’ⲉϥⲇⲓⲟⲓⲕⲏⲥⲓⲥ ⲕⲁⲧⲁ ⲟⲩⲙⲛ̅ⲧⲁⲕⲣⲓ‐\nⲃⲏⲥ §ⲧⲟⲧⲉ ϥⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅ⲑⲉ ⲉⲛⲧⲁⲩ‐\nϩⲉ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲛ̅ⲛⲉⲑⲏ’ⲡ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nϫⲓⲛ ⲧⲕⲁⲧⲁⲃⲟⲗ’ⲏ ϣⲁ ϩⲟⲩⲛ ⲁⲧⲥⲩⲛⲧⲉⲗⲉⲓⲁ\nⲙ̅ⲡⲁ[ⲓ]ⲱⲛ §ϯⲛ̅ⲛⲏⲩ ⲇⲉ ⲉϩⲟⲩⲛ ⲉⲛⲕⲉⲫⲁⲗⲁⲓⲟⲛ"
+        },
+        {
+          "title": "123, 31-125, 14",
+          "subtitle": "123, 31-125, 14",
+          "heading": "(123, 31-125, 14)",
+          "rangeLabel": "123, 31-125, 14",
+          "range": {
+            "start": {
+              "page": 123,
+              "line": 31
+            },
+            "end": {
+              "page": 125,
+              "line": 14
+            }
+          },
+          "english": "Now I come to the main points [about] immortal humanity. I shall discuss all the\nbeings belonging to immortal humanity and explain how they got here.\nWhen a multitude of people had come into being through [Adam, who]\nwas formed from matter, and the world was filled, the rulers reigned over it-\nthat is, they kept it in ignorance.\nWhat is the reason? It is this. The immortal Father knows that deficiency of\ntruth came to be among the aeons and their world. So when he wanted to bring\ndown the rulers of perdition by means of their modeled creatures, he sent the\nblessed little innocent spirits, who are like you, down to the world of perdition.\nThey are not strangers to knowledge.\nAll knowledge is in one angel who appears to them. This angel stands before\nthe Father and is not incapable of giving them knowledge.\nWhenever they appear in the world of perdition, the blessed spirits\nimmediately reveal the pattern of incorruptibility so as to condemn the rulers and\ntheir powers.\nWhen the blessed spirits appeared in the modeled bodies of the authorities,\nthe authorities were jealous of them. Out of envy the authorities mixed their\nsemen with them in order to defile them, but they were not able.\nWhen the blessed spirits appeared in an enlightened form, they appeared in\ndifferent ways. They came from different realms and revealed their knowledge to\nthe church that appeared in the modeled bodies of perdition. The church was\nfound to have all kinds of seed because of the seed of the authorities mixed [with\nit].\nThen the Savior made all of them [one]. The spirits of these people [proved\nto be] superior, being blessed but varying in election. There are many\nothers who are kingless and superior to everyone before them.\nSo there are four generations. Three generations belong to the kings of the\neighth heaven, and the fourth generation, which is the most exalted, is kingless\nand perfect.\nThese people will enter the holy place of their Father, and they will reside in\nrest, and eternal, ineffable glory, and ceaseless joy. They already are kings. They\nare the immortal within the mortal, and they will condemn the gods of chaos and\ntheir powers.",
+          "coptic": "ⲙ̅ⲡⲁ[ⲓ]ⲱⲛ §ϯⲛ̅ⲛⲏⲩ ⲇⲉ ⲉϩⲟⲩⲛ ⲉⲛⲕⲉⲫⲁⲗⲁⲓⲟⲛ\nⲉⲧϫⲓ ⲉ[ϩⲟⲩⲛ ⲉ]ⲡⲣⲱⲙⲉ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ϯⲛⲁ‐\nϣⲁϫⲉ ⲉⲛ[ⲉⲧⲉ] ⲛⲟ’ⲩϥ ⲧⲏⲣⲟⲩ ϫⲉ ⲉⲧⲃⲉ ⲟⲩ\nⲛ̅ⲥⲙⲟ’ⲧ ⲉⲩⲛ̅ⲛⲉⲉⲓⲙⲁ §ⲛ̅ⲧⲁ[ⲣⲉ ⲟ]ⲩⲙ[ⲏ]ⲏ‐\nϣⲉ ⲣ̅ⲣⲱⲙⲉ ϣⲱⲡⲉ ⲉⲃⲟ[ⲗ ϩⲛ̅ ⲁⲇⲁⲙ ⲡⲁⲓ̈]\nⲛ̅ⲧⲁⲩⲡⲗⲁⲥⲥⲉ ⲙ̅ⲙ’ⲟϥ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛ̅ ⲑⲩⲗ’ⲏ\nⲏⲇⲏ ⲛ̅ⲧⲁⲣⲉ ⲡⲕⲟⲥⲙⲟⲥ ⲙⲟⲩϩ ⲁⲛⲁⲣⲭⲱⲛ ⲣ̅ ϫⲟ‐\nⲉⲓⲥ ⲉϩⲣⲁⲓ̈ ⲉϫ’ⲱϥ ⲉⲧⲉ ⲡⲁⲉⲓ ⲡⲉ ⲁⲩⲕⲁⲧⲉⲭⲉ ⲙ̅‐\nⲙ’ⲟϥ ϩⲛ̅ ⲟⲩⲙ̅ⲛ̅ⲧⲁⲧⲥⲟⲟⲩⲛ §ⲁϣ ⲡⲉ ⲡⲁⲓⲧⲓⲟⲛ\nⲡⲁⲉⲓ ⲡⲉ ⲉⲡⲉⲓ ⲡⲉⲓⲱ’ⲧ ⲛ̅ⲁⲑⲁⲛⲁⲧⲟⲥ ⲥⲟⲟⲩⲛ\nϫⲉ ⲁⲩϣⲧⲁ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲁⲓ‐\nⲱ’ⲛ ⲙⲛ̅ ⲡⲟⲩⲕⲟⲥⲙⲟⲥ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲛ̅ⲧⲁⲣ’ⲉϥⲟⲩ‐\nⲱϣ ⲁⲟⲩⲱⲥϥ ⲛ̅ⲛ̅ⲁⲣⲭⲱ’ⲛ ⲙ̅ⲡⲧⲁⲕⲟ ϩⲓⲧⲛ ⲛⲟⲩ‐\nⲡⲗⲁⲥⲙⲁ ⲁϥϫⲟⲟⲩ ⲛ̅ⲛⲉⲧⲛ̅ⲉⲓⲛⲉ ⲉϩⲣⲁⲓ̈ ⲉⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲙ̅ⲡⲧⲁⲕⲟ ⲉⲧⲉ ⲛⲁⲉⲓ ⲛⲉ ⲙ̅ⲡⲛ̅ⲁ̅ ⲛ̅ⲃⲁⲗϩⲏ’ⲧ\nⲛ̅ⲕⲟⲩⲉⲓ ⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ ⲥⲉⲟ ⲁⲛ ⲛ̅ϣⲙ̅ⲙⲟ ⲉ’ⲧ‐\nⲅⲛⲱⲥⲓⲥ §ⲧⲅⲛⲱⲥⲓⲥ ⲅⲁⲣ ⲧⲏⲣⲥ̅ ϩⲛ̅ⲛⲟⲩⲁ’ⲅⲅⲉⲗⲟⲥ\n† ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲓ ⲧⲟⲩⲉϩⲏ ⲡⲁⲉⲓ ⲟⲩⲁⲧϭⲟ’ⲙ\nⲁⲛ ⲡⲉ ⲛ̅ⲛⲁϩⲣⲙ̅ ⲡⲉⲓⲱ’ⲧ ⲁⲩⲱ ⲁ〈ϥ〉ϯ ⲛⲁⲩ ⲛ̅ⲧⲅⲛⲱ‐\nⲥⲓⲥ [ⲧⲅⲛⲱⲥⲓⲥ ⲅⲁⲣ ⲧⲏⲣⲥ̅ ϩⲛ̅ⲛⲟⲩⲁ’ⲅⲅⲉⲗⲟⲥ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ%2 ϩⲓⲧⲟⲩⲉϩⲏ ⲡⲁⲉⲓ ⲟⲩⲁⲧϭⲟ’ⲙ\nⲁⲛ ⲡⲉ ⲛ̅ⲛⲁϩⲣⲙ̅ ⲡⲉⲓⲱ’ⲧ ⲁⲩⲱ ⲁϯ ⲛⲁⲩ ⲛ̅ⲧⲅⲛⲱ‐\nⲥⲓⲥ] §ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲉⲩϣⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥ‐\nⲙⲟⲥ ⲙ̅ⲡⲧⲁⲕⲟ ⲥⲉⲛⲁϭⲱⲗ’ⲡ ⲉⲃⲟⲗ ⲛ̅ϣⲟⲣ’ⲡ ⲙ̅‐\nⲡⲧⲩⲡⲟⲥ ⲛ̅ⲧⲙⲛ̅ⲧⲁ’ⲧⲧⲁⲕⲟ ⲁⲩⲕⲁⲧⲁⲕⲣⲓⲥⲓⲥ\nⲛ̅ⲛ̅ⲁⲣⲭⲱⲛ ⲙⲛ̅ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲛ̅ⲧⲁⲣⲉ ⲙ̅ⲙⲁ‐\nⲕⲁⲣⲓⲟⲥ ϭⲉ ⲟⲩⲱⲛϩ ⲉⲃⲟ’ⲗ ϩⲛ̅ ⲡⲗⲁⲥⲙⲁ ⲛ̅ⲉ‐\nⲝⲟⲩⲥⲓⲁ ⲁⲩⲕⲱϩ ⲉⲣⲟⲟⲩ ⲁⲛⲉⲝⲟⲩⲥⲓⲁ ⲇⲉ ⲉⲧⲃⲉ\nⲡⲕⲱϩ ⲁⲩⲧⲱϩ ⲛ̅ⲛⲟⲩⲥⲡⲉⲣⲙ’ⲁ ⲛⲙ̅ⲙⲁⲩ ⲁⲧⲣⲟⲩ‐\nϫⲁϩⲙⲟⲩ ⲙ̅ⲡⲟⲩϣϭⲙ̅ ϭⲟ’ⲙ §ⲙ̅ⲙⲁⲕⲁⲣⲓⲟ’ⲥ\nϭⲉ ⲛ̅ⲧⲁⲣⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ⲛⲟⲩⲟⲉⲓⲛ ⲕⲁⲧⲁ\nⲇⲓⲁⲫⲟⲣⲁ ⲁⲩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲱ ⲡⲟⲩⲁ ⲡⲟⲩⲁ\nⲛ̅ϩⲏⲧⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲕⲁϩ ⲁⲩϭⲱⲗ’ⲡ ⲉⲃⲟⲗ\nⲛ̅ⲧⲟⲩⲅⲛⲱⲥⲓⲥ ⲛ̅ⲧⲉ’ⲕⲕⲗⲏⲥⲓⲁ ⲛ̅ⲧⲁϩⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ ϩⲛ̅ⲛⲙ̅ⲡⲗⲁⲥⲙⲁ ⲙ̅ⲡⲧⲁⲕ’ⲟ ⲁⲩϩⲉ ⲉ‐\nⲣⲟⲥ ⲉⲩⲛ̅ⲧⲁⲥ ⲥⲡⲉⲣⲙⲁ ⲛⲓ’ⲙ ⲉⲧⲃⲉ ⲛ̅[ⲥ]ⲡⲉⲣ‐\nⲙⲁ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲛ̅ⲧⲁϩⲧⲱ[ϩ ⲛⲙ̅ⲙⲁⲥ] §ⲧⲟ[ⲧ]ⲉ\nⲡⲥⲱⲧⲏ’ⲣ ⲁϥⲧⲁⲙⲓⲟ ⲛ̅ⲟ[ⲩ.....]ⲉⲓ ⲉⲃⲟⲗ\nⲛ̅[ϩ]ⲏⲧⲟⲩ [ⲧ]ⲏⲣⲟⲩ ⲁⲩⲱ ⲙ̅ⲡ̅ⲛ̅ⲁ̅̅ ⲛ̅ⲛⲁⲉⲓ ⲟⲩ‐\n[ⲟⲛϩ ⲉⲃⲟⲗ ⲉⲩⲥ]ⲟⲧ’ⲡ ⲉⲩⲟ ⲙ̅ⲙⲁⲕⲁⲣⲓⲟ’ⲥ\nⲁⲩⲱ ⲉⲩϣⲃⲉⲓⲟⲉⲓ’ⲧ ⲁⲛⲉ’ⲕⲗⲟⲅⲏ ⲁⲩⲱ ϩⲛ̅‐\nⲕⲟⲟⲩⲉ ⲉⲛⲁϣⲱⲟⲩ ⲉⲩⲟ ⲛ̅ⲁⲧⲣ̅ⲣⲟ ⲉⲩⲥⲟⲧ’ⲡ\nⲁⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧϩⲓ ⲧⲟⲩⲉϩⲏ §ϩⲱⲥⲧⲉ ⲟⲩⲛ̅ ϥⲧⲟ‐\nⲟⲩ ⲛ̅ⲅⲉⲛⲟⲥ ϣⲟⲟ’ⲡ ⲟⲩⲛ̅ ϣⲟⲙⲧ ⲉⲧⲏ’ⲡ ⲁⲛⲣ̅‐\nⲣⲱⲟⲩ ⲛ̅ⲧⲁⲙⲁϩϣⲙⲟⲩⲛⲉ ⲡⲙⲁϩϥⲧⲟⲟⲩ ⲇⲉ\nⲛ̅ⲅⲉⲛⲟⲥ ⲟⲩⲁ’ⲧⲣ̅ⲣⲟ ⲡⲉ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ ⲉϥⲙ̅‐\nⲡⲟⲩⲥⲁ ⲛϩⲣⲉ ⲧⲏⲣⲟⲩ §ⲛⲁⲉⲓ ⲅⲁⲣ ⲉⲩⲛⲁⲃⲱⲕ†\nⲉϩⲟⲩ’ⲛ ⲉⲡⲧⲟⲡⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ ⲙ̅ⲡⲟⲩⲉⲓⲱ’ⲧ\nⲁⲩⲱ ⲥⲉⲛⲁⲙ̅ⲧⲟⲛ ⲙ̅ⲙⲟⲟⲩ ϩⲛ̅ ⲟⲩⲁⲛⲁⲡⲁⲩ‐\nⲥⲓⲥ ⲙⲛ̅ⲛⲟⲩⲉⲟⲟⲩ ϣⲁ ⲉⲛⲉϩ ⲉⲙⲁⲩϣϣⲁϫⲉ\nⲉⲣⲟϥ ⲁⲩⲱ ϩⲛ̅ ⲟⲩⲣⲁϣⲉ ⲁϫⲛ̅ ⲱϫⲛ̅ §ⲥⲉⲟ ⲇⲉ\nⲛ̅ⲣ̅ⲣⲟ ϩⲙ̅ ⲡⲑⲛⲏⲧⲟⲛ ϩⲱⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ ⲥⲉ‐\nⲛⲁⲣ̅ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲛ̅ⲛ̅ⲛⲟⲩⲧⲉ ⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅\nⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲡⲗⲟⲅⲟⲥ ϭⲉ ⲉⲧϫⲟⲥⲉ ⲉⲟⲩ‐"
+        },
+        {
+          "title": "Jesus the Word",
+          "subtitle": "Jesus the Word",
+          "heading": "Jesus the Word (125, 14-32)",
+          "rangeLabel": "125, 14-32",
+          "range": {
+            "start": {
+              "page": 125,
+              "line": 14
+            },
+            "end": {
+              "page": 125,
+              "line": 32
+            }
+          },
+          "english": "The Word who is above all was sent for one reason only, to announce what is\nunknown. He said, “There is nothing hidden that is not apparent, and what has\nnot been known will be known.”\nThese people were sent to reveal what is hidden and expose the seven\nauthorities of chaos and their godlessness, and so they were condemned to\ndeath.\nWhen all those who are perfect appeared in the modeled bodies of the rulers\nand revealed matchless truth, they put to shame all the wisdom of the gods.\nTheir fate was condemnation,\ntheir power was dried up,\ntheir dominion was dissolved,\ntheir forethought was [empty],\nas was their glory.",
+          "coptic": "ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ §ⲡⲗⲟⲅⲟⲥ ϭⲉ ⲉⲧϫⲟⲥⲉ ⲉⲟⲩ‐\nⲟⲛ ⲛⲓⲙ ⲁⲩⲧⲛ̅ⲛⲟⲟ’ⲩϥ ⲉⲡⲉⲉⲓϩⲱⲃ ⲙⲟⲛⲟⲛ\nⲁⲧⲣⲉϥⲣ̅ⲕⲏⲣⲩⲥⲥⲉ ⲉⲧⲃⲉ ⲡⲉⲧⲟⲩⲥⲟⲟⲩⲛ ⲁⲛ\nⲙ̅ⲙⲟϥ ⟦ϫ⟧ ⲡⲉϫ’ⲁϥ ϫⲉ ⲙⲛ̅ ⲡⲉⲑⲏ’ⲡ ⲉⲧⲟⲩ‐\nⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ ⲁⲩⲱ ⲡⲉⲧⲉ ⲙ̅ⲡⲟⲩⲥⲟⲩⲱ’ⲛϥ\nⲥⲉⲛⲁⲥⲟⲩⲱ’ⲛϥ §ⲛⲁⲉⲓ ⲇⲉ ⲁⲩⲧⲛ̅ⲛⲟⲟⲩⲥⲉ\nⲁⲧⲣⲟⲩⲟⲩⲱⲛ’ϩ ⲉⲃⲟⲗ ϩⲙ̅ⲡⲡⲉⲑⲏ’ⲡ ⲙⲛ̅\nⲧⲥⲁϣϥⲉ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲭⲁⲟⲥ ⲙⲛ̅ ⲧⲟⲩ‐\nⲙⲛ̅ⲧⲁⲥⲉⲃⲏⲥ ⲁⲩⲱ ⲧⲉⲉⲓϩⲉ ⲁⲩⲕⲁⲧⲁⲕⲣⲓ‐\nⲛⲉ ⲙ̅ⲙⲟⲟⲩ ⲉⲙⲟⲟⲩⲧⲟⲩ §ⲛ̅ⲧⲁⲣⲉ ⲛ̅ⲧⲉⲗⲉⲓ‐\nⲟⲥ ϭⲉ ⲧⲏⲣⲟⲩ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲙ̅ⲡⲗⲁⲥ‐\nⲙⲁ ⲛ̅ⲛ̅ⲁⲣⲭⲱⲛ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲟⲩϭⲱⲗ’ⲡ ⲉ‐\nⲃⲟⲗ ⲛ̅ⲧⲁⲗⲏⲑⲉⲓⲁ ⲉⲙⲛ̅ ⲡⲉ’ⲧⲧⲛ̅ⲧⲱⲛ ⲉ‐\nⲣⲟⲥ ⲁⲩϯ ϣⲓⲡⲉ ⲛ̅ⲥⲟⲫⲓⲁ ⲛⲓⲙ ⲛ̅ⲛ̅ⲛⲟⲩ‐\nⲧⲉ ⲁⲩⲱ ⲧⲟⲩϣⲓⲙⲁⲣⲙⲉⲛⲏ%2 ⲁⲩϩⲉ ⲉⲣⲟⲥ\nⲉⲥⲟ ⲛ̅ⲕⲁⲧⲁⲅⲛⲱⲥⲓⲥ ⲁⲩⲱ ⲧⲟⲩⲇⲩⲛⲁⲙⲓⲥ\nⲁⲥⲱϣ’ⲙ̅ ⲧⲟⲩⲙⲛ̅ⲧϫⲟⲉⲓⲥ ⲁⲩⲣ̅ⲕⲁⲧⲁⲗⲩⲉ\nⲙ̅ⲙ[ⲟ]ⲥ ⲧⲟⲩⲡⲣⲟⲛⲟⲓⲁ ⲁⲥϣⲱⲡⲉ ⲁⲩⲡⲉ’ⲧ‐\nϣ[ⲟⲩⲉⲓ’ⲧ ⲙⲛ̅ ⲡ]ⲟⲩⲉⲟⲟⲩ §ϩⲁ ⲧⲉϩⲏ ⲛ̅ⲧⲥⲩⲛ‐"
+        },
+        {
+          "title": "The End of the Age",
+          "subtitle": "The End of the Age",
+          "heading": "The End of the Age (125, 32-126, 35)",
+          "rangeLabel": "125, 32-126, 35",
+          "range": {
+            "start": {
+              "page": 125,
+              "line": 32
+            },
+            "end": {
+              "page": 126,
+              "line": 35
+            }
+          },
+          "english": "Before the end [of the age], this whole region will shake with loud thunder. The\narchons will lament because of their [fear of] death, the angels will grieve\nfor their human beings, the demons will weep over their times and seasons, and\ntheir people will mourn and cry on account of their death.\nThen the age will come, and they will be disturbed. Their kings will be drunk\nfrom the flaming sword and will wage war against each other, so that the earth\nwill be drunk from the blood that is poured out. The seas will be troubled by war.\nThe sun will darken and the moon will lose its light. The stars of the sky will\nabandon their circuits, and loud thunder will roar from a great power, above all\nthe powers of chaos, where the firmament of the female is located. She had\nproduced the first creation, and now she will put away her wise fire of\nafterthought and put on irrational wrath.\nPistis Sophia will drive out the gods of chaos, whom she had created along\nwith the chief creator, and she will cast them down to the abyss. They will be\nwiped out through their own injustice. They will be like mountains blazing with\nfire, and they will consume one another until they are destroyed by their chief\ncreator. When he destroys them, he will turn on himself and attack himself until\nhe is no more.\nThe heavens of the gods of chaos will collapse upon one another and their\npowers will be consumed. Their realms will also be overthrown. The chief\ncreator’s heaven will fall and split in half. His [stars in their sphere] will fall\ndown to the earth, [and the earth will not] be able to endure them. They will fall\n[down] to the abyss, and the abyss will be overthrown.",
+          "coptic": "ϣ[ⲟⲩⲉⲓ’ⲧ ⲙⲛ̅ ⲡ]ⲟⲩⲉⲟⲟⲩ §ϩⲁ ⲧⲉϩⲏ ⲛ̅ⲧⲥⲩⲛ‐\nⲧⲉⲗⲉⲓⲁ [ⲙ̅ⲡⲁⲓⲱ]ⲛ ⲡⲙⲁ ⲧⲏⲣϥ ⲛⲁⲛⲟⲉⲓⲛ\nϩⲓⲧⲛ̅ⲛⲟⲩ[ⲛ]ⲟϭ ⲛ̅ϩⲣⲟⲩⲃⲃⲁ[ⲉⲓ] ⲧⲟⲧⲉ ⲛ̅ⲁⲣ‐\nⲭⲱⲛ ⲛⲁⲣ̅ⲡⲉⲛⲑⲉⲓ ⲉⲩ[.......ⲡⲟ]’ⲩ\nⲙⲟⲩ ⲛ̅ⲁⲅⲅⲉⲗⲟⲥ ⲛⲁⲣ̅ ϩⲏⲃⲉ ⲛ̅ⲛⲟⲩⲣⲱⲙⲉ\nⲁⲩⲱ ⲛ̅ⲇⲁⲓⲙⲱⲛ ⲛⲁⲣⲓⲙⲉ ⲛ̅ⲛⲟⲩⲕⲁⲓⲣⲟⲥ\nⲁⲩⲱ ⲛⲟⲩⲣⲱⲙⲉ ⲥⲉⲛⲁⲛⲉϩⲡⲉ ⲛ̅ⲥⲉⲁϣ‐\nⲕⲁ’ⲕ ⲉⲃⲟⲗ ⲉϫⲛ̅ ⲡⲟⲩⲙⲟⲩ §ⲧⲟⲧⲉ ⲡⲁⲓⲱⲛ\nⲛⲁⲣ̅ⲁⲣⲭⲉⲓ ⲛ̅ⲥⲉϣⲧⲟⲣⲧⲣ̅ ⲛⲉϥⲣ̅ⲣⲱⲟⲩ ⲛⲁ‐\nϯϩⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲥⲏϥⲉ ⲛ̅ⲥⲁⲧⲉ ⲁⲩⲱ ⲥⲉⲛⲁ‐\nⲣ̅ ⲡⲟⲗⲉⲙⲟⲥ ⲉϩⲟⲩⲛ ⲉⲛⲟⲩⲉⲣⲏⲩ ϩⲱⲥⲧⲉ\nⲛ̅ⲧⲉ ⲡⲕⲁϩ ϯϩⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲥⲛ’ⲟϥ ⲉⲧⲡⲟϩ’ⲧ\nⲉⲃⲟⲗ ⲁⲩⲱ ⲛ̅ⲑⲁⲗⲁⲥⲥⲁ ⲛⲁϣⲧⲟⲣⲧⲣ̅ ϩⲓⲧⲛ̅\nⲙ̅ⲡⲟⲗⲉⲙⲟⲥ ⲉⲧⲙ̅ⲙⲁⲩ §ⲧⲟⲧⲉ ⲡⲣⲏ ⲛⲁⲣ̅ ⲕⲁ‐\nⲕⲉ ⲁⲩⲱ ⲡⲟⲟϩ ⲛⲁⲧⲁⲕⲟ ⲙ̅ⲡⲉϥⲟⲩⲟⲉⲓⲛ\nⲛ̅ⲥⲓⲟⲩ ⲛ̅ⲧⲡⲉ ⲛⲁⲣ̅ⲁⲑⲉⲧⲉⲓ ⲙ̅ⲡⲟⲩⲇⲣⲟⲙⲟⲥ\nⲁⲩⲱ ⲟⲩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ϩⲣⲟⲩⲃⲃⲁⲉⲓ ⲛⲏⲩ ⲉ‐\nⲃⲟⲗ ϩⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲉⲧⲙ̅ⲡⲥⲁ ⲛ‐\nⲧⲡⲉ ⲛ̅ⲛ̅ⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲭⲁⲟⲥ ⲡⲙⲁ\nⲉⲧⲉ ⲡⲥⲧⲉⲣⲉⲱⲙⲁ ⲙ̅ⲙⲁⲩ ⲛ̅ⲧⲥϩⲓⲙⲉ ⲛ̅ⲧⲁ‐\nⲣⲉ ⲧⲏ ⲧⲁⲙⲓⲟ ⲙ̅ⲡϣⲟⲣ’ⲡ ⲛ̅ⲉⲣⲅⲟⲛ ⲥⲛⲁ‐\nⲕⲱ ⲉϩⲣⲁⲓ̈ ⲙ̅ⲡⲕⲱϩ’ⲧ ⲛ̅ⲥⲁⲃⲉ ⲛ̅ⲧⲉ ⲧⲉⲡⲓ‐\nⲛⲟⲓⲁ ⲥⲛⲁϯ ϩⲓⲱⲱⲥ ⲛ̅ⲟⲩⲟⲣⲅⲏ ⲙ̅ⲙⲛ’ⲧ‐\nⲁⲑⲏⲧ §ⲧⲟⲧⲉ ⲥⲛⲁⲣ̅ⲇⲓⲱⲕⲉ ⲛ̅ⲛ̅ⲛⲟⲩⲧⲉ\nⲙ̅ⲡⲭⲟⲁⲥ ⲛⲁⲉⲓ ⲛ̅ⲧⲁⲥⲥⲟⲛⲧⲟⲩ ⲙⲛ̅ ⲡⲁ’ⲣ‐\nⲭⲓⲅⲉⲛⲉⲧⲱ’ⲣ ⲥⲛⲁⲛⲟϫⲟⲩ ⲉⲡⲓⲧⲛ̅ ⲉⲡⲛⲟⲩⲛ\nⲥⲉⲛⲁϥⲟⲧⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲟⲩⲁⲇⲓⲕⲓ’ⲁ ⲥⲉⲛⲁ‐\nϣⲱⲡⲉ ⲅⲁ’ⲣ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲧⲟⲟⲩ ⲉⲧϫⲉⲣⲉ ⲕⲱϩ’ⲧ\nⲛ̅ⲥⲉⲟⲩⲱⲙ ⲛ̅ⲥⲁ ⲛⲟⲩⲉⲣⲏⲩ ϣⲁⲛⲧⲟⲩⲱϫⲛ̅\nⲉⲃⲟⲗ ϩⲓⲧⲟⲟ’ⲧϥ ⲙ̅ⲡⲟⲩⲁⲣⲭⲓⲅⲉⲛⲉⲧⲱ’ⲣ\nϩⲟⲧⲁⲛ ⲉϥϣⲁⲛⲟϫⲛⲟⲩ ϥⲛⲁⲕⲟ’ⲧϥ ⲉⲣ’ⲟϥ\nⲟⲩⲁ’ⲁϥ ⲛ̅ϥⲟϫⲛ’ⲉϥ ϣⲁⲛⲧ’ⲉϥⲱϫⲛ̅ §ⲁⲩⲱ\nⲛⲟⲩⲙ̅ⲡⲏⲩⲉ ⲛⲁϩⲁⲉⲓⲉ ⲉϫⲛ̅ ⲛⲟⲩⲉⲣⲏⲩ\nⲁⲩⲱ ⲛ̅ⲧⲉ ⟦ⲩ⟧ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ ⲣⲟⲕϩ † ⲛ̅ⲟⲩⲕⲉ‐\nⲁⲓⲱⲛ ⲥⲉⲛⲁϣⲟⲣϣⲣ̅ §ⲁⲩⲱ ⲧⲉϥⲡⲉ ⲛⲁ‐\nϩⲁⲉⲓⲉ ⲛ̅ⲥⲣ̅ ⲥⲛⲁⲩ ⲡⲉϥⲕ....ⲛ̅[...] ⲛⲁ‐\nϩⲁⲉⲓⲉ ⲉⲡⲉⲥⲏ’ⲧ ⲉⲡⲕⲁ[........].‐\nϣϥⲓ ϩⲁⲣⲟⲟⲩ ⲥⲛⲁϩⲁⲉ[ⲓⲉ ⲉⲡⲓⲧ]ⲛ̅ ⲉⲡⲛⲟⲩⲛ\nⲁ[ⲩ]ⲱ ⲡⲛ[ⲟⲩ]ⲛ ⲛⲁϣⲟⲣ̅ϣⲣ̅ §ⲡⲟⲩⲟⲉⲓⲛ ⲛ’ⲁ‐"
+        },
+        {
+          "title": "Light Overcomes Darkness",
+          "subtitle": "Light Overcomes Darkness",
+          "heading": "Light Overcomes Darkness (126, 35-127, 17)",
+          "rangeLabel": "126, 35-127, 17",
+          "range": {
+            "start": {
+              "page": 126,
+              "line": 35
+            },
+            "end": {
+              "page": 127,
+              "line": 17
+            }
+          },
+          "english": "The light will [overcome the] darkness and banish it. The darkness will be like\nsomething that never was, and the source of darkness will be dissolved.\nDeficiency will be pulled out by its root and cast down into the darkness, and the\nlight will withdraw up to its root.\nThe glory of the unbegotten will appear and fill all the eternal realms when\nthe prophets and the writings of rulers are revealed and fulfilled by those who\nare called perfect. Those who have not become perfect in the unbegotten Father\nwill receive glory in their realms and the kingdoms of immortals, but they will\nnever enter the kingless realm.\nAll must return to the place where they came from. By what they do and\nwhat they know all of them will reveal their natures.",
+          "coptic": "ⲁ[ⲩ]ⲱ ⲡⲛ[ⲟⲩ]ⲛ ⲛⲁϣⲟⲣ̅ϣⲣ̅ §ⲡⲟⲩⲟⲉⲓⲛ ⲛ’ⲁ‐\n[.... ⲙ̅ⲡⲕⲁ]ⲕⲉ ⲛ̅ϥϥⲟ’ⲧϥ ⲉⲃⲟⲗ ϥⲁⲣ̅ ⲑⲉ\nⲙⲡⲉⲧⲉ ⲙ̅ⲡⲉϥϣⲱⲡⲉ ⲁⲩⲱ ⲡⲉⲣⲅⲟⲛ ⲛ̅ⲧⲁ\nⲡⲕⲁⲕⲉ ⲟⲩⲏϩ ⲛ̅ⲥ’ⲱϥ ϥⲛⲁⲃⲱ’ⲗ ⲉⲃⲟ’ⲗ ⲁⲩⲱ\nⲡϣⲧⲁ ⲛⲁⲡⲱⲣ’ⲕ ϩⲁ ⲧⲉϥⲛⲟⲩⲛⲉ ⲉⲡⲓⲧⲛ̅ ⲉ‐\nⲡⲕⲁⲕⲉ ⲁⲩⲱ ⲡⲟⲩⲟⲉⲓⲛ ⲛⲁⲣ̅ⲁⲛⲁⲭⲱⲣⲉⲓ ⲉϩ‐\nⲣⲁⲓ̈ ⲉⲧⲉϥⲛⲟⲩⲛⲉ §ⲁⲩⲱ ⲡⲉⲟⲟⲩ ⲙ̅ⲡⲁⲅⲉⲛ‐\nⲛⲏⲧⲟⲥ ⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲩⲱ ϥⲛⲁⲙⲟⲩϩ\nⲛ̅ⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ ⲉⲣϣⲁ ⲧⲡⲣⲟⲫⲏⲧⲉⲓⲁ ⲙⲛ̅\nϫⲓⲥⲧⲟⲣⲓⲁ ⲛ̅ⲛⲉⲧⲟ ⲛ̅ⲣ̅ⲣⲟ ϭⲱⲗ’ⲡ ⲉⲃⲟⲗ ⲁⲩⲱ\nⲛ̅ⲥϫⲱ’ⲕ ⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲛⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ\nϫⲉ ⲧⲉⲗⲉⲓⲟⲥ ⲛⲉⲧⲉ ⲙ̅ⲡⲟⲩⲣ̅ ⲧⲉⲗⲉⲓⲟⲥ ⲇⲉ\nϩⲙ̅ ⲡⲁⲅⲉⲛ〈ⲛ〉ⲏⲧⲟⲥ ⲉⲓⲱ’ⲧ ⲥⲉⲛⲁϫ’ⲓ ⲛ̅ⲛⲟⲩⲉ‐\nⲟⲟⲩ ϩⲛ̅ ⲛⲟⲩⲁⲓⲱⲛ ⲁⲩⲱ ϩⲛ̅ ⲙ̅ⲙⲛⲧⲣ̅ⲣⲟ ⲛ̅‐\nⲛⲁⲧⲙⲟⲩ ⲥⲉⲛⲁⲃⲱ’ⲕ ⲇⲉ ⲁⲛ ⲉⲛⲉϩ ⲉϩⲟⲩⲛ\nⲉⲧⲙⲛ̅ⲧⲁⲧⲣ̅ⲣⲟ §ϩⲁⲡⲥ̅ ⲅⲁⲣ ⲉⲧⲣⲉ ⲟⲩⲟⲛ ⲛⲓ’ⲙ\nⲃⲱ’ⲕ ⲉⲡⲧⲟⲡⲟⲥ ⲛ̅ⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ̅ ⲡⲟⲩ‐\nⲁ ⲅⲁⲣ ⲡⲟⲩⲁ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲉϥⲡⲣⲁⲝⲓⲥ ⲙⲛ̅ ⲧⲉϥ‐\nⲅⲛⲱⲥⲓⲥ ⲛⲁϭⲱⲗ’ⲡ ⲉⲃⲟ’ⲗ ⲛ̅ⲧⲉϥⲫⲩⲥⲓⲥ \n( codex II ) The Exegesis on the Soul"
+        }
+      ]
+    },
+    {
+      "workId": "exegesis-on-the-soul",
+      "chapterName": "Exegesis on the Soul",
+      "title": "Codex II - Exegesis on the Soul",
+      "sourceTitle": "EXEGESIS ON THE SOUL",
+      "sections": [
+        {
+          "title": "The Female Soul",
+          "subtitle": "The Female Soul",
+          "heading": "The Female Soul (127, 18-22)",
+          "rangeLabel": "127, 18-22",
+          "range": {
+            "start": {
+              "page": 127,
+              "line": 18
+            },
+            "end": {
+              "page": 127,
+              "line": 22
+            }
+          },
+          "english": "The sages who came before us gave the soul a feminine name. She is also\nfeminine in nature, and she even has a womb.",
+          "coptic": "]ⲧⲉⲝⲏⲅⲏⲥⲓⲥ ⲉⲧⲃⲉ ⲧⲯⲩⲭⲏ[\n§ⲁⲛⲥⲟⲫⲟⲥ ⲉⲧϣⲟⲟⲡ ϩⲓⲧⲛ̅ⲛⲉϩⲏ ⲁⲩϯ ⲟ‐\nⲛⲟⲙⲁⲥⲓⲁ ⲉⲧⲯⲩⲭⲏ ⲛ̅ⲛⲟⲩⲣⲁⲛ ⲛ̅ⲥϩⲓⲙⲉ\nⲟⲛⲧⲱⲥ ⲟⲛ ϩⲛ̅ ⲧⲉⲥⲫⲩⲥⲓⲥ ⲟⲩⲥϩⲓⲙⲉ ⲧⲉ\nⲟⲩⲛ̅ⲧⲁⲥ ⲙ̅ⲙⲁⲩ ϩⲱⲱⲥ ⲛ̅ⲧⲉⲥⲙⲏⲧⲣⲁ §ϩⲉⲱⲥ"
+        },
+        {
+          "title": "Fall of the Soul",
+          "subtitle": "Fall of the Soul",
+          "heading": "Fall of the Soul (127, 22-129, 5) While the soul was alone with the Father, she",
+          "rangeLabel": "127, 22-129, 5",
+          "range": {
+            "start": {
+              "page": 127,
+              "line": 22
+            },
+            "end": {
+              "page": 129,
+              "line": 5
+            }
+          },
+          "english": "While the soul was alone with the Father, she\nwas a virgin and androgynous in form. When she fell down into a body and\nentered this life, she fell into the hands of many robbers. These shameless men\npassed her from one to the other and [violated] her. Some raped her, others\nseduced her with gifts. They defiled her, and she [lost her] virginity.\nIn her body she became a whore and gave herself to everyone, and she\nconsidered each sexual partner to be her husband. After she gave herself to\nshameless, faithless adulterers for them to abuse her, she sighed deeply and\nrepented.\nBut when she turned her face from those adulterers, she ran after others, and\nthey made her live with them and serve them in their beds as if they were her\nmasters. She was ashamed, and then she did not dare to leave them. For a long\ntime they fooled her into thinking they respected her like faithful, true husbands.\nBut finally they left and abandoned her.\nShe became a poor lost widow. She was helpless, and no one even gave ear\nto her in her pain. She got nothing from the adulterers except the filth they left\nwhen they had sex with her. The children she had from the adulterers are mute,\nblind, and sickly. They are disturbed.\nHer Father on high noticed her. He looked down on her and saw her sighing\nin pain and disgrace and repenting of her prostitution. She began to call on him\nfor help, and [she sighed] with all her heart and said, “My Father, save me. Look,\nI shall tell [you how I] left home and fled from my maiden’s quarters.\nRestore me to yourself.”\nWhen he sees her in this condition, he will consider her worthy of his mercy.\nFor many afflictions have come upon her because she left home.",
+          "coptic": "ⲟⲩⲛ̅ⲧⲁⲥ ⲙ̅ⲙⲁⲩ ϩⲱⲱⲥ ⲛ̅ⲧⲉⲥⲙⲏⲧⲣⲁ §ϩⲉⲱⲥ\nⲙⲉⲛ ⲉⲥϣⲟⲟⲡ’ ⲟⲩⲁⲁⲧⲥ̅ ϩⲁϩⲧⲙ̅ ⲡⲉⲓⲱⲧ’\nⲟⲩⲡⲁⲣⲑⲉⲛⲟⲥ ⲧⲉ ⲁⲩⲱ ⲟⲩϩⲟⲩⲧⲥϩⲓⲙⲉ ⲧⲉ\nϩⲙ̅ ⲡⲉⲥⲉⲓⲛⲉ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲥϣⲁⲛϩⲁⲉⲓⲉ\nⲉⲡⲓⲧⲛ̅ ⲉⲥⲱⲙⲁ ⲛ̅ⲥⲓ ⲉⲡⲉⲉⲓⲃⲓⲟⲥ ⲧⲟⲧⲉ ⲁⲥ‐\nϩⲁⲉⲓⲉ ⲁⲧⲟⲟⲧⲟⲩ ⲛ̅ϩⲁϩ ⲛ̅ⲗⲏⲥⲧⲏⲥ ⲁⲩⲱ ⲛ̅‐\nϩⲩⲃ[ⲣⲓ]ⲥⲧⲏⲥ ⲁⲩⲛⲟϫⲥ ⲉⲧⲟⲟⲧⲟⲩ ⲛ̅ⲛⲟⲩⲉⲣⲏⲩ\nⲁⲩ[.........]ⲟⲥ ϩⲟⲉⲓⲛⲉ ⲙⲉⲛ ⲁⲩⲭⲣⲱ\nⲛⲁⲥ ϩ[ⲛ̅ⲛⲟⲩⲃⲓ]ⲁ ϩⲛ̅ⲕⲟⲟⲩⲉ ⲇⲉ ⲉⲩⲡⲉⲓⲑⲉ\nⲙ̅ⲙⲟⲥ ϩⲛ̅ [ⲟ]ⲩⲁⲡⲁⲧⲏ ⲛ̅ⲇⲱⲣ[ⲟ]ⲛ ϩⲁⲡⲁⲝ\nϩⲁⲡⲗⲱⲥ ⲁⲩϫⲟϩⲙⲥ̅ⲁⲥ[.....ⲧⲉⲥⲙⲛ̅]ⲧ\nⲡⲁⲣⲑⲉⲛⲟⲥ §ⲁⲩⲱ ⲁⲥⲡⲟⲣⲛⲉⲩⲉ ϩⲙ̅ ⲡⲉⲥ‐\nⲥⲱⲙⲁ ⲁⲩⲱ ⲁⲥⲧⲁⲁⲥ ⲛ̅ⲧⲟⲟⲧϥ’ ⲟⲩⲟⲛ ⲛⲓⲙ’\nⲁⲩⲱ ⲡⲉⲧⲥⲁϭⲟⲗϫⲥ̅ ⲙ̅ⲙⲟϥ’ ⲉⲥⲙⲉⲉⲩⲉ\nϫⲉ ⲡⲉⲥϩⲁⲉⲓ ⲡⲉ ϩⲟⲡⲧⲟⲉ ⲛ̅ⲧⲁⲥⲧⲁⲁⲥ ⲛ̅‐\nⲧⲟⲟⲧⲟⲩ ⲛ̅ϩⲛ̅ⲙⲟⲓⲭⲟⲥ ⲛ̅ϩⲩⲃⲣⲓⲥⲧⲏⲥ ⲛ̅ⲁ‐\nⲡⲓⲥⲧⲟⲥ ⲁⲧⲣⲟⲩⲣ̅ⲭⲣⲱ ⲛⲁⲥ ⲧⲟⲧⲉ ⲁⲥⲁϣ ⲉϩⲟⲙ’\nⲉⲙⲁⲧⲉ ⲁⲩⲱ ⲁⲥⲙⲉⲧⲁⲛⲟⲉⲓ ⲡⲁⲗⲓⲛ ⲉⲥϣⲁⲛ‐\nⲕⲧⲉ ⲡⲉⲥϩⲟ ⲉⲃⲟⲗ ⲛ̅ⲛⲉⲉⲓⲙⲟⲓⲭⲟⲥ ϣⲁⲥⲡⲱⲧ\nⲉϩⲟⲩⲛ ⲉϩⲛ̅ⲕⲟⲟⲩⲉ ⲛ̅ⲥⲉⲣ̅ⲁⲛⲁⲅⲕⲁⲍⲉ ⲙ̅ⲙⲟⲥ\nⲁⲧⲣⲉⲥϣⲱⲡⲉ ⲛⲙ̅ⲙⲁⲩ ⲛ̅ⲥⲣ̅ ϩⲙϩ̅ⲁ̅ⲗ̅ ⲛⲁⲩ’\nⲛ̅ⲑⲉ ⲛ̅ⲛ̅ϫⲟⲉⲓⲥ ϩⲓϫⲛ̅ ⲡⲟⲩⲙⲁ ⲛ̅ⲅⲕⲟⲧⲕ’\nⲉⲃⲟⲗ ⲇⲉ ⲙ̅ⲡϣⲓⲡⲉ ⲟⲩⲕⲉⲧⲓ ⲙⲁⲥⲧⲟⲗⲙⲁ\nⲉⲕⲁⲁⲩ ⲛ̅ⲥⲱⲥ ⲛ̅ⲧⲟⲟⲩ ⲇⲉ ϣⲁⲩⲁⲡⲁⲧⲁ ⲙ̅‐\nⲙⲟⲥ ⲛ̅ⲛⲟⲩⲛⲟϭ ⲛ̅ⲭⲣⲟⲛⲟⲥ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓϩⲁ‐\nⲉⲓ ⲉⲧⲛ̅ϩⲟⲧ ⲛ̅ⲣⲙ̅ⲙ̅ⲙⲉ ϩⲱⲥ ⲉϣϫⲉ ⲉⲩⲧⲓⲙⲁ\nⲙ̅ⲙⲟⲥ ⲉⲙⲁⲧⲉ ⲁⲩⲱ ⲑϩⲁⲏ ⲛ̅ⲛⲁⲉⲓ ⲧⲏⲣⲟⲩ\nϣⲁⲩⲕⲁⲁⲥ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲥⲉⲃⲱⲕ §ⲛ̅ⲧⲟⲥ ⲇⲉ ϣⲁ‐\nⲣⲉⲥϣⲱⲡⲉ ⲛ̅ⲭⲏⲣⲁ ⲛ̅ϩⲏⲕⲉ ⲛ̅ⲉⲣⲏⲙⲟⲥ’\nⲉⲙⲛ̅ⲧⲁⲥ ⲃⲟⲏⲑⲉⲓⲁ ⲙ̅ⲙⲁⲩ ⲟⲩⲇⲉ ϣⲁⲩⲙⲁ‐\nⲁϫⲉ ⲙⲛ̅ⲧⲁ⟦ϥ⟧ⲥϥ’ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲥⲙ̅ⲕⲁϩ ⲙ̅‐\nⲡⲉⲥϭⲛ̅ ϩⲏⲩ ⲅⲁⲣ ⲗ̅ⲗⲁⲁⲩ ⲛ̅ⲧⲟⲟⲧⲟⲩ ⲉⲓ ⲙⲏ‐\nⲧⲓ ⲁⲛϫⲱϩⲙ̅ ⲛ̅ⲧⲁⲩⲧⲁⲁⲩ ⲛⲁⲥ ϩⲙ̅ ⲡⲧⲣⲟⲩⲣ̅‐\nⲕⲟⲓⲛⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁⲥ ⲁⲩⲱ ⲛⲉⲛⲧⲁⲥϫⲡⲟ‐\nⲟⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲙⲟⲓⲭⲟⲥ ⲛ̅ⲕⲱⲫⲟⲥ ⲛⲉ ⲁⲩ‐\nⲱ ϩⲛ̅ⲃⲗ̅ⲗⲁⲁⲩ ⲛⲉ ⲁⲩⲱ ⲥⲉⲟ ⲛ̅ⲣⲙ̅ⲛ̅ⲗⲁϫ‐\nⲗⲉϫ’ ⲡⲟⲩϩⲏⲧ’ ⲡⲟϣⲥ̅ §ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲣϣⲁⲛ‐\nⲡⲉⲓⲱⲧ’ ⲉⲧⲙ̅ⲡⲥⲁ ⲛⲧⲡⲉ ϭⲙ̅ ⲡⲉⲥϣⲓⲛⲉ ⲛ̅‐\nϥϭⲱϣⲧ’ ⲉⲡⲓⲧⲛ̅ ⲉϫⲱⲥ ⲛ̅ϥⲛⲁⲩ ⲉⲣⲟⲥ ⲉⲥⲉ‐\nϣ ⲉϩⲟⲙ ⲙⲛ̅ ⲛⲉⲥⲡⲁⲑⲟⲥ ⲙⲛ̅ ⲧⲁⲥⲭⲏⲙⲟ‐\nⲥⲩⲛⲏ ⲁⲩⲱ ⲉⲥⲙⲁⲧⲉⲛⲟⲉⲓ ⲉϫⲛ̅ ⲧⲉⲥⲡⲟⲣ’‐\nⲛⲉⲓⲁ ⲛ̅ⲧⲁⲥⲁⲁⲥ ⲁⲩⲱ ⲛ̅ⲥⲁⲣⲭⲉⲓ ⲛ̅ⲛⲣ̅ⲉ‐\nⲡⲓⲕⲁⲗⲉⲓ {ⲛ̅ⲣ̅ⲉⲡⲓⲕⲁⲗⲉⲓ} ⲉϩⲣⲁⲓ̈ ⲉⲡ[ⲉϥⲣ]ⲁⲛ\nⲁⲧⲣⲉϥⲣ̅ⲃⲟⲏⲑⲉⲓ ⲛⲁⲥ ⲉ[ⲥ.......ⲡ]ⲉⲥ‐\nϩⲏⲧ’ ⲧⲏⲣϥ’ ⲉⲥϫⲱ ⲙ̅ⲙⲟ[ⲥ ϫⲉ ⲙⲁ]ⲧⲟⲩϫⲟ‐\nⲉⲓ ⲡⲁⲉⲓⲱⲧ ϫⲉ ⲉⲓⲥϩⲏⲏⲧⲉ ϯⲛⲁϯ ⲗⲟⲅⲟⲥ\n[ⲛⲁⲕ ϫⲉ ⲁϩⲓⲕⲱ] ⲛ̅ⲥⲱⲉⲓ ⲙ̅ⲡⲁⲏⲉⲓ ⲁⲩⲱ’\nⲁϩⲓⲡⲱⲧ’ ⲉⲃⲟⲗ ⲙ̅ⲡⲁⲡⲁⲣ’ⲑⲉⲛⲱⲛ ⲡⲁⲗⲓⲛ\nⲧⲕⲧⲟⲉⲓ ϣⲁⲣⲟⲕ ϩⲟⲧⲁⲛ ⲉϥϣⲁⲛⲛⲁⲩ ⲉⲣⲟⲥ\nⲉⲥϣⲟⲟⲡ’ ⲙ̅ⲡⲉⲉⲓⲥⲙⲟⲧ’ ⲧⲟⲧⲉ ϥⲛⲁⲣ̅ⲕⲣⲓⲛⲉ\nⲁⲁⲥ ⲛ̅ⲁⲝⲓⲟⲥ ⲁⲧⲣⲉϥⲛⲁ ⲛⲁⲥ ϫⲉ ⲛⲁϣⲉ ⲙ̅ⲙⲟⲕϩⲥ\nⲛ̅ⲧⲁϩⲓ ⲉϫⲱⲥ ϫⲉ ⲁⲥⲕⲱ ⲙ̅ⲡⲉⲥⲏⲉⲓ ⲛ̅ⲥⲱⲥ §ⲉϫⲛ̅"
+        },
+        {
+          "title": "On the Prostitution of the Soul",
+          "subtitle": "On the Prostitution of the Soul",
+          "heading": "On the Prostitution of the Soul (129, 5-131, 13) The holy Spirit prophesies in",
+          "rangeLabel": "129, 5-131, 13",
+          "range": {
+            "start": {
+              "page": 129,
+              "line": 5
+            },
+            "end": {
+              "page": 131,
+              "line": 13
+            }
+          },
+          "english": "The holy Spirit prophesies in\nmany places about the prostitution of the soul. The Spirit said in the prophet\nJeremiah:\nIf a husband divorces his wife and she goes and takes another man, can\nshe ever go back to him again? Has not such a woman utterly defiled\nherself? “You played the whore with many shepherds and you returned to\nme,” said the Lord. “Lift up your eyes and see clearly where you went\nwhoring. Were you not sitting in the streets defiling the land with your\nwhoring and your vices? And you took many shepherds as a way of\nstumbling for you. You were shameless with everyone. You did not call on\nme as companion or father or guardian of your virginity.”\nIt is also written in the prophet Hosea:\nCome, accuse your mother, for she is not to be my wife nor I her husband.\nI shall remove her whoring from my presence and her adultery from\nbetween her breasts. I shall make her naked as on the day she was born\nand desolate as a waterless land. I shall make her childless with a [longing\nfor children. I] shall show her children no pity, for they are children of\nprostitution. Their mother played the whore and [shamed her children].\nShe said, “I shall be a whore to my lovers. They gave me bread,\nwater, garments, robes, wine, oil-everything I needed.” Look, I shall\nblock them so that she will not be able to run after her adulterers. When\nshe seeks them but does not find them, she will say, “I shall go back to my\nformer husband, for I was better off then than now.”\nAgain, it is said in Ezekiel:\nIt happened that after much wickedness, the Lord said, you built yourself a\nbrothel and made yourself a beautiful place in the streets. You built\nbrothels in every alley and you wasted your beauty, you spread your legs\nin every alley and multiplied your acts of prostitution. You were a whore\nfor the sons of Egypt, your neighbors, well-endowed men.\nWhat does “the sons of Egypt, well-endowed men” mean if not the realm of the\nflesh and the senses and the things of the earth by which the soul is defiled in\nthis world? She receives from them bread, wine, oil, clothing, and the other\nexternal stuff surrounding the body, the things she thinks she needs.\nBut as to this prostitution, the apostles of the Savior commanded,\nGuard yourselves against it, purify yourself from it.\nThey were speaking not just of the prostitution of the body but especially that of\nthe soul. That is why the apostles write [to the churches] of God so that such\n[things] might not go on among us.\nThe greatest [struggle] is the prostitution of the soul. From it comes the\nprostitution of the body. Thus Paul wrote to the Corinthians and said:\nI wrote to you in my letter, “Do not associate with whores,” not meaning\nthe whores of this world or the greedy or thieves or idol worshipers, since\nthen you would have to leave the world.\nHere he is speaking spiritually:\nFor our struggle is not against flesh and blood-as he said-but against\nthe world rulers of this darkness and the spirits of evil.",
+          "coptic": "ⲛ̅ⲧⲁϩⲓ ⲉϫⲱⲥ ϫⲉ ⲁⲥⲕⲱ ⲙ̅ⲡⲉⲥⲏⲉⲓ ⲛ̅ⲥⲱⲥ §ⲉϫⲛ̅\nⲧⲡⲟⲣⲛⲓⲁ ϭⲉ ⲛ̅ⲧⲯⲩⲭⲏ ϥⲡⲣⲟⲫⲏⲧⲉⲩⲉ ⲛ̅‐\nϩⲁϩ ⲙ̅ⲙⲁ ⲛ̅ϭⲓ ⲡⲉⲡⲛ̅ⲁ̅ ⲉⲧⲟⲩⲁⲁⲃ ⲡⲉϫⲁϥ’\nⲅⲁⲣ ϩⲛ̅ ⲓⲉⲣⲏⲙⲓⲁⲥ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ϫⲉ §ϩⲟⲧⲁⲛ\nⲉⲣϣⲁ ⲡϩⲁⲉⲓ ⲧⲟⲩⲉⲓⲉ ⲧⲉϥϩⲓⲙⲉ §ⲁⲩⲱ ⲛ̅ⲥ‐\nⲃⲟⲕ’ ⲛ̅ⲥϫⲓ ⲕⲉⲟⲩⲁ ⲙⲏ ⲥⲛⲁⲕⲟⲧⲥ̅ §ⲉⲣⲟϥ ϫⲓⲛ\nⲧⲉⲛⲟⲩ ⲙⲏ ϩⲛ̅ ⲟⲩϫⲱϩⲙ’ §ⲙ̅ⲡⲉⲥϫⲱϩⲙ’\nⲛ̅ϭⲓ ⲧⲉⲥϩⲓⲙⲉ ⲉⲧⲙ̅ⲙⲁⲩ §ⲁⲩⲱ ⲛ̅ⲧⲟ ⲁⲣⲉⲡⲟⲣ‐\nⲛⲉⲩⲉ ⲙⲛ̅ ϩⲁϩ §ⲛ̅ϣⲱⲥ ⲁⲩⲱ ⲁⲣⲉⲕⲟⲧⲉ ϣⲁ‐\nⲣⲟⲉⲓ ⲡⲉϫⲁϥ’ ⲛ̅ϭⲓ ⲡϫⲟⲉⲓⲥ ϥⲓ ⲛ̅ⲛⲉⲃⲁⲗ’ §ⲉϩ‐\nⲣⲁⲓ̈ ⲉⲡⲥⲟⲟⲩⲧⲛ̅ ⲁⲩⲱ ⲛ̅ⲧⲉⲛⲁⲩ §ϫⲉ ⲛ̅ⲧⲁϩⲉ‐\nⲡⲟⲣⲛⲉⲩⲉ ⲧⲱⲛ §ⲙⲏ ⲛⲉⲣⲉϩⲙⲟⲟⲥ ⲁⲛ ϩⲛ̅ ⲛⲉ‐\nϩⲓⲏ ⲉⲣⲉϫⲱϩⲙ §ⲙ̅ⲡⲕⲁϩ ϩⲛ̅ ⲛⲉⲡⲟⲣⲛⲓⲁ\nⲙⲛ̅ ⲛⲉⲕⲁⲕⲓⲁ §ⲁⲩⲱ ⲁⲣⲉϫⲓ ϩⲁϩ ⲛ̅ϣⲱⲥ ⲉⲩ‐\nϫⲣⲟⲡ’ §ⲛⲉ ⲁⲣⲉϣⲱⲡⲉ ⲛ̅ⲁⲧ’ϩϣⲓⲡⲉ ⲙⲛ̅ ⲟⲩ‐\nⲟⲛ §ⲛⲓⲙ’ ⲙ̅ⲡⲉⲙⲟⲩⲧⲉ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲉⲓ §ϩⲱⲥ\nⲣⲙ̅ⲛ̅ⲏⲉⲓ’ ⲏ ϩⲱⲥ ⲉⲓⲱⲧ’ ⲏ ⲁⲣⲭⲏⲅⲟⲥ §ⲛ̅ⲧⲉ‐\nⲙⲛ̅ⲧ̅ⲡⲁⲣⲑⲉⲛⲟⲥ ⲡⲁⲗⲓⲛ’ ϥⲥⲏϩ ϩⲛ̅ ⲱⲥⲏⲉ\nⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ϫⲉ §ⲁⲙⲏⲉⲓⲧⲛ̅ ϫⲓ ϩⲁⲡ’ ⲙⲛ\nⲧⲉⲧⲙ̅ⲙⲁⲁⲩ §ϫⲉ ⲥⲛⲁϣⲱⲡⲉ ⲛⲁⲉⲓ ⲁⲛ ⲛ̅ϩⲓ‐\nⲙⲉ ⲁⲩⲱ §ⲁⲛⲟⲕ’ ϯⲛⲁϣⲱⲡⲉ ⲛⲁⲥ ⲁⲛ ⲛ̅ϩⲁ‐\nⲉⲓ ϯⲛⲁϥⲓ §ⲛ̅ⲧⲉⲥⲡⲟⲣⲛⲓⲁ ⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲁⲙ̅ⲧⲟ\nⲉⲃⲟⲗ §ⲁⲩⲱ ϯⲛⲁϥⲓ ⲛ̅ⲧⲉⲥⲙⲟⲓⲭⲉⲓⲁ ϩⲛ̅\nⲧⲙⲏⲧⲉ §ⲛ̅ⲛⲉⲥⲕⲓⲃⲉ ϯⲛⲁⲕⲁⲁⲥ ⲉⲥⲕⲁⲕⲁ‐\nϩⲏⲩ §ⲛ̅ⲑⲉ ⲙ̅ⲫⲟⲟⲩ ⲛ̅ⲧⲁⲩϫⲡⲟⲥ ⲙ̅ⲙⲟϥ ⲁⲩ‐\nⲱ §ϯ[ⲛ]ⲁⲁⲥ ⲛ̅ⲉⲣⲏⲙⲟⲥ ⲛ̅ⲑⲉ ⲛ̅ⲟⲩⲕⲁϩ §ⲉⲙⲛ̅\nⲙ[ⲟⲟⲩ ⲛ̅ϩⲏⲧϥ ⲁ]ⲩⲱ ϯⲛⲁⲁⲥ §ⲛ̅ⲁⲧϣⲏⲣⲉ\nϩⲛ̅ⲛⲟ[ⲩⲉⲓⲃⲉ ϯ]ⲛⲁⲛⲁ §ⲁⲛ ⲛ̅ⲛⲉⲥϣⲏⲣⲉ ϫⲉ\nϩⲛ̅ϣⲏⲣⲉ §[ⲛ]ⲉ ⲙ̅ⲡⲟⲣⲛⲉⲓⲁ ϫⲉ ⲁⲧⲟⲩⲙⲁⲁⲩ\n§ⲣ̅ⲡⲟⲣⲛⲉⲩⲉ ⲁⲩⲱ ⲁⲥϯ ϣ[ⲓⲡⲉ §ⲛ̅ⲛⲉⲥϣ]ⲏⲣ[ⲉ]\nϫⲉ † ⲁⲥϫⲟⲟϥ §ϫⲉ ϯⲛⲁⲡⲟⲣⲛⲉⲩⲉ ⲙⲛ̅ ⲛⲉⲧ’‐\nⲙⲉ §ⲙ̅ⲙⲟⲉⲓ ⲛⲉⲧⲙ̅ⲙⲁⲩ ⲛⲉⲩϯ ⲛⲁⲉⲓ ⲙ̅ⲡⲁ‐\nⲟⲉⲓⲕ’ §ⲙⲛ̅ ⲡⲁⲙⲟⲟⲩ ⲙⲛ̅ ⲛⲁϣⲧⲏⲛ’ ⲙⲛ̅ ⲛⲁ‐\nϩⲃⲟⲟⲥ §ⲙⲛ̅ ⲡⲁⲏⲣⲡ’ ⲙⲛ̅ ⲡⲁⲛⲏϩ ⲙⲛ̅ ϩⲱⲃ’\nⲛⲓⲙ §ⲉⲧⲣ̅ ϣⲁⲩ ⲛⲁⲉⲓ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲉⲓⲥ§ϩⲏⲏⲧⲉ\nⲁⲛⲟⲕ’ ϯⲛⲁϣⲧⲁⲙ ⲙ̅ⲙⲟⲟⲩ ϫⲉ §ⲛⲉⲥϣϭⲙ̅\nϭⲟⲙ’ ⲙ̅ⲡⲱⲧ’ ⲛ̅ⲥⲁ ⲛⲉⲥⲛⲟⲉⲓⲕ’ §ⲁⲩⲱ ⲉⲥϣⲁ‐\nϣⲓⲛⲉ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲥⲧⲙ̅ϭⲛ̅ⲧⲟⲩ §ⲥⲛⲁϫⲟⲟⲥ\nϫⲉ ϯⲛⲁⲕⲟⲧ’ ⲉⲡⲁϩⲁⲉⲓ §ϫⲓⲛ ϣⲟⲣⲡ’ ϫⲉ ⲛⲉ‐\nⲉⲓⲣ̅ ϣⲁⲩ ⲛ̅ⲛ̅ϩⲟⲟⲩ §ⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ϩⲟⲩⲟ ⲁⲧⲉ‐\nⲛⲟⲩ ⲡⲁⲗⲓⲛ ⲡⲉϫⲁϥ’ ϩⲛ̅ ⲉϩⲉⲕⲓⲏⲗ ϫⲉ §ⲁⲥ‐\nϣⲱⲡⲉ ⲙⲛ̅ⲛ̅ⲥⲁ ϩⲁϩ ⲛ̅ⲕⲁⲕⲓⲁ’ ⲡⲉϫⲁϥ §ⲛ̅ϭⲓ\nⲡϫⲟⲉⲓⲥ ϫⲉ ⲁⲣⲉⲕⲱⲧ ⲛⲉ §ⲛ̅ⲟⲩⲡⲟⲣⲛⲓⲟⲛ\nⲁⲩⲱ ⲁⲣⲉⲧⲁⲙⲉⲓⲟ ⲛⲉ §ⲛ̅ⲟⲩⲧⲟⲡⲟⲥ ⲛ̅ⲥⲁⲉⲓ‐\nⲉ ϩⲛ̅ ⲛ̅ⲡⲗⲁⲧⲉⲁ’ §ⲁⲩⲱ ⲁⲣⲉⲕⲱⲧ’ ⲛⲉ ⲛ̅ϩⲛ̅‐\nⲡⲟⲣⲛⲓⲟⲛ ϩⲓ ϩⲓⲏ §ⲛⲓⲙ ⲁⲩⲱ ⲁⲣⲉⲧⲉⲕⲟ ⲛ̅‐\nⲧⲉⲙ̅ⲛ̅ⲧ̅ⲥⲁⲉⲓⲉ §ⲁⲩⲱ ⲁⲣⲉⲥⲱⲧ’ ⲛ̅ⲛⲉⲩⲉⲣⲏⲧⲉ\nⲉⲃⲟⲗ ⲉϫⲛ̅ §ϩⲓⲏ ⲛⲓⲙ’ ⲁⲩⲱ ⲁⲣⲉⲧⲁϣⲟ ⲛ̅ⲧⲉⲡⲟⲣ‐\nⲛⲓⲁ §ⲁⲣⲉⲡⲟⲣⲛⲉⲩⲉ ⲙⲛ̅ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲕⲏⲙⲉ\nⲛⲁⲉⲓ §ⲉⲧⲟ ⲛ̅ⲧⲉϣⲉ ⲛⲁ ⲛⲁ ⲛⲓⲛⲟϭ ⲛ̅ⲥⲁⲣⲝ’ ⲛⲓⲙ\nⲇⲉ ⲛⲉ ⲛ̅ϣⲏⲣⲉ ⲛ̅ⲕⲏⲙⲉ ⲛⲁ ⲛⲓⲛⲟϭ ⲛ̅ⲥⲁⲣⲝ\nⲉⲓ ⲙⲏⲧⲓ ⲁⲛⲥⲁⲣⲕⲓⲕⲟⲛ ⲁⲩⲱ ⲛ̅ⲁⲓⲥⲑⲏⲧⲟⲛ\nⲙⲛ̅ ⲛ̅ϩⲃⲏⲩⲉ ⲙ̅ⲡⲕⲁϩ ⲛⲁⲉⲓ ⲛ̅ⲧⲁ ⲧⲯⲩⲭⲏ\nϫⲱϩⲙ̅ ⲛ̅ϩⲏⲧⲟⲩ ⲛ̅ⲛⲉⲉⲓⲙⲁ ⲉⲥϫⲓ ⲟⲉⲓⲕ’ ⲛ̅‐\nⲧⲟⲟⲧⲟⲩ ⲉⲥϫⲓ ⲏⲣⲡ’ ⲉⲥϫⲓ ⲛⲉϩ ⲉⲥϫⲓ ϩⲃⲟ‐\nⲟⲥ ⲁⲩⲱ ⲧⲕⲉⲫⲗⲟⲓⲁⲣⲓⲁ ⲉⲧⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ\nⲙ̅ⲡⲕⲱⲧⲉ ⲙ̅ⲡⲥⲱⲙⲁ ⲛⲁⲉⲓ ⲉⲧⲥⲙⲉⲉⲩⲉ\nϫⲉⲥⲉⲣ̅ ϣⲁⲩ ⲛⲁⲥ §ⲧⲉⲉⲓⲡⲟⲣⲛⲓⲁ ⲇⲉ ⲁⲛⲁ‐\nⲡⲟⲥⲧⲟⲗⲟⲥ ⲙ̅ⲡⲥⲱⲧⲏⲣ ⲡⲁⲣⲁⲅ’ⲅⲉⲓⲗⲉ ϫⲉ\n§ⲁⲣⲉϩ ⲉⲣⲱⲧⲛ̅ ⲉⲣⲟⲥ ⲧⲟⲩⲃⲉ ⲧⲏⲩⲧⲛ̅ §ⲉⲣⲟⲥ\nⲉⲩϣⲁϫⲉ ⲉⲧⲡⲟⲣⲛⲓⲁ ⲟⲩⲁⲁⲧⲥ ⲁⲛ ⲙ̅ⲡⲥⲱ‐\nⲙⲁ ⲁⲗⲗⲁ ⲧⲁ ⲧ’ⲯⲩⲭⲏ ⲛ̅ϩⲟⲩⲟ ⲉⲧ[ⲃⲉ ⲡ]ⲁⲉⲓ\nⲛ̅ⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲩⲥϩ[ⲁⲓ̈ ⲛ̅ⲛ̅ⲉⲕⲕⲗⲏⲥⲓⲁ] ⲙ̅‐\nⲡⲛⲟⲩⲧⲉ ϣⲓⲛⲁ ϫⲉ ⲛⲉ[ⲩⲡⲟⲣⲛⲓ]ⲁ’ ⲛ̅ⲧⲉⲉⲓ‐\nⲙ[ⲓ]ⲛⲉ ϣⲱⲡⲉ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧ[ⲛ̅] §ⲁⲗⲗⲁ ⲡⲛⲟϭ\n[ⲛ̅ⲁⲅⲱⲛ ⲉϥϣ]ⲟⲟⲡ’ ⲉⲧⲃⲉ ⲧⲡⲟⲣⲛⲓⲁ’\nⲛ̅ⲧⲯⲩⲭⲏ ⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ϣⲁⲣⲉ ⲧⲡⲟⲣⲛⲓⲁ ⲙ̅‐\nⲡⲕⲉⲥⲱⲙⲁ ϣⲱⲡⲉ ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲡⲁⲩⲗⲟⲥ ⲉϥ‐\nⲥϩⲁⲓ̈ ⲛ̅ⲅⲕⲟⲣⲓⲑⲓⲟⲥ ⲡⲉϫⲁϥ ϫⲉ §ⲁⲉⲓⲥϩⲁⲓ̈ ⲛⲏ‐\nⲧⲛ̅ ϩⲛ̅ ⲧⲉⲡⲓⲥⲧⲟⲗⲏ §ϫⲉ ⲙ̅ⲡⲣ̅ⲧⲱϩ ⲙⲛ̅ ⲡⲟⲣ‐\nⲛⲟⲥ ⲟⲩ §ⲡⲁⲛⲧⲱⲥ ⲙ̅ⲡⲣ̅ⲛⲟⲥ ⲙ̅ⲡⲉⲉⲓⲕⲟⲥ‐\nⲙⲟⲥ ⲏ §ⲡⲗⲉⲟⲛϩⲉⲕⲧⲏⲥ ⲏ ⲛ̅ⲣⲉϥⲧⲱⲣⲡ’ ⲏ §ⲛ̅‐\nⲣⲉϥϣⲙ̅ϣⲉ ⲉⲓⲇⲱⲗⲟⲛ ⲉⲡⲉⲓ ⲁⲣⲁ §ⲧⲉⲧⲛ̅ⲏⲡ’\nⲉⲉⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲉϥ’ϣⲁ‐\nϫⲉ ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲱⲥ §ϫⲉ ⲉⲡⲛ̅ⲁⲅⲱⲛ ϣⲟⲟⲡ’\nⲛⲁⲛ ⲁⲛ’ ⲟⲩⲃⲉ §ⲥⲁⲣⲝ’ ϩⲓ ⲥⲛⲟϥ’ ⲕⲁⲧⲁ ⲑⲉ ⲉⲛ‐\nⲧⲁϥϫⲟⲟⲥ §ⲁⲗⲗⲁ ⲟⲩⲃⲉ ⲛ̅ⲕⲟⲥⲙⲟⲕⲣⲁⲧⲱⲣ’\nⲙ̅ⲡⲉⲉⲓⲕⲁⲕⲉ ⲙⲛ̅ ⲙ̅ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ’ ⲛ̅ⲧⲡⲟ‐\nⲛⲏⲣⲓⲁ §ϣⲁ ϩⲟⲩⲛ ⲙⲉⲛ ⲉⲫⲟⲟⲩ ⲉⲧⲯⲩⲭⲏ’"
+        },
+        {
+          "title": "Restoration of the Soul",
+          "subtitle": "Restoration of the Soul",
+          "heading": "Restoration of the Soul (131, 13-132, 27) As long as the soul keeps running here",
+          "rangeLabel": "131, 13-132, 27",
+          "range": {
+            "start": {
+              "page": 131,
+              "line": 13
+            },
+            "end": {
+              "page": 132,
+              "line": 27
+            }
+          },
+          "english": "As long as the soul keeps running here\nand there having sex with whomever she meets and defiling herself, she will\nsuffer what she deserves. But when she perceives the trouble she is in and weeps\nbefore the Father and repents, the Father will pity her. He will make her womb\nturn from the outside back to the inside, so that the soul will recover her proper\ncharacter. It is not so with a woman. The womb of the body is inside the body\nlike the other internal organs, but the womb of the soul is turned to the outside\nlike male sex organs, which are external.\nWhen the womb of the soul, by the Father’s will, turns to the inside, she is\nbaptized, and at once she is free of the external pollution forced upon her, just as\ndirty [clothes] are soaked in [water and] are moved about until the dirt is\nremoved and they are clean. The soul is cleansed so that she may regain what\nshe had at first, her former nature, and she may be restored. That is her\nbaptism.\nThen she will begin to rage like a woman in labor, who writhes and rages at\nthe time of delivery. But since she is female and cannot conceive a child by\nherself, her Father sent her from heaven her man, her brother, the firstborn. The\nbridegroom came down to the bride. She gave up her former whoring and\ncleansed herself of the pollution of adulterers, and she was restored to be a bride.\nShe cleansed herself in the bridal chamber. She filled it with perfume and sat\nthere awaiting the true bridegroom. She no longer went around the marketplace\nhaving sex with whomever she desired, but she stayed and waited for him,\nsaying, “When will he come?” And she feared him. For she did not know what\nhe looked like. She no longer remembered from the time she fell from her\nFather’s house. Yet, by the Father’s will, she dreamed of him like a woman who\nloves a man.",
+          "coptic": "ⲛⲏⲣⲓⲁ §ϣⲁ ϩⲟⲩⲛ ⲙⲉⲛ ⲉⲫⲟⲟⲩ ⲉⲧⲯⲩⲭⲏ’\nⲡⲏⲧ’ ⲛ̅ⲥⲁ ⲉⲥⲁ ⲉⲥⲕⲟⲓⲛⲱⲛⲓ ⲙⲛ̅ ⲡⲉⲧⲥⲛⲁ‐\nⲧⲱⲙⲧ’ ⲉⲣⲟϥ’ ⲉⲥϫⲱϩⲙ’ ⲥϣⲟⲟⲡ’ ϩⲁ ⲡⲁⲥ‐\nⲭⲁ ⲛ̅ⲛⲉⲧⲥⲙ̅ⲡϣⲁ ⲉⲧⲣⲉⲥϫⲓⲧⲟⲩ ϩⲟⲧⲁⲛ ⲇⲉ\nⲉⲥϣⲁⲣ̅ⲁⲓⲥⲑⲁⲛⲉ ⲛ̅ⲙ̅ⲙⲟⲕϩⲥ̅ ⲉⲧⲥⲛ̅ϩⲏⲧⲟⲩ\nⲁⲩⲱ ⲛ̅ⲥⲣⲓⲙⲉ ⲉϩⲣⲁⲓ̈ ⲉⲡⲉⲓⲱⲧ ⲛ̅ⲥⲙⲉⲧⲁⲛⲟ‐\nⲉⲓ ⲧⲟⲧⲉ ϥⲛⲁⲛⲁ ⲛⲁⲥ ⲛ̅ϭⲓ ⲡⲉⲓⲱⲧ ⲛ̅ϥⲕⲧⲟ\nⲛ̅ⲧⲉⲥⲙⲏⲧⲣⲁ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲁ ⲡⲥⲁ ⲛⲃⲟⲗ ⲡⲁⲗⲓⲛ\nⲛ̅ϥⲕⲧⲟⲥ ⲉϩⲟⲩⲛ ⲛ̅ⲧⲉ ⲧⲯⲩⲭⲏ ϫⲓ ⲙ̅ⲡⲉⲥ‐\nⲙⲉⲣⲓⲕⲟⲛ † ⲉⲩϣⲟⲟⲡ ⲅⲁⲣ ⲁⲛ ⲛ̅ⲑⲉ ⲛ̅ⲛⲉϩⲓ‐\nⲟⲙⲉ ⲙ̅ⲙⲏⲧⲣⲁ ⲅⲁⲣ ⲙ̅ⲡⲥⲱⲙⲁ ⲉⲩϣⲟⲟⲡ’\nⲙ̅ⲫⲟⲩⲛ’ ⲙ̅ⲡⲥⲱⲙⲁ ⲛ̅ⲑⲉ ⲛⲅⲕⲉⲙⲁϩⲧ ⲧⲙⲏ‐\nⲧⲣⲁ ⲛ̅ⲧⲟϥ’ ⲛ̅ⲧⲯⲩⲭⲏ ⲉⲥⲕⲱⲧⲉ ⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ\nⲛ̅ⲑⲉ ⲛⲙ̅ⲫⲩⲥⲓⲕⲟⲛ ⲙ̅ⲫⲟⲟⲩⲧ’ ⲉⲩϣⲟⲟⲡ’\nⲙ̅ⲡⲃⲟⲗ’ §ⲉⲣϣⲁ ⲧⲙⲏⲧⲣⲁ ϭⲉ ⲛ̅ⲧⲯⲩⲭⲏ’\nⲧⲕⲧⲟⲥ ϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’ ⲉⲡⲥⲁ ⲛ‐\nϩⲟⲩⲛ ϣⲁⲣⲉⲥⲣ̅ⲃⲁⲡⲧⲓⲍⲉ ⲁⲩⲱ ⲛ̅ⲧⲟⲩ‐\nⲛⲟⲩ ϣⲁⲥⲧⲟⲩⲃⲟ ⲉⲡϫⲱϩⲙ̅ ⲙ̅ⲡⲥⲁ ⲛ‐\nⲃⲟ[ⲗ] ⲡⲁⲉⲓ ⲉⲛⲧⲁⲩⲁⲃϥ’ ⲉϫⲱⲥ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓ‐\nϣ[ⲧⲏⲛ ⲉⲩ]ϣⲁ[ⲗ]ⲱⲱⲙ’ ϣⲁⲩⲧⲉⲗⲟⲟⲩ’ ⲉ‐\nⲡ[ⲙⲟⲟⲩ ⲁⲩⲱ ⲛ̅ⲥ]ⲉⲧⲕⲧⲟⲟⲩ ϣⲁⲛⲧⲟⲩⲛ̅ ⲧⲟⲩ‐\nⲗⲁⲁⲙ[ⲉ ⲉⲃⲟⲗ] ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲟⲩⲃⲟ ⲡⲧⲟⲩⲃⲟ\nⲇⲉ ⲛ̅ⲧⲯⲩⲭⲏ ⲡⲉ ϫⲓ ⲧⲉⲥⲙⲛⲧ[ⲃ]ⲣ̅[ⲣ]ⲉ ⲟⲛ’\nⲙ̅ⲡⲉⲥⲫⲩⲥⲓⲕⲟⲛ ⲛ̅ϣⲟⲣⲡ’ ⲛ̅ⲥⲕⲧⲟⲥ ⲛ̅ⲕⲉ‐\nⲥⲟⲡ’ ⲡⲁⲉⲓ ⲡⲉ ⲡⲉⲥⲃⲁⲡⲧⲓⲥⲙⲁ §ⲧⲟⲧⲉ ⲥⲛⲁ‐\nⲣ̅ⲁⲣⲭⲉⲓ ⲛ̅ⲃⲱⲗⲕ’ ⲉⲣⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ ⲛ̅ⲑⲉ ⲛ̅ⲛⲉⲧ‐\nϣⲁⲩⲙⲓⲥⲉ ⲛ̅ⲧⲉⲩⲛⲟⲩ ⲉⲩϣⲁϫⲡⲉ ⲡϣⲏⲣⲉ\nϣⲁⲩⲕⲟⲧⲟⲩ ⲉⲣⲟⲟⲩ ⲟⲩⲁⲁⲩ ϩⲛ̅ⲛⲟⲩⲃⲗⲕⲉ\nⲁⲗⲗⲁ ⲉⲡⲉⲓ ⲟⲩⲥϩⲓⲙⲉ ⲧⲉ ⲙⲛ̅ ϭⲟⲙ’ ⲁⲧⲣⲉⲥϫⲡⲉ\nϣⲏⲣⲉ ⲟⲩⲁⲁⲧⲥ̅ ⲁⲡⲉⲓⲱⲧ’ ⲧⲛ̅ⲛⲁⲩ ⲛⲁⲥ ⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲡⲉ ⲙ̅ⲡⲉⲥϩⲟⲟⲩⲧ’ ⲉⲧⲉ ⲡⲉⲥⲥⲟⲛ ⲡⲉ’\nⲡϣⲟⲣⲡ’ ⲙ̅ⲙⲓⲥⲉ ⲧⲟⲧⲉ ⲁⲡⲣⲙ̅ϣⲉⲗⲉⲉⲧ’ ⲉⲓ\nⲁⲡⲓⲧⲛ̅ ϣⲁ ϫⲉⲗⲉⲉⲧ’ ⲁⲥⲕⲱ ⲙⲉⲛ ⲛ̅ⲥⲱⲥ ⲛ̅‐\nⲧⲉⲥⲡⲟⲣⲛⲓⲁ ⲛ̅ϣⲟⲣⲡ’ ⲁⲥⲧⲟⲩⲃⲟⲥ ⲁⲛϫⲱϩⲙ̅\nⲛ̅ⲛ̅ⲛⲟⲉⲓⲕ’ ⲁⲥⲣ̅ ⲃⲣ̅ⲣⲉ ⲇⲉ ⲁⲩⲙⲛ̅ⲧ̅ϣⲉⲗⲉⲉⲧ’\nⲁⲥⲧⲟⲩⲃⲟⲥ ϩⲙ̅ 〈ⲡ〉ⲙⲁ ⲛ̅ϣⲉⲗⲉⲉⲧ’ ⲁⲥⲙⲁϩϥ ⲛ̅ⲥϯ‐\nⲛⲟⲩϥⲉ ⲁⲥϩⲙⲟⲟⲥ ⲛ̅ϩⲟⲩⲛ’ ⲛ̅ϩⲏⲧϥ̅ ⲉⲥϭⲱϣⲧ’\nⲉⲃⲟⲗ’ ϩⲏⲧϥ̅ ⲙ̅ⲡⲣⲙ̅ϣⲉⲗⲉⲉⲧ’ ⲙ̅ⲙⲉ ⲟⲩⲕⲉⲧⲓ\nⲥⲡⲏⲧ’ ϩⲛ̅ ⲧⲁⲅⲟⲣⲁ ⲉⲥⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲡⲉⲧⲥ̅‐\nⲟⲩⲟϣϥ’ ⲁⲗⲗⲁ ⲁⲥϭⲱ ⲉⲥϭⲟϣⲧ’ ⲉⲃⲟⲗ ϩⲏⲧϥ̅\nϫⲉ ⲁϣ ⲛ̅ϩⲟⲟⲩ ⲉϥⲛ̅ⲛⲏⲩ ⲉⲥⲣ̅ ϩⲟⲧⲉ ϩⲏⲧϥ̅\nⲛⲉⲥⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲁⲛ ⲙ̅ⲡⲉϥⲉⲓⲛⲉ ⲟⲩⲕⲉ‐\nⲧⲓ ⲥⲣ̅ ⲡⲙⲉⲉⲩⲉ ϫⲓⲙ ⲡⲟⲩⲟⲉⲓϣ ⲛ̅ⲧⲁⲥϩⲉ ⲉ‐\nⲃⲟⲗ ϩⲙ̅ ⲡⲏⲉⲓ ⲙ̅ⲡⲉⲥⲉⲓⲱⲧ’ ϩⲙ̅ ⲡⲟⲩⲱϣⲉ\nⲇⲉ ⲙ̅ⲡⲉⲓⲱⲧ’ 〈 〉 ⲁⲥⲡⲣ̅ⲣⲉ ⲣⲁⲥⲟⲩ ⲇⲉ ⲉⲣⲟϥ ⲛ̅ⲑⲉ\nⲛ̅ⲛⲓϩⲓⲟⲙⲉ ⲉⲧⲙⲉ ⲛ̅ⲛⲓϩⲟⲟⲩⲧ’ §ⲧⲟⲧⲉ ϭⲉ\nⲡⲣⲙ̅ϣⲉⲗⲉⲉⲧ’ ⲕⲁⲧⲁ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’\nⲁϥⲉⲓ ⲉⲡⲓⲧⲛ̅ ϣⲁⲣⲟⲥ ⲉϩⲟⲩⲛ ⲉⲡⲙⲁ ⲛ̅ϣⲉ‐\nⲗⲉⲉⲧ’ ⲉⲧⲥⲃ̅ⲧⲱⲧ’ ⲁϥⲕⲟⲥⲙⲉⲓ’ ⲇⲉ ⲙ̅ⲡⲛⲩⲙ‐\nⲫⲱⲛ §ⲉⲡⲅⲁⲙⲟⲥ ⲅⲁⲣ’ ⲉⲧⲙ̅ⲙⲁⲁⲩ ⲉϥϣⲟⲟⲡ’"
+        },
+        {
+          "title": "Marriage of the Soul to Her Beloved",
+          "subtitle": "Marriage of the Soul to Her Beloved",
+          "heading": "Marriage of the Soul to Her Beloved (132, 27-133, 31) Then, by the Father’s",
+          "rangeLabel": "132, 27-133, 31",
+          "range": {
+            "start": {
+              "page": 132,
+              "line": 27
+            },
+            "end": {
+              "page": 133,
+              "line": 31
+            }
+          },
+          "english": "Then, by the Father’s\nwill, the bridegroom came down to her in the bridal chamber that had been\nprepared. And he decorated the chamber.\nThis marriage of the soul is not like a marriage of the flesh. In a marriage of\nthe flesh, those who have sex with each other become satiated with sex, and so\nthey leave behind them the annoying burden of physical desire and [turn their\nfaces] from each other. This marriage of the soul [is different]. When the\npartners join [with each other], they become a single life.\nThus the prophet said about the first man and woman,\nThey will become a single flesh.\nThese partners were originally joined to each other when they were with the\nFather, before the woman led astray the man, her brother. This marriage has\nbrought them together again, and the soul has joined her true love and real\nmaster, as it is written:\nThe master of the woman is her husband.\nGradually she recognized him. She was happy again, and she wept in his\narms when she remembered the disgrace of her former widowhood. She adorned\nherself even more, so that he might be pleased to stay with her.\nThe prophet said in the Psalms:\nHear, my daughter, see and give ear,\nand forget your people and your father’s house,\nfor the king has desired your beauty,\nand he is your master.\nHer master has her turn her face from her people and the many adulterers\nwith whom she once was, to devote herself to her king, her real master, and to\nforget the house of the earthly father, with whom things went badly for her, but\nto remember her Father in heaven.\nSo also it was said to Abraham:\nLeave your country and your relatives and your father’s house.",
+          "coptic": "ⲫⲱⲛ §ⲉⲡⲅⲁⲙⲟⲥ ⲅⲁⲣ’ ⲉⲧⲙ̅ⲙⲁⲁⲩ ⲉϥϣⲟⲟⲡ’\nⲁⲛ ⲛ̅ⲑⲉ ⲙ̅ⲡⲅⲁⲙⲟⲥ ⲛ̅ⲥⲁⲣⲕⲓⲕⲟⲥ ⲛⲉⲧⲁⲣ’‐\nⲕⲟⲓⲛⲱⲛⲉⲓ ⲙⲛ̅ ⲛⲟⲩⲣⲏⲩ’ ϣⲁⲩⲥⲓ ⲛ̅ⲧⲕⲟⲓ‐\nⲛⲱⲛⲓⲁ ⲉⲧⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲛ̅ⲑⲉ ⲛ̅ⲛⲓⲉⲧⲡⲱ\nϣⲁⲩⲕⲱ ⲛ̅ⲥⲱⲟⲩ ⲛ̅ⲧⲉⲛⲱⲭⲗⲏⲥⲓⲥ [ⲛ]ⲧⲉ‐\nⲡⲓⲑⲩⲙⲉⲓⲁ ⲁⲩⲱ ⲛ̅ⲥⲉⲧⲕ[ⲧⲟ] ⲛ̅[ⲛⲟⲩϩⲟ ⲉⲃ]ⲟⲗ\nⲛ̅ⲛⲟⲩⲉⲣⲏⲩ ⲁⲗⲗⲁ ⲡⲉⲉⲓ[......].[.]ⲛ ⲡⲉ\nⲡⲉⲉⲓⲅⲁⲙⲟⲥ ⲁⲗⲗⲁ ⲉⲩϣⲁⲛ[ⲡ]ϩⲛ̅ϩⲱⲧⲣ̅\nⲁⲛ[ⲟ]ⲩ[ⲉⲣⲏ]ⲩ ϣⲁⲩϣⲱⲡⲉ ⲁⲩⲱⲛϩ ⲟⲩⲱⲧ’ .\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ⲡⲉϫⲁϥ ⲛ̅ϭⲓ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ\nⲉⲧⲃⲉ ⲡϣⲟⲣⲡ’ ⲣ̅ⲣⲱⲙⲉ ⲙⲛ̅ ⲧϣⲟⲣⲡ’ ⲛ̅ⲥϩⲓ‐\nⲙⲉ ϫⲉ §ⲥⲉⲛⲁϣⲱⲡⲉ ⲁⲩⲥⲁⲣⲝ ⲟⲩⲱⲧ’ ⲛⲉⲩ‐\nϩⲟⲧⲣ̅ ⲅⲁⲣ ⲉⲛⲟⲩⲉⲣⲏⲩ ⲛ̅ϣⲟⲣⲡ ϩⲁϩⲧⲙ̅ ⲡⲉⲓⲱⲧ’\nⲉⲙⲡⲁⲧⲉ ⲧⲥϩⲓⲙⲉ ⲥⲱⲣⲙ ⲙ̅ⲫⲟⲟⲩⲧ’ ⲉⲧⲉ\nⲡⲉⲥⲥⲟⲛ ⲡⲉ ⲡⲁⲗⲓⲛ ⲟⲛ ⲁⲡⲡⲉⲉⲓⲅⲁⲙⲟⲥ\nⲥⲟⲟⲩϩⲟⲩ ⲉϩⲟⲩⲛ ⲉⲛⲟⲩⲉⲣⲏⲩ ⲁⲩⲱ ⲁⲧⲯⲩ‐\nⲭⲏ ϩⲱⲧⲣ̅ ⲉϩⲟⲩⲛ ⲉⲡⲉⲥⲙⲉⲣⲉⲓⲧ’ ⲛⲁⲙⲉ ⲡⲉⲥ‐\nⲫⲩⲥⲓⲕⲟⲥ ⲛ̅ϫⲟⲉⲓⲥ ⲕⲁⲧⲁ ⲑⲉ ⲉⲧϥⲥⲏϩ ϫⲉ §ⲡϫⲟ‐\nⲉⲓⲥ ⲅⲁⲣ ⲛ̅ⲧⲉⲥϩⲓⲙⲉ ⲡⲉ ⲡⲉⲥϩⲁⲓ̈ §ⲁⲥⲥⲟⲩⲱⲛϥ’\nⲇⲉ ϣⲏⲙ’ ϣⲏⲙ’ ⲁⲩⲱ ⲁⲥⲣⲁϣⲉ ϩⲛ̅ⲕⲉⲥⲟⲡ’ ⲉⲥⲣⲓ‐\nⲙⲉ ϩⲁⲧⲟⲟⲧϥ’ ⲛ̅ⲧⲁⲣⲉⲥⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲉⲥⲁⲥ‐\nⲭⲏⲙⲟⲥⲩⲛⲏ ⲛ̅ⲧⲉⲥⲙ̅ⲛ̅ⲧⲭⲏⲣⲁ ⲛ̅ϣⲟⲣⲡ’\nⲁⲩⲱ ⲁⲥⲕⲟⲥⲙⲉⲓ ⲙ̅ⲙⲟⲥ ⲛ̅ϩⲟⲩⲟ ϣⲓⲛⲉ ⲉⲥ‐\nⲛⲁⲣ ⲉⲛⲁϥ ⲛ̅ϭⲱ ϩⲁⲧⲟⲟⲧⲥ̅ §ⲡⲉϫⲁϥ ⲇⲉ ⲛ̅ϭⲓ\nⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ϩⲛ̅ⲛ̅ⲙ̅ⲯⲁⲗⲙⲟⲥ ϫⲉ §ⲥⲱ‐\nⲧⲙ̅ ⲧⲁϣⲉⲉⲣⲉ ⲛ̅ⲧⲉⲛⲁⲩ ⲛ̅ⲧⲉⲣⲓⲕⲉ §ⲙ̅ⲡⲉⲙⲁ‐\nⲁϫⲉ ⲛ̅ⲧⲉⲣ̅ ⲡⲱⲃϣ ⲙ̅ⲡⲟⲩⲗⲁⲟⲥ §ⲙⲛ̅ ⲡⲏⲉⲓ\nⲙ̅ⲡⲉⲉⲓⲱⲧ ϫⲉ ⲁⲡⲣ̅ⲣⲟ §ⲉⲡⲓⲑⲩⲙⲉⲓ ⲉⲡⲟⲩⲥⲁ‐\nⲉⲓⲉ ϫⲉ ⲛ̅ⲧⲟϥ §ⲡⲉ ⲡⲟⲩϫⲟⲉⲓⲥ ϥⲣ̅ⲁⲝⲓⲟⲩ ⲅⲁⲣ\nⲙ̅ⲙⲟⲥ ⲁⲧⲣⲉⲥⲕⲧⲉ ⲡⲉⲥϩⲟ ⲉⲃⲟⲗ’ ⲙ̅ⲡⲉⲥ‐\nⲗⲁⲟⲥ ⲙⲛ̅ ⲡⲙⲏⲏϣⲉ ⲛ̅ⲛⲉⲥⲙⲟⲓⲭⲟⲥ ⲛⲁ‐\nⲉⲓ ⲛⲉⲥϩⲛ̅ ⲧⲟⲩⲙⲏⲧⲉ ⲛ̅ϣⲟⲣⲡ ⲛⲉⲥⲣ̅ⲡⲣ[ⲟ]ⲥ‐\nⲉⲭⲉ ⲁⲡⲉⲥⲣ̅ⲣⲟ ⲟⲩⲁⲁⲧϥ’ ⲡⲉⲥⲫⲩⲥⲓⲕⲟⲥ\nⲛ̅ϫⲟⲉⲓⲥ ⲁⲩⲱ ⲛ̅ⲥⲣ̅ ⲡⲱⲃϣ ⲙ̅ⲡⲏⲉⲓ ⲙ̅ⲡⲉⲓ‐\nⲱⲧ’ ⲙ̅ⲡⲕⲁϩ ⲡⲁⲉⲓ ⲉⲛⲉⲥϣⲟⲟⲡ ϩⲁⲧⲟⲟⲧϥ’\nⲕⲁⲕⲱⲥ ⲛ̅ⲥⲣ̅ ⲡⲙⲉⲉⲩⲉ ⲛ̅ⲧⲟϥ ⲙ̅ⲡⲉⲥⲉⲓⲱⲧ\nⲉⲧϩⲛ̅ ⲙ̅ⲡⲏⲩⲉ ⲧⲉⲉⲓ ⲟⲛ ⲧⲉ ⲑⲉ ⲉⲛⲧⲁⲩϫⲟ‐\nⲟⲥ ⲛ̅ⲁⲃⲣⲁϩⲁⲙ ϫⲉ §ⲁⲙⲟⲩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲉⲕ’‐\nⲕⲁϩ ⲙⲛ̅ §ⲧⲉⲕⲥⲩⲛⲅⲉⲛⲉⲓⲁ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲙ̅\nⲡⲏ[ⲉ]ⲓ §ⲙ̅ⲡⲉⲕ’ⲉⲓⲱⲧ’ §ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲧⲁⲣⲉ ⲧⲯⲩ‐"
+        },
+        {
+          "title": "Rebirth of the Soul",
+          "subtitle": "Rebirth of the Soul",
+          "heading": "Rebirth of the Soul (133, 31-135, 4) When the soul [adorned] herself again in",
+          "rangeLabel": "133, 31-135, 4",
+          "range": {
+            "start": {
+              "page": 133,
+              "line": 31
+            },
+            "end": {
+              "page": 135,
+              "line": 4
+            }
+          },
+          "english": "When the soul [adorned] herself again in\nher beauty, she [was eager] to enjoy her beloved. [He also] loved her. When she\nmade love with him, she received from him the seed, which is the lifegiving spirit. She bears good children by him and brings them up. This is the\ngreat, perfect, wonderful birth.\nThis marriage is consummated by the Father’s will.\nThe soul needs to regenerate herself and become as she formerly was. So the\nsoul stirred, and she received the divine from the Father, that she might be\nrestored and returned to where she was before.\nThis is resurrection from the dead.\nThis is freedom from captivity.\nThis is ascent to heaven.\nThis is the way up to the Father.\nTherefore the prophet said:\nMy soul, praise the Lord,\nall within me, praise his holy name.\nMy soul, praise God,\nwho forgave all your sins,\nwho healed all your sicknesses,\nwho freed your life from death,\nwho crowned you with mercy,\nwho satisfies your longing with good things.\nYour youth will be renewed like an eagle’s.\nWhen the soul is renewed, she will arise and praise the Father and her\nbrother, by whom she was rescued. In this way, through rebirth, the soul will be\nsaved. This is not because of practical lessons or technical skills or learned\nbooks. Rather, it is the grace of the [Spirit], it is the gift of the merciful [God],\nfor it is from above.\nThus the Savior calls out:\nNo one can come to me unless my Father draws and brings that one to me.\nI myself will raise that one on the last day.",
+          "coptic": "ⲡⲏ[ⲉ]ⲓ §ⲙ̅ⲡⲉⲕ’ⲉⲓⲱⲧ’ §ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲧⲁⲣⲉ ⲧⲯⲩ‐\nⲭ[ⲏ ⲣ̅ⲕ]ⲟ[ⲥ]ⲙⲉⲓ ⲙ̅ⲙⲟⲥ ϩⲛ̅ ⲧⲉⲥⲙ̅ⲛ̅ⲧ̅ⲥⲁⲉⲓⲉ\nⲟⲛ [.......]ⲙⲉⲉⲧⲉ ⲉⲡⲉⲥⲙⲉⲣⲉⲓⲧ’\nⲁⲩⲱ ⲛ̅[ⲧⲟϥ ϩⲱ]ⲱϥ ⲁϥⲙⲉⲣⲉⲓⲧⲥ̅ ⲁⲩⲱ ⲛ̅‐\nⲧⲁⲣⲉⲥⲣ̅ⲕⲟ[ⲓ]ⲛⲱⲛⲉⲓ ⲛⲙ̅ⲙⲁϥ [ⲁ]ⲥϫⲓ ⲙ̅‐\nⲡⲉⲥⲡⲉⲣⲙⲁ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ̅ ⲉⲧⲉ ⲡⲡⲛ̅ⲁ̅\nⲡⲉ ⲉⲧ’ⲧⲛ̅ϩⲟ ϣⲁⲛⲧⲉⲥϫⲡⲟ ⲛ̅ϩⲛ̅ϣⲏⲣⲉ\nⲉⲃⲟⲗ ⲛ̅ϩⲏⲧϥ’ ⲉⲛⲁⲛⲟⲩⲟⲩ ⲛ̅ⲥⲥⲁⲛⲟⲩϣⲟⲩ\nⲡⲁⲉⲓ ⲅⲁⲣ’ ⲡⲉ ⲡⲛⲟϭ ⲛ̅ⲧⲉⲗⲉⲓⲟⲛ ⲛ̅ⲑⲁⲩⲙⲁ\nⲛ̅ϫⲡⲟ ϩⲱⲥⲧⲉ ⲡⲉⲉⲓⲅⲁⲙⲟⲥ ⲉϥϫⲱⲕ’ ⲉⲃⲟⲗ\nϩⲙ̅ ⲡⲟⲩⲱϣ ⲙ̅ⲡⲉⲓⲱⲧ’ §ϣϣⲉ ⲇⲉ ⲁⲧⲣⲉ ⲧⲯⲩ‐\nⲭⲏ ϫⲡⲟⲥ ⲟⲩⲁⲁⲧⲥ̅ ⲛ̅ⲥϣⲱⲡⲉ ⲟⲛ’ ⲛ̅ⲧⲉⲥ‐\nϩⲉ ⲛ̅ϣⲟⲣⲡ’ ⲧⲯⲩⲭⲏ ϭⲉ ϣⲁⲣⲉⲥⲕⲓⲙ’ ⲟⲩⲁ‐\nⲁⲧⲥ̅ ⲁⲩⲱ ⲁⲥϫⲓ ⲡⲑⲉⲓⲟⲛ ⲛ̅ⲧⲙ̅ ⲡⲉⲓⲱⲧ’ ⲁ’‐\nⲧⲣⲉⲥⲣ̅ ⲃⲣ̅ⲣⲉ ϫⲉⲕⲁⲁⲥ ⲟⲛ ⲉⲩⲛⲁϫⲓⲧⲥ̅ ⲉ‐\nⲡⲙⲁ ⲉⲛⲉⲥⲙ̅ⲙⲁⲩ ϫⲓⲛ’ ϣⲟⲣⲡ’ ⲧⲁⲉⲓ ⲧⲉ\nⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲉⲧ’ϣⲟⲟⲡ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉⲧⲙⲟ‐\nⲟⲩⲧ’ ⲡⲁⲉⲓ ⲡⲉ ⲡⲥⲱⲧⲉ ⲛ̅ⲧⲁⲓⲭⲙⲁⲗⲱⲥⲓⲁ ⲧⲁ‐\nⲉⲓ ⲧⲉ ⲧⲁⲛⲧⲃⲁⲥⲓⲥ ⲛ̅ⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲧⲡⲉ ⲧⲁⲉⲓ\nⲧⲉ ⲑⲟⲇⲟⲥ ⲛ̅ⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ϣⲁ ⲡⲉⲓⲱⲧ’ §ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ⲡⲉϫⲉ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ’ ϫⲉ §ⲧⲁⲯⲩ‐\nⲭⲏ ⲉⲣⲓⲉⲩⲗⲟⲅⲉⲓ ⲙ̅ⲡϫⲟⲉⲓⲥ ⲁⲩⲱ ⲛⲁ §ⲡⲥⲁ ⲛ‐\nϩⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲙ̅ⲡⲉϥⲣⲁⲛ’ §ⲉⲧⲟⲩⲁⲁⲃ’ ⲧⲁⲯⲩ‐\nⲭⲏ ⲉⲣⲓⲉⲩⲗⲟⲅⲉⲓ §ⲙ̅ⲡⲛⲟⲩⲧⲉ’ ⲡⲉⲛⲧⲁϩⲕⲱ\nⲉⲃⲟⲗ §ⲛ̅ⲛⲉ⟦ⲛ⟧ⲁⲛⲟⲙⲓⲁ’ ⲧⲏⲣⲟⲩ ⲡⲉⲛⲧⲁϩⲧⲁⲗ‐\nϭⲟ §ⲛ̅ⲛⲉϣⲱⲛⲉ ⲧⲏⲣⲟⲩ ⲡⲉⲛⲧⲁϩⲥⲱⲧⲉ\nⲙ̅ⲡⲉⲱⲛϩ §ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲙⲟⲩ ⲡⲉⲛⲧⲁϩϯ\n[ⲕ]ⲗⲟⲙ’ ⲉϫⲱ §ϩⲛ̅ ⲟⲩⲛⲁ’ ⲡⲉⲧⲧ〈ⲥ〉ⲉⲓⲟ ⲛ̅ⲧⲉⲉⲡⲓ‐\n[ⲑ]ⲩⲙⲓⲁ §ϩⲛ̅ ⲛ̅ⲁⲅⲁⲑⲟⲛ ⲧⲉⲙⲛⲧⲕⲟⲩⲉⲓ ⲛⲁ‐\nⲣ̅ §ⲃⲣ̅ⲣⲉ ⲛ̅ⲑⲉ ⲛ̅ⲧⲁ ⲟⲩⲁⲉⲧⲟⲥ §ⲉⲥϣⲁⲣ̅ ⲃⲣ̅ⲣⲉ\nϭⲉ ⲥⲛⲁⲃⲱⲕ’ ⲉϩⲣⲁⲓ̈ ⲉⲥⲥⲙⲟⲩ ⲉⲡⲉⲓⲱⲧ’\nⲙⲛ̅ ⲡⲉⲥⲥⲟⲛ ⲡⲁⲉⲓ ⲛ̅ⲧⲁⲥⲟⲩϫⲁⲉⲓ ⲉⲃⲟⲗ\nϩⲓⲧⲟⲟⲧϥ̅ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲧⲯⲩⲭⲏ ⲉⲥⲛⲁⲟⲩ‐\nϫⲁⲉⲓ ϩⲓⲧⲛ̅ ⲡⲉϫⲡⲟ ⲛ̅ⲕⲉⲥⲟⲡ’ ⲡⲁⲉⲓ ⲇⲉ\nⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϣⲁϫⲉ ⲁⲛ ⲛ̅ⲁⲥⲕⲏⲥⲓⲥ ⲉϣⲁϥ’‐\nⲉⲓ ⲟⲩⲇⲉ ⲉⲃⲟⲗ ⲁⲛ ϩⲛ̅ ⲛ̅ⲧⲉⲭⲛⲏ ⲟⲩ[ⲇ]ⲉ ϩⲛ̅‐\nⲥⲃⲱ ⲛ̅ⲥϩⲁⲓ̈ ⲁⲗⲗⲁ ⲧⲭⲁⲣⲓ[ⲥ] ⲙ̅ⲡ[... ⲧ]ⲉ\nⲁⲗⲗⲁ ⲧⲇⲱⲣⲉⲁ ⲙ̅ⲡⲛ[.........]ⲁⲉ\nⲡⲉⲉⲓϩⲱⲃ ⲅⲁⲣ ⲟⲩⲉⲓⲉⲓ ⲡⲉ ⲙ̅[ⲡⲥⲁ] ⲛⲧⲡⲉ §ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ϥ[ⲁ]ϣⲕⲁⲕ’ ⲉⲃⲟⲗ ⲛ̅ϭⲓ ⲡⲥⲱⲧⲏⲣ’\nϫⲉ §ⲙⲛ̅ ⲗⲁⲁⲩ ⲛⲁϣⲉⲓ ϣⲁⲣⲟⲉⲓ ⲉⲓ ⲙⲏⲧⲓ ⲛ̅‐\nⲧⲉ §ⲡⲁⲉⲓⲱⲧ’ ⲥⲱⲕ’ ⲙ̅ⲙⲟϥ’ ⲛ̅ϥⲛⲧ̅ϥ̅ ⲛⲁⲉⲓ\nⲁⲩⲱ §〈ⲁ〉ⲛⲟⲕ’ ϩⲱ ϯⲛⲁⲧⲟⲩⲛⲟⲥϥ’ ϩⲙ̅ ⲫϩⲁⲉ ⲛ̅‐\nϩⲟⲟⲩ §ϣϣⲉ ϭⲉ ⲉϣⲗⲏⲗ’ ⲉⲡⲉⲓⲱⲧ ⲛ̅ⲧⲙ̅ⲙⲟⲩ‐"
+        },
+        {
+          "title": "Praying with All Our Soul",
+          "subtitle": "Praying with All Our Soul",
+          "heading": "Praying with All Our Soul (135, 4-136, 16) So we need to pray to the Father and",
+          "rangeLabel": "135, 4-136, 16",
+          "range": {
+            "start": {
+              "page": 135,
+              "line": 4
+            },
+            "end": {
+              "page": 136,
+              "line": 16
+            }
+          },
+          "english": "So we need to pray to the Father and\ncall on him with all our soul, not outwardly with our lips but with the spirit,\nwhich is within and has come from the depth,\nsighing,\nrepenting for the lives we led,\nconfessing our sins,\nrecognizing the vain deception\nand vain zeal we were in,\nweeping over our lives\nin darkness, as billows roll,\nmourning for ourselves\nthat he might pity us,\nhating ourselves\nfor what we are now.\nAgain, the Savior said:\nBlessed are they who mourn, for they will be pitied.\nBlessed are the hungry, for they will be filled.\nAgain he said:\nOne who does not hate one’s own soul cannot follow me.\nThe beginning of salvation is repentance. Thus:\nBefore Jesus appeared John came and preached the baptism of\nrepentance.\nRepentance takes place in sorrow and grief. The Father is good and loves\npeople, and hears the soul that calls to him and sends her the light of salvation.\nThus he said through the spirit to the prophet:\nSay to the children of my people,\n“[If] your sins reach [from earth to] heaven,\nif they become [red] as scarlet and blacker than sackcloth, [and if]\nyou return to me with all your soul and say to me, ‘My Father,’\nI will listen to you as a holy people.”\nAgain, elsewhere:\nThus says the Lord, the holy one of Israel,\n“If you return and sigh,\nyou will be saved\nand know where you were\nwhen you trusted what is vain.”\nAnd again he said:\nJerusalem wept and wept, saying, “Pity me.” He will have pity on the\nvoice of your lamentation. When he noticed, he listened to you. And the\nLord will give you bread of affliction and water of oppression. From now\non those who deceive will never approach you again. Your eye will see\nthose who would deceive you.",
+          "coptic": "ϩⲟⲟⲩ §ϣϣⲉ ϭⲉ ⲉϣⲗⲏⲗ’ ⲉⲡⲉⲓⲱⲧ ⲛ̅ⲧⲙ̅ⲙⲟⲩ‐\nⲧⲉ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟϥ ϩⲛ̅ ⲧⲙ̅ⲯⲩⲭⲏ ⲧⲏⲣⲥ̅ ϩⲛ̅ ⲛ̅ⲥⲡⲟ‐\nⲧⲟⲩ ⲁⲛ ⲙ̅ⲡⲥⲁ ⲛⲃⲟⲗ’ ⲁⲗⲗⲁ ϩⲙ̅ ⲡⲛⲉⲩⲙⲁ\nⲉⲧϩⲓ ⲡⲥⲁ ⲛϩⲟⲩⲛ ⲡⲉⲛⲧⲁϩⲓ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲃⲁ‐\nⲑⲟⲥ ⲉⲛⲉϣ ⲉϩⲟⲙ ⲉⲛⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ⲉϫⲙ̅\nⲡⲃⲓⲟⲥ ⲛ̅ⲧⲁϩⲛ̅ⲛⲁⲁϥ’ ⲉⲛⲣ̅ⲉⲝϩⲟⲙⲟⲗⲟⲅⲉⲓ\nⲛ̅ⲛ〈ⲛ̅〉ⲛⲟⲃⲉ ⲉⲛⲁⲓⲥⲑⲁⲛⲉ ⲉⲧ’ⲡⲗⲁⲛⲏ ⲉⲧϣⲟⲩ‐\nⲉⲓⲧ’ ⲧⲁⲉⲓ ⲛⲉⲛ’ϣⲟⲟⲡ’ ⲛ̅ϩⲏⲧⲥ̅ ⲁⲩⲱ ⲁⲧⲥⲡⲟⲩ‐\nⲇⲏ ⲉⲧϣⲟⲩⲉⲓⲧ’ ⲉⲛⲣⲓⲙⲉ ⲛ̅ⲑⲉ ⲛⲉⲛϣⲟⲟⲡ’\nϩⲙ̅ ⲡⲕⲁⲕⲉ ⲙⲛ̅ ⲫⲟⲉⲓⲙ ⲉⲛⲣ̅ⲡⲉⲛⲑⲉⲓ ⲛⲁⲛ\nⲟⲩⲁⲁⲛ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲛⲁ ⲛⲁⲛ ⲉⲙⲙⲟⲥⲧⲉ\nⲙ̅ⲙⲟⲛ ⲛ̅ⲑⲉ ⲉⲧⲛ̅ⲛ̅ϩⲏⲧⲥ̅ ⲧⲉⲛⲟⲩ §ⲡⲁⲗⲓⲛ\nⲡⲉϫⲁϥ ⲛ̅ϭⲓ ⲡⲥⲱⲧⲏⲣ ϫⲉ §ϩⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ\nⲛⲉ ⲛⲁⲉⲓ ⲉⲧⲡⲉⲛⲑⲉⲓ §ϫⲉ ⲛ̅ⲧⲟⲟⲩ ⲡⲉ ⲉⲧⲟⲩⲛⲁ‐\nⲛⲁ ⲛⲁⲩ §ϩⲙ̅ⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉⲧϩⲕⲁⲉⲓⲧ’ ϫⲉ ⲛ̅‐\nⲧⲟⲟⲩ §ⲡⲉ ⲉⲧⲛⲁⲥⲉⲓ ⲡⲁⲗⲓⲛ ⲡⲉϫⲁϥ ϫⲉ ⲉ[ⲣ]‐\nⲧⲙ̅ⲟⲩⲁ ⲙⲉⲥⲧⲉ ⲧⲉϥⲯⲩⲭⲏ ϥⲛⲁϣ§ⲟⲩϩⲁϥ\nⲁⲛ’ ⲛ̅ⲥⲱⲉⲓ ⲧⲁⲣⲭⲏ ⲅⲁⲣ ⲙ̅ⲡⲟⲩϫⲁⲉⲓ ⲡⲉ ⲧ’‐\nⲙⲉⲧⲁⲛⲟⲓⲁ ⲇⲓⲁ ⲧⲟⲩⲧⲟ §ϩⲁ ⲧⲉϩⲏ ⲛ̅ⲧⲡⲁ’‐\nⲣⲟⲩⲥⲓⲁ ⲙ̅ⲡⲉⲭⲣⲥ̅ ⲁϥⲓ ⲛ̅ϭⲓ §ⲓ̈ⲱϩⲁⲛⲛⲏⲥ [ⲉϥ]‐\nⲕⲏⲣⲩⲥⲥⲉ ⲙ̅ⲡⲃⲁⲡⲧⲓⲥⲙⲁ §ⲛ̅ⲧⲙⲉⲧⲁⲛⲟⲓ’ⲁ\nⲧⲙⲉⲧⲁⲛⲟⲓⲁ ⲇⲉ ϣⲁⲥϣⲱⲡⲉ ϩⲛ̅ ⲟⲩⲗⲩⲡ’ⲏ\nⲙⲛ̅ ⲟⲩⲙ̅ⲕⲁϩ ⲛ̅ϩⲏ’ⲧ ⲡⲉⲓⲱⲧ ⲇⲉ ⲟⲩⲙⲁⲉⲓ‐\nⲣⲱⲙⲉ ⲡ’ⲉ ⲛ̅ⲁⲅⲁⲑⲟⲥ ⲁⲩⲱ ⲉϥⲥⲱⲧⲙ̅ ⲁ’ⲧ‐\nⲯⲩⲭⲏ ⲉⲧⲣ̅ⲉⲡⲓⲕⲁⲗⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲣ’ⲟϥ ⲁⲩⲱ ’ⲛ̅ϥ‐\nⲧⲛ̅ⲛⲁⲩ ⲛⲁⲥ ⲙ̅ⲡⲟⲩⲟⲉⲓⲛ ⲛ̅ⲛⲟⲩϫⲁⲉⲓ ⲇⲓⲁ\nⲧⲟⲩⲧⲟ ⲡⲉϫⲁϥ ϩⲓⲧⲙ̅ ⲡⲉⲡⲛ̅ⲁ̅ ⲙ̅ⲡⲉⲡⲣⲟ‐\nⲫ[ⲏⲧ]ⲏⲥ ⲇⲉ §ϫⲟⲟⲥ ⲛ̅ⲛ̅ϣⲏⲣⲉ ⲙ̅ⲡⲁⲗⲁⲟⲥ\nϫ[ⲉ §ⲉⲣ]ϣ[ⲁ] ⲛⲉⲧⲛ̅ⲛⲟⲃⲉ ϣⲱⲡⲉ ⲉⲩⲟⲩⲏⲟⲩ\nϫ[ⲓⲙ §ⲡⲕⲁϩ ϣⲁ ⲧ]ⲡⲉ ⲁⲩⲱ ⲉⲩϣⲁϣⲱⲡⲉ\n§ⲉⲩⲧⲣⲉ[ϣⲣⲱ]ϣ ⲛ̅ⲑⲉ ⲙ̅ⲡⲕⲟ’ⲕⲕⲟⲥ §ⲁⲩⲱ\nⲉⲩⲕⲏⲙ ⲛ̅ϩⲟⲩⲟ ⲉⲩϭⲟ[ⲟ]ⲩ[ⲛⲉ §ⲁⲩ]ⲱ [ⲛ̅ⲧⲉ]‐\nⲧⲛ̅ⲕⲟⲧⲧⲏⲩⲧⲛ̅ ϣⲁⲣⲟⲉⲓ §ϩⲛ̅ ⲧⲉⲧⲛ̅ⲯⲩⲭⲏ\nⲧⲏⲣⲥ̅ ⲁⲩⲱ ⲛ̅ⲧⲉⲧⲛ̅ϫⲟⲟⲥ §ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲉⲓ ϫⲉ\nⲡⲁⲉⲓⲱ’ⲧ ϯⲛⲁⲥⲱⲧⲙ̅ §ⲉⲣⲱⲧⲛ̅ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩ‐\nⲗⲁⲟⲥ ’ⲉϥⲟⲩⲁⲁⲃ ⲡⲁⲗⲓⲛ ⲕⲉⲙⲁ §ϥϫⲱ ⲙ̅ⲙⲟⲥ\nⲛ̅ⲧⲉⲉⲓϩⲉ ⲛ̅ϭⲓ ⲡϫⲟⲉⲓⲥ §ⲡⲉⲧⲟⲩⲁⲁⲃ ⲛ̅ⲧⲉ ⲡⲓ‐\nⲥⲣⲁⲏⲗ ϫⲉ ϩⲟⲧⲁⲛ §ⲉⲕϣⲁⲕⲧⲟ’ⲕ ⲛ̅ⲕⲉϣ ⲉϩⲟ’ⲙ\nⲧⲟⲧⲉ §ⲕⲛⲁⲟⲩϫⲁⲉⲓ ⲁⲩⲱ ⲕⲛⲁⲉⲓⲙⲉ ϫⲉ §ⲛⲉⲕⲧⲱⲛ\nⲛ̅ϩⲟⲟⲩ ⲉⲕⲛⲁϩⲧⲉ §ⲁⲛⲓⲡⲉ’ⲧϣⲟⲩⲉⲓ’ⲧ ⲡⲁⲗⲓⲛ\nⲡⲉϫⲁϥ ⲛ̅ⲕⲉⲙⲁ ϫⲉ §ⲑⲓⲉⲣⲟⲩⲥⲁⲗⲏ’ⲙ ϩⲛ̅ ⲟⲩ‐\nⲣⲓⲙⲉ ⲁⲥⲣⲓⲙⲉ ϫⲉ §ⲛⲁ ⲛⲁⲉⲓ ϥⲛⲁⲛⲁ ⲛ̅ⲧⲉⲥⲙⲏ\n§ⲙ̅ⲡⲉⲣⲓⲙⲉ ⲁⲩⲱ ⲛ̅ⲧⲁⲣⲉϥⲛⲁⲩ ⲁϥⲥⲱⲧⲙ̅ §ⲉⲣ’ⲟ\nⲁⲩⲱ ⲡϫⲟⲉⲓⲥ ⲛⲁϯ ⲛⲏⲧⲛ̅ ⲛ̅ⲟⲩⲟⲉⲓ’ⲕ §ⲛ̅ⲑⲗⲓ‐\nⲯⲓⲭ ⲙⲛ̅ⲛⲟⲩⲙⲟⲟⲩ ⲛ̅ⲗⲱϫϩ ⲥⲉⲛⲁⲥⲱⲧⲉ §ⲁⲛ\nϫⲓ’ⲛ ⲧⲉⲛⲟⲩ ⲉⲧⲣⲟⲩⲧϩⲛⲟ ⲉϩⲟⲩⲛ §ⲉⲣⲟ ⲛ̅ϭⲓ\n† ⲡⲉⲧ̅ⲣ̅ⲡⲗⲁⲛⲁ ⲛⲉⲃⲁⲗ §ⲛⲁⲛⲁⲩ ⲁ’ⲛⲉⲧⲣ̅ⲡⲗⲁⲛⲁ\nⲙ̅ⲙⲟ §ϩⲱⲥⲧⲉ ϣϣⲉ ⲁⲣ̅ⲡⲣⲟⲥⲉⲩⲭⲉⲥⲑⲁⲓ ⲉ‐"
+        },
+        {
+          "title": "Repentance of Odysseus and Helen",
+          "subtitle": "Repentance of Odysseus and Helen",
+          "heading": "Repentance of Odysseus and Helen (136, 16-137, 11) We need to pray to God",
+          "rangeLabel": "136, 16-137, 11",
+          "range": {
+            "start": {
+              "page": 136,
+              "line": 16
+            },
+            "end": {
+              "page": 137,
+              "line": 11
+            }
+          },
+          "english": "We need to pray to God\nnight and day and lift our hands to him as people do who sail in the middle of the\nsea. They pray to God with all their heart without hypocrisy. Those who pray\nwith hypocrisy deceive only themselves. For God examines what is within and\nsearches the depths of the heart to find out who is worthy of salvation. And no\none is worthy of salvation who still loves the place of deception.\nThus it is written in the poet:\nOdysseus sat weeping and grieving on the island. He turned his face from\nthe words of Calypso and from her tricks, and longed to see his village and\nsmoke coming from it. If he had not [received] help from heaven, [he\nwould not have been able to return] to his village.\nAgain, [Helen also] says:\nMy heart turned away from me. I want to return to my own house.\nShe sighed and said:\nAphrodite deceived me and brought me out of my village. I left my only\ndaughter behind, and my good, understanding, handsome husband.\nWhen the soul leaves her perfect husband because of the deception of\nAphrodite, which happens in the act of conception in this world, the soul suffers\nharm. But if she sighs and repents, she will be restored to her house.",
+          "coptic": "ⲙ̅ⲙⲟ §ϩⲱⲥⲧⲉ ϣϣⲉ ⲁⲣ̅ⲡⲣⲟⲥⲉⲩⲭⲉⲥⲑⲁⲓ ⲉ‐\nⲡⲛⲟⲩⲧⲉ ⲛ̅ⲧⲟⲩϣⲏ ⲙⲛ̅ ⲡⲉϩⲟⲟⲩ ⲉ’ⲙⲡⲱⲣϣ\nⲛ̅ⲛ̅ϭⲓϫ ⲉϩⲣⲁⲓ̈ ⲉⲣ’ⲟϥ ⲛ̅ⲑⲉ ⲛ̅ⲛⲉⲧϩⲛ̅ ⲧⲙⲏⲧⲉ\nⲛ̅ⲑⲁⲗⲁⲥⲥⲁ ⲉⲧⲡⲗⲉⲁ ϣⲁⲩϣⲗⲏⲗ ⲉⲡⲛⲟⲩ‐\nⲧⲉ ϩⲙ̅ ⲡⲟⲩϩⲏⲧ ⲧⲏ’ⲣϥ ϩⲛ̅ⲛⲟⲩϩⲩⲡⲟⲕⲣⲓⲥⲓⲥ\nⲁⲛ ϫⲉ ⲛⲉ’ⲧⲡⲣⲟⲥⲉⲩⲭⲉⲥⲑⲁⲓ ϩⲛ̅ⲛⲟⲩϩⲩ‐\nⲡⲟⲕⲣⲓⲥⲓⲥ ⲉⲩⲁⲡⲁⲧⲁ ⲙ̅ⲙⲟⲟⲩ ⲟⲩⲁⲧⲟⲩ ⲉ‐\nⲡⲛⲟⲩⲧⲉ ⲅⲁⲣ ϭⲱϣ’ⲧ ⲛ̅ⲥⲁ ⲛ̅ϭⲗⲁⲧⲉ ⲁⲩ’ⲱ\nⲉϥⲙⲟⲩϣ’ⲧ ⲙ̅ⲫⲏ’ⲧ ⲉⲧⲙ̅ⲡⲥⲁ ⲙⲡⲓⲧⲛ̅\nⲉⲧⲣ’ⲉϥⲉⲓⲙⲉ ⲉⲡⲁⲝⲓⲟⲥ ⲛ̅ⲛⲟⲩϫⲁⲉⲓ ⲙⲛ̅ ⲗⲁ‐\nⲁⲩ ⲅⲁⲣ ⲟⲉⲓ ⲛ̅ⲁⲝⲓⲟⲥ ⲙ̅ⲡⲟⲩϫⲁⲉⲓ ⲉⲧⲓ ⲉϥⲙⲉ\nⲙ̅ⲡⲧⲟⲡⲟⲥ ⲛ̅ⲧⲉⲡⲗⲁⲛⲏ §ⲇⲓⲁ ⲧⲟⲩⲧⲟ ϥⲥⲏϩ\nϩⲙ̅ ⲡⲟⲓⲏⲧⲏⲥ ϫⲉ §ⲟⲇⲩⲥⲥⲉⲩⲥ ⲛⲉϥϩⲙⲟⲟⲥ\nϩⲓ ⲧⲙⲟⲩⲉ §ⲉϥⲣⲓⲙⲉ ⲁⲩⲱ ⲉϥⲗⲩⲡⲉⲓ ⲉϥⲕⲧⲟ\nⲙ̅ⲡⲉϥϩⲟ §ⲉⲃⲟⲗ ⲛ̅ⲛ̅ϣⲁϫⲉ ⲛ̅ⲕⲁⲗⲩⲯⲱ\nⲙⲛ̅ ⲛⲉⲥⲁⲡⲁⲧⲏ §ⲉϥⲉⲡⲓⲑⲩⲙⲉⲓ ⲉⲧⲣⲉϥⲛⲁⲩ\nⲉⲡⲉϥϯⲙⲉ §ⲁⲩⲱ ⲉⲩⲕⲁⲡⲛⲟⲥ ⲉϥⲛⲛ[ⲏⲩ] ⲉ‐\nⲃⲟ’ⲗ §ⲙ̅ⲙ’ⲟϥ ⲁⲩⲱ ⲥⲁⲃⲏ[’ⲗ] ϫ[ⲉ ⲁϥϫⲓ §ⲛ̅ⲛⲟⲩ]ⲃⲟ‐\nⲏⲑⲉⲓⲁ ⲉⲃⲟ’ⲗ ϩⲛ̅ ⲧⲡⲉ §ⲛ[ⲉϥⲛⲁϣ]ⲕⲟ[ⲧϥ] ⲁⲛ\nⲉⲡⲉϥϯⲙ’ⲉ ⲡⲁⲗⲓ’ⲛ ⲧⲕⲉϩ[ⲉⲗⲉ]ⲛⲏ 〈 〉 ⲉⲥϫⲱ\n[ⲙ̅ⲙⲟⲥ ϫⲉ] §ⲡⲁ[ϩ]ⲏ’ⲧ ⲁϥⲕⲧⲟϥ ⲛ̅ⲧⲟⲟ’ⲧ ⲡⲁⲗⲓⲛ\n§ⲉⲉⲓⲟⲩⲱϣ ⲃⲱ’ⲕ ⲉⲡⲁⲏⲉⲓ ⲛⲉⲥⲁϣ ⲉϩⲟⲙ ⲅⲁ’ⲣ\nⲉⲥϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ §ⲁⲫⲣⲟⲇⲓⲧⲏ ⲧⲉⲛⲧⲁϩⲣ̅ⲁ‐\nⲡⲁⲧⲁ ⲙ̅ⲙⲟⲉⲓ §ⲁⲥⲛ̅ⲧ̅ ⲉⲃⲟ’ⲗ ⲙ̅ⲡⲁϯⲙⲉ ⲧⲁϣⲣ̅‐\nⲟⲩⲟⲟⲧⲥ̅ §ⲁϩⲓⲕⲁⲁⲥ ⲛ̅ⲥⲱⲉⲓ ⲁⲩⲱ ⲡⲁϩⲁⲉⲓ\nⲉⲧⲛⲁⲛⲟ’ⲩϥ §ⲣ̅ⲣⲙⲛ̅ϩⲏ’ⲧ ⲛ̅ⲁⲥⲉⲓⲉ §ϩⲟⲧⲁⲛ\nⲅⲁⲣ ⲉⲣϣⲁⲛ ⲧⲯⲩⲭⲏ ⲕⲱ ⲛ̅ⲥⲱⲥ ⲙ̅ⲡⲉⲥϩⲁⲓ̈\nⲛ̅ⲧⲉⲗⲉⲓⲟⲥ ⲉⲧⲃⲉ ⲧⲁⲡⲁⲧⲏ ⲛ̅ⲧⲁⲫⲣⲟⲇⲉⲓⲧⲏ\nⲧⲁⲉⲓ ⲉⲧϣⲟⲟ’ⲡ ϩⲙ̅ ⲡⲉϫⲡⲟ ⲙ̅ⲡⲉⲉⲓⲙⲁ ⲧⲟ‐\nⲧⲉ ⲥⲛⲁⲣ̅ⲃⲗⲁⲡⲧⲉⲥⲑⲁⲓ ⲉⲥϣⲁⲛⲁϣ ⲉϩⲟ’ⲙ\nⲇⲉ ⲛ̅ⲥⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ⲥⲉⲛⲁⲕⲧⲟⲥ ⲉϩⲟⲩ’ⲛ ⲉⲡⲉⲥ‐\nⲏⲉⲓ §ⲕⲁⲓ ⲅⲁⲣ ⲡⲓⲥⲣⲁⲏ’ⲗ ⲙ̅ⲡⲟⲩϭⲛ̅ ⲡⲉϥϣⲓⲛⲉ"
+        },
+        {
+          "title": "Our Repentance",
+          "subtitle": "Our Repentance",
+          "heading": "Our Repentance (137, 11-27)",
+          "rangeLabel": "137, 11-27",
+          "range": {
+            "start": {
+              "page": 137,
+              "line": 11
+            },
+            "end": {
+              "page": 137,
+              "line": 27
+            }
+          },
+          "english": "Israel would not have once been visited by God and brought out of the land of\nEgypt and the house of bondage if it had not sighed to God and wept about its\noppressive labors.\nAgain, it is written in the Psalms:\nI have been deeply troubled\nin my groaning.\nI shall drench my bed and cover each night\nwith my tears.\nI have become old among all my enemies.\nDepart from me, all you who do lawless things,\nfor look, the Lord has heard the cry of my weeping, and the Lord has\nheard my prayer.\nIf we truly repent, God, who is patient and abundant in mercy, will hear us.\nTo God be the glory forever and ever.\nAmen.\nExegesis on the Soul",
+          "coptic": "ⲏⲉⲓ §ⲕⲁⲓ ⲅⲁⲣ ⲡⲓⲥⲣⲁⲏ’ⲗ ⲙ̅ⲡⲟⲩϭⲛ̅ ⲡⲉϥϣⲓⲛⲉ\nⲛ̅ϣⲟⲣ’ⲡ ⲉⲧⲣⲟⲩⲛ̅ⲧϥ̅ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲁϩ ⲛ̅ⲕⲏⲙⲉ\nϩⲙ̅ ⲡⲏⲉⲓ ⲛ̅ⲧⲙⲛ̅ⲧϩⲙϩ̅ⲁ̅ⲗ̅ ⲉⲓ ⲙⲏⲧⲓ ϫⲉ ’ⲁϥⲉ‐\nϣ ⲉϩⲟ’ⲙ ⲉϩⲣⲁⲓ̈ ⲉⲡⲛⲟⲩⲧⲉ ⲁϥⲣⲓⲙⲉ ⲙ̅ⲡⲗⲱϫϩ\nⲛ̅ⲛⲉϥϩⲃⲏⲩⲉ ⲡⲁⲗⲓⲛ ϥⲥⲏϩ ϩⲛ̅ ⲙ̅ⲯⲁⲗⲙⲟⲥ\nϫⲉ §ⲁⲉⲓϩⲓⲥⲉ ⲉⲙⲁⲧⲉ ϩⲙ̅ ⲡⲁⲁϣ ⲉϩⲟ’ⲙ §ϯⲛⲁ‐\nϫⲱⲕⲙ̅ ⲙ̅ⲡⲁϭⲗⲟϭ ⲙⲛ̅ ⲡⲁⲡⲣⲏϣ §ⲕⲁⲧⲁ ⲟⲩ‐\nϣⲏ ϩⲛ̅ ⲛⲁⲣⲙ̅ⲙⲉⲓⲏ ⲁϩⲓⲣ̅ ⲁⲥ §ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲁϫ[ⲁ]‐\nϫⲉ ⲧⲏⲣⲟⲩ ⲥⲁϩⲉ §ⲧⲏⲩⲧⲛ̅ ⲉⲃⲟⲗ ⲙ̅ⲙⲟⲉⲓ ⲟ[ⲩ]‐\nⲟⲛ ⲛⲓ’ⲙ ⲉⲧⲣ̅ §ϩⲱ’ⲃ ⲉⲧⲁⲛⲟⲙⲓⲁ ϫⲉ ⲉⲓⲥ ⲡϫⲟ\nⲉⲓⲥ §ⲁϥⲥⲱⲧⲙ̅ ⲉⲡⲁϣⲕⲁ’ⲕ ⲙ̅ⲡⲁⲣⲓⲙⲉ ⲁⲩ‐\nⲱ §ⲁⲡϫⲟⲉⲓⲥ ⲥⲱⲧⲙ̅ ⲉⲡⲁⲥⲟⲡⲥ̅ §ⲉϣⲱⲡ[ⲉ]\nⲧⲛⲁⲣ̅ⲙⲉⲧⲁⲛⲟⲉⲓ ⲛⲁⲙⲉ ⲡⲛⲟⲩⲧⲉ ⲛⲁ‐\nⲥⲱⲧⲙ̅ ⲉⲣⲟⲛ ⲡϩⲁⲣϣϩⲏ’ⲧ ⲁⲩⲱ ⲡⲁ ⲡⲛⲟϭ\nⲛ̅ⲛⲁ † ⲛⲁⲉⲓ ⲉⲧⲉ ⲡⲱϥ ⲡⲉ ⲡⲉⲟⲟⲩ ϣⲁ ⲛⲓⲉ‐\nⲛⲉϩ ⲛ̅ⲉⲛⲉϩ ϩⲁⲙⲏⲛ\nⲧⲉⲝⲏⲅⲏⲥⲓⲥ ⲉⲧⲃⲉ ⲧⲯⲩⲭⲏ \n( codex II ) The Book of Thomas the Contender"
+        }
+      ]
+    },
+    {
+      "workId": "book-of-thomas-the-contender",
+      "chapterName": "Book of Thomas the Contender",
+      "title": "Codex II - Book of Thomas the Contender",
+      "sourceTitle": "THE BOOK OF THOMAS",
+      "sections": [
+        {
+          "title": "Hidden Sayings",
+          "subtitle": "Hidden Sayings",
+          "heading": "Hidden Sayings (138, 1-4)",
+          "rangeLabel": "138, 1-4",
+          "range": {
+            "start": {
+              "page": 138,
+              "line": 1
+            },
+            "end": {
+              "page": 138,
+              "line": 4
+            }
+          },
+          "english": "The hidden sayings that the Savior spoke to Judas Thomas, which I, Mathaias, in\nturn recorded. I was walking, listening to them speak with each other.",
+          "coptic": "§ⲛ̅ϣⲁϫⲉ ⲉⲑⲏⲡ’ ⲛⲁⲓ̈ ⲉⲛⲧⲁϥϣⲁϫⲉ ⲙ̅ⲙⲁⲩ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲛ̅‐\nⲓ̈ⲟⲩⲇⲁⲥ ⲑⲱⲙⲁⲥ ⲛⲁⲓ̈ ⲉⲛⲧⲁⲓ̈ⲥⲁϩⲟⲩ’ ⲁⲛⲟⲕ ϩⲱⲱⲧ’ ⲙⲁ‐\nⲑⲁⲓⲁⲥ ⲛⲉⲉⲓⲙⲟⲟϣⲉ ⲉⲉⲓⲥⲱⲧⲙ̅ ⲉⲣⲟⲟⲩ ⲉⲩϣⲁϫⲉ ⲙⲛ̅\nⲛⲟⲩⲉⲣⲏⲩ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲡⲥⲁⲛ ⲑⲱⲙⲁⲥ ϩⲱⲥ"
+        },
+        {
+          "title": "Jesus Speaks with Brother Thomas",
+          "subtitle": "Jesus Speaks with Brother Thomas",
+          "heading": "Jesus Speaks with Brother Thomas (138, 4-21)",
+          "rangeLabel": "138, 4-21",
+          "range": {
+            "start": {
+              "page": 138,
+              "line": 4
+            },
+            "end": {
+              "page": 138,
+              "line": 21
+            }
+          },
+          "english": "The Savior said, “Brother Thomas, while you are still in the world, listen to me\nand I shall reveal to you what you have thought about in your heart.\n“Since it is said that you are my twin and true friend, examine yourself and\nunderstand who you are, how you exist, and how you will come to be. Since you\nare to be called my brother, it is not fitting for you to be ignorant of yourself.\nAnd I know that you have understood, for already you have understood that I am\nthe knowledge of truth. So while you are walking with me, though you do lack\nunderstanding, already you have obtained knowledge and you will be called one\nwho knows himself. For those who have not known themselves have known\nnothing, but those who have known themselves already have acquired\nknowledge about the depth of the All. So then, my brother Thomas, you have\nseen what is hidden from people, what they stumble against in their ignorance.”",
+          "coptic": "ⲛⲟⲩⲉⲣⲏⲩ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲡⲥⲁⲛ ⲑⲱⲙⲁⲥ ϩⲱⲥ\nⲉⲩⲛ̅ⲧⲁⲕ’ ⲙ̅ⲙⲁⲩ ⲛ̅ⲟⲩⲟⲉⲓϣ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲥⲱⲧⲙ̅ ⲉⲣⲟⲓ̈\nⲛ̅ⲧⲁϭⲱⲗⲡ’ ⲛⲁⲕ’ ⲉⲃⲟⲗ ⲉⲧⲃⲉ ⲛⲉⲛⲧⲁⲕ’ⲙⲉⲉⲩⲉ ⲉⲣⲟⲟⲩ\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲉⲕ’ϩⲏⲧ’ §ⲉⲡⲉⲓ ⲇⲉ ⲁⲩϫⲟⲟⲥ ϫⲉ ⲛ̅ⲧⲟⲕ’ ⲡⲁ’‐\nⲥⲟⲉⲓϣ’ ⲁⲩⲱ ⲡⲁϣⲃⲣ̅ⲙ̅ⲙⲏⲉ’ ϩⲉ’ⲧϩⲱⲧⲕ̅ ⲛ̅ⲕⲙ̅ⲙⲉ\nϫⲉ ⲛ̅ⲧⲕ ⲛⲓⲙ’ ⲁⲩⲱ ⲁⲕϣⲟⲟⲡ’ ⲛ̅ⲁϣ ⲛ̅ϩⲉ ⲏ ⲉⲕⲛⲁϣⲱ‐\nⲡⲉ ⲛ̅ⲛⲁϣ ⲛ̅ⲣⲏⲧⲉ ⲉⲡⲉⲓⲇⲏ ⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲕ’ ϫⲉ ⲡⲁⲥⲟⲛ\nⲡⲉⲧⲉⲥϣⲉ ⲁⲛ ⲡⲉ’ ⲉⲧⲣⲉⲕ’ϣⲱⲡⲉ ⲉⲕⲟ ⲛ̅ⲧⲁⲥⲟⲟⲩⲛ’ⲉ’\nⲉⲣⲟⲕ’ ⲙ̅ⲙⲓⲛ’ ⲙ̅ⲙⲟⲕ’ϩ ⲁⲩⲱ ϯⲥⲟⲟⲩⲛⲉ ϫⲉ ⲁⲕⲙ̅ⲙⲉ’ϩ\nⲁⲕⲟⲩ ⲱ ⲅⲁⲣ ⲉⲕⲙ̅ⲙⲉ ⲙ̅ⲙⲟⲉⲓ ϫⲉ ⲁⲛⲟⲕ ⲡⲉ ⲡⲥⲟⲟⲩⲛ ⲛ̅ⲧⲙⲏⲉ\nϩⲱⲥ ⲉⲕⲙⲟⲟϣⲉ ϭⲉ ⲛⲙ̅ⲙⲁⲉⲓ ⲕⲁⲛ ⲛ̅ⲧⲁⲕ’ ⲟⲩⲁⲧ’ⲥⲟⲟⲩⲛ’\nⲁⲕⲟⲩⲱ ⲉⲕⲥⲟⲟⲩⲛ’ⲉ ⲁⲩⲱ ⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟⲕ’ ϫⲉ ⲡⲣⲉϥ’‐\nⲥⲟⲟⲩⲛ’ⲉ ⲉⲣⲟϥ’ ⲙ̅ⲙⲓⲛ’ ⲙ̅ⲙⲟϥ’ ϫⲉ ⲡⲉⲧⲉ ⲙ̅ⲡϥ’ⲥⲟⲩ‐\nⲱⲛϥ ⲅⲁⲣ’ ⲙ̅ⲡϥⲥⲟⲩⲱⲛ ⲗⲁⲁⲩ’ ⲡⲉⲛⲧⲁϥⲥⲟⲩⲱⲛϥ ⲇⲉ ⲟⲩ‐\nⲁⲁⲧϥ’ ⲁϥⲟⲩⲱ ⲟⲛ’ ⲉϥϫⲓ ⲥⲟⲟⲩⲛⲉ’ ⲁⲡⲃⲁⲑⲟⲥ ⲙ̅ⲡⲧⲏⲣϥ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ϭⲉ ⲛ̅ⲧⲟⲕ’ ⲡⲁⲥⲟⲛ̅ ⲑⲱⲙⲁⲥ’ ⲁⲕⲛⲁⲩ ⲁⲡⲡⲉⲑⲏⲡ’\nⲉⲃⲟⲗ ϩⲛ̅ ⲣⲣⲱⲙⲉ ⲉⲧⲉ ⲡⲁⲓ̈ ⲡⲉ ⲉⲧⲟⲩϫⲓ ϫⲣⲟⲡ’ ⲉⲣⲟϥ’ ⲉⲛ’‐\nⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ’ §ⲡⲁϫⲉϥ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ’ ⲙ̅ⲡϫⲟⲉⲓⲥ ϫⲉ"
+        },
+        {
+          "title": "The Hidden and the Visible",
+          "subtitle": "The Hidden and the Visible",
+          "heading": "The Hidden and the Visible (138, 21-139, 31)",
+          "rangeLabel": "138, 21-139, 31",
+          "range": {
+            "start": {
+              "page": 138,
+              "line": 21
+            },
+            "end": {
+              "page": 139,
+              "line": 31
+            }
+          },
+          "english": "Thomas said to the master, “That is why I beg you to tell me what I ask before\nyour ascension. When I hear from you about what is hidden, I can speak of it.\nAnd it is clear to me that the truth is difficult to accomplish before people.”\nThe Savior answered and said, “If what is visible to you is obscure to you,\nhow can you comprehend what is invisible? If deeds of truth visible in the world\nare difficult for you to accomplish, how will you accomplish things of the\nexalted majesty and fullness, which are invisible? How will you be called\nworkers? You are beginners and have not attained the greatness of perfection.”\nThomas answered and said to the Savior, “Tell us about these things that you\nsay are invisible and hidden from us.”\nThe Savior said, “[All] bodies [have come into being in the same irrational\nway] that animals are produced, and so they are visible, as [creatures lusting\nafter creatures]. Those that are above, however, [do not exist like] those that are\nvisible. Rather, [they] live from their own root, and their crops nourish\nthem. But the visible bodies feed on creatures that are like them, and so the\nbodies are subject to change. Whatever is subject to change will perish and be\nlost, and henceforth has no hope of life, because this body is an animal body.\nJust as an animal body perishes, these modeled forms also will perish. Are they\nnot from sexual intercourse like that of the animals? If the body too is from\nintercourse, how will it give birth to anything different from them? So, then, you\nare children until you become perfect.”\nThomas answered, “This is why I say to you, master, those who speak about\nwhat is invisible and difficult to explain are like people who shoot their arrows at\na target during the night. Of course, they shoot their arrows as any people do,\nsince they are shooting at the target, but it is not visible. When light comes,\nhowever, and banishes darkness, then the accomplishment of each person will be\nclear. And you, our light, bring enlightenment, master.”\nJesus said, “It is through light that light exists.”\nThomas spoke and said, “Master, why does this visible light that shines for\npeople rise and set?”\nThe Savior said, “Blessed Thomas, surely this visible light has shone for you\nnot to keep you here, but that you might leave. And when all the chosen ones lay\ndown their animal nature, this light will withdraw up to its being, and its being\nwill welcome it to itself, because the light is a good helper.”",
+          "coptic": "ⲥⲉⲥⲟⲟⲩⲛ ⲁⲛ’ §ⲡⲁϫⲉϥ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ’ ⲙ̅ⲡϫⲟⲉⲓⲥ ϫⲉ\nⲉⲧⲃⲉ ⲡⲁⲉⲓ ϭⲉ ϯⲥⲟⲡⲥ̅ ⲙ̅ⲙⲟⲕ ϫⲉⲕⲁⲁⲥ ⲉⲕⲛⲁϫⲱ ⲛⲁⲓ̈\n[ⲛ̅ⲛ]ⲉϯϣⲓⲛⲉ ⲙ̅ⲙⲟⲕ’ ⲉⲣⲟⲟⲩ’ ϩⲁ ⲑⲏ ⲛ̅ⲧⲉⲕ’ⲁⲛⲁⲗⲏⲙ̅ⲯⲓⲥ\n[ⲁⲩ]ⲱ ϩⲟⲧⲁⲛ’ ⲉⲉⲓϣⲁⲛ’ⲥⲱⲧⲙ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲕ’ ϩⲁ ⲡⲣⲁ\nⲛⲛⲉⲑⲏⲡ’ ⲧⲟⲧⲉ ⲟⲩⲛ̅ ϭⲟⲙ ⲙ̅ⲙⲟⲉⲓ ⲉϣⲁϫⲉ ⲉⲧⲃⲏ’‐\nⲧ[ⲟ]ⲩ ⲁⲩⲱ ⲥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲛⲁⲉⲓ ϫⲉ ⲧⲙⲏⲉ ⲥⲙⲟⲕϩ ⲁ’‐\nⲁ[ⲥ] ⲛ̅ⲛⲁϩⲣⲛ̅ ⲛ̅ⲣⲱⲙⲉ’ §ⲁϥ’ⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ⲉϥϫⲱ ⲙ̅‐\nⲙ[ⲟ]ⲥ ϫⲉ ⲉϣⲡⲉ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲛⲏⲧⲛ̅ ⲥⲉϩⲏⲡ’\nⲛ̅[ⲛ]ⲁϩⲣⲛ̅ ⲧⲏⲛⲉ ⲛ̅ⲁϣ ⲛ̅ϩⲉ’ ⲉⲩⲛ̅ ϭⲁⲙ’ ⲙ̅ⲙⲱⲧⲛ̅ ⲁⲥⲱⲧⲙ̅\nⲁⲛⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ’ ⲉϣⲡⲉ ⲛ̅ϩⲃⲏⲩⲉ ⲛ̅ⲧⲙⲏⲉ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲥⲉⲙⲟⲕϩ ⲁⲧⲣⲉⲧⲛ̅ⲁ’‐\nⲁⲩ ⲉⲉⲓⲉ ⲡⲱⲥ ϭⲉ ⲉⲧⲉⲧⲛⲁⲉⲓⲣⲉ ⲛ̅ⲛⲁ ⲡⲙⲉⲅⲉⲑⲟⲥ ⲉⲧ’‐\nϫⲟⲥⲉ’ ⲁⲩⲱ ⲛⲁ ⲡⲡⲗⲏⲣⲱⲙⲁ ⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲁⲛ’ ⲛ̅ⲛⲁϣ ϭⲉ ⲛ̅ϩⲉ ⲉⲩⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲱⲧⲛ̅ ϫⲉ ⲉⲣⲅⲁⲧⲏⲥ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲛ̅ⲧⲱⲧⲛ̅ ϩⲉⲛⲥⲃⲟⲩⲉⲓ ⲁⲩⲱ ⲙ̅ⲡⲁⲧⲉⲧⲛϫⲓ ⲙ̅‐\nⲡⲙⲉⲅⲉⲑⲟⲥ ⲛ̅ⲧⲙ̅ⲛ̅ⲧⲧⲉⲗⲉⲓⲟⲥ §ⲁϥⲟⲩⲱϣ̅ⲃ̅ ⲇⲉ ⲛ̅ϭⲓ\nⲑⲱⲙⲁⲥ ⲡⲉϫⲁϥ ⲙ̅ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ϫⲟⲥ ⲛⲁⲛ’ ⲉⲧⲃⲉ [ⲛ]ⲁⲉⲓ\nⲉⲧⲕϫⲱ ⲙ̅ⲙⲟⲟⲩ ϫⲉ ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ’ ⲁ[ⲗⲗⲁ ⲥⲉ]ϩⲏⲡ’\nⲉⲣⲟⲛ’ §ⲡⲁϫⲉ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲥⲱⲙⲁ [ⲛⲓ]ⲙ’ [.........]ⲛ̅\nⲛ̅ⲧⲃⲛⲟⲟⲩⲉ’ ⲉⲩϫⲡⲟ ⲙ̅ⲙⲟⲟⲩ .[.......].. .[..]ⲉ\nⲉϥ[ⲟⲩ]ⲟⲛϩ ⲉ[ⲃ]ⲟⲗ ⲙ̅ⲡⲓⲣⲏⲧⲉ ⲛ̅ⲑⲉ ⲛ̅[...]ⲱ[.]ⲧ’ ⲉϥ’ⲥⲟⲩ‐\n[..........]ⲧⲉ[...] ⲡⲁⲓ̈ ϩⲱⲱϥ’ ⲛⲉⲧⲙ̅ⲡⲥⲁ ⲛ’ⲧⲡⲉ\n[...............].ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲗⲗⲁ ⲉ[ⲩ]‐\nⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲟⲩⲛⲟⲩⲛⲉ ⲟⲩⲁⲁⲧⲟⲩ ⲁⲩⲱ ⲛⲉⲩⲕⲁⲣ‐\nⲡⲟⲥ ⲡⲉⲧ’ⲥⲁⲁⲛϣ ⲙ̅ⲙⲟⲟⲩ ⲛⲉⲉⲓⲥⲱⲙⲁ ⲛ̅ⲧⲟⲟⲩ ⲉⲧⲟⲩ‐\nⲟⲛϩ ⲉⲃⲟⲗ’ ⲉⲩⲱⲙ’ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ⲥⲱⲛⲧ’ ⲉϯⲛⲉ ⲙ̅ⲙⲟⲟⲩ\nⲉⲧⲃⲉ ⲡⲁⲓ̈ ϭⲉ ⲛ̅ⲥⲱⲙⲁ ⲥⲉϣⲓⲃⲉ ⲡⲉⲧϣⲓⲃⲉ ⲁⲉ ϥⲛⲁⲧⲉ‐\nⲕⲟ ⲛ̅ϥⲱϫⲛ̅ ⲁⲩⲱ ⲙⲛ̅ⲧⲉϥ ϩⲉⲗⲡⲓⲥ ⲛ̅ⲱⲛϩ ϫⲙ̅ ⲡⲓⲛⲁⲩ\nϫⲉ ⲡⲓⲥⲱⲙⲁ ⲅⲁⲣ’ ⲟⲩⲧⲃ̅ⲛⲏ ⲡⲉ ⲛ̅ⲛ̅ⲑⲉ ϭⲉ ⲛ̅ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ’\nⲉϣⲁⲣⲉ ⲡⲟⲩⲥⲱⲙⲁ’ ⲧⲉⲕⲟ ⲧⲉⲉⲓ ⲧⲉ ⲑⲉ ⲛ̅ⲛⲉⲉⲓⲡⲗⲁⲥⲙⲁ’\nⲥⲉⲛⲁⲧⲉⲕⲟ’ ⲙⲏⲧⲓ ⲟⲩⲉⲃⲟⲗ ⲁⲛ ⲡⲉ ϩⲛ̅ ⲧⲥⲩⲛⲟⲩⲥⲓⲁ ⲛ̅‐\nⲑⲉ ⲙ̅ⲡⲁ ⲛ̅ⲧⲃ̅ⲛⲟⲟⲩⲉ’ ⲉϣϫⲉ ⲟⲩⲉⲃⲟⲗ ⲛ̅ϩⲏⲧⲥ̅ ϩⲱ‐\nⲱϥ ⲡⲉ ⲛ̅ⲁϣ ⲛ̅ϩⲉ ⲉϥⲛⲁϫⲡⲟ ⲛ̅ⲟⲩⲇⲓⲁⲫⲟⲣⲁ ⲛ̅ϩⲟⲩⲟ\nⲉⲣⲟⲟⲩ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ϭⲉ ⲛ̅ⲧⲱⲧⲛ̅ ϩⲉⲛⲕⲟⲩⲉⲓ ϣⲁⲛⲧⲉ‐\nⲧⲛ̅ⲣ̅ ⲧⲉⲗⲉⲓⲟⲥ’ §ⲁϥⲟⲩⲱϣⲃ̅ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ ϫⲉ ⲉ‐\nⲧⲃⲉ ⲡⲁⲓ̈ ϯϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲁⲕ’ ⲡϫⲟⲉⲓⲥ ϫⲉ ⲛⲉⲧϣⲁϫⲉ\nⲉⲧⲃⲉ ⲛⲉⲧⲉ ⲛ̅ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲕ ⲁⲛ’ ⲁⲩⲱ ⲛⲉⲧ’ⲙⲟⲕϩ\nⲛ̅ⲃⲟⲗⲟⲩ ⲉⲩⲧⲛ̅ⲧⲱⲛ ⲁⲛⲉⲧϫⲱⲗⲕ’ ⲛ̅ⲛⲉⲩⲥⲁⲧⲉ ⲁⲩ‐\nⲙⲏⲓ̈ⲛⲉ ϩⲛ̅ ⲧⲟⲩϣⲏ ⲥⲉϫⲱⲗⲕ’ ⲙⲉⲛ ⲛ̅ⲛⲉⲩⲥⲟⲧⲉ ⲛ̅ⲑⲉ\nⲛ̅ϩⲟⲉⲓⲛⲉ ϫⲉ ⲉⲩϫⲱⲗⲕ’ ⲁⲡⲙⲁⲓ̈ⲛⲉ’ ⲁⲗⲗⲁ ϥⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ⲁⲛ’ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲣϣⲁⲛ ⲡⲟⲩⲟⲉⲓⲛ’ ⲉⲓ ⲉⲃⲟⲗ ⲛ̅ϥ’‐\nϩⲱ’ ⲙ̅ⲡⲕⲁⲕⲉ ⲧⲟⲧⲉ ⲡϩⲱⲃ ⲙ̅ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲁⲟⲩⲱⲛϩ\nⲉⲃⲟⲗ’ ⲛ̅ⲧⲟⲕ’ ⲇⲉ ⲡⲛ̅ⲟⲩⲟⲉⲓⲛ’ ⲉⲕⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲡϫⲟⲉⲓⲥ’\n§ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲓ̅ⲥ̅ ϫⲉ ⲡⲟⲩⲟⲉⲓⲛ’ ⲉϥϣⲟⲟⲡ’ ϩⲙ̅ ⲡⲟⲩ[ⲟ]‐\nⲉⲓ’ⲛ §ⲡⲁϫ’ⲉϥ ⲛ̅ϭⲓ ⲑⲱⲙⲁ’ⲥ ⲉϥϫⲱ ⲙ̅ⲙⲟ’ⲥ ϫⲉ ⲡϫⲟ[ⲉⲓⲥ]\nⲉⲧⲃⲉ ⲟⲩ ⲡⲓⲟⲩⲟⲉⲓ’ⲛ ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲉⲧⲣ̅ ⲟⲩⲟⲉⲓⲛ\nⲉⲧⲃⲉ ⲛ̅ⲣⲱⲙ’ⲉ ϣⲁϥⲡⲣ̅ⲣ̅ⲓⲉ ⲁⲩⲱ ϣⲁϥϩⲱⲧ’ⲡ §ⲡⲁϫ’ⲉϥ\nⲛ̅ϭⲓ ⲡⲥ̅ⲱ̅ⲣ̅ ϫⲉ ⲱ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲑⲱⲙⲁⲥ ⲡⲓⲟⲩⲟⲉⲓⲛ ⲅ[ⲁ]ⲣ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁϥⲣ̅ ⲟⲩⲟⲉⲓⲛⲉ ⲉⲧⲃⲉ ⲧⲏⲛⲉ ϫⲉⲕⲁ[ⲁⲥ]\nⲁⲛ ⲉⲧⲉⲧⲛⲁϭⲱ ⲙ̅ⲡⲓⲙ’ⲁ ⲁⲗⲗⲁ ϫⲉ ⲉⲧⲉⲧⲛⲁⲉⲓ ⲉⲃ[ⲟⲗ]\nⲛ̅ϩⲏ’ⲧϥ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲣⲉϣⲁ ⲛ̅ⲥⲱⲧ’ⲡ ⲧⲏⲣⲟⲩ ⲕⲱ [ⲉ]ϩ‐\nⲣⲁⲓ̈ ⲛ̅ϯⲙ̅ⲛ̅ⲧⲧⲃ̅ⲛ’ⲏ ⲧⲟⲧⲉ ⲡⲓⲟⲩⲟⲉⲓⲛ ϥⲛⲁⲣ̅ⲁⲛⲁ‐\nⲭⲱⲣⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉⲧ’ⲉϥⲟⲩⲥⲓⲁ ⲁⲩⲱ ⲧ’ⲉϥⲟⲩⲥⲓⲁ ⲛⲁϣⲟ’ⲡϥ\nⲉⲣⲟⲥ ϫⲉ ⲟⲩϩⲩⲡⲏⲣⲉⲧⲏⲥ ⲉⲛⲁⲛⲟ’ⲩϥ ⲡⲉ §ⲧⲟⲧⲉ"
+        },
+        {
+          "title": "Wisdom and Foolishness",
+          "subtitle": "Wisdom and Foolishness",
+          "heading": "Wisdom and Foolishness (139, 31-141, 2)",
+          "rangeLabel": "139, 31-141, 2",
+          "range": {
+            "start": {
+              "page": 139,
+              "line": 31
+            },
+            "end": {
+              "page": 141,
+              "line": 2
+            }
+          },
+          "english": "The Savior continued and said, “Oh, unsearchable love of light! Oh, bitterness of\nthe fire! You blaze in the bodies of people and in the marrow of their bones,\nblazing in them night and day, burning their limbs and [making] their minds\ndrunk and their souls deranged. [You dominate] males and females day and\nnight; you move [and arouse] them secretly and visibly. When the males are\n[aroused, they are attracted to the] females and the females to the males. That is\nwhy it is said that everyone who seeks truth from true wisdom will\nfashion wings to fly, fleeing from the passion that burns human spirits. And one\nwill fashion wings to flee from every visible spirit.”\nThomas answered and said, “Master, this is precisely what I ask you, since I\nunderstand that you are beneficial to us through what you say.”\nAgain the Savior answered and said, “This is why we must speak to you,\nbecause this is the teaching for the perfect. If you wish to become perfect, keep\nthese sayings. If not, the name for you is ‘ignorant,’ since an intelligent person\ncannot associate with a fool. The intelligent person is perfect in all wisdom, but\nto the fool good and evil are the same. The wise person will be nourished by\ntruth, and will be like a tree growing by the stream of water. Some people have\nwings but rush toward visible things that are far from truth. The fire that guides\nthem gives them an illusion of truth. It will shine on them with a perishable\nbeauty, and it will imprison them in dark delight and capture them in sweetsmelling pleasure. And it will make them blind with insatiable desire, inflame\ntheir souls, and be like a stake that is jammed into their heart and can never be\nremoved. Like a bit in the mouth, it leads them according to its own wish.\n“It has bound them with its chains, and tied all their limbs with the bitterness\nof the bondage of desire for those visible things that perish and change and\nfluctuate impulsively. They have always been drawn downward. When they are\nslain, they are drawn to all the animals of corruption.”\nThomas answered and said, “It is clear and has been said that [many are]…\nthose who do not know…soul.”\n[The Savior] answered and said, “[Blessed] is the wise person who has\n[sought truth, and] when it has been found, has rested upon it forever, and\nhas not been afraid of those who wish to trouble him.”",
+          "coptic": "ⲉⲣⲟⲥ ϫⲉ ⲟⲩϩⲩⲡⲏⲣⲉⲧⲏⲥ ⲉⲛⲁⲛⲟ’ⲩϥ ⲡⲉ §ⲧⲟⲧⲉ\nⲁϥⲟⲩⲱϩ ⲉⲧⲟⲟ’ⲧϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫ’ⲉϥ ϫⲉ ⲱ͂ ⲧⲉⲧⲉ\nⲙⲁⲩϣⲛ̅ ⲣⲁⲧⲥ̅ ⲧⲁⲅⲁⲡⲏ ⲙ̅ⲡⲟⲩⲟⲉⲓ’ⲛ ⲱ͂ ⲡⲥⲓϣⲉ ⲙ̅‐\nⲡⲕⲱϩ’ⲧ ⲉⲧϫⲉⲣⲟ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ⲥⲱⲙⲁ ⲛ̅ⲛ̅ⲣⲱⲙⲉ ⲙⲛ̅\nⲛⲉⲩⲁⲧⲕⲁ’ⲥ ⲉϥϫⲉⲣⲟ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧⲟⲩ ⲛ̅ⲧⲟⲩϣⲏ ⲙⲛ̅\nⲫ[ⲟⲟⲩ] ⲁⲩⲱ ⲉⲧⲣⲱⲭϩ ⲛ̅ⲙ̅ⲙⲉⲗⲟⲥ ⲛ̅ⲛ̅ⲣⲱⲙ’ⲉ ⲁⲩⲱ\nⲉ[ⲧⲧⲣⲉ ⲛ]ⲉⲩϩⲏⲧ ϯϩ’ⲉ ⲁⲩⲱ ⲛⲉⲩⲯⲩⲭⲏ ⲉⲥⲧⲣⲟⲩⲡⲱϣⲥ̅\nⲁ[........] ⲉⲣ[ⲟ]ⲟⲩ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ϩⲟⲩ’ⲧ ⲙⲛ̅ ⲛ̅ⲥϩⲓⲟⲙⲉ\n[.].ⲉϩ.[....ⲧⲟ]ⲩϣⲏ ⲁⲩⲱ ⲉⲧⲕⲓ’ⲙ ⲉⲣⲟⲟⲩ [ϩⲛ̅] ⲟⲩ‐\n[..]’ⲙ ⲉϥ[...ϩ]ⲛ̅ ⲟⲩϩⲱ’ⲡ ⲙⲛ̅ ⲟⲩⲱⲛϩ ⲉⲃⲟ[ⲗ ⲥⲉ]‐\n[ⲕⲓ]ⲙ ⲅⲁ’ⲣ ⲛ̅ϭⲓ ⲛ̅ϩⲟⲟⲩ’ⲧ ⲥ[...ⲁϫⲛ̅ ⲛ̅ⲥϩⲓⲟ]‐\nⲙ’ⲉ ⲁⲩⲱ ⲛ̅ⲥϩⲓⲟⲙ’ⲉ ’ⲁϫⲛ̅ ⲛ̅ϩⲟⲟⲩⲧ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲥⲉ]\nϫⲱ ⲙ̅ⲙⲟⲥ ϫⲉ ⲟⲩⲟⲛ ⲛⲓ’ⲙ ⲉⲧϣⲓⲛⲉ ⲛ̅ⲥⲁ ⲧⲙⲏⲉ ⲉⲃⲟⲗ\nϩⲛ̅ ⲧⲥⲁⲃⲏ ⲙ̅ⲙⲏⲉ ϥⲛⲁⲥⲙⲓⲛⲉ ⲛ’ⲁϥ ⲛ̅ϩⲉⲛⲧⲛ̅ϩ ⲁⲧⲣ’ⲉϥ‐\nϩⲱ’ⲗ ⲉϥⲡⲏ’ⲧ ϩⲏⲧⲥ̅ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲉⲧⲣⲱⲕ ⲛⲙ̅ⲡⲛ̅ⲁ̅\nⲛ̅ⲛ̅ⲣⲱⲙ’ⲉ ⲁⲩⲱ ϥⲛⲁⲥⲙⲓⲛⲉ ⲛ’ⲁϥ ⲛ̅ϩⲉⲛⲧⲛϩ ⲉϥⲡⲱ’ⲧ\nϩⲏ’ⲧϥ ⲙ̅ⲡⲛ̅ⲁ̅ ⲛⲓ’ⲙ ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟ’ⲗ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ\nⲑⲱⲙⲁ’ⲥ ⲉϥϫⲱ ⲙ̅ⲙⲟ’ⲥ ϫⲉ ⲡϫⲟⲉⲓ’ⲥ ⲡⲁⲓ̈ ⲣⲱ ⲡⲉϯϩϣⲓ‐\nⲛⲉ ⲙ̅ⲙⲟ’ⲕ ⲉⲧⲃⲏ’ⲧϥ ϩⲱⲥ ⲉⲡⲓⲇⲏ ⲁⲉⲓⲙ̅ⲙⲉ ϫⲉ ⲛ̅ⲧⲟ’ⲕ\nⲡⲉⲧⲣ̅ ⲛⲟϥⲣⲉ ⲛⲁ’ⲛ ⲕⲁⲧⲁ ⲑⲉ ⲉⲧⲕϫⲱ ⲙ̅ⲙⲟⲥ §ⲡⲁⲗⲓⲛ ’ⲁϥ‐\nⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲉϫⲁϥ ϫⲉ ⲉⲧⲃⲉ ⲡⲁⲓ̈ ⲟⲩⲁⲛⲁⲅⲕⲏ\nⲉⲣⲟⲛ ⲧⲉ ⲁϫⲟⲟⲥ ⲛⲏⲧⲛ̅ ϫⲉ ⲧⲁⲉⲓ ⲅⲁⲣ ⲧⲉ ⲧⲉⲥⲃⲱ ⲛ̅ⲛ̅ⲧⲉ‐\nⲗⲉⲓⲟⲥ ⲉϣⲡⲉ ⲧⲉⲧⲛ̅ⲟⲩⲱϣⲉ ϭ’ⲉ ⲁⲣ̅ ⲧⲉⲗⲉⲓⲟ’ⲥ ⲧⲉⲧⲛⲁ‐\nⲁⲣⲉϩ ⲁⲛⲁⲉ’ⲓ ⲉϣⲱⲡⲉ ⲙ̅ⲙⲟ’ⲛ ⲡⲉⲧⲛ̅ⲣⲁⲛ ⲡⲉ ⲁⲧⲥⲃ’ⲱ\nⲉⲡⲓⲇⲏ ⲙⲛ̅ ϣϭⲟ’ⲙ ⲛ̅ⲧⲉ ⲟⲩⲣⲙⲛ̅ϩⲏ’ⲧ ⲑⲩⲱϩ ⲙⲛ̅ ⲟ’ⲩ‐\nⲥⲟϭ ⲡⲣⲙⲛ̅ϩⲏ’ⲧ ⲅⲁ’ⲣ ϥϫⲏ’ⲕ ⲉⲃⲟⲗ ⲛ̅ⲥⲱⲫⲓⲁ ⲛⲓ’ⲙ\nⲡⲥⲟϭ ⲛ̅ⲧ’ⲟϥ ⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲡⲡⲉⲑⲟⲟⲩ ⲡⲓϣⲱϣ\nⲛ̅ⲟⲩⲱ’ⲧ ⲛ’ⲁϥ ⲡⲉ ϫⲉ ⲡⲥⲟⲫⲟⲥ ⲅⲁ’ⲣ ϥⲛⲁⲥⲁⲁⲛϣ ϩⲛ̅\nⲧⲙⲏⲉ ⲁⲩⲱ ϥⲛⲁϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡϣⲏⲛ ⲉⲧⲣⲏ’ⲧ ϩⲓ‐\nϫⲛ̅ ⲡⲙⲟⲩ ⲛ̅ⲥⲱⲣ’ⲙ ⲉⲡⲓⲇⲏ ⲟⲩⲛ ϩⲟⲉⲓⲛⲉ ⲉⲩⲛ̅ⲧⲛ̅ϩ̅\nⲙ̅ⲙⲟⲟⲩ ⲉⲩⲡⲱ’ⲧ ϩⲓϫⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲛⲁⲉⲓ ⲉ‐\nⲧⲟⲩⲏⲩ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲏ’ⲉ ⲡⲉⲧϫⲓ ⲙⲟⲉⲓ’ⲧ ⲅⲁⲣ ϩⲏⲧⲟ’ⲩ\nⲉ[ⲧ]ⲉ ⲡⲕⲱϩⲧ ⲡ’ⲉ ϥⲛⲁϯ ⲛⲁⲩ ⲛ̅ⲟⲩⲫⲁⲛⲧⲁⲥⲓⲁ ⲙ̅ⲙⲏⲉ\n[ⲁⲩ]ⲱ ϥⲛⲁⲣ̅ ⲟⲩⲟⲉⲓⲛ ⲉⲣⲟⲟⲩ ϩⲛ̅ ⲟⲩⲥⲁⲉⲓⲉ ⲉϥⲛⲁⲧⲉ‐\n[ⲕⲟ] ⲁⲩⲱ ϥⲛⲁⲣ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲓⲍⲉ ⲙ̅ⲙⲟⲟ’ⲩ ϩⲛ̅ ⲟⲩϩⲗ̅‐\nϭⲉ ⲛ̅ⲕⲁⲕ’ⲉ ⲛ̅ϥⲧⲟⲣⲡⲟⲩ ϩⲛ̅ ⲟⲩϩⲏⲇⲟⲛⲏ ⲉⲥϯ ⲥⲧⲟⲉⲓ\nⲁⲩⲱ ϥⲛⲁⲁⲩ ⲛ̅ⲃⲗ̅ⲗⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲉⲡⲓⲑⲩⲙⲓⲁ ⲛ̅ⲁⲧⲥⲉⲓ\nⲁⲩⲱ ϥⲛⲁϫⲁϥϫϥ̅ ⲛ̅ⲛⲉⲩⲯⲩⲭⲟⲟⲩ’ⲉ ⲁⲩⲱ ⲛ̅ϥϣⲱ‐\n[ⲡⲉ] ⲛⲁⲩ ⲛ̅ⲑⲉ ⲛ̅ⲛⲟⲩϣⲙⲟⲩ’ⲉ ⲉⲥⲧⲁⲕⲥ̅ ϩⲙ̅ ⲡⲟⲩϩⲏ’ⲧ\nⲉ[ⲙ]ⲛ̅ ϣϭⲟ’ⲙ ⲙ̅ⲙⲟⲟⲩ ⲛ̅ⲛⲁϩⲥ̅ ⲉⲛⲉϩ ⲁⲩⲱ ⲛ̅ⲑⲉ ⲛ̅‐\nⲟⲩⲭⲁⲗⲓⲛⲟⲥ ϩⲛ̅ ⲟⲩⲧⲁⲡⲣⲟ ⲉϥⲥⲱ’ⲕ ⲙ̅ⲙⲟⲟⲩ ⲁⲡ’ⲉϥ‐\nⲟⲩⲱϣ’ⲉ ⲙ̅ⲙⲓ’ⲛ ⲙ̅ⲙ’ⲟϥ §ⲁⲩⲱ ⲁϥⲙⲟⲣⲟⲩ ϩⲛ̅ ⲛ’ⲉϥ‐\nⲁⲗⲩⲥⲓ’ⲥ ⲁⲩⲱ ⲛⲉⲩⲙⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁϥⲥⲟⲛϩⲟⲩ ⲛ̅‐\nϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲥⲓϣ’ⲉ ⲛ̅ⲧⲙⲣ̅ⲣⲉ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲉⲓ’ⲁ ⲛ̅ⲛⲁⲉⲓ\nⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲉⲧⲛⲁⲧⲉⲕⲟ ⲁⲩⲱ ⲉⲧⲛⲁϣⲓⲃⲉ\nⲁⲩⲱ ⲉⲧⲛⲁⲡⲱⲛⲉ ⲕⲁⲧⲁ ⲡⲥⲱ’ⲕ ⲛ̅ⲧⲁⲩⲥⲟⲕⲟ’ⲩ\nⲛ̅ⲧⲡⲉ ⲁⲡⲓⲧⲛ̅ ⲛ̅ⲟⲩⲟⲉⲓϣ ⲛⲓ’ⲙ ⲉⲩϩⲱⲧⲃ̅ ⲙ̅ⲙⲟⲟⲩ\nⲉⲩⲥⲱⲕ ⲙ̅ⲙⲟⲟⲩ ϩⲓϫⲛ̅ ⲛ̅ⲧⲃ̅ⲛⲟⲟⲩ’ⲉ ⲧⲏⲣⲟⲩ ⲙ̅ⲡ‐\nϫⲱϩⲙ̅ §’ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ ⲡⲁϫ[ⲉϥ ϫⲉ] ϥ’‐\nⲟⲩⲟⲛϩ ⲉⲃⲟ’ⲗ ⲁⲩⲱ ⲁⲩϫⲟⲟ[ⲥ] ϫⲉ ϩ[ⲁϩ]’ [ⲛⲉⲧ..]’\nⲉ[..] ⲛ̅ⲛⲉⲧⲉ ⲛ̅ⲥⲉⲥⲟⲟⲩⲛ ⲁ[ⲛ.....]..[..]\n[...]ⲯⲩⲭⲏ §ⲁϥⲟⲩⲱϣⲃ̅ ⲇⲉ ⲛ̅ϭ[ⲓ ⲡⲥⲱ̅ⲣ̅] ⲉϥϫⲱ\n[ⲙ̅ⲙⲟ]ⲥ [ϫⲉ ⲛⲁⲉ]ⲓⲁ’ⲧ[ϥ] ⲙ̅ⲡⲥⲁⲃⲉ ⲛ̅ⲣⲱⲙⲉ ⲛ̅ⲧ’ⲁϥϣ[ⲓ]‐\n[ⲛⲉ ⲛ̅ⲥⲁ ⲧⲙⲏⲉ ⲁⲩⲱ ⲛ̅]ⲧⲁⲣⲉϥϭⲛ̅ⲧⲥ̅ ⲁϥⲙ̅ⲧⲟ’ⲛ ⲙ̅‐\nⲙ’ⲟϥ ⲉϩⲣⲧⲁⲓ̈ ⲉϫⲱⲥ ϣⲁ ⲉⲛⲉϩ ⲁⲩⲱ ⲙ̅ⲡϥⲣ̅ ϩⲟⲧⲉ ϩⲏⲧⲟⲩ\nⲛ̅ⲛⲉⲧⲟⲩⲱϣⲉ ⲁϣⲧⲣ̅ⲧⲱ’ⲣϥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ"
+        },
+        {
+          "title": "Our Own and the Others",
+          "subtitle": "Our Own and the Others",
+          "heading": "Our Own and the Others (141, 2-142, 26)",
+          "rangeLabel": "141, 2-142, 26",
+          "range": {
+            "start": {
+              "page": 141,
+              "line": 2
+            },
+            "end": {
+              "page": 142,
+              "line": 26
+            }
+          },
+          "english": "Thomas answered and said, “Master, is it beneficial for us to rest among our\nown?”\nThe Savior said, “Yes, it is useful, and it is good for you, since the things\nvisible among people will pass away. For the vessel of their flesh will pass away,\nand when it disintegrates, it will come to be among visible things, among things\nthat can be seen. The visible fire gives them pain, because of the love of faith\nthey once had. They will be gathered back to the visible realm. Moreover,\namong the invisible things, those who can see will perish, without the first love,\nin their concern for this life and the burning of the fire. There is only a little time\nbefore what is visible will pass away. Then shapeless phantoms will come and\ndwell forever in the midst of the tombs on corpses, in pain and destruction of\nsoul.”\nThomas answered and said, “What can we say in the face of these things?\nWhat shall we say to those who are blind? What teaching shall we give those\nmiserable mortals who say, ‘We have come to [do] good and not to curse,’ and\nwill [say] further, ‘If we had not been born in the flesh, we would not have\nknown iniquity’?”\nThe Savior said, “To tell the truth, do not think of these as human beings, but\nregard them [as] animals. As animals devour each other, so people like this\ndevour each other. They are deprived of the kingdom, since they love the\ndelight of fire and are slaves of death and rush to deeds of corruption. They\nfulfill the desire of their parents. They will be cast down into the abyss and be\nafflicted by the compulsion of the bitterness of their evil nature. They will be\nwhipped to drive them down to a place they do not know, and they will leave\ntheir limbs behind, not with fortitude but with despair. And they rejoice in [the\nfire, they love] madness and derangement, because they are [fools]. They pursue\nderangement, not realizing their madness but thinking they are wise. They…the\nlove of their body…, their hearts turning to themselves and their thoughts\nbeing on their affairs. But fire will consume them.”\nThomas answered and said, “Master, what can one cast down to them do? I\nam very concerned about them, for many oppose them.”\nThe Savior answered and said, “What is evident to you?”\nJudas, called Thomas, said, “Master, you should speak and I should listen.”\nThe Savior answered, “Listen to what I tell you and believe the truth. What\nsows and what is sown will pass away in their fire, in fire and water, and will be\nhidden in tombs of darkness. And after a long time the fruit of evil trees will\nappear and be punished and slain in the mouths of animals and people through\nthe agency of the rains, the winds, the air, and the light shining above.”\nThomas answered, “You certainly have convinced us, master. We realize in\nour hearts it is clearly so, and your word is not meager. But these sayings that\nyou tell us are laughable and ridiculous to the world, since they are not\nunderstood. How can we go forth and preach them when we are [not] respected\nin the world?”",
+          "coptic": "ⲛ̅ⲛⲉⲧⲟⲩⲱϣⲉ ⲁϣⲧⲣ̅ⲧⲱ’ⲣϥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ\nⲡⲁϫ’ⲉϥ ϫⲉ ⲥⲣ̅ ⲛⲟϥⲣⲉ ⲛⲁ’ⲛ ⲡϫⲟⲉⲓ’ⲥ ⲁⲙ̅ⲧⲟⲛ ⲙ̅ⲙⲟ’ⲛ\nϩⲛ̅ ⲛⲉⲧⲉ ⲛⲱⲛ ⲛ’ⲉ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ϫⲉ ⲡⲉⲧⲣ̅ ϣⲁⲩ\nⲅⲁⲣ ⲡ’ⲉ ⲁⲩⲱ ⲛⲁⲛⲟⲩⲥ ⲛⲏⲧⲛ̅ ⲉⲡⲓⲇⲏ ⲛⲉⲧⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ϩⲛ̅ ⲣ̅ⲣⲱⲙ’ⲉ ⲥⲉⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ⲡⲥⲕⲉⲩⲟⲥ ⲅⲁⲣ ⲛ̅‐\nⲧⲟⲩⲥⲁⲣⲝ ⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ⲁⲩⲱ ⲉϥϣⲁⲛϫⲱⲣⲉ ⲉⲃⲟⲗ\nϥⲛⲁϣⲱⲡⲉ ϩⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉⲧⲟⲩⲛⲁⲩ ⲉ‐\nⲣⲟⲟⲩ ⲁⲩⲱ ⲧⲟⲧⲉ ⲡⲕⲱϩ’ⲧ ⲉⲧⲟⲩⲛⲁⲩ ⲉⲣ’ⲟϥ ⲉϥϯ ⲧⲕⲁⲥ ⲛⲁⲩ\nⲉⲧⲃⲉ ⲧⲁⲅⲁⲡⲏ ⲛ̅ⲧⲡⲓⲥⲧⲓ’ⲥ ⲉⲧⲉ ⲟⲩⲛ̅ⲧⲁⲩ’ⲥ ϩⲁ ⲑⲏ ⲙ̅ⲡⲓ‐\nⲟⲩⲟⲉⲓϣ ⲡⲁⲗⲓ’ⲛ ⲥⲉⲛⲁⲥⲟⲟⲩϩⲟⲩ ⲁⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ\nⲛⲉⲧⲛⲁⲩ ⲇⲉ ⲉⲃⲟⲗ ϩⲛ̅ ⲛⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁ’ⲛ ⲁϫⲛ̅\nⲧϣⲟⲣ’ⲡ ⲛ̅ⲁⲅⲁⲡⲏ ⲥⲉⲛⲁⲧⲁⲕⲟ ϩⲙ̅ ⲡⲣⲟⲟⲩϣ ⲙ̅ⲡⲃⲓⲟ’ⲥ\nⲙⲛ̅ ⲡⲣⲱⲭ’ϩ ⲙ̅⟦ⲛ̅⟧ⲡⲕⲱϩ’ⲧ ⲛ̅ⲟⲩⲕⲟⲩⲓ̈ ⲛ̅ⲟⲩⲟⲉⲓϣ ϣⲁⲛ‐\nⲧⲉϥⲃⲱⲗ ⲉⲃⲟ’ⲗ ⲛ̅ϭⲓ ⲡⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲧⲟⲧⲉ ⲥⲉⲛ’ⲁ‐\nϣⲱⲡ’ⲉ ⲛ̅ϭⲓ ϩⲉ’ⲛⲉⲓⲇⲱⲗⲟⲛ ⲉⲙⲛ̅ⲧⲉⲩ ⲙⲟⲣⲫⲏ ⲁⲩⲱ\nⲛ̅ⲧⲙⲏⲧⲉ ⲛ̅ⲛ̅ⲧⲁⲫⲟⲥ ⲛ̅ⲥⲉϣⲱⲡⲉ ϩⲓϫⲛ̅ ⲛ̅ⲕⲱⲥ ⲛ̅ϣⲁ\nⲉⲛⲉϩ ϩⲛ̅ ⲟⲩϯ ⲧⲕⲁⲥ ⲙⲛ̅ ⲟⲩⲧⲁⲕⲟ ⲙ̅ⲯⲩⲭⲏ §’ⲁϥⲟⲩⲱ‐\nϣⲃ̅ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁⲥ ⲡⲁϫ’ⲉϥ ϫⲉ ⲟⲩ ⲡⲉⲧⲉ ⲟⲩⲛ̅ⲧⲁ’ⲛϥ\nⲁϫⲟ’ⲟϥ ⲛ̅ⲛⲁϩⲣⲛ̅ ⲛⲁⲉⲓ ⲏ ⲟⲩ ⲡⲉⲧⲛ̅ⲛⲁϫⲟ’ⲟϥ ⲛ̅ⲃⲗ̅ⲗⲉ‐\nⲉⲩⲉ ⲛ̅ⲣⲱⲙⲉ ⲏ ⲁϣ ⲛ̅ⲥⲃⲱ ⲧⲉⲧⲛ̅ⲛⲁϫⲟⲟ’ⲥ ⲛ̅ⲛⲓⲧ[ⲁⲗ]ⲁⲓ‐\nⲡⲱⲣⲟⲥ ⲛ̅ⲑⲛⲏⲧⲟⲥ ⲛⲉⲧϫⲱ ⲙ̅ⲙⲟ’ⲥ ϫⲉ ⲁⲛⲉⲓ ⲁ[ⲣ̅ ⲡⲉ]‐\nⲧⲛⲁⲛⲟ’ⲩϥ ⲁⲩⲱ ⲁⲩⲥⲁϩⲟⲩ ⲁ’ⲛ ⲡⲁⲗⲓⲛ ⲇⲉ ⲥⲉⲛⲁϫ[ⲟⲟⲥ]\nϫⲉ ⲉⲛⲉ ⲙ̅ⲡⲟⲩϫⲡⲟⲛ ϩⲛ̅ ⲧⲥⲁⲣ’ⲝ ⲛⲉⲛⲛⲁⲥⲟⲩⲱⲛ [ϣ]ⲁϥ‐\nⲧⲉ ⲁⲛ ⲡⲉ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ϫⲉ ϩⲛ̅ ⲟⲩⲙⲏⲉ ⲛ[ⲁⲉⲓ] ⲉ‐\nⲧⲙ̅ⲙⲁⲩ ⲙ̅ⲡⲣ̅ⲕⲁⲁⲩ ⲛⲁ’ⲕ ⲛ̅ⲣⲱⲙⲉ ⲁⲗⲗⲁ ⲟⲡⲟⲩ ϩ[ⲱⲥ ⲧⲃ̅]‐\nⲛⲟⲟⲩ’ⲉ ⲛ̅ⲑⲉ ⲅⲁⲣ ⲛ̅ⲛ̅ⲧⲃ̅ⲛⲟⲟⲩⲉ ⲉⲩⲟⲩⲱ’ⲙ ⲛ̅ⲛ[ⲉⲩⲉ]‐\nⲣⲏ’ⲩ ⲧⲁⲉⲓ ⲧⲉ ⲑⲉ ϩⲱⲟⲩ ⲛ̅ⲛⲉⲉⲓⲣⲱⲙⲉ ⲛ̅ⲧⲉⲉⲓⲙⲓⲛ[ⲉ ⲥⲉ]‐\nⲟⲩⲱ’ⲙ ⲛ̅ⲛⲉⲩⲉⲣⲏⲩ ⲁⲗⲗⲁ ⲥⲉϩⲟⲩⲣⲟⲉⲓ’ⲧ ⲛ̅ⲧⲙⲛ̅ⲧⲣ̅[ⲣⲟ]\nⲉⲡⲓⲇⲏ ⲥⲉⲙⲁⲉⲓⲉ ⲛ̅ⲧϩⲗ̅ϭⲉ ⲙ̅ⲡⲕⲱϩ’ⲧ ⲁⲩⲱ ⲥⲉⲟ ⲛ̅‐\nϩⲙϩ̅ⲁ̅ⲗ̅ ⲙ̅ⲡⲙⲟⲩ ⲁⲩⲱ ⲥⲉⲡⲏ’ⲧ ⲁⲛϩⲃⲏⲩⲉ ⲙ̅ⲡϫⲱϩ̅ⲙⲉ̅\nⲥⲉϫⲱⲕ ⲉⲃⲟⲗ ⲛ̅ⲧⲉⲡⲓⲑⲩⲙⲉⲓⲁ ⲛ̅ⲛⲉⲩⲉⲓⲟⲧⲉ ⲥⲉⲛⲁ‐\nⲛⲟϫⲟⲩ ⲉϩⲣⲁⲓ̈ ⲁⲡⲛⲟⲩ’ⲛ ⲛ̅ⲥⲉⲣ̅ⲙⲁⲥⲧⲓⲅⲟⲩ ⲙ̅ⲙⲟⲟⲩ\nⲉⲃⲟⲗ ϩⲓⲧⲛ̅ ⲧⲁⲛⲁ’ⲅⲕⲏ ⲙ̅ⲡⲥⲓϣⲉ ⲛ̅ⲧⲟⲩⲫⲩⲥⲓⲥ ⲉⲑⲟ‐\nⲟⲩ ⲥⲉⲛⲁⲫⲣⲁⲅⲉⲗⲗⲟⲩ ⲅⲁ’ⲣ ⲙ̅ⲙⲟⲟⲩ ⲁⲧⲣⲟⲩⲡⲱ’ⲧ ⲛ̅‐\nⲥⲁϫⲱⲟⲩ ⲁⲡⲙⲁ ⲉⲧⲉ ⲛ̅ⲥⲉⲥⲟⲟⲩⲛ ⲙ̅ⲙⲟϥ ⲁ’ⲛ ⲁⲩⲱ\nⲥⲉⲛ[ⲁⲗ]ⲟ ⲛ̅ⲛⲉⲩⲙⲉⲗⲟ’ⲥ ϩⲛ̅ ⲟⲩϩⲩⲡⲟⲙⲟⲛⲏ ⲁⲛ ⲁⲗ‐\nⲗⲁ [ϩⲛ̅ ⲟⲩ]ⲕⲁ ⲧⲟⲟⲧ’ⲕ ⲉⲃⲟ’ⲗ ⲁⲩⲱ ⲥⲉⲣⲁϣⲉ ⲉϫⲙ̅ [...]\nⲣ[...........] ⲡⲗⲓⲃ’ⲉ ⲙⲛ̅ ⲡⲡⲱϣⲥ̅ ⲉⲩⲟ [ⲛ̅...] ‐\n[ⲥⲉ]ⲡⲏⲧ ⲛ̅[ⲥⲁ ⲡⲓ]ⲡⲱϣⲥ̅ ⲛ̅ϩⲏ’ⲧ ⲉⲛ[ⲥ]ⲉⲙ̅ⲙⲉ ⲁ[ⲛ ⲙ̅ⲡⲟⲩ]‐\n[ⲗⲓ]ⲃ’ⲉ ⲉⲩ[ⲙⲉⲉ]ⲩⲉ ϫⲉ ϩⲛ̅ⲥⲁⲃⲉⲉⲩ ⲛ[ⲉ ⲥⲉ......]\n[..]ⲁⲉⲓⲉ ⲙ̅ⲡⲟⲩⲥⲱⲙⲁ ϩ.[..........]\nⲉⲣⲉ ⲡⲟⲩϩⲏ’ⲧ ⲡⲟⲟⲛⲉ ⲉⲣⲟⲟ’ⲩ ⲉⲣⲉ ⲡⲟⲩⲙⲉⲉⲩⲉ ϩⲓ\nⲛⲉⲩⲡⲣⲁⲝⲓⲥ ⲧⲥⲁⲧⲉ ⲇⲉ ⲧⲉⲧⲛⲁⲣⲱⲕϩ ⲙ̅ⲙⲟⲟ’ⲩ §’ⲁϥ‐\nⲟⲩⲱϣⲃ̅ ⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁ’ⲥ ⲡⲁϫⲉϥ ϫⲉ ⲡϫⲟⲉⲓ’ⲥ ⲡⲉⲛ‐\nⲧⲁⲩⲛ’ⲟϫϥ ⲉϩⲣⲁⲓ̈ ⲉⲣⲟⲟⲩ ⲉϥⲛⲁⲣ ⲟⲩ ϯⲣ̅ⲙⲉⲣⲓⲙⲛⲁ\nⲅⲁⲣ ⲙ̅ⲡϣ’ⲁ ⲉⲧⲃⲏⲧⲟⲩ ϩⲁϩ ⲅⲁ’ⲣ ⲛⲉⲧϯ ⲟⲩⲃⲏⲩ §’ⲁϥⲟⲩ‐\nⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫ’ⲉϥ ϫⲉ ⲉⲩ ⲛ̅ⲧⲁ’ⲕ ⲡⲉⲧⲟⲩⲟⲛϩ\nⲉⲃⲟⲗ ⲛⲁ’ⲕ §ⲡⲁϫⲉϥ ⲛ̅ϭⲓ ⲓ̈ⲟⲩⲇⲁ’ⲥ ⲡⲁⲓ̈ ⲉⲧⲟⲩⲙⲟⲩⲧⲉ ⲉ‐\nⲣ’ⲟϥ ϫⲉ ⲑⲱⲙⲁⲥ ϫⲉ ⲛ̅ⲧⲟⲕ ⲡϫⲟⲉⲓ’ⲥ ⲡⲉⲧⲥⲣ̅ⲡⲣⲉⲡⲉ’ⲓ\nⲛⲁ’ⲕ ⲁϣⲉϫ’ⲉ ⲁⲛⲟⲕ ⲇⲉ ⲛ̅ⲧⲁⲥⲱⲧⲙ̅ ⲉⲣⲟ’ⲕ §’ⲁϥⲟⲩ‐\nⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ϫⲉ ⲥⲱⲧⲙ̅ ⲁⲡⲉϯⲛⲁϫⲟ’ⲟϥ ⲛⲁ’ⲕ\nⲛ̅ⲕⲣ̅ⲡⲓⲥⲧⲉⲩⲉ ϩⲛ̅ ⲧⲙⲏⲉ ⲡⲉ’ⲧϫⲟ ⲙⲛ̅ ⲡⲉⲧⲟⲩϫⲟ ⲙ̅ⲙ’ⲟϥ\nⲥⲉⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ϩⲙ̅ ⲡⲟⲩⲕⲱϩ’ⲧ ⲛ̅ϩⲣⲁⲓ̈ ϩⲙ̅ ⲡⲕⲱϩ’ⲧ\nⲙⲛ̅ ⲡⲙⲟⲟⲩ [ⲁ]ⲩⲱ ⲛ̅ⲥⲉϩⲱ’ⲡ ϩⲛ̅ ⲛ̅ⲧⲁⲫⲟ’ⲥ ⲙ̅ⲡⲕⲁⲕⲉ\nⲁⲩⲱ ⲙⲛ̅ⲛ̅ⲥⲁ ϩⲁϩ ⲛ̅ⲟⲩⲟⲉⲓϣ ⲥⲉⲛⲁⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̅‐\nⲛ̅ⲕⲁⲣⲡⲟⲥ ⲛ̅ⲛ̅ϣⲏ’ⲛ̅ ⲉⲑⲟⲟⲩ ⲉⲩⲣ̅ⲕⲟⲗⲁⲍⲉ ⲙ̅ⲙⲟⲟⲩ ⲉⲩ‐\nϩⲱⲧⲃⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲛ ’ⲧⲧⲁⲡⲣⲟ̓ ⲛ̅ⲛ̅ⲧⲃⲛⲟⲟⲩⲉ ⲙⲛ̅ ⲛ̅ⲣⲱ‐\nⲙ’ⲉ ϩⲛ̅ ⲧⲁⲫⲟⲣⲙ’ⲏ ⲛ̅ⲛ̅ϩⲟⲟⲩ ⲙⲛ̅ ⲛ̅ⲧⲏⲩ ⲙⲛ̅ ⲡⲁⲏ’ⲣ\nⲙⲛ̅ ⲡⲟⲩⲟⲉⲓ’ⲛ ⲉⲧⲣ̅ ⲟⲩⲟⲉⲓ’ⲛ ⲙ̅ⲡⲥⲁ ⲛϩⲣⲉ §ⲁϥⲟⲩⲱϣⲃ̅\nⲇⲉ ⲛ̅ϭⲓ ⲑⲱⲙⲁ’ⲥ ϫⲉ ⲁⲕⲣ̅ⲡⲓⲑⲉ ⲙⲉ’ⲛ ⲙ̅ⲙⲟ’ⲛ ⲡϫⲟⲉⲓ’ⲥ\nⲁⲛⲣ̅ⲛⲟⲉⲓ ϩⲙ̅ ⲡⲛ̅ϩⲏ’ⲧ ⲁⲩⲱ ⲥⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ϫⲉ ⲧⲁⲉⲓ\n[ⲧⲉ ⲑ]ⲉ ⲁⲩⲱ ⲡⲉⲕϣⲁϫⲉ ⲟ ⲛ̅ⲁⲧⲫⲑⲟⲛⲟⲥ ⲁⲗⲗⲁ ⲛⲓϣⲁ‐\n[ϫⲉ ⲉ]ⲧⲕϫⲱ ⲙ̅ⲙⲟⲟⲩ ⲛⲁ’ⲛ ϩⲉⲛⲥⲱⲃⲉ ⲛⲉ ⲙ̅ⲡⲕⲟⲥ‐\n[ⲙⲟ]’ⲥ ⲁⲩⲱ ϩⲛ̅ⲗ̅ⲕ ϣⲁⲉⲓ ⲛ̅ⲥⲱⲟⲩ ⲛ’ⲉ ⲉⲡⲓⲇⲏ ⲥⲉⲥⲟ‐\n[ⲟⲩ]ⲛⲉ ⲙ̅ⲙⲟⲟⲩ ⲁ’ⲛ ⲛ̅ⲁϣ ϭⲉ ⲛ̅ⲣⲏⲧⲉ ⲉⲛⲛⲁϣⲃⲱ’ⲕ ’ⲁ‐\n[ⲧⲁ]ϣⲉ ⲟⲉⲓϣ ⲙ̅ⲙⲟⲟⲩ ⲉⲡⲓⲇⲏ ϫⲉ ⲥⲉⲱ’ⲡ ⲙ̅ⲙⲟ’ⲛ\n[ⲁ’ⲛ ϩ]ⲙ̅ ⲡⲕⲟⲥⲙⲟ’ⲥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫⲉϥ ϫⲉ"
+        },
+        {
+          "title": "Jesus Preaches About Judgment",
+          "subtitle": "Jesus Preaches About Judgment",
+          "heading": "Jesus Preaches About Judgment (142, 26-143, 7)",
+          "rangeLabel": "142, 26-143, 7",
+          "range": {
+            "start": {
+              "page": 142,
+              "line": 26
+            },
+            "end": {
+              "page": 143,
+              "line": 7
+            }
+          },
+          "english": "The Savior answered and said, “I tell you the truth, whoever listens to [your]\nword and turns away or sneers at it or smirks at these things, I tell you the truth,\nthat person will be handed over to the ruler who is on high, who rules as king\nover all the powers, and the ruler will turn him away and cast him down from on\nhigh into the abyss, and he will be imprisoned in a cramped, dark place. So he\ncannot turn or move because of the great depth of Tartaros and the\n[burdensome bitterness] of Hades. Whoever relies on what [is brought] to him…\nwill not be forgiven [his] madness, but will [be judged. Whoever has] persecuted\nyou will be handed over to the angel Tartarouchos, [who has flaming] fire that\npursues them, and fiery whips that spew forth sparks into the face of one\npursued. If he flees to the west, he finds fire. If he turns south, he finds it there as\nwell. If he turns north, the threat of erupting fire meets him again. Nor can he\nfind the way to the east, to flee there and be saved, for he did not find it while\nembodied so as to find it on the day of judgment.”",
+          "coptic": "[ⲁ’ⲛ ϩ]ⲙ̅ ⲡⲕⲟⲥⲙⲟ’ⲥ §ⲁϥⲟⲩⲱϣⲃ̅ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲡⲁϫⲉϥ ϫⲉ\n[ϩⲁⲙ]ⲏ’ⲛ ϯϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲏⲧⲛ̅ ϫⲉ ⲡⲉⲧⲛⲁⲥⲱⲧⲙ̅ ⲁⲡⲉ‐\n[ⲧⲛ̅ϣ]ⲁϫ’ⲉ ⲁⲩⲱ ⲛ̅ϥⲕⲧⲟ ⲙ̅ⲡⲉϥϩⲟ ⲉⲃⲟ’ⲗ ⲏ ⲛ̅ϥⲗⲕ ϣⲉ‐\n[ⲉ] ⲛ̅ⲥ’ⲱϥ ⟦ⲛ̅⟧ ⲏ ⲛ̅ϥⲥⲱⲧⲣ̅ ⲛ̅ⲛ’ⲉϥⲥⲡⲟⲧⲟⲩ ϩⲓ ⲛⲁⲉ[ⲓ] ϩⲁ‐\nⲙⲏ’ⲛ ϯϫⲱ ⲙ̅ⲙⲟⲥ ⲛⲏⲧⲛ̅ ϫⲉ ⲥⲉⲛⲁⲧⲁ’ⲁϥ ⲁⲧⲟⲟⲧϥ̅\nⲙ̅ⲡⲁⲣⲭⲱⲛ ⲉⲧⲙ̅ⲡⲥⲁ ’ⲛⲧⲡ’ⲉ ⲡⲁⲓ̈ ⲉⲧⲁⲣⲭⲉⲓ ⲉϩⲣⲁⲓ̈ ⲉ‐\nϫⲛ̅ ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲧⲏⲣⲟⲩ ⲉϥⲟ ⲛ̅ⲣ̅ⲣⲟ ⲉϫⲱⲟⲩ ⲛ̅ϥⲕⲧⲟ\nⲙ̅ⲡⲁⲉⲓ ⲉⲧⲙ̅ⲙⲁⲩ ⲛ̅ϥⲛⲟϫϥ̅ ϫⲛ̅ ⲛ̅ⲧⲡ’ⲉ ϣⲁ ⲡⲓⲧⲛ̅ ’ⲁ‐\nⲡⲛⲟⲩ’ⲛ ⲛ̅ⲥⲉⲱⲣ’ⲉϫ ⲁⲣ’ⲱϥ ϩⲛ̅ ⲟⲩⲙⲁ ⲉϥϭⲏⲩ ⲉϥⲟ\nⲛ̅ⲕⲁⲕ’ⲉ ⲙⲁϥϣϭⲛ̅ ϭⲟⲙ ϭⲉ ⲙ̅ⲡⲟⲛ’ⲉϥ ⲏ ⲁⲕⲓ’ⲙ ⲉⲧⲃⲉ\nⲡⲓⲛⲟϭ ⲛ̅ⲃⲁⲑⲟ’ⲥ ⲛ̅ⲧⲉ ⲡⲧⲁⲣⲧⲁⲣⲟⲥ ⲙⲛ̅ ⲡⲓⲥ[ⲓϣ]ⲉ ⟦ⲉ⟧\n[ⲉⲧϩ]ⲟⲣϣ ⲛ̅ⲧⲉ ⲁⲙⲛ̅ⲧⲉ ⲡⲁⲓ̈ ⲉ’ⲧⲧⲁϫⲣⲏⲩ ⲁ[.....]ⲩ‐\n[...] ⲙ̅ⲙⲟⲟⲩ ⲉϩⲟⲩⲛ ⲉⲣ’ⲟϥ [ⲉ]ⲩϣ[.......]ⲁ‐\n[....] ⲛ̅ⲥⲉⲛ[ⲁ]ⲕⲱ ⲁ’ⲛ ⲉⲃⲟⲗ ⲙ̅[....]ⲓⲃⲉ .[...]‐\n[.........]ϥⲡⲱ’ⲧ ⲛ̅ⲥⲁ ⲧⲏⲛⲉ ⲥ[ⲉⲛⲁ]ⲡⲁⲣⲁⲇⲓⲇ[ⲟⲩ]\n[..........ⲡⲁⲅ]ⲅⲉⲗⲟ’ⲥ ⲡⲧⲁⲣⲧⲁⲣⲟⲩⲭⲟⲥ [.]\n[..............ⲥ]ⲁⲧⲉ ⲉϥⲡⲏ’ⲧ ⲛ̅ⲥⲱⲟⲩ [..]\n[.]ϩⲉ’ⲛⲫⲣⲁⲅⲉⲗⲗⲟⲩ ⲛ̅ⲥⲁⲧ’ⲉ ⲉⲩⲛⲉϫ ϯ’ⲕ ϯⲕ̅ ⲉⲃⲟ’ⲗ ⲉϩⲟⲩⲛ\n[ϩ]ⲛ̅ ⲫⲟ ⲙ̅ⲡⲉⲧⲟⲩⲡⲏ’ⲧ ⲛ̅ⲥ’ⲱϥ ⲉϥ’ⲡⲏ’ⲧ ⲁⲡⲁⲙⲛⲧⲉ ⲉϥϭⲓ‐\n[ⲛ]ⲉ ⲛ̅ⲧⲥⲁⲧ’ⲉ ⲉϥϣⲁⲛⲕⲧ’ⲟϥ ⲁⲣⲏⲥ ⲉϥϭⲛⲧⲥ̅ ⲟ’ⲛ ⲙ̅ⲙⲁⲩ\nⲉϥϣⲁⲛⲕⲧⲟϥ ⲁϩⲏ’ⲧ ϣⲁⲥⲧⲱⲙⲧ ⲉⲣ’ⲟϥ ⲁ’ⲛ ⲛ̅ϭⲓ ⲧⲁⲡⲓⲗⲏ\nⲛ̅ⲥⲁⲧ’ⲉ ⲉⲥⲃⲣ̅ⲃⲣ̅ ⲙⲁϥϭⲓⲛⲉ ⲇⲉ ⲛ̅ⲧⲟϥ ⲛ̅ⲑⲓⲏ ⲙ̅ⲡⲁⲉⲓⲃ̅ⲧⲉ\nⲁⲡⲱ’ⲧ ⲉⲙⲁⲩ ⲛ̅ϥⲟⲩϫⲁⲉⲓ ⲙ̅ⲡⲉϥ̅ϭⲛⲧⲥ̅ ⲅⲁⲣ ⲙ̅ⲫⲟⲟⲩ ⲉϥ‐\nϩⲛ̅ ⲥⲱⲙ[ⲁ] ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁϭⲛⲧⲥ̅ ⲙ̅ⲫⲟⲟⲩ ⲛ̅ⲧⲕⲣⲓⲥⲓ’ⲥ"
+        },
+        {
+          "title": "Woes upon the Godless",
+          "subtitle": "Woes upon the Godless",
+          "heading": "Woes upon the Godless (143, 8-145, 1)",
+          "rangeLabel": "143, 8-145, 1",
+          "range": {
+            "start": {
+              "page": 143,
+              "line": 8
+            },
+            "end": {
+              "page": 145,
+              "line": 1
+            }
+          },
+          "english": "Then the Savior continued and said, “Woe to you, godless people, who have no\nhope, who are secure in things that do not last.\n“Woe to you who hope in the flesh and in the prison that will perish. How\nlong will you sleep and think that what is imperishable will also perish? Your\nhope is based upon the world, and your god is this present life. You are\ndestroying your souls.\n“Woe to you with the fire that burns within you. It is insatiable.\n“Woe to you because of the wheel that turns in your minds.\n“Woe to you because of the smoldering within you. It will devour your flesh\nvisibly, tear your souls secretly, and prepare you for each other.\n“Woe to you, prisoners, for you are bound in caves. You laugh, you rejoice in\nmad laughter. You do not perceive your destruction. Neither do you perceive\nyour plight, nor have you understood that you dwell in darkness and death.\nRather, you are drunk with fire and [full] of bitterness. Your hearts are deranged\nbecause of the smoldering within you, and the poison and blows of your enemies\nare a delight to you. Darkness has risen in you like the light, for you have\nsurrendered your freedom to slavery. You have darkened your hearts and\nsurrendered your minds to foolishness. You have filled your minds with the\nsmoke of the fire within you, and your light has been hidden in the [dark] cloud.\nYou [love] the garment you wear, [although it is filthy], and you have been\ngripped [by] nonexistent hope. [You have] believed in what you do [not] know.\nYou all live in [bondage] but pride yourselves [in your freedom]. You\nhave baptized your souls in the water of darkness. You have pursued your own\nwishes.\n“Woe to you who dwell in error, not seeing that the light of the sun, which\njudges the universe and looks down on the universe, will encircle everything to\nmake slaves of the enemies. Nor do you perceive how the moon looks down\nnight and day, seeing the bodies of your slaughters.\n“Woe to you who love intercourse and filthy association with the female.\n“And woe to you because of the powers of your bodies, for they will mistreat\nyou.\n“Woe to you because of the actions of the evil demons.\n“Woe to you who entice your limbs with fire. Who will sprinkle a restful dew\non you, to extinguish the many fires within you, and your burning? Who will\nmake the sun shine on you, to dispel the darkness within you and hide the\ndarkness and filthy water?\n“The sun and the moon will give a fragrant aroma to you, as will the air, the\nspirit, the earth, and the water. If the sun does not shine on these bodies, they\nwill rot and perish just like weeds or grass. If the sun shines on them, they grow\nstrong and choke the grapevine. But if the grapevine becomes strong and casts\nits shadow over the weeds and all the rest of the brush growing with it, and\n[spreads] and fills out, it alone inherits the land where it grows, and dominates\nwherever it has cast its shadow. So when it grows, it dominates the whole land,\nand it is productive for its master and pleases him greatly. He would have gone\nto great pains because of the weeds before pulling them out, but the grapevine by\nitself disposed of them and choked them, and they died and became like earth.”\nThen Jesus continued and said to them, “Woe to you, for you have not\naccepted the teaching, and those who [wish to accept it] will suffer when they\npreach. [You will persecute them], but you will rush into [your own traps]. You\nwill cast them down [to the lions] and put them to death, daily, and they\nwill rise from death.",
+          "coptic": "ⲧⲟⲧⲉ ’ⲁϥⲟⲩⲱϩ ⲁⲧⲟⲟ’ⲧϥ ⲛ̅ϭⲓ ⲡⲥⲱ̅ⲣ̅ ⲉϥϫⲱ ⲙ̅ⲙⲟⲥ\nϫⲉ ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲛ̅ⲁⲧⲛⲟⲩⲧ’ⲉ ⲉⲧⲉ ⲙⲛ̅ⲧⲉⲩ ϩⲉⲗⲡⲓ’ⲥ\nⲉⲧⲧⲁϫⲣⲁⲓ̈’ⲧ ⲉϩⲣⲁⲓ̈ ⲉϫⲛ̅ ⲛⲉⲧⲛⲁϣⲱⲡⲉ ⲁⲛ §ⲟⲩⲟⲓ̈ ⲛⲏⲧⲛ̅\nⲛⲉⲧⲣ̅ϩⲉⲗⲡⲓⲍⲉ ⲁⲧⲥⲁⲣⲝ ⲁⲩⲱ ⲡϣⲧⲉⲕⲟ ⲉⲧⲛⲁⲧⲉⲕⲟ ϣⲁⲛ‐\nⲧⲉ ⲟⲩ ϣⲱⲡⲉ ⲉⲧⲉⲧⲛ̅ⲟⲃϣ̅ ⲁⲩⲱ ⲛ̅ⲁ’ⲧⲧⲉⲕⲟ ⲉⲧⲉⲧⲛ̅ⲙⲉ‐\nⲉⲩⲉ ⲉⲣⲟⲟⲩ ϫⲉ ⲥⲉⲛⲁⲧⲁⲕⲟ ⲁ’ⲛ ⲉⲧⲉ[ⲧ]ⲛ̅ϩⲉⲗⲡⲓⲥ ⲧⲁϫⲣⲏⲩ\nⲁϫⲛ̅ ⲡⲕⲟⲥⲙⲟⲥ ⲁⲩⲱ ⲡⲉⲧⲛ̅ⲛⲟⲩⲧⲉ ⲡⲉ ⲡⲉⲉⲓⲃⲓⲟⲥ\nⲉⲧⲉⲧⲛ̅ⲧⲁⲕⲟ ⲛ̅ⲛⲉⲧⲛ̅ⲯⲩⲭⲟⲟⲩ’ⲉ §ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ϩⲣⲁⲓ̈\nϩⲙ̅ ⲡⲕⲱϩ’ⲧ ⲉⲧⲣⲱⲕϩ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲧⲏⲛⲉ ϫⲉ ⲟⲩⲁⲧⲥⲓ ⲡⲉ\n§ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲙ̅ⲡⲕⲁ’ⲧ ⲉⲧⲕⲱⲧⲉ ϩⲛ̅\nⲛⲉⲧⲛ̅ⲙⲉⲉⲩⲉ §ⲟⲩⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲛ̅ⲧⲟⲟⲧϥ̅ ⲙ̅ⲡⲙⲟⲩϩ\nⲉⲧϩ[ⲛ̅] ⲧⲏⲛⲉ ϫⲉ ϥⲛⲁⲩⲱ’ⲙ ⲛ̅ⲛⲉⲧⲛ̅ⲥⲁⲣ’ⲝ ϩⲛ̅ ⲟⲩⲱⲛϩ\nⲉⲃⲟ’ⲗ ⲁⲩⲱ ϥⲛⲁⲡⲱϩ ⲛ̅ⲛⲉⲧⲛ̅ⲯⲩⲭⲟⲟⲩ’ⲉ ϩⲛ̅ ⲟⲩ‐\nϩⲱⲡ ⲛ̅ϥⲥⲃ̅ⲧⲉ ⲧⲏⲛⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛⲉⲧⲛ̅ⲉⲣⲏ’ⲩ §ⲟⲩⲟⲓ̈ [ⲛ]ⲏ‐\nⲧⲛ̅ ⲛ̅ⲁⲓⲭⲙⲁⲗⲱⲧⲟⲥ ϫⲉ ⲧⲉⲧⲛ̅ⲙⲏ’ⲣ ϩⲛ̅ ⲛ̅ⲥⲡⲏⲗ[ⲁⲓ]‐\nⲟ’ⲛ ⲧⲉⲧⲛ̅ⲥⲱⲃⲉ ⲉⲧⲉⲧⲛ̅ⲣⲁϣⲉ ϩⲣⲁⲓ̈ ϩⲛ̅ ⲛ̅ⲥⲱⲃ[ⲉ]\nⲛ̅ⲗⲓⲃⲉ ⲧⲉⲧⲛ̅ⲣ̅ⲛⲟⲉⲓ ⲁⲛ ⲙ̅ⲡⲉⲧⲛ̅ⲧⲁⲕⲟ ⲟⲩⲧⲉ ⲧ[ⲉ]‐\nⲧⲛ̅ⲣ̅ⲛⲟⲉⲓ ⲁ’ⲛ ϩⲛ̅ ⲛⲉⲧⲉⲧⲛ̅〈ⲛ̅〉ϩⲏⲧⲟⲩ ⲟⲩⲧⲉ ⲙ̅ⲡ[ⲉⲧ]ⲛ̅‐\nⲙ̅ⲙⲉ ϫⲉ ⲧⲉⲧⲛ̅ϣⲟⲟ’ⲡ ϩⲙ̅ ⲡⲕⲁⲕ’ⲉ ⲙⲛ̅ ⲡⲙⲟ[ⲩ]\nⲁⲗⲗⲁ ⲉⲧⲉⲧⲛ̅ⲧⲁϩⲉ ϩⲙ̅ ⲡⲕⲱϩ’ⲧ ⲁⲩⲱ ⲧⲉⲧⲛ̅[ⲙⲉϩ]\nⲛ̅ⲥⲓϣ’ⲉ ⲉⲣⲉ ⲡⲉⲧⲛ̅ϩⲏ’ⲧ ⲡⲟϣⲥ̅ ⲉⲣⲱⲧⲛ̅ ⲉⲧⲃⲉ ⲡ[ⲙ]ⲟⲩϩ\nⲉⲧ[ϩ]ⲛ̅ ⲧⲏⲛ’ⲉ ⲁⲩⲱ ϥϩⲟⲗϭ ⲛⲏⲧⲛ̅ ⲛ̅ϭⲓ ⲡⲕⲗⲟ ⲙⲛ̅\nⲧⲡⲗⲏⲅⲏ ⲛ̅ⲛⲉⲧⲛ̅ϫⲁϫ’ⲉ ⲁⲩⲱ ⲡⲕⲁⲕⲉ ⲁϥϣⲁⲉ ⲛⲏ‐\nⲧⲛ̅ ⲛ̅ⲑⲉ ⲙ̅ⲡⲟⲩⲟⲉⲓ’ⲛ ⲧⲉⲧⲛⲙ̅ⲛ̅ⲧⲣⲙ̅ϩⲉ ⲅⲁ’ⲣ ⲁⲧⲉⲧⲛ̅\nⲧⲁⲁⲥ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ϩⲙϩ̅ⲁⲗ̅ ⲁⲧⲉⲧⲛ̅ⲉⲓⲣⲉ ⲛ̅ⲛⲉⲧⲛ̅ϩⲏ’ⲧ ⲛ̅‐\nϩⲏ’ⲧ ⲛ̅ⲕⲁⲕ’ⲉ ⲁⲩⲱ ⲛⲉⲧⲛ̅ⲙⲉⲉⲩ’ⲉ ⲁⲧⲉⲧⲛ̅ⲧⲁⲁⲩ\nⲛ̅ⲧⲙⲛ̅ⲧⲥⲉϭ’ⲉ ⲁⲩⲱ ⲁⲧⲉⲧⲛ̅ⲙⲟⲩϩ ⲛ̅ⲛⲉⲧⲛ̅ⲙⲉ‐\nⲉ[ⲩ]ⲉ ϩⲛ̅ ⲡⲕⲁⲡⲛⲟ’ⲥ ⲙ̅ⲡⲕⲱϩ’ⲧ ⲉⲧϩⲛ̅ ⲧⲏⲛⲉ ⲁⲩ‐\nⲱ [ⲁϥϩ]ⲱ’ⲡ ⲛ̅ϭⲓ ⲡⲉⲧⲛ̅ⲟⲩⲟⲉⲓⲛ’ⲉ ϩⲛ̅ ⲧⲕⲗⲟⲟⲗⲉ\n[ⲛ̅.... ⲁ]ⲩⲱ ⲧϩⲃⲥⲱ ⲉ’ⲧⲧⲟ ϩⲓ ⲧⲏⲛⲉ ⲁⲧⲉⲧⲛⲡ[ ]‐\n[.........]ⲣ’ⲟϥ ⲁⲩⲱ ⲁⲩⲣ̅ⲕⲁⲧⲉⲭⲉ ⲙ̅ⲙⲱ[ⲧⲛ̅ ϩⲓ]‐\n[ⲧⲛ̅] ⲑⲉⲗ[ⲡⲓⲥ ⲉⲧ]ϣⲟⲟ’ⲡ ⲁⲛ ⲁⲩⲱ ⲛ[ⲓ]ⲙ ⲡⲉⲛⲧ[ⲁⲧⲉ]‐\n[ⲧⲛ̅]ⲡⲓⲥⲧ[ⲉⲩⲉ] ⲉⲣ’ⲟϥ ⲧⲉⲧⲛ̅ⲥⲟⲟ[ⲩⲛ ⲁⲛϫⲉ ⲧⲉⲧⲛ̅]‐\n[ϣⲟⲟⲡ ⲧⲏⲣⲧⲛ̅ ϩⲛ̅ ⲛⲉⲧ[.................]‐\n[..]ⲟⲩ ⲙ̅ⲙⲱⲧⲛ̅ ϩⲱⲥ ⲉⲧ[ⲉⲧ’ⲛ̅..............]\nⲁⲧⲉⲧⲛ̅ⲱⲱⲙⲥ̅ ⲛ̅ⲛⲉⲧⲛ̅ⲯⲩⲭ’ⲏ ϩⲙ̅ ⲡⲙⲟⲟⲩ ⲙ̅ⲡⲕⲁⲕ[ⲉ]\nⲁⲧⲉⲧⲛ̅ⲡⲱ’ⲧ ϩⲛ̅ ⲛⲉⲧⲛ̅ⲟⲩⲱϣⲉ ⲙ̅ⲙⲓ’ⲛ ⲙ̅ⲙⲱⲧⲛ̅ §ⲟⲩ‐\nⲟⲉⲓ ⲛⲏⲧⲛ̅ ⲛⲉ’ⲧϣⲟⲟ’ⲡ ϩⲙ̅ ⲡⲥⲱⲣⲙ̅ ⲉⲧⲉⲧⲛ̅ϭⲁϣ’ⲧ\nⲁⲛ ⲁⲡⲟⲩⲟⲉⲓⲛ ⲙ̅ⲡⲣ’ⲏ ⲡⲉⲧⲕⲣⲓⲛⲉ ⲙ̅ⲡⲧⲏ’ⲣϥ ⲉ’ⲧ‐\nϭⲁϣ’ⲧ ⲁϫⲛ̅ ⲡⲧⲏ’ⲣϥ ϫⲉ ϥⲛⲁⲕⲱⲧⲉ ⲁϫⲛ̅ ⲛ̅ϩⲃⲏⲩⲉ\nⲧⲏⲣⲟⲩ ⲁⲧⲣⲉ ⲛ̅ϫⲁϫⲉ ⲣ̅ ϩⲙϩ̅ⲁ̅ⲗ̅ ⲁⲩⲱ ⲟⲛ ⲧⲉⲧⲛ̅ⲣ̅ⲛⲟⲉⲓ\nⲁⲛ ⲙ̅ⲡⲟⲟϩ ϫⲉ ⲛ̅ⲁϣ ⲛ̅ϩⲉ ⲛ̅ⲧⲟⲩϣⲏ ⲙⲛ̅ ⲫⲟⲟⲩ ’ⲉϥ‐\nϭⲁϣ’ⲧ ⲉϩⲣⲁⲓ̈ ⲉϥⲛⲁⲩ ⲁⲛⲥⲱⲙⲁ ⲛ̅ⲛⲉⲧ[ⲛ̅]ϩⲉⲧⲃⲉ §ⲟⲩⲟⲓ̈\nⲛⲏⲧⲛ̅ ⲛⲉⲧⲙⲁⲉⲓⲉ ⲛ̅ⲧⲥⲩⲛⲏⲑⲉⲓ’ⲁ ⲛ̅ⲧⲙ̅ⲛ̅ⲧ̅ⲥϩⲓⲙⲉ\nⲙⲛ̅ ⲡⲉⲥϣⲱⲡⲉ ⲛⲙ̅ⲙⲁⲥ ⲉⲧⲥⲟ’ⲟϥ §ⲁⲩⲱ ⲟⲩⲟⲉ’ⲓ\nⲛⲏⲧⲛ̅ ⲛ̅ⲧⲟⲟⲧⲟⲩ ⲛ̅ⲛ̅ⲉⲝⲟⲩⲥⲓⲁ ⲙ̅ⲡⲉⲧⲛ̅ⲥⲱⲙⲁ ϫⲉ\nⲛⲉⲧⲙ̅ⲙⲟ ⲅⲁ’ⲣ ⲥⲉⲛⲁⲑⲙ̅ⲕⲉ ⲧⲏⲛ’ⲉ §ⲟⲩⲟⲓ̈ ⲛⲏⲧⲛ̅ ⲛ̅ⲧⲟ‐\nⲟⲧⲟⲩ ⲛ̅ⲛ̅ⲉⲛⲉⲣⲅⲉⲓⲁ ⲛ̅ⲛ̅ⲇⲁⲓⲙⲱ’ⲛ ⲙ̅ⲡⲟⲛⲏⲣⲟ’ⲛ\n§ⲟⲩⲟⲓ̈ ⲛⲏⲧⲛ̅ ⲛⲉ’ⲧⲥⲱ’ⲕ ⲛ̅ⲛⲉⲩⲙⲉⲗⲟ’ⲥ ϩⲙ̅ ⲡⲕⲱϩ’ⲧ\nⲛⲓ’ⲙ ⲡⲉⲧⲛⲁϩⲱⲟⲩ ⲛⲏⲧⲛ̅ ⲛ̅ⲟⲩⲉⲓⲱⲧ’ⲉ ⲛⲙ̅ⲧⲟⲛ\nϫⲉⲕⲁⲁⲥ ⲉⲥⲛⲁϩⲱⲧⲙ̅ ⲛ̅ϩⲁϩ ⲛ̅ⲕⲱϩ’ⲧ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲏⲛⲉ\nⲙⲛ̅ ⲡⲉⲧⲛ̅ⲣⲱⲕ’ϩ ⲛⲓⲙ ⲡⲉⲧⲛⲁϯ ⲛⲏⲧⲛ̅ ⲙ̅ⲡⲣⲏ ⲁⲡⲣ̅‐\nⲣⲓⲉ ⲁϫⲛ̅ ⲧⲏⲛ’ⲉ ⲁⲃⲱⲗ ⲉⲃⲟⲗ ⲙ̅ⲡⲕⲁⲕ’ⲉ ⲉⲧϩⲛ̅ ⲧⲏⲛⲉ\nⲁⲩⲱ ⲁϩⲱ’ⲡ ⲙ̅ⲡⲕⲁⲕⲉ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲉⲧⲥⲟ’ⲟϥ §ⲡⲣⲏ\nⲙⲛ̅ ⲡⲟϩ ⲛⲁϯ ⲥϯⲛⲟⲩϥⲉ ⲛⲏⲧⲛ̅ ⲙⲛ̅ ⲡⲁⲏⲣ ⲙⲛ̅\nⲡⲡⲛ̅ⲁ̅ ⲙⲛ̅ ⲡⲕⲁϩ ⲙⲛ̅ ⲡⲙⲟⲟⲩ ⲡⲣⲏ ⲅⲁ’ⲣ ⲉϥⲧⲙ̅‐\nⲡⲣ̅ⲣⲓⲉ ⲁϫⲛ̅ ⲛⲓⲥⲱⲙ’ⲁ ⲥⲉⲛⲁⲗⲟϥⲗ’ⲉϥ ⲛ̅ⲥⲉ[ⲧ]ⲁⲕⲟ\n[ⲙ̅]ⲡⲣⲏⲧⲉ ϩⲱ’ⲱϥ ⲛ̅ⲟⲩⲛ̅ⲧⲏϭ ⲏ ⲟⲩⲭⲟⲣⲧⲟ’ⲥ ⲉϣⲱⲡⲉ\n[ⲙ]ⲉⲛ ⲉⲡⲣⲏ ⲡⲣ̅ⲣⲓⲉ ⲁϫ’ⲱϥ ϣⲁϥϭⲛ̅ ϭⲁ’ⲙ ⲛ̅ϥⲱϭ’ⲧ\n[ⲛ̅]ⲧⲃⲱ ⲛ̅ⲉⲗⲟⲟⲗ’ⲉ ⲉϣⲱⲡⲉ ⲇⲉ ⲉⲥϣⲁⲛϭⲛ̅ ϭⲟⲙ\n[ⲛ̅]ϭⲓ ⲧⲃⲱ ⲛ̅ⲉⲗⲟⲟⲗ’ⲉ ⲛ̅ⲥⲣ̅ ϩⲁⲓ̈ⲃⲉⲥ ⲁϫⲛ̅ ⲛⲓⲛ̅ⲧ’ⲏϭ\n[ⲙ]ⲛ̅ ⲛⲓⲕⲉⲫϣⲛⲁ ⲧⲏⲣⲟⲩ ⲉⲧⲣⲏ’ⲧ ⲉϩⲣⲁⲓ̈ ⲛⲙ̅ⲙⲁ’ⲥ ⲛ̅[ⲥ]‐\n[ⲡⲱⲣ]’ϣ ⲉⲃⲟ’ⲗ ⲁⲩⲱ ⲛ̅ⲥⲟⲩⲟⲥⲧⲛ̅ ⲉⲃⲟⲗ ϣⲁⲥⲣ̅ⲕⲗⲏ‐\n[ⲣⲟ]ⲛ[ⲟ]ⲙⲉⲓ ⲙ̅ⲡⲕⲁϩ ⲟⲩⲁⲁⲧⲥ̅ ⲡⲁⲓ̈ ⲉⲧⲥⲣⲏⲧ̓ ϩⲣⲁⲓ̈ ⲛ̅ϩⲏⲧϥⲡ̅\nⲁⲩⲱ ⲁⲥⲣ̅ ⲛⲁ’ⲡ ⲁⲙⲁ ⲛⲓ’ⲙ ⲉⲧⲁⲥⲣ̅ ϩⲁⲓ̈ⲃⲉ’ⲥ ⲁϫ’ⲱϥ\nⲧⲟⲧⲉ ϭⲉ ⲉⲥϣⲁ’ⲛⲁⲩⲝⲁⲛ’ⲉ ϣⲁⲥⲣ̅ ⲛⲉ’ⲡ ⲁⲡⲕⲁϩ ⲧⲏⲣϥ\nⲁⲩⲱ ϣⲁⲥⲣ̅ ϩⲉⲛⲟⲩϥⲉ̅ ⲙ̅ⲡⲉⲥϫⲟⲉⲓⲥ ⲛ̅ⲥⲁⲣ̅ ⲁⲛ’ⲁϥ\nⲛ̅ϩⲟⲩⲟ ϫⲉ ⲛⲉϥⲛⲁϣⲱ’ⲡ ⲅⲁ’ⲣ ⲛ̅ϩⲉⲛⲛⲟϭ ⲛ̅ϩⲓⲥⲉ\nⲡ’ⲉ ⲉⲧⲃⲉ ⲛⲓⲛ̅ⲧⲏϭ ϣⲁⲛⲧϥ̅ⲡⲟⲣⲕⲟⲩ ⲁⲗⲗⲁ ⲧⲃⲱ\nⲛ̅ⲉⲗⲟⲟⲗⲉ ⲟⲩⲁⲁⲧⲥ̅ ⲁⲥϥⲓⲧⲟⲩ ⲙ̅ⲙⲁⲩ ⲁⲩⲱ ⲁⲥⲱϭⲧ ⲙ̅‐\nⲙⲟⲟⲩ ⲁⲩⲙⲟⲩ ⲁⲩϣⲱⲡⲉ ⲛ̅ⲑⲉ ⲙ̅ⲡⲕⲁϩ §ⲧⲟⲧⲉ [’ⲁ]ϥ‐\nⲟⲩⲱϩ ⲉⲧⲟⲟ’ⲧϥ ⲛ̅ϭⲓ ⲓ̅ⲥ̅ ⲡⲁϫⲉϥ ⲛⲁⲩ ϫⲉ ⲟⲩⲟ[ⲉⲓ ⲛ]ⲏ‐\n[ⲧⲛ̅] ϫⲉ ⲙ̅ⲡⲉⲧⲛ̅ϫⲓ ⲛ̅ⲧⲥⲃ’ⲱ ⲁⲩⲱ ⲛⲉⲧⲟ [.....]‐\n[...] ⲥⲉⲛⲁϩⲓⲥⲉ ⲉⲩⲧⲁϣⲉ ⲟⲉⲓϣ’ [..........]‐\n[.. ] ⲁⲩⲱ ⲧⲉ[ⲧ]ⲛ̅ⲡⲏⲧ’ ⲁϩⲟⲩⲛ ⲁ.[..].ϣⲛ[....]\n[..........] ⲛⲁⲧⲛ̅ⲛⲟⲟⲩⲥ[ⲉ ⲁⲡ]ⲓⲧⲛ̅ ⲛ̅ⲛⲁ‐\n[............]ⲧⲛ̅ⲙⲟⲟⲩⲧⲟⲩ ⲙ̅ⲙⲏⲛ[ⲉ]\nϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲱⲟⲩⲛ ϩⲙ̅ ⲡⲙⲟⲩ §ⲛⲁⲉⲓⲁⲧ’ⲧⲏⲛⲉ"
+        },
+        {
+          "title": "Blessed Are You",
+          "subtitle": "Blessed Are You",
+          "heading": "Blessed Are You (145, 1-19)",
+          "rangeLabel": "145, 1-19",
+          "range": {
+            "start": {
+              "page": 145,
+              "line": 1
+            },
+            "end": {
+              "page": 145,
+              "line": 19
+            }
+          },
+          "english": "“Blessed are you who understand beforehand the temptations and flee from\nthings that are alien.\n“Blessed are you who are mocked and are not respected because of the love\nyour master has for you.\n“Blessed are you who weep and are oppressed by those who have no hope,\nfor you will be released from all bondage.\n“Watch and pray that you may not remain in the flesh, but that you may\nleave the bondage of the bitterness of this life. And when you pray, you will find\nrest, for you have left pain and reproach behind. When you leave the pains and\nthe passions of the body, you will receive rest from the Good One. You will\nreign with the King, you united with him and he with you, from now on and\nforever. Amen.”\nThe Book of Thomas\nThe Contender Writing\nto the Perfect",
+          "coptic": "ϫⲉⲕⲁⲁⲥ ⲉⲩⲛⲁⲧⲱⲟⲩⲛ ϩⲙ̅ ⲡⲙⲟⲩ §ⲛⲁⲉⲓⲁⲧ’ⲧⲏⲛⲉ\nⲛⲉⲧⲣ̅ϣⲣⲡ’ⲛⲙ̅ⲙⲉ’ ⲁⲛⲥⲕⲁⲛⲇⲁⲗⲟⲛ’ ⲁⲩⲱ ⲉⲧⲡⲱⲧ’\n† ϩⲏⲧϥ̅ ⲛ̅ⲛ̅ⲁⲗⲗⲟⲧⲣⲓⲟⲛ’ §ⲛⲁⲉⲓⲁⲧ’ⲧⲏⲛⲉ ⲛⲉⲧⲟⲩⲛⲟϭ‐\nⲛⲉϭ ⲙ̅ⲙⲟⲟⲩ ⲁⲩⲱ ⲉⲩⲱⲡ’ ⲙ̅ⲙⲟⲟⲩ ⲁⲛ’ ⲉⲧⲃⲉ ⲡⲙⲁⲉⲓⲉ\nⲉⲧⲉⲩⲛ̅ⲧⲁϥϥ’ ⲉϩⲟⲩⲛ ⲉⲣⲟⲟⲩ ⲛ̅ϭⲓ ⲡⲟⲩϫⲟⲉⲓⲥ §ⲛⲁⲉⲓⲁⲧ’‐\nⲧⲏⲛⲉ ⲛⲉⲧⲣⲓⲙⲉ ⲁⲩⲱ ⲉⲧⲟⲩⲣ̅ⲑⲗⲓⲃⲉ ⲙ̅ⲙⲟⲟⲩ ϩⲓⲧⲛ̅\nⲛⲉⲧⲉ ⲙ[ⲛ̅ⲧⲉ]ⲩ ϩⲉⲗⲡⲓⲥ ϫⲉ ⲥⲉⲛⲁⲃⲱⲗ ⲧⲏⲛⲉ ϩⲓⲧⲛ̅ ⲙⲣ̅‐\nⲣⲉ ⲛⲓⲙ §ⲡⲟⲉⲓⲥ ⲉⲧⲉⲧⲛ̅ⲥⲟⲡⲥ̅ ϫⲉ ⲉⲧⲉⲧⲛⲁϣⲱⲡⲉ ⲁⲛ\nϩⲛ̅ ⲧⲥⲁⲣⲝ’ ⲁⲗⲗⲁ ϫⲉ ⲉⲧⲉⲧⲛⲁⲉⲓ ⲉⲃⲟⲗ ϩⲛ̅ ⲧⲙⲣ̅ⲣⲉ ⲙ̅ⲡⲥⲓ‐\nϣⲉ ⲛ̅ⲧⲉ ⲡⲃⲓⲟⲥ ⲁⲩⲱ ⲉⲧⲉⲧⲛ̅ⲥⲟⲡⲥ̅ ⲧⲉⲧⲛ̅ⲛⲁϭⲓⲛⲉ\nⲛ̅ⲟⲩⲙ̅ⲧⲟⲛ ϫⲉ ⲁⲧⲉⲧⲛ̅ⲕⲱ ⲛ̅ⲥⲱⲧⲛ̅ ⲙ̅ⲡϩⲓⲥⲉ ⲙⲛ̅ ⲡⲛⲟϭ‐\nⲛⲉϭ ⲛ̅ϩⲏⲧ’ ⲉⲧⲉⲧⲛ̅ϣⲁⲛⲉⲓ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲛ̅ ⲛ̅ϩⲓⲥⲉ ⲙⲛ̅\nⲙ̅ⲡⲁⲑⲟⲥ ⲛ̅ⲧⲉ ⲡⲥⲱⲙⲁ’ ⲧⲉⲧⲛⲁϫⲓ [ⲛ̅ⲟ]ⲩⲁⲛⲁⲡⲁⲩⲥⲓⲥ\nⲛ̅ⲧⲟⲟⲧϥ ⲙ̅ⲡⲁⲅⲁⲑⲟⲥ ⲁⲩⲱ ⲧⲉⲧⲛⲁⲣ̅ ⲣⲣⲟ’ ⲙⲛ̅ ⲡⲣ̅ⲣⲟ ⲉ‐\nⲧⲉⲧⲛ̅ⲧⲏⲧ’ ⲛⲙ̅ⲙⲁϥ’ ⲉϥⲧⲏⲧ’ ⲛⲙ̅ⲙⲏⲧⲛ̅ ϫⲓⲛ ⲧⲉⲛⲟⲩ ϣⲁ\nⲉⲛ[ⲉ]ϩ ⲛ̅ⲁⲛⲉϩ ϩⲁⲙⲏⲛ\n6\n]ⲡϫⲱⲙⲉ ⲛ̅ⲑⲱⲙⲁⲥ[\n]ⲡⲁⲑⲗⲏⲧⲏⲥ ⲉϥⲥϩⲁⲓ̈["
+        },
+        {
+          "title": "Scribal Note",
+          "subtitle": "Scribal Note",
+          "heading": "Scribal Note (145, 20-23)",
+          "rangeLabel": "145, 20-23",
+          "range": {
+            "start": {
+              "page": 145,
+              "line": 20
+            },
+            "end": {
+              "page": 145,
+              "line": 23
+            }
+          },
+          "english": "Remember me also, my brothers, in your prayers. Peace be with the holy and\nthe spiritual.",
+          "coptic": "]ⲛ̅ⲛ̅ⲧⲉⲗⲉⲓⲟⲥ[\n6\n]ⲁⲣⲓ ⲡⲁⲙⲉⲉⲩⲉ ϩⲱ ⲛⲁⲥⲛⲏⲩ[\n]ϩ[ⲛ̅] ⲛⲉⲧⲛ̅ⲡⲣⲟⲥⲉⲩⲭⲏ’["
         }
       ]
     }

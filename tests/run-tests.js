@@ -69,16 +69,15 @@ function buildStoredZip(entries) {
 function runParserTests() {
   const chapters = buildReadingData();
   const flatParagraphs = flattenParagraphs(chapters);
+  const prayerWork = codexData.works.find((work) => work.workId === 'prayer-of-apostle-paul');
 
-  assert.equal(codexData.works.length, 5);
+  assert.equal(codexData.works.length, 17);
   assert.equal(chapters.length, 68);
-  assert.equal(flatParagraphs.length, 86);
+  assert.equal(flatParagraphs.length, 321);
   assert.equal(chapters[0].chapterName, 'Prayer of Apostle Paul');
-  assert.equal(
-    chapters.find((chapter) => chapter.chapterName === 'THE GOSPEL OF MARY WITH THE GREEK GOSPEL OF MARY')
-      ?.paragraphs.length,
-    0,
-  );
+  assert.equal(chapters.find((chapter) => chapter.chapterName === 'Gospel of Thomas')?.paragraphs.length, 0);
+  assert.equal(prayerWork?.sections.length, 1);
+  assert.equal(prayerWork?.sections[0].rangeLabel, '1, 3-2, 10');
   assert.ok(flatParagraphs[0].text.english.length >= 0);
   assert.ok(flatParagraphs[0].text.tibetan.length >= 0);
   assert.equal(codexData.works[1].sections[0].subtitle, 'The Letter of James');

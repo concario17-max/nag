@@ -15,7 +15,7 @@ function TranslationSection({ english, korean }) {
         <div className="rounded-[1.8rem] border border-gold-border/18 bg-white/55 px-4 py-4 shadow-[0_20px_50px_rgba(120,93,48,0.05)] backdrop-blur-lg dark:border-dark-border/55 dark:bg-dark-surface/35 sm:px-6 sm:py-5">
           <SectionLabel>English Rendering</SectionLabel>
           <div className="mx-auto mt-2.5 max-w-[54rem]">
-            <p className="whitespace-pre-wrap text-left font-korean text-[14px] leading-[1.55] tracking-[-0.03em] text-text-primary/92 dark:text-dark-text-primary/92 sm:text-[14px] sm:leading-[1.6]">
+            <p className="whitespace-pre-wrap text-center font-korean text-[14px] leading-[1.55] tracking-[-0.03em] text-text-primary/92 dark:text-dark-text-primary/92 sm:text-[14px] sm:leading-[1.6]">
               {english}
             </p>
           </div>
