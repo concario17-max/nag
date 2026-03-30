@@ -20,6 +20,7 @@ const englishDir = path.join(projectRoot, 'CODEX 1 ENG');
 const odtPath = path.join(projectRoot, 'codex 1.odt');
 const prayerOdtPath = path.join(projectRoot, 'codex', 'codex 1-1.odt');
 const prayerEnglishPath = path.join(projectRoot, 'CODEX ENG', 'THE_PRAYER_OF_THE_APOSTLE_PAUL.txt');
+const jamesEnglishPath = path.join(projectRoot, 'CODEX ENG', 'CODEX 1 ENG', '2.The_Secret_Book_of_James_reformatted.txt');
 const indexPath = path.join(projectRoot, '1.index.txt');
 const codexTwoEnglishDir = path.join(projectRoot, 'CODEX ENG', 'CODEX 2 ENG');
 const codexTwoOdtPath = path.join(projectRoot, 'codex', 'codex 2.odt');
@@ -27,7 +28,7 @@ const codexDataOutputPath = path.join(projectRoot, 'src', 'data', 'codexData.js'
 
 const WORK_TO_FILE = new Map([
   ['Prayer of Apostle Paul', 'THE_PRAYER_OF_THE_APOSTLE_PAUL.txt'],
-  ['Apocryphon of James', 'The_Secret_Book_of_James_cleaned.txt'],
+  ['Apocryphon of James', '2.The_Secret_Book_of_James_reformatted.txt'],
   ['Gospel of Truth', 'The_Gospel_of_Truth_cleaned.txt'],
   ['Treatise on the Resurrection', 'The_Treatise_on_Resurrection_cleaned.txt'],
   ['Tripartite Tractate', 'The_Tripartite_Tractate_Part_One_cleaned.txt'],
@@ -151,6 +152,40 @@ async function buildPrayerWork() {
         coptic: sliceLineTokens(copticTokens, prayerSection.range),
       },
     ],
+  };
+}
+
+async function buildJamesWork() {
+  const englishSource = await readFile(jamesEnglishPath, 'utf8');
+  const englishSections = parseEnglishSections(englishSource);
+
+  if (!englishSections.length) {
+    throw new Error('Expected at least one English section for Apocryphon of James.');
+  }
+
+  const copticXml = await extractOdtXml(odtPath);
+  const copticTokens = extractLineTokens(xmlToPlainText(copticXml));
+
+  return {
+    workId: 'apocryphon-of-james',
+    chapterName: 'Apocryphon of James',
+    title: 'Codex I - Apocryphon of James',
+    sourceTitle: 'THE SECRET BOOK OF JAMES',
+    sections: englishSections.map((section) => {
+      if (!section.range) {
+        throw new Error(`Missing range for Apocryphon of James section ${section.title}.`);
+      }
+
+      return {
+        title: section.title,
+        subtitle: section.subtitle,
+        heading: section.heading,
+        rangeLabel: section.rangeLabel,
+        range: section.range,
+        english: section.body,
+        coptic: sliceLineTokens(copticTokens, section.range),
+      };
+    }),
   };
 }
 
@@ -321,17 +356,11 @@ export function xmlToPlainText(xml) {
 }
 
 async function main() {
-  const prayerWork = await buildPrayerWork();
-  const codexTwoWorks = await buildCodexTwoWorks();
+  const jamesWork = await buildJamesWork();
   const codexIGroup = existingCodexIndex.find((group) => group.id === 'codex-i');
-  const codexIIGroup = existingCodexIndex.find((group) => group.id === 'codex-ii');
 
   if (!codexIGroup) {
     throw new Error('Could not find Codex I in codexIndex.');
-  }
-
-  if (!codexIIGroup) {
-    throw new Error('Could not find Codex II in codexIndex.');
   }
 
   const codexIToc = codexIGroup.works.map((entry) => ({
@@ -340,38 +369,24 @@ async function main() {
   }));
   const codexIWorks = existingCodexData.works.filter((work) => work.title.startsWith('Codex I - '));
   const codexIWorkIds = new Set(codexIWorks.map((work) => work.workId));
-  const codexTwoToc = codexIIGroup.works
-    .filter((entry) => entry.sourceTitle !== CODEX_II_EXCLUDED_SOURCE_TITLE)
-    .map((entry) => ({
-      workLabel: entry.chapterName,
-      sourceTitle: entry.sourceTitle,
-    }));
-  const codexTwoWorkIds = new Set(codexTwoWorks.map((work) => work.workId));
   const missingCodexIWorks = codexIGroup.works.filter((entry) => !codexIWorkIds.has(entry.workId));
-  const missingCodexIIWorks = codexIIGroup.works
-    .filter((entry) => entry.sourceTitle !== CODEX_II_EXCLUDED_SOURCE_TITLE)
-    .filter((entry) => !codexTwoWorkIds.has(entry.workId));
 
   if (missingCodexIWorks.length) {
     throw new Error(`Missing Codex I work data for: ${missingCodexIWorks.map((entry) => entry.chapterName).join(', ')}`);
   }
 
-  if (missingCodexIIWorks.length) {
-    throw new Error(`Missing Codex II work data for: ${missingCodexIIWorks.map((entry) => entry.chapterName).join(', ')}`);
-  }
-
-  const nextCodexIWorks = existingCodexData.works.map((work) => {
-    if (work.workId !== prayerWork.workId) {
+  const nextCodexIWorksWithJames = existingCodexData.works.map((work) => {
+    if (work.workId !== jamesWork.workId) {
       return work;
     }
 
-    return prayerWork;
+    return jamesWork;
   });
 
   const nextCodexData = {
     ...existingCodexData,
-    toc: [...codexIToc, ...codexTwoToc],
-    works: [...nextCodexIWorks, ...codexTwoWorks],
+    toc: [...codexIToc],
+    works: nextCodexIWorksWithJames,
   };
   await writeFile(codexDataOutputPath, serializeCodexData(nextCodexData), 'utf8');
   console.log(`Wrote ${codexDataOutputPath}`);

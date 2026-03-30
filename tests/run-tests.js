@@ -80,7 +80,7 @@ function runParserTests() {
   assert.equal(prayerWork?.sections[0].rangeLabel, '1, 3-2, 10');
   assert.ok(flatParagraphs[0].text.english.length >= 0);
   assert.ok(flatParagraphs[0].text.tibetan.length >= 0);
-  assert.equal(codexData.works[1].sections[0].subtitle, 'The Letter of James');
+  assert.equal(codexData.works[1].sections[0].subtitle, '[문단 1] The Letter of James');
   assert.equal(parseRangeLabel('2, 7-1, 3'), null);
   assert.equal(parseEnglishSections('Title (1, 1-1, 8)\nBody line')[0].subtitle, 'Title');
 }
