@@ -29,7 +29,7 @@ const codexDataOutputPath = path.join(projectRoot, 'src', 'data', 'codexData.js'
 const WORK_TO_FILE = new Map([
   ['Prayer of Apostle Paul', 'THE_PRAYER_OF_THE_APOSTLE_PAUL.txt'],
   ['Apocryphon of James', '2.The_Secret_Book_of_James_reformatted.txt'],
-  ['Gospel of Truth', 'The_Gospel_of_Truth_cleaned.txt'],
+  ['Gospel of Truth', '3.The_Gospel_of_Truth_reformatted.txt'],
   ['Treatise on the Resurrection', 'The_Treatise_on_Resurrection_cleaned.txt'],
   ['Tripartite Tractate', 'The_Tripartite_Tractate_Part_One_cleaned.txt'],
 ]);
@@ -155,25 +155,25 @@ async function buildPrayerWork() {
   };
 }
 
-async function buildJamesWork() {
-  const englishSource = await readFile(jamesEnglishPath, 'utf8');
+export async function buildGospelOfTruthWork() {
+  const englishSource = await readFile(path.join(projectRoot, 'CODEX ENG', 'CODEX 1 ENG', '3.The_Gospel_of_Truth_reformatted.txt'), 'utf8');
   const englishSections = parseEnglishSections(englishSource);
 
   if (!englishSections.length) {
-    throw new Error('Expected at least one English section for Apocryphon of James.');
+    throw new Error('Expected at least one English section for Gospel of Truth.');
   }
 
   const copticXml = await extractOdtXml(odtPath);
   const copticTokens = extractLineTokens(xmlToPlainText(copticXml));
 
   return {
-    workId: 'apocryphon-of-james',
-    chapterName: 'Apocryphon of James',
-    title: 'Codex I - Apocryphon of James',
-    sourceTitle: 'THE SECRET BOOK OF JAMES',
+    workId: 'gospel-of-truth',
+    chapterName: 'Gospel of Truth',
+    title: 'Codex I - Gospel of Truth',
+    sourceTitle: 'THE GOSPEL OF TRUTH',
     sections: englishSections.map((section) => {
       if (!section.range) {
-        throw new Error(`Missing range for Apocryphon of James section ${section.title}.`);
+        throw new Error(`Missing range for Gospel of Truth section ${section.title}.`);
       }
 
       return {
@@ -356,7 +356,7 @@ export function xmlToPlainText(xml) {
 }
 
 async function main() {
-  const jamesWork = await buildJamesWork();
+  const gospelOfTruthWork = await buildGospelOfTruthWork();
   const codexIGroup = existingCodexIndex.find((group) => group.id === 'codex-i');
 
   if (!codexIGroup) {
@@ -375,18 +375,18 @@ async function main() {
     throw new Error(`Missing Codex I work data for: ${missingCodexIWorks.map((entry) => entry.chapterName).join(', ')}`);
   }
 
-  const nextCodexIWorksWithJames = existingCodexData.works.map((work) => {
-    if (work.workId !== jamesWork.workId) {
+  const nextCodexIWorksWithGospelOfTruth = existingCodexData.works.map((work) => {
+    if (work.workId !== gospelOfTruthWork.workId) {
       return work;
     }
 
-    return jamesWork;
+    return gospelOfTruthWork;
   });
 
   const nextCodexData = {
     ...existingCodexData,
     toc: [...codexIToc],
-    works: nextCodexIWorksWithJames,
+    works: nextCodexIWorksWithGospelOfTruth,
   };
   await writeFile(codexDataOutputPath, serializeCodexData(nextCodexData), 'utf8');
   console.log(`Wrote ${codexDataOutputPath}`);

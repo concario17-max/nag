@@ -1,5 +1,5 @@
 # Current Task
-Completed: Rebuild the Codex I Apocryphon of James slice using `codex 1.odt` and `CODEX ENG/CODEX 1 ENG/2.The_Secret_Book_of_James_reformatted.txt` with the prayer-style pairing and centered English rendering.
+Completed: Regenerated only the Codex I Gospel of Truth work from `codex 1.odt` and `CODEX ENG/CODEX 1 ENG/3.The_Gospel_of_Truth_reformatted.txt`, with `main()` using that slice end-to-end and verification exercising the extractor helper directly.
 
 # Route
 Route B
@@ -8,7 +8,7 @@ Route B
 main
 
 # Contract Freeze
-Use `codex 1.odt` for the Coptic slice and `CODEX ENG/CODEX 1 ENG/2.The_Secret_Book_of_James_reformatted.txt` for the English source, regenerate only the Apocryphon of James work to match the same prayer-style pairing and centered rendering, and verify with build/typecheck/tests.
+Use `codex 1.odt` for the Coptic slice and `CODEX ENG/CODEX 1 ENG/3.The_Gospel_of_Truth_reformatted.txt` for the English source, regenerate only the Gospel of Truth work to match the same prayer/James-style pairing and centered rendering, and verify with build/typecheck/tests.
 
 # Seed Path
 SEED.yaml
@@ -16,12 +16,9 @@ SEED.yaml
 # Write Sets
 - `worker-data`
   - `scripts/extract-codex-data.js`
-  - `src/data/codexData.js`
   - `tests/run-tests.js`
-- `worker-ui`
-  - `src/components/Reading/TranslationSection.jsx`
 # Reviewer
-reviewer-ui
+reviewer-data
 
 # Active Phase
 completed
@@ -30,7 +27,7 @@ completed
 main
 
 # Reason
-The user asked to swap only the James English source to the reformatted file and regenerate the James work with the same prayer-style pairing, and that regeneration has now been completed and verified.
+The user explicitly narrowed the task to Gospel of Truth only and asked to fix the extractor end-to-end so `main()` regenerates that slice and the verification touches the reformatted source path directly.
 
 # Last Update
 2026-03-30
